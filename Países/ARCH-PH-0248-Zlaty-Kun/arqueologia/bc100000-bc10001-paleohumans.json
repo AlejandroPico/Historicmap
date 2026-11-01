@@ -1,0 +1,734 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0248",
+  "identity": {
+    "qid": "",
+    "name": "Zlatý Kůň",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -53051,
+  "coverageEnd": -32551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-395",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Cone of debris from a karst chimney",
+      "coordinates": [
+        14.067634,
+        49.91597
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "248",
+          "site_name": "Zlatý Kůň",
+          "country": "Czech Republic",
+          "region": "Central Bohemia",
+          "municipality": "Koněprusy",
+          "latitude": "49.91597",
+          "longitude": "14.067634",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "395",
+          "site_id": "248",
+          "stratigraphic_context": "Cone of debris from a karst chimney",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "127",
+            "authors": "Kuželka, V.",
+            "year": "1997",
+            "title": "The postcranial skeletal remains of Pleistocene man from Zlatý kůň near Koněprusy (Bohemia)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Anthropologie",
+            "volume": "35",
+            "issue": "3",
+            "pages": "247-249",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "186",
+            "authors": "Rmoutilová, R., Guyomarc’h, P., Velemínský, P., Šefčáková, A., Samsel, M., Santos, F., Maureille, B., Brůžek, J.",
+            "year": "2018",
+            "title": "Virtual reconstruction of the Upper Palaeolithic skull from Zlatý Kůň, Czech Republic: Sex assessment and morphological affinity",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "PLOS One",
+            "volume": "13",
+            "issue": "8",
+            "pages": "1-29",
+            "doi": "https://doi.org/10.1371/journal.pone.0201431",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "804",
+            "archaeological_context_id": "395",
+            "individual_name": "Zlatý Kůň 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "805",
+            "archaeological_context_id": "395",
+            "individual_name": "Zlatý Kůň 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "720",
+              "dated_sample_id": "720",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "720",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3047",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "721",
+              "dated_sample_id": "721",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "721",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3048",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "722",
+              "dated_sample_id": "722",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "722",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3049",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "723",
+              "dated_sample_id": "723",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "723",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3050",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "724",
+              "dated_sample_id": "724",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "724",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3051",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "725",
+              "dated_sample_id": "725",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "725",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3052",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "726",
+              "dated_sample_id": "726",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "726",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3053",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "727",
+              "dated_sample_id": "727",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "727",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3054",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "728",
+              "dated_sample_id": "728",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "728",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3055",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "729",
+              "dated_sample_id": "729",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "729",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3056",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "730",
+              "dated_sample_id": "730",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "730",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3057",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "731",
+              "dated_sample_id": "731",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "731",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3058",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "732",
+              "dated_sample_id": "732",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "732",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3059",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "733",
+              "dated_sample_id": "733",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "733",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3060",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "734",
+              "dated_sample_id": "734",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "734",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3061",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "735",
+              "dated_sample_id": "735",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "735",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3062",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "736",
+              "dated_sample_id": "736",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "736",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3063",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "737",
+              "dated_sample_id": "737",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "737",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3064",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "738",
+              "dated_sample_id": "738",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "738",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3065",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "739",
+              "dated_sample_id": "739",
+              "dating_technique_id": "9",
+              "dates_bp_uncal": "43000",
+              "dates_range": "",
+              "notes": "ca. 43000",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "739",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3066",
+              "skeleton_id": "",
+              "material": "DNA",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "9",
+              "dating_technique_name": "Bayesian tip dating",
+              "description": "A statistical approach used mainly in evolutionary studies that estimates the age of samples and branching events by combining dated specimens with morphological or genetic data in a Bayesian framework.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "395",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "248",
+      "site_name": "Zlatý Kůň",
+      "country": "Czech Republic",
+      "region": "Central Bohemia",
+      "municipality": "Koněprusy",
+      "latitude": "49.91597",
+      "longitude": "14.067634",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-53051-01-01",
+      "end": "-32551-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-A52911574FD529",
+  "identity": {
+    "qid": "",
+    "name": "Shuidonggou Locality 1",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -39862,
+  "coverageEnd": -38808,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3060",
+      "start": -39862,
+      "end": -38808,
+      "ageMinBP": 40757.0,
+      "ageMaxBP": 41811.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Paleolithic",
+      "layer": "stratum 8b",
+      "coordinates": [
+        106.483,
+        38.35
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Morgan, C., Barton, L., Yi, M., Bettinger, R. L., Gao, X., & Peng, F. (2014). Redating Shuidonggou locality 1 and implications for the initial upper Paleolithic in east asia. Radiocarbon, 56(1), 165-179.",
+      "originalRow": 3060,
+      "originalProperties": {
+        "A": "Morgan, C., Barton, L., Yi, M., Bettinger, R. L., Gao, X., & Peng, F. (2014). Redating Shuidonggou locality 1 and implications for the initial upper Paleolithic in east asia. Radiocarbon, 56(1), 165-179.",
+        "B": "Homo sapiens",
+        "C": "106.483",
+        "D": "38.35",
+        "E": "Shuidonggou Locality 1",
+        "F": "stratum 8b",
+        "G": "41811",
+        "H": "41284",
+        "I": "40757",
+        "J": "Early Upper Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-39862-01-01",
+      "end": "-38808-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

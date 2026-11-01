@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-CEA076BB27F031",
+  "identity": {
+    "qid": "",
+    "name": "Kudaro 3",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -52820,
+  "coverageEnd": -43031,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1298",
+      "start": -52794,
+      "end": -43031,
+      "ageMinBP": 44980.0,
+      "ageMaxBP": 54743.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "layer 3",
+      "coordinates": [
+        43.4825,
+        42.23675
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Baryshnikov, G. F. (2011). Pleistocene Felidae (Mammalia, Carnivora) from the Kudaro paleolithic cave sites in the Caucasus. In Proc. Zool. Inst. RAS (Vol. 315, No. 3, p. 1).",
+      "originalRow": 1298,
+      "originalProperties": {
+        "A": "Baryshnikov, G. F. (2011). Pleistocene Felidae (Mammalia, Carnivora) from the Kudaro paleolithic cave sites in the Caucasus. In Proc. Zool. Inst. RAS (Vol. 315, No. 3, p. 1).",
+        "B": "Homo neanderthalensis",
+        "C": "43.482500000000002",
+        "D": "42.236750000000001",
+        "E": "Kudaro 3",
+        "F": "layer 3",
+        "G": "54743",
+        "H": "49862",
+        "I": "44980",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-1299",
+      "start": -52820,
+      "end": -44032,
+      "ageMinBP": 45981.0,
+      "ageMaxBP": 54769.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "layer 3",
+      "coordinates": [
+        43.4825,
+        42.23675
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Baryshnikov, G. F. (2011). Pleistocene Felidae (Mammalia, Carnivora) from the Kudaro paleolithic cave sites in the Caucasus. In Proc. Zool. Inst. RAS (Vol. 315, No. 3, p. 1).",
+      "originalRow": 1299,
+      "originalProperties": {
+        "A": "Baryshnikov, G. F. (2011). Pleistocene Felidae (Mammalia, Carnivora) from the Kudaro paleolithic cave sites in the Caucasus. In Proc. Zool. Inst. RAS (Vol. 315, No. 3, p. 1).",
+        "B": "Homo neanderthalensis",
+        "C": "43.482500000000002",
+        "D": "42.236750000000001",
+        "E": "Kudaro 3",
+        "F": "layer 3",
+        "G": "54769",
+        "H": "50375",
+        "I": "45981",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-52820-01-01",
+      "end": "-43031-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

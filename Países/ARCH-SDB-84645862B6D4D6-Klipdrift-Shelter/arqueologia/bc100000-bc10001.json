@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-84645862B6D4D6",
+  "identity": {
+    "qid": "",
+    "name": "Klipdrift Shelter",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -68351,
+  "coverageEnd": -52851,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2755",
+      "start": -62051,
+      "end": -52851,
+      "ageMinBP": 54800.0,
+      "ageMaxBP": 64000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Homo remains and MSA",
+      "layer": "PBA/PBB",
+      "coordinates": [
+        20.72,
+        -34.108
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Henshilwood, C. S., van Niekerk, K. L., Wurz, S., Delagnes, A., Armitage, S. J., Rifkin, R. F., ... & Discamps, E. (2014). Klipdrift shelter, southern Cape, South Africa: preliminary report on the Howiesons Poort layers. Journal of Archaeological Science, 45, 284-303.",
+      "originalRow": 2755,
+      "originalProperties": {
+        "A": "Henshilwood, C. S., van Niekerk, K. L., Wurz, S., Delagnes, A., Armitage, S. J., Rifkin, R. F., ... & Discamps, E. (2014). Klipdrift shelter, southern Cape, South Africa: preliminary report on the Howiesons Poort layers. Journal of Archaeological Science, 45, 284-303.",
+        "B": "Homo sapiens",
+        "C": "20.72",
+        "D": "-34.107999999999997",
+        "E": "Klipdrift Shelter",
+        "F": "PBA/PBB",
+        "G": "64000",
+        "H": "59400",
+        "I": "54800",
+        "J": "Homo remains and MSA"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2756",
+      "start": -68351,
+      "end": -58751,
+      "ageMinBP": 60700.0,
+      "ageMaxBP": 70300.0,
+      "taxon": "Homo sapiens",
+      "culture": "Homo remains and MSA",
+      "layer": "PBC",
+      "coordinates": [
+        20.72,
+        -34.108
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Henshilwood, C. S., van Niekerk, K. L., Wurz, S., Delagnes, A., Armitage, S. J., Rifkin, R. F., ... & Discamps, E. (2014). Klipdrift shelter, southern Cape, South Africa: preliminary report on the Howiesons Poort layers. Journal of Archaeological Science, 45, 284-303.",
+      "originalRow": 2756,
+      "originalProperties": {
+        "A": "Henshilwood, C. S., van Niekerk, K. L., Wurz, S., Delagnes, A., Armitage, S. J., Rifkin, R. F., ... & Discamps, E. (2014). Klipdrift shelter, southern Cape, South Africa: preliminary report on the Howiesons Poort layers. Journal of Archaeological Science, 45, 284-303.",
+        "B": "Homo sapiens",
+        "C": "20.72",
+        "D": "-34.107999999999997",
+        "E": "Klipdrift Shelter",
+        "F": "PBC",
+        "G": "70300",
+        "H": "65500",
+        "I": "60700",
+        "J": "Homo remains and MSA"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-68351-01-01",
+      "end": "-52851-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

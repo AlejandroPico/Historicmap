@@ -1,0 +1,68 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-DD167B1D59E97D",
+  "identity": {
+    "qid": "",
+    "name": "Ganqian Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -83051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2534",
+      "start": -100000,
+      "end": -83051,
+      "ageMinBP": 85000.0,
+      "ageMaxBP": 139600.0,
+      "taxon": "Homo sapiens",
+      "culture": "human remains",
+      "layer": "",
+      "coordinates": [
+        109.087,
+        24.222
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Shen, G., Wang, W., Wang, Q., & Pan, Y. (2001). U-series dating of hominid site Ganqian Cave at Tubo, Liujiang, Guangxi in South China. Acta Anthropologica Sinica, 20(3), 238-244.",
+      "originalRow": 2534,
+      "originalProperties": {
+        "A": "Shen, G., Wang, W., Wang, Q., & Pan, Y. (2001). U-series dating of hominid site Ganqian Cave at Tubo, Liujiang, Guangxi in South China. Acta Anthropologica Sinica, 20(3), 238-244.",
+        "B": "Homo sapiens",
+        "C": "109.087",
+        "D": "24.222000000000001",
+        "E": "Ganqian Cave",
+        "G": "139600",
+        "H": "112300",
+        "I": "85000",
+        "J": "human remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-100000-01-01",
+      "end": "-83051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

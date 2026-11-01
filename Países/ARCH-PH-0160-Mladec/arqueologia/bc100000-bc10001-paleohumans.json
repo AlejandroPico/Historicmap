@@ -1,0 +1,4480 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0160",
+  "identity": {
+    "qid": "",
+    "name": "Mladeč",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -39051,
+  "coverageEnd": -32551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-244",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber D (Area A)",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "244",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber D (Area A)",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "512",
+            "archaeological_context_id": "244",
+            "individual_name": "Mladeč 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "17",
+            "age_at_death_min": "17",
+            "age_at_death_max": "17",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "485",
+              "dated_sample_id": "485",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31190",
+              "dates_range": "400",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "485",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1774",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "244",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-245",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber D (Area B)",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "245",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber D (Area B)",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "501",
+            "archaeological_context_id": "245",
+            "individual_name": "Mladeč 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "2 - 3",
+            "age_at_death_min": "2",
+            "age_at_death_max": "3",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "515",
+            "archaeological_context_id": "245",
+            "individual_name": "Mladeč 2, 7",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "18",
+            "age_at_death_min": "18",
+            "age_at_death_max": "18",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "577",
+              "dated_sample_id": "577",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26330",
+              "dates_range": "170",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "577",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1866",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 2)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "245",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-246",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber E (Locus E) / Chamber D (Middle) / Chamber D (Locus B or D) / Chamber D (Locus A) / Quarry Cave",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "246",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber E (Locus E) / Chamber D (Middle) / Chamber D (Locus B or D) / Chamber D (Locus A) / Quarry Cave",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "514",
+            "archaeological_context_id": "246",
+            "individual_name": "Mladeč 4, 9, 10, 11, 12, 14-21, 23-24, 27, 28, 30, 38, 39, 41, 42, 43, 48-52, 54, 55, 61, 65-67, 70-73, 78, 84, 86-90, 93-101",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "491",
+              "dated_sample_id": "491",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "491",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1780",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "492",
+              "dated_sample_id": "492",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "492",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1781",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "493",
+              "dated_sample_id": "493",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "493",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1782",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "494",
+              "dated_sample_id": "494",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "494",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1783",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "495",
+              "dated_sample_id": "495",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "495",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1784",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "496",
+              "dated_sample_id": "496",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "496",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1785",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "497",
+              "dated_sample_id": "497",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "497",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1786",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "498",
+              "dated_sample_id": "498",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "498",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1787",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "499",
+              "dated_sample_id": "499",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "499",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1788",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "500",
+              "dated_sample_id": "500",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "500",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1789",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "501",
+              "dated_sample_id": "501",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "501",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1790",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "502",
+              "dated_sample_id": "502",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "502",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1791",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "503",
+              "dated_sample_id": "503",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "503",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1792",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "504",
+              "dated_sample_id": "504",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "504",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1793",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "505",
+              "dated_sample_id": "505",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "505",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1794",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "506",
+              "dated_sample_id": "506",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "506",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1795",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "507",
+              "dated_sample_id": "507",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "507",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1796",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "508",
+              "dated_sample_id": "508",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "508",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1797",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "509",
+              "dated_sample_id": "509",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "509",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1798",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "510",
+              "dated_sample_id": "510",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "510",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1799",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "511",
+              "dated_sample_id": "511",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "511",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1800",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "512",
+              "dated_sample_id": "512",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "512",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1801",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "513",
+              "dated_sample_id": "513",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "513",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1802",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "514",
+              "dated_sample_id": "514",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "514",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1803",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "515",
+              "dated_sample_id": "515",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "515",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1804",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "516",
+              "dated_sample_id": "516",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "516",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1805",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "517",
+              "dated_sample_id": "517",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "517",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1806",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "518",
+              "dated_sample_id": "518",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "518",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1807",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "519",
+              "dated_sample_id": "519",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "519",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1808",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "520",
+              "dated_sample_id": "520",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "520",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1809",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "521",
+              "dated_sample_id": "521",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "521",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1810",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "522",
+              "dated_sample_id": "522",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "522",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1811",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "523",
+              "dated_sample_id": "523",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "523",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1812",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "524",
+              "dated_sample_id": "524",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "524",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1813",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "525",
+              "dated_sample_id": "525",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "525",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1814",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "526",
+              "dated_sample_id": "526",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "526",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1815",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "527",
+              "dated_sample_id": "527",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "527",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1816",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "528",
+              "dated_sample_id": "528",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "528",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1817",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "529",
+              "dated_sample_id": "529",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "529",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1818",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "530",
+              "dated_sample_id": "530",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "530",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1819",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "531",
+              "dated_sample_id": "531",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "531",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1820",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "532",
+              "dated_sample_id": "532",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "532",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1821",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "533",
+              "dated_sample_id": "533",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "533",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1822",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "534",
+              "dated_sample_id": "534",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "534",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1823",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "535",
+              "dated_sample_id": "535",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "535",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1824",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "536",
+              "dated_sample_id": "536",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "536",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1825",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "537",
+              "dated_sample_id": "537",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "537",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1826",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "538",
+              "dated_sample_id": "538",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "538",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1827",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "539",
+              "dated_sample_id": "539",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "539",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1828",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "540",
+              "dated_sample_id": "540",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "540",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1829",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "541",
+              "dated_sample_id": "541",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "541",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1830",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "542",
+              "dated_sample_id": "542",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "542",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1831",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "543",
+              "dated_sample_id": "543",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "543",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1832",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "544",
+              "dated_sample_id": "544",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "544",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1833",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "545",
+              "dated_sample_id": "545",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "545",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1834",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "546",
+              "dated_sample_id": "546",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "546",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1835",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "547",
+              "dated_sample_id": "547",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "547",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1836",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "548",
+              "dated_sample_id": "548",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "548",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1837",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "549",
+              "dated_sample_id": "549",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "549",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1838",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "550",
+              "dated_sample_id": "550",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "550",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1839",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "551",
+              "dated_sample_id": "551",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "551",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1840",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "552",
+              "dated_sample_id": "552",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "552",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1841",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "553",
+              "dated_sample_id": "553",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "553",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1842",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "554",
+              "dated_sample_id": "554",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "554",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1843",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "555",
+              "dated_sample_id": "555",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "555",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1844",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "556",
+              "dated_sample_id": "556",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "556",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1845",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "557",
+              "dated_sample_id": "557",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "557",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1846",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "558",
+              "dated_sample_id": "558",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "558",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1847",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "559",
+              "dated_sample_id": "559",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "559",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1848",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "560",
+              "dated_sample_id": "560",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "560",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1849",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "561",
+              "dated_sample_id": "561",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "561",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1850",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "562",
+              "dated_sample_id": "562",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "562",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1851",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "563",
+              "dated_sample_id": "563",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "563",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1852",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "564",
+              "dated_sample_id": "564",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "564",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1853",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "565",
+              "dated_sample_id": "565",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "565",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1854",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "566",
+              "dated_sample_id": "566",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "566",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1855",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "567",
+              "dated_sample_id": "567",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "567",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1856",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "568",
+              "dated_sample_id": "568",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "568",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1857",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "569",
+              "dated_sample_id": "569",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "569",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1858",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "570",
+              "dated_sample_id": "570",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "570",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1859",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "571",
+              "dated_sample_id": "571",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "571",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1860",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "572",
+              "dated_sample_id": "572",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "572",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1861",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "573",
+              "dated_sample_id": "573",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "573",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1862",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "574",
+              "dated_sample_id": "574",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "574",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1863",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "575",
+              "dated_sample_id": "575",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "575",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1864",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "576",
+              "dated_sample_id": "576",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "27370",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "576",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1865",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 9)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "246",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-247",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Quarry Cave / Chamber D (Locus D)",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "247",
+          "site_id": "160",
+          "stratigraphic_context": "Quarry Cave / Chamber D (Locus D)",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "513",
+            "archaeological_context_id": "247",
+            "individual_name": "Mladeč 5, 6, 8",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "486",
+              "dated_sample_id": "486",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "30680",
+              "dates_range": "380",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "486",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1775",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 8)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "487",
+              "dated_sample_id": "487",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "30680",
+              "dates_range": "380",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "487",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1776",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 8)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "488",
+              "dated_sample_id": "488",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "30680",
+              "dates_range": "380",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "488",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1777",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 8)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "489",
+              "dated_sample_id": "489",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "30680",
+              "dates_range": "380",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "489",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1778",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 8)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "490",
+              "dated_sample_id": "490",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "30680",
+              "dates_range": "380",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "490",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1779",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 8)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "247",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-248",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber D (Locus B or D)",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "248",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber D (Locus B or D)",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "502",
+            "archaeological_context_id": "248",
+            "individual_name": "Mladeč 13",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature / Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT_ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "248",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-249",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber D (Locus D)",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "249",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber D (Locus D)",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "516",
+            "archaeological_context_id": "249",
+            "individual_name": "Mladeč 22, 25a-25c",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "14 - 15",
+            "age_at_death_min": "14",
+            "age_at_death_max": "15",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "578",
+              "dated_sample_id": "578",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26330",
+              "dates_range": "170",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "578",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1867",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 25c)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "579",
+              "dated_sample_id": "579",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26330",
+              "dates_range": "170",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "579",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1868",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 25c)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "580",
+              "dated_sample_id": "580",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26330",
+              "dates_range": "170",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "580",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1869",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 25c)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "581",
+              "dated_sample_id": "581",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26330",
+              "dates_range": "170",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "581",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1870",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 25c)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "582",
+              "dated_sample_id": "582",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26330",
+              "dates_range": "170",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "582",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1871",
+              "skeleton_id": "",
+              "material": "Human bone (Mladeč 25c)",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "249",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-250",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber D (Locus B?) / Chamber E",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "250",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber D (Locus B?) / Chamber E",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "511",
+            "archaeological_context_id": "250",
+            "individual_name": "Mladeč 26, 91",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT_ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "250",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-251",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber D (Locus B?)",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "251",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber D (Locus B?)",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "506",
+            "archaeological_context_id": "251",
+            "individual_name": "Mladeč 29",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "<18",
+            "age_at_death_min": "",
+            "age_at_death_max": "18",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "507",
+            "archaeological_context_id": "251",
+            "individual_name": "Mladeč 31, 32, 35, 36",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "14 - 21",
+            "age_at_death_min": "14",
+            "age_at_death_max": "21",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT_ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "251",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-252",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber E (Locus E)",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "252",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber E (Locus E)",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "508",
+            "archaeological_context_id": "252",
+            "individual_name": "Mladeč 37",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "509",
+            "archaeological_context_id": "252",
+            "individual_name": "Mladeč 44, 45",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Subadult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT_ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "252",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-253",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber E",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "253",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber E",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "505",
+            "archaeological_context_id": "253",
+            "individual_name": "Mladeč 40",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult / Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT_ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "253",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-254",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber D (Locus D) / Chamber E (Locus E) /",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "254",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber D (Locus D) / Chamber E (Locus E) /",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "510",
+            "archaeological_context_id": "254",
+            "individual_name": "Mladeč 34, 53, 56-60, 62-64, 68, 69, 74-77, 79-83, 85, 92",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "254",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-255",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Quarry Cave",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "255",
+          "site_id": "160",
+          "stratigraphic_context": "Quarry Cave",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "503",
+            "archaeological_context_id": "255",
+            "individual_name": "Mladeč 46",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Infant",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "255",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-415",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Chamber E (Locus E) / Chamber D",
+      "coordinates": [
+        17.0195246,
+        49.7058259
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "160",
+          "site_name": "Mladeč",
+          "country": "Czech Republic",
+          "region": "Moravia",
+          "municipality": "Mladeč",
+          "latitude": "49.7058259",
+          "longitude": "17.0195246",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "415",
+          "site_id": "160",
+          "stratigraphic_context": "Chamber E (Locus E) / Chamber D",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "76",
+            "authors": "Frayer, D.W., Jelínek, J., Oliva, M., Wolpoff, M.H.",
+            "year": "2006",
+            "title": "Aurignacian male crania, jaws and teeth from the Mladeč Caves, Moravia, Czech Republic",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "185-272",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_9",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "270",
+            "authors": "Wolpoff, M.H., Frayer, D.W., Trinkaus, E., Teschler-Nicola, M.",
+            "year": "2006",
+            "title": "Inventory and photo-documentation of the Mladeč hominid remains",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_8",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "279",
+            "authors": "Trinkaus, E., Smith, F.H., Stockton, T.C., Shackelford, L.L.",
+            "year": "2006",
+            "title": "The human postcranial remains from Mladeč",
+            "editor": "Teschler-Nicola, M.",
+            "book": "Early Modern Humans at the Moravian Gate",
+            "corporate_author": "Springer",
+            "city": "Vienna",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/978-3-211-49294-9_13",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "504",
+            "archaeological_context_id": "415",
+            "individual_name": "Mladeč 47, 102",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Subadult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "415",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "160",
+      "site_name": "Mladeč",
+      "country": "Czech Republic",
+      "region": "Moravia",
+      "municipality": "Mladeč",
+      "latitude": "49.7058259",
+      "longitude": "17.0195246",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-39051-01-01",
+      "end": "-32551-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

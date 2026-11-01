@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-2EBC2A02E3B96F",
+  "identity": {
+    "qid": "",
+    "name": "Lusakert I",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -37451,
+  "coverageEnd": -30551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1426",
+      "start": -36151,
+      "end": -30551,
+      "ageMinBP": 32500.0,
+      "ageMaxBP": 38100.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "unit C",
+      "coordinates": [
+        44.52117,
+        40.30979
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Frahm, E., Feinberg, J. M., Schmidt-Magee, B. A., Wilkinson, K. N., Gasparyan, B., Yeritsyan, B., & Adler, D. S. (2016). Middle Palaeolithic toolstone procurement behaviors at Lusakert cave 1, Hrazdan valley, Armenia. Journal of Human Evolution, 91, 73-92.",
+      "originalRow": 1426,
+      "originalProperties": {
+        "A": "Frahm, E., Feinberg, J. M., Schmidt-Magee, B. A., Wilkinson, K. N., Gasparyan, B., Yeritsyan, B., & Adler, D. S. (2016). Middle Palaeolithic toolstone procurement behaviors at Lusakert cave 1, Hrazdan valley, Armenia. Journal of Human Evolution, 91, 73-92.",
+        "B": "Homo neanderthalensis",
+        "C": "44.521169999999998",
+        "D": "40.30979",
+        "E": "Lusakert I",
+        "F": "unit C",
+        "G": "38100",
+        "H": "35300",
+        "I": "32500",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-1427",
+      "start": -37451,
+      "end": -31851,
+      "ageMinBP": 33800.0,
+      "ageMaxBP": 39400.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "unit C",
+      "coordinates": [
+        44.52117,
+        40.30979
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Frahm, E., Feinberg, J. M., Schmidt-Magee, B. A., Wilkinson, K. N., Gasparyan, B., Yeritsyan, B., & Adler, D. S. (2016). Middle Palaeolithic toolstone procurement behaviors at Lusakert cave 1, Hrazdan valley, Armenia. Journal of Human Evolution, 91, 73-92.",
+      "originalRow": 1427,
+      "originalProperties": {
+        "A": "Frahm, E., Feinberg, J. M., Schmidt-Magee, B. A., Wilkinson, K. N., Gasparyan, B., Yeritsyan, B., & Adler, D. S. (2016). Middle Palaeolithic toolstone procurement behaviors at Lusakert cave 1, Hrazdan valley, Armenia. Journal of Human Evolution, 91, 73-92.",
+        "B": "Homo neanderthalensis",
+        "C": "44.521169999999998",
+        "D": "40.30979",
+        "E": "Lusakert I",
+        "F": "unit C",
+        "G": "39400",
+        "H": "36600",
+        "I": "33800",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-37451-01-01",
+      "end": "-30551-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

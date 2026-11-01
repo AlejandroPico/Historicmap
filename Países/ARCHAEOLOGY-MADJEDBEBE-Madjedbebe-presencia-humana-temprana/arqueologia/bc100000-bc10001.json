@@ -1,0 +1,55 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-MADJEDBEBE",
+  "identity": {
+    "qid": "",
+    "name": "Madjedbebe · presencia humana temprana",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -68751,
+  "coverageEnd": -57351,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "curated050-ARCHAEOLOGY-MADJEDBEBE-0",
+      "start": -68751,
+      "end": -57351,
+      "ageMinBP": 59300,
+      "ageMaxBP": 70700,
+      "taxon": "Homo sapiens",
+      "culture": "",
+      "layer": "",
+      "coordinates": [
+        132.89,
+        -12.5
+      ],
+      "source": "https://doi.org/10.1038/nature22968",
+      "sourceLabel": "Referencia primaria complementaria",
+      "citation": "Evidencias arqueológicas interpretadas como presencia humana hace65.0±5.7ka. La cronología y su relación con el poblamiento de Sahul requieren distinguir métodos y debates; no es una ruta exacta de migración.",
+      "license": "Original editorial metadata; linked primary evidence",
+      "attributionBasis": "Evidencias arqueológicas interpretadas como presencia humana hace65.0±5.7ka. La cronología y su relación con el poblamiento de Sahul requieren distinguir métodos y debates; no es una ruta exacta de migración.",
+      "dateBasis": "Intervalo aproximado de evidencia publicada, no una ocupación continua ni una frontera biológica.",
+      "locationBasis": "Referencia geográfica aproximada para lectura continental; no coordenada GPS de excavación."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-68751-01-01",
+      "end": "-57351-12-31",
+      "source": "https://doi.org/10.1038/nature22968",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

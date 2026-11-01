@@ -1,15 +1,19 @@
+import{isPrehistoric,hasHumanEvidence,humanEvidenceAt,PREHISTORY_START,PREHISTORY_END}from'./prehistory';
 import type{Feature,FeatureCollection,Geometry,Position}from'geojson';
 import{windows,reviewedThrough,segments}from'../public/data/cultural-index.json';
-const coverage={windows,reviewedThrough};
+const coverage={windows:[{start:PREHISTORY_START,end:PREHISTORY_END},...windows],reviewedThrough};
 import{escapeHtml as esc}from'./profiles';
 import{formatYear}from'./time';
 export type RegionalRecord={key:string;ownerKey:string;contextKey:string;name:string;originalNames:string[];kind:string;region:string;start:number;end:number;sourceYear:number;source:string;sourceLicense:string;dateBasis:string;interpretation:string;spatialUncertainty:string;temporalUncertainty:string;references:{title:string;url:string}[];politicalKeys:string[];color:string;focus:number[];reviewStatus:string;pending:string[];sourceGrouping:string[];endIsReviewBoundary?:boolean;temporalMode?:string;continuityNote?:string;reviewedOn?:string;evidenceThrough?:number};
 export const regionalCoverage=coverage;
 export function hasRegionalCoverage(year:number){return year!==0&&coverage.windows.some(w=>w.start<=year&&year<=w.end);}
-export function regionalAsset(year:number){return segments.find(s=>s.start<=year&&year<=s.end)?.file;}
+export function regionalAsset(year:number){if(isPrehistoric(year))return'human-evidence.geojson';return segments.find(s=>s.start<=year&&year<=s.end)?.file;}
+export function regionalAssets(year:number){const file=regionalAsset(year),files=file?[file]:[];if(hasHumanEvidence(year)&&!files.includes('human-evidence.geojson'))files.push('human-evidence.geojson');return files;}
 export function regionsAt(data:FeatureCollection,year:number,political:FeatureCollection):FeatureCollection{
+ if(isPrehistoric(year))return humanEvidenceAt(data,year);
  const represented=new Set(political.features.map(f=>String(f.properties?.identityKey??f.properties?.entityCode??'')));
- return {...data,features:data.features.filter(f=>{const p=f.properties as RegionalRecord;return p.start<=year&&year<=p.end&&(p.kind!=='polity-reference'||!p.politicalKeys.some(k=>represented.has(k)));}).sort((a,b)=>(a.properties?.displayPriority??0)-(b.properties?.displayPriority??0))};
+ const areas=data.features.filter(f=>{if(f.geometry.type!=='Polygon'&&f.geometry.type!=='MultiPolygon')return false;const p=f.properties as RegionalRecord;return p.start<=year&&year<=p.end&&(p.kind!=='polity-reference'||!p.politicalKeys.some(k=>represented.has(k)));}).sort((a,b)=>(a.properties?.displayPriority??0)-(b.properties?.displayPriority??0));
+ return {...data,features:[...areas,...humanEvidenceAt(data,year).features]};
 }
 const ringCache=new WeakMap<Position[],{xs:number[];west:number;east:number;south:number;north:number}>();
 function ringContains(ring:Position[],point:Position){

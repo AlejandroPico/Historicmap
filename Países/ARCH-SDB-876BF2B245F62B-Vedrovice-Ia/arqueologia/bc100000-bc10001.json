@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-876BF2B245F62B",
+  "identity": {
+    "qid": "",
+    "name": "Vedrovice Ia",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -37811,
+  "coverageEnd": -32051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3167",
+      "start": -36051,
+      "end": -32051,
+      "ageMinBP": 34000.0,
+      "ageMaxBP": 38000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "layer 4",
+      "coordinates": [
+        16.36507,
+        49.01826
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Nejman, L., Rhodes, E., Škrdla, P., Tostevin, G., Neruda, P., Nerudová, Z., ... & Grün, R. (2011). New chronological evidence for the Middle to Upper Palaeolithic transition in the Czech Republic and Slovakia: new optically stimulated luminescence dating results. Archaeometry, 53(5), 1044-1066.",
+      "originalRow": 3167,
+      "originalProperties": {
+        "A": "Nejman, L., Rhodes, E., Škrdla, P., Tostevin, G., Neruda, P., Nerudová, Z., ... & Grün, R. (2011). New chronological evidence for the Middle to Upper Palaeolithic transition in the Czech Republic and Slovakia: new optically stimulated luminescence dating results. Archaeometry, 53(5), 1044-1066.",
+        "B": "Homo sapiens",
+        "C": "16.365069999999999",
+        "D": "49.018259999999998",
+        "E": "Vedrovice Ia",
+        "F": "layer 4",
+        "G": "38000",
+        "H": "36000",
+        "I": "34000",
+        "J": "Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-3168",
+      "start": -37811,
+      "end": -32791,
+      "ageMinBP": 34740.0,
+      "ageMaxBP": 39760.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "layer 4",
+      "coordinates": [
+        16.36507,
+        49.01826
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Nejman, L., Rhodes, E., Škrdla, P., Tostevin, G., Neruda, P., Nerudová, Z., ... & Grün, R. (2011). New chronological evidence for the Middle to Upper Palaeolithic transition in the Czech Republic and Slovakia: new optically stimulated luminescence dating results. Archaeometry, 53(5), 1044-1066.",
+      "originalRow": 3168,
+      "originalProperties": {
+        "A": "Nejman, L., Rhodes, E., Škrdla, P., Tostevin, G., Neruda, P., Nerudová, Z., ... & Grün, R. (2011). New chronological evidence for the Middle to Upper Palaeolithic transition in the Czech Republic and Slovakia: new optically stimulated luminescence dating results. Archaeometry, 53(5), 1044-1066.",
+        "B": "Homo sapiens",
+        "C": "16.365069999999999",
+        "D": "49.018259999999998",
+        "E": "Vedrovice Ia",
+        "F": "layer 4",
+        "G": "39760",
+        "H": "37250",
+        "I": "34740",
+        "J": "Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-37811-01-01",
+      "end": "-32051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

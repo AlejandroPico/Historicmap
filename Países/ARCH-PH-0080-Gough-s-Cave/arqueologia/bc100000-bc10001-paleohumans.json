@@ -1,0 +1,1253 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0080",
+  "identity": {
+    "qid": "",
+    "name": "Gough's Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -11551,
+  "coverageEnd": -10551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-137",
+      "start": -11551,
+      "end": -10551,
+      "ageMinBP": 12500.0,
+      "ageMaxBP": 13500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Creswellian",
+      "layer": "Area I",
+      "coordinates": [
+        -2.765395,
+        51.2819621
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Creswellian: 13500–12500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "80",
+          "site_name": "Gough's Cave",
+          "country": "United Kingdom",
+          "region": "Somerset",
+          "municipality": "Cheddar",
+          "latitude": "51.2819621",
+          "longitude": "-2.765395",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "137",
+          "site_id": "80",
+          "stratigraphic_context": "Area I",
+          "culture_id": "20",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "20",
+          "culture_name": "Creswellian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "13500",
+          "end_bp": "12500",
+          "region": "Britain",
+          "description": "British later Upper Palaeolithic technocomplex linked to the Late Glacial recolonisation of the British Isles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "5",
+            "authors": "Andrews, P., Fernández-Jalvo, Y.",
+            "year": "2003",
+            "title": "Cannibalism in Britain: taphonomy of the Creswellian (Pleistocene) faunal and human remains from Gough’s Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "S1",
+            "pages": "59-81",
+            "doi": "https://doi.org/10.1017/S096804620300010X",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "15",
+            "authors": "Bello, S.M., Parfitt, S.A., Stringer, C.B.",
+            "year": "2011",
+            "title": "Earliest directly-dated human skull-cups",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "PLOS One",
+            "volume": "6",
+            "issue": "2",
+            "pages": "e17026",
+            "doi": "https://doi.org/10.1371/journal.pone.0017026",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "16",
+            "authors": "Bello, S.M., Saladié, P., Cáceres, I., Rodríguez-Hidalgo, A., Parfitt, S.A.",
+            "year": "2015",
+            "title": "Upper Palaeolithic ritualistic cannibalism at Gough’s Cave (Somerset, UK): The human remains from head to toe",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Journal of Human Evolution",
+            "volume": "82",
+            "issue": "",
+            "pages": "170-189",
+            "doi": "https://doi.org/10.1016/j.jhevol.2015.02.016",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "40",
+            "authors": "Churchill, S.E.",
+            "year": "2000",
+            "title": "The Creswellian (Pleistocene) human axial skeletal remains from Gough's Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "56",
+            "issue": "",
+            "pages": "141-154",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "116",
+            "authors": "Humphrey, L., Stringer, C.",
+            "year": "2002",
+            "title": "The human cranial remains from Gough's Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "",
+            "pages": "153-168",
+            "doi": "https://doi.org/10.1017/S0968046202000049",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "222",
+            "authors": "Stringer, C.",
+            "year": "2000",
+            "title": "The Gough's Cave human fossils: an introduction",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "56",
+            "issue": "2",
+            "pages": "135-139",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "282",
+            "archaeological_context_id": "137",
+            "individual_name": "GC86 (55), GC87 (139), GC87 (230)A, GC87 (253), GC87 (263), GC89 (002), GC89 (003), GC86 (55), GC87 (uncertain), GC87 (55), GC87 (55)B, GC86 (55)N, GC87 (60)E, GC86 (264)B, GC87 (49), GC87 (25), GC87 (87), GC87 (29), GC87 (120)a, GC87 (120)b, GC87 (165), GC87 (194), GC89 (009), GC86 (55)A, GC86 (55)E, GC86 (un-numbered), GC87 (16)E, GC87 (73), GC87 (103)a, GC87 (138)B, GC87 (141), GC87 (226), GC89 (001) - individual 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Infant",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "283",
+            "archaeological_context_id": "137",
+            "individual_name": "GC86 (55), GC87 (139), GC87 (230)A, GC87 (253), GC87 (263), GC89 (002), GC89 (003), GC86 (55), GC87 (uncertain), GC87 (55), GC87 (55)B, GC86 (55)N, GC87 (60)E, GC86 (264)B, GC87 (49), GC87 (25), GC87 (87), GC87 (29), GC87 (120)a, GC87 (120)b, GC87 (165), GC87 (194), GC89 (009), GC86 (55)A, GC86 (55)E, GC86 (un-numbered), GC87 (16)E, GC87 (73), GC87 (103)a, GC87 (138)B, GC87 (141), GC87 (226), GC89 (001) - individual 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Juvenile",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "284",
+            "archaeological_context_id": "137",
+            "individual_name": "GC86 (55), GC87 (139), GC87 (230)A, GC87 (253), GC87 (263), GC89 (002), GC89 (003), GC86 (55), GC87 (uncertain), GC87 (55), GC87 (55)B, GC86 (55)N, GC87 (60)E, GC86 (264)B, GC87 (49), GC87 (25), GC87 (87), GC87 (29), GC87 (120)a, GC87 (120)b, GC87 (165), GC87 (194), GC89 (009), GC86 (55)A, GC86 (55)E, GC86 (un-numbered), GC87 (16)E, GC87 (73), GC87 (103)a, GC87 (138)B, GC87 (141), GC87 (226), GC89 (001) - individual 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Juvenile",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "285",
+            "archaeological_context_id": "137",
+            "individual_name": "GC86 (55), GC87 (139), GC87 (230)A, GC87 (253), GC87 (263), GC89 (002), GC89 (003), GC86 (55), GC87 (uncertain), GC87 (55), GC87 (55)B, GC86 (55)N, GC87 (60)E, GC86 (264)B, GC87 (49), GC87 (25), GC87 (87), GC87 (29), GC87 (120)a, GC87 (120)b, GC87 (165), GC87 (194), GC89 (009), GC86 (55)A, GC86 (55)E, GC86 (un-numbered), GC87 (16)E, GC87 (73), GC87 (103)a, GC87 (138)B, GC87 (141), GC87 (226), GC89 (001) - individual 4",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "286",
+            "archaeological_context_id": "137",
+            "individual_name": "GC86 (55), GC87 (139), GC87 (230)A, GC87 (253), GC87 (263), GC89 (002), GC89 (003), GC86 (55), GC87 (uncertain), GC87 (55), GC87 (55)B, GC86 (55)N, GC87 (60)E, GC86 (264)B, GC87 (49), GC87 (25), GC87 (87), GC87 (29), GC87 (120)a, GC87 (120)b, GC87 (165), GC87 (194), GC89 (009), GC86 (55)A, GC86 (55)E, GC86 (un-numbered), GC87 (16)E, GC87 (73), GC87 (103)a, GC87 (138)B, GC87 (141), GC87 (226), GC89 (001) - individual 5",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Mature Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "MATURE_ADULT",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "287",
+            "archaeological_context_id": "137",
+            "individual_name": "GC86 (55)B, GC86 (55)I, GC86 (55)W, GC86 (230B), GC87 (55)D",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "288",
+            "archaeological_context_id": "137",
+            "individual_name": "",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "289",
+            "archaeological_context_id": "137",
+            "individual_name": "Individual 1 (M53121, M53123, M54001-M54064, M54066-M54069, M54071-M54074, M54076-M54081, M54085, M54088-M54095, M54097, M54098, M54115, M54116, M54118-M54128, M54144, M54145, M96551-M96574)",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "290",
+            "archaeological_context_id": "137",
+            "individual_name": "Individual 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "291",
+            "archaeological_context_id": "137",
+            "individual_name": "Individual 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "137",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-138",
+      "start": -11551,
+      "end": -10551,
+      "ageMinBP": 12500.0,
+      "ageMaxBP": 13500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Creswellian",
+      "layer": "Layer 12-13",
+      "coordinates": [
+        -2.765395,
+        51.2819621
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Creswellian: 13500–12500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "80",
+          "site_name": "Gough's Cave",
+          "country": "United Kingdom",
+          "region": "Somerset",
+          "municipality": "Cheddar",
+          "latitude": "51.2819621",
+          "longitude": "-2.765395",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "138",
+          "site_id": "80",
+          "stratigraphic_context": "Layer 12-13",
+          "culture_id": "20",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "20",
+          "culture_name": "Creswellian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "13500",
+          "end_bp": "12500",
+          "region": "Britain",
+          "description": "British later Upper Palaeolithic technocomplex linked to the Late Glacial recolonisation of the British Isles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "5",
+            "authors": "Andrews, P., Fernández-Jalvo, Y.",
+            "year": "2003",
+            "title": "Cannibalism in Britain: taphonomy of the Creswellian (Pleistocene) faunal and human remains from Gough’s Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "S1",
+            "pages": "59-81",
+            "doi": "https://doi.org/10.1017/S096804620300010X",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "116",
+            "authors": "Humphrey, L., Stringer, C.",
+            "year": "2002",
+            "title": "The human cranial remains from Gough's Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "",
+            "pages": "153-168",
+            "doi": "https://doi.org/10.1017/S0968046202000049",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "295",
+            "archaeological_context_id": "138",
+            "individual_name": "Gough's Cave 2, GC87 (90), GC87 (107), GC87 (169)",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "25",
+            "age_at_death_min": "25",
+            "age_at_death_max": "25",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "318",
+              "dated_sample_id": "318",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "12380",
+              "dates_range": "110",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "318",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1199",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "319",
+              "dated_sample_id": "319",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "12380",
+              "dates_range": "110",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "319",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1200",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "320",
+              "dated_sample_id": "320",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "12380",
+              "dates_range": "110",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "320",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1201",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "321",
+              "dated_sample_id": "321",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "12380",
+              "dates_range": "110",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "321",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1202",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "322",
+              "dated_sample_id": "322",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "12380",
+              "dates_range": "110",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "322",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1203",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "138",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-139",
+      "start": -11551,
+      "end": -10551,
+      "ageMinBP": 12500.0,
+      "ageMaxBP": 13500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Creswellian",
+      "layer": "Layer 6-7",
+      "coordinates": [
+        -2.765395,
+        51.2819621
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Creswellian: 13500–12500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "80",
+          "site_name": "Gough's Cave",
+          "country": "United Kingdom",
+          "region": "Somerset",
+          "municipality": "Cheddar",
+          "latitude": "51.2819621",
+          "longitude": "-2.765395",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "139",
+          "site_id": "80",
+          "stratigraphic_context": "Layer 6-7",
+          "culture_id": "20",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "20",
+          "culture_name": "Creswellian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "13500",
+          "end_bp": "12500",
+          "region": "Britain",
+          "description": "British later Upper Palaeolithic technocomplex linked to the Late Glacial recolonisation of the British Isles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "5",
+            "authors": "Andrews, P., Fernández-Jalvo, Y.",
+            "year": "2003",
+            "title": "Cannibalism in Britain: taphonomy of the Creswellian (Pleistocene) faunal and human remains from Gough’s Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "S1",
+            "pages": "59-81",
+            "doi": "https://doi.org/10.1017/S096804620300010X",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "116",
+            "authors": "Humphrey, L., Stringer, C.",
+            "year": "2002",
+            "title": "The human cranial remains from Gough's Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "",
+            "pages": "153-168",
+            "doi": "https://doi.org/10.1017/S0968046202000049",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "293",
+            "archaeological_context_id": "139",
+            "individual_name": "Gough's Cave 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "3 - 4",
+            "age_at_death_min": "3",
+            "age_at_death_max": "4",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "316",
+              "dated_sample_id": "316",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "12500",
+              "dates_range": "50",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "316",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "139",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "139",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-140",
+      "start": -11551,
+      "end": -10551,
+      "ageMinBP": 12500.0,
+      "ageMaxBP": 13500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Creswellian",
+      "layer": "Layer 14",
+      "coordinates": [
+        -2.765395,
+        51.2819621
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Creswellian: 13500–12500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "80",
+          "site_name": "Gough's Cave",
+          "country": "United Kingdom",
+          "region": "Somerset",
+          "municipality": "Cheddar",
+          "latitude": "51.2819621",
+          "longitude": "-2.765395",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "140",
+          "site_id": "80",
+          "stratigraphic_context": "Layer 14",
+          "culture_id": "20",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "20",
+          "culture_name": "Creswellian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "13500",
+          "end_bp": "12500",
+          "region": "Britain",
+          "description": "British later Upper Palaeolithic technocomplex linked to the Late Glacial recolonisation of the British Isles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "5",
+            "authors": "Andrews, P., Fernández-Jalvo, Y.",
+            "year": "2003",
+            "title": "Cannibalism in Britain: taphonomy of the Creswellian (Pleistocene) faunal and human remains from Gough’s Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "S1",
+            "pages": "59-81",
+            "doi": "https://doi.org/10.1017/S096804620300010X",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "116",
+            "authors": "Humphrey, L., Stringer, C.",
+            "year": "2002",
+            "title": "The human cranial remains from Gough's Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "",
+            "pages": "153-168",
+            "doi": "https://doi.org/10.1017/S0968046202000049",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "294",
+            "archaeological_context_id": "140",
+            "individual_name": "Gough's Cave 7",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "296",
+            "archaeological_context_id": "140",
+            "individual_name": "Gough's Cave 6",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "30",
+            "age_at_death_min": "30",
+            "age_at_death_max": "30",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "317",
+              "dated_sample_id": "317",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "12440",
+              "dates_range": "55",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "317",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1198",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "323",
+              "dated_sample_id": "323",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11700",
+              "dates_range": "100",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "323",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "140",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "140",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-409",
+      "start": -11551,
+      "end": -10551,
+      "ageMinBP": 12500.0,
+      "ageMaxBP": 13500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Creswellian",
+      "layer": "Layer 15+",
+      "coordinates": [
+        -2.765395,
+        51.2819621
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Creswellian: 13500–12500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "80",
+          "site_name": "Gough's Cave",
+          "country": "United Kingdom",
+          "region": "Somerset",
+          "municipality": "Cheddar",
+          "latitude": "51.2819621",
+          "longitude": "-2.765395",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "409",
+          "site_id": "80",
+          "stratigraphic_context": "Layer 15+",
+          "culture_id": "20",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "20",
+          "culture_name": "Creswellian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "13500",
+          "end_bp": "12500",
+          "region": "Britain",
+          "description": "British later Upper Palaeolithic technocomplex linked to the Late Glacial recolonisation of the British Isles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "5",
+            "authors": "Andrews, P., Fernández-Jalvo, Y.",
+            "year": "2003",
+            "title": "Cannibalism in Britain: taphonomy of the Creswellian (Pleistocene) faunal and human remains from Gough’s Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "S1",
+            "pages": "59-81",
+            "doi": "https://doi.org/10.1017/S096804620300010X",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "221",
+            "authors": "Stringer, C.",
+            "year": "1985",
+            "title": "The hominid remains from Gough's cave",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Proceedings of the University of Bristol Spelaeological Society",
+            "volume": "17",
+            "issue": "2",
+            "pages": "145-152",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "222",
+            "authors": "Stringer, C.",
+            "year": "2000",
+            "title": "The Gough's Cave human fossils: an introduction",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "56",
+            "issue": "2",
+            "pages": "135-139",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "292",
+            "archaeological_context_id": "409",
+            "individual_name": "1.1/38, M.23.1/1, M23.1/2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "315",
+              "dated_sample_id": "315",
+              "dating_technique_id": "4",
+              "dates_bp_uncal": "12565",
+              "dates_range": "50",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "315",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "409",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "?",
+              "dating_type": "UNCERTAIN",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "4",
+              "dating_technique_name": "Unknown",
+              "description": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "409",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-410",
+      "start": -11551,
+      "end": -10551,
+      "ageMinBP": 12500.0,
+      "ageMaxBP": 13500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Creswellian",
+      "layer": "Layer 16",
+      "coordinates": [
+        -2.765395,
+        51.2819621
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Creswellian: 13500–12500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "80",
+          "site_name": "Gough's Cave",
+          "country": "United Kingdom",
+          "region": "Somerset",
+          "municipality": "Cheddar",
+          "latitude": "51.2819621",
+          "longitude": "-2.765395",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "410",
+          "site_id": "80",
+          "stratigraphic_context": "Layer 16",
+          "culture_id": "20",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "20",
+          "culture_name": "Creswellian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "13500",
+          "end_bp": "12500",
+          "region": "Britain",
+          "description": "British later Upper Palaeolithic technocomplex linked to the Late Glacial recolonisation of the British Isles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "5",
+            "authors": "Andrews, P., Fernández-Jalvo, Y.",
+            "year": "2003",
+            "title": "Cannibalism in Britain: taphonomy of the Creswellian (Pleistocene) faunal and human remains from Gough’s Cave (Somerset, England)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "58",
+            "issue": "S1",
+            "pages": "59-81",
+            "doi": "https://doi.org/10.1017/S096804620300010X",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "222",
+            "authors": "Stringer, C.",
+            "year": "2000",
+            "title": "The Gough's Cave human fossils: an introduction",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletin of the Natural History Museum: Geology Series",
+            "volume": "56",
+            "issue": "2",
+            "pages": "135-139",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "281",
+            "archaeological_context_id": "410",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "410",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "80",
+      "site_name": "Gough's Cave",
+      "country": "United Kingdom",
+      "region": "Somerset",
+      "municipality": "Cheddar",
+      "latitude": "51.2819621",
+      "longitude": "-2.765395",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-11551-01-01",
+      "end": "-10551-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

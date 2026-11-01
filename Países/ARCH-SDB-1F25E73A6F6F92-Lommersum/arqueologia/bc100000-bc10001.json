@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-1F25E73A6F6F92",
+  "identity": {
+    "qid": "",
+    "name": "Lommersum",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -39856,
+  "coverageEnd": -33337,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2875",
+      "start": -37059,
+      "end": -33337,
+      "ageMinBP": 35286.0,
+      "ageMaxBP": 39008.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "horizon IIc",
+      "coordinates": [
+        6.796,
+        50.709
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Wißing, C., Rougier, H., Baumann, C., Comeyne, A., Crevecoeur, I., Drucker, D. G., ... & Bocherens, H. (2019). Stable isotopes reveal patterns of diet and mobility in the last Neandertals and first modern humans in Europe. Scientific reports, 9(1), 1-12.",
+      "originalRow": 2875,
+      "originalProperties": {
+        "A": "Wißing, C., Rougier, H., Baumann, C., Comeyne, A., Crevecoeur, I., Drucker, D. G., ... & Bocherens, H. (2019). Stable isotopes reveal patterns of diet and mobility in the last Neandertals and first modern humans in Europe. Scientific reports, 9(1), 1-12.",
+        "B": "Homo sapiens",
+        "C": "6.7960000000000003",
+        "D": "50.709000000000003",
+        "E": "Lommersum",
+        "F": "horizon IIc",
+        "G": "39008",
+        "H": "37147",
+        "I": "35286",
+        "J": "Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2876",
+      "start": -39856,
+      "end": -35765,
+      "ageMinBP": 37714.0,
+      "ageMaxBP": 41805.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "horizon IIc",
+      "coordinates": [
+        6.796,
+        50.709
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Wißing, C., Rougier, H., Baumann, C., Comeyne, A., Crevecoeur, I., Drucker, D. G., ... & Bocherens, H. (2019). Stable isotopes reveal patterns of diet and mobility in the last Neandertals and first modern humans in Europe. Scientific reports, 9(1), 1-12.",
+      "originalRow": 2876,
+      "originalProperties": {
+        "A": "Wißing, C., Rougier, H., Baumann, C., Comeyne, A., Crevecoeur, I., Drucker, D. G., ... & Bocherens, H. (2019). Stable isotopes reveal patterns of diet and mobility in the last Neandertals and first modern humans in Europe. Scientific reports, 9(1), 1-12.",
+        "B": "Homo sapiens",
+        "C": "6.7960000000000003",
+        "D": "50.709000000000003",
+        "E": "Lommersum",
+        "F": "horizon IIc",
+        "G": "41805",
+        "H": "39760",
+        "I": "37714",
+        "J": "Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-39856-01-01",
+      "end": "-33337-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

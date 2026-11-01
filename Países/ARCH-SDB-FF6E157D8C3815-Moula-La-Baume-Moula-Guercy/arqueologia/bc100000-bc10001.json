@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-FF6E157D8C3815",
+  "identity": {
+    "qid": "",
+    "name": "Moula, La Baume Moula-Guercy",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -84551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1471",
+      "start": -97151,
+      "end": -84551,
+      "ageMinBP": 86500.0,
+      "ageMaxBP": 99100.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian and human remains",
+      "layer": "layer XV",
+      "coordinates": [
+        4.8671,
+        44.9305
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Willmes, M., Grün, R., Douka, K., Michel, V., Armstrong, R. A., Benson, A., ... & Saos, T. (2016). A comprehensive chronology of the Neanderthal site Moula-Guercy, Ardèche, France. Journal of Archaeological Science: Reports, 9, 309-319.",
+      "originalRow": 1471,
+      "originalProperties": {
+        "A": "Willmes, M., Grün, R., Douka, K., Michel, V., Armstrong, R. A., Benson, A., ... & Saos, T. (2016). A comprehensive chronology of the Neanderthal site Moula-Guercy, Ardèche, France. Journal of Archaeological Science: Reports, 9, 309-319.",
+        "B": "Homo neanderthalensis",
+        "C": "4.8670999999999998",
+        "D": "44.930500000000002",
+        "E": "Moula, La Baume Moula-Guercy",
+        "F": "layer XV",
+        "G": "99100",
+        "H": "92800",
+        "I": "86500",
+        "J": "Mousterian and human remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-1472",
+      "start": -100000,
+      "end": -85051,
+      "ageMinBP": 87000.0,
+      "ageMaxBP": 107000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "layer XV",
+      "coordinates": [
+        4.8671,
+        44.9305
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Willmes, M., Grün, R., Douka, K., Michel, V., Armstrong, R. A., Benson, A., ... & Saos, T. (2016). A comprehensive chronology of the Neanderthal site Moula-Guercy, Ardèche, France. Journal of Archaeological Science: Reports, 9, 309-319.",
+      "originalRow": 1472,
+      "originalProperties": {
+        "A": "Willmes, M., Grün, R., Douka, K., Michel, V., Armstrong, R. A., Benson, A., ... & Saos, T. (2016). A comprehensive chronology of the Neanderthal site Moula-Guercy, Ardèche, France. Journal of Archaeological Science: Reports, 9, 309-319.",
+        "B": "Homo neanderthalensis",
+        "C": "4.8670999999999998",
+        "D": "44.930500000000002",
+        "E": "Moula, La Baume Moula-Guercy",
+        "F": "layer XV",
+        "G": "107000",
+        "H": "97000",
+        "I": "87000",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-100000-01-01",
+      "end": "-84551-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

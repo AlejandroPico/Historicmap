@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-387DC0D5299229",
+  "identity": {
+    "qid": "",
+    "name": "Cueva de los Aviones",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -86851,
+  "coverageEnd": -85451,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-843",
+      "start": -86851,
+      "end": -85451,
+      "ageMinBP": 87400.0,
+      "ageMaxBP": 88800.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "lower slope sediment",
+      "coordinates": [
+        -0.98581,
+        37.58527
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Hoffmann, D. L., Angelucci, D. E., Villaverde, V., Zapata, J., & Zilhão, J. (2018). Symbolic use of marine shells and mineral pigments by Iberian Neandertals 115,000 years ago. Science advances, 4(2), eaar5255.",
+      "originalRow": 843,
+      "originalProperties": {
+        "A": "Hoffmann, D. L., Angelucci, D. E., Villaverde, V., Zapata, J., & Zilhão, J. (2018). Symbolic use of marine shells and mineral pigments by Iberian Neandertals 115,000 years ago. Science advances, 4(2), eaar5255.",
+        "B": "Homo neanderthalensis",
+        "C": "-0.98580999999999996",
+        "D": "37.585270000000001",
+        "E": "Cueva de los Aviones",
+        "F": "lower slope sediment",
+        "G": "88800",
+        "H": "88100",
+        "I": "87400",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-86851-01-01",
+      "end": "-85451-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

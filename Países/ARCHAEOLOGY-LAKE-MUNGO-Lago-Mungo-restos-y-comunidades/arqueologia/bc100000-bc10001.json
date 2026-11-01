@@ -1,0 +1,55 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-LAKE-MUNGO",
+  "identity": {
+    "qid": "",
+    "name": "Lago Mungo · restos y comunidades",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -40051,
+  "coverageEnd": -36051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "curated050-ARCHAEOLOGY-LAKE-MUNGO-0",
+      "start": -40051,
+      "end": -36051,
+      "ageMinBP": 38000,
+      "ageMaxBP": 42000,
+      "taxon": "Homo sapiens",
+      "culture": "",
+      "layer": "",
+      "coordinates": [
+        143.11,
+        -33.754
+      ],
+      "source": "https://doi.org/10.1038/nature01383",
+      "sourceLabel": "Referencia primaria complementaria",
+      "citation": "Cronología aproximada40±2ka de los restos de Mungo; no se toma la edad de estos individuos como comienzo del poblamiento australiano.",
+      "license": "Original editorial metadata; linked primary evidence",
+      "attributionBasis": "Cronología aproximada40±2ka de los restos de Mungo; no se toma la edad de estos individuos como comienzo del poblamiento australiano.",
+      "dateBasis": "Intervalo aproximado de evidencia publicada, no una ocupación continua ni una frontera biológica.",
+      "locationBasis": "Referencia geográfica aproximada para lectura continental; no coordenada GPS de excavación."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-40051-01-01",
+      "end": "-36051-12-31",
+      "source": "https://doi.org/10.1038/nature01383",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

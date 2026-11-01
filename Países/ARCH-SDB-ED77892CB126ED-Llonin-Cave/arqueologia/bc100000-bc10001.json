@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-ED77892CB126ED",
+  "identity": {
+    "qid": "",
+    "name": "Llonin Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -52491,
+  "coverageEnd": -40482,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1413",
+      "start": -52491,
+      "end": -40482,
+      "ageMinBP": 42431.0,
+      "ageMaxBP": 54440.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "level VIII",
+      "coordinates": [
+        -4.645,
+        43.33
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Sanchis, A., Real, C., Sauqué, V., Núñez-Lahuerta, C., Égüez, N., Tormo, C., ... & de la Rasilla, M. (2018). Neanderthal and carnivore activities at Llonin Cave, Asturias, northern Iberian Peninsula: Faunal study of Mousterian levels (MIS 3). Comptes Rendus Palevol.",
+      "originalRow": 1413,
+      "originalProperties": {
+        "A": "Sanchis, A., Real, C., Sauqué, V., Núñez-Lahuerta, C., Égüez, N., Tormo, C., ... & de la Rasilla, M. (2018). Neanderthal and carnivore activities at Llonin Cave, Asturias, northern Iberian Peninsula: Faunal study of Mousterian levels (MIS 3). Comptes Rendus Palevol.",
+        "B": "Homo neanderthalensis",
+        "C": "-4.6449999999999996",
+        "D": "43.33",
+        "E": "Llonin Cave",
+        "F": "level VIII",
+        "G": "54440",
+        "H": "47809",
+        "I": "42431",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-52491-01-01",
+      "end": "-40482-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

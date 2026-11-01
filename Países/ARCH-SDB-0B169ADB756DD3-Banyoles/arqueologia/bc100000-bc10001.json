@@ -1,0 +1,68 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-0B169ADB756DD3",
+  "identity": {
+    "qid": "",
+    "name": "Banyoles",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -47051,
+  "coverageEnd": -39051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-600",
+      "start": -47051,
+      "end": -39051,
+      "ageMinBP": 41000.0,
+      "ageMaxBP": 49000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "human remains",
+      "layer": "",
+      "coordinates": [
+        2.766,
+        42.13
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "JuliA, R., & Bischoff, J. L. (1991). Radiometric dating of Quaternary deposits and the hominid mandible of Lake Banyolas, Spain. Journal of Archaeological Science, 18(6), 707-722.",
+      "originalRow": 600,
+      "originalProperties": {
+        "A": "JuliA, R., & Bischoff, J. L. (1991). Radiometric dating of Quaternary deposits and the hominid mandible of Lake Banyolas, Spain. Journal of Archaeological Science, 18(6), 707-722.",
+        "B": "Homo neanderthalensis",
+        "C": "2.766",
+        "D": "42.13",
+        "E": "Banyoles",
+        "G": "49000",
+        "H": "45000",
+        "I": "41000",
+        "J": "human remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-47051-01-01",
+      "end": "-39051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

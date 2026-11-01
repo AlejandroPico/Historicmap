@@ -6,6 +6,7 @@ export type CountryAnchor={key:string;name:string;originalName:string;code:strin
 export function canonicalFeature(hit:{id?:string|number;properties:Record<string,any>|null}|undefined,data:FeatureCollection):Feature|undefined{
  if(!hit)return;
  const p=hit.properties??{};
+ if(p.referenceKind==='archaeological-site'&&p.identityKey)return data.features.find(f=>f.properties?.identityKey===p.identityKey);
  // Point IDs can be rewritten by the vector-tile worker (especially string
  // GeoJSON IDs). Resolve their immutable documentary identity before IDs.
  // Polygon selection still requires an exact renderer/source match.

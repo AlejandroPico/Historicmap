@@ -1,0 +1,68 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-995F5B2047B0C5",
+  "identity": {
+    "qid": "",
+    "name": "Grotta all'Onda",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -40551,
+  "coverageEnd": -34151,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1046",
+      "start": -40551,
+      "end": -34151,
+      "ageMinBP": 36100.0,
+      "ageMaxBP": 42500.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "",
+      "coordinates": [
+        10.294,
+        44.057
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Berton, A. L. E. S. S. A. N. D. R. A., Bonato, M. A. R. Z. I. A., Borsato, A. N. D. R. E. A., Campetti, S., Fabbri, P. F., Mallegni, F., ... & Piccini, L. (2003). Nuove datazioni radiometriche con il metodo U/Th sulle formazioni stalagmitiche di Grotta all’Onda. Rivista di Scienze Preistoriche, 53, 241-256.",
+      "originalRow": 1046,
+      "originalProperties": {
+        "A": "Berton, A. L. E. S. S. A. N. D. R. A., Bonato, M. A. R. Z. I. A., Borsato, A. N. D. R. E. A., Campetti, S., Fabbri, P. F., Mallegni, F., ... & Piccini, L. (2003). Nuove datazioni radiometriche con il metodo U/Th sulle formazioni stalagmitiche di Grotta all’Onda. Rivista di Scienze Preistoriche, 53, 241-256.",
+        "B": "Homo neanderthalensis",
+        "C": "10.294",
+        "D": "44.057000000000002",
+        "E": "Grotta all'Onda",
+        "G": "42500",
+        "H": "39300",
+        "I": "36100",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-40551-01-01",
+      "end": "-34151-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

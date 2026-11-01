@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.50.0 · 2026-11-01
+
+- Consulta prehistórica hasta 100000 a. C.: 803 referencias de yacimientos o conjuntos y 2820 registros fechados o contextuales, sin fronteras biológicas ni ocupaciones continuas supuestas.
+- PaleoHumans1.0.0:417 ventanas de contexto del Paleolítico superior, resultados sin calibrar conservados y cinco contextos inciertos sin fecha inventada. Continuidad de las referencias hasta9751a.C., cruzando10000 junto a las áreas culturales anteriores.
+- Atribuciones humanas, culturas materiales, niveles, fuentes y fechas en fichas persistentes. Puntos inicialmente visibles y filtro de grupos humanos; controles culturales independientes de la cartografía política.
+- Navegación de 100 años por paso en el nuevo tramo, conservando fecha exacta, consulta anual desde 10000 a. C. y continuidad civil sin cero.
+- PaleoMIST: 92 originales y 23 muestras hasta 80000 BP1950; la capa se detiene antes de ese límite. Costas contemporáneas de referencia, sin extrapolación del hielo o rutas inventadas.
+- Conservación de 20559 mandatos y 10304 fases culturales anteriores, con procedencia canónica dentro de Países y Tierra.
+
 ## 0.49.0 · 2026-11-01
 
 - Consulta hasta 10.000 a. C. con 4.000 fechas civiles adicionales, 20 expedientes arqueológicos y 27 referencias culturales fechadas. Conservación del contenido posterior y continuidad 8001/8000 y 6001/6000, sin Estados o gobernantes supuestos.

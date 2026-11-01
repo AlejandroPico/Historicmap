@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-12E4FBC6E0062A",
+  "identity": {
+    "qid": "",
+    "name": "Xibaimaying site",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -47051,
+  "coverageEnd": -41051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3196",
+      "start": -47051,
+      "end": -41051,
+      "ageMinBP": 43000.0,
+      "ageMaxBP": 49000.0,
+      "taxon": "Homo sapiens",
+      "culture": "small tool industry",
+      "layer": "layer 5",
+      "coordinates": [
+        114.238,
+        40.124
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Guo, Y. J., Li, B., Zhang, J. F., Yuan, B. Y., Xie, F., & Roberts, R. G. (2017). New ages for the Upper Palaeolithic site of Xibaimaying in the Nihewan Basin, northern China: implications for small‐tool and microblade industries in north‐east Asia during Marine Isotope Stages 2 and 3. Journal of Quaternary Science, 32(4), 540-552.",
+      "originalRow": 3196,
+      "originalProperties": {
+        "A": "Guo, Y. J., Li, B., Zhang, J. F., Yuan, B. Y., Xie, F., & Roberts, R. G. (2017). New ages for the Upper Palaeolithic site of Xibaimaying in the Nihewan Basin, northern China: implications for small‐tool and microblade industries in north‐east Asia during Marine Isotope Stages 2 and 3. Journal of Quaternary Science, 32(4), 540-552.",
+        "B": "Homo sapiens",
+        "C": "114.238",
+        "D": "40.124000000000002",
+        "E": "Xibaimaying site",
+        "F": "layer 5",
+        "G": "49000",
+        "H": "46000",
+        "I": "43000",
+        "J": "small tool industry"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-47051-01-01",
+      "end": "-41051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

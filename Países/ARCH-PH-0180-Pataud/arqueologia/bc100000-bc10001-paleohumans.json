@@ -1,0 +1,1909 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0180",
+  "identity": {
+    "qid": "",
+    "name": "Pataud",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -32051,
+  "coverageEnd": -26051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-289",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 2, Trench 6 and 7 (North Sector)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "289",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 2, Trench 6 and 7 (North Sector)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "39",
+            "authors": "Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Occupations and status of the Abri Pataud (Dordogne, France) during the Final Gravettian",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Quaternary International",
+            "volume": "359-360",
+            "issue": "",
+            "pages": "406-422",
+            "doi": "https://doi.org/10.1016/j.quaint.2014.08.060",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "261",
+            "authors": "Villotte, S., Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Etude anthropologique des vestiges humains récemment découverts issus de la couche 2 de l'abri Pataud (Les Eyzies-de-Tayac-Sireuil, Dordogne, France)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "27",
+            "issue": "",
+            "pages": "158-188",
+            "doi": "https://doi.org/10.1007/s13219-015-0128-3",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "263",
+            "authors": "Villotte, S., Ogden, A.R., Trinkaus, E.",
+            "year": "2018",
+            "title": "Dental abnormalities and oral pathology of the Pataud 1 Upper Paleolithic human",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "30",
+            "issue": "3-4",
+            "pages": "153-161",
+            "doi": "https://doi.org/10.3166/bmsap-2018-0020",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "618",
+            "archaeological_context_id": "289",
+            "individual_name": "Abri Pataud 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "20 - 29",
+            "age_at_death_min": "20",
+            "age_at_death_max": "29",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "624",
+              "dated_sample_id": "624",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "21960",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "624",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "289",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "289",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-290",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 2, Trench 7 (North Sector)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "290",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 2, Trench 7 (North Sector)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "39",
+            "authors": "Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Occupations and status of the Abri Pataud (Dordogne, France) during the Final Gravettian",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Quaternary International",
+            "volume": "359-360",
+            "issue": "",
+            "pages": "406-422",
+            "doi": "https://doi.org/10.1016/j.quaint.2014.08.060",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "261",
+            "authors": "Villotte, S., Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Etude anthropologique des vestiges humains récemment découverts issus de la couche 2 de l'abri Pataud (Les Eyzies-de-Tayac-Sireuil, Dordogne, France)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "27",
+            "issue": "",
+            "pages": "158-188",
+            "doi": "https://doi.org/10.1007/s13219-015-0128-3",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "619",
+            "archaeological_context_id": "290",
+            "individual_name": "Abri Pataud 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "5",
+            "age_at_death_min": "5",
+            "age_at_death_max": "5",
+            "age_unit": "MONTHS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_I",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "625",
+              "dated_sample_id": "625",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "21960",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "625",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "290",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "290",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-291",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 2, Trench 2 (South Sector)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "291",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 2, Trench 2 (South Sector)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "39",
+            "authors": "Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Occupations and status of the Abri Pataud (Dordogne, France) during the Final Gravettian",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Quaternary International",
+            "volume": "359-360",
+            "issue": "",
+            "pages": "406-422",
+            "doi": "https://doi.org/10.1016/j.quaint.2014.08.060",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "261",
+            "authors": "Villotte, S., Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Etude anthropologique des vestiges humains récemment découverts issus de la couche 2 de l'abri Pataud (Les Eyzies-de-Tayac-Sireuil, Dordogne, France)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "27",
+            "issue": "",
+            "pages": "158-188",
+            "doi": "https://doi.org/10.1007/s13219-015-0128-3",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "620",
+            "archaeological_context_id": "291",
+            "individual_name": "Abri Pataud 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "621",
+            "archaeological_context_id": "291",
+            "individual_name": "Abri Pataud 4",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "8",
+            "age_at_death_min": "8",
+            "age_at_death_max": "8",
+            "age_unit": "MONTHS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_I",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "626",
+              "dated_sample_id": "626",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "21960",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "626",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "291",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "291",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-292",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 2, Trench 2 and 3 (South Sector)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "292",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 2, Trench 2 and 3 (South Sector)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "39",
+            "authors": "Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Occupations and status of the Abri Pataud (Dordogne, France) during the Final Gravettian",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Quaternary International",
+            "volume": "359-360",
+            "issue": "",
+            "pages": "406-422",
+            "doi": "https://doi.org/10.1016/j.quaint.2014.08.060",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "261",
+            "authors": "Villotte, S., Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Etude anthropologique des vestiges humains récemment découverts issus de la couche 2 de l'abri Pataud (Les Eyzies-de-Tayac-Sireuil, Dordogne, France)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "27",
+            "issue": "",
+            "pages": "158-188",
+            "doi": "https://doi.org/10.1007/s13219-015-0128-3",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "622",
+            "archaeological_context_id": "292",
+            "individual_name": "Abri Pataud 5",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "627",
+              "dated_sample_id": "627",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "21960",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "627",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "292",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "292",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-293",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 2, Trench 2, 3 and 4 (South Sector)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "293",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 2, Trench 2, 3 and 4 (South Sector)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "39",
+            "authors": "Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Occupations and status of the Abri Pataud (Dordogne, France) during the Final Gravettian",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Quaternary International",
+            "volume": "359-360",
+            "issue": "",
+            "pages": "406-422",
+            "doi": "https://doi.org/10.1016/j.quaint.2014.08.060",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "261",
+            "authors": "Villotte, S., Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Etude anthropologique des vestiges humains récemment découverts issus de la couche 2 de l'abri Pataud (Les Eyzies-de-Tayac-Sireuil, Dordogne, France)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "27",
+            "issue": "",
+            "pages": "158-188",
+            "doi": "https://doi.org/10.1007/s13219-015-0128-3",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "623",
+            "archaeological_context_id": "293",
+            "individual_name": "Abri Pataud 6",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "4 - 7",
+            "age_at_death_min": "4",
+            "age_at_death_max": "7",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "628",
+              "dated_sample_id": "628",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "21960",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "628",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "293",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "293",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-294",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 2",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "294",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 2",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "39",
+            "authors": "Chiotti, L., Nespoulet, R., Henry-Gambier, D.",
+            "year": "2015",
+            "title": "Occupations and status of the Abri Pataud (Dordogne, France) during the Final Gravettian",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Quaternary International",
+            "volume": "359-360",
+            "issue": "",
+            "pages": "406-422",
+            "doi": "https://doi.org/10.1016/j.quaint.2014.08.060",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "624",
+            "archaeological_context_id": "294",
+            "individual_name": "Abri Pataud 7",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Infant",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "629",
+              "dated_sample_id": "629",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "21960",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "629",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "294",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "294",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-295",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 4 (Lower layer)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "295",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 4 (Lower layer)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "615",
+            "archaeological_context_id": "295",
+            "individual_name": "Abri Pataud 8",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "621",
+              "dated_sample_id": "621",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26800",
+              "dates_range": "240",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "621",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "295",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "295",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-296",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 4 (Upper layer)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "296",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 4 (Upper layer)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "617",
+            "archaeological_context_id": "296",
+            "individual_name": "Abri Pataud 9",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "623",
+              "dated_sample_id": "623",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "25750",
+              "dates_range": "220",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "623",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "296",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "296",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-297",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 4 (Middle layer)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "297",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 4 (Middle layer)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "616",
+            "archaeological_context_id": "297",
+            "individual_name": "Abri Pataud 10",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "622",
+              "dated_sample_id": "622",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "26110",
+              "dates_range": "230",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "622",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "297",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "297",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-298",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 5 (Front lower)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "298",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 5 (Front lower)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "614",
+            "archaeological_context_id": "298",
+            "individual_name": "Abri Pataud 11",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "620",
+              "dated_sample_id": "620",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "28150",
+              "dates_range": "290",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "620",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "298",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "298",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-299",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 5 (Rear lower)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "299",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 5 (Rear lower)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "613",
+            "archaeological_context_id": "299",
+            "individual_name": "Abri Pataud 12",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "619",
+              "dated_sample_id": "619",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "28180",
+              "dates_range": "270",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "619",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "299",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "299",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-300",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 5 (Rear upper layer)",
+      "coordinates": [
+        1.0116855,
+        44.9383965
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "180",
+          "site_name": "Pataud",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Les Eyzies-de-Tayac-Sireuil",
+          "latitude": "44.9383965",
+          "longitude": "1.0116855",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "300",
+          "site_id": "180",
+          "stratigraphic_context": "Layer 5 (Rear upper layer)",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "107",
+            "authors": "Henry-Gambier, D., Villotte, S., Beauval, C., Brůžek, J., Grimaud-Hervé, D.",
+            "year": "2013",
+            "title": "Les vestiges humains: un assemblage original",
+            "editor": "Nespoulet, R., Chiotti, L., Henry-Gambier, D.",
+            "book": "Le Gravettien final de l'abri Pataud (Dordogne, France): fouilles et études 2005-2009",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "135-177",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "612",
+            "archaeological_context_id": "300",
+            "individual_name": "Abri Pataud 13",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "618",
+              "dated_sample_id": "618",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "28230",
+              "dates_range": "290",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "618",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "300",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "300",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "180",
+      "site_name": "Pataud",
+      "country": "France",
+      "region": "Dordogne",
+      "municipality": "Les Eyzies-de-Tayac-Sireuil",
+      "latitude": "44.9383965",
+      "longitude": "1.0116855",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-32051-01-01",
+      "end": "-26051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

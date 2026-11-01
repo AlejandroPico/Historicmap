@@ -10,8 +10,12 @@ for (const entry of manifest.entries) {
   if (createHash('sha256').update(bytes).digest('hex') !== entry.sha256) throw new Error(`Checksum mismatch ${entry.file}`);
   for(const [input,expected] of Object.entries(entry.inputSha256??{}))if(createHash('sha256').update(await readFile(new URL(input,root))).digest('hex')!==expected)throw Error(`Stale prepared input ${entry.file}: ${input}`);
   const data = JSON.parse(bytes);
-  if(entry.format==='ice-margin-model-index'){
-    if(data.referenceEpoch!==1950||data.temporalStepYears!==2500||data.consultationStart!==-10000||data.samples.length!==6)throw Error('Invalid ice model index');
+  if(entry.format==='dated-human-evidence'){
+    if(data.features.length!==entry.records||data.features.some(f=>f.geometry.type!=='Point'||!f.properties.canonicalFile||!f.properties.taxon||!f.properties.dateBasis||f.properties.start>f.properties.end))throw Error('Invalid human evidence');
+  }
+  else if(entry.format==='dated-human-evidence-index'){if(data.records!==entry.records||data.start!==-100000||data.end!==Math.max(...JSON.parse(await readFile(new URL('human-evidence.geojson',root),'utf8')).features.map(f=>f.properties.end))||!data.sites)throw Error('Invalid human evidence index');}
+  else if(entry.format==='ice-margin-model-index'){
+    if(data.referenceEpoch!==1950||data.temporalStepYears!==2500||data.consultationStart!==-78051||data.samples.length!==entry.records||data.samples.at(-1).ageBP!==80000)throw Error('Invalid ice model index');
     for(const r of data.samples)if(!manifest.entries.some(e=>e.file===r.file&&e.ageBP===r.ageBP))throw Error('Unregistered ice margin');
   }
   else if(entry.format==='dated-ice-margin-model'){

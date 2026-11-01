@@ -1,0 +1,651 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0179",
+  "identity": {
+    "qid": "",
+    "name": "Parpalló",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -23051,
+  "coverageEnd": -12051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-284",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Inside of the cavity (not specified)",
+      "coordinates": [
+        -0.2716473,
+        39.0041854
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "179",
+          "site_name": "Parpalló",
+          "country": "Spain",
+          "region": "Valencia",
+          "municipality": "Gandía",
+          "latitude": "39.0041854",
+          "longitude": "-0.2716473",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "284",
+          "site_id": "179",
+          "stratigraphic_context": "Inside of the cavity (not specified)",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "7",
+            "authors": "Arsuaga, J.L., Martínez, I., Villaverde, V., Lorenzo, C., Quam, R., Carretero, J.M., Gracia, A.",
+            "year": "2001",
+            "title": "Fósiles humanos del País Valenciano",
+            "editor": "Villaverde, V.",
+            "book": "De Neandertales a Cromañones, el inicio del poblamiento en las tierras valencianas",
+            "corporate_author": "Universitat de Valencia",
+            "city": "Valencia",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "265-322",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "602",
+            "archaeological_context_id": "284",
+            "individual_name": "Parpalló 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "605",
+            "archaeological_context_id": "284",
+            "individual_name": "Parpalló 30a",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "9 - 11",
+            "age_at_death_min": "9",
+            "age_at_death_max": "11",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "608",
+            "archaeological_context_id": "284",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "609",
+            "archaeological_context_id": "284",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Juvenile",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "610",
+            "archaeological_context_id": "284",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "284",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-285",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Left Gallery",
+      "coordinates": [
+        -0.2716473,
+        39.0041854
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "179",
+          "site_name": "Parpalló",
+          "country": "Spain",
+          "region": "Valencia",
+          "municipality": "Gandía",
+          "latitude": "39.0041854",
+          "longitude": "-0.2716473",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "285",
+          "site_id": "179",
+          "stratigraphic_context": "Left Gallery",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "7",
+            "authors": "Arsuaga, J.L., Martínez, I., Villaverde, V., Lorenzo, C., Quam, R., Carretero, J.M., Gracia, A.",
+            "year": "2001",
+            "title": "Fósiles humanos del País Valenciano",
+            "editor": "Villaverde, V.",
+            "book": "De Neandertales a Cromañones, el inicio del poblamiento en las tierras valencianas",
+            "corporate_author": "Universitat de Valencia",
+            "city": "Valencia",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "265-322",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "80",
+            "authors": "Garralda, M.D.",
+            "year": "1975",
+            "title": "Nuevos restos humanos de la Cueva del Parpalló (Gandía, Valencia)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Archivo de Prehistoria Levantina",
+            "volume": "14",
+            "issue": "",
+            "pages": "37-47",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "603",
+            "archaeological_context_id": "285",
+            "individual_name": "Parpalló 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "604",
+            "archaeological_context_id": "285",
+            "individual_name": "Parpalló 4",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "285",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-286",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Layer 2 (Central Gallery)",
+      "coordinates": [
+        -0.2716473,
+        39.0041854
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "179",
+          "site_name": "Parpalló",
+          "country": "Spain",
+          "region": "Valencia",
+          "municipality": "Gandía",
+          "latitude": "39.0041854",
+          "longitude": "-0.2716473",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "286",
+          "site_id": "179",
+          "stratigraphic_context": "Layer 2 (Central Gallery)",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "7",
+            "authors": "Arsuaga, J.L., Martínez, I., Villaverde, V., Lorenzo, C., Quam, R., Carretero, J.M., Gracia, A.",
+            "year": "2001",
+            "title": "Fósiles humanos del País Valenciano",
+            "editor": "Villaverde, V.",
+            "book": "De Neandertales a Cromañones, el inicio del poblamiento en las tierras valencianas",
+            "corporate_author": "Universitat de Valencia",
+            "city": "Valencia",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "265-322",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "606",
+            "archaeological_context_id": "286",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "15 - 17",
+            "age_at_death_min": "15",
+            "age_at_death_max": "17",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "286",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-287",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Layer 3 (Uncertain)",
+      "coordinates": [
+        -0.2716473,
+        39.0041854
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "179",
+          "site_name": "Parpalló",
+          "country": "Spain",
+          "region": "Valencia",
+          "municipality": "Gandía",
+          "latitude": "39.0041854",
+          "longitude": "-0.2716473",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "287",
+          "site_id": "179",
+          "stratigraphic_context": "Layer 3 (Uncertain)",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "7",
+            "authors": "Arsuaga, J.L., Martínez, I., Villaverde, V., Lorenzo, C., Quam, R., Carretero, J.M., Gracia, A.",
+            "year": "2001",
+            "title": "Fósiles humanos del País Valenciano",
+            "editor": "Villaverde, V.",
+            "book": "De Neandertales a Cromañones, el inicio del poblamiento en las tierras valencianas",
+            "corporate_author": "Universitat de Valencia",
+            "city": "Valencia",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "265-322",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "607",
+            "archaeological_context_id": "287",
+            "individual_name": "Parpalló 54",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "287",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-288",
+      "start": -23051,
+      "end": -19051,
+      "ageMinBP": 21000.0,
+      "ageMaxBP": 25000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Solutrean",
+      "layer": "Central-Est Sector (At a depth of 6.25 - 6.50 m)",
+      "coordinates": [
+        -0.2716473,
+        39.0041854
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Solutrean: 25000–21000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "179",
+          "site_name": "Parpalló",
+          "country": "Spain",
+          "region": "Valencia",
+          "municipality": "Gandía",
+          "latitude": "39.0041854",
+          "longitude": "-0.2716473",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "288",
+          "site_id": "179",
+          "stratigraphic_context": "Central-Est Sector (At a depth of 6.25 - 6.50 m)",
+          "culture_id": "12",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "12",
+          "culture_name": "Solutrean",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "25000",
+          "end_bp": "21000",
+          "region": "France and the Iberian Peninsula",
+          "description": "Western European technocomplex famous for bifacial laurel-leaf and shouldered point technologies.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "7",
+            "authors": "Arsuaga, J.L., Martínez, I., Villaverde, V., Lorenzo, C., Quam, R., Carretero, J.M., Gracia, A.",
+            "year": "2001",
+            "title": "Fósiles humanos del País Valenciano",
+            "editor": "Villaverde, V.",
+            "book": "De Neandertales a Cromañones, el inicio del poblamiento en las tierras valencianas",
+            "corporate_author": "Universitat de Valencia",
+            "city": "Valencia",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "265-322",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "611",
+            "archaeological_context_id": "288",
+            "individual_name": "Parpalló 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "17 - 18",
+            "age_at_death_min": "17",
+            "age_at_death_max": "18",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "288",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "179",
+      "site_name": "Parpalló",
+      "country": "Spain",
+      "region": "Valencia",
+      "municipality": "Gandía",
+      "latitude": "39.0041854",
+      "longitude": "-0.2716473",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-23051-01-01",
+      "end": "-19051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    },
+    {
+      "start": "-18051-01-01",
+      "end": "-12051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

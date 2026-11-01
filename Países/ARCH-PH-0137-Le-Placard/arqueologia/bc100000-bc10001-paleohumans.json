@@ -1,0 +1,3083 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0137",
+  "identity": {
+    "qid": "",
+    "name": "Le Placard",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -32551,
+  "coverageEnd": -12051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-212",
+      "start": -32551,
+      "end": -18251,
+      "ageMinBP": 20200.0,
+      "ageMaxBP": 34500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Full Upper Palaeolithic",
+      "layer": "Old collections",
+      "coordinates": [
+        0.4218233,
+        45.6895355
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Full Upper Palaeolithic: 34500–20200 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "137",
+          "site_name": "Le Placard",
+          "country": "France",
+          "region": "Charente",
+          "municipality": "Rochebertier",
+          "latitude": "45.6895355",
+          "longitude": "0.4218233",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "212",
+          "site_id": "137",
+          "stratigraphic_context": "Old collections",
+          "culture_id": "2",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "2",
+          "culture_name": "Full Upper Palaeolithic",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34500",
+          "end_bp": "20200",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "26",
+            "authors": "Boulestin, B., Henry-Gambier, D.",
+            "year": "2019",
+            "title": "",
+            "editor": "",
+            "book": "Les restes humains badegouliens de la Grotte du Placard: Cannibalisme et guerre il y a 20,000 ans",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "425",
+            "archaeological_context_id": "212",
+            "individual_name": "2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "212",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-213",
+      "start": -21051,
+      "end": -18051,
+      "ageMinBP": 20000.0,
+      "ageMaxBP": 23000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Badegoulian",
+      "layer": "Reworked levels",
+      "coordinates": [
+        0.4218233,
+        45.6895355
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Badegoulian: 23000–20000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "137",
+          "site_name": "Le Placard",
+          "country": "France",
+          "region": "Charente",
+          "municipality": "Rochebertier",
+          "latitude": "45.6895355",
+          "longitude": "0.4218233",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "213",
+          "site_id": "137",
+          "stratigraphic_context": "Reworked levels",
+          "culture_id": "13",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "13",
+          "culture_name": "Badegoulian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "23000",
+          "end_bp": "20000",
+          "region": "Mainly France and adjacent western Europe",
+          "description": "Post-Solutrean technocomplex marked by a major technological reorganization in lithic production during the Last Glacial Maximum.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "26",
+            "authors": "Boulestin, B., Henry-Gambier, D.",
+            "year": "2019",
+            "title": "",
+            "editor": "",
+            "book": "Les restes humains badegouliens de la Grotte du Placard: Cannibalisme et guerre il y a 20,000 ans",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "426",
+            "archaeological_context_id": "213",
+            "individual_name": "30, 33",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "373",
+              "dated_sample_id": "373",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "18550",
+              "dates_range": "60",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "373",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1499",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "374",
+              "dated_sample_id": "374",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "18550",
+              "dates_range": "60",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "374",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1500",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "213",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-214",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Old collections / A. de Maret excavations",
+      "coordinates": [
+        0.4218233,
+        45.6895355
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "137",
+          "site_name": "Le Placard",
+          "country": "France",
+          "region": "Charente",
+          "municipality": "Rochebertier",
+          "latitude": "45.6895355",
+          "longitude": "0.4218233",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "214",
+          "site_id": "137",
+          "stratigraphic_context": "Old collections / A. de Maret excavations",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "26",
+            "authors": "Boulestin, B., Henry-Gambier, D.",
+            "year": "2019",
+            "title": "",
+            "editor": "",
+            "book": "Les restes humains badegouliens de la Grotte du Placard: Cannibalisme et guerre il y a 20,000 ans",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "445",
+            "archaeological_context_id": "214",
+            "individual_name": "3, 87, 142",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "446",
+            "archaeological_context_id": "214",
+            "individual_name": "3, 87, 142",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "451",
+              "dated_sample_id": "451",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "15480",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "451",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1577",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "452",
+              "dated_sample_id": "452",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "15480",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "452",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1578",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "453",
+              "dated_sample_id": "453",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "15480",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "453",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1579",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "214",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-215",
+      "start": -21051,
+      "end": -18051,
+      "ageMinBP": 20000.0,
+      "ageMaxBP": 23000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Badegoulian",
+      "layer": "A. de Maret excavations / Old collections / Reworked levels / Sector Y and X",
+      "coordinates": [
+        0.4218233,
+        45.6895355
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Badegoulian: 23000–20000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "137",
+          "site_name": "Le Placard",
+          "country": "France",
+          "region": "Charente",
+          "municipality": "Rochebertier",
+          "latitude": "45.6895355",
+          "longitude": "0.4218233",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "215",
+          "site_id": "137",
+          "stratigraphic_context": "A. de Maret excavations / Old collections / Reworked levels / Sector Y and X",
+          "culture_id": "13",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "13",
+          "culture_name": "Badegoulian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "23000",
+          "end_bp": "20000",
+          "region": "Mainly France and adjacent western Europe",
+          "description": "Post-Solutrean technocomplex marked by a major technological reorganization in lithic production during the Last Glacial Maximum.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "26",
+            "authors": "Boulestin, B., Henry-Gambier, D.",
+            "year": "2019",
+            "title": "",
+            "editor": "",
+            "book": "Les restes humains badegouliens de la Grotte du Placard: Cannibalisme et guerre il y a 20,000 ans",
+            "corporate_author": "Archaeopress",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "427",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "428",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "429",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "430",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 4",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "431",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 5",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "432",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 6",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "433",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 7",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "434",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 8",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "435",
+            "archaeological_context_id": "215",
+            "individual_name": "9, 11, 18, 20, 50, 61, 62, 65, 67, 80, 97 - 104, 148 - 160 - individual 9",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "436",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "437",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "438",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "439",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "440",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "441",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "442",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "443",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "444",
+            "archaeological_context_id": "215",
+            "individual_name": "4 - 8, 10, 12 - 17, 19, 21, 22, 24 - 29, 31, 32, 34 - 49, 52 - 55, 58, 63, 64, 66, 68 - 75, 77 - 79, 83, 84, 88 - 90, 92 - 96, 105 - 107, 111 - 141, 143 - 147, 161 - 170, 172 - 174, 179 - 188",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "375",
+              "dated_sample_id": "375",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "375",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1501",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "376",
+              "dated_sample_id": "376",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "376",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1502",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "377",
+              "dated_sample_id": "377",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "377",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1503",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "378",
+              "dated_sample_id": "378",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "378",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1504",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "379",
+              "dated_sample_id": "379",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "379",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1505",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "380",
+              "dated_sample_id": "380",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "380",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1506",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "381",
+              "dated_sample_id": "381",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "381",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1507",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "382",
+              "dated_sample_id": "382",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "382",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1508",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "383",
+              "dated_sample_id": "383",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "383",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1509",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "384",
+              "dated_sample_id": "384",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "17750",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "384",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1510",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "385",
+              "dated_sample_id": "385",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "385",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1511",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "386",
+              "dated_sample_id": "386",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "386",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1512",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "387",
+              "dated_sample_id": "387",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "387",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1513",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "388",
+              "dated_sample_id": "388",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "388",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1514",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "389",
+              "dated_sample_id": "389",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "389",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1515",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "390",
+              "dated_sample_id": "390",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "390",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1516",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "391",
+              "dated_sample_id": "391",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "391",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1517",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "392",
+              "dated_sample_id": "392",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "392",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1518",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "393",
+              "dated_sample_id": "393",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "393",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1519",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "394",
+              "dated_sample_id": "394",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "394",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1520",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "395",
+              "dated_sample_id": "395",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "395",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1521",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "396",
+              "dated_sample_id": "396",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "396",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1522",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "397",
+              "dated_sample_id": "397",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "397",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1523",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "398",
+              "dated_sample_id": "398",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "398",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1524",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "399",
+              "dated_sample_id": "399",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "399",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1525",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "400",
+              "dated_sample_id": "400",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "400",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1526",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "401",
+              "dated_sample_id": "401",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "401",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1527",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "402",
+              "dated_sample_id": "402",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "402",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1528",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "403",
+              "dated_sample_id": "403",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "403",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1529",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "404",
+              "dated_sample_id": "404",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "404",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1530",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "405",
+              "dated_sample_id": "405",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "405",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1531",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "406",
+              "dated_sample_id": "406",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "406",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1532",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "407",
+              "dated_sample_id": "407",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "407",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1533",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "408",
+              "dated_sample_id": "408",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "408",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1534",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "409",
+              "dated_sample_id": "409",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "409",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1535",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "410",
+              "dated_sample_id": "410",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "410",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1536",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "411",
+              "dated_sample_id": "411",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "411",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1537",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "412",
+              "dated_sample_id": "412",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "412",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1538",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "413",
+              "dated_sample_id": "413",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "413",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1539",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "414",
+              "dated_sample_id": "414",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "414",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1540",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "415",
+              "dated_sample_id": "415",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "415",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1541",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "416",
+              "dated_sample_id": "416",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "416",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1542",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "417",
+              "dated_sample_id": "417",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "417",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1543",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "418",
+              "dated_sample_id": "418",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "418",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1544",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "419",
+              "dated_sample_id": "419",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "419",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1545",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "420",
+              "dated_sample_id": "420",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "420",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1546",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "421",
+              "dated_sample_id": "421",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "421",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1547",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "422",
+              "dated_sample_id": "422",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "422",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1548",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "423",
+              "dated_sample_id": "423",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "423",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1549",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "424",
+              "dated_sample_id": "424",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "424",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1550",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "425",
+              "dated_sample_id": "425",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "425",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1551",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "426",
+              "dated_sample_id": "426",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "426",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1552",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "427",
+              "dated_sample_id": "427",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "427",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1553",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "428",
+              "dated_sample_id": "428",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "428",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1554",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "429",
+              "dated_sample_id": "429",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "429",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1555",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "430",
+              "dated_sample_id": "430",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "430",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1556",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "431",
+              "dated_sample_id": "431",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "431",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1557",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "432",
+              "dated_sample_id": "432",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "432",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1558",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "433",
+              "dated_sample_id": "433",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "433",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1559",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "434",
+              "dated_sample_id": "434",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "434",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1560",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "435",
+              "dated_sample_id": "435",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "435",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1561",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "436",
+              "dated_sample_id": "436",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "436",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1562",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "437",
+              "dated_sample_id": "437",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "437",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1563",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "438",
+              "dated_sample_id": "438",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "438",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1564",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "439",
+              "dated_sample_id": "439",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "439",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1565",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "440",
+              "dated_sample_id": "440",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "440",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1566",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "441",
+              "dated_sample_id": "441",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "441",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1567",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "442",
+              "dated_sample_id": "442",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "442",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1568",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "443",
+              "dated_sample_id": "443",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "443",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1569",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "444",
+              "dated_sample_id": "444",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "444",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1570",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "445",
+              "dated_sample_id": "445",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "445",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1571",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "446",
+              "dated_sample_id": "446",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "446",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1572",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "447",
+              "dated_sample_id": "447",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "447",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1573",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "448",
+              "dated_sample_id": "448",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "448",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1574",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "449",
+              "dated_sample_id": "449",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "449",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1575",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "450",
+              "dated_sample_id": "450",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16760",
+              "dates_range": "70",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "450",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "1576",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "215",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [
+    {
+      "site": {
+        "site_id": "137",
+        "site_name": "Le Placard",
+        "country": "France",
+        "region": "Charente",
+        "municipality": "Rochebertier",
+        "latitude": "45.6895355",
+        "longitude": "0.4218233",
+        "description": "",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "context": {
+        "archaeological_context_id": "210",
+        "site_id": "137",
+        "stratigraphic_context": "Reworked levels",
+        "culture_id": "4",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "culture": {
+        "culture_id": "4",
+        "culture_name": "Uncertain",
+        "phase": "UNCERTAIN",
+        "start_bp": "60000",
+        "end_bp": "10000",
+        "region": "",
+        "description": "",
+        "updated_at": "2026-07-01T17:27:33.219413Z"
+      },
+      "bibliography": [
+        {
+          "bibliographic_reference_id": "26",
+          "authors": "Boulestin, B., Henry-Gambier, D.",
+          "year": "2019",
+          "title": "",
+          "editor": "",
+          "book": "Les restes humains badegouliens de la Grotte du Placard: Cannibalisme et guerre il y a 20,000 ans",
+          "corporate_author": "Archaeopress",
+          "city": "Oxford",
+          "journal": "",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "doi": "",
+          "is_book": "true",
+          "is_article_in_book": "false",
+          "updated_at": "2026-06-28T21:34:58.441884Z"
+        }
+      ],
+      "individuals": [
+        {
+          "individual_id": "423",
+          "archaeological_context_id": "210",
+          "individual_name": "23, 57, 60, 81, 82, 171",
+          "individual_type": "INDIVIDUAL",
+          "mni": "1",
+          "mni_statistical": "1",
+          "age_at_death_text": "Indeterminate Adult",
+          "age_at_death_min": "",
+          "age_at_death_max": "",
+          "age_unit": "",
+          "age_class_main": "ADULT",
+          "age_class_subcategory": "",
+          "sex": "INDETERMINATE",
+          "sex_certain": "false",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        }
+      ],
+      "dating": []
+    },
+    {
+      "site": {
+        "site_id": "137",
+        "site_name": "Le Placard",
+        "country": "France",
+        "region": "Charente",
+        "municipality": "Rochebertier",
+        "latitude": "45.6895355",
+        "longitude": "0.4218233",
+        "description": "",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "context": {
+        "archaeological_context_id": "211",
+        "site_id": "137",
+        "stratigraphic_context": "Reworked levels / A. de Maret excavations",
+        "culture_id": "4",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "culture": {
+        "culture_id": "4",
+        "culture_name": "Uncertain",
+        "phase": "UNCERTAIN",
+        "start_bp": "60000",
+        "end_bp": "10000",
+        "region": "",
+        "description": "",
+        "updated_at": "2026-07-01T17:27:33.219413Z"
+      },
+      "bibliography": [
+        {
+          "bibliographic_reference_id": "26",
+          "authors": "Boulestin, B., Henry-Gambier, D.",
+          "year": "2019",
+          "title": "",
+          "editor": "",
+          "book": "Les restes humains badegouliens de la Grotte du Placard: Cannibalisme et guerre il y a 20,000 ans",
+          "corporate_author": "Archaeopress",
+          "city": "Oxford",
+          "journal": "",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "doi": "",
+          "is_book": "true",
+          "is_article_in_book": "false",
+          "updated_at": "2026-06-28T21:34:58.441884Z"
+        }
+      ],
+      "individuals": [
+        {
+          "individual_id": "424",
+          "archaeological_context_id": "211",
+          "individual_name": "76, 85, 86",
+          "individual_type": "INDIVIDUAL",
+          "mni": "1",
+          "mni_statistical": "1",
+          "age_at_death_text": "Inmature / Indeterminate Adult",
+          "age_at_death_min": "",
+          "age_at_death_max": "",
+          "age_unit": "",
+          "age_class_main": "SUBADULT_ADULT",
+          "age_class_subcategory": "",
+          "sex": "INDETERMINATE",
+          "sex_certain": "false",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        }
+      ],
+      "dating": []
+    }
+  ],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "137",
+      "site_name": "Le Placard",
+      "country": "France",
+      "region": "Charente",
+      "municipality": "Rochebertier",
+      "latitude": "45.6895355",
+      "longitude": "0.4218233",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-32551-01-01",
+      "end": "-12051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-7619CD882E77C8",
+  "identity": {
+    "qid": "",
+    "name": "Kalamakia Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -93051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1254",
+      "start": -100000,
+      "end": -93051,
+      "ageMinBP": 95000.0,
+      "ageMaxBP": 123000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "II",
+      "coordinates": [
+        22.364376,
+        36.676065
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Harvati, K., Darlas, A., Bailey, S. E., Rein, T. R., El Zaatari, S., Fiorenza, L., ... & Psathi, E. (2013). New Neanderthal remains from Mani peninsula, southern Greece: the Kalamakia middle Paleolithic cave site. Journal of Human Evolution, 64(6), 486-499.",
+      "originalRow": 1254,
+      "originalProperties": {
+        "A": "Harvati, K., Darlas, A., Bailey, S. E., Rein, T. R., El Zaatari, S., Fiorenza, L., ... & Psathi, E. (2013). New Neanderthal remains from Mani peninsula, southern Greece: the Kalamakia middle Paleolithic cave site. Journal of Human Evolution, 64(6), 486-499.",
+        "B": "Homo neanderthalensis",
+        "C": "22.364376",
+        "D": "36.676065000000001",
+        "E": "Kalamakia Cave",
+        "F": "II",
+        "G": "123000",
+        "H": "109000",
+        "I": "95000",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-100000-01-01",
+      "end": "-93051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

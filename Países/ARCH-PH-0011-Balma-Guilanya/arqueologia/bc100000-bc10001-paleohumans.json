@@ -1,0 +1,453 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0011",
+  "identity": {
+    "qid": "",
+    "name": "Balma Guilanyà",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -12051,
+  "coverageEnd": -9751,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-16",
+      "start": -12051,
+      "end": -9751,
+      "ageMinBP": 11700.0,
+      "ageMaxBP": 14000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Azilian",
+      "layer": "Layer E",
+      "coordinates": [
+        1.639612,
+        41.9911068
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Azilian: 14000–11700 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "11",
+          "site_name": "Balma Guilanyà",
+          "country": "Spain",
+          "region": "Lleida",
+          "municipality": "Navès",
+          "latitude": "41.9911068",
+          "longitude": "1.639612",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "16",
+          "site_id": "11",
+          "stratigraphic_context": "Layer E",
+          "culture_id": "18",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "18",
+          "culture_name": "Azilian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "14000",
+          "end_bp": "11700",
+          "region": "Western Europe",
+          "description": "Final Upper Palaeolithic technocomplex marked by microlithic armatures and painted or engraved pebbles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "6",
+            "authors": "Arenas del Amo, S., López, J.L., Martínez-Moreno, J., Mora, R.",
+            "year": "2024",
+            "title": "Odontological, pathological and contextual patterns of the Late Glacial human tooth assemblage from Level E at Balma Guilanyà (south-eastern Pyrenees, Iberian Peninsula)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Archaeological and Anthropological Sciences",
+            "volume": "16",
+            "issue": "147",
+            "pages": "",
+            "doi": "https://doi.org/10.1007/s12520-024-02021-5",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "129",
+            "authors": "Lalueza, C",
+            "year": "1996",
+            "title": "Les restes humanes del jaciment epipaleolític de la Balma de Guilanyà (Navès, Solsonès)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Pyrenae",
+            "volume": "27",
+            "issue": "",
+            "pages": "279-285",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "192",
+            "authors": "Ruiz, J., García-Sívoli, C., Martínez-Moreno, J., Subirá, M.E.",
+            "year": "2006",
+            "title": "Los restos humanos del Tardiglaciar de Balma Guilanyà",
+            "editor": "",
+            "book": "La cuenca Mediterránea durante el Paleolítico superior",
+            "corporate_author": "",
+            "city": "Nerja",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "458-467",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "232",
+            "authors": "Terradas, X., Pallarés, M., Mora, R., Martínez, J.",
+            "year": "1993",
+            "title": "Estudi preliminar de les ocupacions humanes de la balma de Guilanyà (Navès, Solsonès)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Revista d’Arqueologia de Ponent",
+            "volume": "3",
+            "issue": "",
+            "pages": "231-248",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "72",
+            "archaeological_context_id": "16",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "73",
+            "archaeological_context_id": "16",
+            "individual_name": "Individual 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "±5",
+            "age_at_death_min": "5",
+            "age_at_death_max": "5",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "74",
+            "archaeological_context_id": "16",
+            "individual_name": "Individual 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "20 - 25",
+            "age_at_death_min": "20",
+            "age_at_death_max": "25",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "75",
+            "archaeological_context_id": "16",
+            "individual_name": "Individual 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": ">40",
+            "age_at_death_min": "40",
+            "age_at_death_max": "",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "111",
+              "dated_sample_id": "111",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11095",
+              "dates_range": "255",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "111",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "379",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "112",
+              "dated_sample_id": "112",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11095",
+              "dates_range": "255",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "112",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "380",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "113",
+              "dated_sample_id": "113",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11095",
+              "dates_range": "255",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "113",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "381",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "114",
+              "dated_sample_id": "114",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11095",
+              "dates_range": "255",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "114",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "382",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "115",
+              "dated_sample_id": "115",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11095",
+              "dates_range": "255",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "115",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "383",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "116",
+              "dated_sample_id": "116",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11095",
+              "dates_range": "255",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "116",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "384",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "117",
+              "dated_sample_id": "117",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "10940",
+              "dates_range": "50",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "117",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "16",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Charcoal (Corylus)",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "16",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "11",
+      "site_name": "Balma Guilanyà",
+      "country": "Spain",
+      "region": "Lleida",
+      "municipality": "Navès",
+      "latitude": "41.9911068",
+      "longitude": "1.639612",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-12051-01-01",
+      "end": "-9751-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0016",
+  "identity": {
+    "qid": "",
+    "name": "Beneito",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -23051,
+  "coverageEnd": -19051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-24",
+      "start": -23051,
+      "end": -19051,
+      "ageMinBP": 21000.0,
+      "ageMaxBP": 25000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Solutrean",
+      "layer": "Layer 2",
+      "coordinates": [
+        -0.4663666,
+        38.7981418
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Solutrean: 25000–21000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "16",
+          "site_name": "Beneito",
+          "country": "Spain",
+          "region": "Alicante",
+          "municipality": "Muro",
+          "latitude": "38.7981418",
+          "longitude": "-0.4663666",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "24",
+          "site_id": "16",
+          "stratigraphic_context": "Layer 2",
+          "culture_id": "12",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "12",
+          "culture_name": "Solutrean",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "25000",
+          "end_bp": "21000",
+          "region": "France and the Iberian Peninsula",
+          "description": "Western European technocomplex famous for bifacial laurel-leaf and shouldered point technologies.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "118",
+            "authors": "Iturbe, G., Fumanal, M.P., Carrión, J.S., Cortell, E., Martínez, R., Guillem, P.M., Garralda, M.D., Vandermeersch, B.",
+            "year": "1993",
+            "title": "Cova Beneito (Muro, Alicante): Una perspectiva interdisciplinar",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Recerques del Museu d’Alcoi",
+            "volume": "2",
+            "issue": "",
+            "pages": "23-88",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "90",
+            "archaeological_context_id": "24",
+            "individual_name": "Beneito 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "91",
+            "archaeological_context_id": "24",
+            "individual_name": "Beneito 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Infant",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "122",
+              "dated_sample_id": "122",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16180",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "122",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "424",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "123",
+              "dated_sample_id": "123",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "16180",
+              "dates_range": "140",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "123",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "425",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "24",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-25",
+      "start": -23051,
+      "end": -19051,
+      "ageMinBP": 21000.0,
+      "ageMaxBP": 25000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Solutrean",
+      "layer": "Layer 3",
+      "coordinates": [
+        -0.4663666,
+        38.7981418
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Solutrean: 25000–21000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "16",
+          "site_name": "Beneito",
+          "country": "Spain",
+          "region": "Alicante",
+          "municipality": "Muro",
+          "latitude": "38.7981418",
+          "longitude": "-0.4663666",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "25",
+          "site_id": "16",
+          "stratigraphic_context": "Layer 3",
+          "culture_id": "12",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "12",
+          "culture_name": "Solutrean",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "25000",
+          "end_bp": "21000",
+          "region": "France and the Iberian Peninsula",
+          "description": "Western European technocomplex famous for bifacial laurel-leaf and shouldered point technologies.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "118",
+            "authors": "Iturbe, G., Fumanal, M.P., Carrión, J.S., Cortell, E., Martínez, R., Guillem, P.M., Garralda, M.D., Vandermeersch, B.",
+            "year": "1993",
+            "title": "Cova Beneito (Muro, Alicante): Una perspectiva interdisciplinar",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Recerques del Museu d’Alcoi",
+            "volume": "2",
+            "issue": "",
+            "pages": "23-88",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "89",
+            "archaeological_context_id": "25",
+            "individual_name": "Beneito 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "12",
+            "age_at_death_min": "12",
+            "age_at_death_max": "12",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "121",
+              "dated_sample_id": "121",
+              "dating_technique_id": "3",
+              "dates_bp_uncal": "18025",
+              "dates_range": "1623",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "121",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "25",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Sediment",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "3",
+              "dating_technique_name": "Thermoluminescence",
+              "description": "A technique that dates crystalline materials, such as heated flint or pottery, by measuring the light released when the sample is reheated after storing natural radiation over time.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "25",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "16",
+      "site_name": "Beneito",
+      "country": "Spain",
+      "region": "Alicante",
+      "municipality": "Muro",
+      "latitude": "38.7981418",
+      "longitude": "-0.4663666",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-23051-01-01",
+      "end": "-19051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

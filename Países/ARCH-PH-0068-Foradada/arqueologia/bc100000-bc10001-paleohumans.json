@@ -1,0 +1,189 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0068",
+  "identity": {
+    "qid": "",
+    "name": "Foradada",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -10001,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [],
+  "undatedEvidence": [
+    {
+      "site": {
+        "site_id": "68",
+        "site_name": "Foradada",
+        "country": "Spain",
+        "region": "Alicante",
+        "municipality": "Xábia",
+        "latitude": "38.7893909",
+        "longitude": "0.1633256",
+        "description": "",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "context": {
+        "archaeological_context_id": "116",
+        "site_id": "68",
+        "stratigraphic_context": "Layer 2 (Sector 2)",
+        "culture_id": "4",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "culture": {
+        "culture_id": "4",
+        "culture_name": "Uncertain",
+        "phase": "UNCERTAIN",
+        "start_bp": "60000",
+        "end_bp": "10000",
+        "region": "",
+        "description": "",
+        "updated_at": "2026-07-01T17:27:33.219413Z"
+      },
+      "bibliography": [
+        {
+          "bibliographic_reference_id": "33",
+          "authors": "Casabó, J.A.",
+          "year": "2014",
+          "title": "La esfera de Cova Foradada (Xàbia, Marina Alta), un objeto singular de los inicios del Paleolítico superior",
+          "editor": "",
+          "book": "",
+          "corporate_author": "",
+          "city": "",
+          "journal": "Quaderns de prehistòria i arqueologia de Castelló",
+          "volume": "32",
+          "issue": "",
+          "pages": "5-12",
+          "doi": "",
+          "is_book": "false",
+          "is_article_in_book": "false",
+          "updated_at": "2026-06-28T21:34:58.441884Z"
+        },
+        {
+          "bibliographic_reference_id": "276",
+          "authors": "de Balbín, R.",
+          "year": "2015",
+          "title": "Death in the cave. Human remains from the Upper Palaeolithic in the Iberian Peninsula",
+          "editor": "Rocha, L., Bueno-Ramirez, P., Branco, G.",
+          "book": "Death as Archaeology of Transition: Thoughts and Materials",
+          "corporate_author": "British Archaeological Reports International Series 2708",
+          "city": "Oxford",
+          "journal": "",
+          "volume": "",
+          "issue": "",
+          "pages": "1-27",
+          "doi": "",
+          "is_book": "false",
+          "is_article_in_book": "true",
+          "updated_at": "2026-06-28T21:34:58.441884Z"
+        }
+      ],
+      "individuals": [
+        {
+          "individual_id": "239",
+          "archaeological_context_id": "116",
+          "individual_name": "",
+          "individual_type": "INDIVIDUAL",
+          "mni": "1",
+          "mni_statistical": "1",
+          "age_at_death_text": "Indeterminate Adult",
+          "age_at_death_min": "",
+          "age_at_death_max": "",
+          "age_unit": "",
+          "age_class_main": "ADULT",
+          "age_class_subcategory": "",
+          "sex": "INDETERMINATE",
+          "sex_certain": "false",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        {
+          "individual_id": "240",
+          "archaeological_context_id": "116",
+          "individual_name": "",
+          "individual_type": "INDIVIDUAL",
+          "mni": "1",
+          "mni_statistical": "1",
+          "age_at_death_text": "3 - 5",
+          "age_at_death_min": "3",
+          "age_at_death_max": "5",
+          "age_unit": "YEARS",
+          "age_class_main": "SUBADULT",
+          "age_class_subcategory": "INFANT_II",
+          "sex": "INDETERMINATE",
+          "sex_certain": "false",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        }
+      ],
+      "dating": [
+        {
+          "result": {
+            "dating_result_id": "277",
+            "dated_sample_id": "277",
+            "dating_technique_id": "2",
+            "dates_bp_uncal": "28310",
+            "dates_range": "170",
+            "notes": "",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          "sample": {
+            "dated_sample_id": "277",
+            "sample_origin": "CONTEXT",
+            "archaeological_context_id": "116",
+            "bone_id": "",
+            "skeleton_id": "",
+            "material": "Charcoal",
+            "dating_type": "INDIRECT",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          "technique": {
+            "dating_technique_id": "2",
+            "dating_technique_name": "Radiocarbon",
+            "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        }
+      ]
+    }
+  ],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "68",
+      "site_name": "Foradada",
+      "country": "Spain",
+      "region": "Alicante",
+      "municipality": "Xábia",
+      "latitude": "38.7893909",
+      "longitude": "0.1633256",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ],
+  "coverageIsConsultationEnvelope": true
+}

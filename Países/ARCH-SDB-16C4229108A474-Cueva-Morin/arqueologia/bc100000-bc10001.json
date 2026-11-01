@@ -1,0 +1,110 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-16C4229108A474",
+  "identity": {
+    "qid": "",
+    "name": "Cueva Morin",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -46020,
+  "coverageEnd": -37541,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-854",
+      "start": -46020,
+      "end": -42684,
+      "ageMinBP": 44633.0,
+      "ageMaxBP": 47969.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "11",
+      "coordinates": [
+        -3.85838,
+        43.35843
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Higham, T., Douka, K., Wood, R., Ramsey, C. B., Brock, F., Basell, L., ... & Bergman, C. (2014). The timing and spatiotemporal patterning of Neanderthal disappearance. Nature, 512(7514), 306.",
+      "originalRow": 854,
+      "originalProperties": {
+        "A": "Higham, T., Douka, K., Wood, R., Ramsey, C. B., Brock, F., Basell, L., ... & Bergman, C. (2014). The timing and spatiotemporal patterning of Neanderthal disappearance. Nature, 512(7514), 306.",
+        "B": "Homo neanderthalensis",
+        "C": "-3.8583799999999999",
+        "D": "43.358429999999998",
+        "E": "Cueva Morin",
+        "F": "11",
+        "G": "47969",
+        "H": "46301",
+        "I": "44633",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2422",
+      "start": -40557,
+      "end": -37541,
+      "ageMinBP": 39490.0,
+      "ageMaxBP": 42506.0,
+      "taxon": "Homo sapiens",
+      "culture": "Protoaurignacian, Archaic Aurignacian",
+      "layer": "level 8",
+      "coordinates": [
+        -3.85838,
+        43.35843
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Bradtmöller, M., Sarmiento, A., Perales, U., & Zuluaga, M. C. (2016). Investigation of Upper Palaeolithic adhesive residues from Cueva Morín, Northern Spain. Journal of Archaeological Science: Reports, 7, 1-13.",
+      "originalRow": 2422,
+      "originalProperties": {
+        "A": "Bradtmöller, M., Sarmiento, A., Perales, U., & Zuluaga, M. C. (2016). Investigation of Upper Palaeolithic adhesive residues from Cueva Morín, Northern Spain. Journal of Archaeological Science: Reports, 7, 1-13.",
+        "B": "Homo sapiens",
+        "C": "-3.8583799999999999",
+        "D": "43.358429999999998",
+        "E": "Cueva Morin",
+        "F": "level 8",
+        "G": "42506",
+        "H": "40998",
+        "I": "39490",
+        "J": "Protoaurignacian, Archaic Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-46020-01-01",
+      "end": "-42684-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    },
+    {
+      "start": "-40557-01-01",
+      "end": "-37541-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

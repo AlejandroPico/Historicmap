@@ -1,0 +1,701 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0056",
+  "identity": {
+    "qid": "",
+    "name": "El Castillo",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -39051,
+  "coverageEnd": -12051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-97",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Layer 8",
+      "coordinates": [
+        -3.9654885,
+        43.292219
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "56",
+          "site_name": "El Castillo",
+          "country": "Spain",
+          "region": "Cantabria",
+          "municipality": "Puente Viesgo",
+          "latitude": "43.292219",
+          "longitude": "-3.9654885",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "97",
+          "site_id": "56",
+          "stratigraphic_context": "Layer 8",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "252",
+            "authors": "Vallois, V., Delmas, L.",
+            "year": "1976",
+            "title": "Los frontales de la cueva de El Castillo (España)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Trabajos de Prehistoria",
+            "volume": "33",
+            "issue": "",
+            "pages": "113-120",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "212",
+            "archaeological_context_id": "97",
+            "individual_name": "F1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "40",
+            "age_at_death_min": "40",
+            "age_at_death_max": "40",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "MATURE_ADULT",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "213",
+            "archaeological_context_id": "97",
+            "individual_name": "F2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "35 - 55",
+            "age_at_death_min": "35",
+            "age_at_death_max": "55",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "214",
+            "archaeological_context_id": "97",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "97",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-98",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Layer 18b-18c",
+      "coordinates": [
+        -3.9654885,
+        43.292219
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "56",
+          "site_name": "El Castillo",
+          "country": "Spain",
+          "region": "Cantabria",
+          "municipality": "Puente Viesgo",
+          "latitude": "43.292219",
+          "longitude": "-3.9654885",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "98",
+          "site_id": "56",
+          "stratigraphic_context": "Layer 18b-18c",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "82",
+            "authors": "Garralda, M.D., Maíllo-Fernández, J.-M., Higham, T., Neira, A., de Quirós, F.B.",
+            "year": "2019",
+            "title": "The Gravettian child mandible from El Castillo Cave (Puente Viesgo, Cantabria, Spain)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "American Journal of Physical Anthropology",
+            "volume": "170",
+            "issue": "3",
+            "pages": "331-350",
+            "doi": "https://doi.org/10.1002/ajpa.23906",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "215",
+            "archaeological_context_id": "98",
+            "individual_name": "Castillo A",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "216",
+            "archaeological_context_id": "98",
+            "individual_name": "Castillo B",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "267",
+              "dated_sample_id": "267",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "40700",
+              "dates_range": "1700",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "267",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "98",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Charcoal",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "98",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-99",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Layer 18c",
+      "coordinates": [
+        -3.9654885,
+        43.292219
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "56",
+          "site_name": "El Castillo",
+          "country": "Spain",
+          "region": "Cantabria",
+          "municipality": "Puente Viesgo",
+          "latitude": "43.292219",
+          "longitude": "-3.9654885",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "99",
+          "site_id": "56",
+          "stratigraphic_context": "Layer 18c",
+          "culture_id": "7",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "82",
+            "authors": "Garralda, M.D., Maíllo-Fernández, J.-M., Higham, T., Neira, A., de Quirós, F.B.",
+            "year": "2019",
+            "title": "The Gravettian child mandible from El Castillo Cave (Puente Viesgo, Cantabria, Spain)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "American Journal of Physical Anthropology",
+            "volume": "170",
+            "issue": "3",
+            "pages": "331-350",
+            "doi": "https://doi.org/10.1002/ajpa.23906",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "218",
+            "archaeological_context_id": "99",
+            "individual_name": "Castillo C",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "4 - 5",
+            "age_at_death_min": "4",
+            "age_at_death_max": "5",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "269",
+              "dated_sample_id": "269",
+              "dating_technique_id": "5",
+              "dates_bp_uncal": "24720",
+              "dates_range": "210",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "269",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "905",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "5",
+              "dating_technique_name": "Radiocarbon (Ultrafiltered bone collagen)",
+              "description": "A radiocarbon method in which bone collagen is purified by ultrafiltration before dating, improving accuracy by removing contaminants and degraded molecules.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "270",
+              "dated_sample_id": "270",
+              "dating_technique_id": "5",
+              "dates_bp_uncal": "24720",
+              "dates_range": "210",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "270",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "906",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "5",
+              "dating_technique_name": "Radiocarbon (Ultrafiltered bone collagen)",
+              "description": "A radiocarbon method in which bone collagen is purified by ultrafiltration before dating, improving accuracy by removing contaminants and degraded molecules.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "271",
+              "dated_sample_id": "271",
+              "dating_technique_id": "5",
+              "dates_bp_uncal": "24720",
+              "dates_range": "210",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "271",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "907",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "5",
+              "dating_technique_name": "Radiocarbon (Ultrafiltered bone collagen)",
+              "description": "A radiocarbon method in which bone collagen is purified by ultrafiltration before dating, improving accuracy by removing contaminants and degraded molecules.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "272",
+              "dated_sample_id": "272",
+              "dating_technique_id": "5",
+              "dates_bp_uncal": "24720",
+              "dates_range": "210",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "272",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "908",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "5",
+              "dating_technique_name": "Radiocarbon (Ultrafiltered bone collagen)",
+              "description": "A radiocarbon method in which bone collagen is purified by ultrafiltration before dating, improving accuracy by removing contaminants and degraded molecules.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "273",
+              "dated_sample_id": "273",
+              "dating_technique_id": "5",
+              "dates_bp_uncal": "24720",
+              "dates_range": "210",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "273",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "909",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "5",
+              "dating_technique_name": "Radiocarbon (Ultrafiltered bone collagen)",
+              "description": "A radiocarbon method in which bone collagen is purified by ultrafiltration before dating, improving accuracy by removing contaminants and degraded molecules.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "99",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-100",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Layer 18c",
+      "coordinates": [
+        -3.9654885,
+        43.292219
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "56",
+          "site_name": "El Castillo",
+          "country": "Spain",
+          "region": "Cantabria",
+          "municipality": "Puente Viesgo",
+          "latitude": "43.292219",
+          "longitude": "-3.9654885",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "100",
+          "site_id": "56",
+          "stratigraphic_context": "Layer 18c",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "231",
+            "authors": "Tejero, J.M., Avezuela, B., White, R., Ranlett, S., Quam, R., Tattersall, I., Bernaldo de Quirós, F.",
+            "year": "2010",
+            "title": "Un pedazo de la Prehistoria cántabra en Nueva York. Las Colecciones de la Cueva de El Castillo (Puente Viesgo, Cantabria) en el American Museum of Natural History (Nueva York, EEUU)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Munibe Antropologia-Arkeologia",
+            "volume": "61",
+            "issue": "",
+            "pages": "5-16",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "217",
+            "archaeological_context_id": "100",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Infant",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "268",
+              "dated_sample_id": "268",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "39800",
+              "dates_range": "1400",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "268",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "100",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Charcoal",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "100",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "56",
+      "site_name": "El Castillo",
+      "country": "Spain",
+      "region": "Cantabria",
+      "municipality": "Puente Viesgo",
+      "latitude": "43.292219",
+      "longitude": "-3.9654885",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-39051-01-01",
+      "end": "-32551-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    },
+    {
+      "start": "-32051-01-01",
+      "end": "-26051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    },
+    {
+      "start": "-18051-01-01",
+      "end": "-12051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

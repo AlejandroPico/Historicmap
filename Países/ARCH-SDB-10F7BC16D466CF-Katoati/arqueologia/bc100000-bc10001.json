@@ -1,0 +1,110 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-10F7BC16D466CF",
+  "identity": {
+    "qid": "",
+    "name": "Katoati",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -68051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2689",
+      "start": -82051,
+      "end": -68051,
+      "ageMinBP": 70000.0,
+      "ageMaxBP": 84000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Middle Paleolithic",
+      "layer": "section 1, S5",
+      "coordinates": [
+        74.53,
+        27.34
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Blinkhorn, J., Achyuthan, H., Ditchfield, P., & Petraglia, M. (2017). Palaeoenvironmental dynamics and palaeolithic occupation at Katoati, Thar Desert, India. Quaternary Research, 87(2), 298-313.",
+      "originalRow": 2689,
+      "originalProperties": {
+        "A": "Blinkhorn, J., Achyuthan, H., Ditchfield, P., & Petraglia, M. (2017). Palaeoenvironmental dynamics and palaeolithic occupation at Katoati, Thar Desert, India. Quaternary Research, 87(2), 298-313.",
+        "B": "Homo sapiens",
+        "C": "74.53",
+        "D": "27.34",
+        "E": "Katoati",
+        "F": "section 1, S5",
+        "G": "84000",
+        "H": "77000",
+        "I": "70000",
+        "J": "Middle Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2690",
+      "start": -100000,
+      "end": -82651,
+      "ageMinBP": 84600.0,
+      "ageMaxBP": 106600.0,
+      "taxon": "Homo sapiens",
+      "culture": "Middle Paleolithic",
+      "layer": "section 1, S8",
+      "coordinates": [
+        74.53,
+        27.34
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Blinkhorn, J., Achyuthan, H., Ditchfield, P., & Petraglia, M. (2017). Palaeoenvironmental dynamics and palaeolithic occupation at Katoati, Thar Desert, India. Quaternary Research, 87(2), 298-313.",
+      "originalRow": 2690,
+      "originalProperties": {
+        "A": "Blinkhorn, J., Achyuthan, H., Ditchfield, P., & Petraglia, M. (2017). Palaeoenvironmental dynamics and palaeolithic occupation at Katoati, Thar Desert, India. Quaternary Research, 87(2), 298-313.",
+        "B": "Homo sapiens",
+        "C": "74.53",
+        "D": "27.34",
+        "E": "Katoati",
+        "F": "section 1, S8",
+        "G": "106600",
+        "H": "95600",
+        "I": "84600",
+        "J": "Middle Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-100000-01-01",
+      "end": "-82651-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    },
+    {
+      "start": "-82051-01-01",
+      "end": "-68051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

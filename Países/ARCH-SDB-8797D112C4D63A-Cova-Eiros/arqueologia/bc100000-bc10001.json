@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-8797D112C4D63A",
+  "identity": {
+    "qid": "",
+    "name": "Cova Eiros",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -39912,
+  "coverageEnd": -35674,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-822",
+      "start": -39912,
+      "end": -35674,
+      "ageMinBP": 37623.0,
+      "ageMaxBP": 41861.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "3",
+      "coordinates": [
+        -7.21015,
+        42.75224
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Rey-Rodríguez, I., López-García, J. M., Bennasar, M., Bañuls-Cardona, S., Blain, H. A., Blanco-Lapaz, Á., ... & Agustí, J. (2016). Last Neanderthals and first Anatomically Modern Humans in the NW Iberian Peninsula: climatic and environmental conditions inferred from the Cova Eirós small-vertebrate assemblage during MIS 3. Quaternary Science Reviews, 151, 185-197.",
+      "originalRow": 822,
+      "originalProperties": {
+        "A": "Rey-Rodríguez, I., López-García, J. M., Bennasar, M., Bañuls-Cardona, S., Blain, H. A., Blanco-Lapaz, Á., ... & Agustí, J. (2016). Last Neanderthals and first Anatomically Modern Humans in the NW Iberian Peninsula: climatic and environmental conditions inferred from the Cova Eirós small-vertebrate assemblage during MIS 3. Quaternary Science Reviews, 151, 185-197.",
+        "B": "Homo neanderthalensis",
+        "C": "-7.2101499999999996",
+        "D": "42.75224",
+        "E": "Cova Eiros",
+        "F": "3",
+        "G": "41861",
+        "H": "39742",
+        "I": "37623",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-39912-01-01",
+      "end": "-35674-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

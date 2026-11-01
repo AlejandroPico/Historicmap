@@ -19,12 +19,806 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Corona de Aragón](./ARAGON-Corona-de-Aragon/entidad.json) | ARAGON | 5 | 0 | 23 | 39 |
 | [Condado de Aragón](./ARAGON-COUNTY-Condado-de-Aragon/entidad.json) | ARAGON-COUNTY | 0 | 0 | 8 | 0 |
 | [Reino de Aragón](./ARAGON-KINGDOM-Reino-de-Aragon/entidad.json) | ARAGON-KINGDOM | 0 | 0 | 6 | 10 |
+| [Abeilles](./ARCH-PH-0001-Abeilles/entidad.json) | ARCH-PH-0001 | 0 | 0 | 0 | 0 |
+| [Addaura](./ARCH-PH-0002-Addaura/entidad.json) | ARCH-PH-0002 | 0 | 0 | 0 | 0 |
+| [Andernach-Martinsberg](./ARCH-PH-0003-Andernach-Martinsberg/entidad.json) | ARCH-PH-0003 | 0 | 0 | 0 | 0 |
+| [Arene Candide](./ARCH-PH-0004-Arene-Candide/entidad.json) | ARCH-PH-0004 | 0 | 0 | 0 | 0 |
+| [Arudy](./ARCH-PH-0005-Arudy/entidad.json) | ARCH-PH-0005 | 0 | 0 | 0 | 0 |
+| [Aurensan](./ARCH-PH-0006-Aurensan/entidad.json) | ARCH-PH-0006 | 0 | 0 | 0 | 0 |
+| [Aven des Iboussières](./ARCH-PH-0007-Aven-des-Iboussieres/entidad.json) | ARCH-PH-0007 | 0 | 0 | 0 | 0 |
+| [Badegoule](./ARCH-PH-0009-Badegoule/entidad.json) | ARCH-PH-0009 | 0 | 0 | 0 | 0 |
+| [Balla](./ARCH-PH-0010-Balla/entidad.json) | ARCH-PH-0010 | 0 | 0 | 0 | 0 |
+| [Balma Guilanyà](./ARCH-PH-0011-Balma-Guilanya/entidad.json) | ARCH-PH-0011 | 0 | 0 | 0 | 0 |
+| [Baousso da Torre](./ARCH-PH-0012-Baousso-da-Torre/entidad.json) | ARCH-PH-0012 | 0 | 0 | 0 | 0 |
+| [Barma Grande](./ARCH-PH-0013-Barma-Grande/entidad.json) | ARCH-PH-0013 | 0 | 0 | 0 | 0 |
+| [Barranc Blanc](./ARCH-PH-0014-Barranc-Blanc/entidad.json) | ARCH-PH-0014 | 0 | 0 | 0 | 0 |
+| [Bédeilhac](./ARCH-PH-0015-Bedeilhac/entidad.json) | ARCH-PH-0015 | 0 | 0 | 0 | 0 |
+| [Beneito](./ARCH-PH-0016-Beneito/entidad.json) | ARCH-PH-0016 | 0 | 0 | 0 | 0 |
+| [Bervavölgy](./ARCH-PH-0017-Bervavolgy/entidad.json) | ARCH-PH-0017 | 0 | 0 | 0 | 0 |
+| [Bethenas](./ARCH-PH-0018-Bethenas/entidad.json) | ARCH-PH-0018 | 0 | 0 | 0 | 0 |
+| [Bettelküche](./ARCH-PH-0019-Bettelkuche/entidad.json) | ARCH-PH-0019 | 0 | 0 | 0 | 0 |
+| [Bombrini](./ARCH-PH-0020-Bombrini/entidad.json) | ARCH-PH-0020 | 0 | 0 | 0 | 0 |
+| [Bonn-Oberkassel](./ARCH-PH-0021-Bonn-Oberkassel/entidad.json) | ARCH-PH-0021 | 0 | 0 | 0 | 0 |
+| [Borsuka Cave](./ARCH-PH-0022-Borsuka-Cave/entidad.json) | ARCH-PH-0022 | 0 | 0 | 0 | 0 |
+| [Brassempouy](./ARCH-PH-0023-Brassempouy/entidad.json) | ARCH-PH-0023 | 0 | 0 | 0 | 0 |
+| [Brno-Francouzská](./ARCH-PH-0025-Brno-Francouzska/entidad.json) | ARCH-PH-0025 | 0 | 0 | 0 | 0 |
+| [Broion](./ARCH-PH-0026-Broion/entidad.json) | ARCH-PH-0026 | 0 | 0 | 0 | 0 |
+| [Buran-Kaya III](./ARCH-PH-0027-Buran-Kaya-III/entidad.json) | ARCH-PH-0027 | 0 | 0 | 0 | 0 |
+| [Burghöhle-Dietfurt](./ARCH-PH-0028-Burghohle-Dietfurt/entidad.json) | ARCH-PH-0028 | 0 | 0 | 0 | 0 |
+| [Burkhardtshöhle](./ARCH-PH-0029-Burkhardtshohle/entidad.json) | ARCH-PH-0029 | 0 | 0 | 0 | 0 |
+| [Caldeirão](./ARCH-PH-0030-Caldeirao/entidad.json) | ARCH-PH-0030 | 0 | 0 | 0 | 0 |
+| [Camargo](./ARCH-PH-0031-Camargo/entidad.json) | ARCH-PH-0031 | 0 | 0 | 0 | 0 |
+| [Cap Blanc](./ARCH-PH-0032-Cap-Blanc/entidad.json) | ARCH-PH-0032 | 0 | 0 | 0 | 0 |
+| [Carigüela](./ARCH-PH-0033-Cariguela/entidad.json) | ARCH-PH-0033 | 0 | 0 | 0 | 0 |
+| [Castanet](./ARCH-PH-0034-Castanet/entidad.json) | ARCH-PH-0034 | 0 | 0 | 0 | 0 |
+| [Castelmerle](./ARCH-PH-0035-Castelmerle/entidad.json) | ARCH-PH-0035 | 0 | 0 | 0 | 0 |
+| [Caviglione](./ARCH-PH-0037-Caviglione/entidad.json) | ARCH-PH-0037 | 0 | 0 | 0 | 0 |
+| [Cerovac](./ARCH-PH-0038-Cerovac/entidad.json) | ARCH-PH-0038 | 0 | 0 | 0 | 0 |
+| [Chaleux](./ARCH-PH-0039-Chaleux/entidad.json) | ARCH-PH-0039 | 0 | 0 | 0 | 0 |
+| [Chancelade](./ARCH-PH-0040-Chancelade/entidad.json) | ARCH-PH-0040 | 0 | 0 | 0 | 0 |
+| [Chulatovo I](./ARCH-PH-0041-Chulatovo-I/entidad.json) | ARCH-PH-0041 | 0 | 0 | 0 | 0 |
+| [Cioclovina Uscată](./ARCH-PH-0042-Cioclovina-Uscata/entidad.json) | ARCH-PH-0042 | 0 | 0 | 0 | 0 |
+| [Continenza](./ARCH-PH-0043-Continenza/entidad.json) | ARCH-PH-0043 | 0 | 0 | 0 | 0 |
+| [Cro-Magnon](./ARCH-PH-0044-Cro-Magnon/entidad.json) | ARCH-PH-0044 | 0 | 0 | 0 | 0 |
+| [Cueto de la Mina](./ARCH-PH-0045-Cueto-de-la-Mina/entidad.json) | ARCH-PH-0045 | 0 | 0 | 0 | 0 |
+| [Cuina Turcului](./ARCH-PH-0046-Cuina-Turcului/entidad.json) | ARCH-PH-0046 | 0 | 0 | 0 | 0 |
+| [Cussac](./ARCH-PH-0047-Cussac/entidad.json) | ARCH-PH-0047 | 0 | 0 | 0 | 0 |
+| [Dalmeri](./ARCH-PH-0048-Dalmeri/entidad.json) | ARCH-PH-0048 | 0 | 0 | 0 | 0 |
+| [Dolní Věstonice I](./ARCH-PH-0049-Dolni-Vestonice-I/entidad.json) | ARCH-PH-0049 | 0 | 0 | 0 | 0 |
+| [Dolní Věstonice II](./ARCH-PH-0050-Dolni-Vestonice-II/entidad.json) | ARCH-PH-0050 | 0 | 0 | 0 | 0 |
+| [Duruitoarea Veche](./ARCH-PH-0051-Duruitoarea-Veche/entidad.json) | ARCH-PH-0051 | 0 | 0 | 0 | 0 |
+| [Duruthy](./ARCH-PH-0052-Duruthy/entidad.json) | ARCH-PH-0052 | 0 | 0 | 0 | 0 |
+| [Dzeravá skalá](./ARCH-PH-0053-Dzerava-skala/entidad.json) | ARCH-PH-0053 | 0 | 0 | 0 | 0 |
+| [Eel Point](./ARCH-PH-0054-Eel-Point/entidad.json) | ARCH-PH-0054 | 0 | 0 | 0 | 0 |
+| [El Buxu](./ARCH-PH-0055-El-Buxu/entidad.json) | ARCH-PH-0055 | 0 | 0 | 0 | 0 |
+| [El Castillo](./ARCH-PH-0056-El-Castillo/entidad.json) | ARCH-PH-0056 | 0 | 0 | 0 | 0 |
+| [El Mirón](./ARCH-PH-0057-El-Miron/entidad.json) | ARCH-PH-0057 | 0 | 0 | 0 | 0 |
+| [El Pendo](./ARCH-PH-0058-El-Pendo/entidad.json) | ARCH-PH-0058 | 0 | 0 | 0 | 0 |
+| [Eliseevichi](./ARCH-PH-0059-Eliseevichi/entidad.json) | ARCH-PH-0059 | 0 | 0 | 0 | 0 |
+| [Engis](./ARCH-PH-0060-Engis/entidad.json) | ARCH-PH-0060 | 0 | 0 | 0 | 0 |
+| [Enlène](./ARCH-PH-0061-Enlene/entidad.json) | ARCH-PH-0061 | 0 | 0 | 0 | 0 |
+| [Farincourt II](./ARCH-PH-0062-Farincourt-II/entidad.json) | ARCH-PH-0062 | 0 | 0 | 0 | 0 |
+| [Farincourt III](./ARCH-PH-0063-Farincourt-III/entidad.json) | ARCH-PH-0063 | 0 | 0 | 0 | 0 |
+| [Felsställe](./ARCH-PH-0064-Felsstalle/entidad.json) | ARCH-PH-0064 | 0 | 0 | 0 | 0 |
+| [Finocchietto](./ARCH-PH-0065-Finocchietto/entidad.json) | ARCH-PH-0065 | 0 | 0 | 0 | 0 |
+| [Font de Gaume](./ARCH-PH-0066-Font-de-Gaume/entidad.json) | ARCH-PH-0066 | 0 | 0 | 0 | 0 |
+| [Fontéchevade](./ARCH-PH-0067-Fontechevade/entidad.json) | ARCH-PH-0067 | 0 | 0 | 0 | 0 |
+| [Foradada](./ARCH-PH-0068-Foradada/entidad.json) | ARCH-PH-0068 | 0 | 0 | 0 | 0 |
+| [Fossellone](./ARCH-PH-0069-Fossellone/entidad.json) | ARCH-PH-0069 | 0 | 0 | 0 | 0 |
+| [Fourneau du Diable](./ARCH-PH-0070-Fourneau-du-Diable/entidad.json) | ARCH-PH-0070 | 0 | 0 | 0 | 0 |
+| [Fournol](./ARCH-PH-0071-Fournol/entidad.json) | ARCH-PH-0071 | 0 | 0 | 0 | 0 |
+| [Fredian](./ARCH-PH-0072-Fredian/entidad.json) | ARCH-PH-0072 | 0 | 0 | 0 | 0 |
+| [Freudental](./ARCH-PH-0073-Freudental/entidad.json) | ARCH-PH-0073 | 0 | 0 | 0 | 0 |
+| [Fumane](./ARCH-PH-0074-Fumane/entidad.json) | ARCH-PH-0074 | 0 | 0 | 0 | 0 |
+| [Galería da Cisterna](./ARCH-PH-0075-Galeria-da-Cisterna/entidad.json) | ARCH-PH-0075 | 0 | 0 | 0 | 0 |
+| [Gargas Cave](./ARCH-PH-0076-Gargas-Cave/entidad.json) | ARCH-PH-0076 | 0 | 0 | 0 | 0 |
+| [Geißenklösterle](./ARCH-PH-0077-Geienklosterle/entidad.json) | ARCH-PH-0077 | 0 | 0 | 0 | 0 |
+| [Gnirshöhle](./ARCH-PH-0078-Gnirshohle/entidad.json) | ARCH-PH-0078 | 0 | 0 | 0 | 0 |
+| [Gönnersdorf](./ARCH-PH-0079-Gonnersdorf/entidad.json) | ARCH-PH-0079 | 0 | 0 | 0 | 0 |
+| [Gough's Cave](./ARCH-PH-0080-Gough-s-Cave/entidad.json) | ARCH-PH-0080 | 0 | 0 | 0 | 0 |
+| [Gourdan](./ARCH-PH-0081-Gourdan/entidad.json) | ARCH-PH-0081 | 0 | 0 | 0 | 0 |
+| [Goyet](./ARCH-PH-0082-Goyet/entidad.json) | ARCH-PH-0082 | 0 | 0 | 0 | 0 |
+| [Grotte des Enfants](./ARCH-PH-0083-Grotte-des-Enfants/entidad.json) | ARCH-PH-0083 | 0 | 0 | 0 | 0 |
+| [Haldensteinhöhle](./ARCH-PH-0084-Haldensteinhohle/entidad.json) | ARCH-PH-0084 | 0 | 0 | 0 | 0 |
+| [Honerthöhle](./ARCH-PH-0086-Honerthohle/entidad.json) | ARCH-PH-0086 | 0 | 0 | 0 | 0 |
+| [Ilsenhöhle](./ARCH-PH-0087-Ilsenhohle/entidad.json) | ARCH-PH-0087 | 0 | 0 | 0 | 0 |
+| [Istállóskö](./ARCH-PH-0088-Istallosko/entidad.json) | ARCH-PH-0088 | 0 | 0 | 0 | 0 |
+| [Jaurias](./ARCH-PH-0090-Jaurias/entidad.json) | ARCH-PH-0090 | 0 | 0 | 0 | 0 |
+| [Kelsterbach](./ARCH-PH-0091-Kelsterbach/entidad.json) | ARCH-PH-0091 | 0 | 0 | 0 | 0 |
+| [Kendrick's Cave](./ARCH-PH-0092-Kendrick-s-Cave/entidad.json) | ARCH-PH-0092 | 0 | 0 | 0 | 0 |
+| [Khotylevo II](./ARCH-PH-0094-Khotylevo-II/entidad.json) | ARCH-PH-0094 | 0 | 0 | 0 | 0 |
+| [Khvalynsk](./ARCH-PH-0095-Khvalynsk/entidad.json) | ARCH-PH-0095 | 0 | 0 | 0 | 0 |
+| [Kniegrotte](./ARCH-PH-0096-Kniegrotte/entidad.json) | ARCH-PH-0096 | 0 | 0 | 0 | 0 |
+| [Kohlerhöhle](./ARCH-PH-0097-Kohlerhohle/entidad.json) | ARCH-PH-0097 | 0 | 0 | 0 | 0 |
+| [Korman' IV](./ARCH-PH-0098-Korman-IV/entidad.json) | ARCH-PH-0098 | 0 | 0 | 0 | 0 |
+| [Kostenki-II (Zamyatnin)](./ARCH-PH-0099-Kostenki-II-Zamyatnin/entidad.json) | ARCH-PH-0099 | 0 | 0 | 0 | 0 |
+| [Kostenki-XIV (Markina Gora)](./ARCH-PH-0100-Kostenki-XIV-Markina-Gora/entidad.json) | ARCH-PH-0100 | 0 | 0 | 0 | 0 |
+| [Kostenki-XV (Gorodtsovskaya)](./ARCH-PH-0101-Kostenki-XV-Gorodtsovskaya/entidad.json) | ARCH-PH-0101 | 0 | 0 | 0 | 0 |
+| [Kostenki-XVII](./ARCH-PH-0102-Kostenki-XVII/entidad.json) | ARCH-PH-0102 | 0 | 0 | 0 | 0 |
+| [Kostenki-XVII (Spitsyn)](./ARCH-PH-0103-Kostenki-XVII-Spitsyn/entidad.json) | ARCH-PH-0103 | 0 | 0 | 0 | 0 |
+| [Kostenki-XVIII (Khvoikov)](./ARCH-PH-0104-Kostenki-XVIII-Khvoikov/entidad.json) | ARCH-PH-0104 | 0 | 0 | 0 | 0 |
+| [Krems-Wachtberg](./ARCH-PH-0106-Krems-Wachtberg/entidad.json) | ARCH-PH-0106 | 0 | 0 | 0 | 0 |
+| [Krutaya](./ARCH-PH-0107-Krutaya/entidad.json) | ARCH-PH-0107 | 0 | 0 | 0 | 0 |
+| [Kůlna](./ARCH-PH-0108-Kulna/entidad.json) | ARCH-PH-0108 | 0 | 0 | 0 | 0 |
+| [La Adam](./ARCH-PH-0109-La-Adam/entidad.json) | ARCH-PH-0109 | 0 | 0 | 0 | 0 |
+| [La Chora](./ARCH-PH-0110-La-Chora/entidad.json) | ARCH-PH-0110 | 0 | 0 | 0 | 0 |
+| [La Crouzade](./ARCH-PH-0111-La-Crouzade/entidad.json) | ARCH-PH-0111 | 0 | 0 | 0 | 0 |
+| [La Ferrassie](./ARCH-PH-0112-La-Ferrassie/entidad.json) | ARCH-PH-0112 | 0 | 0 | 0 | 0 |
+| [La Gravette](./ARCH-PH-0113-La-Gravette/entidad.json) | ARCH-PH-0113 | 0 | 0 | 0 | 0 |
+| [La Greze](./ARCH-PH-0114-La-Greze/entidad.json) | ARCH-PH-0114 | 0 | 0 | 0 | 0 |
+| [La Lloseta](./ARCH-PH-0115-La-Lloseta/entidad.json) | ARCH-PH-0115 | 0 | 0 | 0 | 0 |
+| [La Madeleine](./ARCH-PH-0116-La-Madeleine/entidad.json) | ARCH-PH-0116 | 0 | 0 | 0 | 0 |
+| [La Paloma](./ARCH-PH-0117-La-Paloma/entidad.json) | ARCH-PH-0117 | 0 | 0 | 0 | 0 |
+| [La Pasiega](./ARCH-PH-0118-La-Pasiega/entidad.json) | ARCH-PH-0118 | 0 | 0 | 0 | 0 |
+| [La Pique](./ARCH-PH-0119-La-Pique/entidad.json) | ARCH-PH-0119 | 0 | 0 | 0 | 0 |
+| [La Punta](./ARCH-PH-0120-La-Punta/entidad.json) | ARCH-PH-0120 | 0 | 0 | 0 | 0 |
+| [La Quina-Aval](./ARCH-PH-0121-La-Quina-Aval/entidad.json) | ARCH-PH-0121 | 0 | 0 | 0 | 0 |
+| [La Riera](./ARCH-PH-0122-La-Riera/entidad.json) | ARCH-PH-0122 | 0 | 0 | 0 | 0 |
+| [La Rochette](./ARCH-PH-0123-La-Rochette/entidad.json) | ARCH-PH-0123 | 0 | 0 | 0 | 0 |
+| [Labatut](./ARCH-PH-0124-Labatut/entidad.json) | ARCH-PH-0124 | 0 | 0 | 0 | 0 |
+| [Lacave](./ARCH-PH-0125-Lacave/entidad.json) | ARCH-PH-0125 | 0 | 0 | 0 | 0 |
+| [Lachaud](./ARCH-PH-0126-Lachaud/entidad.json) | ARCH-PH-0126 | 0 | 0 | 0 | 0 |
+| [Lafaye](./ARCH-PH-0127-Lafaye/entidad.json) | ARCH-PH-0127 | 0 | 0 | 0 | 0 |
+| [Lagar Velho](./ARCH-PH-0128-Lagar-Velho/entidad.json) | ARCH-PH-0128 | 0 | 0 | 0 | 0 |
+| [Langwith Cave](./ARCH-PH-0129-Langwith-Cave/entidad.json) | ARCH-PH-0129 | 0 | 0 | 0 | 0 |
+| [Laugerie-Basse](./ARCH-PH-0130-Laugerie-Basse/entidad.json) | ARCH-PH-0130 | 0 | 0 | 0 | 0 |
+| [Laugerie-Haute Est](./ARCH-PH-0131-Laugerie-Haute-Est/entidad.json) | ARCH-PH-0131 | 0 | 0 | 0 | 0 |
+| [Laugerie-Haute Ouest](./ARCH-PH-0132-Laugerie-Haute-Ouest/entidad.json) | ARCH-PH-0132 | 0 | 0 | 0 | 0 |
+| [Le Bichon](./ARCH-PH-0133-Le-Bichon/entidad.json) | ARCH-PH-0133 | 0 | 0 | 0 | 0 |
+| [Le Figuier](./ARCH-PH-0134-Le-Figuier/entidad.json) | ARCH-PH-0134 | 0 | 0 | 0 | 0 |
+| [Le Morin](./ARCH-PH-0135-Le-Morin/entidad.json) | ARCH-PH-0135 | 0 | 0 | 0 | 0 |
+| [Le Peyrat](./ARCH-PH-0136-Le-Peyrat/entidad.json) | ARCH-PH-0136 | 0 | 0 | 0 | 0 |
+| [Le Placard](./ARCH-PH-0137-Le-Placard/entidad.json) | ARCH-PH-0137 | 0 | 0 | 0 | 0 |
+| [Le Scé](./ARCH-PH-0138-Le-Sce/entidad.json) | ARCH-PH-0138 | 0 | 0 | 0 | 0 |
+| [Les Cottés](./ARCH-PH-0139-Les-Cottes/entidad.json) | ARCH-PH-0139 | 0 | 0 | 0 | 0 |
+| [Les Fadets (Lussac les Châteaux)](./ARCH-PH-0140-Les-Fadets-Lussac-les-Chateaux/entidad.json) | ARCH-PH-0140 | 0 | 0 | 0 | 0 |
+| [Les Hoteaux](./ARCH-PH-0141-Les-Hoteaux/entidad.json) | ARCH-PH-0141 | 0 | 0 | 0 | 0 |
+| [Les Morts](./ARCH-PH-0142-Les-Morts/entidad.json) | ARCH-PH-0142 | 0 | 0 | 0 | 0 |
+| [Les Roches](./ARCH-PH-0143-Les-Roches/entidad.json) | ARCH-PH-0143 | 0 | 0 | 0 | 0 |
+| [Les Rois](./ARCH-PH-0144-Les-Rois/entidad.json) | ARCH-PH-0144 | 0 | 0 | 0 | 0 |
+| [Les Vachons](./ARCH-PH-0145-Les-Vachons/entidad.json) | ARCH-PH-0145 | 0 | 0 | 0 | 0 |
+| [Levanzo](./ARCH-PH-0146-Levanzo/entidad.json) | ARCH-PH-0146 | 0 | 0 | 0 | 0 |
+| [Limeuil](./ARCH-PH-0147-Limeuil/entidad.json) | ARCH-PH-0147 | 0 | 0 | 0 | 0 |
+| [Lortet](./ARCH-PH-0148-Lortet/entidad.json) | ARCH-PH-0148 | 0 | 0 | 0 | 0 |
+| [Lourdes](./ARCH-PH-0149-Lourdes/entidad.json) | ARCH-PH-0149 | 0 | 0 | 0 | 0 |
+| [Trou Magrite](./ARCH-PH-0150-Trou-Magrite/entidad.json) | ARCH-PH-0150 | 0 | 0 | 0 | 0 |
+| [Malladetes](./ARCH-PH-0151-Malladetes/entidad.json) | ARCH-PH-0151 | 0 | 0 | 0 | 0 |
+| [Mandrin](./ARCH-PH-0152-Mandrin/entidad.json) | ARCH-PH-0152 | 0 | 0 | 0 | 0 |
+| [Maritza](./ARCH-PH-0153-Maritza/entidad.json) | ARCH-PH-0153 | 0 | 0 | 0 | 0 |
+| [Marronnier](./ARCH-PH-0154-Marronnier/entidad.json) | ARCH-PH-0154 | 0 | 0 | 0 | 0 |
+| [Massat](./ARCH-PH-0155-Massat/entidad.json) | ARCH-PH-0155 | 0 | 0 | 0 | 0 |
+| [Maszycka Cave](./ARCH-PH-0156-Maszycka-Cave/entidad.json) | ARCH-PH-0156 | 0 | 0 | 0 | 0 |
+| [Mezin](./ARCH-PH-0157-Mezin/entidad.json) | ARCH-PH-0157 | 0 | 0 | 0 | 0 |
+| [Miesslingtal](./ARCH-PH-0158-Miesslingtal/entidad.json) | ARCH-PH-0158 | 0 | 0 | 0 | 0 |
+| [Mittlere Klause](./ARCH-PH-0159-Mittlere-Klause/entidad.json) | ARCH-PH-0159 | 0 | 0 | 0 | 0 |
+| [Mladeč](./ARCH-PH-0160-Mladec/entidad.json) | ARCH-PH-0160 | 0 | 0 | 0 | 0 |
+| [Moča](./ARCH-PH-0161-Moca/entidad.json) | ARCH-PH-0161 | 0 | 0 | 0 | 0 |
+| [Mollet III](./ARCH-PH-0162-Mollet-III/entidad.json) | ARCH-PH-0162 | 0 | 0 | 0 | 0 |
+| [Montconfort](./ARCH-PH-0163-Montconfort/entidad.json) | ARCH-PH-0163 | 0 | 0 | 0 | 0 |
+| [Montgaudier](./ARCH-PH-0164-Montgaudier/entidad.json) | ARCH-PH-0164 | 0 | 0 | 0 | 0 |
+| [Moravany nad Váhom](./ARCH-PH-0165-Moravany-nad-Vahom/entidad.json) | ARCH-PH-0165 | 0 | 0 | 0 | 0 |
+| [Mother Grundy's Parlour](./ARCH-PH-0166-Mother-Grundy-s-Parlour/entidad.json) | ARCH-PH-0166 | 0 | 0 | 0 | 0 |
+| [Mura](./ARCH-PH-0167-Mura/entidad.json) | ARCH-PH-0167 | 0 | 0 | 0 | 0 |
+| [Nebra](./ARCH-PH-0168-Nebra/entidad.json) | ARCH-PH-0168 | 0 | 0 | 0 | 0 |
+| [Nerja](./ARCH-PH-0169-Nerja/entidad.json) | ARCH-PH-0169 | 0 | 0 | 0 | 0 |
+| [Neuwied-Irlich](./ARCH-PH-0170-Neuwied-Irlich/entidad.json) | ARCH-PH-0170 | 0 | 0 | 0 | 0 |
+| [Novgorod-Severskij](./ARCH-PH-0171-Novgorod-Severskij/entidad.json) | ARCH-PH-0171 | 0 | 0 | 0 | 0 |
+| [Oetrange](./ARCH-PH-0172-Oetrange/entidad.json) | ARCH-PH-0172 | 0 | 0 | 0 | 0 |
+| [Ofnethöhle](./ARCH-PH-0173-Ofnethohle/entidad.json) | ARCH-PH-0173 | 0 | 0 | 0 | 0 |
+| [Oreille d'Enfer](./ARCH-PH-0174-Oreille-d-Enfer/entidad.json) | ARCH-PH-0174 | 0 | 0 | 0 | 0 |
+| [Oriente](./ARCH-PH-0175-Oriente/entidad.json) | ARCH-PH-0175 | 0 | 0 | 0 | 0 |
+| [Ortucchio](./ARCH-PH-0176-Ortucchio/entidad.json) | ARCH-PH-0176 | 0 | 0 | 0 | 0 |
+| [Paglicci](./ARCH-PH-0177-Paglicci/entidad.json) | ARCH-PH-0177 | 0 | 0 | 0 | 0 |
+| [Pair non Pair](./ARCH-PH-0178-Pair-non-Pair/entidad.json) | ARCH-PH-0178 | 0 | 0 | 0 | 0 |
+| [Parpalló](./ARCH-PH-0179-Parpallo/entidad.json) | ARCH-PH-0179 | 0 | 0 | 0 | 0 |
+| [Pataud](./ARCH-PH-0180-Pataud/entidad.json) | ARCH-PH-0180 | 0 | 0 | 0 | 0 |
+| [Paviland](./ARCH-PH-0181-Paviland/entidad.json) | ARCH-PH-0181 | 0 | 0 | 0 | 0 |
+| [Pavlov I](./ARCH-PH-0182-Pavlov-I/entidad.json) | ARCH-PH-0182 | 0 | 0 | 0 | 0 |
+| [Pech de la Boissière](./ARCH-PH-0183-Pech-de-la-Boissiere/entidad.json) | ARCH-PH-0183 | 0 | 0 | 0 | 0 |
+| [Peștera cu Oase](./ARCH-PH-0184-Pestera-cu-Oase/entidad.json) | ARCH-PH-0184 | 0 | 0 | 0 | 0 |
+| [Peștera Muierii](./ARCH-PH-0185-Pestera-Muierii/entidad.json) | ARCH-PH-0185 | 0 | 0 | 0 | 0 |
+| [Petersfels](./ARCH-PH-0186-Petersfels/entidad.json) | ARCH-PH-0186 | 0 | 0 | 0 | 0 |
+| [Petit-Puyrosseau](./ARCH-PH-0187-Petit-Puyrosseau/entidad.json) | ARCH-PH-0187 | 0 | 0 | 0 | 0 |
+| [Peyrards](./ARCH-PH-0188-Peyrards/entidad.json) | ARCH-PH-0188 | 0 | 0 | 0 | 0 |
+| [Pilisszántó](./ARCH-PH-0190-Pilisszanto/entidad.json) | ARCH-PH-0190 | 0 | 0 | 0 | 0 |
+| [Pin Hole Cave](./ARCH-PH-0191-Pin-Hole-Cave/entidad.json) | ARCH-PH-0191 | 0 | 0 | 0 | 0 |
+| [Podkumok](./ARCH-PH-0192-Podkumok/entidad.json) | ARCH-PH-0192 | 0 | 0 | 0 | 0 |
+| [Polesini](./ARCH-PH-0193-Polesini/entidad.json) | ARCH-PH-0193 | 0 | 0 | 0 | 0 |
+| [Předmostí Ib](./ARCH-PH-0194-Predmosti-Ib/entidad.json) | ARCH-PH-0194 | 0 | 0 | 0 | 0 |
+| [Pushkari I](./ARCH-PH-0195-Pushkari-I/entidad.json) | ARCH-PH-0195 | 0 | 0 | 0 | 0 |
+| [Quinzano](./ARCH-PH-0196-Quinzano/entidad.json) | ARCH-PH-0196 | 0 | 0 | 0 | 0 |
+| [Rascaño](./ARCH-PH-0197-Rascano/entidad.json) | ARCH-PH-0197 | 0 | 0 | 0 | 0 |
+| [Ratnovce I](./ARCH-PH-0198-Ratnovce-I/entidad.json) | ARCH-PH-0198 | 0 | 0 | 0 | 0 |
+| [Ratnovce III](./ARCH-PH-0199-Ratnovce-III/entidad.json) | ARCH-PH-0199 | 0 | 0 | 0 | 0 |
+| [Reignac](./ARCH-PH-0200-Reignac/entidad.json) | ARCH-PH-0200 | 0 | 0 | 0 | 0 |
+| [Reuviau](./ARCH-PH-0201-Reuviau/entidad.json) | ARCH-PH-0201 | 0 | 0 | 0 | 0 |
+| [Rhünda](./ARCH-PH-0202-Rhunda/entidad.json) | ARCH-PH-0202 | 0 | 0 | 0 | 0 |
+| [Richard](./ARCH-PH-0203-Richard/entidad.json) | ARCH-PH-0203 | 0 | 0 | 0 | 0 |
+| [Roc de Sers](./ARCH-PH-0204-Roc-de-Sers/entidad.json) | ARCH-PH-0204 | 0 | 0 | 0 | 0 |
+| [Roc-de-Cave](./ARCH-PH-0205-Roc-de-Cave/entidad.json) | ARCH-PH-0205 | 0 | 0 | 0 | 0 |
+| [Rochereil](./ARCH-PH-0206-Rochereil/entidad.json) | ARCH-PH-0206 | 0 | 0 | 0 | 0 |
+| [Romito](./ARCH-PH-0208-Romito/entidad.json) | ARCH-PH-0208 | 0 | 0 | 0 | 0 |
+| [Romualdo](./ARCH-PH-0209-Romualdo/entidad.json) | ARCH-PH-0209 | 0 | 0 | 0 | 0 |
+| [Ronin Hood's Cave](./ARCH-PH-0210-Ronin-Hood-s-Cave/entidad.json) | ARCH-PH-0210 | 0 | 0 | 0 | 0 |
+| [Roset](./ARCH-PH-0211-Roset/entidad.json) | ARCH-PH-0211 | 0 | 0 | 0 | 0 |
+| [Röthekopf](./ARCH-PH-0212-Rothekopf/entidad.json) | ARCH-PH-0212 | 0 | 0 | 0 | 0 |
+| [Ruse](./ARCH-PH-0213-Ruse/entidad.json) | ARCH-PH-0213 | 0 | 0 | 0 | 0 |
+| [Saint Vincent](./ARCH-PH-0214-Saint-Vincent/entidad.json) | ARCH-PH-0214 | 0 | 0 | 0 | 0 |
+| [Saint-Germain-la-Rivière](./ARCH-PH-0215-Saint-Germain-la-Riviere/entidad.json) | ARCH-PH-0215 | 0 | 0 | 0 | 0 |
+| [Saint-Marcel](./ARCH-PH-0216-Saint-Marcel/entidad.json) | ARCH-PH-0216 | 0 | 0 | 0 | 0 |
+| [San Teodoro](./ARCH-PH-0217-San-Teodoro/entidad.json) | ARCH-PH-0217 | 0 | 0 | 0 | 0 |
+| [Šandalja II](./ARCH-PH-0218-Sandalja-II/entidad.json) | ARCH-PH-0218 | 0 | 0 | 0 | 0 |
+| [Santa Maria di Agnano](./ARCH-PH-0219-Santa-Maria-di-Agnano/entidad.json) | ARCH-PH-0219 | 0 | 0 | 0 | 0 |
+| [Satanay](./ARCH-PH-0220-Satanay/entidad.json) | ARCH-PH-0220 | 0 | 0 | 0 | 0 |
+| [Schafstall](./ARCH-PH-0221-Schafstall/entidad.json) | ARCH-PH-0221 | 0 | 0 | 0 | 0 |
+| [Schelklingen](./ARCH-PH-0222-Schelklingen/entidad.json) | ARCH-PH-0222 | 0 | 0 | 0 | 0 |
+| [Scheuer](./ARCH-PH-0223-Scheuer/entidad.json) | ARCH-PH-0223 | 0 | 0 | 0 | 0 |
+| [Silická Brezová](./ARCH-PH-0224-Silicka-Brezova/entidad.json) | ARCH-PH-0224 | 0 | 0 | 0 | 0 |
+| [Skhodnya](./ARCH-PH-0226-Skhodnya/entidad.json) | ARCH-PH-0226 | 0 | 0 | 0 | 0 |
+| [Sorde](./ARCH-PH-0227-Sorde/entidad.json) | ARCH-PH-0227 | 0 | 0 | 0 | 0 |
+| [St Brelade](./ARCH-PH-0228-St-Brelade/entidad.json) | ARCH-PH-0228 | 0 | 0 | 0 | 0 |
+| [Sun Hole](./ARCH-PH-0229-Sun-Hole/entidad.json) | ARCH-PH-0229 | 0 | 0 | 0 | 0 |
+| [Sunghir](./ARCH-PH-0230-Sunghir/entidad.json) | ARCH-PH-0230 | 0 | 0 | 0 | 0 |
+| [Svitávka](./ARCH-PH-0231-Svitavka/entidad.json) | ARCH-PH-0231 | 0 | 0 | 0 | 0 |
+| [Syuren' 1](./ARCH-PH-0232-Syuren-1/entidad.json) | ARCH-PH-0232 | 0 | 0 | 0 | 0 |
+| [Tagliente](./ARCH-PH-0233-Tagliente/entidad.json) | ARCH-PH-0233 | 0 | 0 | 0 | 0 |
+| [Tapolca](./ARCH-PH-0234-Tapolca/entidad.json) | ARCH-PH-0234 | 0 | 0 | 0 | 0 |
+| [Tarté](./ARCH-PH-0235-Tarte/entidad.json) | ARCH-PH-0235 | 0 | 0 | 0 | 0 |
+| [Temnata Dupka](./ARCH-PH-0236-Temnata-Dupka/entidad.json) | ARCH-PH-0236 | 0 | 0 | 0 | 0 |
+| [Téoulé](./ARCH-PH-0237-Teoule/entidad.json) | ARCH-PH-0237 | 0 | 0 | 0 | 0 |
+| [Urtiaga](./ARCH-PH-0238-Urtiaga/entidad.json) | ARCH-PH-0238 | 0 | 0 | 0 | 0 |
+| [Vado all'Arancio](./ARCH-PH-0239-Vado-all-Arancio/entidad.json) | ARCH-PH-0239 | 0 | 0 | 0 | 0 |
+| [Veneri](./ARCH-PH-0240-Veneri/entidad.json) | ARCH-PH-0240 | 0 | 0 | 0 | 0 |
+| [Vilhonneur](./ARCH-PH-0241-Vilhonneur/entidad.json) | ARCH-PH-0241 | 0 | 0 | 0 | 0 |
+| [Villabruna A](./ARCH-PH-0242-Villabruna-A/entidad.json) | ARCH-PH-0242 | 0 | 0 | 0 | 0 |
+| [Villefranche-de-Conflent](./ARCH-PH-0243-Villefranche-de-Conflent/entidad.json) | ARCH-PH-0243 | 0 | 0 | 0 | 0 |
+| [Wilczyce](./ARCH-PH-0244-Wilczyce/entidad.json) | ARCH-PH-0244 | 0 | 0 | 0 | 0 |
+| [Willendorf I](./ARCH-PH-0245-Willendorf-I/entidad.json) | ARCH-PH-0245 | 0 | 0 | 0 | 0 |
+| [Willendorf II](./ARCH-PH-0246-Willendorf-II/entidad.json) | ARCH-PH-0246 | 0 | 0 | 0 | 0 |
+| [Yudinovo](./ARCH-PH-0247-Yudinovo/entidad.json) | ARCH-PH-0247 | 0 | 0 | 0 | 0 |
+| [Zlatý Kůň](./ARCH-PH-0248-Zlaty-Kun/entidad.json) | ARCH-PH-0248 | 0 | 0 | 0 | 0 |
+| [Kostenki-I](./ARCH-PH-0249-Kostenki-I/entidad.json) | ARCH-PH-0249 | 0 | 0 | 0 | 0 |
+| [Obłazowa Cave](./ARCH-PH-0250-Obazowa-Cave/entidad.json) | ARCH-PH-0250 | 0 | 0 | 0 | 0 |
+| [Mamony II](./ARCH-SDB-00EBF4D250FD68-Mamony-II/entidad.json) | ARCH-SDB-00EBF4D250FD68 | 0 | 0 | 0 | 0 |
+| [Peştera Liliecilor (Moieciu)](./ARCH-SDB-0102AC4EC8AA44-Pestera-Liliecilor-Moieciu/entidad.json) | ARCH-SDB-0102AC4EC8AA44 | 0 | 0 | 0 | 0 |
+| [Pouch/Terassenpfeiler](./ARCH-SDB-01725922DE56C4-Pouch-Terassenpfeiler/entidad.json) | ARCH-SDB-01725922DE56C4 | 0 | 0 | 0 | 0 |
+| [Butte d'Arvigny](./ARCH-SDB-01C3E8B06B6BBA-Butte-d-Arvigny/entidad.json) | ARCH-SDB-01C3E8B06B6BBA | 0 | 0 | 0 | 0 |
+| [Boomplaas Cave](./ARCH-SDB-0213BE71F1F146-Boomplaas-Cave/entidad.json) | ARCH-SDB-0213BE71F1F146 | 0 | 0 | 0 | 0 |
+| [Želešice-Hoynerhügel](./ARCH-SDB-02A267A473260E-Zelesice-Hoynerhugel/entidad.json) | ARCH-SDB-02A267A473260E | 0 | 0 | 0 | 0 |
+| [Ksar Akil](./ARCH-SDB-03C7225496C31A-Ksar-Akil/entidad.json) | ARCH-SDB-03C7225496C31A | 0 | 0 | 0 | 0 |
+| [Nesher Ramla](./ARCH-SDB-042AFC3ECDDDAE-Nesher-Ramla/entidad.json) | ARCH-SDB-042AFC3ECDDDAE | 0 | 0 | 0 | 0 |
+| [Hotel California](./ARCH-SDB-047E6E8A4920CC-Hotel-California/entidad.json) | ARCH-SDB-047E6E8A4920CC | 0 | 0 | 0 | 0 |
+| [Xiaogushan, Liaoning](./ARCH-SDB-05C36453D4D5FC-Xiaogushan-Liaoning/entidad.json) | ARCH-SDB-05C36453D4D5FC | 0 | 0 | 0 | 0 |
+| [Can Garriga](./ARCH-SDB-064D9A5A3302B4-Can-Garriga/entidad.json) | ARCH-SDB-064D9A5A3302B4 | 0 | 0 | 0 | 0 |
+| [Yamashita-cho Cave I](./ARCH-SDB-0661A7EAE7A97E-Yamashita-cho-Cave-I/entidad.json) | ARCH-SDB-0661A7EAE7A97E | 0 | 0 | 0 | 0 |
+| [Gerasimov's](./ARCH-SDB-066C2CA0BD8B62-Gerasimov-s/entidad.json) | ARCH-SDB-066C2CA0BD8B62 | 0 | 0 | 0 | 0 |
+| [Shi’bat Dihya 1 (Wadi Surdud basin)](./ARCH-SDB-06BE4C44C8BDD0-Shibat-Dihya-1-Wadi-Surdud-basin/entidad.json) | ARCH-SDB-06BE4C44C8BDD0 | 0 | 0 | 0 | 0 |
+| [Ermitons](./ARCH-SDB-074D48324E4DC8-Ermitons/entidad.json) | ARCH-SDB-074D48324E4DC8 | 0 | 0 | 0 | 0 |
+| [Los Estragales](./ARCH-SDB-0789FBBA2DAC55-Los-Estragales/entidad.json) | ARCH-SDB-0789FBBA2DAC55 | 0 | 0 | 0 | 0 |
+| [Crvena Stijena](./ARCH-SDB-079FC24C1757AF-Crvena-Stijena/entidad.json) | ARCH-SDB-079FC24C1757AF | 0 | 0 | 0 | 0 |
+| [La Quina](./ARCH-SDB-08EB7254DC12A2-La-Quina/entidad.json) | ARCH-SDB-08EB7254DC12A2 | 0 | 0 | 0 | 0 |
+| [Salzgitter-Lebenstedt](./ARCH-SDB-09023066A7DD24-Salzgitter-Lebenstedt/entidad.json) | ARCH-SDB-09023066A7DD24 | 0 | 0 | 0 | 0 |
+| [Grotte Mandrin](./ARCH-SDB-09AEA13DA8EF73-Grotte-Mandrin/entidad.json) | ARCH-SDB-09AEA13DA8EF73 | 0 | 0 | 0 | 0 |
+| [Church Hole, Creswell Crags](./ARCH-SDB-0A08EFEB5F78B6-Church-Hole-Creswell-Crags/entidad.json) | ARCH-SDB-0A08EFEB5F78B6 | 0 | 0 | 0 | 0 |
+| [Chauverie](./ARCH-SDB-0AB07C9DCE77DB-Chauverie/entidad.json) | ARCH-SDB-0AB07C9DCE77DB | 0 | 0 | 0 | 0 |
+| [Bunge-Toll 1885](./ARCH-SDB-0ADCF350EF011F-Bunge-Toll-1885/entidad.json) | ARCH-SDB-0ADCF350EF011F | 0 | 0 | 0 | 0 |
+| [Banyoles](./ARCH-SDB-0B169ADB756DD3-Banyoles/entidad.json) | ARCH-SDB-0B169ADB756DD3 | 0 | 0 | 0 | 0 |
+| [Brno-Bohunice II](./ARCH-SDB-0C77212D830AB1-Brno-Bohunice-II/entidad.json) | ARCH-SDB-0C77212D830AB1 | 0 | 0 | 0 | 0 |
+| [Lakonis Cave I](./ARCH-SDB-0C7B54D8B7596F-Lakonis-Cave-I/entidad.json) | ARCH-SDB-0C7B54D8B7596F | 0 | 0 | 0 | 0 |
+| [Kamenka](./ARCH-SDB-0D27D6FD8C9770-Kamenka/entidad.json) | ARCH-SDB-0D27D6FD8C9770 | 0 | 0 | 0 | 0 |
+| [Les Forets](./ARCH-SDB-0E96153A8094AE-Les-Forets/entidad.json) | ARCH-SDB-0E96153A8094AE | 0 | 0 | 0 | 0 |
+| [Le Moustier](./ARCH-SDB-0F2E781044518F-Le-Moustier/entidad.json) | ARCH-SDB-0F2E781044518F | 0 | 0 | 0 | 0 |
+| [Al Wusta](./ARCH-SDB-0FC671F5D644CB-Al-Wusta/entidad.json) | ARCH-SDB-0FC671F5D644CB | 0 | 0 | 0 | 0 |
+| [Katoati](./ARCH-SDB-10F7BC16D466CF-Katoati/entidad.json) | ARCH-SDB-10F7BC16D466CF | 0 | 0 | 0 | 0 |
+| [Grotta dei Santi (Grotta di Cala dei Santi)](./ARCH-SDB-10F85E37E7F703-Grotta-dei-Santi-Grotta-di-Cala-dei-Santi/entidad.json) | ARCH-SDB-10F85E37E7F703 | 0 | 0 | 0 | 0 |
+| [Xiachuan (Fuyihe)](./ARCH-SDB-118089F0E34260-Xiachuan-Fuyihe/entidad.json) | ARCH-SDB-118089F0E34260 | 0 | 0 | 0 | 0 |
+| [Xibaimaying site](./ARCH-SDB-12E4FBC6E0062A-Xibaimaying-site/entidad.json) | ARCH-SDB-12E4FBC6E0062A | 0 | 0 | 0 | 0 |
+| [Gr. del Broion](./ARCH-SDB-13A7520CC15B62-Gr-del-Broion/entidad.json) | ARCH-SDB-13A7520CC15B62 | 0 | 0 | 0 | 0 |
+| [Wroclaw, Hallera Avenue](./ARCH-SDB-13C3AAFC980115-Wroclaw-Hallera-Avenue/entidad.json) | ARCH-SDB-13C3AAFC980115 | 0 | 0 | 0 | 0 |
+| [Azinhal](./ARCH-SDB-13E86563F22B84-Azinhal/entidad.json) | ARCH-SDB-13E86563F22B84 | 0 | 0 | 0 | 0 |
+| [Grotte du Figuier](./ARCH-SDB-141E0A481CF534-Grotte-du-Figuier/entidad.json) | ARCH-SDB-141E0A481CF534 | 0 | 0 | 0 | 0 |
+| [Tham Lod rockshelter](./ARCH-SDB-142572DA08AC12-Tham-Lod-rockshelter/entidad.json) | ARCH-SDB-142572DA08AC12 | 0 | 0 | 0 | 0 |
+| [Las Palomas de Teba](./ARCH-SDB-146764D577215E-Las-Palomas-de-Teba/entidad.json) | ARCH-SDB-146764D577215E | 0 | 0 | 0 | 0 |
+| [Portel-Oues](./ARCH-SDB-150A0D73C5892A-Portel-Oues/entidad.json) | ARCH-SDB-150A0D73C5892A | 0 | 0 | 0 | 0 |
+| [Fonseigner](./ARCH-SDB-15F77D9355D8D9-Fonseigner/entidad.json) | ARCH-SDB-15F77D9355D8D9 | 0 | 0 | 0 | 0 |
+| [Cueva Morin](./ARCH-SDB-16C4229108A474-Cueva-Morin/entidad.json) | ARCH-SDB-16C4229108A474 | 0 | 0 | 0 | 0 |
+| [Kozarnika](./ARCH-SDB-16D7FC92478C2F-Kozarnika/entidad.json) | ARCH-SDB-16D7FC92478C2F | 0 | 0 | 0 | 0 |
+| [Gruta da Oliveira (Almonda karstic system)](./ARCH-SDB-16DCDFC3C34089-Gruta-da-Oliveira-Almonda-karstic-system/entidad.json) | ARCH-SDB-16DCDFC3C34089 | 0 | 0 | 0 | 0 |
+| [Hyaena Den](./ARCH-SDB-185F3B5DC207C0-Hyaena-Den/entidad.json) | ARCH-SDB-185F3B5DC207C0 | 0 | 0 | 0 | 0 |
+| [Trou du Diable](./ARCH-SDB-186671F2CCD4AD-Trou-du-Diable/entidad.json) | ARCH-SDB-186671F2CCD4AD | 0 | 0 | 0 | 0 |
+| [Tolbor 15](./ARCH-SDB-1897D2B44ACF4B-Tolbor-15/entidad.json) | ARCH-SDB-1897D2B44ACF4B | 0 | 0 | 0 | 0 |
+| [Huangniliang site](./ARCH-SDB-18B8000979F87E-Huangniliang-site/entidad.json) | ARCH-SDB-18B8000979F87E | 0 | 0 | 0 | 0 |
+| [Chez-Pinaud I (Jonzac)](./ARCH-SDB-1963A91223E387-Chez-Pinaud-I-Jonzac/entidad.json) | ARCH-SDB-1963A91223E387 | 0 | 0 | 0 | 0 |
+| [Mahadebbera](./ARCH-SDB-19BC7D81A838BC-Mahadebbera/entidad.json) | ARCH-SDB-19BC7D81A838BC | 0 | 0 | 0 | 0 |
+| [Tapada do Montinho](./ARCH-SDB-1A1291DC81B31F-Tapada-do-Montinho/entidad.json) | ARCH-SDB-1A1291DC81B31F | 0 | 0 | 0 | 0 |
+| [Yuanyang (Wushan)](./ARCH-SDB-1A7F0E7304F7E3-Yuanyang-Wushan/entidad.json) | ARCH-SDB-1A7F0E7304F7E3 | 0 | 0 | 0 | 0 |
+| [Higueral-Guardia](./ARCH-SDB-1B3D93FDB82DED-Higueral-Guardia/entidad.json) | ARCH-SDB-1B3D93FDB82DED | 0 | 0 | 0 | 0 |
+| [Wuquidong/Qidong (Jiande)](./ARCH-SDB-1BC6FB72691FC2-Wuquidong-Qidong-Jiande/entidad.json) | ARCH-SDB-1BC6FB72691FC2 | 0 | 0 | 0 | 0 |
+| [Cantalouette II](./ARCH-SDB-1BF36E99E08ADC-Cantalouette-II/entidad.json) | ARCH-SDB-1BF36E99E08ADC | 0 | 0 | 0 | 0 |
+| [Chene vert](./ARCH-SDB-1C34AF80626674-Chene-vert/entidad.json) | ARCH-SDB-1C34AF80626674 | 0 | 0 | 0 | 0 |
+| [Grotte du Renne (Arcy-sur-Cure)](./ARCH-SDB-1C8F704595366C-Grotte-du-Renne-Arcy-sur-Cure/entidad.json) | ARCH-SDB-1C8F704595366C | 0 | 0 | 0 | 0 |
+| [Grotte des Contrebandiers](./ARCH-SDB-1CD0E360E4F4F6-Grotte-des-Contrebandiers/entidad.json) | ARCH-SDB-1CD0E360E4F4F6 | 0 | 0 | 0 | 0 |
+| [Vanguard Cave](./ARCH-SDB-1D11309B75A4FC-Vanguard-Cave/entidad.json) | ARCH-SDB-1D11309B75A4FC | 0 | 0 | 0 | 0 |
+| [Robin Hood's Cave](./ARCH-SDB-1D383EC6F1B034-Robin-Hood-s-Cave/entidad.json) | ARCH-SDB-1D383EC6F1B034 | 0 | 0 | 0 | 0 |
+| [Kostenki (Kostienki) 12 (Volkovskaya site)](./ARCH-SDB-1E5F753E62DD19-Kostenki-Kostienki-12-Volkovskaya-site/entidad.json) | ARCH-SDB-1E5F753E62DD19 | 0 | 0 | 0 | 0 |
+| [Temnata](./ARCH-SDB-1E967C783BAE46-Temnata/entidad.json) | ARCH-SDB-1E967C783BAE46 | 0 | 0 | 0 | 0 |
+| [Shlyakh](./ARCH-SDB-1ED49687995A95-Shlyakh/entidad.json) | ARCH-SDB-1ED49687995A95 | 0 | 0 | 0 | 0 |
+| [Al Marrat 3](./ARCH-SDB-1EEC5467393BF2-Al-Marrat-3/entidad.json) | ARCH-SDB-1EEC5467393BF2 | 0 | 0 | 0 | 0 |
+| [Auzieres 2](./ARCH-SDB-1F03B5319F649B-Auzieres-2/entidad.json) | ARCH-SDB-1F03B5319F649B | 0 | 0 | 0 | 0 |
+| [Lommersum](./ARCH-SDB-1F25E73A6F6F92-Lommersum/entidad.json) | ARCH-SDB-1F25E73A6F6F92 | 0 | 0 | 0 | 0 |
+| [Mauquenchy](./ARCH-SDB-1F448B8660DF26-Mauquenchy/entidad.json) | ARCH-SDB-1F448B8660DF26 | 0 | 0 | 0 | 0 |
+| [Matafah](./ARCH-SDB-1F4A627DBF1CCC-Matafah/entidad.json) | ARCH-SDB-1F4A627DBF1CCC | 0 | 0 | 0 | 0 |
+| [Muierilor de Baia de Fier, Pestera Muierii](./ARCH-SDB-2070767B861AA6-Muierilor-de-Baia-de-Fier-Pestera-Muierii/entidad.json) | ARCH-SDB-2070767B861AA6 | 0 | 0 | 0 | 0 |
+| [Feldhofer Cave](./ARCH-SDB-207D9D4990B469-Feldhofer-Cave/entidad.json) | ARCH-SDB-207D9D4990B469 | 0 | 0 | 0 | 0 |
+| [La Chapelle-aux-Saints](./ARCH-SDB-21446122EBAF7A-La-Chapelle-aux-Saints/entidad.json) | ARCH-SDB-21446122EBAF7A | 0 | 0 | 0 | 0 |
+| [Bacho Kiro](./ARCH-SDB-21ACBB5791B4FB-Bacho-Kiro/entidad.json) | ARCH-SDB-21ACBB5791B4FB | 0 | 0 | 0 | 0 |
+| [Valdegoba](./ARCH-SDB-21AFE52C1D0C30-Valdegoba/entidad.json) | ARCH-SDB-21AFE52C1D0C30 | 0 | 0 | 0 | 0 |
+| [Rond du Barry](./ARCH-SDB-21B4901ADB9659-Rond-du-Barry/entidad.json) | ARCH-SDB-21B4901ADB9659 | 0 | 0 | 0 | 0 |
+| [Hénin-sur-Cojeul](./ARCH-SDB-222DAC9F2B1FB3-Henin-sur-Cojeul/entidad.json) | ARCH-SDB-222DAC9F2B1FB3 | 0 | 0 | 0 | 0 |
+| [El Mirón Cave](./ARCH-SDB-222E394AE20EC6-El-Miron-Cave/entidad.json) | ARCH-SDB-222E394AE20EC6 | 0 | 0 | 0 | 0 |
+| [Jebel Faya](./ARCH-SDB-23DE64598E3D7D-Jebel-Faya/entidad.json) | ARCH-SDB-23DE64598E3D7D | 0 | 0 | 0 | 0 |
+| [Nanshan Cave (Nanshandong)](./ARCH-SDB-24C120F083FDEC-Nanshan-Cave-Nanshandong/entidad.json) | ARCH-SDB-24C120F083FDEC | 0 | 0 | 0 | 0 |
+| [Sibudu](./ARCH-SDB-24ED83A4529D1B-Sibudu/entidad.json) | ARCH-SDB-24ED83A4529D1B | 0 | 0 | 0 | 0 |
+| [Sopena](./ARCH-SDB-25D13110074F1C-Sopena/entidad.json) | ARCH-SDB-25D13110074F1C | 0 | 0 | 0 | 0 |
+| [Mezmayskaya](./ARCH-SDB-2640D161ACD230-Mezmayskaya/entidad.json) | ARCH-SDB-2640D161ACD230 | 0 | 0 | 0 | 0 |
+| [Pecheurs](./ARCH-SDB-2753717A203AE6-Pecheurs/entidad.json) | ARCH-SDB-2753717A203AE6 | 0 | 0 | 0 | 0 |
+| [Nazlet Khater 4](./ARCH-SDB-2788B02D0077D1-Nazlet-Khater-4/entidad.json) | ARCH-SDB-2788B02D0077D1 | 0 | 0 | 0 | 0 |
+| [Arrillor](./ARCH-SDB-28389AAF113ACE-Arrillor/entidad.json) | ARCH-SDB-28389AAF113ACE | 0 | 0 | 0 | 0 |
+| [Lynford Quarry](./ARCH-SDB-28C4B8797DB2D2-Lynford-Quarry/entidad.json) | ARCH-SDB-28C4B8797DB2D2 | 0 | 0 | 0 | 0 |
+| [Tolbor 21](./ARCH-SDB-28F289854086D5-Tolbor-21/entidad.json) | ARCH-SDB-28F289854086D5 | 0 | 0 | 0 | 0 |
+| [La Boja](./ARCH-SDB-29A63C3F5E3F90-La-Boja/entidad.json) | ARCH-SDB-29A63C3F5E3F90 | 0 | 0 | 0 | 0 |
+| [Caminade Est](./ARCH-SDB-29EFFA71EB58E9-Caminade-Est/entidad.json) | ARCH-SDB-29EFFA71EB58E9 | 0 | 0 | 0 | 0 |
+| [Abri Blanchard](./ARCH-SDB-2A23B5F8BE49AF-Abri-Blanchard/entidad.json) | ARCH-SDB-2A23B5F8BE49AF | 0 | 0 | 0 | 0 |
+| [Mas d'Azil](./ARCH-SDB-2A4BD875DD4B25-Mas-d-Azil/entidad.json) | ARCH-SDB-2A4BD875DD4B25 | 0 | 0 | 0 | 0 |
+| [Banjingzi site](./ARCH-SDB-2A91BA215B98F0-Banjingzi-site/entidad.json) | ARCH-SDB-2A91BA215B98F0 | 0 | 0 | 0 | 0 |
+| [Szeleta](./ARCH-SDB-2B11EF5131FFD1-Szeleta/entidad.json) | ARCH-SDB-2B11EF5131FFD1 | 0 | 0 | 0 | 0 |
+| [Birimi](./ARCH-SDB-2B1760F9236ECE-Birimi/entidad.json) | ARCH-SDB-2B1760F9236ECE | 0 | 0 | 0 | 0 |
+| [Picareiro Cave](./ARCH-SDB-2B33B6EA453CF3-Picareiro-Cave/entidad.json) | ARCH-SDB-2B33B6EA453CF3 | 0 | 0 | 0 | 0 |
+| [Saint-Marcel-d'Ardeche](./ARCH-SDB-2B4A961C63BF34-Saint-Marcel-d-Ardeche/entidad.json) | ARCH-SDB-2B4A961C63BF34 | 0 | 0 | 0 | 0 |
+| [Jiboui](./ARCH-SDB-2BB96AC2977986-Jiboui/entidad.json) | ARCH-SDB-2BB96AC2977986 | 0 | 0 | 0 | 0 |
+| [Potocka Zijalka](./ARCH-SDB-2C319CE36638D9-Potocka-Zijalka/entidad.json) | ARCH-SDB-2C319CE36638D9 | 0 | 0 | 0 | 0 |
+| [Santo Antao do Tojal](./ARCH-SDB-2D47068E8B0814-Santo-Antao-do-Tojal/entidad.json) | ARCH-SDB-2D47068E8B0814 | 0 | 0 | 0 | 0 |
+| [Chagyrskaya](./ARCH-SDB-2E564E72F6E260-Chagyrskaya/entidad.json) | ARCH-SDB-2E564E72F6E260 | 0 | 0 | 0 | 0 |
+| [Shergarh Tri-Junction IV](./ARCH-SDB-2EA81FF339CACA-Shergarh-Tri-Junction-IV/entidad.json) | ARCH-SDB-2EA81FF339CACA | 0 | 0 | 0 | 0 |
+| [Lusakert I](./ARCH-SDB-2EBC2A02E3B96F-Lusakert-I/entidad.json) | ARCH-SDB-2EBC2A02E3B96F | 0 | 0 | 0 | 0 |
+| [Andance](./ARCH-SDB-2EC59177820601-Andance/entidad.json) | ARCH-SDB-2EC59177820601 | 0 | 0 | 0 | 0 |
+| [Birjuchaya Balka II](./ARCH-SDB-2EF71D06180F0F-Birjuchaya-Balka-II/entidad.json) | ARCH-SDB-2EF71D06180F0F | 0 | 0 | 0 | 0 |
+| [Pestera cu Oase (Panta Strămoşilor)](./ARCH-SDB-2F1A3F0D559418-Pestera-cu-Oase-Panta-Stramosilor/entidad.json) | ARCH-SDB-2F1A3F0D559418 | 0 | 0 | 0 | 0 |
+| [La Quina Aval](./ARCH-SDB-2F52684644A733-La-Quina-Aval/entidad.json) | ARCH-SDB-2F52684644A733 | 0 | 0 | 0 | 0 |
+| [Kana](./ARCH-SDB-3063963E3F4313-Kana/entidad.json) | ARCH-SDB-3063963E3F4313 | 0 | 0 | 0 | 0 |
+| [Ust'-Karakol 1](./ARCH-SDB-30B3AF432A3463-Ust-Karakol-1/entidad.json) | ARCH-SDB-30B3AF432A3463 | 0 | 0 | 0 | 0 |
+| [La Roche-Cotard](./ARCH-SDB-310761B29ED1BB-La-Roche-Cotard/entidad.json) | ARCH-SDB-310761B29ED1BB | 0 | 0 | 0 | 0 |
+| [Cotte Saint Brelade](./ARCH-SDB-323284DBEFAEB0-Cotte-Saint-Brelade/entidad.json) | ARCH-SDB-323284DBEFAEB0 | 0 | 0 | 0 | 0 |
+| [Cobrante](./ARCH-SDB-32A8B080A83DED-Cobrante/entidad.json) | ARCH-SDB-32A8B080A83DED | 0 | 0 | 0 | 0 |
+| [Espagnac](./ARCH-SDB-32EEF6B5C1C1DC-Espagnac/entidad.json) | ARCH-SDB-32EEF6B5C1C1DC | 0 | 0 | 0 | 0 |
+| [Cantalouette 4](./ARCH-SDB-33B600C28796A1-Cantalouette-4/entidad.json) | ARCH-SDB-33B600C28796A1 | 0 | 0 | 0 | 0 |
+| [Bettencourt-Saint-Ouen](./ARCH-SDB-33D5EEF7F0C7A8-Bettencourt-Saint-Ouen/entidad.json) | ARCH-SDB-33D5EEF7F0C7A8 | 0 | 0 | 0 | 0 |
+| [Serino](./ARCH-SDB-346CEEF6D71671-Serino/entidad.json) | ARCH-SDB-346CEEF6D71671 | 0 | 0 | 0 | 0 |
+| [Magubike rockshelter](./ARCH-SDB-34F176C27FB1DF-Magubike-rockshelter/entidad.json) | ARCH-SDB-34F176C27FB1DF | 0 | 0 | 0 | 0 |
+| [Grotte Walou](./ARCH-SDB-34F7E1FFCF9029-Grotte-Walou/entidad.json) | ARCH-SDB-34F7E1FFCF9029 | 0 | 0 | 0 | 0 |
+| [Kostenki (Kostienki) 14 (Markina gora)](./ARCH-SDB-353B5446AF5435-Kostenki-Kostienki-14-Markina-gora/entidad.json) | ARCH-SDB-353B5446AF5435 | 0 | 0 | 0 | 0 |
+| [Lianhuadong](./ARCH-SDB-35E824FD21CC38-Lianhuadong/entidad.json) | ARCH-SDB-35E824FD21CC38 | 0 | 0 | 0 | 0 |
+| [Byzovaya](./ARCH-SDB-361E9D2EA9DF49-Byzovaya/entidad.json) | ARCH-SDB-361E9D2EA9DF49 | 0 | 0 | 0 | 0 |
+| [Jebel Qattar 1](./ARCH-SDB-3628B55B4B8E8D-Jebel-Qattar-1/entidad.json) | ARCH-SDB-3628B55B4B8E8D | 0 | 0 | 0 | 0 |
+| [Orechov IV](./ARCH-SDB-36B0897B077EC6-Orechov-IV/entidad.json) | ARCH-SDB-36B0897B077EC6 | 0 | 0 | 0 | 0 |
+| [Novobelokatai Cave](./ARCH-SDB-370CFE1E24293A-Novobelokatai-Cave/entidad.json) | ARCH-SDB-370CFE1E24293A | 0 | 0 | 0 | 0 |
+| [Pietraszyn 49](./ARCH-SDB-37B388445DD810-Pietraszyn-49/entidad.json) | ARCH-SDB-37B388445DD810 | 0 | 0 | 0 | 0 |
+| [Cueva del Camino](./ARCH-SDB-37BF0FF2BF13CA-Cueva-del-Camino/entidad.json) | ARCH-SDB-37BF0FF2BF13CA | 0 | 0 | 0 | 0 |
+| [Fa Hien-lena](./ARCH-SDB-37FCC13EFD1102-Fa-Hien-lena/entidad.json) | ARCH-SDB-37FCC13EFD1102 | 0 | 0 | 0 | 0 |
+| [Cueva de los Aviones](./ARCH-SDB-387DC0D5299229-Cueva-de-los-Aviones/entidad.json) | ARCH-SDB-387DC0D5299229 | 0 | 0 | 0 | 0 |
+| [Ortvale Klde](./ARCH-SDB-38F22FB2380176-Ortvale-Klde/entidad.json) | ARCH-SDB-38F22FB2380176 | 0 | 0 | 0 | 0 |
+| [Cava Muracci (Cisterna di Latina)](./ARCH-SDB-39B8853920FA7E-Cava-Muracci-Cisterna-di-Latina/entidad.json) | ARCH-SDB-39B8853920FA7E | 0 | 0 | 0 | 0 |
+| [Longtanshan Cave 1](./ARCH-SDB-3A564CB0149578-Longtanshan-Cave-1/entidad.json) | ARCH-SDB-3A564CB0149578 | 0 | 0 | 0 | 0 |
+| [Ciemna CO](./ARCH-SDB-3A7980CCC62AC8-Ciemna-CO/entidad.json) | ARCH-SDB-3A7980CCC62AC8 | 0 | 0 | 0 | 0 |
+| [Bohunice-Kejbalay](./ARCH-SDB-3B9D7D0B223456-Bohunice-Kejbalay/entidad.json) | ARCH-SDB-3B9D7D0B223456 | 0 | 0 | 0 | 0 |
+| [La Cala](./ARCH-SDB-3BCBA201251115-La-Cala/entidad.json) | ARCH-SDB-3BCBA201251115 | 0 | 0 | 0 | 0 |
+| [Kitulgala Beli-lena](./ARCH-SDB-3BD0C97C2A016D-Kitulgala-Beli-lena/entidad.json) | ARCH-SDB-3BD0C97C2A016D | 0 | 0 | 0 | 0 |
+| [Peyrony](./ARCH-SDB-3BEA1511A1DC87-Peyrony/entidad.json) | ARCH-SDB-3BEA1511A1DC87 | 0 | 0 | 0 | 0 |
+| [Velika Pecina](./ARCH-SDB-3BEAD6B3B48F27-Velika-Pecina/entidad.json) | ARCH-SDB-3BEAD6B3B48F27 | 0 | 0 | 0 | 0 |
+| [Buena Pinta](./ARCH-SDB-3C3C97E1228759-Buena-Pinta/entidad.json) | ARCH-SDB-3C3C97E1228759 | 0 | 0 | 0 | 0 |
+| [Pech-de-l'Aze I](./ARCH-SDB-3C821F73E1A3BB-Pech-de-l-Aze-I/entidad.json) | ARCH-SDB-3C821F73E1A3BB | 0 | 0 | 0 | 0 |
+| [Cueva  Corazón](./ARCH-SDB-3E396AFA96C1B7-Cueva-Corazon/entidad.json) | ARCH-SDB-3E396AFA96C1B7 | 0 | 0 | 0 | 0 |
+| [Mezmaiskaya](./ARCH-SDB-3EC9A3F9064C4F-Mezmaiskaya/entidad.json) | ARCH-SDB-3EC9A3F9064C4F | 0 | 0 | 0 | 0 |
+| [Dzerava skala](./ARCH-SDB-3EECAD54C8F7E2-Dzerava-skala/entidad.json) | ARCH-SDB-3EECAD54C8F7E2 | 0 | 0 | 0 | 0 |
+| [Barbas III](./ARCH-SDB-40195CE47E3B1C-Barbas-III/entidad.json) | ARCH-SDB-40195CE47E3B1C | 0 | 0 | 0 | 0 |
+| [Saint-Brice-sous-Ranes](./ARCH-SDB-4082D78FBFB251-Saint-Brice-sous-Ranes/entidad.json) | ARCH-SDB-4082D78FBFB251 | 0 | 0 | 0 | 0 |
+| [Galeria de las Estatuas](./ARCH-SDB-409DB22597ACD7-Galeria-de-las-Estatuas/entidad.json) | ARCH-SDB-409DB22597ACD7 | 0 | 0 | 0 | 0 |
+| [Riparo del Broion](./ARCH-SDB-40CF79914846F1-Riparo-del-Broion/entidad.json) | ARCH-SDB-40CF79914846F1 | 0 | 0 | 0 | 0 |
+| [El Masnra](./ARCH-SDB-411BB2BFCE7B0C-El-Masnra/entidad.json) | ARCH-SDB-411BB2BFCE7B0C | 0 | 0 | 0 | 0 |
+| [Esquicho-Grapaou](./ARCH-SDB-427BF1D5A3B7A3-Esquicho-Grapaou/entidad.json) | ARCH-SDB-427BF1D5A3B7A3 | 0 | 0 | 0 | 0 |
+| [Savy](./ARCH-SDB-4287613855CD5C-Savy/entidad.json) | ARCH-SDB-4287613855CD5C | 0 | 0 | 0 | 0 |
+| [Certova Dira Cave](./ARCH-SDB-430125D3AA1C18-Certova-Dira-Cave/entidad.json) | ARCH-SDB-430125D3AA1C18 | 0 | 0 | 0 | 0 |
+| [Roc-de-Combe](./ARCH-SDB-4301F459E2FDF3-Roc-de-Combe/entidad.json) | ARCH-SDB-4301F459E2FDF3 | 0 | 0 | 0 | 0 |
+| [Rescoundudou](./ARCH-SDB-437D17F8DAEC10-Rescoundudou/entidad.json) | ARCH-SDB-437D17F8DAEC10 | 0 | 0 | 0 | 0 |
+| [Piekary II](./ARCH-SDB-4525F87B20E945-Piekary-II/entidad.json) | ARCH-SDB-4525F87B20E945 | 0 | 0 | 0 | 0 |
+| [Zaskalnaya VI -  Zeskalnaya VI](./ARCH-SDB-4592FC704CCF4B-Zaskalnaya-VI-Zeskalnaya-VI/entidad.json) | ARCH-SDB-4592FC704CCF4B | 0 | 0 | 0 | 0 |
+| [Robin Hood's Cave](./ARCH-SDB-4595DAE71F94AD-Robin-Hood-s-Cave/entidad.json) | ARCH-SDB-4595DAE71F94AD | 0 | 0 | 0 | 0 |
+| [Les Rochers de Villeneuve](./ARCH-SDB-465494784C3E9B-Les-Rochers-de-Villeneuve/entidad.json) | ARCH-SDB-465494784C3E9B | 0 | 0 | 0 | 0 |
+| [Villiers-Adam](./ARCH-SDB-46DB01329DD053-Villiers-Adam/entidad.json) | ARCH-SDB-46DB01329DD053 | 0 | 0 | 0 | 0 |
+| [Pech-de-l'Aze IV](./ARCH-SDB-46E37349E59627-Pech-de-l-Aze-IV/entidad.json) | ARCH-SDB-46E37349E59627 | 0 | 0 | 0 | 0 |
+| [Alapars-1](./ARCH-SDB-46EC9C4CE51167-Alapars-1/entidad.json) | ARCH-SDB-46EC9C4CE51167 | 0 | 0 | 0 | 0 |
+| [Thar Desert (Didwana 16R)](./ARCH-SDB-471947A6FA57D9-Thar-Desert-Didwana-16R/entidad.json) | ARCH-SDB-471947A6FA57D9 | 0 | 0 | 0 | 0 |
+| [Castelcivita](./ARCH-SDB-476644DC981ECC-Castelcivita/entidad.json) | ARCH-SDB-476644DC981ECC | 0 | 0 | 0 | 0 |
+| [Porc-Epic](./ARCH-SDB-4825CEF8E2AD92-Porc-Epic/entidad.json) | ARCH-SDB-4825CEF8E2AD92 | 0 | 0 | 0 | 0 |
+| [Vartop Cave, Room of the Steps](./ARCH-SDB-482653BC6B891F-Vartop-Cave-Room-of-the-Steps/entidad.json) | ARCH-SDB-482653BC6B891F | 0 | 0 | 0 | 0 |
+| [Gaitoudong (Laibin)](./ARCH-SDB-485DC231EB8DA8-Gaitoudong-Laibin/entidad.json) | ARCH-SDB-485DC231EB8DA8 | 0 | 0 | 0 | 0 |
+| [Grotte XVI](./ARCH-SDB-48C173A301C9E6-Grotte-XVI/entidad.json) | ARCH-SDB-48C173A301C9E6 | 0 | 0 | 0 | 0 |
+| [Pinnacle Point 13B](./ARCH-SDB-494B8DBDCF2305-Pinnacle-Point-13B/entidad.json) | ARCH-SDB-494B8DBDCF2305 | 0 | 0 | 0 | 0 |
+| [Manot Cave](./ARCH-SDB-49ED38897BBE01-Manot-Cave/entidad.json) | ARCH-SDB-49ED38897BBE01 | 0 | 0 | 0 | 0 |
+| [Rhafas cave](./ARCH-SDB-49F9CB02B9A480-Rhafas-cave/entidad.json) | ARCH-SDB-49F9CB02B9A480 | 0 | 0 | 0 | 0 |
+| [Diepkloof Rock Shelter](./ARCH-SDB-4A040A9B8D1A5F-Diepkloof-Rock-Shelter/entidad.json) | ARCH-SDB-4A040A9B8D1A5F | 0 | 0 | 0 | 0 |
+| [Chauvet](./ARCH-SDB-4A600C187B6A17-Chauvet/entidad.json) | ARCH-SDB-4A600C187B6A17 | 0 | 0 | 0 | 0 |
+| [Certova Pec](./ARCH-SDB-4A98E3D3B7A2A6-Certova-Pec/entidad.json) | ARCH-SDB-4A98E3D3B7A2A6 | 0 | 0 | 0 | 0 |
+| [Dvuglazka](./ARCH-SDB-4DBFF42BA0065F-Dvuglazka/entidad.json) | ARCH-SDB-4DBFF42BA0065F | 0 | 0 | 0 | 0 |
+| [Beauvais-la-Justice](./ARCH-SDB-4DDC8A178FC7F4-Beauvais-la-Justice/entidad.json) | ARCH-SDB-4DDC8A178FC7F4 | 0 | 0 | 0 | 0 |
+| [Lisen VIII](./ARCH-SDB-4E6EB3DE808822-Lisen-VIII/entidad.json) | ARCH-SDB-4E6EB3DE808822 | 0 | 0 | 0 | 0 |
+| [Ault-Onival](./ARCH-SDB-4F33C5F38C79BC-Ault-Onival/entidad.json) | ARCH-SDB-4F33C5F38C79BC | 0 | 0 | 0 | 0 |
+| [Cavallo](./ARCH-SDB-4FF571321DE180-Cavallo/entidad.json) | ARCH-SDB-4FF571321DE180 | 0 | 0 | 0 | 0 |
+| [Dhaba 3](./ARCH-SDB-4FFAD446D3BAB7-Dhaba-3/entidad.json) | ARCH-SDB-4FFAD446D3BAB7 | 0 | 0 | 0 | 0 |
+| [Amalda cave](./ARCH-SDB-5006B78E2814AB-Amalda-cave/entidad.json) | ARCH-SDB-5006B78E2814AB | 0 | 0 | 0 | 0 |
+| [Salawusu](./ARCH-SDB-50230E3584DC85-Salawusu/entidad.json) | ARCH-SDB-50230E3584DC85 | 0 | 0 | 0 | 0 |
+| [Hunas](./ARCH-SDB-506780CA7F6EE2-Hunas/entidad.json) | ARCH-SDB-506780CA7F6EE2 | 0 | 0 | 0 | 0 |
+| [Escoural](./ARCH-SDB-508F28CA4D4992-Escoural/entidad.json) | ARCH-SDB-508F28CA4D4992 | 0 | 0 | 0 | 0 |
+| [Seclin](./ARCH-SDB-513752EF9EAD5C-Seclin/entidad.json) | ARCH-SDB-513752EF9EAD5C | 0 | 0 | 0 | 0 |
+| [Pech-de-l'Aze II](./ARCH-SDB-52356F80CBC49D-Pech-de-l-Aze-II/entidad.json) | ARCH-SDB-52356F80CBC49D | 0 | 0 | 0 | 0 |
+| [Los Toros](./ARCH-SDB-526AFCB95C69DA-Los-Toros/entidad.json) | ARCH-SDB-526AFCB95C69DA | 0 | 0 | 0 | 0 |
+| [Peştera Curată (Nandru)](./ARCH-SDB-5282A7DCC0013A-Pestera-Curata-Nandru/entidad.json) | ARCH-SDB-5282A7DCC0013A | 0 | 0 | 0 | 0 |
+| [Covalejos, Cobalejos](./ARCH-SDB-52AA4528C9E46B-Covalejos-Cobalejos/entidad.json) | ARCH-SDB-52AA4528C9E46B | 0 | 0 | 0 | 0 |
+| [Sopochnaya Karga](./ARCH-SDB-52EB5CCD5E30E3-Sopochnaya-Karga/entidad.json) | ARCH-SDB-52EB5CCD5E30E3 | 0 | 0 | 0 | 0 |
+| [Benzú rockshelter](./ARCH-SDB-53EE5D8BAB9E58-Benzu-rockshelter/entidad.json) | ARCH-SDB-53EE5D8BAB9E58 | 0 | 0 | 0 | 0 |
+| [Las Ventanas and Cariguela](./ARCH-SDB-543B5648565F3A-Las-Ventanas-and-Cariguela/entidad.json) | ARCH-SDB-543B5648565F3A | 0 | 0 | 0 | 0 |
+| [Karungu](./ARCH-SDB-548B1CB715A604-Karungu/entidad.json) | ARCH-SDB-548B1CB715A604 | 0 | 0 | 0 | 0 |
+| [Tischoferhöhle](./ARCH-SDB-553A4CF840A64F-Tischoferhohle/entidad.json) | ARCH-SDB-553A4CF840A64F | 0 | 0 | 0 | 0 |
+| [Gutougou](./ARCH-SDB-568ADB231C5239-Gutougou/entidad.json) | ARCH-SDB-568ADB231C5239 | 0 | 0 | 0 | 0 |
+| [Cueva Anton](./ARCH-SDB-56CB0A0773252B-Cueva-Anton/entidad.json) | ARCH-SDB-56CB0A0773252B | 0 | 0 | 0 | 0 |
+| [Latrote](./ARCH-SDB-571CED63B1D47D-Latrote/entidad.json) | ARCH-SDB-571CED63B1D47D | 0 | 0 | 0 | 0 |
+| [Dzudzuana](./ARCH-SDB-5734ECC36DEEE3-Dzudzuana/entidad.json) | ARCH-SDB-5734ECC36DEEE3 | 0 | 0 | 0 | 0 |
+| [Zhiren cave (Homo sapiens cave)](./ARCH-SDB-573E753B4D0EC7-Zhiren-cave-Homo-sapiens-cave/entidad.json) | ARCH-SDB-573E753B4D0EC7 | 0 | 0 | 0 | 0 |
+| [Bondi Cave](./ARCH-SDB-57691EB987AD21-Bondi-Cave/entidad.json) | ARCH-SDB-57691EB987AD21 | 0 | 0 | 0 | 0 |
+| [Genay](./ARCH-SDB-579FE0EF279E42-Genay/entidad.json) | ARCH-SDB-579FE0EF279E42 | 0 | 0 | 0 | 0 |
+| [Plovers Lake](./ARCH-SDB-580CA4E2815D72-Plovers-Lake/entidad.json) | ARCH-SDB-580CA4E2815D72 | 0 | 0 | 0 | 0 |
+| [Harregi](./ARCH-SDB-58278E767E2A1E-Harregi/entidad.json) | ARCH-SDB-58278E767E2A1E | 0 | 0 | 0 | 0 |
+| [Karain Cave](./ARCH-SDB-58779CB48B9993-Karain-Cave/entidad.json) | ARCH-SDB-58779CB48B9993 | 0 | 0 | 0 | 0 |
+| [Spy Cave](./ARCH-SDB-58DF7A3D256DB4-Spy-Cave/entidad.json) | ARCH-SDB-58DF7A3D256DB4 | 0 | 0 | 0 | 0 |
+| [Nahal Mahanayeem Outlet](./ARCH-SDB-59314DFB98DE8D-Nahal-Mahanayeem-Outlet/entidad.json) | ARCH-SDB-59314DFB98DE8D | 0 | 0 | 0 | 0 |
+| [Stajnia Cave](./ARCH-SDB-5958593667BE70-Stajnia-Cave/entidad.json) | ARCH-SDB-5958593667BE70 | 0 | 0 | 0 | 0 |
+| [Grotta di Sant Agostino](./ARCH-SDB-596631978E7488-Grotta-di-Sant-Agostino/entidad.json) | ARCH-SDB-596631978E7488 | 0 | 0 | 0 | 0 |
+| [Aduma](./ARCH-SDB-596DEE42D32AD1-Aduma/entidad.json) | ARCH-SDB-596DEE42D32AD1 | 0 | 0 | 0 | 0 |
+| [Üçağızlı](./ARCH-SDB-59CEB960084F53-Ucagzl/entidad.json) | ARCH-SDB-59CEB960084F53 | 0 | 0 | 0 | 0 |
+| [Payre](./ARCH-SDB-5A205403A72AD9-Payre/entidad.json) | ARCH-SDB-5A205403A72AD9 | 0 | 0 | 0 | 0 |
+| [Fresnoy-au-Val](./ARCH-SDB-5A444EBF48EA43-Fresnoy-au-Val/entidad.json) | ARCH-SDB-5A444EBF48EA43 | 0 | 0 | 0 | 0 |
+| [Certova Dira Cave](./ARCH-SDB-5A60C02C7A71C2-Certova-Dira-Cave/entidad.json) | ARCH-SDB-5A60C02C7A71C2 | 0 | 0 | 0 | 0 |
+| [Quebrada](./ARCH-SDB-5B00F8A9B89C74-Quebrada/entidad.json) | ARCH-SDB-5B00F8A9B89C74 | 0 | 0 | 0 | 0 |
+| [Kaldar cave](./ARCH-SDB-5B5BA1FF523219-Kaldar-cave/entidad.json) | ARCH-SDB-5B5BA1FF523219 | 0 | 0 | 0 | 0 |
+| [Scladina](./ARCH-SDB-5BCAA272944C3A-Scladina/entidad.json) | ARCH-SDB-5BCAA272944C3A | 0 | 0 | 0 | 0 |
+| [Grotta Maggiore di San Bernardino](./ARCH-SDB-5C343E7827D695-Grotta-Maggiore-di-San-Bernardino/entidad.json) | ARCH-SDB-5C343E7827D695 | 0 | 0 | 0 | 0 |
+| [Mezzena](./ARCH-SDB-5D20AA3DD93246-Mezzena/entidad.json) | ARCH-SDB-5D20AA3DD93246 | 0 | 0 | 0 | 0 |
+| [Sima de las Palomas del Cabezo Gordo](./ARCH-SDB-5D73DAE58F1429-Sima-de-las-Palomas-del-Cabezo-Gordo/entidad.json) | ARCH-SDB-5D73DAE58F1429 | 0 | 0 | 0 | 0 |
+| [Haua Fteah](./ARCH-SDB-5DA6512E7B1C38-Haua-Fteah/entidad.json) | ARCH-SDB-5DA6512E7B1C38 | 0 | 0 | 0 | 0 |
+| [Fuentes de San Cristobal](./ARCH-SDB-5DD1DC23D5B347-Fuentes-de-San-Cristobal/entidad.json) | ARCH-SDB-5DD1DC23D5B347 | 0 | 0 | 0 | 0 |
+| [Riparo Mochi](./ARCH-SDB-5E26DB905C2DDB-Riparo-Mochi/entidad.json) | ARCH-SDB-5E26DB905C2DDB | 0 | 0 | 0 | 0 |
+| [Arma delle Manie](./ARCH-SDB-5F72CD119DF3C8-Arma-delle-Manie/entidad.json) | ARCH-SDB-5F72CD119DF3C8 | 0 | 0 | 0 | 0 |
+| [Jwalapuram Locality 3](./ARCH-SDB-600903E655A917-Jwalapuram-Locality-3/entidad.json) | ARCH-SDB-600903E655A917 | 0 | 0 | 0 | 0 |
+| [Amud](./ARCH-SDB-610087D4552920-Amud/entidad.json) | ARCH-SDB-610087D4552920 | 0 | 0 | 0 | 0 |
+| [El Harhoura 2](./ARCH-SDB-610519E5FE5A47-El-Harhoura-2/entidad.json) | ARCH-SDB-610519E5FE5A47 | 0 | 0 | 0 | 0 |
+| [Varghis Abri 122](./ARCH-SDB-61381E2EA8EA30-Varghis-Abri-122/entidad.json) | ARCH-SDB-61381E2EA8EA30 | 0 | 0 | 0 | 0 |
+| [Laoya Cave](./ARCH-SDB-61787BE0F545E5-Laoya-Cave/entidad.json) | ARCH-SDB-61787BE0F545E5 | 0 | 0 | 0 | 0 |
+| [Istallosko](./ARCH-SDB-61961A0678A049-Istallosko/entidad.json) | ARCH-SDB-61961A0678A049 | 0 | 0 | 0 | 0 |
+| [Ange](./ARCH-SDB-61B4A455C25E7F-Ange/entidad.json) | ARCH-SDB-61B4A455C25E7F | 0 | 0 | 0 | 0 |
+| [Barozh 12](./ARCH-SDB-62B1D08202E00D-Barozh-12/entidad.json) | ARCH-SDB-62B1D08202E00D | 0 | 0 | 0 | 0 |
+| [Konigsaue](./ARCH-SDB-63508FB2991CFE-Konigsaue/entidad.json) | ARCH-SDB-63508FB2991CFE | 0 | 0 | 0 | 0 |
+| [Ein Qashish](./ARCH-SDB-637FFFFDDF4502-Ein-Qashish/entidad.json) | ARCH-SDB-637FFFFDDF4502 | 0 | 0 | 0 | 0 |
+| [Ghar-e Boof Cave](./ARCH-SDB-63B8AA260D2F2A-Ghar-e-Boof-Cave/entidad.json) | ARCH-SDB-63B8AA260D2F2A | 0 | 0 | 0 | 0 |
+| [Roche a Pierrot (Saint-Césaire)](./ARCH-SDB-64891A6EC0E3BD-Roche-a-Pierrot-Saint-Cesaire/entidad.json) | ARCH-SDB-64891A6EC0E3BD | 0 | 0 | 0 | 0 |
+| [Le Noisetier](./ARCH-SDB-64A5C4E3EBF7CD-Le-Noisetier/entidad.json) | ARCH-SDB-64A5C4E3EBF7CD | 0 | 0 | 0 | 0 |
+| [Les Pradelles (Marillac)](./ARCH-SDB-6509BC793A35DA-Les-Pradelles-Marillac/entidad.json) | ARCH-SDB-6509BC793A35DA | 0 | 0 | 0 | 0 |
+| [Klisoura Cave 1](./ARCH-SDB-65BC17629E45BF-Klisoura-Cave-1/entidad.json) | ARCH-SDB-65BC17629E45BF | 0 | 0 | 0 | 0 |
+| [Trou de l'Abime](./ARCH-SDB-67254570240350-Trou-de-l-Abime/entidad.json) | ARCH-SDB-67254570240350 | 0 | 0 | 0 | 0 |
+| [Kabazi II](./ARCH-SDB-686B775C3357E5-Kabazi-II/entidad.json) | ARCH-SDB-686B775C3357E5 | 0 | 0 | 0 | 0 |
+| [Cassenade](./ARCH-SDB-688E9538D7CE91-Cassenade/entidad.json) | ARCH-SDB-688E9538D7CE91 | 0 | 0 | 0 | 0 |
+| [Ferrassie](./ARCH-SDB-690AC520368544-Ferrassie/entidad.json) | ARCH-SDB-690AC520368544 | 0 | 0 | 0 | 0 |
+| [Schulerloch](./ARCH-SDB-692A00DE9D4B01-Schulerloch/entidad.json) | ARCH-SDB-692A00DE9D4B01 | 0 | 0 | 0 | 0 |
+| [Kisese II rockshelter](./ARCH-SDB-6971D08229603A-Kisese-II-rockshelter/entidad.json) | ARCH-SDB-6971D08229603A | 0 | 0 | 0 | 0 |
+| [Aghitu-3 Cave](./ARCH-SDB-69A150474673FA-Aghitu-3-Cave/entidad.json) | ARCH-SDB-69A150474673FA | 0 | 0 | 0 | 0 |
+| [Le Mura](./ARCH-SDB-6A254353A67003-Le-Mura/entidad.json) | ARCH-SDB-6A254353A67003 | 0 | 0 | 0 | 0 |
+| [Mirak 8](./ARCH-SDB-6B97F02555DF71-Mirak-8/entidad.json) | ARCH-SDB-6B97F02555DF71 | 0 | 0 | 0 | 0 |
+| [Mawokou Cave](./ARCH-SDB-6B9C6B9D63D365-Mawokou-Cave/entidad.json) | ARCH-SDB-6B9C6B9D63D365 | 0 | 0 | 0 | 0 |
+| [Malisina Stijena](./ARCH-SDB-6BA041440E962C-Malisina-Stijena/entidad.json) | ARCH-SDB-6BA041440E962C | 0 | 0 | 0 | 0 |
+| [Ash Tree Cave](./ARCH-SDB-6C041F7CA3D257-Ash-Tree-Cave/entidad.json) | ARCH-SDB-6C041F7CA3D257 | 0 | 0 | 0 | 0 |
+| [Combe Capelle Bas](./ARCH-SDB-6C2DF95D7C6A6D-Combe-Capelle-Bas/entidad.json) | ARCH-SDB-6C2DF95D7C6A6D | 0 | 0 | 0 | 0 |
+| [Abri Suard (La Chaise)](./ARCH-SDB-6C491EA1F28E24-Abri-Suard-La-Chaise/entidad.json) | ARCH-SDB-6C491EA1F28E24 | 0 | 0 | 0 | 0 |
+| [Dorolj 1](./ARCH-SDB-6CDC800BE620DE-Dorolj-1/entidad.json) | ARCH-SDB-6CDC800BE620DE | 0 | 0 | 0 | 0 |
+| [Jingshuiwan site](./ARCH-SDB-6E0509AD241A49-Jingshuiwan-site/entidad.json) | ARCH-SDB-6E0509AD241A49 | 0 | 0 | 0 | 0 |
+| [Cueva del Higueral de Valleja](./ARCH-SDB-6E72DCD1772EAA-Cueva-del-Higueral-de-Valleja/entidad.json) | ARCH-SDB-6E72DCD1772EAA | 0 | 0 | 0 | 0 |
+| [Podoli V (Lisen)](./ARCH-SDB-700B6D84001E16-Podoli-V-Lisen/entidad.json) | ARCH-SDB-700B6D84001E16 | 0 | 0 | 0 | 0 |
+| [El Castillo](./ARCH-SDB-70576369DD94D6-El-Castillo/entidad.json) | ARCH-SDB-70576369DD94D6 | 0 | 0 | 0 | 0 |
+| [Zwolen](./ARCH-SDB-707639F9BE5241-Zwolen/entidad.json) | ARCH-SDB-707639F9BE5241 | 0 | 0 | 0 | 0 |
+| [Abri de Pie-Lombard](./ARCH-SDB-7133587E950153-Abri-de-Pie-Lombard/entidad.json) | ARCH-SDB-7133587E950153 | 0 | 0 | 0 | 0 |
+| [Buran Kaya III](./ARCH-SDB-714CF6E743969C-Buran-Kaya-III/entidad.json) | ARCH-SDB-714CF6E743969C | 0 | 0 | 0 | 0 |
+| [Saint-Illiers-la-Ville](./ARCH-SDB-71FD43FADBAB1C-Saint-Illiers-la-Ville/entidad.json) | ARCH-SDB-71FD43FADBAB1C | 0 | 0 | 0 | 0 |
+| [Tinit 1](./ARCH-SDB-720E78920C2F52-Tinit-1/entidad.json) | ARCH-SDB-720E78920C2F52 | 0 | 0 | 0 | 0 |
+| [La Güelga](./ARCH-SDB-72C3A979081FC4-La-Guelga/entidad.json) | ARCH-SDB-72C3A979081FC4 | 0 | 0 | 0 | 0 |
+| [Romanesti-Dumbravita](./ARCH-SDB-72F3869D5F9671-Romanesti-Dumbravita/entidad.json) | ARCH-SDB-72F3869D5F9671 | 0 | 0 | 0 | 0 |
+| [Loiyangalani site](./ARCH-SDB-752C8C451209C0-Loiyangalani-site/entidad.json) | ARCH-SDB-752C8C451209C0 | 0 | 0 | 0 | 0 |
+| [Shergarh Tri-Junction III](./ARCH-SDB-758946CF4D9CCC-Shergarh-Tri-Junction-III/entidad.json) | ARCH-SDB-758946CF4D9CCC | 0 | 0 | 0 | 0 |
+| [Kalamakia Cave](./ARCH-SDB-7619CD882E77C8-Kalamakia-Cave/entidad.json) | ARCH-SDB-7619CD882E77C8 | 0 | 0 | 0 | 0 |
+| [Mitoc-Malu Galben](./ARCH-SDB-762145FDCCE7E0-Mitoc-Malu-Galben/entidad.json) | ARCH-SDB-762145FDCCE7E0 | 0 | 0 | 0 | 0 |
+| [Hundidero](./ARCH-SDB-7648E24E11A4FF-Hundidero/entidad.json) | ARCH-SDB-7648E24E11A4FF | 0 | 0 | 0 | 0 |
+| [Monasheskaya Cave](./ARCH-SDB-772858D4EAF452-Monasheskaya-Cave/entidad.json) | ARCH-SDB-772858D4EAF452 | 0 | 0 | 0 | 0 |
+| [Dartford](./ARCH-SDB-775DDC2D2C8727-Dartford/entidad.json) | ARCH-SDB-775DDC2D2C8727 | 0 | 0 | 0 | 0 |
+| [Beauvais-la-Justice](./ARCH-SDB-776E4C13AA066B-Beauvais-la-Justice/entidad.json) | ARCH-SDB-776E4C13AA066B | 0 | 0 | 0 | 0 |
+| [Tiémassas](./ARCH-SDB-77AE49FCFEA8B5-Tiemassas/entidad.json) | ARCH-SDB-77AE49FCFEA8B5 | 0 | 0 | 0 | 0 |
+| [La Fabbrica Cave](./ARCH-SDB-7808578A356D5B-La-Fabbrica-Cave/entidad.json) | ARCH-SDB-7808578A356D5B | 0 | 0 | 0 | 0 |
+| [Tournal, Grande grotte de Bize](./ARCH-SDB-7810EC8EBC91C4-Tournal-Grande-grotte-de-Bize/entidad.json) | ARCH-SDB-7810EC8EBC91C4 | 0 | 0 | 0 | 0 |
+| [Banwell Bone Cave](./ARCH-SDB-78D76415D106F1-Banwell-Bone-Cave/entidad.json) | ARCH-SDB-78D76415D106F1 | 0 | 0 | 0 | 0 |
+| [Zafarraya](./ARCH-SDB-79B54BFC77A365-Zafarraya/entidad.json) | ARCH-SDB-79B54BFC77A365 | 0 | 0 | 0 | 0 |
+| [Bajondillo](./ARCH-SDB-79BF6981D65DAE-Bajondillo/entidad.json) | ARCH-SDB-79BF6981D65DAE | 0 | 0 | 0 | 0 |
+| [Caverna delle Fate](./ARCH-SDB-79CD7F2B002BBE-Caverna-delle-Fate/entidad.json) | ARCH-SDB-79CD7F2B002BBE | 0 | 0 | 0 | 0 |
+| [Upper Cave (Shandingdong)](./ARCH-SDB-7A20BA346A1090-Upper-Cave-Shandingdong/entidad.json) | ARCH-SDB-7A20BA346A1090 | 0 | 0 | 0 | 0 |
+| [Nazlet Safaha 2](./ARCH-SDB-7ACB1D62A07303-Nazlet-Safaha-2/entidad.json) | ARCH-SDB-7ACB1D62A07303 | 0 | 0 | 0 | 0 |
+| [Mamontovaya Kurya](./ARCH-SDB-7AFD1E5297493E-Mamontovaya-Kurya/entidad.json) | ARCH-SDB-7AFD1E5297493E | 0 | 0 | 0 | 0 |
+| [Qafzeh](./ARCH-SDB-7B3D027C414310-Qafzeh/entidad.json) | ARCH-SDB-7B3D027C414310 | 0 | 0 | 0 | 0 |
+| [Fossellone cave](./ARCH-SDB-7B64EF00122959-Fossellone-cave/entidad.json) | ARCH-SDB-7B64EF00122959 | 0 | 0 | 0 | 0 |
+| [Isturitz](./ARCH-SDB-7B6B9CF881731C-Isturitz/entidad.json) | ARCH-SDB-7B6B9CF881731C | 0 | 0 | 0 | 0 |
+| [Franchthi cave](./ARCH-SDB-7C0FA55210D9AC-Franchthi-cave/entidad.json) | ARCH-SDB-7C0FA55210D9AC | 0 | 0 | 0 | 0 |
+| [Buzdujeni I Cave](./ARCH-SDB-7E8C5D839CBEAD-Buzdujeni-I-Cave/entidad.json) | ARCH-SDB-7E8C5D839CBEAD | 0 | 0 | 0 | 0 |
+| [Cova Gran de Santa Linya](./ARCH-SDB-7EA2D8B39333D1-Cova-Gran-de-Santa-Linya/entidad.json) | ARCH-SDB-7EA2D8B39333D1 | 0 | 0 | 0 | 0 |
+| [Bisnik](./ARCH-SDB-7FCA090AFBA69C-Bisnik/entidad.json) | ARCH-SDB-7FCA090AFBA69C | 0 | 0 | 0 | 0 |
+| [Ortvale Klde](./ARCH-SDB-8058F5AE04E6F7-Ortvale-Klde/entidad.json) | ARCH-SDB-8058F5AE04E6F7 | 0 | 0 | 0 | 0 |
+| [Salkhit](./ARCH-SDB-81C3796ED090B3-Salkhit/entidad.json) | ARCH-SDB-81C3796ED090B3 | 0 | 0 | 0 | 0 |
+| [Caverna Generosa](./ARCH-SDB-81FF926BFFED2A-Caverna-Generosa/entidad.json) | ARCH-SDB-81FF926BFFED2A | 0 | 0 | 0 | 0 |
+| [Riparo Bombrini](./ARCH-SDB-82DD6CC09CF8A0-Riparo-Bombrini/entidad.json) | ARCH-SDB-82DD6CC09CF8A0 | 0 | 0 | 0 | 0 |
+| [Prélétang cave](./ARCH-SDB-83E3CEC454418F-Preletang-cave/entidad.json) | ARCH-SDB-83E3CEC454418F | 0 | 0 | 0 | 0 |
+| [Canaveral (Area 3)](./ARCH-SDB-83F260528F57C4-Canaveral-Area-3/entidad.json) | ARCH-SDB-83F260528F57C4 | 0 | 0 | 0 | 0 |
+| [Klipdrift Shelter](./ARCH-SDB-84645862B6D4D6-Klipdrift-Shelter/entidad.json) | ARCH-SDB-84645862B6D4D6 | 0 | 0 | 0 | 0 |
+| [Mehtakheri](./ARCH-SDB-84B6BDF1295A6C-Mehtakheri/entidad.json) | ARCH-SDB-84B6BDF1295A6C | 0 | 0 | 0 | 0 |
+| [Bois Clair (Montguyon)](./ARCH-SDB-84E113B03ADD4C-Bois-Clair-Montguyon/entidad.json) | ARCH-SDB-84E113B03ADD4C | 0 | 0 | 0 | 0 |
+| [Bordul Mare (d'Ohaba Ponor)](./ARCH-SDB-8539E13A26BD77-Bordul-Mare-d-Ohaba-Ponor/entidad.json) | ARCH-SDB-8539E13A26BD77 | 0 | 0 | 0 | 0 |
+| [Jebel Umm Sanman](./ARCH-SDB-8553C2F1E7322A-Jebel-Umm-Sanman/entidad.json) | ARCH-SDB-8553C2F1E7322A | 0 | 0 | 0 | 0 |
+| [Columbeira](./ARCH-SDB-856FB07043B5A8-Columbeira/entidad.json) | ARCH-SDB-856FB07043B5A8 | 0 | 0 | 0 | 0 |
+| [Salitrena Pecina](./ARCH-SDB-85CA73D28D7148-Salitrena-Pecina/entidad.json) | ARCH-SDB-85CA73D28D7148 | 0 | 0 | 0 | 0 |
+| [Ciemna CK](./ARCH-SDB-85E6757536722C-Ciemna-CK/entidad.json) | ARCH-SDB-85E6757536722C | 0 | 0 | 0 | 0 |
+| [Bordes-Fitte (Roches d'Abilly site)](./ARCH-SDB-86A39943B4B22D-Bordes-Fitte-Roches-d-Abilly-site/entidad.json) | ARCH-SDB-86A39943B4B22D | 0 | 0 | 0 | 0 |
+| [Flageolet I](./ARCH-SDB-86DA1181033DF7-Flageolet-I/entidad.json) | ARCH-SDB-86DA1181033DF7 | 0 | 0 | 0 | 0 |
+| [Gorham's Cave](./ARCH-SDB-86E1C6CA6733C9-Gorham-s-Cave/entidad.json) | ARCH-SDB-86E1C6CA6733C9 | 0 | 0 | 0 | 0 |
+| [Vedrovice Ia](./ARCH-SDB-876BF2B245F62B-Vedrovice-Ia/entidad.json) | ARCH-SDB-876BF2B245F62B | 0 | 0 | 0 | 0 |
+| [Cova Eiros](./ARCH-SDB-8797D112C4D63A-Cova-Eiros/entidad.json) | ARCH-SDB-8797D112C4D63A | 0 | 0 | 0 | 0 |
+| [Vilas Ruivas](./ARCH-SDB-88488FC273A474-Vilas-Ruivas/entidad.json) | ARCH-SDB-88488FC273A474 | 0 | 0 | 0 | 0 |
+| [Foz do Enxarrique](./ARCH-SDB-885E614A4B651F-Foz-do-Enxarrique/entidad.json) | ARCH-SDB-885E614A4B651F | 0 | 0 | 0 | 0 |
+| [Skhul II, Skhul V](./ARCH-SDB-885FD96BAE4B3F-Skhul-II-Skhul-V/entidad.json) | ARCH-SDB-885FD96BAE4B3F | 0 | 0 | 0 | 0 |
+| [Katoati](./ARCH-SDB-89474A8E3C0C1D-Katoati/entidad.json) | ARCH-SDB-89474A8E3C0C1D | 0 | 0 | 0 | 0 |
+| [Vedrovice V](./ARCH-SDB-894928D1A0DF0A-Vedrovice-V/entidad.json) | ARCH-SDB-894928D1A0DF0A | 0 | 0 | 0 | 0 |
+| [Rio Secco](./ARCH-SDB-895957B6E70FD7-Rio-Secco/entidad.json) | ARCH-SDB-895957B6E70FD7 | 0 | 0 | 0 | 0 |
+| [Varvarina Gora](./ARCH-SDB-8A920083117BBD-Varvarina-Gora/entidad.json) | ARCH-SDB-8A920083117BBD | 0 | 0 | 0 | 0 |
+| [Šandalja II](./ARCH-SDB-8BCD12665DCB5D-Sandalja-II/entidad.json) | ARCH-SDB-8BCD12665DCB5D | 0 | 0 | 0 | 0 |
+| [Bordul Mare (d'OhabaPonor)](./ARCH-SDB-8C6FB3602551A7-Bordul-Mare-d-OhabaPonor/entidad.json) | ARCH-SDB-8C6FB3602551A7 | 0 | 0 | 0 | 0 |
+| [Pes-ko](./ARCH-SDB-8D6BB8D13F7706-Pes-ko/entidad.json) | ARCH-SDB-8D6BB8D13F7706 | 0 | 0 | 0 | 0 |
+| [Grotta Paglicci](./ARCH-SDB-8E0E28F8A5C791-Grotta-Paglicci/entidad.json) | ARCH-SDB-8E0E28F8A5C791 | 0 | 0 | 0 | 0 |
+| [Hohlenstein-Stadel](./ARCH-SDB-8E5EEDBDC61D57-Hohlenstein-Stadel/entidad.json) | ARCH-SDB-8E5EEDBDC61D57 | 0 | 0 | 0 | 0 |
+| [Mugharet el ‘Aliya](./ARCH-SDB-8EBB64FD8DC818-Mugharet-el-Aliya/entidad.json) | ARCH-SDB-8EBB64FD8DC818 | 0 | 0 | 0 | 0 |
+| [Ifri n’Ammar](./ARCH-SDB-8F114B6957CE81-Ifri-nAmmar/entidad.json) | ARCH-SDB-8F114B6957CE81 | 0 | 0 | 0 | 0 |
+| [Peştera La Izvor (Cheia)](./ARCH-SDB-8F8D05ECF34011-Pestera-La-Izvor-Cheia/entidad.json) | ARCH-SDB-8F8D05ECF34011 | 0 | 0 | 0 | 0 |
+| [Ranc de l'Arc](./ARCH-SDB-8FF07F9554B7BA-Ranc-de-l-Arc/entidad.json) | ARCH-SDB-8FF07F9554B7BA | 0 | 0 | 0 | 0 |
+| [Kulichivka (Kulychivka)](./ARCH-SDB-905C39DB21FAD6-Kulichivka-Kulychivka/entidad.json) | ARCH-SDB-905C39DB21FAD6 | 0 | 0 | 0 | 0 |
+| [Ganovce](./ARCH-SDB-91128172112B16-Ganovce/entidad.json) | ARCH-SDB-91128172112B16 | 0 | 0 | 0 | 0 |
+| [Cueva Millan](./ARCH-SDB-9112BC448D5DEB-Cueva-Millan/entidad.json) | ARCH-SDB-9112BC448D5DEB | 0 | 0 | 0 | 0 |
+| [Rochette](./ARCH-SDB-925888FCB178BC-Rochette/entidad.json) | ARCH-SDB-925888FCB178BC | 0 | 0 | 0 | 0 |
+| [Shanidar](./ARCH-SDB-926B33B4B96B7E-Shanidar/entidad.json) | ARCH-SDB-926B33B4B96B7E | 0 | 0 | 0 | 0 |
+| [Cuco](./ARCH-SDB-939738E765763B-Cuco/entidad.json) | ARCH-SDB-939738E765763B | 0 | 0 | 0 | 0 |
+| [Roc de Marsal](./ARCH-SDB-93A4D77EAA6180-Roc-de-Marsal/entidad.json) | ARCH-SDB-93A4D77EAA6180 | 0 | 0 | 0 | 0 |
+| [Milovice I](./ARCH-SDB-93D897A9CAE5FF-Milovice-I/entidad.json) | ARCH-SDB-93D897A9CAE5FF | 0 | 0 | 0 | 0 |
+| [Grotta Romanelli](./ARCH-SDB-93FAC82B9F3C96-Grotta-Romanelli/entidad.json) | ARCH-SDB-93FAC82B9F3C96 | 0 | 0 | 0 | 0 |
+| [Ciur-Izbuc cave](./ARCH-SDB-941A6F6D317792-Ciur-Izbuc-cave/entidad.json) | ARCH-SDB-941A6F6D317792 | 0 | 0 | 0 | 0 |
+| [Klasies River Main site](./ARCH-SDB-9434F7C7E682E5-Klasies-River-Main-site/entidad.json) | ARCH-SDB-9434F7C7E682E5 | 0 | 0 | 0 | 0 |
+| [Azokh Cave](./ARCH-SDB-948650ED23AF05-Azokh-Cave/entidad.json) | ARCH-SDB-948650ED23AF05 | 0 | 0 | 0 | 0 |
+| [Les Plumettes (Lussac-les-Châteaux, Vienne, France)](./ARCH-SDB-94AE7FE87E8FAA-Les-Plumettes-Lussac-les-Chateaux-Vienne-Franc/entidad.json) | ARCH-SDB-94AE7FE87E8FAA | 0 | 0 | 0 | 0 |
+| [Cova Foradada (Calafell)](./ARCH-SDB-9517F7F75F9DEE-Cova-Foradada-Calafell/entidad.json) | ARCH-SDB-9517F7F75F9DEE | 0 | 0 | 0 | 0 |
+| [Pestera cu Oase (Sala Mandibulei)](./ARCH-SDB-9596AF20209AD0-Pestera-cu-Oase-Sala-Mandibulei/entidad.json) | ARCH-SDB-9596AF20209AD0 | 0 | 0 | 0 | 0 |
+| [Moravsky Krumlov IV](./ARCH-SDB-95B954B9BEFFC0-Moravsky-Krumlov-IV/entidad.json) | ARCH-SDB-95B954B9BEFFC0 | 0 | 0 | 0 | 0 |
+| [Sous-les-Vignes](./ARCH-SDB-9610671D2E9E82-Sous-les-Vignes/entidad.json) | ARCH-SDB-9610671D2E9E82 | 0 | 0 | 0 | 0 |
+| [Mamutowa](./ARCH-SDB-96707B5CB9F5CF-Mamutowa/entidad.json) | ARCH-SDB-96707B5CB9F5CF | 0 | 0 | 0 | 0 |
+| [El Sidrón](./ARCH-SDB-97EE740D8DADAD-El-Sidron/entidad.json) | ARCH-SDB-97EE740D8DADAD | 0 | 0 | 0 | 0 |
+| [Grassridge rockshelter](./ARCH-SDB-9856F320A52EB5-Grassridge-rockshelter/entidad.json) | ARCH-SDB-9856F320A52EB5 | 0 | 0 | 0 | 0 |
+| [Grotta all'Onda](./ARCH-SDB-995F5B2047B0C5-Grotta-all-Onda/entidad.json) | ARCH-SDB-995F5B2047B0C5 | 0 | 0 | 0 | 0 |
+| [Les Cottes](./ARCH-SDB-99CBF898418C1B-Les-Cottes/entidad.json) | ARCH-SDB-99CBF898418C1B | 0 | 0 | 0 | 0 |
+| [Ganqian Cave (Tubo)](./ARCH-SDB-9B116586B8979F-Ganqian-Cave-Tubo/entidad.json) | ARCH-SDB-9B116586B8979F | 0 | 0 | 0 | 0 |
+| [Tabun](./ARCH-SDB-9B4A3BA492FA76-Tabun/entidad.json) | ARCH-SDB-9B4A3BA492FA76 | 0 | 0 | 0 | 0 |
+| [Bollschweil](./ARCH-SDB-9B5544280C92F6-Bollschweil/entidad.json) | ARCH-SDB-9B5544280C92F6 | 0 | 0 | 0 | 0 |
+| [Stranska Skala](./ARCH-SDB-9C6DD143665C1B-Stranska-Skala/entidad.json) | ARCH-SDB-9C6DD143665C1B | 0 | 0 | 0 | 0 |
+| [L'Erguillière-Port-Racine](./ARCH-SDB-9CA318607DBF54-L-Erguilliere-Port-Racine/entidad.json) | ARCH-SDB-9CA318607DBF54 | 0 | 0 | 0 | 0 |
+| [Zaozer'e](./ARCH-SDB-9D0A9506DFE751-Zaozer-e/entidad.json) | ARCH-SDB-9D0A9506DFE751 | 0 | 0 | 0 | 0 |
+| [Trou de la Mère Clochette](./ARCH-SDB-9E9E44602133B2-Trou-de-la-Mere-Clochette/entidad.json) | ARCH-SDB-9E9E44602133B2 | 0 | 0 | 0 | 0 |
+| [Kalavan 2](./ARCH-SDB-A0CCBAE7C13FEB-Kalavan-2/entidad.json) | ARCH-SDB-A0CCBAE7C13FEB | 0 | 0 | 0 | 0 |
+| [Madonna dell'Arma](./ARCH-SDB-A18D422221EB2A-Madonna-dell-Arma/entidad.json) | ARCH-SDB-A18D422221EB2A | 0 | 0 | 0 | 0 |
+| [Volkringhauser Hohle](./ARCH-SDB-A1BA8ADADC96A4-Volkringhauser-Hohle/entidad.json) | ARCH-SDB-A1BA8ADADC96A4 | 0 | 0 | 0 | 0 |
+| [Labeko Koba](./ARCH-SDB-A2906E6AB21CC4-Labeko-Koba/entidad.json) | ARCH-SDB-A2906E6AB21CC4 | 0 | 0 | 0 | 0 |
+| [Saint-Vaast-la-Hougue, Le Fort](./ARCH-SDB-A2BA03B4CBEB07-Saint-Vaast-la-Hougue-Le-Fort/entidad.json) | ARCH-SDB-A2BA03B4CBEB07 | 0 | 0 | 0 | 0 |
+| [Theopetra Cave](./ARCH-SDB-A2FC85AF5A2D97-Theopetra-Cave/entidad.json) | ARCH-SDB-A2FC85AF5A2D97 | 0 | 0 | 0 | 0 |
+| [Krems-Hundssteig](./ARCH-SDB-A3B6CCBDB8C8EE-Krems-Hundssteig/entidad.json) | ARCH-SDB-A3B6CCBDB8C8EE | 0 | 0 | 0 | 0 |
+| [Bossats at Ormesson (Seine-et-Marne)](./ARCH-SDB-A3E6301662B11B-Bossats-at-Ormesson-Seine-et-Marne/entidad.json) | ARCH-SDB-A3E6301662B11B | 0 | 0 | 0 | 0 |
+| [Sandhav (Kachchh)](./ARCH-SDB-A40D46AB2707B8-Sandhav-Kachchh/entidad.json) | ARCH-SDB-A40D46AB2707B8 | 0 | 0 | 0 | 0 |
+| [Les Canalettes](./ARCH-SDB-A43874DFD1122B-Les-Canalettes/entidad.json) | ARCH-SDB-A43874DFD1122B | 0 | 0 | 0 | 0 |
+| [Tsagaan Agui](./ARCH-SDB-A48826C5BE257A-Tsagaan-Agui/entidad.json) | ARCH-SDB-A48826C5BE257A | 0 | 0 | 0 | 0 |
+| [Baume-Vallée (Abri Laborde)](./ARCH-SDB-A4C816B25AA47C-Baume-Vallee-Abri-Laborde/entidad.json) | ARCH-SDB-A4C816B25AA47C | 0 | 0 | 0 | 0 |
+| [Shuidonggou Locality 1](./ARCH-SDB-A52911574FD529-Shuidonggou-Locality-1/entidad.json) | ARCH-SDB-A52911574FD529 | 0 | 0 | 0 | 0 |
+| [Nietoperzowa](./ARCH-SDB-A54413B2ACD858-Nietoperzowa/entidad.json) | ARCH-SDB-A54413B2ACD858 | 0 | 0 | 0 | 0 |
+| [Stratzing/Krems-Rehberg, Galgenberg](./ARCH-SDB-A624A1F74E699E-Stratzing-Krems-Rehberg-Galgenberg/entidad.json) | ARCH-SDB-A624A1F74E699E | 0 | 0 | 0 | 0 |
+| [Betovo](./ARCH-SDB-A62A5E595E908A-Betovo/entidad.json) | ARCH-SDB-A62A5E595E908A | 0 | 0 | 0 | 0 |
+| [Abrigo del Molino](./ARCH-SDB-A62E2B0E25ADF7-Abrigo-del-Molino/entidad.json) | ARCH-SDB-A62E2B0E25ADF7 | 0 | 0 | 0 | 0 |
+| [Kulna](./ARCH-SDB-A63DB96275F0B0-Kulna/entidad.json) | ARCH-SDB-A63DB96275F0B0 | 0 | 0 | 0 | 0 |
+| [Huangshanxi (Ziyang) locality B](./ARCH-SDB-A69677417E02FF-Huangshanxi-Ziyang-locality-B/entidad.json) | ARCH-SDB-A69677417E02FF | 0 | 0 | 0 | 0 |
+| [Can Costella](./ARCH-SDB-A7324018961EF9-Can-Costella/entidad.json) | ARCH-SDB-A7324018961EF9 | 0 | 0 | 0 | 0 |
+| [Lagernaia](./ARCH-SDB-A85307AAD9F04C-Lagernaia/entidad.json) | ARCH-SDB-A85307AAD9F04C | 0 | 0 | 0 | 0 |
+| [Geissenklösterle](./ARCH-SDB-A89CE20F50A81F-Geissenklosterle/entidad.json) | ARCH-SDB-A89CE20F50A81F | 0 | 0 | 0 | 0 |
+| [Ust-Karakol-1](./ARCH-SDB-A8ADEE59F0ECAF-Ust-Karakol-1/entidad.json) | ARCH-SDB-A8ADEE59F0ECAF | 0 | 0 | 0 | 0 |
+| [Riparo del Poggio](./ARCH-SDB-A9791CDCD2632D-Riparo-del-Poggio/entidad.json) | ARCH-SDB-A9791CDCD2632D | 0 | 0 | 0 | 0 |
+| [Karain Cave](./ARCH-SDB-A9C467A6CF5CCD-Karain-Cave/entidad.json) | ARCH-SDB-A9C467A6CF5CCD | 0 | 0 | 0 | 0 |
+| [Saint-Amand-les-Eaux](./ARCH-SDB-AA5714F1C6222D-Saint-Amand-les-Eaux/entidad.json) | ARCH-SDB-AA5714F1C6222D | 0 | 0 | 0 | 0 |
+| [Pešturina](./ARCH-SDB-AAB12F5A3698AC-Pesturina/entidad.json) | ARCH-SDB-AAB12F5A3698AC | 0 | 0 | 0 | 0 |
+| [Korolevo 2](./ARCH-SDB-AB038EC2435EE9-Korolevo-2/entidad.json) | ARCH-SDB-AB038EC2435EE9 | 0 | 0 | 0 | 0 |
+| [Mfangano](./ARCH-SDB-AB5A04775B7A5F-Mfangano/entidad.json) | ARCH-SDB-AB5A04775B7A5F | 0 | 0 | 0 | 0 |
+| [Grotte des Fées](./ARCH-SDB-ABADF47C7FA7AE-Grotte-des-Fees/entidad.json) | ARCH-SDB-ABADF47C7FA7AE | 0 | 0 | 0 | 0 |
+| [Havrincourt](./ARCH-SDB-AC30942CA7500D-Havrincourt/entidad.json) | ARCH-SDB-AC30942CA7500D | 0 | 0 | 0 | 0 |
+| [Xiaogushan](./ARCH-SDB-AC712EFD30D691-Xiaogushan/entidad.json) | ARCH-SDB-AC712EFD30D691 | 0 | 0 | 0 | 0 |
+| [Pinnacle Point Site 5-6](./ARCH-SDB-ACB8272C82ADC1-Pinnacle-Point-Site-5-6/entidad.json) | ARCH-SDB-ACB8272C82ADC1 | 0 | 0 | 0 | 0 |
+| [Aitzbitarte III](./ARCH-SDB-AD6C4194E7A586-Aitzbitarte-III/entidad.json) | ARCH-SDB-AD6C4194E7A586 | 0 | 0 | 0 | 0 |
+| [Bagratashen](./ARCH-SDB-AE096B2BAA8A39-Bagratashen/entidad.json) | ARCH-SDB-AE096B2BAA8A39 | 0 | 0 | 0 | 0 |
+| [Baranica](./ARCH-SDB-AEAABE137E7089-Baranica/entidad.json) | ARCH-SDB-AEAABE137E7089 | 0 | 0 | 0 | 0 |
+| [Taubach](./ARCH-SDB-AF03E45233BE1D-Taubach/entidad.json) | ARCH-SDB-AF03E45233BE1D | 0 | 0 | 0 | 0 |
+| [Kolominitsa](./ARCH-SDB-AF249616E6A52E-Kolominitsa/entidad.json) | ARCH-SDB-AF249616E6A52E | 0 | 0 | 0 | 0 |
+| [Rozel](./ARCH-SDB-AF278C144BCB1C-Rozel/entidad.json) | ARCH-SDB-AF278C144BCB1C | 0 | 0 | 0 | 0 |
+| [Jarama VI](./ARCH-SDB-AF2882395E7744-Jarama-VI/entidad.json) | ARCH-SDB-AF2882395E7744 | 0 | 0 | 0 | 0 |
+| [Berigoule](./ARCH-SDB-AF97880FB2D1FA-Berigoule/entidad.json) | ARCH-SDB-AF97880FB2D1FA | 0 | 0 | 0 | 0 |
+| [Crouzade cave](./ARCH-SDB-AFCFD6635494F0-Crouzade-cave/entidad.json) | ARCH-SDB-AFCFD6635494F0 | 0 | 0 | 0 | 0 |
+| [Xianrendong (Xichou)](./ARCH-SDB-B00C77E55A7A47-Xianrendong-Xichou/entidad.json) | ARCH-SDB-B00C77E55A7A47 | 0 | 0 | 0 | 0 |
+| [Cioarei-Borosteni](./ARCH-SDB-B16DB30D03D068-Cioarei-Borosteni/entidad.json) | ARCH-SDB-B16DB30D03D068 | 0 | 0 | 0 | 0 |
+| [Tabula Traiana](./ARCH-SDB-B1BBED9E71E787-Tabula-Traiana/entidad.json) | ARCH-SDB-B1BBED9E71E787 | 0 | 0 | 0 | 0 |
+| [Kostenki (Kostienki) 1 (Polyakova site)](./ARCH-SDB-B21F1F9AF14ABB-Kostenki-Kostienki-1-Polyakova-site/entidad.json) | ARCH-SDB-B21F1F9AF14ABB | 0 | 0 | 0 | 0 |
+| [Kebara](./ARCH-SDB-B24556197CA47C-Kebara/entidad.json) | ARCH-SDB-B24556197CA47C | 0 | 0 | 0 | 0 |
+| [Grotta Guattari](./ARCH-SDB-B2C6164333390B-Grotta-Guattari/entidad.json) | ARCH-SDB-B2C6164333390B | 0 | 0 | 0 | 0 |
+| [Divje Babe I cave](./ARCH-SDB-B380A3EB6F3349-Divje-Babe-I-cave/entidad.json) | ARCH-SDB-B380A3EB6F3349 | 0 | 0 | 0 | 0 |
+| [Abri Castanet](./ARCH-SDB-B3CA2DE46EC84C-Abri-Castanet/entidad.json) | ARCH-SDB-B3CA2DE46EC84C | 0 | 0 | 0 | 0 |
+| [Shiyu](./ARCH-SDB-B3FA947B7EAA29-Shiyu/entidad.json) | ARCH-SDB-B3FA947B7EAA29 | 0 | 0 | 0 | 0 |
+| [Zouhrah Cave/El Harhoura 1](./ARCH-SDB-B45EE230C101A8-Zouhrah-Cave-El-Harhoura-1/entidad.json) | ARCH-SDB-B45EE230C101A8 | 0 | 0 | 0 | 0 |
+| [Bawa Yawan rockshelter](./ARCH-SDB-B47868035A63F1-Bawa-Yawan-rockshelter/entidad.json) | ARCH-SDB-B47868035A63F1 | 0 | 0 | 0 | 0 |
+| [Lisen/Podoli I](./ARCH-SDB-B52A4B12889680-Lisen-Podoli-I/entidad.json) | ARCH-SDB-B52A4B12889680 | 0 | 0 | 0 | 0 |
+| [Kent's Cavern](./ARCH-SDB-B5E41714F9DED4-Kent-s-Cavern/entidad.json) | ARCH-SDB-B5E41714F9DED4 | 0 | 0 | 0 | 0 |
+| [Bohunice-Cihelna brickyard](./ARCH-SDB-B6940748595D7C-Bohunice-Cihelna-brickyard/entidad.json) | ARCH-SDB-B6940748595D7C | 0 | 0 | 0 | 0 |
+| [Kudaro 1](./ARCH-SDB-B6A309B619C65D-Kudaro-1/entidad.json) | ARCH-SDB-B6A309B619C65D | 0 | 0 | 0 | 0 |
+| [La Folie](./ARCH-SDB-B751AE87AB57C5-La-Folie/entidad.json) | ARCH-SDB-B751AE87AB57C5 | 0 | 0 | 0 | 0 |
+| [Brno-Bohunice 2002](./ARCH-SDB-B7E31FD2F7EE6A-Brno-Bohunice-2002/entidad.json) | ARCH-SDB-B7E31FD2F7EE6A | 0 | 0 | 0 | 0 |
+| [Caverne du Bay Bonnet (Fonds-de-Forêt)](./ARCH-SDB-B7F13B2DEE7DA6-Caverne-du-Bay-Bonnet-Fonds-de-Foret/entidad.json) | ARCH-SDB-B7F13B2DEE7DA6 | 0 | 0 | 0 | 0 |
+| [Los Casares](./ARCH-SDB-B82DF3D5BA966F-Los-Casares/entidad.json) | ARCH-SDB-B82DF3D5BA966F | 0 | 0 | 0 | 0 |
+| [Buraca Escura](./ARCH-SDB-B9D07710357544-Buraca-Escura/entidad.json) | ARCH-SDB-B9D07710357544 | 0 | 0 | 0 | 0 |
+| [Brillenhöhle](./ARCH-SDB-B9D47EEAE7F4D8-Brillenhohle/entidad.json) | ARCH-SDB-B9D47EEAE7F4D8 | 0 | 0 | 0 | 0 |
+| [Pena Miel 1](./ARCH-SDB-BA2B623D5C83AD-Pena-Miel-1/entidad.json) | ARCH-SDB-BA2B623D5C83AD | 0 | 0 | 0 | 0 |
+| [Zobiste](./ARCH-SDB-BA6A7047276080-Zobiste/entidad.json) | ARCH-SDB-BA6A7047276080 | 0 | 0 | 0 | 0 |
+| [Abri Dubalen](./ARCH-SDB-BB5B970B3E13DE-Abri-Dubalen/entidad.json) | ARCH-SDB-BB5B970B3E13DE | 0 | 0 | 0 | 0 |
+| [Sainte-Eulalie](./ARCH-SDB-BBAFF004353B7C-Sainte-Eulalie/entidad.json) | ARCH-SDB-BBAFF004353B7C | 0 | 0 | 0 | 0 |
+| [Dhaba 1](./ARCH-SDB-BC37A868BEC753-Dhaba-1/entidad.json) | ARCH-SDB-BC37A868BEC753 | 0 | 0 | 0 | 0 |
+| [Sirgenstein](./ARCH-SDB-BC82A063DE1BBA-Sirgenstein/entidad.json) | ARCH-SDB-BC82A063DE1BBA | 0 | 0 | 0 | 0 |
+| [Abri Pataud](./ARCH-SDB-BCDDBD8CDF8327-Abri-Pataud/entidad.json) | ARCH-SDB-BCDDBD8CDF8327 | 0 | 0 | 0 | 0 |
+| [Yafteh cave](./ARCH-SDB-BD3BBE429B2A7B-Yafteh-cave/entidad.json) | ARCH-SDB-BD3BBE429B2A7B | 0 | 0 | 0 | 0 |
+| [Abri du Brugas](./ARCH-SDB-BD4807142E567C-Abri-du-Brugas/entidad.json) | ARCH-SDB-BD4807142E567C | 0 | 0 | 0 | 0 |
+| [Trou du Tiène des Maulins](./ARCH-SDB-BE6CD6F214AECE-Trou-du-Tiene-des-Maulins/entidad.json) | ARCH-SDB-BE6CD6F214AECE | 0 | 0 | 0 | 0 |
+| [El Conde](./ARCH-SDB-BF4A06F9E12BB2-El-Conde/entidad.json) | ARCH-SDB-BF4A06F9E12BB2 | 0 | 0 | 0 | 0 |
+| [Biryuchya Balka 2](./ARCH-SDB-BF8CBE2093B66E-Biryuchya-Balka-2/entidad.json) | ARCH-SDB-BF8CBE2093B66E | 0 | 0 | 0 | 0 |
+| [Coll Verdaguer](./ARCH-SDB-BFAEEB56124578-Coll-Verdaguer/entidad.json) | ARCH-SDB-BFAEEB56124578 | 0 | 0 | 0 | 0 |
+| [Sodmein Cave](./ARCH-SDB-C01D25F563A9FF-Sodmein-Cave/entidad.json) | ARCH-SDB-C01D25F563A9FF | 0 | 0 | 0 | 0 |
+| [Teixoneres](./ARCH-SDB-C06C1244A4F7BA-Teixoneres/entidad.json) | ARCH-SDB-C06C1244A4F7BA | 0 | 0 | 0 | 0 |
+| [El Castillo](./ARCH-SDB-C0F391BA3E3C67-El-Castillo/entidad.json) | ARCH-SDB-C0F391BA3E3C67 | 0 | 0 | 0 | 0 |
+| [Esquilleu](./ARCH-SDB-C1A94190BA04BD-Esquilleu/entidad.json) | ARCH-SDB-C1A94190BA04BD | 0 | 0 | 0 | 0 |
+| [Bois-Roche](./ARCH-SDB-C2007015B991AE-Bois-Roche/entidad.json) | ARCH-SDB-C2007015B991AE | 0 | 0 | 0 | 0 |
+| [Navalmaillo](./ARCH-SDB-C245F2C18E6E21-Navalmaillo/entidad.json) | ARCH-SDB-C245F2C18E6E21 | 0 | 0 | 0 | 0 |
+| [Samuilitsa II](./ARCH-SDB-C33C8E0BCB43AE-Samuilitsa-II/entidad.json) | ARCH-SDB-C33C8E0BCB43AE | 0 | 0 | 0 | 0 |
+| [Cova Beneito](./ARCH-SDB-C3838C611B2A0A-Cova-Beneito/entidad.json) | ARCH-SDB-C3838C611B2A0A | 0 | 0 | 0 | 0 |
+| [Enkapune Ya Muto](./ARCH-SDB-C3DE626E6683B9-Enkapune-Ya-Muto/entidad.json) | ARCH-SDB-C3DE626E6683B9 | 0 | 0 | 0 | 0 |
+| [Vogelherd](./ARCH-SDB-C5D124D2D9344A-Vogelherd/entidad.json) | ARCH-SDB-C5D124D2D9344A | 0 | 0 | 0 | 0 |
+| [Mira Nascente](./ARCH-SDB-C678F32769B2BE-Mira-Nascente/entidad.json) | ARCH-SDB-C678F32769B2BE | 0 | 0 | 0 | 0 |
+| [Dhaba 2](./ARCH-SDB-C67FCBDA0AF278-Dhaba-2/entidad.json) | ARCH-SDB-C67FCBDA0AF278 | 0 | 0 | 0 | 0 |
+| [Moravany-Dlhà](./ARCH-SDB-C692991ECBABE1-Moravany-Dlha/entidad.json) | ARCH-SDB-C692991ECBABE1 | 0 | 0 | 0 | 0 |
+| [Abri Cellier](./ARCH-SDB-C80533E56BE214-Abri-Cellier/entidad.json) | ARCH-SDB-C80533E56BE214 | 0 | 0 | 0 | 0 |
+| [Hyangmokri Cave](./ARCH-SDB-C8BFA13761FB40-Hyangmokri-Cave/entidad.json) | ARCH-SDB-C8BFA13761FB40 | 0 | 0 | 0 | 0 |
+| [Smelovskaya II cave](./ARCH-SDB-C9AF43AA9BE016-Smelovskaya-II-cave/entidad.json) | ARCH-SDB-C9AF43AA9BE016 | 0 | 0 | 0 | 0 |
+| [Ljublansko Barje](./ARCH-SDB-CA09F1C6CF8F5C-Ljublansko-Barje/entidad.json) | ARCH-SDB-CA09F1C6CF8F5C | 0 | 0 | 0 | 0 |
+| [Mujina pećina](./ARCH-SDB-CA273953CD5D38-Mujina-pecina/entidad.json) | ARCH-SDB-CA273953CD5D38 | 0 | 0 | 0 | 0 |
+| [Grotte du Bison (Arcy-sur-Cure)](./ARCH-SDB-CA77844348C3F6-Grotte-du-Bison-Arcy-sur-Cure/entidad.json) | ARCH-SDB-CA77844348C3F6 | 0 | 0 | 0 | 0 |
+| [Kara-Bom](./ARCH-SDB-CA7F477E87D469-Kara-Bom/entidad.json) | ARCH-SDB-CA7F477E87D469 | 0 | 0 | 0 | 0 |
+| [Slavin Yar](./ARCH-SDB-CA933F9178E123-Slavin-Yar/entidad.json) | ARCH-SDB-CA933F9178E123 | 0 | 0 | 0 | 0 |
+| [De Nadale Cave](./ARCH-SDB-CBF0E808D1592D-De-Nadale-Cave/entidad.json) | ARCH-SDB-CBF0E808D1592D | 0 | 0 | 0 | 0 |
+| [EDAR Culebro 1](./ARCH-SDB-CC1CF7F69B44D9-EDAR-Culebro-1/entidad.json) | ARCH-SDB-CC1CF7F69B44D9 | 0 | 0 | 0 | 0 |
+| [Glaston (Grange Farm)](./ARCH-SDB-CD67510117800F-Glaston-Grange-Farm/entidad.json) | ARCH-SDB-CD67510117800F | 0 | 0 | 0 | 0 |
+| [Gatzarria](./ARCH-SDB-CDD99E27B2624E-Gatzarria/entidad.json) | ARCH-SDB-CDD99E27B2624E | 0 | 0 | 0 | 0 |
+| [Hyènes (Brassempouy)](./ARCH-SDB-CDDB098FDD2578-Hyenes-Brassempouy/entidad.json) | ARCH-SDB-CDDB098FDD2578 | 0 | 0 | 0 | 0 |
+| [Kudaro 3](./ARCH-SDB-CEA076BB27F031-Kudaro-3/entidad.json) | ARCH-SDB-CEA076BB27F031 | 0 | 0 | 0 | 0 |
+| [Grotta dei Moscerini](./ARCH-SDB-CF230DCAE33359-Grotta-dei-Moscerini/entidad.json) | ARCH-SDB-CF230DCAE33359 | 0 | 0 | 0 | 0 |
+| [Border Cave](./ARCH-SDB-CF2D1D71C846C8-Border-Cave/entidad.json) | ARCH-SDB-CF2D1D71C846C8 | 0 | 0 | 0 | 0 |
+| [Soldier's Hole](./ARCH-SDB-CF64F32D797A6F-Soldier-s-Hole/entidad.json) | ARCH-SDB-CF64F32D797A6F | 0 | 0 | 0 | 0 |
+| [Sakajia](./ARCH-SDB-CF81AE9493EA38-Sakajia/entidad.json) | ARCH-SDB-CF81AE9493EA38 | 0 | 0 | 0 | 0 |
+| [Bhimbetka](./ARCH-SDB-CF86B6BFED156E-Bhimbetka/entidad.json) | ARCH-SDB-CF86B6BFED156E | 0 | 0 | 0 | 0 |
+| [Khotylevo 1](./ARCH-SDB-CFAA8D880020AA-Khotylevo-1/entidad.json) | ARCH-SDB-CFAA8D880020AA | 0 | 0 | 0 | 0 |
+| [Nakamoto](./ARCH-SDB-D07E2B64A4B0E9-Nakamoto/entidad.json) | ARCH-SDB-D07E2B64A4B0E9 | 0 | 0 | 0 | 0 |
+| [Altxerri B](./ARCH-SDB-D131B4920BCC36-Altxerri-B/entidad.json) | ARCH-SDB-D131B4920BCC36 | 0 | 0 | 0 | 0 |
+| [Cova del Gegant](./ARCH-SDB-D21437124F833A-Cova-del-Gegant/entidad.json) | ARCH-SDB-D21437124F833A | 0 | 0 | 0 | 0 |
+| [Schmerling Cave (Engis)](./ARCH-SDB-D259AA8D40F7E3-Schmerling-Cave-Engis/entidad.json) | ARCH-SDB-D259AA8D40F7E3 | 0 | 0 | 0 | 0 |
+| [Tata](./ARCH-SDB-D3285448E7C2B1-Tata/entidad.json) | ARCH-SDB-D3285448E7C2B1 | 0 | 0 | 0 | 0 |
+| [Archi](./ARCH-SDB-D33373730EB4A8-Archi/entidad.json) | ARCH-SDB-D33373730EB4A8 | 0 | 0 | 0 | 0 |
+| [Malaya Syia](./ARCH-SDB-D454140651108E-Malaya-Syia/entidad.json) | ARCH-SDB-D454140651108E | 0 | 0 | 0 | 0 |
+| [Neumark-Nord](./ARCH-SDB-D5679030E96A25-Neumark-Nord/entidad.json) | ARCH-SDB-D5679030E96A25 | 0 | 0 | 0 | 0 |
+| [Hofmeyr](./ARCH-SDB-D5E2155323B382-Hofmeyr/entidad.json) | ARCH-SDB-D5E2155323B382 | 0 | 0 | 0 | 0 |
+| [Ghiardo Cave](./ARCH-SDB-D604774FBCF9DE-Ghiardo-Cave/entidad.json) | ARCH-SDB-D604774FBCF9DE | 0 | 0 | 0 | 0 |
+| [Tianyuan Cave](./ARCH-SDB-D70A8512238F74-Tianyuan-Cave/entidad.json) | ARCH-SDB-D70A8512238F74 | 0 | 0 | 0 | 0 |
+| [La Ermita](./ARCH-SDB-D7D2233799368E-La-Ermita/entidad.json) | ARCH-SDB-D7D2233799368E | 0 | 0 | 0 | 0 |
+| [Korotkaya](./ARCH-SDB-D872FDBAEE020F-Korotkaya/entidad.json) | ARCH-SDB-D872FDBAEE020F | 0 | 0 | 0 | 0 |
+| [Okladnikov](./ARCH-SDB-D940DDCA39280C-Okladnikov/entidad.json) | ARCH-SDB-D940DDCA39280C | 0 | 0 | 0 | 0 |
+| [Givat Rabi East](./ARCH-SDB-DA93363B54E14B-Givat-Rabi-East/entidad.json) | ARCH-SDB-DA93363B54E14B | 0 | 0 | 0 | 0 |
+| [Ust-Karakol 1](./ARCH-SDB-DAA26E0A1C4A5F-Ust-Karakol-1/entidad.json) | ARCH-SDB-DAA26E0A1C4A5F | 0 | 0 | 0 | 0 |
+| [Arbreda Cave](./ARCH-SDB-DC36E312B72BC3-Arbreda-Cave/entidad.json) | ARCH-SDB-DC36E312B72BC3 | 0 | 0 | 0 | 0 |
+| [Rusinga Island](./ARCH-SDB-DC9A3EA58DB44A-Rusinga-Island/entidad.json) | ARCH-SDB-DC9A3EA58DB44A | 0 | 0 | 0 | 0 |
+| [Pickens Hole](./ARCH-SDB-DCB990FC9C4595-Pickens-Hole/entidad.json) | ARCH-SDB-DCB990FC9C4595 | 0 | 0 | 0 | 0 |
+| [Boker Tachtit](./ARCH-SDB-DCCE75199C67FE-Boker-Tachtit/entidad.json) | ARCH-SDB-DCCE75199C67FE | 0 | 0 | 0 | 0 |
+| [Abri du Maras](./ARCH-SDB-DCECCC302F3242-Abri-du-Maras/entidad.json) | ARCH-SDB-DCECCC302F3242 | 0 | 0 | 0 | 0 |
+| [Ganqian Cave](./ARCH-SDB-DD167B1D59E97D-Ganqian-Cave/entidad.json) | ARCH-SDB-DD167B1D59E97D | 0 | 0 | 0 | 0 |
+| [Cuza Voda](./ARCH-SDB-DDBE9EBCBEBC40-Cuza-Voda/entidad.json) | ARCH-SDB-DDBE9EBCBEBC40 | 0 | 0 | 0 | 0 |
+| [Cova del Rinoceront](./ARCH-SDB-DDD156E1CFAEE3-Cova-del-Rinoceront/entidad.json) | ARCH-SDB-DDD156E1CFAEE3 | 0 | 0 | 0 | 0 |
+| [Cedres](./ARCH-SDB-DEBB09C9233583-Cedres/entidad.json) | ARCH-SDB-DEBB09C9233583 | 0 | 0 | 0 | 0 |
+| [Ust’-Izhul’](./ARCH-SDB-DEBE957B6521E0-Ust-Izhul/entidad.json) | ARCH-SDB-DEBE957B6521E0 | 0 | 0 | 0 | 0 |
+| [Bout des Vergnes](./ARCH-SDB-DF2AED550F28DE-Bout-des-Vergnes/entidad.json) | ARCH-SDB-DF2AED550F28DE | 0 | 0 | 0 | 0 |
+| [Willendorf II](./ARCH-SDB-DFB61DEEEAB379-Willendorf-II/entidad.json) | ARCH-SDB-DFB61DEEEAB379 | 0 | 0 | 0 | 0 |
+| [San Quirce](./ARCH-SDB-E0DB8727B94AAE-San-Quirce/entidad.json) | ARCH-SDB-E0DB8727B94AAE | 0 | 0 | 0 | 0 |
+| [Baaz rockshelter](./ARCH-SDB-E136A0CFE090F8-Baaz-rockshelter/entidad.json) | ARCH-SDB-E136A0CFE090F8 | 0 | 0 | 0 | 0 |
+| [Arbreda](./ARCH-SDB-E14535F9398478-Arbreda/entidad.json) | ARCH-SDB-E14535F9398478 | 0 | 0 | 0 | 0 |
+| [Die Kelders Cave 1](./ARCH-SDB-E1769BB0D2F345-Die-Kelders-Cave-1/entidad.json) | ARCH-SDB-E1769BB0D2F345 | 0 | 0 | 0 | 0 |
+| [Lubotyn 11](./ARCH-SDB-E191F88214BC3E-Lubotyn-11/entidad.json) | ARCH-SDB-E191F88214BC3E | 0 | 0 | 0 | 0 |
+| [Apollo 11](./ARCH-SDB-E23A37692D8AE4-Apollo-11/entidad.json) | ARCH-SDB-E23A37692D8AE4 | 0 | 0 | 0 | 0 |
+| [Lezetxiki](./ARCH-SDB-E3481EAE6BC232-Lezetxiki/entidad.json) | ARCH-SDB-E3481EAE6BC232 | 0 | 0 | 0 | 0 |
+| [Ust-Ishim](./ARCH-SDB-E35757362B7560-Ust-Ishim/entidad.json) | ARCH-SDB-E35757362B7560 | 0 | 0 | 0 | 0 |
+| [Mugharet el ‘Aliya](./ARCH-SDB-E39A1974731268-Mugharet-el-Aliya/entidad.json) | ARCH-SDB-E39A1974731268 | 0 | 0 | 0 | 0 |
+| [Fontechevade](./ARCH-SDB-E3A5747B2116F0-Fontechevade/entidad.json) | ARCH-SDB-E3A5747B2116F0 | 0 | 0 | 0 | 0 |
+| [Grotta Reali](./ARCH-SDB-E4269A65421A08-Grotta-Reali/entidad.json) | ARCH-SDB-E4269A65421A08 | 0 | 0 | 0 | 0 |
+| [La Quina Amont](./ARCH-SDB-E4570964B47BED-La-Quina-Amont/entidad.json) | ARCH-SDB-E4570964B47BED | 0 | 0 | 0 | 0 |
+| [Dubočka‐Kozja](./ARCH-SDB-E48FDE506C7B2B-DubockaKozja/entidad.json) | ARCH-SDB-E48FDE506C7B2B | 0 | 0 | 0 | 0 |
+| [Mollet I](./ARCH-SDB-E4DD440868AFDD-Mollet-I/entidad.json) | ARCH-SDB-E4DD440868AFDD | 0 | 0 | 0 | 0 |
+| [Cotencher](./ARCH-SDB-E5BFAFB2417CF8-Cotencher/entidad.json) | ARCH-SDB-E5BFAFB2417CF8 | 0 | 0 | 0 | 0 |
+| [Grotta del Cavallo](./ARCH-SDB-E64C35961FD8F9-Grotta-del-Cavallo/entidad.json) | ARCH-SDB-E64C35961FD8F9 | 0 | 0 | 0 | 0 |
+| [Zhalainuoer, Inner Mongolia](./ARCH-SDB-E7A4D6A6BC70C6-Zhalainuoer-Inner-Mongolia/entidad.json) | ARCH-SDB-E7A4D6A6BC70C6 | 0 | 0 | 0 | 0 |
+| [Cae Gwyn cave](./ARCH-SDB-E80FAF0280E607-Cae-Gwyn-cave/entidad.json) | ARCH-SDB-E80FAF0280E607 | 0 | 0 | 0 | 0 |
+| [Chemin de Jupiter](./ARCH-SDB-E8508686F9AF7F-Chemin-de-Jupiter/entidad.json) | ARCH-SDB-E8508686F9AF7F | 0 | 0 | 0 | 0 |
+| [Trou al Wesse](./ARCH-SDB-E86C72D3DFF8D7-Trou-al-Wesse/entidad.json) | ARCH-SDB-E86C72D3DFF8D7 | 0 | 0 | 0 | 0 |
+| [Blombos cave](./ARCH-SDB-E8F30DE6ED5AE5-Blombos-cave/entidad.json) | ARCH-SDB-E8F30DE6ED5AE5 | 0 | 0 | 0 | 0 |
+| [Le Prissé](./ARCH-SDB-E92FC36F11B942-Le-Prisse/entidad.json) | ARCH-SDB-E92FC36F11B942 | 0 | 0 | 0 | 0 |
+| [Mughr el-Hamamah](./ARCH-SDB-E97ECDF8A082CF-Mughr-el-Hamamah/entidad.json) | ARCH-SDB-E97ECDF8A082CF | 0 | 0 | 0 | 0 |
+| [Rose Cottage Cave](./ARCH-SDB-E9C4593492BC12-Rose-Cottage-Cave/entidad.json) | ARCH-SDB-E9C4593492BC12 | 0 | 0 | 0 | 0 |
+| [Attirampakkam](./ARCH-SDB-EA0925164FC15A-Attirampakkam/entidad.json) | ARCH-SDB-EA0925164FC15A | 0 | 0 | 0 | 0 |
+| [Gruta da Figueira Brava](./ARCH-SDB-EA8D936D407D4F-Gruta-da-Figueira-Brava/entidad.json) | ARCH-SDB-EA8D936D407D4F | 0 | 0 | 0 | 0 |
+| [Vindija](./ARCH-SDB-EC0CB4EAAFE6A9-Vindija/entidad.json) | ARCH-SDB-EC0CB4EAAFE6A9 | 0 | 0 | 0 | 0 |
+| [Toumboura III](./ARCH-SDB-EC23F82174BA83-Toumboura-III/entidad.json) | ARCH-SDB-EC23F82174BA83 | 0 | 0 | 0 | 0 |
+| [Mokriska Jama](./ARCH-SDB-ED5E13689407EA-Mokriska-Jama/entidad.json) | ARCH-SDB-ED5E13689407EA | 0 | 0 | 0 | 0 |
+| [Llonin Cave](./ARCH-SDB-ED77892CB126ED-Llonin-Cave/entidad.json) | ARCH-SDB-ED77892CB126ED | 0 | 0 | 0 | 0 |
+| [Les Bessinaudes](./ARCH-SDB-EDAA084091AB05-Les-Bessinaudes/entidad.json) | ARCH-SDB-EDAA084091AB05 | 0 | 0 | 0 | 0 |
+| [Starosele](./ARCH-SDB-EDFAC7A475BACF-Starosele/entidad.json) | ARCH-SDB-EDFAC7A475BACF | 0 | 0 | 0 | 0 |
+| [Jinsitai Cave](./ARCH-SDB-EE118701362C45-Jinsitai-Cave/entidad.json) | ARCH-SDB-EE118701362C45 | 0 | 0 | 0 | 0 |
+| [Altamira cave](./ARCH-SDB-EE60E5C05037F3-Altamira-cave/entidad.json) | ARCH-SDB-EE60E5C05037F3 | 0 | 0 | 0 | 0 |
+| [Fermanville-La Mondrée](./ARCH-SDB-EF2587AFA1C257-Fermanville-La-Mondree/entidad.json) | ARCH-SDB-EF2587AFA1C257 | 0 | 0 | 0 | 0 |
+| [Pin Hole Cave](./ARCH-SDB-EFF7864F2BDB10-Pin-Hole-Cave/entidad.json) | ARCH-SDB-EFF7864F2BDB10 | 0 | 0 | 0 | 0 |
+| [Masterov Kliych (Masterov Kliuch)](./ARCH-SDB-EFFB8640692E4B-Masterov-Kliych-Masterov-Kliuch/entidad.json) | ARCH-SDB-EFFB8640692E4B | 0 | 0 | 0 | 0 |
+| [Tongtianyan (Liujiang)](./ARCH-SDB-F00502FD91FCDC-Tongtianyan-Liujiang/entidad.json) | ARCH-SDB-F00502FD91FCDC | 0 | 0 | 0 | 0 |
+| [Axlor](./ARCH-SDB-F0FA89E4776DA5-Axlor/entidad.json) | ARCH-SDB-F0FA89E4776DA5 | 0 | 0 | 0 | 0 |
+| [Roca dels Bous](./ARCH-SDB-F2AEF08CF39CF2-Roca-dels-Bous/entidad.json) | ARCH-SDB-F2AEF08CF39CF2 | 0 | 0 | 0 | 0 |
+| [Kiik-Koba](./ARCH-SDB-F3ABE1C55FE3BC-Kiik-Koba/entidad.json) | ARCH-SDB-F3ABE1C55FE3BC | 0 | 0 | 0 | 0 |
+| [El Salt](./ARCH-SDB-F49E245720FDEF-El-Salt/entidad.json) | ARCH-SDB-F49E245720FDEF | 0 | 0 | 0 | 0 |
+| [Ihrovytsia I site](./ARCH-SDB-F4F7DEA5AFBBDE-Ihrovytsia-I-site/entidad.json) | ARCH-SDB-F4F7DEA5AFBBDE | 0 | 0 | 0 | 0 |
+| [Tsona](./ARCH-SDB-F598B83AF3FB1B-Tsona/entidad.json) | ARCH-SDB-F598B83AF3FB1B | 0 | 0 | 0 | 0 |
+| [Fumane](./ARCH-SDB-F689178A4CB732-Fumane/entidad.json) | ARCH-SDB-F689178A4CB732 | 0 | 0 | 0 | 0 |
+| [Pego do Diabo](./ARCH-SDB-F737924F179C0C-Pego-do-Diabo/entidad.json) | ARCH-SDB-F737924F179C0C | 0 | 0 | 0 | 0 |
+| [Xiaochaidan, Qinghai](./ARCH-SDB-F7426E4018F72C-Xiaochaidan-Qinghai/entidad.json) | ARCH-SDB-F7426E4018F72C | 0 | 0 | 0 | 0 |
+| [Napajedla III](./ARCH-SDB-F775C76363BE3E-Napajedla-III/entidad.json) | ARCH-SDB-F775C76363BE3E | 0 | 0 | 0 | 0 |
+| [A. Combe Sauniere](./ARCH-SDB-F85E713621F6C0-A-Combe-Sauniere/entidad.json) | ARCH-SDB-F85E713621F6C0 | 0 | 0 | 0 | 0 |
+| [Kashiwadai 1](./ARCH-SDB-F89F81668C3B41-Kashiwadai-1/entidad.json) | ARCH-SDB-F89F81668C3B41 | 0 | 0 | 0 | 0 |
+| [Carihuela](./ARCH-SDB-FAC92BEF4BCC4A-Carihuela/entidad.json) | ARCH-SDB-FAC92BEF4BCC4A | 0 | 0 | 0 | 0 |
+| [Ghirardello Cave](./ARCH-SDB-FB55964E1392EA-Ghirardello-Cave/entidad.json) | ARCH-SDB-FB55964E1392EA | 0 | 0 | 0 | 0 |
+| [Obi-Rakhmat Grotto](./ARCH-SDB-FC69F1D373FA01-Obi-Rakhmat-Grotto/entidad.json) | ARCH-SDB-FC69F1D373FA01 | 0 | 0 | 0 | 0 |
+| [Grotte des Barasses II](./ARCH-SDB-FC95C446C3C9C9-Grotte-des-Barasses-II/entidad.json) | ARCH-SDB-FC95C446C3C9C9 | 0 | 0 | 0 | 0 |
+| [Aranbaltza III](./ARCH-SDB-FCAC8EDBDB9B7A-Aranbaltza-III/entidad.json) | ARCH-SDB-FCAC8EDBDB9B7A | 0 | 0 | 0 | 0 |
+| [Grotta Breuil](./ARCH-SDB-FE04F187A91ABB-Grotta-Breuil/entidad.json) | ARCH-SDB-FE04F187A91ABB | 0 | 0 | 0 | 0 |
+| [Aybut al Auwal](./ARCH-SDB-FE509C85E7411B-Aybut-al-Auwal/entidad.json) | ARCH-SDB-FE509C85E7411B | 0 | 0 | 0 | 0 |
+| [Oblazowa cave](./ARCH-SDB-FE91F3898BE8FC-Oblazowa-cave/entidad.json) | ARCH-SDB-FE91F3898BE8FC | 0 | 0 | 0 | 0 |
+| [Sipka](./ARCH-SDB-FEC152E63574F5-Sipka/entidad.json) | ARCH-SDB-FEC152E63574F5 | 0 | 0 | 0 | 0 |
+| [Uan Tabu](./ARCH-SDB-FEE223E6506F4E-Uan-Tabu/entidad.json) | ARCH-SDB-FEE223E6506F4E | 0 | 0 | 0 | 0 |
+| [Kostenki (Kostienki) 17 (Spitsynskayasite)](./ARCH-SDB-FEF5724FBB1577-Kostenki-Kostienki-17-Spitsynskayasite/entidad.json) | ARCH-SDB-FEF5724FBB1577 | 0 | 0 | 0 | 0 |
+| [Hohle Fels](./ARCH-SDB-FF0E0FEE2B979E-Hohle-Fels/entidad.json) | ARCH-SDB-FF0E0FEE2B979E | 0 | 0 | 0 | 0 |
+| [Abric Romani](./ARCH-SDB-FF156A45042F1A-Abric-Romani/entidad.json) | ARCH-SDB-FF156A45042F1A | 0 | 0 | 0 | 0 |
+| [Sesselfelsgrotte](./ARCH-SDB-FF68DE442CD3D7-Sesselfelsgrotte/entidad.json) | ARCH-SDB-FF68DE442CD3D7 | 0 | 0 | 0 | 0 |
+| [Moula, La Baume Moula-Guercy](./ARCH-SDB-FF6E157D8C3815-Moula-La-Baume-Moula-Guercy/entidad.json) | ARCH-SDB-FF6E157D8C3815 | 0 | 0 | 0 | 0 |
+| [Hovk 1](./ARCH-SDB-FFF92A1C95D543-Hovk-1/entidad.json) | ARCH-SDB-FFF92A1C95D543 | 0 | 0 | 0 | 0 |
 | [Aşıklı Höyük · comunidad sedentaria](./ARCHAEOLOGY-ASIKLI-Askl-Hoyuk-comunidad-sedentaria/entidad.json) | ARCHAEOLOGY-ASIKLI | 0 | 0 | 0 | 0 |
 | [Badari · comunidades y necrópolis](./ARCHAEOLOGY-BADARI-Badari-comunidades-y-necropolis/entidad.json) | ARCHAEOLOGY-BADARI | 0 | 0 | 0 | 0 |
+| [Baishiya · evidencia denisovana](./ARCHAEOLOGY-BAISHIYA-Baishiya-evidencia-denisovana/entidad.json) | ARCHAEOLOGY-BAISHIYA | 0 | 0 | 0 | 0 |
 | [Boncuklu · comunidad y cultivo temprano](./ARCHAEOLOGY-BONCUKLU-Boncuklu-comunidad-y-cultivo-temprano/entidad.json) | ARCHAEOLOGY-BONCUKLU | 0 | 0 | 0 | 0 |
 | [Budj Bim · paisaje cultural y acuicultura](./ARCHAEOLOGY-BUDJ-BIM-Budj-Bim-paisaje-cultural-y-acuicultura/entidad.json) | ARCHAEOLOGY-BUDJ-BIM | 0 | 0 | 0 | 0 |
 | [Çatalhöyük · montículo oriental](./ARCHAEOLOGY-CATALHOYUK-EAST-Catalhoyuk-monticulo-oriental/entidad.json) | ARCHAEOLOGY-CATALHOYUK-EAST | 0 | 0 | 0 | 0 |
 | [Çatalhöyük · asentamiento occidental](./ARCHAEOLOGY-CATALHOYUK-WEST-Catalhoyuk-asentamiento-occidental/entidad.json) | ARCHAEOLOGY-CATALHOYUK-WEST | 0 | 0 | 0 | 0 |
+| [Denisova · linajes y cronologías](./ARCHAEOLOGY-DENISOVA-Denisova-linajes-y-cronologias/entidad.json) | ARCHAEOLOGY-DENISOVA | 0 | 0 | 0 | 0 |
 | [Dimini · asentamiento neolítico](./ARCHAEOLOGY-DIMINI-Dimini-asentamiento-neolitico/entidad.json) | ARCHAEOLOGY-DIMINI | 0 | 0 | 0 | 0 |
 | [Fayum · comunidades neolíticas](./ARCHAEOLOGY-FAYUM-A-Fayum-comunidades-neoliticas/entidad.json) | ARCHAEOLOGY-FAYUM-A | 0 | 0 | 0 | 0 |
 | [Göbekli Tepe · comunidades y recintos](./ARCHAEOLOGY-GOBEKLI-TEPE-Gobekli-Tepe-comunidades-y-recintos/entidad.json) | ARCHAEOLOGY-GOBEKLI-TEPE | 0 | 0 | 0 | 0 |
@@ -34,9 +828,14 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Jerf el Ahmar · comunidad del Éufrates](./ARCHAEOLOGY-JERF-EL-AHMAR-Jerf-el-Ahmar-comunidad-del-Eufrates/entidad.json) | ARCHAEOLOGY-JERF-EL-AHMAR | 0 | 0 | 0 | 0 |
 | [Jiahu · comunidad neolítica](./ARCHAEOLOGY-JIAHU-Jiahu-comunidad-neolitica/entidad.json) | ARCHAEOLOGY-JIAHU | 0 | 0 | 0 | 0 |
 | [Kuk · paisaje de cultivo y subsistencia](./ARCHAEOLOGY-KUK-Kuk-paisaje-de-cultivo-y-subsistencia/entidad.json) | ARCHAEOLOGY-KUK | 0 | 0 | 0 | 0 |
+| [Lago Mungo · restos y comunidades](./ARCHAEOLOGY-LAKE-MUNGO-Lago-Mungo-restos-y-comunidades/entidad.json) | ARCHAEOLOGY-LAKE-MUNGO | 0 | 0 | 0 | 0 |
 | [Lapa do Santo · comunidades y enterramientos](./ARCHAEOLOGY-LAPA-DO-SANTO-Lapa-do-Santo-comunidades-y-enterramientos/entidad.json) | ARCHAEOLOGY-LAPA-DO-SANTO | 0 | 0 | 0 | 0 |
+| [Liang Bua · Homo floresiensis](./ARCHAEOLOGY-LIANG-BUA-Liang-Bua-Homo-floresiensis/entidad.json) | ARCHAEOLOGY-LIANG-BUA | 0 | 0 | 0 | 0 |
+| [Liang Tebo · evidencia humana de Borneo](./ARCHAEOLOGY-LIANG-TEBO-Liang-Tebo-evidencia-humana-de-Borneo/entidad.json) | ARCHAEOLOGY-LIANG-TEBO | 0 | 0 | 0 | 0 |
+| [Madjedbebe · presencia humana temprana](./ARCHAEOLOGY-MADJEDBEBE-Madjedbebe-presencia-humana-temprana/entidad.json) | ARCHAEOLOGY-MADJEDBEBE | 0 | 0 | 0 | 0 |
 | [Mehrgarh · comunidad y cronologías discutidas](./ARCHAEOLOGY-MEHRGARH-Mehrgarh-comunidad-y-cronologias-discutidas/entidad.json) | ARCHAEOLOGY-MEHRGARH | 0 | 0 | 0 | 0 |
 | [Merimde · asentamiento neolítico](./ARCHAEOLOGY-MERIMDE-Merimde-asentamiento-neolitico/entidad.json) | ARCHAEOLOGY-MERIMDE | 0 | 0 | 0 | 0 |
+| [Monte Verde II · ocupaciones americanas](./ARCHAEOLOGY-MONTE-VERDE-Monte-Verde-II-ocupaciones-americanas/entidad.json) | ARCHAEOLOGY-MONTE-VERDE | 0 | 0 | 0 | 0 |
 | [Naqada · comunidades predinásticas](./ARCHAEOLOGY-NAQADA-Naqada-comunidades-predinasticas/entidad.json) | ARCHAEOLOGY-NAQADA | 0 | 0 | 0 | 0 |
 | [Newgrange · monumento y comunidades](./ARCHAEOLOGY-NEWGRANGE-Newgrange-monumento-y-comunidades/entidad.json) | ARCHAEOLOGY-NEWGRANGE | 0 | 0 | 0 | 0 |
 | [Niah · comunidades y bosque tropical](./ARCHAEOLOGY-NIAH-Niah-comunidades-y-bosque-tropical/entidad.json) | ARCHAEOLOGY-NIAH | 0 | 0 | 0 | 0 |
@@ -50,9 +849,12 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Star Carr · comunidades mesolíticas](./ARCHAEOLOGY-STAR-CARR-Star-Carr-comunidades-mesoliticas/entidad.json) | ARCHAEOLOGY-STAR-CARR | 0 | 0 | 0 | 0 |
 | [Susa · redes y asentamientos de Susiana](./ARCHAEOLOGY-SUSA-Susa-redes-y-asentamientos-de-Susiana/entidad.json) | ARCHAEOLOGY-SUSA | 0 | 0 | 0 | 0 |
 | [Tadrart Acacus · paisajes y arte rupestre](./ARCHAEOLOGY-TADRART-ACACUS-Tadrart-Acacus-paisajes-y-arte-rupestre/entidad.json) | ARCHAEOLOGY-TADRART-ACACUS | 0 | 0 | 0 | 0 |
+| [Tam Pà Ling · humanos modernos](./ARCHAEOLOGY-TAM-PA-LING-Tam-Pa-Ling-humanos-modernos/entidad.json) | ARCHAEOLOGY-TAM-PA-LING | 0 | 0 | 0 | 0 |
 | [Tell es-Sultan · Jericó prehistórico](./ARCHAEOLOGY-TELL-ES-SULTAN-Tell-es-Sultan-Jerico-prehistorico/entidad.json) | ARCHAEOLOGY-TELL-ES-SULTAN | 0 | 0 | 0 | 0 |
 | [Tell Halaf · comunidad neolítica](./ARCHAEOLOGY-TELL-HALAF-Tell-Halaf-comunidad-neolitica/entidad.json) | ARCHAEOLOGY-TELL-HALAF | 0 | 0 | 0 | 0 |
 | [Upward Sun River · evidencia de la antigua Beringia](./ARCHAEOLOGY-UPWARD-SUN-RIVER-Upward-Sun-River-evidencia-de-la-antigua-Beri/entidad.json) | ARCHAEOLOGY-UPWARD-SUN-RIVER | 0 | 0 | 0 | 0 |
+| [Warratyi · ocupaciones de Australia interior](./ARCHAEOLOGY-WARRATYI-Warratyi-ocupaciones-de-Australia-interior/entidad.json) | ARCHAEOLOGY-WARRATYI | 0 | 0 | 0 | 0 |
+| [White Sands · huellas humanas](./ARCHAEOLOGY-WHITE-SANDS-White-Sands-huellas-humanas/entidad.json) | ARCHAEOLOGY-WHITE-SANDS | 0 | 0 | 0 | 0 |
 | [Emiratos Árabes Unidos](./ARE-Emiratos-Arabes-Unidos/entidad.json) | ARE | 1 | 0 | 8 | 7 |
 | [Argentina](./ARG-Argentina/entidad.json) | ARG | 6 | 0 | 121 | 8 |
 | [Armenia](./ARM-Armenia/entidad.json) | ARM | 1 | 0 | 33 | 0 |

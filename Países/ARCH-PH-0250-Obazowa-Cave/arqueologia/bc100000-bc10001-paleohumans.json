@@ -1,0 +1,303 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0250",
+  "identity": {
+    "qid": "",
+    "name": "Obłazowa Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -40051,
+  "coverageEnd": -38051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-423",
+      "start": -40051,
+      "end": -38051,
+      "ageMinBP": 40000.0,
+      "ageMaxBP": 42000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Proto-Aurignacian",
+      "layer": "Layer VIII",
+      "coordinates": [
+        20.12611,
+        49.42861
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Proto-Aurignacian: 42000–40000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "250",
+          "site_name": "Obłazowa Cave",
+          "country": "Poland",
+          "region": "Lesser Poland Voivodeship",
+          "municipality": "Nowa Biała",
+          "latitude": "49.42861",
+          "longitude": "20.12611",
+          "description": "",
+          "updated_at": "2026-07-10T19:59:18.689417Z"
+        },
+        "context": {
+          "archaeological_context_id": "423",
+          "site_id": "250",
+          "stratigraphic_context": "Layer VIII",
+          "culture_id": "5",
+          "updated_at": "2026-07-10T19:32:49.825190Z"
+        },
+        "culture": {
+          "culture_id": "5",
+          "culture_name": "Proto-Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "42000",
+          "end_bp": "40000",
+          "region": "Southern and south-central Europe",
+          "description": "Early Upper Palaeolithic technocomplex securely associated with Homo sapiens, characterized by intensive bladelet production and an early Mediterranean dispersal.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "289",
+            "authors": "Talamo, S., Casaccia, N., Richards, M.P., Wacker, L., Tassoni, L., Nadachowski, A., Kraszewska, A., Kowal, M., Skłucki, J., Barrington, C., Kelly, M., Tait, F., Williams, M., Figus, C., Vazzana, A., Di Bernardo, G., Romandini, M., Di Domenico, G., Benazzi, S., Malegori, C., Sciutto, G., Oliveri, P., Hublin, J.J., Hajdinjak, M., Skoglund, P., Picin, A., Valde-Nowak, P.",
+            "year": "2025",
+            "title": "Boomerang and bones: Refining the chronology of the Early Upper Paleolithic at Obłazowa Cave, Poland",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "PLOS One",
+            "volume": "20",
+            "issue": "6",
+            "pages": "e0344302",
+            "doi": "10.1371/journal.pone.0324911",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-10T19:28:45.041796Z"
+          },
+          {
+            "bibliographic_reference_id": "291",
+            "authors": "Trinkaus, E., Haduch, E., Valde-Nowak, P. W., Wojtal, P.",
+            "year": "2014",
+            "title": "The Obłazowa 1 early modern human pollical phalanx and Late Pleistocene distal thumb proportions",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "HOMO - Journal of Comparative Human Biology",
+            "volume": "65",
+            "issue": "1",
+            "pages": "1-12",
+            "doi": "https://doi.org/10.1016/j.jchb.2013.09.002",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-10T19:55:00.612592Z"
+          },
+          {
+            "bibliographic_reference_id": "292",
+            "authors": "Valde-Nowak, P.",
+            "year": "2008",
+            "title": "Człowiek pierwotny w Jaskini w Obłazowej",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Pieniny - Przyroda i Człowiek",
+            "volume": "10",
+            "issue": "",
+            "pages": "133-146",
+            "doi": "",
+            "is_book": "",
+            "is_article_in_book": "",
+            "updated_at": "2026-07-10T19:56:30.992652Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "814",
+            "archaeological_context_id": "423",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "0",
+            "age_at_death_max": "100",
+            "age_unit": "YEARS",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "true",
+            "updated_at": "2026-07-10T19:34:26.229959Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "768",
+              "dated_sample_id": "760",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "37424",
+              "dates_range": "324",
+              "notes": "",
+              "updated_at": "2026-07-10T19:48:27.339405Z"
+            },
+            "sample": {
+              "dated_sample_id": "760",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "423",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Animal Bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-07-10T19:48:27.339405Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "769",
+              "dated_sample_id": "761",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "36558",
+              "dates_range": "355",
+              "notes": "",
+              "updated_at": "2026-07-10T19:48:54.611811Z"
+            },
+            "sample": {
+              "dated_sample_id": "761",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "423",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Animal Bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-07-10T19:48:54.611811Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "770",
+              "dated_sample_id": "762",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "34526",
+              "dates_range": "280",
+              "notes": "",
+              "updated_at": "2026-07-10T19:49:50.613440Z"
+            },
+            "sample": {
+              "dated_sample_id": "762",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "423",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Animal Bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-07-10T19:49:50.613440Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "771",
+              "dated_sample_id": "759",
+              "dating_technique_id": "5",
+              "dates_bp_uncal": "31210",
+              "dates_range": "155",
+              "notes": "Minimum age; collagen C:N ratio 2.8, potentially affected by diagenesis/contamination.",
+              "updated_at": "2026-07-10T19:50:15.060521Z"
+            },
+            "sample": {
+              "dated_sample_id": "759",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3101",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-10T19:40:19.833468Z"
+            },
+            "technique": {
+              "dating_technique_id": "5",
+              "dating_technique_name": "Radiocarbon (Ultrafiltered bone collagen)",
+              "description": "A radiocarbon method in which bone collagen is purified by ultrafiltration before dating, improving accuracy by removing contaminants and degraded molecules.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "423",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "250",
+      "site_name": "Obłazowa Cave",
+      "country": "Poland",
+      "region": "Lesser Poland Voivodeship",
+      "municipality": "Nowa Biała",
+      "latitude": "49.42861",
+      "longitude": "20.12611",
+      "description": "",
+      "updated_at": "2026-07-10T19:59:18.689417Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-40051-01-01",
+      "end": "-38051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

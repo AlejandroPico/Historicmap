@@ -1,0 +1,1019 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-21ACBB5791B4FB",
+  "identity": {
+    "qid": "",
+    "name": "Bacho Kiro",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -53051,
+  "coverageEnd": -32551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-12",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Niche 1, Layer I",
+      "coordinates": [
+        25.430117,
+        42.948244
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "8",
+          "site_name": "Bacho Kiro Cave",
+          "country": "Bulgaria",
+          "region": "Gabrovo",
+          "municipality": "Dryanovo",
+          "latitude": "42.948244",
+          "longitude": "25.430117",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "12",
+          "site_id": "8",
+          "stratigraphic_context": "Niche 1, Layer I",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "115",
+            "authors": "Hublin, J.-J., Sirakov, N., Aldeias, V., Bailey, S., Bard, E., Delvigne, V., Endarova, E., Fagault, Y., Fewlass, H., Hajdinjak, M., Kromer, B., Krumov, I., Marreiros, J., Martisius, N.L., Paskulin, L., Sinet-Mathiot, V., Meyer, M., P¨a¨abo, S., Popov, V., Rezek, Z., Sirakova, S., Skinner, M.M., Smith, G.S., Spasov, R., Talamo, S., Tuna, T., Wacker, L., Welker, F., Wilcke, A., Zahariev, N., McPherron, S.P., Tsanova, T.",
+            "year": "2020",
+            "title": "Initial Upper Palaeolithic Homo sapiens from Bacho Kiro Cave, Bulgaria",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "581",
+            "issue": "",
+            "pages": "299-302",
+            "doi": "https://doi.org/10.1038/s41586-020-2259-z",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "55",
+            "archaeological_context_id": "12",
+            "individual_name": "CC7-335, CC7-2289, BB7-240, AA7-738",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "102",
+              "dated_sample_id": "102",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "39750",
+              "dates_range": "380",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "102",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "342",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "12",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-13",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Main sector, Layer I",
+      "coordinates": [
+        25.430117,
+        42.948244
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "8",
+          "site_name": "Bacho Kiro Cave",
+          "country": "Bulgaria",
+          "region": "Gabrovo",
+          "municipality": "Dryanovo",
+          "latitude": "42.948244",
+          "longitude": "25.430117",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "13",
+          "site_id": "8",
+          "stratigraphic_context": "Main sector, Layer I",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "218",
+            "authors": "Strait, D.S., Orr, C.M., Hodgkins, J., Spassov, N., Gurova, M., Miller, C., Tzankov, T.",
+            "year": "2017",
+            "title": "The Human Fossil Record of Bulgaria and the Formulation of Biogeographic Hypotheses",
+            "editor": "Harvati, K., Roksandic, M.",
+            "book": "Paleoanthropology of the Balkans and Anatolia",
+            "corporate_author": "Springer",
+            "city": "Dordrecht",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "69-77",
+            "doi": "https://doi.org/10.1007/978-94-024-0874-4_5",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "56",
+            "archaeological_context_id": "13",
+            "individual_name": "1124, W-1",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "103",
+              "dated_sample_id": "103",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "38500",
+              "dates_range": "1700",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "103",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "343",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "104",
+              "dated_sample_id": "104",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "38500",
+              "dates_range": "1700",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "104",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "344",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "105",
+              "dated_sample_id": "105",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "38500",
+              "dates_range": "1700",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "105",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "345",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "13",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-396",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Main sector, Layer B",
+      "coordinates": [
+        25.430117,
+        42.948244
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "8",
+          "site_name": "Bacho Kiro Cave",
+          "country": "Bulgaria",
+          "region": "Gabrovo",
+          "municipality": "Dryanovo",
+          "latitude": "42.948244",
+          "longitude": "25.430117",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "396",
+          "site_id": "8",
+          "stratigraphic_context": "Main sector, Layer B",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "115",
+            "authors": "Hublin, J.-J., Sirakov, N., Aldeias, V., Bailey, S., Bard, E., Delvigne, V., Endarova, E., Fagault, Y., Fewlass, H., Hajdinjak, M., Kromer, B., Krumov, I., Marreiros, J., Martisius, N.L., Paskulin, L., Sinet-Mathiot, V., Meyer, M., P¨a¨abo, S., Popov, V., Rezek, Z., Sirakova, S., Skinner, M.M., Smith, G.S., Spasov, R., Talamo, S., Tuna, T., Wacker, L., Welker, F., Wilcke, A., Zahariev, N., McPherron, S.P., Tsanova, T.",
+            "year": "2020",
+            "title": "Initial Upper Palaeolithic Homo sapiens from Bacho Kiro Cave, Bulgaria",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "581",
+            "issue": "",
+            "pages": "299-302",
+            "doi": "https://doi.org/10.1038/s41586-020-2259-z",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "61",
+            "archaeological_context_id": "396",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "110",
+              "dated_sample_id": "110",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "29150",
+              "dates_range": "950",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "110",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "396",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "396",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-397",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Main sector, Layer B / C",
+      "coordinates": [
+        25.430117,
+        42.948244
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "8",
+          "site_name": "Bacho Kiro Cave",
+          "country": "Bulgaria",
+          "region": "Gabrovo",
+          "municipality": "Dryanovo",
+          "latitude": "42.948244",
+          "longitude": "25.430117",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "397",
+          "site_id": "8",
+          "stratigraphic_context": "Main sector, Layer B / C",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "115",
+            "authors": "Hublin, J.-J., Sirakov, N., Aldeias, V., Bailey, S., Bard, E., Delvigne, V., Endarova, E., Fagault, Y., Fewlass, H., Hajdinjak, M., Kromer, B., Krumov, I., Marreiros, J., Martisius, N.L., Paskulin, L., Sinet-Mathiot, V., Meyer, M., P¨a¨abo, S., Popov, V., Rezek, Z., Sirakova, S., Skinner, M.M., Smith, G.S., Spasov, R., Talamo, S., Tuna, T., Wacker, L., Welker, F., Wilcke, A., Zahariev, N., McPherron, S.P., Tsanova, T.",
+            "year": "2020",
+            "title": "Initial Upper Palaeolithic Homo sapiens from Bacho Kiro Cave, Bulgaria",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "581",
+            "issue": "",
+            "pages": "299-302",
+            "doi": "https://doi.org/10.1038/s41586-020-2259-z",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "218",
+            "authors": "Strait, D.S., Orr, C.M., Hodgkins, J., Spassov, N., Gurova, M., Miller, C., Tzankov, T.",
+            "year": "2017",
+            "title": "The Human Fossil Record of Bulgaria and the Formulation of Biogeographic Hypotheses",
+            "editor": "Harvati, K., Roksandic, M.",
+            "book": "Paleoanthropology of the Balkans and Anatolia",
+            "corporate_author": "Springer",
+            "city": "Dordrecht",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "69-77",
+            "doi": "https://doi.org/10.1007/978-94-024-0874-4_5",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "60",
+            "archaeological_context_id": "397",
+            "individual_name": "1704, 1702, 559",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "62",
+            "archaeological_context_id": "397",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "109",
+              "dated_sample_id": "109",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "29150",
+              "dates_range": "950",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "109",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "397",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "397",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-398",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Main sector, Layer C",
+      "coordinates": [
+        25.430117,
+        42.948244
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "8",
+          "site_name": "Bacho Kiro Cave",
+          "country": "Bulgaria",
+          "region": "Gabrovo",
+          "municipality": "Dryanovo",
+          "latitude": "42.948244",
+          "longitude": "25.430117",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "398",
+          "site_id": "8",
+          "stratigraphic_context": "Main sector, Layer C",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "218",
+            "authors": "Strait, D.S., Orr, C.M., Hodgkins, J., Spassov, N., Gurova, M., Miller, C., Tzankov, T.",
+            "year": "2017",
+            "title": "The Human Fossil Record of Bulgaria and the Formulation of Biogeographic Hypotheses",
+            "editor": "Harvati, K., Roksandic, M.",
+            "book": "Paleoanthropology of the Balkans and Anatolia",
+            "corporate_author": "Springer",
+            "city": "Dordrecht",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "69-77",
+            "doi": "https://doi.org/10.1007/978-94-024-0874-4_5",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "59",
+            "archaeological_context_id": "398",
+            "individual_name": "2641, 3575",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "108",
+              "dated_sample_id": "108",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "32200",
+              "dates_range": "780",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "108",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "398",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Charcoal",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "398",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-399",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Main sector, Layer C / D",
+      "coordinates": [
+        25.430117,
+        42.948244
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "8",
+          "site_name": "Bacho Kiro Cave",
+          "country": "Bulgaria",
+          "region": "Gabrovo",
+          "municipality": "Dryanovo",
+          "latitude": "42.948244",
+          "longitude": "25.430117",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "399",
+          "site_id": "8",
+          "stratigraphic_context": "Main sector, Layer C / D",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "218",
+            "authors": "Strait, D.S., Orr, C.M., Hodgkins, J., Spassov, N., Gurova, M., Miller, C., Tzankov, T.",
+            "year": "2017",
+            "title": "The Human Fossil Record of Bulgaria and the Formulation of Biogeographic Hypotheses",
+            "editor": "Harvati, K., Roksandic, M.",
+            "book": "Paleoanthropology of the Balkans and Anatolia",
+            "corporate_author": "Springer",
+            "city": "Dordrecht",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "69-77",
+            "doi": "https://doi.org/10.1007/978-94-024-0874-4_5",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "58",
+            "archaeological_context_id": "399",
+            "individual_name": "2823",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "107",
+              "dated_sample_id": "107",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "33300",
+              "dates_range": "820",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "107",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "399",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Charcoal",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "399",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-400",
+      "start": -53051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 55000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Main sector, Layer J",
+      "coordinates": [
+        25.430117,
+        42.948244
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Early Upper Palaeolithic: 55000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "8",
+          "site_name": "Bacho Kiro Cave",
+          "country": "Bulgaria",
+          "region": "Gabrovo",
+          "municipality": "Dryanovo",
+          "latitude": "42.948244",
+          "longitude": "25.430117",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "400",
+          "site_id": "8",
+          "stratigraphic_context": "Main sector, Layer J",
+          "culture_id": "1",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "1",
+          "culture_name": "Early Upper Palaeolithic",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "55000",
+          "end_bp": "34500",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "115",
+            "authors": "Hublin, J.-J., Sirakov, N., Aldeias, V., Bailey, S., Bard, E., Delvigne, V., Endarova, E., Fagault, Y., Fewlass, H., Hajdinjak, M., Kromer, B., Krumov, I., Marreiros, J., Martisius, N.L., Paskulin, L., Sinet-Mathiot, V., Meyer, M., P¨a¨abo, S., Popov, V., Rezek, Z., Sirakova, S., Skinner, M.M., Smith, G.S., Spasov, R., Talamo, S., Tuna, T., Wacker, L., Welker, F., Wilcke, A., Zahariev, N., McPherron, S.P., Tsanova, T.",
+            "year": "2020",
+            "title": "Initial Upper Palaeolithic Homo sapiens from Bacho Kiro Cave, Bulgaria",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "581",
+            "issue": "",
+            "pages": "299-302",
+            "doi": "https://doi.org/10.1038/s41586-020-2259-z",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "57",
+            "archaeological_context_id": "400",
+            "individual_name": "F6-620",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "106",
+              "dated_sample_id": "106",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "33750",
+              "dates_range": "850",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "106",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "400",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Charcoal",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "400",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "8",
+      "site_name": "Bacho Kiro Cave",
+      "country": "Bulgaria",
+      "region": "Gabrovo",
+      "municipality": "Dryanovo",
+      "latitude": "42.948244",
+      "longitude": "25.430117",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-53051-01-01",
+      "end": "-32551-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

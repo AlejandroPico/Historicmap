@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-84B6BDF1295A6C",
+  "identity": {
+    "qid": "",
+    "name": "Mehtakheri",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -44051,
+  "coverageEnd": -40051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2909",
+      "start": -44051,
+      "end": -40051,
+      "ageMinBP": 42000.0,
+      "ageMaxBP": 46000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Late Paleolithic",
+      "layer": "unit 2, section 1",
+      "coordinates": [
+        76.026,
+        22.228
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Mishra, S., Chauhan, N., & Singhvi, A. K. (2013). Continuity of microblade technology in the Indian Subcontinent since 45 ka: implications for the dispersal of modern humans. PLoS One, 8(7), e69280.",
+      "originalRow": 2909,
+      "originalProperties": {
+        "A": "Mishra, S., Chauhan, N., & Singhvi, A. K. (2013). Continuity of microblade technology in the Indian Subcontinent since 45 ka: implications for the dispersal of modern humans. PLoS One, 8(7), e69280.",
+        "B": "Homo sapiens",
+        "C": "76.025999999999996",
+        "D": "22.228000000000002",
+        "E": "Mehtakheri",
+        "F": "unit 2, section 1",
+        "G": "46000",
+        "H": "44000",
+        "I": "42000",
+        "J": "Late Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-44051-01-01",
+      "end": "-40051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0219",
+  "identity": {
+    "qid": "",
+    "name": "Santa Maria di Agnano",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -32051,
+  "coverageEnd": -26051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-357",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Trench 1, Area C2 / C1-C2",
+      "coordinates": [
+        17.5476442,
+        40.7470547
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "219",
+          "site_name": "Santa Maria di Agnano",
+          "country": "Italy",
+          "region": "Apulia",
+          "municipality": "Brindissi",
+          "latitude": "40.7470547",
+          "longitude": "17.5476442",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "357",
+          "site_id": "219",
+          "stratigraphic_context": "Trench 1, Area C2 / C1-C2",
+          "culture_id": "7",
+          "updated_at": "2026-07-02T18:10:59.062868Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "35",
+            "authors": "Chakroun, A., Baills, H., Coppola, D.",
+            "year": "2018",
+            "title": "The Site of Santa Maria di Agnano (Brindissi, Italy)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Global Journal of Archaeology and Anthropology",
+            "volume": "4",
+            "issue": "2",
+            "pages": "27-28",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "43",
+            "authors": "Coppola, D., Denoyelle, M., Dewailly, M., Fusco, I., Lepetz, S.",
+            "year": "2008",
+            "title": "La grotte de Santa Maria di Agnano (Ostuni) et ses abords: à propos des critères d’identification d’un sanctuaire messapien",
+            "editor": "Dupré Raventós, X., Ribichini, S., Verger, S.",
+            "book": "Saturnia Tellus. Definizioni dello spazio consacrato in ambiente etrusco, italico, fenicio-punico, iberico e celtico",
+            "corporate_author": "Convegno internazionale di studi, Consiglio Nazionale delle Ricerche",
+            "city": "Roma",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "201-232",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "280",
+            "authors": "Coppola, D.",
+            "year": "2013",
+            "title": "",
+            "editor": "",
+            "book": "Il Riparo di Agnano nel Paleolitico superiore. La sepoltura Ostuni 1 ed i suoi simboli",
+            "corporate_author": "Nuova Editrice Apulia",
+            "city": "Lecce",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-01T20:32:02.036591Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "750",
+            "archaeological_context_id": "357",
+            "individual_name": "Ostuni 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "20",
+            "age_at_death_min": "20",
+            "age_at_death_max": "20",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "806",
+            "archaeological_context_id": "357",
+            "individual_name": "Ostuni 1b",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "ca. 34-36 gestational weeks",
+            "age_at_death_min": "8",
+            "age_at_death_max": "9",
+            "age_unit": "MONTHS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "FETAL",
+            "sex": "FEMALE",
+            "sex_certain": "false",
+            "updated_at": "2026-07-01T19:09:19.770490Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "742",
+              "dated_sample_id": "694",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "23446",
+              "dates_range": "107",
+              "notes": "",
+              "updated_at": "2026-07-01T21:59:58.506038Z"
+            },
+            "sample": {
+              "dated_sample_id": "694",
+              "sample_origin": "SKELETON",
+              "archaeological_context_id": "",
+              "bone_id": "",
+              "skeleton_id": "93",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "743",
+              "dated_sample_id": "740",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "24410",
+              "dates_range": "320",
+              "notes": "",
+              "updated_at": "2026-07-01T22:00:36.990462Z"
+            },
+            "sample": {
+              "dated_sample_id": "740",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "357",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Charcoal",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-07-01T19:32:33.477669Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "357",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-417",
+      "start": -32051,
+      "end": -26051,
+      "ageMinBP": 28000.0,
+      "ageMaxBP": 34000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Gravettian",
+      "layer": "Trench 1, Area D2",
+      "coordinates": [
+        17.5476442,
+        40.7470547
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Gravettian: 34000–28000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "219",
+          "site_name": "Santa Maria di Agnano",
+          "country": "Italy",
+          "region": "Apulia",
+          "municipality": "Brindissi",
+          "latitude": "40.7470547",
+          "longitude": "17.5476442",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "417",
+          "site_id": "219",
+          "stratigraphic_context": "Trench 1, Area D2",
+          "culture_id": "7",
+          "updated_at": "2026-07-02T18:11:31.389522Z"
+        },
+        "culture": {
+          "culture_id": "7",
+          "culture_name": "Gravettian",
+          "phase": "FULL_UPPER_PALAEOLITHIC",
+          "start_bp": "34000",
+          "end_bp": "28000",
+          "region": "Most of Europe south of the major ice sheets",
+          "description": "Pan-European Upper Palaeolithic technocomplex known for backed points, elaborate ornaments and frequent burials.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "35",
+            "authors": "Chakroun, A., Baills, H., Coppola, D.",
+            "year": "2018",
+            "title": "The Site of Santa Maria di Agnano (Brindissi, Italy)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Global Journal of Archaeology and Anthropology",
+            "volume": "4",
+            "issue": "2",
+            "pages": "27-28",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "43",
+            "authors": "Coppola, D., Denoyelle, M., Dewailly, M., Fusco, I., Lepetz, S.",
+            "year": "2008",
+            "title": "La grotte de Santa Maria di Agnano (Ostuni) et ses abords: à propos des critères d’identification d’un sanctuaire messapien",
+            "editor": "Dupré Raventós, X., Ribichini, S., Verger, S.",
+            "book": "Saturnia Tellus. Definizioni dello spazio consacrato in ambiente etrusco, italico, fenicio-punico, iberico e celtico",
+            "corporate_author": "Convegno internazionale di studi, Consiglio Nazionale delle Ricerche",
+            "city": "Roma",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "201-232",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "280",
+            "authors": "Coppola, D.",
+            "year": "2013",
+            "title": "",
+            "editor": "",
+            "book": "Il Riparo di Agnano nel Paleolitico superiore. La sepoltura Ostuni 1 ed i suoi simboli",
+            "corporate_author": "Nuova Editrice Apulia",
+            "city": "Lecce",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-01T20:32:02.036591Z"
+          },
+          {
+            "bibliographic_reference_id": "281",
+            "authors": "Fu, Q., Posth, C., Hajdinjak, M., Petr, M., Mallick, S., Fernandes, D.,  Furtwängler, A., Haak, W., Meyer, M., Mittnik, A., Nickel, B., Peltzer, A., Rohland, N., Slon, V., Talamo, S., Lazaridis, I., Lipson, M., Mathieson, I., Schiffels, S., Skoglund, P., Derevianko, A.P., Drozdov, N., Slavinsky, V., Tsybankov, A., Cremonesi, R.G., Mallegni, F., Gély, B., Vacca, E., Morales, M.R., Straus, L.G., Neugebauer-Maresch, C., Teschler-Nicola, M., Constantin, S., Moldovan, O.T., Benazzi, S., Peresani, M., Coppola, D., Lari, M., Ricci, S., Ronchitelli, A., Valentin, F., Thevenet, C., Wehrberger, K., Grigorescu, D., Rougier, H., Crevecoeur, I., Flas, D., Semal, P., Mannino, M.A., Cupillard, C., Bocherens, H., Conard, N.J., Harvati, K., Moiseyev, V., Drucker, D.G., Svoboda, J., Richards, M. P., Caramelli, D., Pinhasi, R., Kelso, J., Patterson, N., Krause, J., Pääbo, S., Reich, D.",
+            "year": "2016",
+            "title": "The genetic history of Ice Age Europe",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "534",
+            "issue": "7606",
+            "pages": "200-205",
+            "doi": "https://doi.org/10.1038/nature17993",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-01T21:47:10.352932Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "751",
+            "archaeological_context_id": "417",
+            "individual_name": "Ostuni 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-07-02T18:13:52.318709Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "744",
+              "dated_sample_id": "741",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "24910",
+              "dates_range": "125",
+              "notes": "Fu et al. 2016 report collagen extraction from ribs for Ostuni 1 and Ostuni 2, but the published osteological inventory of Ostuni 2 in Vacca et al. 2013 does not list any rib. Sampled element requires curatorial verification",
+              "updated_at": "2026-07-01T22:06:18.453766Z"
+            },
+            "sample": {
+              "dated_sample_id": "741",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3072",
+              "skeleton_id": "",
+              "material": "Bone Collagen",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-01T22:06:18.453766Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "417",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "219",
+      "site_name": "Santa Maria di Agnano",
+      "country": "Italy",
+      "region": "Apulia",
+      "municipality": "Brindissi",
+      "latitude": "40.7470547",
+      "longitude": "17.5476442",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-32051-01-01",
+      "end": "-26051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

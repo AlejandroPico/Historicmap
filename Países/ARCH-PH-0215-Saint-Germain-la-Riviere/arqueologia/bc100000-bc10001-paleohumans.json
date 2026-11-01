@@ -1,0 +1,587 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0215",
+  "identity": {
+    "qid": "",
+    "name": "Saint-Germain-la-Rivière",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -18051,
+  "coverageEnd": -12051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-349",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Lower terrace",
+      "coordinates": [
+        -0.3332167,
+        44.9508325
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "215",
+          "site_name": "Saint-Germain-la-Rivière",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Saint-Germain-la-Rivière",
+          "latitude": "44.9508325",
+          "longitude": "-0.3332167",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "349",
+          "site_id": "215",
+          "stratigraphic_context": "Lower terrace",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "733",
+            "archaeological_context_id": "349",
+            "individual_name": "Saint-Germain-la-Rivière 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Infant",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "734",
+            "archaeological_context_id": "349",
+            "individual_name": "Saint-Germain-la-Rivière 2",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "349",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-350",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Upper terrace",
+      "coordinates": [
+        -0.3332167,
+        44.9508325
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "215",
+          "site_name": "Saint-Germain-la-Rivière",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Saint-Germain-la-Rivière",
+          "latitude": "44.9508325",
+          "longitude": "-0.3332167",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "350",
+          "site_id": "215",
+          "stratigraphic_context": "Upper terrace",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "735",
+            "archaeological_context_id": "350",
+            "individual_name": "Saint-Germain-la-Rivière 3",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "350",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-351",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Layer C1",
+      "coordinates": [
+        -0.3332167,
+        44.9508325
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "215",
+          "site_name": "Saint-Germain-la-Rivière",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Saint-Germain-la-Rivière",
+          "latitude": "44.9508325",
+          "longitude": "-0.3332167",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "351",
+          "site_id": "215",
+          "stratigraphic_context": "Layer C1",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "102",
+            "authors": "Henry-Gambier, D., Bruzek, J., Murail, P., Houët, F.",
+            "year": "2002",
+            "title": "Révision du sexe du squelette magdalénien de Saint-Germain-la-Riviere (Gironde, France)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "PALEO, Revue d’archéologie préhistorique",
+            "volume": "14",
+            "issue": "",
+            "pages": "205-212",
+            "doi": "https://doi.org/10.4000/paleo.1434",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "738",
+            "archaeological_context_id": "351",
+            "individual_name": "Saint-Germain-la-Rivière 4",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Young Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "691",
+              "dated_sample_id": "691",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "15780",
+              "dates_range": "200",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "691",
+              "sample_origin": "SKELETON",
+              "archaeological_context_id": "",
+              "bone_id": "",
+              "skeleton_id": "90",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "351",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-352",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Anterior talus",
+      "coordinates": [
+        -0.3332167,
+        44.9508325
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "215",
+          "site_name": "Saint-Germain-la-Rivière",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Saint-Germain-la-Rivière",
+          "latitude": "44.9508325",
+          "longitude": "-0.3332167",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "352",
+          "site_id": "215",
+          "stratigraphic_context": "Anterior talus",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "736",
+            "archaeological_context_id": "352",
+            "individual_name": "Saint-Germain-la-Rivière 5",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "352",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-353",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Lower terrace (old excavation tip)",
+      "coordinates": [
+        -0.3332167,
+        44.9508325
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "215",
+          "site_name": "Saint-Germain-la-Rivière",
+          "country": "France",
+          "region": "Dordogne",
+          "municipality": "Saint-Germain-la-Rivière",
+          "latitude": "44.9508325",
+          "longitude": "-0.3332167",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "353",
+          "site_id": "215",
+          "stratigraphic_context": "Lower terrace (old excavation tip)",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "737",
+            "archaeological_context_id": "353",
+            "individual_name": "Saint-Germain-la-Rivière 6",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "353",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "215",
+      "site_name": "Saint-Germain-la-Rivière",
+      "country": "France",
+      "region": "Dordogne",
+      "municipality": "Saint-Germain-la-Rivière",
+      "latitude": "44.9508325",
+      "longitude": "-0.3332167",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-18051-01-01",
+      "end": "-12051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

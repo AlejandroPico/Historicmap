@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-B82DF3D5BA966F",
+  "identity": {
+    "qid": "",
+    "name": "Los Casares",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -42726,
+  "coverageEnd": -39953,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1414",
+      "start": -42726,
+      "end": -39953,
+      "ageMinBP": 41902.0,
+      "ageMaxBP": 44675.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian and human remains",
+      "layer": "Seno A, level c",
+      "coordinates": [
+        -2.29194444444444,
+        40.9394444444444
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Alcaraz-Castaño, M., Alcolea-González, J., Kehl, M., Albert, R. M., Baena-Preysler, J., de Balbín-Behrmann, R., ... & Piqué, R. (2017). A context for the last Neandertals of interior Iberia: Los Casares cave revisited. PloS one, 12(7), e0180823.",
+      "originalRow": 1414,
+      "originalProperties": {
+        "A": "Alcaraz-Castaño, M., Alcolea-González, J., Kehl, M., Albert, R. M., Baena-Preysler, J., de Balbín-Behrmann, R., ... & Piqué, R. (2017). A context for the last Neandertals of interior Iberia: Los Casares cave revisited. PloS one, 12(7), e0180823.",
+        "B": "Homo neanderthalensis",
+        "C": "-2.2919444444444399",
+        "D": "40.939444444444398",
+        "E": "Los Casares",
+        "F": "Seno A, level c",
+        "G": "44675",
+        "H": "43288",
+        "I": "41902",
+        "J": "Mousterian and human remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-42726-01-01",
+      "end": "-39953-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

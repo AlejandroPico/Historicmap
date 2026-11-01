@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-513752EF9EAD5C",
+  "identity": {
+    "qid": "",
+    "name": "Seclin",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -78051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1773",
+      "start": -100000,
+      "end": -78051,
+      "ageMinBP": 80000.0,
+      "ageMaxBP": 102000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "D4",
+      "coordinates": [
+        3.03333,
+        50.55
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Tuffreau, A., Révillion, S., Sommé, J., & Vliet-Lanoë, V. (1994). Le gisement paléolithique moyen de Seclin (Nord). Bulletin de la Société préhistorique française, 91(91), 23-46.",
+      "originalRow": 1773,
+      "originalProperties": {
+        "A": "Tuffreau, A., Révillion, S., Sommé, J., & Vliet-Lanoë, V. (1994). Le gisement paléolithique moyen de Seclin (Nord). Bulletin de la Société préhistorique française, 91(91), 23-46.",
+        "B": "Homo neanderthalensis",
+        "C": "3.0333299999999999",
+        "D": "50.55",
+        "E": "Seclin",
+        "F": "D4",
+        "G": "102000",
+        "H": "91000",
+        "I": "80000",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-1774",
+      "start": -100000,
+      "end": -83051,
+      "ageMinBP": 85000.0,
+      "ageMaxBP": 105000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "D7",
+      "coordinates": [
+        3.03333,
+        50.55
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Tuffreau, A., Révillion, S., Sommé, J., & Vliet-Lanoë, V. (1994). Le gisement paléolithique moyen de Seclin (Nord). Bulletin de la Société préhistorique française, 91(91), 23-46.",
+      "originalRow": 1774,
+      "originalProperties": {
+        "A": "Tuffreau, A., Révillion, S., Sommé, J., & Vliet-Lanoë, V. (1994). Le gisement paléolithique moyen de Seclin (Nord). Bulletin de la Société préhistorique française, 91(91), 23-46.",
+        "B": "Homo neanderthalensis",
+        "C": "3.0333299999999999",
+        "D": "50.55",
+        "E": "Seclin",
+        "F": "D7",
+        "G": "105000",
+        "H": "95000",
+        "I": "85000",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-100000-01-01",
+      "end": "-78051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

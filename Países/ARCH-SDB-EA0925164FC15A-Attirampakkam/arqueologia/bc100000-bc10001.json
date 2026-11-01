@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-EA0925164FC15A",
+  "identity": {
+    "qid": "",
+    "name": "Attirampakkam",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -82051,
+  "coverageEnd": -62051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2158",
+      "start": -82051,
+      "end": -62051,
+      "ageMinBP": 64000.0,
+      "ageMaxBP": 84000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Middle Paleolithic",
+      "layer": "layer 1",
+      "coordinates": [
+        79.88,
+        13.23
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Akhilesh, K., Pappu, S., Rajapara, H. M., Gunnell, Y., Shukla, A. D., & Singhvi, A. K. (2018). Early Middle Palaeolithic culture in India around 385–172 ka reframes Out of Africa models. Nature, 554(7690), 97.",
+      "originalRow": 2158,
+      "originalProperties": {
+        "A": "Akhilesh, K., Pappu, S., Rajapara, H. M., Gunnell, Y., Shukla, A. D., & Singhvi, A. K. (2018). Early Middle Palaeolithic culture in India around 385–172 ka reframes Out of Africa models. Nature, 554(7690), 97.",
+        "B": "Homo sapiens",
+        "C": "79.88",
+        "D": "13.23",
+        "E": "Attirampakkam",
+        "F": "layer 1",
+        "G": "84000",
+        "H": "74000",
+        "I": "64000",
+        "J": "Middle Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-82051-01-01",
+      "end": "-62051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

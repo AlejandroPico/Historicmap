@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-FB55964E1392EA",
+  "identity": {
+    "qid": "",
+    "name": "Ghirardello Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -82051,
+  "coverageEnd": -60051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1021",
+      "start": -82051,
+      "end": -60051,
+      "ageMinBP": 62000.0,
+      "ageMaxBP": 84000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "horizon Bc",
+      "coordinates": [
+        10.576,
+        44.654
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Cremaschi, M., Zerboni, A., Nicosia, C., Negrino, F., Rodnight, H., & Spötl, C. (2015). Age, soil-forming processes, and archaeology of the loess deposits at the Apennine margin of the Po plain (northern Italy): New insights from the Ghiardo area. Quaternary International, 376, 173-188.",
+      "originalRow": 1021,
+      "originalProperties": {
+        "A": "Cremaschi, M., Zerboni, A., Nicosia, C., Negrino, F., Rodnight, H., & Spötl, C. (2015). Age, soil-forming processes, and archaeology of the loess deposits at the Apennine margin of the Po plain (northern Italy): New insights from the Ghiardo area. Quaternary International, 376, 173-188.",
+        "B": "Homo neanderthalensis",
+        "C": "10.576000000000001",
+        "D": "44.654000000000003",
+        "E": "Ghirardello Cave",
+        "F": "horizon Bc",
+        "G": "84000",
+        "H": "73000",
+        "I": "62000",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-82051-01-01",
+      "end": "-60051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

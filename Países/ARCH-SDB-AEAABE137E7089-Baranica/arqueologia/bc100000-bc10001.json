@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-AEAABE137E7089",
+  "identity": {
+    "qid": "",
+    "name": "Baranica",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -39840,
+  "coverageEnd": -37861,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2203",
+      "start": -39840,
+      "end": -37861,
+      "ageMinBP": 39810.0,
+      "ageMaxBP": 41789.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "layer 4",
+      "coordinates": [
+        22.331,
+        43.58
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Alex, B., Mihailović, D., Milošević, S., & Boaretto, E. (2019). Radiocarbon chronology of Middle and Upper Paleolithic sites in Serbia, Central Balkans. Journal of Archaeological Science: Reports, 25, 266-279.",
+      "originalRow": 2203,
+      "originalProperties": {
+        "A": "Alex, B., Mihailović, D., Milošević, S., & Boaretto, E. (2019). Radiocarbon chronology of Middle and Upper Paleolithic sites in Serbia, Central Balkans. Journal of Archaeological Science: Reports, 25, 266-279.",
+        "B": "Homo sapiens",
+        "C": "22.331",
+        "D": "43.58",
+        "E": "Baranica",
+        "F": "layer 4",
+        "G": "41789",
+        "H": "40800",
+        "I": "39810",
+        "J": "Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-39840-01-01",
+      "end": "-37861-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

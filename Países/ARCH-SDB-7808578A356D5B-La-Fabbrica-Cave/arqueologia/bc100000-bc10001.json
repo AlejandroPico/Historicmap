@@ -1,0 +1,110 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-7808578A356D5B",
+  "identity": {
+    "qid": "",
+    "name": "La Fabbrica Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -44151,
+  "coverageEnd": -36451,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1322",
+      "start": -44151,
+      "end": -39951,
+      "ageMinBP": 41900.0,
+      "ageMaxBP": 46100.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "layer 1",
+      "coordinates": [
+        11.06222,
+        42.65417
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Villa, P., Pollarolo, L., Conforti, J., Marra, F., Biagioni, C., Degano, I., ... & Panzeri, L. (2018). From Neandertals to modern humans: New data on the Uluzzian. PloS one, 13(5), e0196786.",
+      "originalRow": 1322,
+      "originalProperties": {
+        "A": "Villa, P., Pollarolo, L., Conforti, J., Marra, F., Biagioni, C., Degano, I., ... & Panzeri, L. (2018). From Neandertals to modern humans: New data on the Uluzzian. PloS one, 13(5), e0196786.",
+        "B": "Homo neanderthalensis",
+        "C": "11.06222",
+        "D": "42.654170000000001",
+        "E": "La Fabbrica Cave",
+        "F": "layer 1",
+        "G": "46100",
+        "H": "44000",
+        "I": "41900",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2837",
+      "start": -39651,
+      "end": -36451,
+      "ageMinBP": 38400.0,
+      "ageMaxBP": 41600.0,
+      "taxon": "Homo sapiens",
+      "culture": "Uluzzian",
+      "layer": "layer 2",
+      "coordinates": [
+        11.06222,
+        42.65417
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Villa, P., Pollarolo, L., Conforti, J., Marra, F., Biagioni, C., Degano, I., ... & Panzeri, L. (2018). From Neandertals to modern humans: New data on the Uluzzian. PloS one, 13(5), e0196786.",
+      "originalRow": 2837,
+      "originalProperties": {
+        "A": "Villa, P., Pollarolo, L., Conforti, J., Marra, F., Biagioni, C., Degano, I., ... & Panzeri, L. (2018). From Neandertals to modern humans: New data on the Uluzzian. PloS one, 13(5), e0196786.",
+        "B": "Homo sapiens",
+        "C": "11.06222",
+        "D": "42.654170000000001",
+        "E": "La Fabbrica Cave",
+        "F": "layer 2",
+        "G": "41600",
+        "H": "40000",
+        "I": "38400",
+        "J": "Uluzzian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-44151-01-01",
+      "end": "-39951-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    },
+    {
+      "start": "-39651-01-01",
+      "end": "-36451-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

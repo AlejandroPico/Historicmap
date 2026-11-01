@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-5958593667BE70",
+  "identity": {
+    "qid": "",
+    "name": "Stajnia Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -60951,
+  "coverageEnd": -40951,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1813",
+      "start": -60951,
+      "end": -40951,
+      "ageMinBP": 42900.0,
+      "ageMaxBP": 62900.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian (Micoquian)",
+      "layer": "D2",
+      "coordinates": [
+        19.48444,
+        50.61611
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Bobak, D., Płonka, T., Połtowicz-Bobak, M., & Wiśniewski, A. (2013). New chronological data for Weichselian sites from Poland and their implications for Palaeolithic. Quaternary international, 296, 23-36.",
+      "originalRow": 1813,
+      "originalProperties": {
+        "A": "Bobak, D., Płonka, T., Połtowicz-Bobak, M., & Wiśniewski, A. (2013). New chronological data for Weichselian sites from Poland and their implications for Palaeolithic. Quaternary international, 296, 23-36.",
+        "B": "Homo neanderthalensis",
+        "C": "19.484439999999999",
+        "D": "50.616109999999999",
+        "E": "Stajnia Cave",
+        "F": "D2",
+        "G": "62900",
+        "H": "52900",
+        "I": "42900",
+        "J": "Mousterian (Micoquian)"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-60951-01-01",
+      "end": "-40951-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

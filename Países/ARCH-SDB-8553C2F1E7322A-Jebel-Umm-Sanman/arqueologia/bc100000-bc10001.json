@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-8553C2F1E7322A",
+  "identity": {
+    "qid": "",
+    "name": "Jebel Umm Sanman",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -82351,
+  "coverageEnd": -63151,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3235",
+      "start": -82351,
+      "end": -68951,
+      "ageMinBP": 70900.0,
+      "ageMaxBP": 84300.0,
+      "taxon": "Homo sapiens",
+      "culture": "Middle Paleolithic (Levallois)",
+      "layer": "layers 2-3",
+      "coordinates": [
+        40.932,
+        28.0
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Groucutt, H. S., White, T. S., Scerri, E. M., Andrieux, E., Clark-Wilson, R., Breeze, P. S., ... & Petraglia, M. D. (2021). Multiple hominin dispersals into Southwest Asia over the past 400,000 years. Nature, 597(7876), 376-380.",
+      "originalRow": 3235,
+      "originalProperties": {
+        "A": "Groucutt, H. S., White, T. S., Scerri, E. M., Andrieux, E., Clark-Wilson, R., Breeze, P. S., ... & Petraglia, M. D. (2021). Multiple hominin dispersals into Southwest Asia over the past 400,000 years. Nature, 597(7876), 376-380.",
+        "B": "Homo sapiens",
+        "C": "40.932000000000002",
+        "D": "28",
+        "E": "Jebel Umm Sanman",
+        "F": "layers 2-3",
+        "G": "84300",
+        "H": "77600",
+        "I": "70900",
+        "J": "Middle Paleolithic (Levallois)"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-3236",
+      "start": -75951,
+      "end": -63151,
+      "ageMinBP": 65100.0,
+      "ageMaxBP": 77900.0,
+      "taxon": "Homo sapiens",
+      "culture": "Middle Paleolithic (Levallois)",
+      "layer": "layers 2-3",
+      "coordinates": [
+        40.932,
+        28.0
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Groucutt, H. S., White, T. S., Scerri, E. M., Andrieux, E., Clark-Wilson, R., Breeze, P. S., ... & Petraglia, M. D. (2021). Multiple hominin dispersals into Southwest Asia over the past 400,000 years. Nature, 597(7876), 376-380.",
+      "originalRow": 3236,
+      "originalProperties": {
+        "A": "Groucutt, H. S., White, T. S., Scerri, E. M., Andrieux, E., Clark-Wilson, R., Breeze, P. S., ... & Petraglia, M. D. (2021). Multiple hominin dispersals into Southwest Asia over the past 400,000 years. Nature, 597(7876), 376-380.",
+        "B": "Homo sapiens",
+        "C": "40.932000000000002",
+        "D": "28",
+        "E": "Jebel Umm Sanman",
+        "F": "layers 2-3",
+        "G": "77900",
+        "H": "71500",
+        "I": "65100",
+        "J": "Middle Paleolithic (Levallois)"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-82351-01-01",
+      "end": "-63151-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

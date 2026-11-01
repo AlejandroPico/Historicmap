@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-2B33B6EA453CF3",
+  "identity": {
+    "qid": "",
+    "name": "Picareiro Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -43857,
+  "coverageEnd": -39772,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1610",
+      "start": -43857,
+      "end": -39772,
+      "ageMinBP": 41721.0,
+      "ageMaxBP": 45806.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "layer JJ",
+      "coordinates": [
+        -8.6,
+        39.25
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Benedetti, M. M., Haws, J. A., Bicho, N. F., Friedl, L., & Ellwood, B. B. (2019). Late Pleistocene site formation and paleoclimate at Lapa do Picareiro, Portugal. Geoarchaeology, 34(6), 698-726.",
+      "originalRow": 1610,
+      "originalProperties": {
+        "A": "Benedetti, M. M., Haws, J. A., Bicho, N. F., Friedl, L., & Ellwood, B. B. (2019). Late Pleistocene site formation and paleoclimate at Lapa do Picareiro, Portugal. Geoarchaeology, 34(6), 698-726.",
+        "B": "Homo neanderthalensis",
+        "C": "-8.6",
+        "D": "39.25",
+        "E": "Picareiro Cave",
+        "F": "layer JJ",
+        "G": "45806",
+        "H": "43764",
+        "I": "41721",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-1611",
+      "start": -43035,
+      "end": -41476,
+      "ageMinBP": 43425.0,
+      "ageMaxBP": 44984.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "layer JJ",
+      "coordinates": [
+        -8.6,
+        39.25
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Benedetti, M. M., Haws, J. A., Bicho, N. F., Friedl, L., & Ellwood, B. B. (2019). Late Pleistocene site formation and paleoclimate at Lapa do Picareiro, Portugal. Geoarchaeology, 34(6), 698-726.",
+      "originalRow": 1611,
+      "originalProperties": {
+        "A": "Benedetti, M. M., Haws, J. A., Bicho, N. F., Friedl, L., & Ellwood, B. B. (2019). Late Pleistocene site formation and paleoclimate at Lapa do Picareiro, Portugal. Geoarchaeology, 34(6), 698-726.",
+        "B": "Homo neanderthalensis",
+        "C": "-8.6",
+        "D": "39.25",
+        "E": "Picareiro Cave",
+        "F": "layer JJ",
+        "G": "44984",
+        "H": "44204",
+        "I": "43425",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-43857-01-01",
+      "end": "-39772-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

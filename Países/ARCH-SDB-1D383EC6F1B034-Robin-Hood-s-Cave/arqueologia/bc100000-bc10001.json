@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-1D383EC6F1B034",
+  "identity": {
+    "qid": "",
+    "name": "Robin Hood's Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -39454,
+  "coverageEnd": -32403,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3033",
+      "start": -39454,
+      "end": -32403,
+      "ageMinBP": 34352.0,
+      "ageMaxBP": 41403.0,
+      "taxon": "Homo sapiens",
+      "culture": "Late Upper Paleolithic",
+      "layer": "spit 3",
+      "coordinates": [
+        -1.205789,
+        53.260635
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Jacobi, R. (2016). Some observations on the non-flint lithics from Creswell Crags. Lithics–The Journal of the Lithic Studies Society, (25), 39.",
+      "originalRow": 3033,
+      "originalProperties": {
+        "A": "Jacobi, R. (2016). Some observations on the non-flint lithics from Creswell Crags. Lithics–The Journal of the Lithic Studies Society, (25), 39.",
+        "B": "Homo sapiens",
+        "C": "-1.205789",
+        "D": "53.260635000000001",
+        "E": "Robin Hood's Cave",
+        "F": "spit 3",
+        "G": "41403",
+        "H": "37878",
+        "I": "34352",
+        "J": "Late Upper Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-3034",
+      "start": -39454,
+      "end": -32403,
+      "ageMinBP": 34352.0,
+      "ageMaxBP": 41403.0,
+      "taxon": "Homo sapiens",
+      "culture": "Early Upper Palaeolithic",
+      "layer": "Spit 3",
+      "coordinates": [
+        -1.205789,
+        53.260635
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Jacobi, R. (2016). Some observations on the non-flint lithics from Creswell Crags. Lithics–The Journal of the Lithic Studies Society, (25), 39.",
+      "originalRow": 3034,
+      "originalProperties": {
+        "A": "Jacobi, R. (2016). Some observations on the non-flint lithics from Creswell Crags. Lithics–The Journal of the Lithic Studies Society, (25), 39.",
+        "B": "Homo sapiens",
+        "C": "-1.205789",
+        "D": "53.260635000000001",
+        "E": "Robin Hood's Cave",
+        "F": "Spit 3",
+        "G": "41403",
+        "H": "37878",
+        "I": "34352",
+        "J": "Early Upper Palaeolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-39454-01-01",
+      "end": "-32403-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-0C77212D830AB1",
+  "identity": {
+    "qid": "",
+    "name": "Brno-Bohunice II",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -42674,
+  "coverageEnd": -40020,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2324",
+      "start": -42244,
+      "end": -40020,
+      "ageMinBP": 41969.0,
+      "ageMaxBP": 44193.0,
+      "taxon": "Homo sapiens",
+      "culture": "Bohunician",
+      "layer": "",
+      "coordinates": [
+        16.557,
+        49.167
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Neruda, P., & Nerudová, Z. (2013). The Middle-Upper Palaeolithic transition in Moravia in the context of the Middle Danube region. Quaternary International, 294, 3-19.",
+      "originalRow": 2324,
+      "originalProperties": {
+        "A": "Neruda, P., & Nerudová, Z. (2013). The Middle-Upper Palaeolithic transition in Moravia in the context of the Middle Danube region. Quaternary International, 294, 3-19.",
+        "B": "Homo sapiens",
+        "C": "16.556999999999999",
+        "D": "49.167000000000002",
+        "E": "Brno-Bohunice II",
+        "G": "44193",
+        "H": "43081",
+        "I": "41969",
+        "J": "Bohunician"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2325",
+      "start": -42674,
+      "end": -40357,
+      "ageMinBP": 42306.0,
+      "ageMaxBP": 44623.0,
+      "taxon": "Homo sapiens",
+      "culture": "Bohunician",
+      "layer": "",
+      "coordinates": [
+        16.557,
+        49.167
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Neruda, P., & Nerudová, Z. (2013). The Middle-Upper Palaeolithic transition in Moravia in the context of the Middle Danube region. Quaternary International, 294, 3-19.",
+      "originalRow": 2325,
+      "originalProperties": {
+        "A": "Neruda, P., & Nerudová, Z. (2013). The Middle-Upper Palaeolithic transition in Moravia in the context of the Middle Danube region. Quaternary International, 294, 3-19.",
+        "B": "Homo sapiens",
+        "C": "16.556999999999999",
+        "D": "49.167000000000002",
+        "E": "Brno-Bohunice II",
+        "G": "44623",
+        "H": "43464",
+        "I": "42306",
+        "J": "Bohunician"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-42674-01-01",
+      "end": "-40020-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

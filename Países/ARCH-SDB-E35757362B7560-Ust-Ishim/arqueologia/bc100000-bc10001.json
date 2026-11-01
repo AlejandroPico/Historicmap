@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-E35757362B7560",
+  "identity": {
+    "qid": "",
+    "name": "Ust-Ishim",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -45679,
+  "coverageEnd": -40310,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3161",
+      "start": -45679,
+      "end": -40310,
+      "ageMinBP": 42259.0,
+      "ageMaxBP": 47628.0,
+      "taxon": "Homo sapiens",
+      "culture": "Homo remains",
+      "layer": "sand and gravel layers",
+      "coordinates": [
+        71.2,
+        57.74
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Fu, Q., Li, H., Moorjani, P., Jay, F., Slepchenko, S. M., Bondarev, A. A., ... & Meyer, M. (2014). Genome sequence of a 45,000-year-old modern human from western Siberia. Nature, 514(7523), 445.",
+      "originalRow": 3161,
+      "originalProperties": {
+        "A": "Fu, Q., Li, H., Moorjani, P., Jay, F., Slepchenko, S. M., Bondarev, A. A., ... & Meyer, M. (2014). Genome sequence of a 45,000-year-old modern human from western Siberia. Nature, 514(7523), 445.",
+        "B": "Homo sapiens",
+        "C": "71.2",
+        "D": "57.74",
+        "E": "Ust-Ishim",
+        "F": "sand and gravel layers",
+        "G": "47628",
+        "H": "44944",
+        "I": "42259",
+        "J": "Homo remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-3162",
+      "start": -45389,
+      "end": -40385,
+      "ageMinBP": 42334.0,
+      "ageMaxBP": 47338.0,
+      "taxon": "Homo sapiens",
+      "culture": "Homo remains",
+      "layer": "sand and gravel layers",
+      "coordinates": [
+        71.2,
+        57.74
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Fu, Q., Li, H., Moorjani, P., Jay, F., Slepchenko, S. M., Bondarev, A. A., ... & Meyer, M. (2014). Genome sequence of a 45,000-year-old modern human from western Siberia. Nature, 514(7523), 445.",
+      "originalRow": 3162,
+      "originalProperties": {
+        "A": "Fu, Q., Li, H., Moorjani, P., Jay, F., Slepchenko, S. M., Bondarev, A. A., ... & Meyer, M. (2014). Genome sequence of a 45,000-year-old modern human from western Siberia. Nature, 514(7523), 445.",
+        "B": "Homo sapiens",
+        "C": "71.2",
+        "D": "57.74",
+        "E": "Ust-Ishim",
+        "F": "sand and gravel layers",
+        "G": "47338",
+        "H": "44836",
+        "I": "42334",
+        "J": "Homo remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-45679-01-01",
+      "end": "-40310-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-1B3D93FDB82DED",
+  "identity": {
+    "qid": "",
+    "name": "Higueral-Guardia",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -40431,
+  "coverageEnd": -39467,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1202",
+      "start": -40431,
+      "end": -39467,
+      "ageMinBP": 41416.0,
+      "ageMaxBP": 42380.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "layer 7",
+      "coordinates": [
+        -5.49889,
+        36.5508333333333
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Baena, J., Morgado Rodríguez, A., Lozano Rodríguez, J. A., Torres Navas, C., Alcalá Ortiz, A., Bermúdez Cano, R., ... & Ruiz-Ruano Cobo, F. (2012). Titanes en el Complejo Motillas. La secuencia del Pleistoceno Superior de la cueva del Higueral-Guardia en la bética occidental (Proyecto Kuretes). Menga: revista de prehistoria de Andalucía.",
+      "originalRow": 1202,
+      "originalProperties": {
+        "A": "Baena, J., Morgado Rodríguez, A., Lozano Rodríguez, J. A., Torres Navas, C., Alcalá Ortiz, A., Bermúdez Cano, R., ... & Ruiz-Ruano Cobo, F. (2012). Titanes en el Complejo Motillas. La secuencia del Pleistoceno Superior de la cueva del Higueral-Guardia en la bética occidental (Proyecto Kuretes). Menga: revista de prehistoria de Andalucía.",
+        "B": "Homo neanderthalensis",
+        "C": "-5.4988900000000003",
+        "D": "36.550833333333301",
+        "E": "Higueral-Guardia",
+        "F": "layer 7",
+        "G": "42380",
+        "H": "41898",
+        "I": "41416",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-40431-01-01",
+      "end": "-39467-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

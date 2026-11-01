@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-D33373730EB4A8",
+  "identity": {
+    "qid": "",
+    "name": "Archi",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -42051,
+  "coverageEnd": -32051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-570",
+      "start": -42051,
+      "end": -32051,
+      "ageMinBP": 34000.0,
+      "ageMaxBP": 44000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "human remains",
+      "layer": "C3",
+      "coordinates": [
+        16.25944,
+        39.29027
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Hearty, P. J. (1986). An inventory of last interglacial (sensu lato) age deposits from the Mediterranean Basin: a study of isoleucine epimerization and U-series dating. Z. Geomorph. NF Suppl.-Bd, 62, 51-69.",
+      "originalRow": 570,
+      "originalProperties": {
+        "A": "Hearty, P. J. (1986). An inventory of last interglacial (sensu lato) age deposits from the Mediterranean Basin: a study of isoleucine epimerization and U-series dating. Z. Geomorph. NF Suppl.-Bd, 62, 51-69.",
+        "B": "Homo neanderthalensis",
+        "C": "16.259440000000001",
+        "D": "39.29027",
+        "E": "Archi",
+        "F": "C3",
+        "G": "44000",
+        "H": "39000",
+        "I": "34000",
+        "J": "human remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-42051-01-01",
+      "end": "-32051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

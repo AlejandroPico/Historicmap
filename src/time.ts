@@ -1,3 +1,4 @@
+import {PREHISTORY_START,PREHISTORY_END} from './prehistoric-time';
 import chronology from '../Tierra/Cuaternario/cronologia.json';
 import {yearFromAge} from './dates';
 /** Civil years, with no year zero; geological dates are approximate years before 1950. */
@@ -5,7 +6,7 @@ export const systemYear = (date = new Date()) => date.getFullYear();
 export const PRESENT = systemYear();
 /** Exact cursor consultation, not a claim of annually observed political maps. */
 export const ANNUAL_CONSULTATION_START = -10000;
-export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -2600000, -300000, -10000, -6000, -3000, -2600, -2200, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT];
+export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -2600000, -300000, -100000, -80000, -60000, -40000, -20000, -10000, -6000, -3000, -2600, -2200, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT];
 export const clamp = (n: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, n));
 export function yearToPosition(year: number): number {
   const y = clamp(year, anchors[0], PRESENT);
@@ -41,14 +42,15 @@ export function eraName(year: number): string {
 }
 export const historicalYears = [-10000, -3000, -1000, -500, 100, 500, 1000, 1492, 1800, 1914, 1945, 1994, 2010];
 export const geologicalMa = [1, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500, 1800];
-export type Snapshot = { kind: 'modern' | 'annual' | 'historical' | 'geological' | 'concept'; year: number; file?: string };
+export type Snapshot = { kind: 'prehistoric' | 'modern' | 'annual' | 'historical' | 'geological' | 'concept'; year: number; file?: string };
 export function snapshotFor(year: number): Snapshot {
   if (year < -1800000000) return { kind: 'concept', year };
   if (year < -1000000) {
     const ma = geologicalMa.reduce((a, b) => Math.abs(a + year / 1e6) <= Math.abs(b + year / 1e6) ? a : b);
     return { kind: 'geological', year: -ma * 1e6, file: `coastlines-${ma}.geojson` };
   }
-  if (year < -10000) return { kind: 'concept', year };
+  if (year < PREHISTORY_START) return {kind:'concept',year};
+  if(year<=PREHISTORY_END)return{kind:'prehistoric',year,file:'human-evidence.geojson'};
   if (year >= 2020) return { kind: 'modern', year, file: 'countries.geojson' };
   if (year >= ANNUAL_CONSULTATION_START && year !== 0) return { kind: 'annual', year, file: year<-3000?'early-modern-bc3400.geojson':year<-2600?'early-modern-bc3000.geojson':year<-2200?'early-modern-bc2600.geojson':year<-2000?'early-modern-bc2200.geojson':year<-1600?'early-modern-bc2000.geojson':year<-1200?'early-modern-bc1600.geojson':year<-1000?'early-modern-bc1200.geojson':year<-600?'early-modern-bc1000.geojson':year<-300?'early-modern-bc600.geojson':year<-200?'early-modern-bc300.geojson':year<-100?'early-modern-bc200.geojson':year<0?'early-modern-bc100.geojson': year>=1886?'history.topojson':year>=1789?'early-modern.geojson':year>=1700?'early-modern-1700.geojson':year>=1600?'early-modern-1600.geojson':year>=1500?'early-modern-1500.geojson':year>=1400?'early-modern-1400.geojson':year>=1300?'early-modern-1300.geojson':year>=1200?'early-modern-1200.geojson':year>=1100?'early-modern-1100.geojson':year>=1000?'early-modern-1000.geojson':year>=900?'early-modern-900.geojson':year>=800?'early-modern-800.geojson':year>=700?'early-modern-700.geojson':year>=600?'early-modern-600.geojson':year>=500?'early-modern-500.geojson':year>=400?'early-modern-400.geojson':year>=300?'early-modern-300.geojson':year>=200?'early-modern-200.geojson':year>=100?'early-modern-100.geojson':'early-modern-1.geojson' };
   // Older, unreviewed consultation uses an existing source at or before the
@@ -56,10 +58,11 @@ export function snapshotFor(year: number): Snapshot {
   const y = historicalYears.filter(y=>y<1789&&y<=year).at(-1)??historicalYears[0];
   return { kind: 'historical', year: y, file: `world_${y < 0 ? `bc${-y}` : y}.geojson` };
 }
-export function playbackYear(year:number){return year>=ANNUAL_CONSULTATION_START?Math.min(PRESENT,year===-1?1:year+1):positionToYear(yearToPosition(year)+.075);}
+export function playbackYear(year:number){return year>=PREHISTORY_START&&year<ANNUAL_CONSULTATION_START?Math.min(ANNUAL_CONSULTATION_START,year+100):year>=ANNUAL_CONSULTATION_START?Math.min(PRESENT,year===-1?1:year+1):positionToYear(yearToPosition(year)+.075);}
 /** Exact manual stepping throughout the reviewed ancient range, even before annual
  * coverage. Earlier snapshots retain their own evidence date. */
 export function navigationYear(year:number,direction:-1|1){
+ if(year>=PREHISTORY_START&&year<ANNUAL_CONSULTATION_START)return clamp(year+100*direction,anchors[0],ANNUAL_CONSULTATION_START);
  if(year>=ANNUAL_CONSULTATION_START&&year!==0)return clamp(year+direction===0?direction:year+direction,anchors[0],PRESENT);
  if(year===-1&&direction===1)return 1;
  const p=yearToPosition(year);return direction===1?anchors[Math.min(anchors.length-1,Math.floor(p)+1)]:anchors[Math.max(0,Math.ceil(p)-1)];

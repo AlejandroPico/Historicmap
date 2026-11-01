@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-DF2AED550F28DE",
+  "identity": {
+    "qid": "",
+    "name": "Bout des Vergnes",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -52851,
+  "coverageEnd": -42051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-691",
+      "start": -50651,
+      "end": -42051,
+      "ageMinBP": 44000.0,
+      "ageMaxBP": 52600.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "paleosol",
+      "coordinates": [
+        0.46454,
+        44.86175
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Courbin, P., Brenet, M., Michel, A., & Gravina, B. (2020). Spatial analysis of the late Middle Palaeolithic open-air site of Bout-des-Vergnes (Bergerac, Dordogne) based on lithic technology and refitting. Journal of Archaeological Science: Reports, 32, 102373.",
+      "originalRow": 691,
+      "originalProperties": {
+        "A": "Courbin, P., Brenet, M., Michel, A., & Gravina, B. (2020). Spatial analysis of the late Middle Palaeolithic open-air site of Bout-des-Vergnes (Bergerac, Dordogne) based on lithic technology and refitting. Journal of Archaeological Science: Reports, 32, 102373.",
+        "B": "Homo neanderthalensis",
+        "C": "0.46454000000000001",
+        "D": "44.861750000000001",
+        "E": "Bout des Vergnes",
+        "F": "paleosol",
+        "G": "52600",
+        "H": "48300",
+        "I": "44000",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-692",
+      "start": -52851,
+      "end": -43851,
+      "ageMinBP": 45800.0,
+      "ageMaxBP": 54800.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "paleosol",
+      "coordinates": [
+        0.46454,
+        44.86175
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Brenet, M., Chadelle, J. P., Claud, É., Colonge, D., Delagnes, A., Deschamps, M., ... & Ihuel, E. (2017). The function and role of bifaces in the Late Middle Paleolithic of southwestern France: Examples from the Charente and Dordogne to the Basque Country. Quaternary International, 428, 151-169.",
+      "originalRow": 692,
+      "originalProperties": {
+        "A": "Brenet, M., Chadelle, J. P., Claud, É., Colonge, D., Delagnes, A., Deschamps, M., ... & Ihuel, E. (2017). The function and role of bifaces in the Late Middle Paleolithic of southwestern France: Examples from the Charente and Dordogne to the Basque Country. Quaternary International, 428, 151-169.",
+        "B": "Homo neanderthalensis",
+        "C": "0.46454000000000001",
+        "D": "44.861750000000001",
+        "E": "Bout des Vergnes",
+        "F": "paleosol",
+        "G": "54800",
+        "H": "50300",
+        "I": "45800",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-52851-01-01",
+      "end": "-42051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

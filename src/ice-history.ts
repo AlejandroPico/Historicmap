@@ -13,5 +13,5 @@ export function iceSampleFor(year:number){
  const age=Math.max(0,ageFromYear(year));
  return index.samples.reduce((a,b)=>Math.abs(b.ageBP-age)<Math.abs(a.ageBP-age)||Math.abs(b.ageBP-age)===Math.abs(a.ageBP-age)&&b.ageBP>a.ageBP?b:a);
 }
-export function iceCaption(year:number){const s=iceSampleFor(year);return s?`${index.model} · referencia ${formatYear(s.referenceYear)} (${s.ageBP.toLocaleString('es')} BP1950). Modelo cada 2.500 años; muestra más cercana, sin interpolación anual.`:'';}
-export function prehistoricClimate(year:number){return chronology.holocene.subdivisions.find(p=>year>=yearFromAge(p.age,p.epoch))?.label??'Pleistoceno tardío · deglaciación';}
+export function iceCaption(year:number){const s=iceSampleFor(year);return s?`${index.model} · referencia ${formatYear(s.referenceYear)} (${s.ageBP.toLocaleString('es')} BP1950). Modelo con muestras cada 2.500–5.000 años; muestra más cercana, sin interpolación anual.`:'';}
+export function prehistoricClimate(year:number){return chronology.holocene.subdivisions.find(p=>year>=yearFromAge(p.age,p.epoch))?.label??'Pleistoceno tardío';}

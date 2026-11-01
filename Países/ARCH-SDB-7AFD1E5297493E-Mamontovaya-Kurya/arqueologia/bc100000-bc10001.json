@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-7AFD1E5297493E",
+  "identity": {
+    "qid": "",
+    "name": "Mamontovaya Kurya",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -44196,
+  "coverageEnd": -35501,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2885",
+      "start": -39281,
+      "end": -35501,
+      "ageMinBP": 37450.0,
+      "ageMaxBP": 41230.0,
+      "taxon": "Homo sapiens",
+      "culture": "Upper Paleolithic",
+      "layer": "unit I",
+      "coordinates": [
+        62.419444,
+        66.561389
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Svendsen, J. I., & Pavlov, P. A. V. E. L. (2003). Mamontovaya Kurya: an enigmatic, nearly 40 000 years old Paleolithic site in the Russian Arctic. The chronology of the Aurignacian and of the transitional technocomplexes: dating, stratigraphies, cultural implications. Lisbonne: Portuguese Institute of Archaeology (IPA), 109-122.",
+      "originalRow": 2885,
+      "originalProperties": {
+        "A": "Svendsen, J. I., & Pavlov, P. A. V. E. L. (2003). Mamontovaya Kurya: an enigmatic, nearly 40 000 years old Paleolithic site in the Russian Arctic. The chronology of the Aurignacian and of the transitional technocomplexes: dating, stratigraphies, cultural implications. Lisbonne: Portuguese Institute of Archaeology (IPA), 109-122.",
+        "B": "Homo sapiens",
+        "C": "62.419443999999999",
+        "D": "66.561389000000005",
+        "E": "Mamontovaya Kurya",
+        "F": "unit I",
+        "G": "41230",
+        "H": "39340",
+        "I": "37450",
+        "J": "Upper Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2886",
+      "start": -44196,
+      "end": -39229,
+      "ageMinBP": 41178.0,
+      "ageMaxBP": 46145.0,
+      "taxon": "Homo sapiens",
+      "culture": "Upper Paleolithic",
+      "layer": "unit I",
+      "coordinates": [
+        62.419444,
+        66.561389
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Svendsen, J. I., & Pavlov, P. A. V. E. L. (2003). Mamontovaya Kurya: an enigmatic, nearly 40 000 years old Paleolithic site in the Russian Arctic. The chronology of the Aurignacian and of the transitional technocomplexes: dating, stratigraphies, cultural implications. Lisbonne: Portuguese Institute of Archaeology (IPA), 109-122.",
+      "originalRow": 2886,
+      "originalProperties": {
+        "A": "Svendsen, J. I., & Pavlov, P. A. V. E. L. (2003). Mamontovaya Kurya: an enigmatic, nearly 40 000 years old Paleolithic site in the Russian Arctic. The chronology of the Aurignacian and of the transitional technocomplexes: dating, stratigraphies, cultural implications. Lisbonne: Portuguese Institute of Archaeology (IPA), 109-122.",
+        "B": "Homo sapiens",
+        "C": "62.419443999999999",
+        "D": "66.561389000000005",
+        "E": "Mamontovaya Kurya",
+        "F": "unit I",
+        "G": "46145",
+        "H": "43662",
+        "I": "41178",
+        "J": "Upper Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-44196-01-01",
+      "end": "-35501-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

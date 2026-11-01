@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-6C2DF95D7C6A6D",
+  "identity": {
+    "qid": "",
+    "name": "Combe Capelle Bas",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -52851,
+  "coverageEnd": -46851,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-795",
+      "start": -52851,
+      "end": -46851,
+      "ageMinBP": 48800.0,
+      "ageMaxBP": 54800.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Quina Mousterian",
+      "layer": "levels I-1D_I-2B",
+      "coordinates": [
+        0.813333333333333,
+        44.76667
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Valladas, H., Mercier, N., Joron, J. L., McPherron, S. P., Dibble, H. L., & Lenoir, M. (2003). TL dates for the middle paleolithic site of Combe-Capelle Bas, France. Journal of Archaeological Science, 30(11), 1443-1450.",
+      "originalRow": 795,
+      "originalProperties": {
+        "A": "Valladas, H., Mercier, N., Joron, J. L., McPherron, S. P., Dibble, H. L., & Lenoir, M. (2003). TL dates for the middle paleolithic site of Combe-Capelle Bas, France. Journal of Archaeological Science, 30(11), 1443-1450.",
+        "B": "Homo neanderthalensis",
+        "C": "0.81333333333333302",
+        "D": "44.766669999999998",
+        "E": "Combe Capelle Bas",
+        "F": "levels I-1D_I-2B",
+        "G": "54800",
+        "H": "51800",
+        "I": "48800",
+        "J": "Quina Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-52851-01-01",
+      "end": "-46851-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

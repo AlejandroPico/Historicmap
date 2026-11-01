@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-29EFFA71EB58E9",
+  "identity": {
+    "qid": "",
+    "name": "Caminade Est",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -40316,
+  "coverageEnd": -34139,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2337",
+      "start": -39680,
+      "end": -34139,
+      "ageMinBP": 36088.0,
+      "ageMaxBP": 41629.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "level D",
+      "coordinates": [
+        1.257,
+        44.876
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Jöris, O., Street, M., Terberger, T., & Weninger, B. (2011). Radiocarbon dating the Middle to Upper Palaeolithic transition: the demise of the last Neanderthals and the first appearance of anatomically modern humans in Europe. In Continuity and discontinuity in the peopling of Europe (pp. 239-298). Springer, Dordrecht.",
+      "originalRow": 2337,
+      "originalProperties": {
+        "A": "Jöris, O., Street, M., Terberger, T., & Weninger, B. (2011). Radiocarbon dating the Middle to Upper Palaeolithic transition: the demise of the last Neanderthals and the first appearance of anatomically modern humans in Europe. In Continuity and discontinuity in the peopling of Europe (pp. 239-298). Springer, Dordrecht.",
+        "B": "Homo sapiens",
+        "C": "1.2569999999999999",
+        "D": "44.875999999999998",
+        "E": "Caminade Est",
+        "F": "level D",
+        "G": "41629",
+        "H": "38858",
+        "I": "36088",
+        "J": "Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2338",
+      "start": -40316,
+      "end": -34856,
+      "ageMinBP": 36805.0,
+      "ageMaxBP": 42265.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "level F",
+      "coordinates": [
+        1.257,
+        44.876
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Jöris, O., Street, M., Terberger, T., & Weninger, B. (2011). Radiocarbon dating the Middle to Upper Palaeolithic transition: the demise of the last Neanderthals and the first appearance of anatomically modern humans in Europe. In Continuity and discontinuity in the peopling of Europe (pp. 239-298). Springer, Dordrecht.",
+      "originalRow": 2338,
+      "originalProperties": {
+        "A": "Jöris, O., Street, M., Terberger, T., & Weninger, B. (2011). Radiocarbon dating the Middle to Upper Palaeolithic transition: the demise of the last Neanderthals and the first appearance of anatomically modern humans in Europe. In Continuity and discontinuity in the peopling of Europe (pp. 239-298). Springer, Dordrecht.",
+        "B": "Homo sapiens",
+        "C": "1.2569999999999999",
+        "D": "44.875999999999998",
+        "E": "Caminade Est",
+        "F": "level F",
+        "G": "42265",
+        "H": "39535",
+        "I": "36805",
+        "J": "Aurignacian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-40316-01-01",
+      "end": "-34139-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

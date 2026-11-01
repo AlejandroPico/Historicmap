@@ -1,0 +1,1249 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0023",
+  "identity": {
+    "qid": "",
+    "name": "Brassempouy",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -39051,
+  "coverageEnd": -32551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-32",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Galerie Dubalen, Layer I1",
+      "coordinates": [
+        -0.69535,
+        43.63094
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "23",
+          "site_name": "Brassempouy",
+          "country": "France",
+          "region": "Landas",
+          "municipality": "Brassempouy",
+          "latitude": "43.63094",
+          "longitude": "-0.69535",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "32",
+          "site_id": "23",
+          "stratigraphic_context": "Galerie Dubalen, Layer I1",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "13",
+            "authors": "Bailey, S.E., Hublin, J.-J.",
+            "year": "2005",
+            "title": "Who made the Early Aurignacian? A reconsideration of the Brassempouy dental remains",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "17",
+            "issue": "1-2",
+            "pages": "115-121",
+            "doi": "https://doi.org/10.4000/bmsap.977",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "103",
+            "authors": "Henry-Gambier, D., Maureille, B., White, R.",
+            "year": "2004",
+            "title": "Vestiges humains des niveaux de l’Aurignacien ancien du site de Brassempouy (Landes)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "16",
+            "issue": "1-2",
+            "pages": "49-87",
+            "doi": "https://doi.org/10.4000/bmsap.834",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "99",
+            "archaeological_context_id": "32",
+            "individual_name": "441",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Juvenile",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "32",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-33",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Grotte du Pape, Layer 2F",
+      "coordinates": [
+        -0.69535,
+        43.63094
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "23",
+          "site_name": "Brassempouy",
+          "country": "France",
+          "region": "Landas",
+          "municipality": "Brassempouy",
+          "latitude": "43.63094",
+          "longitude": "-0.69535",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "33",
+          "site_id": "23",
+          "stratigraphic_context": "Grotte du Pape, Layer 2F",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "13",
+            "authors": "Bailey, S.E., Hublin, J.-J.",
+            "year": "2005",
+            "title": "Who made the Early Aurignacian? A reconsideration of the Brassempouy dental remains",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "17",
+            "issue": "1-2",
+            "pages": "115-121",
+            "doi": "https://doi.org/10.4000/bmsap.977",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "103",
+            "authors": "Henry-Gambier, D., Maureille, B., White, R.",
+            "year": "2004",
+            "title": "Vestiges humains des niveaux de l’Aurignacien ancien du site de Brassempouy (Landes)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "16",
+            "issue": "1-2",
+            "pages": "49-87",
+            "doi": "https://doi.org/10.4000/bmsap.834",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "100",
+            "archaeological_context_id": "33",
+            "individual_name": "909",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "33",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-34",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Grotte des Hyènes, Layer 2E",
+      "coordinates": [
+        -0.69535,
+        43.63094
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "23",
+          "site_name": "Brassempouy",
+          "country": "France",
+          "region": "Landas",
+          "municipality": "Brassempouy",
+          "latitude": "43.63094",
+          "longitude": "-0.69535",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "34",
+          "site_id": "23",
+          "stratigraphic_context": "Grotte des Hyènes, Layer 2E",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "13",
+            "authors": "Bailey, S.E., Hublin, J.-J.",
+            "year": "2005",
+            "title": "Who made the Early Aurignacian? A reconsideration of the Brassempouy dental remains",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "17",
+            "issue": "1-2",
+            "pages": "115-121",
+            "doi": "https://doi.org/10.4000/bmsap.977",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "103",
+            "authors": "Henry-Gambier, D., Maureille, B., White, R.",
+            "year": "2004",
+            "title": "Vestiges humains des niveaux de l’Aurignacien ancien du site de Brassempouy (Landes)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "16",
+            "issue": "1-2",
+            "pages": "49-87",
+            "doi": "https://doi.org/10.4000/bmsap.834",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "101",
+            "archaeological_context_id": "34",
+            "individual_name": "2206",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "102",
+            "archaeological_context_id": "34",
+            "individual_name": "262",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Juvenile",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "103",
+            "archaeological_context_id": "34",
+            "individual_name": "3625",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Infant",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "104",
+            "archaeological_context_id": "34",
+            "individual_name": "316",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Juvenile / Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT_ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "128",
+              "dated_sample_id": "128",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31960",
+              "dates_range": "160",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "128",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "440",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "129",
+              "dated_sample_id": "129",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31960",
+              "dates_range": "160",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "129",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "441",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "130",
+              "dated_sample_id": "130",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31960",
+              "dates_range": "160",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "130",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "442",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "131",
+              "dated_sample_id": "131",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31960",
+              "dates_range": "160",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "131",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "443",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "34",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-35",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Grotte des Hyènes, Layer 2A",
+      "coordinates": [
+        -0.69535,
+        43.63094
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "23",
+          "site_name": "Brassempouy",
+          "country": "France",
+          "region": "Landas",
+          "municipality": "Brassempouy",
+          "latitude": "43.63094",
+          "longitude": "-0.69535",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "35",
+          "site_id": "23",
+          "stratigraphic_context": "Grotte des Hyènes, Layer 2A",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "13",
+            "authors": "Bailey, S.E., Hublin, J.-J.",
+            "year": "2005",
+            "title": "Who made the Early Aurignacian? A reconsideration of the Brassempouy dental remains",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "17",
+            "issue": "1-2",
+            "pages": "115-121",
+            "doi": "https://doi.org/10.4000/bmsap.977",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "103",
+            "authors": "Henry-Gambier, D., Maureille, B., White, R.",
+            "year": "2004",
+            "title": "Vestiges humains des niveaux de l’Aurignacien ancien du site de Brassempouy (Landes)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "16",
+            "issue": "1-2",
+            "pages": "49-87",
+            "doi": "https://doi.org/10.4000/bmsap.834",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "105",
+            "archaeological_context_id": "35",
+            "individual_name": "884, 69, 112",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "10",
+            "age_at_death_min": "10",
+            "age_at_death_max": "10",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "106",
+            "archaeological_context_id": "35",
+            "individual_name": "884, 69, 112",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "10",
+            "age_at_death_min": "10",
+            "age_at_death_max": "10",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "107",
+            "archaeological_context_id": "35",
+            "individual_name": "16, 93, 344, 302",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "132",
+              "dated_sample_id": "132",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31820",
+              "dates_range": "550",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "132",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "444",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "133",
+              "dated_sample_id": "133",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31820",
+              "dates_range": "550",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "133",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "445",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "134",
+              "dated_sample_id": "134",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31820",
+              "dates_range": "550",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "134",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "446",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "135",
+              "dated_sample_id": "135",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31820",
+              "dates_range": "550",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "135",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "447",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "136",
+              "dated_sample_id": "136",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31820",
+              "dates_range": "550",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "136",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "448",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "137",
+              "dated_sample_id": "137",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31820",
+              "dates_range": "550",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "137",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "449",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "35",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-36",
+      "start": -39051,
+      "end": -32551,
+      "ageMinBP": 34500.0,
+      "ageMaxBP": 41000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Aurignacian",
+      "layer": "Grotte des Hyènes, Layer 2C",
+      "coordinates": [
+        -0.69535,
+        43.63094
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Aurignacian: 41000–34500 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "23",
+          "site_name": "Brassempouy",
+          "country": "France",
+          "region": "Landas",
+          "municipality": "Brassempouy",
+          "latitude": "43.63094",
+          "longitude": "-0.69535",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "36",
+          "site_id": "23",
+          "stratigraphic_context": "Grotte des Hyènes, Layer 2C",
+          "culture_id": "6",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "6",
+          "culture_name": "Aurignacian",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "41000",
+          "end_bp": "34500",
+          "region": "Western, Central and Eastern Europe",
+          "description": "First pan-European Upper Palaeolithic technocomplex securely associated with Homo sapiens, with bladelets, osseous tools and symbolic material culture.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "13",
+            "authors": "Bailey, S.E., Hublin, J.-J.",
+            "year": "2005",
+            "title": "Who made the Early Aurignacian? A reconsideration of the Brassempouy dental remains",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "17",
+            "issue": "1-2",
+            "pages": "115-121",
+            "doi": "https://doi.org/10.4000/bmsap.977",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "103",
+            "authors": "Henry-Gambier, D., Maureille, B., White, R.",
+            "year": "2004",
+            "title": "Vestiges humains des niveaux de l’Aurignacien ancien du site de Brassempouy (Landes)",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Bulletins et Mémoires de la Société d'Anthropologie de Paris",
+            "volume": "16",
+            "issue": "1-2",
+            "pages": "49-87",
+            "doi": "https://doi.org/10.4000/bmsap.834",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "153",
+            "authors": "Oakley, K., Campbell, B., Molleson, T.",
+            "year": "1971",
+            "title": "",
+            "editor": "",
+            "book": "Catalogue of fossil hominids. Europe",
+            "corporate_author": "British Museum",
+            "city": "London",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "108",
+            "archaeological_context_id": "36",
+            "individual_name": "1046, 3040, 542",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "109",
+            "archaeological_context_id": "36",
+            "individual_name": "2879, 1930",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "110",
+            "archaeological_context_id": "36",
+            "individual_name": "2879, 1930",
+            "individual_type": "MIXED_INDIVIDUALS",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Inmature",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "138",
+              "dated_sample_id": "138",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31690",
+              "dates_range": "780",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "138",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "450",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "139",
+              "dated_sample_id": "139",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31690",
+              "dates_range": "780",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "139",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "451",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "140",
+              "dated_sample_id": "140",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31690",
+              "dates_range": "780",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "140",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "452",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "141",
+              "dated_sample_id": "141",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31690",
+              "dates_range": "780",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "141",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "453",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "142",
+              "dated_sample_id": "142",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "31690",
+              "dates_range": "780",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "142",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "454",
+              "skeleton_id": "",
+              "material": "Human bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "36",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "23",
+      "site_name": "Brassempouy",
+      "country": "France",
+      "region": "Landas",
+      "municipality": "Brassempouy",
+      "latitude": "43.63094",
+      "longitude": "-0.69535",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-39051-01-01",
+      "end": "-32551-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

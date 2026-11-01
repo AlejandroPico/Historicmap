@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-7A20BA346A1090",
+  "identity": {
+    "qid": "",
+    "name": "Upper Cave (Shandingdong)",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -39878,
+  "coverageEnd": -29999,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3159",
+      "start": -39878,
+      "end": -29999,
+      "ageMinBP": 31948.0,
+      "ageMaxBP": 41827.0,
+      "taxon": "Homo sapiens",
+      "culture": "human remains and lithics",
+      "layer": "F9",
+      "coordinates": [
+        115.838,
+        39.683
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+      "originalRow": 3159,
+      "originalProperties": {
+        "A": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+        "B": "Homo sapiens",
+        "C": "115.83799999999999",
+        "D": "39.683",
+        "E": "Upper Cave (Shandingdong)",
+        "F": "F9",
+        "G": "41827",
+        "H": "36888",
+        "I": "31948",
+        "J": "human remains and lithics"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-3160",
+      "start": -38857,
+      "end": -33644,
+      "ageMinBP": 35593.0,
+      "ageMaxBP": 40806.0,
+      "taxon": "Homo sapiens",
+      "culture": "human remains and lithics",
+      "layer": "cultural layer",
+      "coordinates": [
+        115.838,
+        39.683
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+      "originalRow": 3160,
+      "originalProperties": {
+        "A": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+        "B": "Homo sapiens",
+        "C": "115.83799999999999",
+        "D": "39.683",
+        "E": "Upper Cave (Shandingdong)",
+        "F": "cultural layer",
+        "G": "40806",
+        "H": "38200",
+        "I": "35593",
+        "J": "human remains and lithics"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-39878-01-01",
+      "end": "-29999-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

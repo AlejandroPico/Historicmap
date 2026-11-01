@@ -1,0 +1,203 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0033",
+  "identity": {
+    "qid": "",
+    "name": "Carigüela",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -18251,
+  "coverageEnd": -9751,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-53",
+      "start": -18251,
+      "end": -9751,
+      "ageMinBP": 11700.0,
+      "ageMaxBP": 20200.0,
+      "taxon": "Homo sapiens",
+      "culture": "Final Upper Palaeolithic",
+      "layer": "Unit 4",
+      "coordinates": [
+        -3.55,
+        37.45
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Final Upper Palaeolithic: 20200–11700 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "33",
+          "site_name": "Carigüela",
+          "country": "Spain",
+          "region": "Andalucía",
+          "municipality": "Piñar",
+          "latitude": "37.45",
+          "longitude": "-3.55",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "53",
+          "site_id": "33",
+          "stratigraphic_context": "Unit 4",
+          "culture_id": "3",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "3",
+          "culture_name": "Final Upper Palaeolithic",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20200",
+          "end_bp": "11700",
+          "region": "",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "276",
+            "authors": "de Balbín, R.",
+            "year": "2015",
+            "title": "Death in the cave. Human remains from the Upper Palaeolithic in the Iberian Peninsula",
+            "editor": "Rocha, L., Bueno-Ramirez, P., Branco, G.",
+            "book": "Death as Archaeology of Transition: Thoughts and Materials",
+            "corporate_author": "British Archaeological Reports International Series 2708",
+            "city": "Oxford",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "1-27",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "138",
+            "archaeological_context_id": "53",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "25 - 30",
+            "age_at_death_min": "25",
+            "age_at_death_max": "30",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "139",
+            "archaeological_context_id": "53",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Indeterminate Adult",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "FEMALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "181",
+              "dated_sample_id": "181",
+              "dating_technique_id": "3",
+              "dates_bp_uncal": "19300",
+              "dates_range": "500",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "181",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "53",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Sediment",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "3",
+              "dating_technique_name": "Thermoluminescence",
+              "description": "A technique that dates crystalline materials, such as heated flint or pottery, by measuring the light released when the sample is reheated after storing natural radiation over time.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "53",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "33",
+      "site_name": "Carigüela",
+      "country": "Spain",
+      "region": "Andalucía",
+      "municipality": "Piñar",
+      "latitude": "37.45",
+      "longitude": "-3.55",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-18251-01-01",
+      "end": "-9751-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

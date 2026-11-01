@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-DCB990FC9C4595",
+  "identity": {
+    "qid": "",
+    "name": "Pickens Hole",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -42773,
+  "coverageEnd": -40710,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1612",
+      "start": -42773,
+      "end": -40710,
+      "ageMinBP": 42659.0,
+      "ageMaxBP": 44722.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Middle Paleolithic (Mousterian of Acheulean Tradition)",
+      "layer": "5",
+      "coordinates": [
+        -2.8778,
+        51.2908
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Jacobi, R. M., Rose, J., MacLeod, A., & Higham, T. F. (2009). Revised radiocarbon ages on woolly rhinoceros (Coelodonta antiquitatis) from western central Scotland: significance for timing the extinction of woolly rhinoceros in Britain and the onset of the LGM in central Scotland. Quaternary Science Reviews, 28(25-26), 2551-2556.",
+      "originalRow": 1612,
+      "originalProperties": {
+        "A": "Jacobi, R. M., Rose, J., MacLeod, A., & Higham, T. F. (2009). Revised radiocarbon ages on woolly rhinoceros (Coelodonta antiquitatis) from western central Scotland: significance for timing the extinction of woolly rhinoceros in Britain and the onset of the LGM in central Scotland. Quaternary Science Reviews, 28(25-26), 2551-2556.",
+        "B": "Homo neanderthalensis",
+        "C": "-2.8778000000000001",
+        "D": "51.290799999999997",
+        "E": "Pickens Hole",
+        "F": "5",
+        "G": "44722",
+        "H": "43690",
+        "I": "42659",
+        "J": "Middle Paleolithic (Mousterian of Acheulean Tradition)"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-42773-01-01",
+      "end": "-40710-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

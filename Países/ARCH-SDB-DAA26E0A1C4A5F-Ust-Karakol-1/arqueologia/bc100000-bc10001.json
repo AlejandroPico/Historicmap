@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-DAA26E0A1C4A5F",
+  "identity": {
+    "qid": "",
+    "name": "Ust-Karakol 1",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -98051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1874",
+      "start": -100000,
+      "end": -98051,
+      "ageMinBP": 100000.0,
+      "ageMaxBP": 166000.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "19A",
+      "coordinates": [
+        86.233333,
+        51.45
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Derevianko, A. P., Postnov, A. V., Rybin, E. P., Kuzmin, Y. V., & Keates, S. G. (2007). [CURRENT ISSUES IN THE PLEISTOCENE PEOPLING OF CONTINENTAL ASIA] The Pleistocene peopling of Siberia: a review of environmental and behavioural aspects. Bulletin of the Indo-Pacific Prehistory Association, 25, 57-68.",
+      "originalRow": 1874,
+      "originalProperties": {
+        "A": "Derevianko, A. P., Postnov, A. V., Rybin, E. P., Kuzmin, Y. V., & Keates, S. G. (2007). [CURRENT ISSUES IN THE PLEISTOCENE PEOPLING OF CONTINENTAL ASIA] The Pleistocene peopling of Siberia: a review of environmental and behavioural aspects. Bulletin of the Indo-Pacific Prehistory Association, 25, 57-68.",
+        "B": "Homo neanderthalensis",
+        "C": "86.233333000000002",
+        "D": "51.45",
+        "E": "Ust-Karakol 1",
+        "F": "19A",
+        "G": "166000",
+        "H": "133000",
+        "I": "100000",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-100000-01-01",
+      "end": "-98051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

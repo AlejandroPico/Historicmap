@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-C9AF43AA9BE016",
+  "identity": {
+    "qid": "",
+    "name": "Smelovskaya II cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -46053,
+  "coverageEnd": -39455,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-3079",
+      "start": -46053,
+      "end": -39455,
+      "ageMinBP": 41404.0,
+      "ageMaxBP": 48002.0,
+      "taxon": "Homo sapiens",
+      "culture": "Upper Palaeolithic",
+      "layer": "layer III-IV",
+      "coordinates": [
+        58.92942,
+        53.05601
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Petrin, V. T., Nokhrina, T. I., Kulik, N. A., & Usacheva, I. V. (2012). Upper Paleolithic Rock Crystal Artifacts from the Southeastern Shore of Lake Bolshiye Allaki, the Southern Urals. Archaeology, Ethnology and Anthropology of Eurasia, 40(4), 28-40.",
+      "originalRow": 3079,
+      "originalProperties": {
+        "A": "Petrin, V. T., Nokhrina, T. I., Kulik, N. A., & Usacheva, I. V. (2012). Upper Paleolithic Rock Crystal Artifacts from the Southeastern Shore of Lake Bolshiye Allaki, the Southern Urals. Archaeology, Ethnology and Anthropology of Eurasia, 40(4), 28-40.",
+        "B": "Homo sapiens",
+        "C": "58.92942",
+        "D": "53.056010000000001",
+        "E": "Smelovskaya II cave",
+        "F": "layer III-IV",
+        "G": "48002",
+        "H": "44703",
+        "I": "41404",
+        "J": "Upper Palaeolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-46053-01-01",
+      "end": "-39455-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-LAPA-DO-SANTO",
+  "identity": {
+    "qid": "",
+    "name": "Lapa do Santo · comunidades y enterramientos",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -10751,
+  "coverageEnd": -10001,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "curated050-ARCHAEOLOGY-LAPA-DO-SANTO-0",
+      "start": -10751,
+      "end": -10001,
+      "ageMinBP": 11950,
+      "ageMaxBP": 12700,
+      "taxon": "Homo sapiens",
+      "culture": "",
+      "layer": "",
+      "coordinates": [
+        -44.0379,
+        -19.4818
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4580647/",
+      "sourceLabel": "Referencia primaria complementaria",
+      "citation": "Extensión del intervaloLSP-1 de12.7–7.9calkaBP: se añade sólo la parte anterior a10000a.C., preservando la fase posterior ya publicada.",
+      "license": "Original editorial metadata; linked primary evidence",
+      "attributionBasis": "Extensión del intervaloLSP-1 de12.7–7.9calkaBP: se añade sólo la parte anterior a10000a.C., preservando la fase posterior ya publicada.",
+      "dateBasis": "Intervalo aproximado de evidencia publicada, no una ocupación continua ni una frontera biológica.",
+      "locationBasis": "Referencia geográfica aproximada para lectura continental; no coordenada GPS de excavación."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-10751-01-01",
+      "end": "-10001-12-31",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4580647/",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0091",
+  "identity": {
+    "qid": "",
+    "name": "Kelsterbach",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -100000,
+  "coverageEnd": -10001,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [],
+  "undatedEvidence": [
+    {
+      "site": {
+        "site_id": "91",
+        "site_name": "Kelsterbach",
+        "country": "Germany",
+        "region": "Baden-Württemberg",
+        "municipality": "Kelsterbach",
+        "latitude": "50.030611",
+        "longitude": "8.47144",
+        "description": "",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "context": {
+        "archaeological_context_id": "156",
+        "site_id": "91",
+        "stratigraphic_context": "Gravel pit",
+        "culture_id": "4",
+        "updated_at": "2026-06-28T21:23:55.502915Z"
+      },
+      "culture": {
+        "culture_id": "4",
+        "culture_name": "Uncertain",
+        "phase": "UNCERTAIN",
+        "start_bp": "60000",
+        "end_bp": "10000",
+        "region": "",
+        "description": "",
+        "updated_at": "2026-07-01T17:27:33.219413Z"
+      },
+      "bibliography": [
+        {
+          "bibliographic_reference_id": "174",
+          "authors": "Protsch, R., Semmel, A.",
+          "year": "1978",
+          "title": "Zur Chronologie des Kelsterbach—Hominiden, des ältesten Vertreters des Homo sapiens sapiens in Europa",
+          "editor": "",
+          "book": "",
+          "corporate_author": "",
+          "city": "",
+          "journal": "E&G Quaternary Science Journal",
+          "volume": "28",
+          "issue": "1",
+          "pages": "200-210",
+          "doi": "",
+          "is_book": "false",
+          "is_article_in_book": "false",
+          "updated_at": "2026-06-28T21:34:58.441884Z"
+        },
+        {
+          "bibliographic_reference_id": "220",
+          "authors": "Street, M., Terberger, T., Orschiedt, J.",
+          "year": "2006",
+          "title": "A critical review of the German Paleolithic hominin record",
+          "editor": "",
+          "book": "",
+          "corporate_author": "",
+          "city": "",
+          "journal": "Journal of Human Evolution",
+          "volume": "51",
+          "issue": "6",
+          "pages": "551-579",
+          "doi": "https://doi.org/10.1016/j.jhevol.2006.04.014",
+          "is_book": "false",
+          "is_article_in_book": "false",
+          "updated_at": "2026-06-28T21:34:58.441884Z"
+        }
+      ],
+      "individuals": [
+        {
+          "individual_id": "336",
+          "archaeological_context_id": "156",
+          "individual_name": "",
+          "individual_type": "INDIVIDUAL",
+          "mni": "1",
+          "mni_statistical": "1",
+          "age_at_death_text": "Indeterminate Adult",
+          "age_at_death_min": "",
+          "age_at_death_max": "",
+          "age_unit": "",
+          "age_class_main": "ADULT",
+          "age_class_subcategory": "",
+          "sex": "INDETERMINATE",
+          "sex_certain": "false",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        }
+      ],
+      "dating": [
+        {
+          "result": {
+            "dating_result_id": "329",
+            "dated_sample_id": "329",
+            "dating_technique_id": "2",
+            "dates_bp_uncal": "31200",
+            "dates_range": "600",
+            "notes": "",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          "sample": {
+            "dated_sample_id": "329",
+            "sample_origin": "BONE",
+            "archaeological_context_id": "",
+            "bone_id": "1284",
+            "skeleton_id": "",
+            "material": "Human bone",
+            "dating_type": "DIRECT",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          "technique": {
+            "dating_technique_id": "2",
+            "dating_technique_name": "Radiocarbon",
+            "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        }
+      ]
+    }
+  ],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "91",
+      "site_name": "Kelsterbach",
+      "country": "Germany",
+      "region": "Baden-Württemberg",
+      "municipality": "Kelsterbach",
+      "latitude": "50.030611",
+      "longitude": "8.47144",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ],
+  "coverageIsConsultationEnvelope": true
+}

@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-A624A1F74E699E",
+  "identity": {
+    "qid": "",
+    "name": "Stratzing/Krems-Rehberg, Galgenberg",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -52747,
+  "coverageEnd": -40863,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-1818",
+      "start": -47684,
+      "end": -40863,
+      "ageMinBP": 42812.0,
+      "ageMaxBP": 49633.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian (Micoquian)",
+      "layer": "layer 3",
+      "coordinates": [
+        15.606,
+        48.4303
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Nigst, P. R. (2006). The first modern humans in the Middle Danube area? New evidence from Willendorf II (Eastern Austria). na.",
+      "originalRow": 1818,
+      "originalProperties": {
+        "A": "Nigst, P. R. (2006). The first modern humans in the Middle Danube area? New evidence from Willendorf II (Eastern Austria). na.",
+        "B": "Homo neanderthalensis",
+        "C": "15.606",
+        "D": "48.430300000000003",
+        "E": "Stratzing/Krems-Rehberg, Galgenberg",
+        "F": "layer 3",
+        "G": "49633",
+        "H": "46222",
+        "I": "42812",
+        "J": "Mousterian (Micoquian)"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-1819",
+      "start": -52747,
+      "end": -41209,
+      "ageMinBP": 43158.0,
+      "ageMaxBP": 54696.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian (Micoquian)",
+      "layer": "layer 3",
+      "coordinates": [
+        15.606,
+        48.4303
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Nigst, P. R. (2006). The first modern humans in the Middle Danube area? New evidence from Willendorf II (Eastern Austria). na.",
+      "originalRow": 1819,
+      "originalProperties": {
+        "A": "Nigst, P. R. (2006). The first modern humans in the Middle Danube area? New evidence from Willendorf II (Eastern Austria). na.",
+        "B": "Homo neanderthalensis",
+        "C": "15.606",
+        "D": "48.430300000000003",
+        "E": "Stratzing/Krems-Rehberg, Galgenberg",
+        "F": "layer 3",
+        "G": "54696",
+        "H": "48927",
+        "I": "43158",
+        "J": "Mousterian (Micoquian)"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-52747-01-01",
+      "end": "-40863-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

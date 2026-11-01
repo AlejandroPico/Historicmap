@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-D07E2B64A4B0E9",
+  "identity": {
+    "qid": "",
+    "name": "Nakamoto",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -38897,
+  "coverageEnd": -37096,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2944",
+      "start": -38897,
+      "end": -37096,
+      "ageMinBP": 39045.0,
+      "ageMaxBP": 40846.0,
+      "taxon": "Homo sapiens",
+      "culture": "Paleolithic",
+      "layer": "unit M-66",
+      "coordinates": [
+        135.542,
+        34.677
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Pitblado, B. L. (2017). The role of the Rocky Mountains in the peopling of North America. Quaternary International, 461, 54-79.",
+      "originalRow": 2944,
+      "originalProperties": {
+        "A": "Pitblado, B. L. (2017). The role of the Rocky Mountains in the peopling of North America. Quaternary International, 461, 54-79.",
+        "B": "Homo sapiens",
+        "C": "135.542",
+        "D": "34.677",
+        "E": "Nakamoto",
+        "F": "unit M-66",
+        "G": "40846",
+        "H": "39946",
+        "I": "39045",
+        "J": "Paleolithic"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-38897-01-01",
+      "end": "-37096-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

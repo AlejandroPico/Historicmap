@@ -1,0 +1,822 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0087",
+  "identity": {
+    "qid": "",
+    "name": "Ilsenhöhle",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -45551,
+  "coverageEnd": -12051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-147",
+      "start": -18051,
+      "end": -12051,
+      "ageMinBP": 14000.0,
+      "ageMaxBP": 20000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Magdalenian",
+      "layer": "Layer 5",
+      "coordinates": [
+        11.5650314,
+        50.6625768
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Magdalenian: 20000–14000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "87",
+          "site_name": "Ilsenhöhle",
+          "country": "Germany",
+          "region": "Turingia",
+          "municipality": "Ranis",
+          "latitude": "50.6625768",
+          "longitude": "11.5650314",
+          "description": "",
+          "updated_at": "2026-07-08T18:12:24.336051Z"
+        },
+        "context": {
+          "archaeological_context_id": "147",
+          "site_id": "87",
+          "stratigraphic_context": "Layer 5",
+          "culture_id": "16",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "16",
+          "culture_name": "Magdalenian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "20000",
+          "end_bp": "14000",
+          "region": "Western and Central Europe",
+          "description": "Post-LGM technocomplex with highly developed osseous industries, portable art and cave art traditions.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "220",
+            "authors": "Street, M., Terberger, T., Orschiedt, J.",
+            "year": "2006",
+            "title": "A critical review of the German Paleolithic hominin record",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Journal of Human Evolution",
+            "volume": "51",
+            "issue": "6",
+            "pages": "551-579",
+            "doi": "https://doi.org/10.1016/j.jhevol.2006.04.014",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "312",
+            "archaeological_context_id": "147",
+            "individual_name": "",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "Juvenile",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "JUVENILE",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": []
+      },
+      "originalSourceRecord": "147",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-418",
+      "start": -45551,
+      "end": -39051,
+      "ageMinBP": 41000.0,
+      "ageMaxBP": 47500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Lincombian-Ranisian-Jerzmanowician",
+      "layer": "Layer 8",
+      "coordinates": [
+        11.5650314,
+        50.6625768
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Lincombian-Ranisian-Jerzmanowician: 47500–41000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "87",
+          "site_name": "Ilsenhöhle",
+          "country": "Germany",
+          "region": "Turingia",
+          "municipality": "Ranis",
+          "latitude": "50.6625768",
+          "longitude": "11.5650314",
+          "description": "",
+          "updated_at": "2026-07-08T18:12:24.336051Z"
+        },
+        "context": {
+          "archaeological_context_id": "418",
+          "site_id": "87",
+          "stratigraphic_context": "Layer 8",
+          "culture_id": "33",
+          "updated_at": "2026-07-08T17:40:43.142842Z"
+        },
+        "culture": {
+          "culture_id": "33",
+          "culture_name": "Lincombian-Ranisian-Jerzmanowician",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "47500",
+          "end_bp": "41000",
+          "region": "Northwestern and central Europe",
+          "description": "Transitional Upper Palaeolithic technocomplex spanning northwestern and central Europe around 47,500-41,000 cal BP.",
+          "updated_at": "2026-07-08T17:40:24.248302Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "283",
+            "authors": "Mylopotamitaki, D., Weiss, M., Fewlass, H., Zavala, E. I., Rougier, H., Sümer, A. P., Hajdinjak, M., Smith, G. M., Ruebens, K., Sinet-Mathiot, V.",
+            "year": "2024",
+            "title": "Homo sapiens reached the higher latitudes of Europe by 45,000 years ago",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "626",
+            "issue": "",
+            "pages": "341-346",
+            "doi": "https://doi.org/10.1038/s41586-023-06923-7",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-08T18:11:09.710252Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "808",
+            "archaeological_context_id": "418",
+            "individual_name": "",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "true",
+            "updated_at": "2026-07-08T17:43:24.754655Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "754",
+              "dated_sample_id": "749",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "44330",
+              "dates_range": "1090",
+              "notes": "",
+              "updated_at": "2026-07-08T18:30:42.338763Z"
+            },
+            "sample": {
+              "dated_sample_id": "749",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3088",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:26.858754Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "755",
+              "dated_sample_id": "750",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "41800",
+              "dates_range": "800",
+              "notes": "",
+              "updated_at": "2026-07-08T18:34:00.555157Z"
+            },
+            "sample": {
+              "dated_sample_id": "750",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3087",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:19.477203Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "756",
+              "dated_sample_id": "751",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "42730",
+              "dates_range": "910",
+              "notes": "",
+              "updated_at": "2026-07-08T18:34:32.680555Z"
+            },
+            "sample": {
+              "dated_sample_id": "751",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3086",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:30:12.005387Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "418",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-419",
+      "start": -45551,
+      "end": -39051,
+      "ageMinBP": 41000.0,
+      "ageMaxBP": 47500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Lincombian-Ranisian-Jerzmanowician",
+      "layer": "Layer 9",
+      "coordinates": [
+        11.5650314,
+        50.6625768
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Lincombian-Ranisian-Jerzmanowician: 47500–41000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "87",
+          "site_name": "Ilsenhöhle",
+          "country": "Germany",
+          "region": "Turingia",
+          "municipality": "Ranis",
+          "latitude": "50.6625768",
+          "longitude": "11.5650314",
+          "description": "",
+          "updated_at": "2026-07-08T18:12:24.336051Z"
+        },
+        "context": {
+          "archaeological_context_id": "419",
+          "site_id": "87",
+          "stratigraphic_context": "Layer 9",
+          "culture_id": "33",
+          "updated_at": "2026-07-08T17:50:02.694627Z"
+        },
+        "culture": {
+          "culture_id": "33",
+          "culture_name": "Lincombian-Ranisian-Jerzmanowician",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "47500",
+          "end_bp": "41000",
+          "region": "Northwestern and central Europe",
+          "description": "Transitional Upper Palaeolithic technocomplex spanning northwestern and central Europe around 47,500-41,000 cal BP.",
+          "updated_at": "2026-07-08T17:40:24.248302Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "283",
+            "authors": "Mylopotamitaki, D., Weiss, M., Fewlass, H., Zavala, E. I., Rougier, H., Sümer, A. P., Hajdinjak, M., Smith, G. M., Ruebens, K., Sinet-Mathiot, V.",
+            "year": "2024",
+            "title": "Homo sapiens reached the higher latitudes of Europe by 45,000 years ago",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "626",
+            "issue": "",
+            "pages": "341-346",
+            "doi": "https://doi.org/10.1038/s41586-023-06923-7",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-08T18:11:09.710252Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "809",
+            "archaeological_context_id": "419",
+            "individual_name": "",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "true",
+            "updated_at": "2026-07-08T17:50:53.012782Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "753",
+              "dated_sample_id": "748",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "43.89",
+              "dates_range": "1040",
+              "notes": "",
+              "updated_at": "2026-07-08T18:29:37.169803Z"
+            },
+            "sample": {
+              "dated_sample_id": "748",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3089",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:11.913425Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "419",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-420",
+      "start": -45551,
+      "end": -39051,
+      "ageMinBP": 41000.0,
+      "ageMaxBP": 47500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Lincombian-Ranisian-Jerzmanowician",
+      "layer": "Layer X / Graue Schicht (current Layer 8 and 9)",
+      "coordinates": [
+        11.5650314,
+        50.6625768
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Lincombian-Ranisian-Jerzmanowician: 47500–41000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "87",
+          "site_name": "Ilsenhöhle",
+          "country": "Germany",
+          "region": "Turingia",
+          "municipality": "Ranis",
+          "latitude": "50.6625768",
+          "longitude": "11.5650314",
+          "description": "",
+          "updated_at": "2026-07-08T18:12:24.336051Z"
+        },
+        "context": {
+          "archaeological_context_id": "420",
+          "site_id": "87",
+          "stratigraphic_context": "Layer X / Graue Schicht (current Layer 8 and 9)",
+          "culture_id": "33",
+          "updated_at": "2026-07-08T17:53:03.108373Z"
+        },
+        "culture": {
+          "culture_id": "33",
+          "culture_name": "Lincombian-Ranisian-Jerzmanowician",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "47500",
+          "end_bp": "41000",
+          "region": "Northwestern and central Europe",
+          "description": "Transitional Upper Palaeolithic technocomplex spanning northwestern and central Europe around 47,500-41,000 cal BP.",
+          "updated_at": "2026-07-08T17:40:24.248302Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "283",
+            "authors": "Mylopotamitaki, D., Weiss, M., Fewlass, H., Zavala, E. I., Rougier, H., Sümer, A. P., Hajdinjak, M., Smith, G. M., Ruebens, K., Sinet-Mathiot, V.",
+            "year": "2024",
+            "title": "Homo sapiens reached the higher latitudes of Europe by 45,000 years ago",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "626",
+            "issue": "",
+            "pages": "341-346",
+            "doi": "https://doi.org/10.1038/s41586-023-06923-7",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-08T18:11:09.710252Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "810",
+            "archaeological_context_id": "420",
+            "individual_name": "",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "true",
+            "updated_at": "2026-07-08T17:53:51.769499Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "751",
+              "dated_sample_id": "746",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "42410",
+              "dates_range": "860",
+              "notes": "",
+              "updated_at": "2026-07-08T18:27:47.337621Z"
+            },
+            "sample": {
+              "dated_sample_id": "746",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3094",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:41.796161Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "752",
+              "dated_sample_id": "747",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "41.57",
+              "dates_range": "420",
+              "notes": "",
+              "updated_at": "2026-07-08T18:28:54.798246Z"
+            },
+            "sample": {
+              "dated_sample_id": "747",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3092",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:34.985553Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "420",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    },
+    {
+      "id": "paleohumans1-context-421",
+      "start": -45551,
+      "end": -39051,
+      "ageMinBP": 41000.0,
+      "ageMaxBP": 47500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Lincombian-Ranisian-Jerzmanowician",
+      "layer": "Layer IX-X or X-XI",
+      "coordinates": [
+        11.5650314,
+        50.6625768
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Lincombian-Ranisian-Jerzmanowician: 47500–41000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "87",
+          "site_name": "Ilsenhöhle",
+          "country": "Germany",
+          "region": "Turingia",
+          "municipality": "Ranis",
+          "latitude": "50.6625768",
+          "longitude": "11.5650314",
+          "description": "",
+          "updated_at": "2026-07-08T18:12:24.336051Z"
+        },
+        "context": {
+          "archaeological_context_id": "421",
+          "site_id": "87",
+          "stratigraphic_context": "Layer IX-X or X-XI",
+          "culture_id": "33",
+          "updated_at": "2026-07-08T17:58:46.234653Z"
+        },
+        "culture": {
+          "culture_id": "33",
+          "culture_name": "Lincombian-Ranisian-Jerzmanowician",
+          "phase": "EARLY_UPPER_PALAEOLITHIC",
+          "start_bp": "47500",
+          "end_bp": "41000",
+          "region": "Northwestern and central Europe",
+          "description": "Transitional Upper Palaeolithic technocomplex spanning northwestern and central Europe around 47,500-41,000 cal BP.",
+          "updated_at": "2026-07-08T17:40:24.248302Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "283",
+            "authors": "Mylopotamitaki, D., Weiss, M., Fewlass, H., Zavala, E. I., Rougier, H., Sümer, A. P., Hajdinjak, M., Smith, G. M., Ruebens, K., Sinet-Mathiot, V.",
+            "year": "2024",
+            "title": "Homo sapiens reached the higher latitudes of Europe by 45,000 years ago",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature",
+            "volume": "626",
+            "issue": "",
+            "pages": "341-346",
+            "doi": "https://doi.org/10.1038/s41586-023-06923-7",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-08T18:11:09.710252Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "811",
+            "archaeological_context_id": "421",
+            "individual_name": "",
+            "individual_type": "UNASSIGNED_REMAINS",
+            "mni": "?",
+            "mni_statistical": "1",
+            "age_at_death_text": "",
+            "age_at_death_min": "",
+            "age_at_death_max": "",
+            "age_unit": "",
+            "age_class_main": "INDETERMINATE",
+            "age_class_subcategory": "",
+            "sex": "INDETERMINATE",
+            "sex_certain": "true",
+            "updated_at": "2026-07-08T17:59:08.858719Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "747",
+              "dated_sample_id": "743",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "40320",
+              "dates_range": "875",
+              "notes": "",
+              "updated_at": "2026-07-08T18:22:54.125958Z"
+            },
+            "sample": {
+              "dated_sample_id": "743",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3096",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:04.276671Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "748",
+              "dated_sample_id": "744",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "41430",
+              "dates_range": "770",
+              "notes": "",
+              "updated_at": "2026-07-08T18:24:07.878185Z"
+            },
+            "sample": {
+              "dated_sample_id": "744",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3098",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:48.536801Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "749",
+              "dated_sample_id": "745",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "39090",
+              "dates_range": "580",
+              "notes": "",
+              "updated_at": "2026-07-08T18:24:59.080026Z"
+            },
+            "sample": {
+              "dated_sample_id": "745",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3097",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:29:54.798563Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "750",
+              "dated_sample_id": "742",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "42220",
+              "dates_range": "840",
+              "notes": "",
+              "updated_at": "2026-07-08T18:25:57.978165Z"
+            },
+            "sample": {
+              "dated_sample_id": "742",
+              "sample_origin": "BONE",
+              "archaeological_context_id": "",
+              "bone_id": "3095",
+              "skeleton_id": "",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:28:56.441447Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "421",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "87",
+      "site_name": "Ilsenhöhle",
+      "country": "Germany",
+      "region": "Turingia",
+      "municipality": "Ranis",
+      "latitude": "50.6625768",
+      "longitude": "11.5650314",
+      "description": "",
+      "updated_at": "2026-07-08T18:12:24.336051Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-45551-01-01",
+      "end": "-39051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    },
+    {
+      "start": "-18051-01-01",
+      "end": "-12051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

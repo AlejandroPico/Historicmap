@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-9112BC448D5DEB",
+  "identity": {
+    "qid": "",
+    "name": "Cueva Millan",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -40977,
+  "coverageEnd": -38673,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-852",
+      "start": -40858,
+      "end": -38673,
+      "ageMinBP": 40622.0,
+      "ageMaxBP": 42807.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "1b",
+      "coordinates": [
+        -3.4714,
+        42.0735
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Arsuaga, J. L., Gómez-Olivencia, A., Sala, N., Martínez-Pillado, V., Pablos, A., Bonmatí, A., ... & Cuenca-Bescós, G. (2017). Evidence of paleoecological changes and Mousterian occupations at the Galería de las Estatuas site, Sierra de Atapuerca, northern Iberian plateau, Spain. Quaternary Research, 88(2), 345-367.",
+      "originalRow": 852,
+      "originalProperties": {
+        "A": "Arsuaga, J. L., Gómez-Olivencia, A., Sala, N., Martínez-Pillado, V., Pablos, A., Bonmatí, A., ... & Cuenca-Bescós, G. (2017). Evidence of paleoecological changes and Mousterian occupations at the Galería de las Estatuas site, Sierra de Atapuerca, northern Iberian plateau, Spain. Quaternary Research, 88(2), 345-367.",
+        "B": "Homo neanderthalensis",
+        "C": "-3.4714",
+        "D": "42.073500000000003",
+        "E": "Cueva Millan",
+        "F": "1b",
+        "G": "42807",
+        "H": "41714",
+        "I": "40622",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-853",
+      "start": -40977,
+      "end": -38675,
+      "ageMinBP": 40624.0,
+      "ageMaxBP": 42926.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "1a",
+      "coordinates": [
+        -3.4714,
+        42.0735
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Arsuaga, J. L., Gómez-Olivencia, A., Sala, N., Martínez-Pillado, V., Pablos, A., Bonmatí, A., ... & Cuenca-Bescós, G. (2017). Evidence of paleoecological changes and Mousterian occupations at the Galería de las Estatuas site, Sierra de Atapuerca, northern Iberian plateau, Spain. Quaternary Research, 88(2), 345-367.",
+      "originalRow": 853,
+      "originalProperties": {
+        "A": "Arsuaga, J. L., Gómez-Olivencia, A., Sala, N., Martínez-Pillado, V., Pablos, A., Bonmatí, A., ... & Cuenca-Bescós, G. (2017). Evidence of paleoecological changes and Mousterian occupations at the Galería de las Estatuas site, Sierra de Atapuerca, northern Iberian plateau, Spain. Quaternary Research, 88(2), 345-367.",
+        "B": "Homo neanderthalensis",
+        "C": "-3.4714",
+        "D": "42.073500000000003",
+        "E": "Cueva Millan",
+        "F": "1a",
+        "G": "42926",
+        "H": "41775",
+        "I": "40624",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-40977-01-01",
+      "end": "-38673-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

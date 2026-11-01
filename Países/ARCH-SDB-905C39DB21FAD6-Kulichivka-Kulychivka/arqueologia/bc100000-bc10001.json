@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-905C39DB21FAD6",
+  "identity": {
+    "qid": "",
+    "name": "Kulichivka (Kulychivka)",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -37349,
+  "coverageEnd": -28051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2831",
+      "start": -36051,
+      "end": -28051,
+      "ageMinBP": 30000.0,
+      "ageMaxBP": 38000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Bohunican",
+      "layer": "cultural layer III",
+      "coordinates": [
+        25.129667,
+        50.1675
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Škrdla, Р., & Nikolajev, Р. (2014). Preliminary comparison of Kulychivka (lower layer) and the Moravian Bohunician. Матеріали і дослідження з археології Прикарпаття і Волині, (18), 78-96.",
+      "originalRow": 2831,
+      "originalProperties": {
+        "A": "Škrdla, Р., & Nikolajev, Р. (2014). Preliminary comparison of Kulychivka (lower layer) and the Moravian Bohunician. Матеріали і дослідження з археології Прикарпаття і Волині, (18), 78-96.",
+        "B": "Homo sapiens",
+        "C": "25.129667000000001",
+        "D": "50.167499999999997",
+        "E": "Kulichivka (Kulychivka)",
+        "F": "cultural layer III",
+        "G": "38000",
+        "H": "34000",
+        "I": "30000",
+        "J": "Bohunican"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2832",
+      "start": -37349,
+      "end": -34296,
+      "ageMinBP": 36245.0,
+      "ageMaxBP": 39298.0,
+      "taxon": "Homo sapiens",
+      "culture": "Bohunican",
+      "layer": "cultural layer III",
+      "coordinates": [
+        25.129667,
+        50.1675
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Škrdla, Р., & Nikolajev, Р. (2014). Preliminary comparison of Kulychivka (lower layer) and the Moravian Bohunician. Матеріали і дослідження з археології Прикарпаття і Волині, (18), 78-96.",
+      "originalRow": 2832,
+      "originalProperties": {
+        "A": "Škrdla, Р., & Nikolajev, Р. (2014). Preliminary comparison of Kulychivka (lower layer) and the Moravian Bohunician. Матеріали і дослідження з археології Прикарпаття і Волині, (18), 78-96.",
+        "B": "Homo sapiens",
+        "C": "25.129667000000001",
+        "D": "50.167499999999997",
+        "E": "Kulichivka (Kulychivka)",
+        "F": "cultural layer III",
+        "G": "39298",
+        "H": "37772",
+        "I": "36245",
+        "J": "Bohunican"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-37349-01-01",
+      "end": "-28051-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

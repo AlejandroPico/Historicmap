@@ -1,0 +1,69 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-62B1D08202E00D",
+  "identity": {
+    "qid": "",
+    "name": "Barozh 12",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -63951,
+  "coverageEnd": -52551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-603",
+      "start": -63951,
+      "end": -52551,
+      "ageMinBP": 54500.0,
+      "ageMaxBP": 65900.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Mousterian",
+      "layer": "unit 3",
+      "coordinates": [
+        43.794,
+        40.333
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Glauberman, P., Gasparyan, B., Wilkinson, K., Frahm, E., Nahapetyan, S., Arakelyan, D., ... & Adler, D. S. (2020). Late Middle Paleolithic Technological Organization and Behavior at the Open-Air Site of Barozh 12 (Armenia). Journal of Paleolithic Archaeology, 1-54.",
+      "originalRow": 603,
+      "originalProperties": {
+        "A": "Glauberman, P., Gasparyan, B., Wilkinson, K., Frahm, E., Nahapetyan, S., Arakelyan, D., ... & Adler, D. S. (2020). Late Middle Paleolithic Technological Organization and Behavior at the Open-Air Site of Barozh 12 (Armenia). Journal of Paleolithic Archaeology, 1-54.",
+        "B": "Homo neanderthalensis",
+        "C": "43.793999999999997",
+        "D": "40.332999999999998",
+        "E": "Barozh 12",
+        "F": "unit 3",
+        "G": "65900",
+        "H": "60200",
+        "I": "54500",
+        "J": "Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-63951-01-01",
+      "end": "-52551-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

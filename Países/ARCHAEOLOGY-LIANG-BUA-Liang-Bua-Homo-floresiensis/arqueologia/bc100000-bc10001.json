@@ -1,0 +1,55 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-LIANG-BUA",
+  "identity": {
+    "qid": "",
+    "name": "Liang Bua · Homo floresiensis",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -98051,
+  "coverageEnd": -58051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "curated050-ARCHAEOLOGY-LIANG-BUA-0",
+      "start": -98051,
+      "end": -58051,
+      "ageMinBP": 60000,
+      "ageMaxBP": 100000,
+      "taxon": "Homo floresiensis",
+      "culture": "",
+      "layer": "",
+      "coordinates": [
+        120.445,
+        -8.525
+      ],
+      "source": "https://doi.org/10.1038/nature17179",
+      "sourceLabel": "Referencia primaria complementaria",
+      "citation": "Restos atribuidos a H.floresiensis aproximadamente100–60ka. Los útiles que alcanzan edades posteriores no prueban por sí solos supervivencia biológica de la especie hasta esas fechas.",
+      "license": "Original editorial metadata; linked primary evidence",
+      "attributionBasis": "Restos atribuidos a H.floresiensis aproximadamente100–60ka. Los útiles que alcanzan edades posteriores no prueban por sí solos supervivencia biológica de la especie hasta esas fechas.",
+      "dateBasis": "Intervalo aproximado de evidencia publicada, no una ocupación continua ni una frontera biológica.",
+      "locationBasis": "Referencia geográfica aproximada para lectura continental; no coordenada GPS de excavación."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-98051-01-01",
+      "end": "-58051-12-31",
+      "source": "https://doi.org/10.1038/nature17179",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

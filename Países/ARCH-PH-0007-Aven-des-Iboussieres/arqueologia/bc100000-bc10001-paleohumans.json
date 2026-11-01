@@ -1,0 +1,340 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0007",
+  "identity": {
+    "qid": "",
+    "name": "Aven des Iboussières",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -12051,
+  "coverageEnd": -9751,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-11",
+      "start": -12051,
+      "end": -9751,
+      "ageMinBP": 11700.0,
+      "ageMaxBP": 14000.0,
+      "taxon": "Homo sapiens",
+      "culture": "Azilian",
+      "layer": "Layer 4C",
+      "coordinates": [
+        4.756275,
+        44.474681
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Azilian: 14000–11700 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "7",
+          "site_name": "Aven des Iboussières",
+          "country": "France",
+          "region": "Rhône-Alpes",
+          "municipality": "Malataverne",
+          "latitude": "44.474681",
+          "longitude": "4.756275",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "11",
+          "site_id": "7",
+          "stratigraphic_context": "Layer 4C",
+          "culture_id": "18",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "culture": {
+          "culture_id": "18",
+          "culture_name": "Azilian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "14000",
+          "end_bp": "11700",
+          "region": "Western Europe",
+          "description": "Final Upper Palaeolithic technocomplex marked by microlithic armatures and painted or engraved pebbles.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "10",
+            "authors": "Aymard, I., Ardagna, Y., Lalys, L., Signoli, M., Gély, B., Dutour, O.",
+            "year": "2007",
+            "title": "Etude anthropologique du site azilien des Iboussières, Malataverne, Drôme",
+            "editor": "Évin, J.",
+            "book": "Un siècle de construction du discours scientifique en préhistoire. 26e Congrès Préhistorique de France",
+            "corporate_author": "Congrès du centenaire",
+            "city": "Avignon",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "537-544",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "true",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "11",
+            "authors": "Aymard, I., Olivier, D., Signoli, M.",
+            "year": "2005",
+            "title": "",
+            "editor": "",
+            "book": "Etude paléopathologique des vestiges humains aziliens de l’Aven des Iboussières (Malataverne, Drôme)",
+            "corporate_author": "Thèse Doctorat de Médecine, Université de Nantes",
+            "city": "Nantes",
+            "journal": "",
+            "volume": "",
+            "issue": "",
+            "pages": "",
+            "doi": "",
+            "is_book": "true",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "46",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières A",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "40 - 50",
+            "age_at_death_min": "40",
+            "age_at_death_max": "50",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "47",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières B",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "40 - 44",
+            "age_at_death_min": "40",
+            "age_at_death_max": "44",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "MATURE_ADULT",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "48",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières C",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "20 - 28",
+            "age_at_death_min": "20",
+            "age_at_death_max": "28",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "YOUNG_ADULT",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "49",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières D",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "±50",
+            "age_at_death_min": "50",
+            "age_at_death_max": "50",
+            "age_unit": "YEARS",
+            "age_class_main": "ADULT",
+            "age_class_subcategory": "SENILE_ADULT",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "50",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières E",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "6 (gestation)",
+            "age_at_death_min": "6",
+            "age_at_death_max": "6",
+            "age_unit": "MONTHS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "FETAL",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "51",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières F",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "9",
+            "age_at_death_min": "9",
+            "age_at_death_max": "9",
+            "age_unit": "MONTHS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_I",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "52",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières G",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "4",
+            "age_at_death_min": "4",
+            "age_at_death_max": "4",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "53",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières H",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "6",
+            "age_at_death_min": "6",
+            "age_at_death_max": "6",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          },
+          {
+            "individual_id": "54",
+            "archaeological_context_id": "11",
+            "individual_name": "Aven des Iboussières I",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "10",
+            "age_at_death_min": "10",
+            "age_at_death_max": "10",
+            "age_unit": "YEARS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_II",
+            "sex": "INDETERMINATE",
+            "sex_certain": "false",
+            "updated_at": "2026-06-28T21:23:55.502915Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "101",
+              "dated_sample_id": "101",
+              "dating_technique_id": "2",
+              "dates_bp_uncal": "10210",
+              "dates_range": "80",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "101",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "11",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Faunal bone",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "2",
+              "dating_technique_name": "Radiocarbon",
+              "description": "A method for dating once-living materials by measuring the decay of radioactive carbon-14 remaining in the sample.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "11",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "7",
+      "site_name": "Aven des Iboussières",
+      "country": "France",
+      "region": "Rhône-Alpes",
+      "municipality": "Malataverne",
+      "latitude": "44.474681",
+      "longitude": "4.756275",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-12051-01-01",
+      "end": "-9751-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

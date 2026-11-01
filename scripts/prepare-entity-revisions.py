@@ -186,8 +186,11 @@ def main(acquire=False, portrait_only=False):
     apply_portrait_corrections(identities,media,inputs)
     save_data(ROOT/'public/data/identities.json',identities);media_manifest['entries']=sorted(media.values(),key=lambda m:m['file']);save_data(ROOT/'public/media/manifest.json',media_manifest)
     save_data(ROOT/'public/data/country-history.json',history);save_data(ROOT/'public/data/governance.json',governance)
-    starts=[read(p)['coverageStart'] for p in inputs if read(p).get('coverageStart')]
-    if starts:contexts['startYear']=min(contexts['startYear'],*starts);history['coverageStart']=min(history['coverageStart'],*starts)
+    # Evidence-only dossiers do not extend unrelated political inventories.
+    context_starts=[read(p)['coverageStart'] for p in inputs if read(p).get('coverageStart') and read(p).get('contexts')]
+    history_starts=[read(p)['coverageStart'] for p in inputs if read(p).get('coverageStart') and read(p).get('institutions')]
+    if context_starts:contexts['startYear']=min(contexts['startYear'],*context_starts)
+    if history_starts:history['coverageStart']=min(history['coverageStart'],*history_starts)
     save_data(ROOT/'public/data/historical-context.json',contexts);save_data(ROOT/'public/data/historical-places.json',places);save_data(ROOT/'public/data/conflict-points.geojson',points);save_data(ROOT/'public/data/country-history.json',history)
     save_data(ROOT/'public/data/political-influence.json',influences)
     print('Compiled',len(inputs),'entity-owned revisions')

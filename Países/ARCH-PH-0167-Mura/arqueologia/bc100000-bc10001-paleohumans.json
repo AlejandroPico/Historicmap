@@ -1,0 +1,312 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-PH-0167",
+  "identity": {
+    "qid": "",
+    "name": "Mura",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "paleohumans-contexts-0.50",
+  "coverageStart": -22551,
+  "coverageEnd": -11051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "paleohumans1-context-267",
+      "start": -22551,
+      "end": -11051,
+      "ageMinBP": 13000.0,
+      "ageMaxBP": 24500.0,
+      "taxon": "Homo sapiens",
+      "culture": "Epigravettian",
+      "layer": "Layer SU 130",
+      "coordinates": [
+        17.3075289,
+        40.9474921
+      ],
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "sourceLabel": "PaleoHumans1.0.0 · contexto arqueológico",
+      "citation": "Arenas del Amo, S.; Armentano Oller, N.; Daura, J.; Sanz, M.2024. Overview of the European Upper Palaeolithic: The Homo sapiens bone record. Journal of Archaeological Science: Reports53,104391. DOI10.1016/j.jasrep.2024.104391. PaleoHumans1.0.0; export schema v2.",
+      "license": "CC-BY-4.0",
+      "dateBasis": "Ventana contextual publicada en cultures.csv para Epigravettian: 24500–13000 BP según la colección. No es una datación directa del individuo ni presencia cada año. El export no codifica aquí una calibración individual homogénea; los resultados originales de dating_results.csv son sin calibrar y no se han convertido automáticamente en años civiles.",
+      "attributionBasis": "Restos incluidos por PaleoHumans como Homo sapiens según sus criterios anatómicos, genéticos o contextuales. Atribución de la fuente, no rediagnóstico independiente del atlas.",
+      "locationBasis": "Coordenadas WGS84 de sites.csv; escala y precisión de la colección.",
+      "originalProperties": {
+        "site": {
+          "site_id": "167",
+          "site_name": "Mura",
+          "country": "Italy",
+          "region": "Apulia",
+          "municipality": "Monopoli",
+          "latitude": "40.9474921",
+          "longitude": "17.3075289",
+          "description": "",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "context": {
+          "archaeological_context_id": "267",
+          "site_id": "167",
+          "stratigraphic_context": "Layer SU 130",
+          "culture_id": "26",
+          "updated_at": "2026-07-09T17:47:37.832196Z"
+        },
+        "culture": {
+          "culture_id": "26",
+          "culture_name": "Epigravettian",
+          "phase": "FINAL_UPPER_PALAEOLITHIC",
+          "start_bp": "24500",
+          "end_bp": "13000",
+          "region": "Italy, the Adriatic basin and the Balkans",
+          "description": "Broad Gravettian-derived tradition of southern and south-eastern Europe, especially Italy, usually split here into Tardigravettian for earlier contexts and Romanellian for later ones.",
+          "updated_at": "2026-06-28T21:23:55.502915Z"
+        },
+        "bibliography": [
+          {
+            "bibliographic_reference_id": "3",
+            "authors": "Alciati, G., Pesce Delfino, V., Vacca, E.",
+            "year": "2005",
+            "title": "Catalogue of Italian fossil human remains from the Palaeolithic to the Mesolithic. Supplement to Volume 83",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Journal of Anthropological Sciences",
+            "volume": "84",
+            "issue": "",
+            "pages": "1-184",
+            "doi": "",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "61",
+            "authors": "Fabbri, P.F., Giacobini, G.",
+            "year": "2021",
+            "title": "Les sépultures italiennes du Paléolithique supérieur. Inventaire et observations anthropologiques",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "L’anthropologie",
+            "volume": "125",
+            "issue": "2",
+            "pages": "102863",
+            "doi": "https://doi.org/10.1016/j.anthro.2021.102863",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "83",
+            "authors": "Giacobini, G.",
+            "year": "2006",
+            "title": "Les sépultures du Paléolithique supérieur: la documentation italienne",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Comptes Rendus Palevol",
+            "volume": "5",
+            "issue": "1-2",
+            "pages": "169-176",
+            "doi": "https://doi.org/10.1016/j.crpv.2005.09.018",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "84",
+            "authors": "Giacobini, G.",
+            "year": "2006",
+            "title": "Richesse et diversité du rituel funéraire au Paléolithique supérieur: L’exemple des sépultures italiennes",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Diogène",
+            "volume": "214",
+            "issue": "",
+            "pages": "24-46",
+            "doi": "https://doi.org/10.3917/dio.214.0024",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-06-28T21:34:58.441884Z"
+          },
+          {
+            "bibliographic_reference_id": "284",
+            "authors": "Higgins, O.A., Modi, A., Cannariato, C., Diroma, M.A., Lugli, F., Ricci, S., Zaro, V., Vai, S., Vazzana, A., Romandini, M., Yu, H., Boschin, F., Magnone, L., Rossini, M., Di Domenico, G., Baruffaldi, F., Oxilia, G., Bortolini, E., Dellù, E., Moroni, A., Ronchitelli, A., Talamo, S., Müller, W., Calattini, M., Nava, A., Posth, C., Lari, M., Bondioli, L., Benazzi, S., Caramelli, D.",
+            "year": "2024",
+            "title": "Life history and ancestry of the late Upper Palaeolithic infant from Grotta delle Mura, Italy",
+            "editor": "",
+            "book": "",
+            "corporate_author": "",
+            "city": "",
+            "journal": "Nature Communications",
+            "volume": "15",
+            "issue": "1",
+            "pages": "8248",
+            "doi": "https://doi.org/10.1038/s41467-024-51150-x",
+            "is_book": "false",
+            "is_article_in_book": "false",
+            "updated_at": "2026-07-09T17:56:25.905078Z"
+          }
+        ],
+        "individuals": [
+          {
+            "individual_id": "536",
+            "archaeological_context_id": "267",
+            "individual_name": "Mura 1",
+            "individual_type": "INDIVIDUAL",
+            "mni": "1",
+            "mni_statistical": "1",
+            "age_at_death_text": "±16.5",
+            "age_at_death_min": "16",
+            "age_at_death_max": "16",
+            "age_unit": "MONTHS",
+            "age_class_main": "SUBADULT",
+            "age_class_subcategory": "INFANT_I",
+            "sex": "MALE",
+            "sex_certain": "true",
+            "updated_at": "2026-07-09T17:42:41.118921Z"
+          }
+        ],
+        "dating": [
+          {
+            "result": {
+              "dating_result_id": "601",
+              "dated_sample_id": "601",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "11420",
+              "dates_range": "100",
+              "notes": "",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "sample": {
+              "dated_sample_id": "601",
+              "sample_origin": "CONTEXT",
+              "archaeological_context_id": "267",
+              "bone_id": "",
+              "skeleton_id": "",
+              "material": "Unknown level material",
+              "dating_type": "INDIRECT",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "757",
+              "dated_sample_id": "752",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "14050",
+              "dates_range": "50",
+              "notes": "",
+              "updated_at": "2026-07-09T17:58:08.135701Z"
+            },
+            "sample": {
+              "dated_sample_id": "752",
+              "sample_origin": "SKELETON",
+              "archaeological_context_id": "",
+              "bone_id": "",
+              "skeleton_id": "64",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:30:18.373458Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          },
+          {
+            "result": {
+              "dating_result_id": "758",
+              "dated_sample_id": "753",
+              "dating_technique_id": "1",
+              "dates_bp_uncal": "13960",
+              "dates_range": "50",
+              "notes": "",
+              "updated_at": "2026-07-09T17:58:53.847903Z"
+            },
+            "sample": {
+              "dated_sample_id": "753",
+              "sample_origin": "SKELETON",
+              "archaeological_context_id": "",
+              "bone_id": "",
+              "skeleton_id": "64",
+              "material": "Human Bone",
+              "dating_type": "DIRECT",
+              "updated_at": "2026-07-09T18:30:24.633693Z"
+            },
+            "technique": {
+              "dating_technique_id": "1",
+              "dating_technique_name": "Radiocarbon (14C AMS)",
+              "description": "A radiocarbon method using Accelerator Mass Spectrometry, which directly counts carbon-14 atoms and allows accurate dating from very small samples.",
+              "updated_at": "2026-06-28T21:23:55.502915Z"
+            }
+          }
+        ]
+      },
+      "originalSourceRecord": "267",
+      "sourceDataset": "PaleoHumans1.0.0",
+      "sourceSnapshotSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+      "sourceSnapshotUrl": "https://paleohumans.org/dataset",
+      "dateQuality": "archaeological-culture-window"
+    }
+  ],
+  "undatedEvidence": [],
+  "sourceSnapshot": {
+    "version": "1.0.0",
+    "metadata": {
+      "dataset_name": "PaleoHumans Dataset",
+      "generated_at_utc": "2026-11-01T06:34:47.543756139Z",
+      "source_platform": "PaleoHumans public scientific platform",
+      "source_article_doi": "10.1016/j.jasrep.2024.104391",
+      "license": "CC BY 4.0",
+      "export_format": "ZIP of UTF-8 CSV files",
+      "schema_model_version": "v2"
+    },
+    "archiveSha256": "3c664d268d9eb4c669c4a6b4b1e0e22698c58569e55856df124da335e237c4be",
+    "url": "https://paleohumans.org/dataset",
+    "license": "CC-BY-4.0",
+    "site": {
+      "site_id": "167",
+      "site_name": "Mura",
+      "country": "Italy",
+      "region": "Apulia",
+      "municipality": "Monopoli",
+      "latitude": "40.9474921",
+      "longitude": "17.3075289",
+      "description": "",
+      "updated_at": "2026-06-28T21:23:55.502915Z"
+    }
+  },
+  "authorityNotes": [
+    {
+      "start": "-22551-01-01",
+      "end": "-11051-12-31",
+      "source": "https://doi.org/10.1016/j.jasrep.2024.104391",
+      "text": "Referencia de restos humanos de PaleoHumans. Los límites de cultura son ventanas contextuales amplias, no gobiernos, fechas exactas de ocupación ni una calibración nueva de las dataciones originales. Las fechas sin calibrar se conservan como tales; revisar por individuo y método antes de afinar la cronología."
+    }
+  ],
+  "pending": [
+    "Contrastar cronologías de cada individuo y método; no sustituir los resultados sin calibrar por fechas civiles directas.",
+    "Las ventanas de cultura son contexto y no establecen una presencia permanente."
+  ]
+}

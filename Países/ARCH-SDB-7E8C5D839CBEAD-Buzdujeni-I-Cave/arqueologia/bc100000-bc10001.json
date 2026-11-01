@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-7E8C5D839CBEAD",
+  "identity": {
+    "qid": "",
+    "name": "Buzdujeni I Cave",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -40598,
+  "coverageEnd": -33954,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-711",
+      "start": -40598,
+      "end": -33954,
+      "ageMinBP": 35903.0,
+      "ageMaxBP": 42547.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Denticulate Mousterian",
+      "layer": "8",
+      "coordinates": [
+        27.161,
+        48.125
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Allsworth-Jones, P., Borziac, I. A., Chetraru, N. A., French, C., Mihailescu, C. D., & Medyanik, S. I. (2018). The Middle Palaeolithic Site of Buzdujeni in Moldova: Establishing the Archaeological and Environmental Record. Journal of Paleolithic Archaeology, 1(2), 139-177.",
+      "originalRow": 711,
+      "originalProperties": {
+        "A": "Allsworth-Jones, P., Borziac, I. A., Chetraru, N. A., French, C., Mihailescu, C. D., & Medyanik, S. I. (2018). The Middle Palaeolithic Site of Buzdujeni in Moldova: Establishing the Archaeological and Environmental Record. Journal of Paleolithic Archaeology, 1(2), 139-177.",
+        "B": "Homo neanderthalensis",
+        "C": "27.161000000000001",
+        "D": "48.125",
+        "E": "Buzdujeni I Cave",
+        "F": "8",
+        "G": "42547",
+        "H": "39225",
+        "I": "35903",
+        "J": "Denticulate Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-712",
+      "start": -40557,
+      "end": -34331,
+      "ageMinBP": 36280.0,
+      "ageMaxBP": 42506.0,
+      "taxon": "Homo neanderthalensis",
+      "culture": "Denticulate Mousterian",
+      "layer": "6",
+      "coordinates": [
+        27.161,
+        48.125
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Allsworth-Jones, P., Borziac, I. A., Chetraru, N. A., French, C., Mihailescu, C. D., & Medyanik, S. I. (2018). The Middle Palaeolithic Site of Buzdujeni in Moldova: Establishing the Archaeological and Environmental Record. Journal of Paleolithic Archaeology, 1(2), 139-177.",
+      "originalRow": 712,
+      "originalProperties": {
+        "A": "Allsworth-Jones, P., Borziac, I. A., Chetraru, N. A., French, C., Mihailescu, C. D., & Medyanik, S. I. (2018). The Middle Palaeolithic Site of Buzdujeni in Moldova: Establishing the Archaeological and Environmental Record. Journal of Paleolithic Archaeology, 1(2), 139-177.",
+        "B": "Homo neanderthalensis",
+        "C": "27.161000000000001",
+        "D": "48.125",
+        "E": "Buzdujeni I Cave",
+        "F": "6",
+        "G": "42506",
+        "H": "39393",
+        "I": "36280",
+        "J": "Denticulate Mousterian"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-40598-01-01",
+      "end": "-33954-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

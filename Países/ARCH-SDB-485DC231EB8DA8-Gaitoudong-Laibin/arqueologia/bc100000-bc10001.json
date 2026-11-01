@@ -1,0 +1,104 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCH-SDB-485DC231EB8DA8",
+  "identity": {
+    "qid": "",
+    "name": "Gaitoudong (Laibin)",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -39951,
+  "coverageEnd": -33551,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "sdb2022-row-2532",
+      "start": -39951,
+      "end": -33551,
+      "ageMinBP": 35500.0,
+      "ageMaxBP": 41900.0,
+      "taxon": "Homo sapiens",
+      "culture": "human remains",
+      "layer": "flowstone capping human fossil layer",
+      "coordinates": [
+        109.083,
+        23.75
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+      "originalRow": 2532,
+      "originalProperties": {
+        "A": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+        "B": "Homo sapiens",
+        "C": "109.083",
+        "D": "23.75",
+        "E": "Gaitoudong (Laibin)",
+        "F": "flowstone capping human fossil layer",
+        "G": "41900",
+        "H": "38700",
+        "I": "35500",
+        "J": "human remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    },
+    {
+      "id": "sdb2022-row-2533",
+      "start": -37551,
+      "end": -35551,
+      "ageMinBP": 37500.0,
+      "ageMaxBP": 39500.0,
+      "taxon": "Homo sapiens",
+      "culture": "human remains",
+      "layer": "flowstone capping human fossil layer",
+      "coordinates": [
+        109.083,
+        23.75
+      ],
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "sourceLabel": "Timmermann et al.2022 · Supplementary Table1, raw data",
+      "citation": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+      "originalRow": 2533,
+      "originalProperties": {
+        "A": "Keates, S. G. (2010). The chronology of Pleistocene modern humans in China, Korea, and Japan. Radiocarbon, 52(2), 428-465.",
+        "B": "Homo sapiens",
+        "C": "109.083",
+        "D": "23.75",
+        "E": "Gaitoudong (Laibin)",
+        "F": "flowstone capping human fossil layer",
+        "G": "39500",
+        "H": "38500",
+        "I": "37500",
+        "J": "human remains"
+      },
+      "originalWorkbookSha256": "b5339c2692d9eca51529cb19a1ee2b5576a59c8bf9043039687a55ab680be90b",
+      "originalWorkbookUrl": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04600-9/MediaObjects/41586_2022_4600_MOESM3_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "attributionBasis": "Atribución de la compilación a fósiles o industrias; no identificación genética propia ni revisión de cada diagnóstico.",
+      "dateBasis": "Intervalos radiométricos publicados en la compilación, antes del presente. Sin recalibración propia; ventana de incertidumbre, no ocupación anual continua."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-39951-01-01",
+      "end": "-33551-12-31",
+      "source": "https://doi.org/10.1038/s41586-022-04600-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

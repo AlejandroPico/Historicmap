@@ -1,0 +1,55 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-BAISHIYA",
+  "identity": {
+    "qid": "",
+    "name": "Baishiya · evidencia denisovana",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.50.0",
+  "acquisition": "prehistory-evidence-0.50",
+  "coverageStart": -46051,
+  "coverageEnd": -30051,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "homininEvidence": [
+    {
+      "id": "curated050-ARCHAEOLOGY-BAISHIYA-0",
+      "start": -46051,
+      "end": -30051,
+      "ageMinBP": 32000,
+      "ageMaxBP": 48000,
+      "taxon": "Denisovanos",
+      "culture": "",
+      "layer": "",
+      "coordinates": [
+        102.575,
+        35.45
+      ],
+      "source": "https://doi.org/10.1038/s41586-024-07612-9",
+      "sourceLabel": "Referencia primaria complementaria",
+      "citation": "Costilla identificada mediante paleoproteómica en un nivel de aproximadamente48–32ka; el registro más antiguo de la cueva tiene otras fechas. No se atribuye esta costilla a toda su historia.",
+      "license": "Original editorial metadata; linked primary evidence",
+      "attributionBasis": "Costilla identificada mediante paleoproteómica en un nivel de aproximadamente48–32ka; el registro más antiguo de la cueva tiene otras fechas. No se atribuye esta costilla a toda su historia.",
+      "dateBasis": "Intervalo aproximado de evidencia publicada, no una ocupación continua ni una frontera biológica.",
+      "locationBasis": "Referencia geográfica aproximada para lectura continental; no coordenada GPS de excavación."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-46051-01-01",
+      "end": "-30051-12-31",
+      "source": "https://doi.org/10.1038/s41586-024-07612-9",
+      "text": "Referencia arqueológica con intervalos propios de evidencia. No son mandatos, fechas exactas de fundación o ocupación continua. Las atribuciones humanas e industrias se conservan según la fuente, con posibles alternativas; una industria no identifica por sí sola una especie. No hay gobernantes individuales, retratos o banderas nacionales acreditados para esta referencia."
+    }
+  ],
+  "pending": [
+    "Contrastar dataciones y atribuciones con literatura posterior; mantener edades originales, alternativas y niveles. No interpretar un punto o halo de lectura como frontera, ruta o área habitada."
+  ]
+}

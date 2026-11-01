@@ -1,6 +1,21 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.49.0 · 10000–6001 a. C.
+## Encargo vigente · 0.50.0 · 100000–10001 a. C.
+
+- [x] Base4b5b4987b limpia y conservación congelada; no modificar hechos posteriores.
+- [x] Investigar y adquirir referencias primarias de poblamiento, culturas y grupos humanos; diferenciar evidencias, cronologías y atribuciones discutidas.
+- [x] Ampliar hielo hasta el límite real del modelo y evaluar paleocostas a resolución nativa; no extrapolar hielo a100000sin fuente.
+- [x] Incorporar un dominio prehistórico propio, sin900instantáneas centenarias repetidas, con navegación, fichas y controles persistentes.
+- [x] Representar y seleccionar evidencias humanas desde el inicio, con fuentes y fechas; no inventar fronteras taxonómicas o rutas exactas.
+- [x] Sincronizar datos/catálogo, verificar conservación, tipos, producción y navegador; documentar límites y pendientes.
+- [x] Preparar la entrega verificada para main. El envío se ejecuta tras este registro: confirmar HEAD/origin/main al retomar, sin esperar Actions/Pages.
+
+
+Cierre local comprobado:377 pruebas generales/77 archivos,34 de investigación y ocho recorridos distintos de navegador correctos. Tipos/producción e integridad de272 datos,11 rangos tipográficos y9179 medios. El recorrido del globo comprueba un clic real; la consulta global de círculos devolvía0 aun cuando se veían los marcadores y no debe usarse como prueba visual. Datos/catálogo regenerados idénticos;199 GeoJSON previos y todos los hechos/medios conservados. Índice Git cotejado:2549 archivos nuevos/modificados y9462 recursos verificados,9441 objetos de recurso previos intactos. El envío se ejecuta tras guardar este registro; comprobar HEAD/origin/main si se interrumpe. El propietario comprueba Actions/Pages.
+
+Límites concretos: paleocostas contemporáneas; hielo no extrapolado antes de78051a.C.; georreferencia regional de LiangTebo pendiente. PaleoHumans sí se ha incorporado (descarga pública del navegador, CC-BY4). Sus ventanas culturales no son dataciones individuales; originales sin calibrar retenidos. Fuentes regionales fuera de Europa y revisión de las escalas/cronologías siguen pendientes. ElCastillo es una equivalencia ambigua no fusionada. No esperar Actions/Pages tras el push.
+
+## Entrega anterior · 0.49.0 · 10000–6001 a. C.
 
 - [x] Verificar base 77514a599 y árbol limpio; congelar los hechos y 10277 fases anteriores.
 - [x] Inventariar fuentes 10000/8000, contrastar anacronismos y conservar áreas en cada cambio de referencia.
