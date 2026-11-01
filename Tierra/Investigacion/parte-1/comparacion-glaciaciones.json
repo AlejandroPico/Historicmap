@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "inputEntryCount": 11,
+  "entryAgesUnit": "Ma; cifras del documento, no límites nuevos adoptados",
+  "fixedNumberOfEarthIceAges": null,
+  "entries": [
+    {
+      "id": "huronian",
+      "inputName": "Huroniana",
+      "inputApproximateRangeMa": [
+        2400,
+        2100
+      ],
+      "classification": "major-climatic-interval",
+      "decision": "Varios episodios aproximados; no la evidencia glacial más antigua conocida.",
+      "sourceIds": [
+        "pongola",
+        "oxygen"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": false
+    },
+    {
+      "id": "cryogenian",
+      "inputName": "Criogénica",
+      "inputApproximateRangeMa": [
+        720,
+        635
+      ],
+      "classification": "formal-period-with-glacial-episodes",
+      "decision": "Separar Esturtiana y Marinoana y sus intervalos; periodo no significa globo helado de forma continua.",
+      "sourceIds": [
+        "ics",
+        "snowball"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": false
+    },
+    {
+      "id": "andean-saharan",
+      "inputName": "Andino-sahariana",
+      "inputApproximateRangeMa": [
+        450,
+        420
+      ],
+      "classification": "regional-to-global-correlation",
+      "decision": "Rango amplio orientativo; distinguir máximo hirnantiense de episodios y correlaciones regionales. No reconstrucción espacial única.",
+      "sourceIds": [
+        "ics"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": false
+    },
+    {
+      "id": "karoo",
+      "inputName": "Karoo",
+      "inputApproximateRangeMa": [
+        360,
+        260
+      ],
+      "classification": "major-climatic-interval",
+      "decision": "Nombre regional asociado a la glaciación tardopaleozoica; avances y retrocesos sobre paleogeografía coetánea.",
+      "sourceIds": [
+        "lpia"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": false
+    },
+    {
+      "id": "quaternary",
+      "inputName": "Cuaternaria",
+      "inputApproximateRangeMa": [
+        2.58,
+        0
+      ],
+      "classification": "formal-period-with-glacial-cycles",
+      "decision": "Cuaternario es unidad formal2.58Ma–actualidad. El estado frío cenozoico y hielo antártico empiezan antes. No se define por hielo simultáneo en ambos polos.",
+      "sourceIds": [
+        "ics",
+        "antarctica"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": false
+    },
+    {
+      "id": "biber",
+      "inputName": "Biber",
+      "inputApproximateRangeMa": [
+        2.5,
+        null
+      ],
+      "classification": "regional-alpine-name",
+      "decision": "Edad del documento orientativa; correlación de depósitos, no frontera climática global.",
+      "sourceIds": [
+        "alpine"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": true
+    },
+    {
+      "id": "donau",
+      "inputName": "Donau",
+      "inputApproximateRangeMa": [
+        2,
+        null
+      ],
+      "classification": "regional-alpine-name",
+      "decision": "Edad del documento orientativa; evitar mapa mundial único inferido de este nombre.",
+      "sourceIds": [
+        "alpine"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": true
+    },
+    {
+      "id": "gunz",
+      "inputName": "Günz",
+      "inputApproximateRangeMa": [
+        1.2,
+        null
+      ],
+      "classification": "regional-alpine-name",
+      "decision": "Sin convertir esta cifra en inicio global sincronizado.",
+      "sourceIds": [
+        "alpine"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": true
+    },
+    {
+      "id": "mindel",
+      "inputName": "Mindel",
+      "inputApproximateRangeMa": [
+        0.65,
+        0.35
+      ],
+      "classification": "regional-alpine-name",
+      "decision": "Correlaciones regionales y edades discutidas; requieren fuente regional propia antes de adoptar intervalos.",
+      "sourceIds": [
+        "alpine"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": true
+    },
+    {
+      "id": "riss",
+      "inputName": "Riss",
+      "inputApproximateRangeMa": [
+        0.3,
+        0.13
+      ],
+      "classification": "regional-alpine-name",
+      "decision": "No equivalencia automática de todos los depósitos alpinos con un único estadio isotópico.",
+      "sourceIds": [
+        "alpine"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": true
+    },
+    {
+      "id": "wurm",
+      "inputName": "Würm",
+      "inputApproximateRangeMa": [
+        0.115,
+        0.0117
+      ],
+      "classification": "regional-last-glacial",
+      "decision": "Último periodo glacial alpino; no todo él es el Último Máximo Glacial. El límite holoceno usa b2k; no confundirlo con BP1950.",
+      "sourceIds": [
+        "lgm",
+        "ics"
+      ],
+      "implementedHere": false,
+      "regionalCorrelationPending": false
+    }
+  ],
+  "omissionsAndNestedEpisodes": [
+    {
+      "id": "pongola",
+      "name": "Pongola",
+      "approximateAgeMa": 2900,
+      "sourceIds": [
+        "pongola"
+      ],
+      "decision": "Añadir evidencia regional; no deducir cobertura planetaria ni duración exacta."
+    },
+    {
+      "id": "sturtian",
+      "name": "Esturtiana",
+      "approximateRangeMa": [
+        717,
+        660
+      ],
+      "sourceIds": [
+        "snowball"
+      ],
+      "decision": "Episodio dentro del Criogénico; fronteras y duración requieren fuente del modelo."
+    },
+    {
+      "id": "marinoan",
+      "name": "Marinoana",
+      "approximateRangeMa": [
+        650,
+        635
+      ],
+      "sourceIds": [
+        "snowball"
+      ],
+      "decision": "Inicio aproximado y discutido; no rellenar automáticamente el intervalo interglacial."
+    },
+    {
+      "id": "gaskiers",
+      "name": "Gaskiers",
+      "approximateAgeMa": 580,
+      "sourceIds": [
+        "gaskiers"
+      ],
+      "decision": "Episodio ediacárico omitido; no prueba automática de Tierra bola de nieve."
+    },
+    {
+      "id": "cenozoic-icehouse",
+      "name": "Estado frío cenozoico y glaciación antártica",
+      "approximateAgeMa": 34,
+      "sourceIds": [
+        "antarctica"
+      ],
+      "decision": "Antecede ampliamente al Cuaternario; no reconstrucción espacial continua ya adquirida."
+    },
+    {
+      "id": "lgm",
+      "name": "Último Máximo Glacial",
+      "approximateRangeMa": [
+        0.0265,
+        0.019
+      ],
+      "sourceIds": [
+        "lgm"
+      ],
+      "decision": "Máximo dentro del último glacial, distinto del periodo115–11.7ka."
+    }
+  ],
+  "geometryLimits": {
+    "PaleoMIST": "Contornos nativos actuales sólo0–80kaBP;23 muestras, sin extender hacia atrás sus geometrías.",
+    "LR04": "Contexto isotópico0–5.32Ma; no determina por sí mismo contornos del hielo.",
+    "deepTime": "Adquirir modelos y evidencias sobre paleocostas contemporáneas al episodio; no usar polos o costas actuales de plantilla para todas las eras."
+  }
+}

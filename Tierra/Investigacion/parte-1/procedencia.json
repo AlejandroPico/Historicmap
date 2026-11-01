@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-11-01",
+  "applicationVersionUnchanged": "0.51.1",
+  "baselineCommit": "1c41b44ec08275758b745de8a58e94c00ff780c5",
+  "scope": "Investigación y auditoría, parte1/6; sin cambios en mapa ni datos de producción",
+  "inputs": [
+    {
+      "file": "originales/grandes-edades-de-hielo-gemini.md",
+      "bytes": 3357,
+      "sha256": "6fd6277fb09a5d6f81e623dad559d9ea75259daaace68c38717679a2527f17eb",
+      "status": "Referencia aportada por usuario, generada por IA; todas las afirmaciones sujetas a contraste."
+    },
+    {
+      "file": "originales/homininos-gemini.md",
+      "bytes": 10939,
+      "sha256": "036543197b86b2b0290b18ba1574fc5b1918fcd66d08289e6ade38a43c6c446b",
+      "status": "Referencia aportada por usuario, generada por IA; todas las afirmaciones sujetas a contraste."
+    }
+  ],
+  "video": {
+    "id": "Q1OreyX0-fw",
+    "url": "https://www.youtube.com/watch?v=Q1OreyX0-fw",
+    "title": "History of the Earth",
+    "creator": "Algol",
+    "uploadDate": "2020-01-04",
+    "durationSeconds": 695,
+    "nativeDimensions": [
+      3840,
+      2160
+    ],
+    "nativeFps": 30,
+    "downloadedBytes": 144083001,
+    "videoAssetCommitted": false,
+    "fullAuthorCaptionCues": 13,
+    "captionCompleteness": "Anotaciones adicionales; no transcripción de todos los rótulos.",
+    "rights": "No se infiere licencia de vídeo a partir de licencias musicales. Vídeo, fotogramas, subtítulos y OCR bruto privados en .cache.",
+    "sha256": "2519aede7f9bc22db28c436b92c6d7a64ec6479765d6ced21a51a2311e9e1199",
+    "tools": {
+      "yt-dlp": "2026.10.26",
+      "ffmpeg": "7.1 · imageio-ffmpeg",
+      "recognizer": "RapidOCR1.4.4/ONNX Runtime1.31.1; reconocimiento automático sin considerar probabilidad OCR como certeza científica"
+    },
+    "creditsEvidence": {
+      "sampleSeconds": 691.5,
+      "informationReferenceCount": 29,
+      "software": [
+        "GPlates2.0",
+        "Clip Studio Paint Pro",
+        "Hitfilm Express"
+      ],
+      "imageContributors": [
+        "Bahnfrend",
+        "Dales Gorge",
+        "NASA",
+        "Tim Bertelink"
+      ],
+      "music": "Kevin MacLeod; CC BY4.0 según créditos. La licencia musical no se extiende automáticamente al vídeo.",
+      "companionVideo": "https://www.youtube.com/watch?v=UgRHZ5jDPUU",
+      "provenanceLimit": "Se ha localizado bibliografía y software, no un paquete único de rotaciones, costas, curvas y versiones que reproduzca íntegramente cada escena."
+    }
+  },
+  "officialChronology": {
+    "chartUrl": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+    "chartVersion": "2026/06",
+    "rdfUrl": "https://raw.githubusercontent.com/i-c-stratigraphy/chart/main/chart.ttl",
+    "rdfSnapshot": "originales/ics-chart.ttl",
+    "rdfSha256": "8548707d66c383460b3bddc20afb7070cb5f3ea187ea1262418dc3a6f2d6e9f7",
+    "rdfVersionCaveat": "El RDF descargado contiene referencia inglesa Modified2024-12. No asumir que sus números coinciden automáticamente con el PDF2026/06.",
+    "license": "CC-BY-4.0 según la página oficial de la carta; mantener atribución ICS.",
+    "chartSnapshot": "originales/ICS-2026-06.pdf",
+    "chartSha256": "1909daecaf1fc15a8f9d432ea3af4f65f4dc9126a4a6a6b09a030aa71bb67ddc",
+    "attribution": "Cohen,K.M.,Harper,D.A.T.,Gibbard,P.L.&Car,N.(2025,updated).The ICS international chronostratigraphic chart this decade.Episodes48:105–115; ICS2026/06.",
+    "visuallyChecked": true
+  }
+}

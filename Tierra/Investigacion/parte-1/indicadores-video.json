@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "status": "research-only; not imported by application",
+  "sampleFile": "muestras-indicadores-video.csv",
+  "sampleCount": 754,
+  "fields": {
+    "temperatureC": "Temperatura media °C; estimación del autor; no medición continua.",
+    "day": "Duración del día; texto horas/minutos o desconocido; el minuto mostrado no prueba tal precisión.",
+    "ageMa": "Edad del cursor del vídeo; no fecha exacta del comienzo del rótulo ni año civil de la aplicación.",
+    "atmosphere": [
+      "rock vapor",
+      "N2",
+      "O2",
+      "Ar",
+      "CO2",
+      "H2O",
+      "CH4",
+      "NH3",
+      "H2",
+      "He"
+    ],
+    "chronology": [
+      "eón",
+      "era",
+      "periodo",
+      "época"
+    ],
+    "surface": "Texturas, cratones, continentes, océanos, hielo y topónimos cartográficos; procedencia y precisión varían.",
+    "events": [
+      "erupción",
+      "impacto",
+      "tectónica",
+      "otros",
+      "geológico",
+      "extinción",
+      "glaciación",
+      "biológico"
+    ]
+  },
+  "semantics": [
+    "Muestras de la imagen del vídeo: no curvas científicas aprobadas. No importar automáticamente este CSV en producción.",
+    "Valores parsed son auxiliares OCR y pueden contener errores; conservar raw y confianza. No se validó manualmente cada celda.",
+    "Antes de19s la primera fila representa vapor de roca, no nitrógeno.19s se excluye de asignación gaseosa fiable por transición; desde20s se verificó la disposición de nueve gases.",
+    "0.00% es redondeo visual, no ausencia física demostrada. Varies es valor desconocido/variable, no0.",
+    "La mezcla inicial contiene agua cuantificada y después variable; base seca/húmeda y presión total no explicitadas. No normalizar porcentajes ni deducir presiones parciales.",
+    "La época de referencia de Ma no se precisa en el vídeo; no equiparar su0.0Ma automáticamente al año actual del dispositivo.",
+    "Color de agua, atmósfera y corteza es contenido físico/editorial de la reconstrucción; independiente de temas de interfaz y colores ICS.",
+    "El mapa es una proyección elíptica, no una esfera3D con relieve medido. No se ha verificado su proyección exacta."
+  ],
+  "manualAnchors": [
+    {
+      "seconds": 16,
+      "fields": [
+        "ageMa",
+        "temperatureC",
+        "day",
+        "rock vapor"
+      ],
+      "observed": {
+        "ageMa": 4540,
+        "temperatureC": 4000,
+        "day": null,
+        "rockVaporPercent": 100
+      }
+    },
+    {
+      "seconds": 250,
+      "fields": [
+        "ageMa",
+        "temperatureC",
+        "day",
+        "gases"
+      ],
+      "observed": {
+        "ageMa": 2584,
+        "temperatureC": 15,
+        "day": "12h4m",
+        "N2": 98,
+        "O2": 0.18,
+        "Ar": 1.34,
+        "CO2": 0.36,
+        "H2O": null
+      }
+    },
+    {
+      "seconds": 680,
+      "fields": [
+        "ageMa",
+        "temperatureC",
+        "day",
+        "gases"
+      ],
+      "observed": {
+        "ageMa": 4,
+        "temperatureC": 15,
+        "day": "23h59m",
+        "N2": 78,
+        "O2": 21,
+        "Ar": 0.92,
+        "CO2": 0.03,
+        "H2O": null
+      }
+    }
+  ],
+  "qualitySummary": {
+    "fieldsBelowOcrConfidence090": 1961,
+    "cursorAgeIncreasesBetweenConsecutiveSamples": 2,
+    "meaning": "Calidad de extracción; no validación científica de valores. Los campos de rangos no usados pueden estar vacíos.",
+    "cursorAgeIncreaseSamples": [
+      {
+        "seconds": 150.0,
+        "previousRaw": "3 190.0 Ma ",
+        "raw": "3184.0 Ma",
+        "status": "cotejar fotograma antes de adoptar serie"
+      },
+      {
+        "seconds": 153.0,
+        "previousRaw": "3 172.0 Ma",
+        "raw": "3166.0 Ma",
+        "status": "cotejar fotograma antes de adoptar serie"
+      }
+    ]
+  }
+}

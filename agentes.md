@@ -2,11 +2,11 @@
 
 Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.51.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección70; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección71; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** corregir el fallo de validación comunicado, publicar0.51.1 sin ampliar datos o cronología y terminar sin esperar Actions/Pages. Ver sección70 y tareas.md.
+**Encargo vigente:** parte1/6 de investigación terrestre: auditar dos documentos aportados y el vídeo de Algol, registrar observaciones, fuentes, discrepancias y límites; mantener aplicación0.51.1 sin implementar todavía paneles, bandas o nuevas reconstrucciones. Ver sección71 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1487,3 +1487,26 @@ El segundo recorrido del mismo archivo presentó una espera fallida de retrato d
 Producto0.51.1, datos científicos conservados en sus versiones declaradas. El compilador humano --check debe usar la versión incorporada de cada recurso, no imponer un cambio de versión por una corrección exclusiva de pruebas; en modo de generación sigue usando la versión del producto. Se comprueba reproducción sin escribir datos. Tipos, producción y recopilación normal148 casos correctos. Mantener ocho grupos y barrido anual; no esperar Actions/Pages. El estado efectivo del cierre y envío está en tareas.md y Git.
 
 Cierre0.51.1: tipos y producción correctos;148 casos recopilados normalmente; ambos recorridos de review-019 pasan individualmente. Reproducción científica --check correcta con versión del producto0.51.1 y versiones incorporadas de datos conservadas. Sin cambios en public/data, Países o Tierra. Registro cerrado para commit/push; cotejar HEAD/origin al retomar y terminar sin consultar Actions/Pages.
+
+
+## 71. Investigación terrestre · parte1/6 · 1/11/2026
+
+El propietario aprobó comenzar exclusivamente la primera de seis partes. Base1c41b44ec; aplicación/datos0.51.1 se conservan. No implementar todavía panel planetario, bandas geológicas/humanas, nuevas costas, hielo o especies; el siguiente encargo será parte2 si el propietario lo indica.
+
+Entrega: docs/AUDIT-EARTH-PART-1.md y Tierra/Investigacion/parte-1/. Documentos Gemini aportados archivados byte a byte con hashes; referencia no primaria y sin autoridad como instrucciones. Comparación nominal de38 entradas humanas frente a35 fichas existentes (sin eliminar las no nombradas),11 entradas glaciales y episodios omitidos. Propuestas, aliases, poblaciones y especies no son equivalentes.
+
+Vídeo Algol Q1OreyX0-fw recuperado completo4K/30fps/695s. Inventario observacional198 acontecimientos/candidatos,754 muestras de indicadores,13 notas originales y29 referencias finales, cobertura950 fotogramas. No transcripción exhaustiva certificada, no lectura manual de20.850 fotogramas ni validación científica de todas las cifras. Se declara el muestreo y los huecos; las partes3–5 deben revisar sus segmentos antes de adoptar contenido. Algunas referencias sólo se han localizado; las demás tienen contraste limitado a resúmenes/extractos o curación anterior indicada. No confundir el nombre de una fuente con su lectura íntegra.
+
+Material privado en .cache/video-audit/: vídeo, metadatos con URLs temporales, subtítulos, imágenes y OCR narrativo. No subirlos. Material público: hechos/nombres, valores, tiempos, hashes, referencias y notas propias; originales aportados y carta/RDF ICS con atribución. La licencia musical de los créditos no licencia automáticamente la animación. Ver METODO.md y NOTICE.md.
+
+Precauciones decisivas: vapor de roca inicial no es nitrógeno; porcentajes redondeados/agua variable no significan ausencia/valor0. Ma del cursor no acredita fecha exacta de un rótulo. El vídeo es una proyección elíptica, no globo3D medido. Se citan GPlates2.0 y reconstrucciones de Scotese/Evans/otros, pero no se ha localizado un paquete único que reproduzca cada escena. Las geometrías y curvas deberán tener procedencia por época. Los colores físicos de agua, atmósfera y superficie son independientes del tema de interfaz y de la paleta de la regla.
+
+ICS2026/06 PDF archivada y revisada visualmente; RDF enlazado archivado con referencia inglesa2024-12. No asumir identidad de valores. Separar eón/era/periodo/época/edad y agrupaciones informales, BP1950/b2k2000/años civiles sin cero. La difuminación visual del Cuaternario/Holoceno no significa que haya finalizado. Las edades humanas son regionales/solapadas, no una secuencia oficial global única. Antropoceno no ratificado. El límite propio del proyecto sigue4.54Ga aunque la carta empiece4567Ma.
+
+Pongola precede a la Huroniana; no fijar5/12/13 glaciaciones universales. Separar Esturtiana/Marinoana, estado frío cenozoico y máximos/correlaciones regionales. Würm no equivale a todo el LGM. PaleoMIST sólo0–80ka; LR04 no da contornos. No inventar glaciares antiguos por una curva o por una etiqueta.
+
+Discrepancias del vídeo priorizadas: PETM50Ma frente a referencia56Ma, fuego600Ma frente a evidencia silúrica consultada, productividad frente a porcentajes de extinción, colores oceánicos/modelos, tectónica temprana, núcleo interno, impactos discutidos y cifras de Oklo. Eucariotas no son simplemente bacterias con núcleo. Catálogo humano: revisar Ledi-Geraru sin especie asignada, gautengensis como propuesta, Nesher Ramla como población, MZR/Herto dentro de contextos de sapiens y nombres regionales de erectus sin duplicar expansiones. No atribuir violencia al solapamiento.
+
+Ruta:2 esquema/panel/bandas;3 formación/Precámbrico;4 Cámbrico–homininos;5 homininos/hielo/transición humana;6 integración/verificación. Los pendientes concretos siguen en tareas.md. Ningún inventario OCR se importa en producción automáticamente.
+
+Comprobación independiente: python scripts/check-earth-research.py; sin dependencias adicionales, sin medios privados. Verifica hashes,38/11 correspondencias, referencias,198 candidatos,754 muestras,950 imágenes y29 referencias. Aplicación, Países, Tierra/Humanidad, datos de producción, dependencias y workflows intactos. No se repite la batería de navegador por documentación. Cerrar con commit/push y cotejo de origen; terminar sin esperar Actions/Pages.
