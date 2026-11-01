@@ -4,8 +4,8 @@ Encargo del propietario, 31 de octubre de 2026. El alcance es la Tierra desde su
 
 ## Orden de trabajo acordado
 
-1. **En ejecución:6000–3001 a.C.** Comunidades, asentamientos y paisajes arqueológicos, con redes urbanas tardías sólo donde hay evidencia. Conservar las culturas y todos los registros posteriores. Sin banderas nacionales, gobernantes o Estados supuestos para rellenar vacíos.
-2. **Siguiente tanda prevista:10000–6001 a.C.** Requiere nuevo encargo. Final del Pleistoceno, transición al Holoceno, poblaciones y asentamientos; cronologías regionales y cambios de costa/hielo cuando haya modelos aptos. No es una ampliación ya ejecutada por añadir esta ruta.
+1. **Publicado en0.48:6000–3001 a.C.** Comunidades, asentamientos y paisajes arqueológicos, con redes urbanas tardías sólo donde hay evidencia. Conservar las culturas y todos los registros posteriores. Sin banderas nacionales, gobernantes o Estados supuestos para rellenar vacíos.
+2. **Incorporado en0.49:10000–6001 a.C.** [Investigación y límites](RESEARCH-bc10000.md). Final del Pleistoceno, transición al Holoceno, poblaciones y asentamientos; cronologías regionales y cambios de costa/hielo cuando haya modelos aptos. Se incluyen comunidades, yacimientos y márgenes originales de hielo de PaleoMIST1.0, cada2.500años, en una capa opcional. Las paleocostas siguen pendientes: no se infieren del contorno del hielo.
 3. **Pleistoceno y expansión humana.** Tandas mayores según resolución y disponibilidad de evidencia, no necesariamente saltos uniformes de 100000 años. Distribuciones, yacimientos, dispersión e interacción de poblaciones; distintas especies y linajes humanos donde estén documentados.
 4. **Historia biológica, climática y tectónica anterior.** Ventanas de miles a millones de años, preservando la fecha real de cada reconstrucción. Integrar paleogeografía, hielo, clima, ecosistemas y extinciones.
 5. **Tierra temprana.** Escenarios de acreción, océanos magmáticos, impacto formador de la Luna, enfriamiento, corteza, agua, atmósfera y primeras evidencias de vida. Mantener visibles las incertidumbres; no presentar una textura convincente como una observación del Hádico.

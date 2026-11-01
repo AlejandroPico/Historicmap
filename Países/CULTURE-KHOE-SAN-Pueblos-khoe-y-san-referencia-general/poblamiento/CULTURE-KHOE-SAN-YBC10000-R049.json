@@ -1,0 +1,74 @@
+{
+  "key": "CULTURE-KHOE-SAN-YBC10000-R049",
+  "contextKey": "CULTURE-KHOE-SAN",
+  "ownerKey": "CULTURE-KHOE-SAN",
+  "name": "África austral · comunidades y tradiciones de larga duración",
+  "originalNames": [
+    "Khoisan"
+  ],
+  "kind": "cultural-region",
+  "region": "Comunidades del final del Pleistoceno y Holoceno inicial · referencia regional",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -10000,
+    -6001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente. La denominación lingüística o étnica tardía de la fuente no demuestra una identidad moderna ni una monarquía homogénea en este milenio.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay fuentes cartográficas de 10000 y 8000, no una serie anual. Los intervalos son ventanas explícitas de consulta, no fechas de fundación o extinción cultural; los conjuntos que continúan desde 6000 se conservan sin alteración.",
+  "references": [
+    {
+      "title": "Historical Basemaps · fuente fijada de 10000 a. C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc10000.geojson"
+    },
+    {
+      "title": "Investigación10000–6001 a. C. y límites",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc10000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    26.31502,
+    -21.45811
+  ],
+  "phases": [
+    {
+      "start": -10000,
+      "end": -8001,
+      "label": "África austral · comunidades y tradiciones de larga duración",
+      "dateBasis": "Fuente cartográfica de 10000 a. C. conservada como referencia para la ventana 10000–8001 a. C.; no observaciones anuales ni prueba de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-KHOE-SAN-YBC10000-R049.geojson",
+  "geometrySha256": "501c4fef22f1b46d14c40e262cb98c15b30371b75caf4ef22e29d96e5909d720",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc10000.geojson",
+    "year": -10000,
+    "featureIds": [
+      15
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "752cb940ccb0c00cbd11bfd23c79bfe04396a63affbf2781bdabbe8929f544d8"
+  },
+  "review": "0.49.0 · 2026-11-01",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Khoisan",
+      "ABBREVN": "Khoisan",
+      "type": null,
+      "weblnks": "https://en.wikipedia.org/wiki/Khoisan",
+      "SUBJECTO": "Khoisan",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Khoisan"
+    }
+  ],
+  "sourceGrouping": [
+    "Khoisan"
+  ]
+}

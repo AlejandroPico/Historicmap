@@ -3,6 +3,10 @@ ROOT=pathlib.Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'scr
 from archaeology_evidence import check_archaeology
 from civil_dates import check_window
 class ArchaeologicalEvidence(unittest.TestCase):
+ def test_five_digit_dates_and_nested_evidence_keep_the_political_limit(self):
+  paths=list((ROOT/'Países').glob('*/arqueologia/bc10000-bc6001.json'));self.assertEqual(len(paths),20)
+  for p in paths:check_archaeology(json.loads(p.read_text(encoding='utf8')))
+  with self.assertRaises(ValueError):check_window(-10000,-6001)
  def test_all_canonical_references_and_separate_political_limit(self):
   paths=list((ROOT/'Países').glob('*/arqueologia.json'));self.assertEqual(len(paths),22)
   for p in paths:check_archaeology(json.loads(p.read_text(encoding='utf8')))

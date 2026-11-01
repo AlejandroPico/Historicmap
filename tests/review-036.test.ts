@@ -16,7 +16,7 @@ describe('400–499 political powers and regional communities',()=>{
    years.push({year,politicalComponents:p.features.length,culturalReferences:r.features.length,withAuthorities:authorities,withSymbols:symbols,places:datedPlaces(p,year).features.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-400-499.json',JSON.stringify({scope:'Disponibilidad anual por el recorrido de producción; no censo mundial exhaustivo ni fronteras observadas anualmente. Cortes puntuales y contornos regionales no equivalen a soberanía uniforme.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueAuthorityRecords:dossiers.reduce((n,d)=>n+d.data.leaders.length,0),catalogueWithoutPortraits:dossiers.flatMap(d=>d.data.leaders.filter((l:any)=>!l.portrait).map((l:any)=>({key:d.data.key,person:l.person,name:l.name,start:l.start,end:l.end})))},null,2)+'\n');
-  expect(hasRegionalCoverage(firstRegionalYear-1)).toBe(false);expect(hasRegionalCoverage(400)).toBe(true);expect(snapshotFor(firstAnnualYear-1).kind).toBe('historical');expect(snapshotFor(500).file).toBe('early-modern-500.geojson');
+  expect(hasRegionalCoverage(firstRegionalYear-1)).toBe(false);expect(hasRegionalCoverage(400)).toBe(true);expect(snapshotFor(firstAnnualYear-1).kind).not.toBe('annual');expect(snapshotFor(500).file).toBe('early-modern-500.geojson');
  },90000);
 
  it('distinguishes the Western court, Nepos in Dalmatia and the Italian powers',async()=>{

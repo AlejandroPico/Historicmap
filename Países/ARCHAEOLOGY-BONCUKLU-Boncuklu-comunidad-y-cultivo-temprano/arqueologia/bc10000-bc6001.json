@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-BONCUKLU",
+  "identity": {
+    "qid": "",
+    "name": "Boncuklu · comunidad y cultivo temprano",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.49.0",
+  "acquisition": "archaeology-bc10000-0.49",
+  "coverageStart": -8300,
+  "coverageEnd": -7600,
+  "evidenceWindow": [
+    -8300,
+    -7600
+  ],
+  "dateBasis": "Estudio 2021:8300–7600 calBCE. Las secuencias publicadas 2018 distinguen 8300–8100 y 8100–7800; la datación del final tiene variantes.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-8300-01-01",
+      "end": "-7600-12-31",
+      "text": "La evidencia arqueológica no identifica aquí un gobernante individual ni una constitución. No se atribuyen retratos, banderas nacionales o mandatos supuestos. Estudio 2021:8300–7600 calBCE. Las secuencias publicadas 2018 distinguen 8300–8100 y 8100–7800; la datación del final tiene variantes.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/"
+    }
+  ],
+  "governance": [
+    {
+      "start": -8300,
+      "end": -7600,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "sourceLabel": "Evidencia arqueológica; gobierno no inferido",
+      "note": "Una comunidad, un enterramiento o una construcción no prueban por sí solos una constitución estatal."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch049-ccee7dd92486",
+      "name": "Boncuklu · comunidad y cultivo temprano",
+      "coordinates": [
+        32.8667,
+        37.75
+      ],
+      "start": -8300,
+      "end": -7600,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "note": "Comunidad de la llanura de Konya con cultivo de escala limitada y otras estrategias de subsistencia; no todos los asentamientos vecinos fueron agricultores. Estudio 2021:8300–7600 calBCE. Las secuencias publicadas 2018 distinguen 8300–8100 y 8100–7800; la datación del final tiene variantes.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch049-ccee7dd92486-reference",
+      "name": "Boncuklu · comunidad y cultivo temprano",
+      "coordinates": [
+        32.8667,
+        37.75
+      ],
+      "start": -8300,
+      "end": -7600,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "note": "Comunidad de la llanura de Konya con cultivo de escala limitada y otras estrategias de subsistencia; no todos los asentamientos vecinos fueron agricultores. Estudio 2021:8300–7600 calBCE. Las secuencias publicadas 2018 distinguen 8300–8100 y 8100–7800; la datación del final tiene variantes.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Boncuklu · comunidad y cultivo temprano"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context049-ccee7dd92486",
+      "type": "transition",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-8300-01-01",
+      "end": "-7599-01-01",
+      "text": "Comunidad de la llanura de Konya con cultivo de escala limitada y otras estrategias de subsistencia; no todos los asentamientos vecinos fueron agricultores. Estudio 2021:8300–7600 calBCE. Las secuencias publicadas 2018 distinguen 8300–8100 y 8100–7800; la datación del final tiene variantes.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "sourceLabel": "Investigación arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafía, cronología absoluta y organización social. El intervalo de consulta no prueba ocupación continua de cada año. Las coordenadas son referencias de localización, no perímetros de un Estado."
+  ]
+}

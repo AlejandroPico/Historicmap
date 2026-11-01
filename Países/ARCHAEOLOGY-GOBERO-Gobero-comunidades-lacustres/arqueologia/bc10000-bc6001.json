@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-GOBERO",
+  "identity": {
+    "qid": "",
+    "name": "Gobero · comunidades lacustres",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.49.0",
+  "acquisition": "archaeology-bc10000-0.49",
+  "coverageStart": -7700,
+  "coverageEnd": -6200,
+  "evidenceWindow": [
+    -7700,
+    -6200
+  ],
+  "dateBasis": "Consulta de la fase temprana 7700–6200 a.C. No se fechan personas por la edad 14000–7000 de las dunas; son evidencias diferentes.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-7700-01-01",
+      "end": "-6200-12-31",
+      "text": "La evidencia arqueológica no identifica aquí un gobernante individual ni una constitución. No se atribuyen retratos, banderas nacionales o mandatos supuestos. Consulta de la fase temprana 7700–6200 a.C. No se fechan personas por la edad 14000–7000 de las dunas; son evidencias diferentes.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2515196/"
+    }
+  ],
+  "governance": [
+    {
+      "start": -7700,
+      "end": -6200,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2515196/",
+      "sourceLabel": "Evidencia arqueológica; gobierno no inferido",
+      "note": "Una comunidad, un enterramiento o una construcción no prueban por sí solos una constitución estatal."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch049-98410a3b6bdb",
+      "name": "Gobero · comunidades lacustres",
+      "coordinates": [
+        9.407,
+        16.934
+      ],
+      "start": -7700,
+      "end": -6200,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2515196/",
+      "note": "Ocupaciones y enterramientos junto a un paleolago sahariano; se distingue la fase temprana del hiato 6200–5200 y de la fase posterior. Consulta de la fase temprana 7700–6200 a.C. No se fechan personas por la edad 14000–7000 de las dunas; son evidencias diferentes.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch049-98410a3b6bdb-reference",
+      "name": "Gobero · comunidades lacustres",
+      "coordinates": [
+        9.407,
+        16.934
+      ],
+      "start": -7700,
+      "end": -6200,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2515196/",
+      "note": "Ocupaciones y enterramientos junto a un paleolago sahariano; se distingue la fase temprana del hiato 6200–5200 y de la fase posterior. Consulta de la fase temprana 7700–6200 a.C. No se fechan personas por la edad 14000–7000 de las dunas; son evidencias diferentes.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Gobero · comunidades lacustres"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context049-98410a3b6bdb",
+      "type": "transition",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-7700-01-01",
+      "end": "-6199-01-01",
+      "text": "Ocupaciones y enterramientos junto a un paleolago sahariano; se distingue la fase temprana del hiato 6200–5200 y de la fase posterior. Consulta de la fase temprana 7700–6200 a.C. No se fechan personas por la edad 14000–7000 de las dunas; son evidencias diferentes.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2515196/",
+      "sourceLabel": "Investigación arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafía, cronología absoluta y organización social. El intervalo de consulta no prueba ocupación continua de cada año. Las coordenadas son referencias de localización, no perímetros de un Estado."
+  ]
+}

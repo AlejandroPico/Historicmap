@@ -10,7 +10,14 @@ for (const entry of manifest.entries) {
   if (createHash('sha256').update(bytes).digest('hex') !== entry.sha256) throw new Error(`Checksum mismatch ${entry.file}`);
   for(const [input,expected] of Object.entries(entry.inputSha256??{}))if(createHash('sha256').update(await readFile(new URL(input,root))).digest('hex')!==expected)throw Error(`Stale prepared input ${entry.file}: ${input}`);
   const data = JSON.parse(bytes);
-  if(entry.format==='dated-cultural-regions'){
+  if(entry.format==='ice-margin-model-index'){
+    if(data.referenceEpoch!==1950||data.temporalStepYears!==2500||data.consultationStart!==-10000||data.samples.length!==6)throw Error('Invalid ice model index');
+    for(const r of data.samples)if(!manifest.entries.some(e=>e.file===r.file&&e.ageBP===r.ageBP))throw Error('Unregistered ice margin');
+  }
+  else if(entry.format==='dated-ice-margin-model'){
+    if(data.type!=='FeatureCollection'||data.features.length!==4||data.features.some(f=>f.geometry.type!=='MultiPolygon'||f.properties.ageBP!==entry.ageBP||!f.properties.canonicalFile||!f.properties.originalSha256))throw Error('Invalid model margins');
+  }
+  else if(entry.format==='dated-cultural-regions'){
     if(data.type!=='FeatureCollection'||data.features.length!==entry.features)throw Error('Invalid cultural regions');const ids=new Set();
     for(const f of data.features){const p=f.properties;if(ids.has(f.id)||!p.contextKey||!p.ownerKey||p.start>p.end||!p.dateBasis||!p.sourceYear||!p.spatialUncertainty||!p.temporalUncertainty||!p.references.length||!p.canonicalFile||!['cultural-region','polity-reference'].includes(p.kind))throw Error('Invalid cultural evidence '+f.id);ids.add(f.id);}
   }

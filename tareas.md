@@ -1,8 +1,25 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.48.0 · 6000–3001 a. C. y ruta hasta la formación terrestre
+## Encargo vigente · 0.49.0 · 10000–6001 a. C.
 
-- [x] Comprobar base60649 ebde limpia y congelar conservación048. Tres componentes políticos originales sólo desde 3400; no inventar reinos en 6000.
+- [x] Verificar base 77514a599 y árbol limpio; congelar los hechos y 10277 fases anteriores.
+- [x] Inventariar fuentes 10000/8000, contrastar anacronismos y conservar áreas en cada cambio de referencia.
+- [x] Incorporar comunidades y yacimientos fechados del final del Pleistoceno y Holoceno inicial, con incertidumbres y datos dentro de Países.
+- [x] Incorporar márgenes originales de hielo PaleoMIST 1.0 (CC-BY-4.0); distinguir BP1950, b2k y años civiles. Paleocostas pendientes, señaladas como referencia contemporánea.
+- [x] Ampliar navegación y fichas hasta 10000 sin crear gobernantes, Estados o fronteras supuestos.
+- [x] Compilar con un único escritor, sincronizar catálogo y comprobar conservación, fechas, tipos, producción y navegador. 367 pruebas generales; 28 focales tras el ajuste final; 32 Python; seis recorridos previos y tres finales de navegador correctos.
+- [x] Documentar resultados y pendientes en la entrega, investigación y manual; conservación de autoridades, símbolos, culturas, contextos, lugares y gobernanza.
+- [x] Cotejar los 244 archivos modificados/nuevos con sus objetos Git y los 9443 recursos de manifiestos con SHA-256; 9389 recursos anteriores conservan su objeto. La fase local de 0.49 está cerrada.
+
+Último paso de transporte: enviar a main y comunicar el resultado en la respuesta de entrega, sin esperar Actions/Pages. El historial Git acredita el envío; el propietario verifica la publicación remota.
+
+Pendientes explícitos: paleocostas y paleorrelieve, dispersión y otros homininos, clima/vegetación y contraste regional independiente. No iniciar otra tanda antes de que el propietario la indique.
+
+No dar por investigada ninguna fase anterior a 10000. No modificar referencias contemporáneas al estudiar el pasado. La ausencia de un polígono o yacimiento no acredita ausencia de población. Los contextos arqueológicos amplios no son episodios repetidos en cada año.
+
+## Entrega anterior · 0.48.0 · 6000–3001 a. C. y ruta hasta la formación terrestre
+
+- [x] Comprobar base60649ebde limpia y congelar conservación048. Tres componentes políticos originales sólo desde 3400; no inventar reinos en 6000.
 - [x] Documentar el objetivo Tierra–presente y fases posteriores; corregir escalas BP/a.C., dispersión humana y niveles de glaciación sin fijar trece por suposición.
 - [x] Investigar comunidades, asentamientos y transformación urbana de 6000–3001; fuentes, fechas y dudas por entidad, sin líderes ni banderas supuestos.
 - [x] Conservar fuentes culturales8000/5000/4000 con referencias explícitas; no adelantar la fuente5000 a 6000. Mantener todos los datos posteriores.

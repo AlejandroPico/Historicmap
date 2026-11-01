@@ -4,7 +4,7 @@ Empieza por [el índice legible](INDICE.md). Cada carpeta tiene una clave establ
 
 `entidad.json` reúne nombres, banderas, mandatos con retratos y referencias a registros territoriales. Cada medio conserva licencia, autor, origen y ruta local; las imágenes están en `public/media` y los polígonos en `public/data`, sin multiplicar miles de copias ni mezclar licencias geográficas. Los regímenes de una misma identidad mantienen sus intervalos; las identidades históricas distintas conservan carpetas propias. Los registros sin equivalencia contrastada no se fusionan por semejanza.
 
-Este inventario se genera con `npm run entities:prepare`. Las adquisiciones y curaciones siguen escribiendo los conjuntos preparados de `public/data`; después se regenera el inventario. **No editar `entidad.json`: se reemplaza al regenerar.** No es una segunda base de datos independiente. `recursos.json` y `archivos/` son entradas propias y no se sobrescriben. `npm run build` actualiza y valida el inventario antes de compilar.
+Este inventario se genera con `npm run entities:prepare`. Las nuevas adquisiciones y curaciones se escriben en los archivos canónicos de su propietario dentro de `Países`; sus compiladores producen `public/data` y después se regenera el inventario. **No editar `entidad.json`: se reemplaza al regenerar.** No es una segunda base de datos independiente. `recursos.json` y `archivos/` son entradas propias y no se sobrescriben. `npm run build` actualiza y valida el inventario antes de compilar.
 
 ## Correcciones históricas por entidad
 
@@ -68,3 +68,10 @@ Las nuevas fases1906–2027 guardan `reviewedOn`, `evidenceThrough`, interpretac
 Un yacimiento o red sin mandatos acreditados puede tener `arqueologia.json` en su carpeta propietaria. Contrato `archaeological-evidence`: rangos de consulta, fechas de evidencia, notas de autoridades, puntos con `referenceKind: archaeological-site`, fuentes y contexto. No admite líderes, símbolos nacionales o reglas de fronteras supuestos; la complejidad material no atribuye por defecto una constitución. Las fechas pueden abarcar milenios de consulta, sin ampliar el máximo de400 años de los lotes políticos. Un rango no prueba ocupación continua.
 
 Compilar con `prepare-entity-revisions.py` y registrar con `register-entity-revisions.mjs`. El catálogo conserva la ruta canónica indicada por `identity.canonicalFile` de las nuevas identidades, evitando crear otra carpeta para su vista generada. Los datos arqueológicos y los originales de `poblamiento/` son distintos; los públicos se derivan, no se editan a mano. [Fuentes y límites](../docs/RESEARCH-bc6000.md).
+
+
+## Referencias arqueológicas por tramo · 0.49
+
+`arqueologia.json` conserva la evidencia ya publicada del propietario. Las ampliaciones disjuntas pueden añadirse en `arqueologia/<tramo>.json`, por ejemplo `arqueologia/bc10000-bc6001.json`, con formato `archaeological-evidence`. Se conservan clave, carpeta y originales anteriores. Los puntos no son capitales por defecto ni acreditan gobernantes, banderas nacionales o una constitución. Los contextos deben llevar `type: transition` y `confidence: archaeological-reference`; los intervalos de consulta no prueban ocupación continua.
+
+Compilar las revisiones y ejecutar `scripts/register-entity-revisions.mjs` antes de las comprobaciones para sincronizar datos, manifiestos, rótulos y catálogo. Los fenómenos naturales, como márgenes de hielo o cronología estratigráfica, pertenecen al catálogo `Tierra/`; no son nuevos países. Véase [el alcance de esta ampliación](../docs/RESEARCH-bc10000.md).

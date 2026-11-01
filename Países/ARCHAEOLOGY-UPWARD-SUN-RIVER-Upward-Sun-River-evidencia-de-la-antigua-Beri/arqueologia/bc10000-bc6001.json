@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-UPWARD-SUN-RIVER",
+  "identity": {
+    "qid": "",
+    "name": "Upward Sun River · evidencia de la antigua Beringia",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.49.0",
+  "acquisition": "archaeology-bc10000-0.49",
+  "coverageStart": -9651,
+  "coverageEnd": -9451,
+  "evidenceWindow": [
+    -9651,
+    -9451
+  ],
+  "dateBasis": "Referencia de aproximadamente 11500 calBP, nominalmente 9551 a.C.; ventana de consulta±100 años para una edad redondeada, no fecha exacta de nacimiento, fundación o ocupación continua.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-9651-01-01",
+      "end": "-9451-12-31",
+      "text": "La evidencia arqueológica no identifica aquí un gobernante individual ni una constitución. No se atribuyen retratos, banderas nacionales o mandatos supuestos. Referencia de aproximadamente 11500 calBP, nominalmente 9551 a.C.; ventana de consulta±100 años para una edad redondeada, no fecha exacta de nacimiento, fundación o ocupación continua.",
+      "source": "https://www.nature.com/articles/nature25173"
+    }
+  ],
+  "governance": [
+    {
+      "start": -9651,
+      "end": -9451,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://www.nature.com/articles/nature25173",
+      "sourceLabel": "Evidencia arqueológica; gobierno no inferido",
+      "note": "Una comunidad, un enterramiento o una construcción no prueban por sí solos una constitución estatal."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch049-1aa35a89979d",
+      "name": "Upward Sun River · evidencia de la antigua Beringia",
+      "coordinates": [
+        -149.81,
+        64.95
+      ],
+      "start": -9651,
+      "end": -9451,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://www.nature.com/articles/nature25173",
+      "note": "Un enterramiento y datos genómicos documentan personas en Alaska mucho antes del final del Holoceno inicial. No se infiere una ruta exacta ni la primera entrada en América a partir de un solo individuo. Referencia de aproximadamente 11500 calBP, nominalmente 9551 a.C.; ventana de consulta±100 años para una edad redondeada, no fecha exacta de nacimiento, fundación o ocupación continua.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch049-1aa35a89979d-reference",
+      "name": "Upward Sun River · evidencia de la antigua Beringia",
+      "coordinates": [
+        -149.81,
+        64.95
+      ],
+      "start": -9651,
+      "end": -9451,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://www.nature.com/articles/nature25173",
+      "note": "Un enterramiento y datos genómicos documentan personas en Alaska mucho antes del final del Holoceno inicial. No se infiere una ruta exacta ni la primera entrada en América a partir de un solo individuo. Referencia de aproximadamente 11500 calBP, nominalmente 9551 a.C.; ventana de consulta±100 años para una edad redondeada, no fecha exacta de nacimiento, fundación o ocupación continua.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Upward Sun River · evidencia de la antigua Beringia"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context049-1aa35a89979d",
+      "type": "transition",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-9651-01-01",
+      "end": "-9450-01-01",
+      "text": "Un enterramiento y datos genómicos documentan personas en Alaska mucho antes del final del Holoceno inicial. No se infiere una ruta exacta ni la primera entrada en América a partir de un solo individuo. Referencia de aproximadamente 11500 calBP, nominalmente 9551 a.C.; ventana de consulta±100 años para una edad redondeada, no fecha exacta de nacimiento, fundación o ocupación continua.",
+      "source": "https://www.nature.com/articles/nature25173",
+      "sourceLabel": "Investigación arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafía, cronología absoluta y organización social. El intervalo de consulta no prueba ocupación continua de cada año. Las coordenadas son referencias de localización, no perímetros de un Estado."
+  ]
+}

@@ -16,7 +16,7 @@ describe('500–599 political powers and regional communities',()=>{
    years.push({year,politicalComponents:p.features.length,culturalReferences:r.features.length,withAuthorities:authorities,withSymbols:symbols,places:datedPlaces(p,year).features.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-500-599.json',JSON.stringify({scope:'Disponibilidad anual por el recorrido de producción; no censo mundial exhaustivo ni fronteras observadas anualmente. Cortes puntuales y contornos regionales no equivalen a soberanía uniforme.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueAuthorityRecords:dossiers.reduce((n,d)=>n+d.data.leaders.length,0),catalogueWithoutPortraits:dossiers.flatMap(d=>d.data.leaders.filter((l:any)=>!l.portrait).map((l:any)=>({key:d.data.key,person:l.person,name:l.name,start:l.start,end:l.end})))},null,2)+'\n');
-  expect(hasRegionalCoverage(firstRegionalYear-1)).toBe(false);expect(hasRegionalCoverage(500)).toBe(true);expect(snapshotFor(firstAnnualYear-1).kind).toBe('historical');expect(snapshotFor(600).file).toBe('early-modern-600.geojson');
+  expect(hasRegionalCoverage(firstRegionalYear-1)).toBe(false);expect(hasRegionalCoverage(500)).toBe(true);expect(snapshotFor(firstAnnualYear-1).kind).not.toBe('annual');expect(snapshotFor(600).file).toBe('early-modern-600.geojson');
  },90000);
  it('separates imperial accession from Caesar designation, regency and restored reigns',()=>{
   expect(identity('BYZANTINE',526).leaders.some(l=>l.person==='Q41866')).toBe(false);expect(identity('BYZANTINE',528).leaders.some(l=>l.person==='Q41866')).toBe(true);expect(identity('BYZANTINE',590).leaders.some(l=>l.person==='Q181764')).toBe(true);

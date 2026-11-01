@@ -1,0 +1,72 @@
+{
+  "key": "CULTURE-LEVANTINE-CORRIDOR-NEOLITHIC-FARMERS-8CA53156-YBC10000-R049",
+  "contextKey": "CULTURE-LEVANTINE-CORRIDOR-NEOLITHIC-FARMERS-8CA53156",
+  "ownerKey": "CULTURE-LEVANTINE-CORRIDOR-NEOLITHIC-FARMERS-8CA53156",
+  "name": "Corredor levantino · comunidades neolíticas agrícolas",
+  "originalNames": [
+    "Levantine Corridor (Neolithic Farmers)"
+  ],
+  "kind": "cultural-region",
+  "region": "Comunidades del final del Pleistoceno y Holoceno inicial · referencia regional",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -10000,
+    -6001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente. La etiqueta agrícola del mapa no prueba que todas estas comunidades cultivaran plantas domesticadas desde 10000: recolección, cultivo y domesticación se distinguen; los ritmos varían regionalmente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay fuentes cartográficas de 10000 y 8000, no una serie anual. Los intervalos son ventanas explícitas de consulta, no fechas de fundación o extinción cultural; los conjuntos que continúan desde 6000 se conservan sin alteración.",
+  "references": [
+    {
+      "title": "Historical Basemaps · fuente fijada de 10000 a. C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc10000.geojson"
+    },
+    {
+      "title": "Investigación10000–6001 a. C. y límites",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc10000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    36.95621,
+    32.90608
+  ],
+  "phases": [
+    {
+      "start": -10000,
+      "end": -8001,
+      "label": "Corredor levantino · comunidades y transformación de la subsistencia",
+      "dateBasis": "Fuente cartográfica de 10000 a. C. conservada como referencia para la ventana 10000–8001 a. C.; no observaciones anuales ni prueba de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-LEVANTINE-CORRIDOR-NEOLITHIC-FARMERS-8CA53156-YBC10000-R049.geojson",
+  "geometrySha256": "2c383675e7a4bb25c2d8fc1e5d7d94b60102c0166fd38b7cae43b4723c45eea3",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc10000.geojson",
+    "year": -10000,
+    "featureIds": [
+      125
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "752cb940ccb0c00cbd11bfd23c79bfe04396a63affbf2781bdabbe8929f544d8"
+  },
+  "review": "0.49.0 · 2026-11-01",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Levantine Corridor (Neolithic Farmers)",
+      "ABBREVN": "",
+      "type": null,
+      "weblnks": null,
+      "SUBJECTO": "",
+      "BORDERPRECISION": 1,
+      "PARTOF": ""
+    }
+  ],
+  "sourceGrouping": []
+}

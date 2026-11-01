@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-JERF-EL-AHMAR",
+  "identity": {
+    "qid": "",
+    "name": "Jerf el Ahmar · comunidad del Éufrates",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.49.0",
+  "acquisition": "archaeology-bc10000-0.49",
+  "coverageStart": -9500,
+  "coverageEnd": -8700,
+  "evidenceWindow": [
+    -9500,
+    -8700
+  ],
+  "dateBasis": "Horizonte mureybetiense 9500–8700 a.C. de la publicación; cronología aproximada, con varias fases constructivas.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-9500-01-01",
+      "end": "-8700-12-31",
+      "text": "La evidencia arqueológica no identifica aquí un gobernante individual ni una constitución. No se atribuyen retratos, banderas nacionales o mandatos supuestos. Horizonte mureybetiense 9500–8700 a.C. de la publicación; cronología aproximada, con varias fases constructivas.",
+      "source": "https://www.persee.fr/doc/mom_1274-6525_1998_act_28_1_1102"
+    }
+  ],
+  "governance": [
+    {
+      "start": -9500,
+      "end": -8700,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://www.persee.fr/doc/mom_1274-6525_1998_act_28_1_1102",
+      "sourceLabel": "Evidencia arqueológica; gobierno no inferido",
+      "note": "Una comunidad, un enterramiento o una construcción no prueban por sí solos una constitución estatal."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch049-908ad861eebf",
+      "name": "Jerf el Ahmar · comunidad del Éufrates",
+      "coordinates": [
+        38.219,
+        36.4
+      ],
+      "start": -9500,
+      "end": -8700,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://www.persee.fr/doc/mom_1274-6525_1998_act_28_1_1102",
+      "note": "Arquitectura doméstica y comunitaria del Neolítico precerámico; no un Estado moderno ni una capital imperial. Horizonte mureybetiense 9500–8700 a.C. de la publicación; cronología aproximada, con varias fases constructivas.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch049-908ad861eebf-reference",
+      "name": "Jerf el Ahmar · comunidad del Éufrates",
+      "coordinates": [
+        38.219,
+        36.4
+      ],
+      "start": -9500,
+      "end": -8700,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://www.persee.fr/doc/mom_1274-6525_1998_act_28_1_1102",
+      "note": "Arquitectura doméstica y comunitaria del Neolítico precerámico; no un Estado moderno ni una capital imperial. Horizonte mureybetiense 9500–8700 a.C. de la publicación; cronología aproximada, con varias fases constructivas.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Jerf el Ahmar · comunidad del Éufrates"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context049-908ad861eebf",
+      "type": "transition",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-9500-01-01",
+      "end": "-8699-01-01",
+      "text": "Arquitectura doméstica y comunitaria del Neolítico precerámico; no un Estado moderno ni una capital imperial. Horizonte mureybetiense 9500–8700 a.C. de la publicación; cronología aproximada, con varias fases constructivas.",
+      "source": "https://www.persee.fr/doc/mom_1274-6525_1998_act_28_1_1102",
+      "sourceLabel": "Investigación arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafía, cronología absoluta y organización social. El intervalo de consulta no prueba ocupación continua de cada año. Las coordenadas son referencias de localización, no perímetros de un Estado."
+  ]
+}

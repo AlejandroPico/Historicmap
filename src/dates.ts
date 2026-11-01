@@ -11,3 +11,6 @@ export function compareDates(a:string,b:string){const x=dateParts(a),y=dateParts
 
 /** Event dates keep the padded day/month convention used by map details. */
 export function formatEventDate(value:string,precision=11){const[y,m,d]=dateParts(value),label=y<0?String(-y)+' a. C.':String(y);return precision===9?label:`${String(d).padStart(2,'0')}/${String(m).padStart(2,'0')}/${y<0?label:isoYear(y)}`;}
+
+/** Convert a rounded model age to civil chronology; never astronomical zero. */
+export function yearFromAge(age:number,epoch=1950){const y=epoch-age;return y<=0?y-1:y;}

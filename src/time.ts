@@ -1,8 +1,10 @@
+import chronology from '../Tierra/Cuaternario/cronologia.json';
+import {yearFromAge} from './dates';
 /** Civil years, with no year zero; geological dates are approximate years before 1950. */
 export const systemYear = (date = new Date()) => date.getFullYear();
 export const PRESENT = systemYear();
 /** Exact cursor consultation, not a claim of annually observed political maps. */
-export const ANNUAL_CONSULTATION_START = -6000;
+export const ANNUAL_CONSULTATION_START = -10000;
 export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -2600000, -300000, -10000, -6000, -3000, -2600, -2200, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT];
 export const clamp = (n: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, n));
 export function yearToPosition(year: number): number {
@@ -30,7 +32,8 @@ export function eraName(year: number): string {
   if (year < -252000000) return 'Paleozoico';
   if (year < -66000000) return 'Mesozoico';
   if (year < -2600000) return 'Cenozoico';
-  if (year < -3000) return 'Prehistoria';
+  if (year < yearFromAge(chronology.holocene.age,chronology.holocene.epoch)) return 'Pleistoceno';
+  if (year < -3000) return 'Holoceno · Prehistoria';
   if (year < 476) return 'Edad Antigua';
   if (year < 1492) return 'Edad Media';
   if (year < 1789) return 'Edad Moderna';

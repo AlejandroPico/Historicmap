@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.49.0 · 2026-11-01
+
+- Consulta hasta 10.000 a. C. con 4.000 fechas civiles adicionales, 20 expedientes arqueológicos y 27 referencias culturales fechadas. Conservación del contenido posterior y continuidad 8001/8000 y 6001/6000, sin Estados o gobernantes supuestos.
+- Capa opcional de mantos de hielo PaleoMIST 1.0: 24 originales geográficos y seis muestras cada 2.500 años. Polos, antimeridiano y solapamientos internos resueltos; fecha real del modelo en leyenda y Fuentes. Costas contemporáneas explícitas, sin paleocostas inferidas.
+- BP1950, b2k y cronología civil diferenciados; fases del Holoceno y contexto del Pleistoceno. Catálogo natural en Tierra; datos de entidades en Países, con expedientes arqueológicos por tramo.
+- Pruebas de cronología, conservación, fuentes originales, geometría polar y cargas tardías. Registros de entrega y pendientes actualizados. Sin cambios en el proceso de publicación ni espera de Actions.
+
 ## 0.48.0 · 31 de octubre de 2026
 
 - Consulta de 6000–3001 a.C. con 22 referencias arqueológicas y 66 grupos regionales originales/94 fases. Cronologías, fuentes y decisiones en las carpetas de cada entidad.

@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-STAR-CARR",
+  "identity": {
+    "qid": "",
+    "name": "Star Carr · comunidades mesolíticas",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.49.0",
+  "acquisition": "archaeology-bc10000-0.49",
+  "coverageStart": -9300,
+  "coverageEnd": -8500,
+  "evidenceWindow": [
+    -9300,
+    -8500
+  ],
+  "dateBasis": "Ventana del estudio 9300–8500 calBC; no ocupación uniforme de cada año ni una reconstrucción del paleolago en el mapa base.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-9300-01-01",
+      "end": "-8500-12-31",
+      "text": "La evidencia arqueológica no identifica aquí un gobernante individual ni una constitución. No se atribuyen retratos, banderas nacionales o mandatos supuestos. Ventana del estudio 9300–8500 calBC; no ocupación uniforme de cada año ni una reconstrucción del paleolago en el mapa base.",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306908"
+    }
+  ],
+  "governance": [
+    {
+      "start": -9300,
+      "end": -8500,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306908",
+      "sourceLabel": "Evidencia arqueológica; gobierno no inferido",
+      "note": "Una comunidad, un enterramiento o una construcción no prueban por sí solos una constitución estatal."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch049-babf25de2e4b",
+      "name": "Star Carr · comunidades mesolíticas",
+      "coordinates": [
+        -0.423,
+        54.215
+      ],
+      "start": -9300,
+      "end": -8500,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306908",
+      "note": "Construcciones y actividades junto al antiguo lago Flixton. Las visitas y las estructuras tuvieron historias distintas; no un país británico de esta época. Ventana del estudio 9300–8500 calBC; no ocupación uniforme de cada año ni una reconstrucción del paleolago en el mapa base.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch049-babf25de2e4b-reference",
+      "name": "Star Carr · comunidades mesolíticas",
+      "coordinates": [
+        -0.423,
+        54.215
+      ],
+      "start": -9300,
+      "end": -8500,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306908",
+      "note": "Construcciones y actividades junto al antiguo lago Flixton. Las visitas y las estructuras tuvieron historias distintas; no un país británico de esta época. Ventana del estudio 9300–8500 calBC; no ocupación uniforme de cada año ni una reconstrucción del paleolago en el mapa base.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Star Carr · comunidades mesolíticas"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context049-babf25de2e4b",
+      "type": "transition",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-9300-01-01",
+      "end": "-8499-01-01",
+      "text": "Construcciones y actividades junto al antiguo lago Flixton. Las visitas y las estructuras tuvieron historias distintas; no un país británico de esta época. Ventana del estudio 9300–8500 calBC; no ocupación uniforme de cada año ni una reconstrucción del paleolago en el mapa base.",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306908",
+      "sourceLabel": "Investigación arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafía, cronología absoluta y organización social. El intervalo de consulta no prueba ocupación continua de cada año. Las coordenadas son referencias de localización, no perímetros de un Estado."
+  ]
+}

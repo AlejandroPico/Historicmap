@@ -1,0 +1,74 @@
+{
+  "key": "CULTURE-BANTU-BAAABB51-YBC8000-R049",
+  "contextKey": "CULTURE-BANTU-BAAABB51",
+  "ownerKey": "CULTURE-BANTU-BAAABB51",
+  "name": "África subsahariana · comunidades y tradiciones prehistóricas",
+  "originalNames": [
+    "Bantu"
+  ],
+  "kind": "cultural-region",
+  "region": "Comunidades del final del Pleistoceno y Holoceno inicial · referencia regional",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -10000,
+    -6001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente. La denominación lingüística o étnica tardía de la fuente no demuestra una identidad moderna ni una monarquía homogénea en este milenio.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay fuentes cartográficas de 10000 y 8000, no una serie anual. Los intervalos son ventanas explícitas de consulta, no fechas de fundación o extinción cultural; los conjuntos que continúan desde 6000 se conservan sin alteración.",
+  "references": [
+    {
+      "title": "Historical Basemaps · fuente fijada de 8000 a. C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc8000.geojson"
+    },
+    {
+      "title": "Investigación10000–6001 a. C. y límites",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc10000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    14.472,
+    6.6783
+  ],
+  "phases": [
+    {
+      "start": -8000,
+      "end": -6001,
+      "label": "África subsahariana · comunidades y tradiciones prehistóricas",
+      "dateBasis": "Fuente cartográfica de 8000 a. C. conservada como referencia para la ventana 8000–6001 a. C.; no observaciones anuales ni prueba de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-BANTU-BAAABB51-YBC8000-R048.geojson",
+  "geometrySha256": "af3db6f689ad00ff872bc4ffafa75bdbd714f7b6f6ff7ac5316f80960af1e8c4",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc8000.geojson",
+    "year": -8000,
+    "featureIds": [
+      70
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "13b5a58206c486c4a1c5a56c5d66f318ebc4e4fc0fda9ff4109469aa1a731f11"
+  },
+  "review": "0.49.0 · 2026-11-01",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bantu",
+      "ABBREVN": "Bantu",
+      "type": null,
+      "weblnks": null,
+      "SUBJECTO": "Bantu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Bantu"
+    }
+  ],
+  "sourceGrouping": [
+    "Bantu"
+  ]
+}

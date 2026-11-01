@@ -33,7 +33,7 @@ def main():
     if optional in d:props[optional]=phase.get(optional,d[optional])
    props['name']=phase.get('label',d['name']);features.append(dict(type='Feature',id=f'{key}:{i}',geometry=geometry['geometry'],properties=props))
  output=ROOT/'public/data/cultural-regions.geojson';raw=(json.dumps(dict(type='FeatureCollection',features=features),ensure_ascii=False,separators=(',',':'))+'\n').encode();output.write_bytes(raw)
- version='Historicmap '+read(ROOT/'package.json')['version']+'; review 2026-10-28'
+ version='Historicmap '+read(ROOT/'package.json')['version']+'; entity-owned documentary review'
  manifest=read(ROOT/'public/data/manifest.json');entry=dict(file=output.name,format='dated-cultural-regions',source='Entity-owned documentary review; Historical Basemaps source polygons',version=version,url='https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md',license='GPL-3.0 (Historical Basemaps geometry); original editorial metadata',features=len(features),coverageStart=min(f['properties']['start']for f in features),coverageEnd=max(f['properties']['end']for f in features),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),transform='Original source polygons/components retained as approximate regional references, with explicit temporal consultation windows; separate from political sovereignty. Decisions and sources owned by each entity in Países.')
  previous_segments=[e for e in manifest['entries']if re.fullmatch(r'cultural-regions-(?:\d+-\d+|bc\d+-bc\d+)\.geojson',e['file'])]
  manifest['entries']=[e for e in manifest['entries']if e['file']not in ['cultural-regions.geojson','cultural-index.json']and not re.fullmatch(r'cultural-regions-(?:\d+-\d+|bc\d+-bc\d+)\.geojson',e['file'])]+[entry]

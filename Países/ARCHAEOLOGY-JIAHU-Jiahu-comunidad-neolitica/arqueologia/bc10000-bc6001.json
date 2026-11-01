@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-JIAHU",
+  "identity": {
+    "qid": "",
+    "name": "Jiahu · comunidad neolítica",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.49.0",
+  "acquisition": "archaeology-bc10000-0.49",
+  "coverageStart": -7000,
+  "coverageEnd": -6001,
+  "evidenceWindow": [
+    -7000,
+    -6001
+  ],
+  "dateBasis": "El estudio documenta el séptimo milenio a.C.; esta ventana 7000–6001 enlaza con la fase ya publicada desde 6000. No se convierten 9000 calBP en 9000 a.C.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-7000-01-01",
+      "end": "-6001-12-31",
+      "text": "La evidencia arqueológica no identifica aquí un gobernante individual ni una constitución. No se atribuyen retratos, banderas nacionales o mandatos supuestos. El estudio documenta el séptimo milenio a.C.; esta ventana 7000–6001 enlaza con la fase ya publicada desde 6000. No se convierten 9000 calBP en 9000 a.C.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC539767/"
+    }
+  ],
+  "governance": [
+    {
+      "start": -7000,
+      "end": -6001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC539767/",
+      "sourceLabel": "Evidencia arqueológica; gobierno no inferido",
+      "note": "Una comunidad, un enterramiento o una construcción no prueban por sí solos una constitución estatal."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch049-37c3a66df6c4",
+      "name": "Jiahu · comunidad y prácticas neolíticas",
+      "coordinates": [
+        113.68,
+        33.62
+      ],
+      "start": -7000,
+      "end": -6001,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC539767/",
+      "note": "Asentamiento neolítico, cerámica y evidencias de preparación de bebidas de arroz, miel y frutos. Estos testimonios no acreditan emperadores ni un gobierno estatal. El estudio documenta el séptimo milenio a.C.; esta ventana 7000–6001 enlaza con la fase ya publicada desde 6000. No se convierten 9000 calBP en 9000 a.C.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch049-37c3a66df6c4-reference",
+      "name": "Jiahu · comunidad y prácticas neolíticas",
+      "coordinates": [
+        113.68,
+        33.62
+      ],
+      "start": -7000,
+      "end": -6001,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC539767/",
+      "note": "Asentamiento neolítico, cerámica y evidencias de preparación de bebidas de arroz, miel y frutos. Estos testimonios no acreditan emperadores ni un gobierno estatal. El estudio documenta el séptimo milenio a.C.; esta ventana 7000–6001 enlaza con la fase ya publicada desde 6000. No se convierten 9000 calBP en 9000 a.C.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Jiahu · comunidad y prácticas neolíticas"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context049-37c3a66df6c4",
+      "type": "transition",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-7000-01-01",
+      "end": "-6000-01-01",
+      "text": "Asentamiento neolítico, cerámica y evidencias de preparación de bebidas de arroz, miel y frutos. Estos testimonios no acreditan emperadores ni un gobierno estatal. El estudio documenta el séptimo milenio a.C.; esta ventana 7000–6001 enlaza con la fase ya publicada desde 6000. No se convierten 9000 calBP en 9000 a.C.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC539767/",
+      "sourceLabel": "Investigación arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafía, cronología absoluta y organización social. El intervalo de consulta no prueba ocupación continua de cada año. Las coordenadas son referencias de localización, no perímetros de un Estado."
+  ]
+}

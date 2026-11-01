@@ -10,7 +10,7 @@ const context=read('historical-context.json');
 const history:CountryHistory=read('country-history.json');
 const ids=(year:number,code:string)=>eventsForCountry({code},year).map(e=>e.id);
 const text=(year:number,code:string)=>eventsForCountry({code},year).map(e=>e.text).join(' ');
-const dateIsValid=(s:string)=>{if(!/^-?\d{4}-\d{2}-\d{2}$/.test(s))return false;try{const[y,m,d]=dateParts(s),probe=new Date(0);probe.setUTCFullYear(y<0?y+1:y,m-1,d);return probe.getUTCMonth()===m-1&&probe.getUTCDate()===d;}catch{return false;}};
+const dateIsValid=(s:string)=>{if(!/^-?\d{4,}-\d{2}-\d{2}$/.test(s))return false;try{const[y,m,d]=dateParts(s),probe=new Date(0);probe.setUTCFullYear(y<0?y+1:y,m-1,d);return probe.getUTCMonth()===m-1&&probe.getUTCDate()===d;}catch{return false;}};
 
 describe('1970–1989 contextual phases and institutional chronology',()=>{
  it('preserves dated, sourced records and the acquisition horizon',()=>{

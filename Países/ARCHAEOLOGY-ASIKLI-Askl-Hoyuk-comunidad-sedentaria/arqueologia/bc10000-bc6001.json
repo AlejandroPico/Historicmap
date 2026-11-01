@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-ASIKLI",
+  "identity": {
+    "qid": "",
+    "name": "Aşıklı Höyük · comunidad sedentaria",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.49.0",
+  "acquisition": "archaeology-bc10000-0.49",
+  "coverageStart": -8350,
+  "coverageEnd": -7300,
+  "evidenceWindow": [
+    -8350,
+    -7300
+  ],
+  "dateBasis": "Fechas calibradas 8350–7300 a.C. del estudio; no mandatos anuales ni una fecha exacta de fundación.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-8350-01-01",
+      "end": "-7300-12-31",
+      "text": "La evidencia arqueológica no identifica aquí un gobernante individual ni una constitución. No se atribuyen retratos, banderas nacionales o mandatos supuestos. Fechas calibradas 8350–7300 a.C. del estudio; no mandatos anuales ni una fecha exacta de fundación.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/"
+    }
+  ],
+  "governance": [
+    {
+      "start": -8350,
+      "end": -7300,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "sourceLabel": "Evidencia arqueológica; gobierno no inferido",
+      "note": "Una comunidad, un enterramiento o una construcción no prueban por sí solos una constitución estatal."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch049-9e81882440ae",
+      "name": "Aşıklı Höyük · comunidad sedentaria",
+      "coordinates": [
+        34.23,
+        38.35
+      ],
+      "start": -8350,
+      "end": -7300,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "note": "Poblado de Capadocia, viviendas, enterramientos y manejo de animales. Complejidad social y sedentarismo no equivalen a un reino. Fechas calibradas 8350–7300 a.C. del estudio; no mandatos anuales ni una fecha exacta de fundación.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch049-9e81882440ae-reference",
+      "name": "Aşıklı Höyük · comunidad sedentaria",
+      "coordinates": [
+        34.23,
+        38.35
+      ],
+      "start": -8350,
+      "end": -7300,
+      "capital": false,
+      "role": "Yacimiento o conjunto documentado · referencia arqueológica",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "note": "Poblado de Capadocia, viviendas, enterramientos y manejo de animales. Complejidad social y sedentarismo no equivalen a un reino. Fechas calibradas 8350–7300 a.C. del estudio; no mandatos anuales ni una fecha exacta de fundación.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Aşıklı Höyük · comunidad sedentaria"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context049-9e81882440ae",
+      "type": "transition",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-8350-01-01",
+      "end": "-7299-01-01",
+      "text": "Poblado de Capadocia, viviendas, enterramientos y manejo de animales. Complejidad social y sedentarismo no equivalen a un reino. Fechas calibradas 8350–7300 a.C. del estudio; no mandatos anuales ni una fecha exacta de fundación.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210650/",
+      "sourceLabel": "Investigación arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafía, cronología absoluta y organización social. El intervalo de consulta no prueba ocupación continua de cada año. Las coordenadas son referencias de localización, no perímetros de un Estado."
+  ]
+}
