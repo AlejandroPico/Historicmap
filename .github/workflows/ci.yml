@@ -33,13 +33,14 @@ jobs:
           compression-level: 1
           retention-days: 7
   browser:
-    name: Browser ${{ matrix.shard }}/4
+    name: Browser ${{ matrix.shard }}/${{ matrix.shardTotal }}
     needs: verify
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        shard: [1, 2, 3, 4]
+        shard: [1, 2, 3, 4, 5, 6, 7, 8]
+        shardTotal: [8]
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -53,11 +54,36 @@ jobs:
           path: dist/
       - run: npx playwright install --with-deps chromium
       # Keep one software-rendered WebGL browser per independent machine.
-      - run: npm run test:e2e -- --shard=${{ matrix.shard }}/4
+      - run: npm run test:e2e -- --shard=${{ matrix.shard }}/${{ matrix.shardTotal }} --grep-invert @annual-sweep
       - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: historicmap-browser-${{ matrix.shard }}
+          path: test-results/
+          compression-level: 1
+          retention-days: 7
+  annual-sweep:
+    name: Browser annual sweep
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v8
+        with:
+          name: historicmap-build
+          path: dist/
+      - run: npx playwright install --with-deps chromium
+      # This continuous sweep retains one browser/cache across every year.
+      - run: npm run test:e2e -- --grep @annual-sweep
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: historicmap-browser-annual-sweep
           path: test-results/
           compression-level: 1
           retention-days: 7

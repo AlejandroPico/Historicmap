@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.50.2 · 2026-11-01
+
+- La validación de navegador pasa de cuatro a ocho grupos independientes, con un navegador por grupo. El barrido anual1789–presente tiene una ejecución adicional propia, excluida de esos grupos para evitar duplicados. Todas las pruebas siguen siendo obligatorias; se reutiliza la compilación común y se mantiene la recopilación temprana.
+- Actualizada la prueba de descargas culturales atrasadas:10001a.C. conserva las evidencias arqueológicas incorporadas; una fecha geológica permanece sin regiones. Se comprueban respuesta completada, fecha vigente y reutilización de la descarga.
+- Datos y comportamiento de la aplicación conservados.
+
 ## 0.50.1 · 2026-11-01
 
 - Corregidas las importaciones JSON de cronología e índice glacial para la carga ESM de Node usada por Playwright. El fallo impedía recopilar las pruebas de los cuatro grupos antes de abrir el navegador.

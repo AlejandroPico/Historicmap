@@ -4,7 +4,7 @@ import {PRESENT} from '../../src/time';
 async function date(page:Page,year:number){await page.locator('#date-button').click();await page.locator('#date-input').fill(String(year));await page.locator('#date-form button').click();await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(year),{timeout:45000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
 
-test('all annual selections 1789 to system year render; no repeated history downloads',async({page})=>{
+test('all annual selections 1789 to system year render; no repeated history downloads',{tag:'@annual-sweep'},async({page})=>{
  test.setTimeout(480000);
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  page.on('console',m=>{if(m.text().includes('Max vertices per segment'))errors.push(m.text());});

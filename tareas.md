@@ -1,6 +1,18 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.50.1 · corrección de recopilación ESM
+## Encargo vigente · 0.50.2 · descarga atrasada y ocho grupos
+
+- [x] Reproducir el fallo comunicado:10001a.C. contiene13 evidencias y la prueba antigua esperaba cero.
+- [x] Diferenciar el límite de áreas culturales del de evidencias humanas. Probar la descarga atrasada sobre una fecha prehistórica poblada y una geológica sin regiones; conservar retorno al900 y caché.
+- [x] Ampliar Quality a ocho grupos independientes, un navegador por máquina, más ejecución dedicada al barrido anual. Excluir ese caso del reparto general; conservar recopilación temprana, construcción común, todos los casos y condición de publicación.
+- [x] Recopilados144 casos:143 en los ocho grupos (18/18/18/18/18/18/18/17) y un barrido anual dedicado, sin duplicados ni omisiones. Tipos y compilación correctos; cinco recorridos reales correctos, incluidos los dos destinos de la descarga atrasada.
+- [x] Documentar resultados y preparar envío a main. El envío ocurre tras este registro: cotejar HEAD/origin/main al retomar, sin esperar Actions/Pages.
+
+La corrección0.50.1 está subida mediante a91f98eec. El propietario informa de35 pruebas correctas y un fallo del grupo1/4: una expectativa de cobertura obsoleta. No se ha acreditado el despliegue completo. No eliminar evidencias ni reducir pruebas para hacer pasar la validación.
+
+Resultado: [DELIVERY-0.50.2](docs/DELIVERY-0.50.2.md) y [auditoría del reparto](docs/CI-SHARDS-0.50.2.json). El barrido anual conserva su lógica y una sola caché de1789 a presente; se comprueba su asignación, sin repetir localmente esos cinco minutos ni los144 recorridos completos. La producción focal reutiliza los recursos públicos idénticos de la compilación anterior y recompila la aplicación0.50.2.
+
+## Entrega anterior · 0.50.1 · corrección de recopilación ESM
 
 - [x] Reproducir el TypeError con Playwright normal --list: los cuatro grupos fallan antes de iniciar el navegador.
 - [x] Declarar el atributo JSON en cronología e índice glacial; conservar datos y conversiones.

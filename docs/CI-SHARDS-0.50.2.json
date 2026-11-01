@@ -1,0 +1,59 @@
+{
+  "version": "0.50.2",
+  "kind": "collection-and-partition-audit",
+  "executedAllBrowserTests": false,
+  "totalCases": 144,
+  "regularCases": 143,
+  "shards": [
+    {
+      "shard": 1,
+      "total": 8,
+      "cases": 18
+    },
+    {
+      "shard": 2,
+      "total": 8,
+      "cases": 18
+    },
+    {
+      "shard": 3,
+      "total": 8,
+      "cases": 18
+    },
+    {
+      "shard": 4,
+      "total": 8,
+      "cases": 18
+    },
+    {
+      "shard": 5,
+      "total": 8,
+      "cases": 18
+    },
+    {
+      "shard": 6,
+      "total": 8,
+      "cases": 18
+    },
+    {
+      "shard": 7,
+      "total": 8,
+      "cases": 18
+    },
+    {
+      "shard": 8,
+      "total": 8,
+      "cases": 17
+    }
+  ],
+  "dedicatedAnnualSweep": {
+    "cases": 1,
+    "tag": "@annual-sweep",
+    "title": "all annual selections 1789 to system year render; no repeated history downloads"
+  },
+  "missing": [],
+  "unexpected": [],
+  "duplicates": [],
+  "sortedCaseIdsSha256": "c5fba2b599366d8d91819dccd71d118d6f32025de0f57af8874edf5049fd28a8",
+  "note": "Comprobacion de recopilacion y reparto, no ejecucion de144 recorridos. Cinco recorridos focales ejecutados aparte."
+}
