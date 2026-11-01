@@ -14,7 +14,10 @@ def write(p,d):
  else:Path(p).write_bytes(data)
 manifest=read('public/data/manifest.json');version=read('package.json')['version'];policy=read('Tierra/Humanidad/metodologia.json')
 def register(file,data,format,source,url,license,**extra):
- write('public/data/'+file,data);b=Path('public/data/'+file).read_bytes();e={'file':file,'format':format,'version':version,'source':source,'url':url,'license':license,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),**extra};manifest['entries']=[x for x in manifest['entries'] if x['file']!=file]+[e]
+ # Product-only patches do not change the declared version of scientific data.
+ previous=next((e for e in manifest['entries'] if e['file']==file),None)
+ resource_version=previous['version'] if check and previous else version
+ write('public/data/'+file,data);b=Path('public/data/'+file).read_bytes();e={'file':file,'format':format,'version':resource_version,'source':source,'url':url,'license':license,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),**extra};manifest['entries']=[x for x in manifest['entries'] if x['file']!=file]+[e]
 coasts=read('Tierra/Paleogeografia/CAO2024/fuentes.json')['originals']
 assert len(coasts)==6
 for s in coasts:

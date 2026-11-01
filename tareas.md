@@ -1,6 +1,17 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.51 · áreas humanas y hielo automático
+## Encargo vigente · 0.51.1 · separación de filtros y controles de capas
+
+- [x] Reproducir el fallo comunicado de review-019: se esperaba cero selectores en Capas, pero existe el selector legítimo ice-mode incorporado en0.51.
+- [x] Comprobar por identidad que gobierno, alianzas y tema siguen sólo en Filtros, y el modo de hielo sólo en Capas; conservar positivos, cero resultados, foco y móvil.
+- [x] Ambos recorridos de review-019 correctos en ejecuciones individuales; tipos/producción y recopilación normal148 casos correctos. No se ha ejecutado de nuevo la batería completa.
+
+Base publicada d30d93e65. No se modifica el comportamiento del mapa, los datos, la visibilidad, las fuentes o los controles para satisfacer una expectativa obsoleta.
+
+- [x] Comprobar el retrato de Aurangzeb: archivo válido y mismo hash en origen/producción; comprobar Autoridades e imagen visible/decodificada, con espera para carga diferida. Segundo recorrido correcto.
+- [x] Reproducción científica --check correcta con producto0.51.1 y recursos en sus versiones declaradas, sin escribir datos. Registro cerrado para commit/push; confirmar HEAD/origin/main al retomar, sin esperar Actions/Pages.
+
+## Entrega anterior · 0.51 · áreas humanas y hielo automático
 
 El propietario autoriza el comienzo el1/11/2026. La espera anterior queda revocada. Base ff37b0e42; originales congelados por objetos Git en .cache/baseline051-git-index.txt. Conservar todas las referencias anteriores.
 

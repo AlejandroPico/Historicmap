@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.51.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.51.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección69; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección70; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** el propietario autoriza áreas humanas fechadas, consulta hasta los homininos tempranos, hielo automático y océanos azules. La espera anterior queda revocada. Preparar0.51.0, comprobar y subir; no esperar Actions/Pages. Ver sección69 y tareas.md.
+**Encargo vigente:** corregir el fallo de validación comunicado, publicar0.51.1 sin ampliar datos o cronología y terminar sin esperar Actions/Pages. Ver sección70 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1476,3 +1476,14 @@ Agua: mañana#d4e7f1, tarde#4b7f9c, noche#152b3b; fondos respectivamente#aecbd9,
 Compilador offline scripts/prepare-human-distributions.py: entradas canónicas en Tierra, polígonos derivados,1000 referencias nuevas, catálogo, hielo automático y LR04; actualizar manifestSHA. No rehacer expedientes de países, medios, culturas o registro humano0.50. Originales científicos marcados-text en .gitattributes para preservar bytes entre Windows/Linux. Detalles, referencias, conservación y comprobaciones: docs/RESEARCH-HUMAN-DISTRIBUTIONS.md, docs/CONSERVATION-0.51.0.json y docs/DELIVERY-0.51.0.md. Estado de validación y envío se registra en tareas.md. Mantener ocho grupos regulares más el barrido anual único, recopilación temprana y condición completa de publicación.
 
 Validación0.51:283 datos,11 glifos y9179 medios porSHA;272 entradas y217GeoJSON anteriores intactos. Reproducción offline --check correcta,34 Python,383/384 generales iniciales y recuperación aislada30/30 que incluye la auditoría agotada, más6/6 finales del módulo nuevo. Doce recorridos focales distintos correctos tras actualizar una expectativa de filtros (el área denisovana sigue activa en60000a.C.; el cero se prueba en20000a.C.). Capturas revisadas de mundo y globo de tarde: agua azul, interfaz ocre. Tipos y producción finales correctos. Recopilación normal148 casos;147 en ocho grupos19/19/19/18/18/18/18/18 y un barrido anual, sin ausencias/duplicados; no se ejecuta localmente toda la batería de148 ni el barrido cuyo cuerpo no cambia. Registro cerrado para commit/push a main; comprobar HEAD/origin si se retoma y no esperar ni consultar Actions/Pages.
+
+
+## 70. Corrección de validación · 0.51.1
+
+Base publicada d30d93e65. Reproducido el fallo comunicado en review-019: se exigían cero selectores en Capas, pero0.51 incorpora ice-mode. La prueba comprueba ahora que gobierno/alianzas/tema están sólo en Filtros y ice-mode sólo en Capas; conserva positivos, cero resultados, persistencia, foco y móvil. No eliminar controles de producto para satisfacer expectativas antiguas ni prohibir todo selector futuro en Capas.
+
+El segundo recorrido del mismo archivo presentó una espera fallida de retrato de5s en local. El archivo de Aurangzeb es un JPEG válido330×532,58871bytes, con SHA idéntico en public y producción focal. La comprobación se centra ahora en Autoridades, desplaza el retrato al área visible y exige presencia en pantalla y decodificación correcta, con margen de15s para carga diferida. No se sustituye ni se omite la imagen. Ambos recorridos pasan individualmente; no se declara una nueva ejecución íntegra de148 casos.
+
+Producto0.51.1, datos científicos conservados en sus versiones declaradas. El compilador humano --check debe usar la versión incorporada de cada recurso, no imponer un cambio de versión por una corrección exclusiva de pruebas; en modo de generación sigue usando la versión del producto. Se comprueba reproducción sin escribir datos. Tipos, producción y recopilación normal148 casos correctos. Mantener ocho grupos y barrido anual; no esperar Actions/Pages. El estado efectivo del cierre y envío está en tareas.md y Git.
+
+Cierre0.51.1: tipos y producción correctos;148 casos recopilados normalmente; ambos recorridos de review-019 pasan individualmente. Reproducción científica --check correcta con versión del producto0.51.1 y versiones incorporadas de datos conservadas. Sin cambios en public/data, Países o Tierra. Registro cerrado para commit/push; cotejar HEAD/origin al retomar y terminar sin consultar Actions/Pages.

@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.51.1 · 2026-11-01
+
+- Corregida una expectativa antigua de navegador: Capas contiene el selector de hielo; gobierno, alianzas y tema cartográfico siguen exclusivamente en Filtros. Se mantienen las comprobaciones de opciones positivas, cero resultados, foco y móvil.
+- La comprobación de retratos del mismo recorrido abre Autoridades, desplaza la imagen al área visible y espera su decodificación, conservando la exigencia de que cargue correctamente.
+- La reproducción científica con --check conserva la versión declarada de cada recurso durante actualizaciones exclusivas del producto. Sin modificaciones de datos, controles, apariencia o reparto de pruebas.
+
 ## 0.51.0 · 2026-11-01
 
 - Áreas regionales humanas fechadas hasta7Ma,35 entradas taxonómicas/genéticas (24 con áreas,11 alternativas), franjas de coexistencia, selección compartida y fichas persistentes. Conservados los2820 registros previos;1000 intervalos adicionales con fuentes y propietarios canónicos naturales.
