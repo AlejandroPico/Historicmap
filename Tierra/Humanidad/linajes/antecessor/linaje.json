@@ -1,0 +1,57 @@
+{
+  "format": "hominin-lineage",
+  "key": "antecessor",
+  "name": "Homo antecessor",
+  "group": "archaic-homo",
+  "color": "#c6a589",
+  "oldestKa": 950,
+  "youngestKa": 770,
+  "classification": "especie de referencia",
+  "source": "https://australian.museum/learn/science/human-evolution/homo-antecessor/",
+  "references": [
+    {
+      "title": "Homo antecessor · referencia taxonómica",
+      "url": "https://australian.museum/learn/science/human-evolution/homo-antecessor/"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    -3.51,
+    42.35
+  ],
+  "site": "Atapuerca · Gran Dolina",
+  "regions": [
+    {
+      "id": "antecessor-regional",
+      "oldestKa": 950,
+      "youngestKa": 770,
+      "bounds": [
+        -10,
+        35,
+        5,
+        44
+      ],
+      "label": "Atapuerca · Gran Dolina",
+      "source": "https://australian.museum/learn/science/human-evolution/homo-antecessor/",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-antecessor",
+      "name": "Atapuerca · Gran Dolina",
+      "coordinates": [
+        -3.51,
+        42.35
+      ],
+      "oldestKa": 950,
+      "youngestKa": 770,
+      "source": "https://australian.museum/learn/science/human-evolution/homo-antecessor/",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

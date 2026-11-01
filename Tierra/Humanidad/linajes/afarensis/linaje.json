@@ -1,0 +1,61 @@
+{
+  "format": "hominin-lineage",
+  "key": "afarensis",
+  "name": "Australopithecus afarensis",
+  "group": "australopith",
+  "color": "#d8ad67",
+  "oldestKa": 3850,
+  "youngestKa": 2950,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis",
+  "references": [
+    {
+      "title": "Australopithecus afarensis · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis"
+    },
+    {
+      "title": "Lucy · Hadar,3.2Ma; nombre por la canción de los Beatles",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/fossils/al-288-1"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción. Lucy es un individuo de esta especie, no el comienzo único demostrado de la humanidad ni un antepasado directo confirmado de todas las especies posteriores.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    40.58,
+    11.1
+  ],
+  "site": "Hadar · Lucy (AL288-1)",
+  "regions": [
+    {
+      "id": "afarensis-regional",
+      "oldestKa": 3850,
+      "youngestKa": 2950,
+      "bounds": [
+        33,
+        -5,
+        43,
+        14
+      ],
+      "label": "África oriental · Etiopía, Kenia y Tanzania",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-afarensis",
+      "name": "Hadar · Lucy (AL288-1)",
+      "coordinates": [
+        40.58,
+        11.1
+      ],
+      "oldestKa": 3220,
+      "youngestKa": 3180,
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto. Ventana redondeada de consulta del ejemplar/conjunto, no duración de toda la especie ni error analítico."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

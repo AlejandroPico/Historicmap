@@ -6,7 +6,7 @@ export const systemYear = (date = new Date()) => date.getFullYear();
 export const PRESENT = systemYear();
 /** Exact cursor consultation, not a claim of annually observed political maps. */
 export const ANNUAL_CONSULTATION_START = -10000;
-export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -2600000, -300000, -100000, -80000, -60000, -40000, -20000, -10000, -6000, -3000, -2600, -2200, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT];
+export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -7000000, -6000000, -5000000, -4400000, -4200000, -3850000, -3200000, -3000000, -2600000, -2000000, -1800000, -1000000, -700000, -300000, -100000, -80000, -60000, -40000, -20000, -10000, -6000, -3000, -2600, -2200, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT];
 export const clamp = (n: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, n));
 export function yearToPosition(year: number): number {
   const y = clamp(year, anchors[0], PRESENT);
@@ -32,6 +32,8 @@ export function eraName(year: number): string {
   if (year < -541000000) return 'Proterozoico';
   if (year < -252000000) return 'Paleozoico';
   if (year < -66000000) return 'Mesozoico';
+  if(year>=PREHISTORY_START&&year < -5330000)return 'Mioceno · homininos tempranos';
+  if(year>=PREHISTORY_START&&year < -2580000)return 'Plioceno · homininos';
   if (year < -2600000) return 'Cenozoico';
   if (year < yearFromAge(chronology.holocene.age,chronology.holocene.epoch)) return 'Pleistoceno';
   if (year < -3000) return 'Holoceno · Prehistoria';
@@ -41,10 +43,11 @@ export function eraName(year: number): string {
   return 'Edad Contemporánea';
 }
 export const historicalYears = [-10000, -3000, -1000, -500, 100, 500, 1000, 1492, 1800, 1914, 1945, 1994, 2010];
-export const geologicalMa = [1, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500, 1800];
+export const geologicalMa = [1, 2, 3, 4, 5, 6, 7, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500, 1800];
 export type Snapshot = { kind: 'prehistoric' | 'modern' | 'annual' | 'historical' | 'geological' | 'concept'; year: number; file?: string };
 export function snapshotFor(year: number): Snapshot {
   if (year < -1800000000) return { kind: 'concept', year };
+  if(year>=PREHISTORY_START&&year<=PREHISTORY_END)return{kind:'prehistoric',year,file:'human-evidence.geojson'};
   if (year < -1000000) {
     const ma = geologicalMa.reduce((a, b) => Math.abs(a + year / 1e6) <= Math.abs(b + year / 1e6) ? a : b);
     return { kind: 'geological', year: -ma * 1e6, file: `coastlines-${ma}.geojson` };
@@ -58,11 +61,12 @@ export function snapshotFor(year: number): Snapshot {
   const y = historicalYears.filter(y=>y<1789&&y<=year).at(-1)??historicalYears[0];
   return { kind: 'historical', year: y, file: `world_${y < 0 ? `bc${-y}` : y}.geojson` };
 }
-export function playbackYear(year:number){return year>=PREHISTORY_START&&year<ANNUAL_CONSULTATION_START?Math.min(ANNUAL_CONSULTATION_START,year+100):year>=ANNUAL_CONSULTATION_START?Math.min(PRESENT,year===-1?1:year+1):positionToYear(yearToPosition(year)+.075);}
+export const prehistoricStep=(year:number)=>year < -1000000?10000:year < -100000?1000:100;
+export function playbackYear(year:number){return year>=PREHISTORY_START&&year<ANNUAL_CONSULTATION_START?Math.min(ANNUAL_CONSULTATION_START,year+prehistoricStep(year)):year>=ANNUAL_CONSULTATION_START?Math.min(PRESENT,year===-1?1:year+1):positionToYear(yearToPosition(year)+.075);}
 /** Exact manual stepping throughout the reviewed ancient range, even before annual
  * coverage. Earlier snapshots retain their own evidence date. */
 export function navigationYear(year:number,direction:-1|1){
- if(year>=PREHISTORY_START&&year<ANNUAL_CONSULTATION_START)return clamp(year+100*direction,anchors[0],ANNUAL_CONSULTATION_START);
+ if(year>=PREHISTORY_START&&year<ANNUAL_CONSULTATION_START)return clamp(year+prehistoricStep(year)*direction,anchors[0],ANNUAL_CONSULTATION_START);
  if(year>=ANNUAL_CONSULTATION_START&&year!==0)return clamp(year+direction===0?direction:year+direction,anchors[0],PRESENT);
  if(year===-1&&direction===1)return 1;
  const p=yearToPosition(year);return direction===1?anchors[Math.min(anchors.length-1,Math.floor(p)+1)]:anchors[Math.max(0,Math.ceil(p)-1)];

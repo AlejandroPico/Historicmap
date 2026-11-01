@@ -1,0 +1,57 @@
+{
+  "format": "hominin-lineage",
+  "key": "sahelanthropus",
+  "name": "Sahelanthropus tchadensis",
+  "group": "early",
+  "color": "#c99081",
+  "oldestKa": 7000,
+  "youngestKa": 6000,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis",
+  "references": [
+    {
+      "title": "Sahelanthropus tchadensis · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    17.5,
+    16.2
+  ],
+  "site": "Toros-Menalla · referencia regional",
+  "regions": [
+    {
+      "id": "sahelanthropus-regional",
+      "oldestKa": 7000,
+      "youngestKa": 6000,
+      "bounds": [
+        14,
+        12,
+        20,
+        20
+      ],
+      "label": "Toros-Menalla · referencia regional",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-sahelanthropus",
+      "name": "Toros-Menalla · referencia regional",
+      "coordinates": [
+        17.5,
+        16.2
+      ],
+      "oldestKa": 7000,
+      "youngestKa": 6000,
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

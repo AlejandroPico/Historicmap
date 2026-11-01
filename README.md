@@ -2,11 +2,13 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.50.2** · 1 de noviembre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.51.0** · 1 de noviembre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
+
+**Áreas humanas hasta7Ma:** distribuciones regionales fechadas, franjas de coexistencia, fósiles y selección de los grupos compartidos. [Catálogo natural](Tierra/Humanidad/INDICE.md) y [fuentes y límites](docs/RESEARCH-HUMAN-DISTRIBUTIONS.md). Hielo automático con control manual dentro dePaleoMIST80ka; LR04 aporta contexto climático anterior, sin contornos de hielo supuestos. Agua azul en los tres temas, manteniendo los paneles cálidos de la tarde. [Entrega0.51.0](docs/DELIVERY-0.51.0.md).
 
 Revisión vigente: **pueblos y regiones de 6000 a. C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc6000-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
@@ -14,7 +16,7 @@ Ampliación **100000–10001 a. C.**: [poblamiento, culturas materiales y grupos
 
 Ampliación **10000–6001 a. C.**: [comunidades, yacimientos y tiempo natural](docs/RESEARCH-bc10000.md). Veinte expedientes arqueológicos, 27 referencias culturales y una capa opcional de mantos de hielo PaleoMIST con fecha de modelo explícita. Las costas mantienen su referencia contemporánea.
 
-Ampliación **6000–3001 a. C.**: [poblamiento, yacimientos y cronologías](docs/RESEARCH-bc6000.md). Sin reyes o banderas inventados; fuentes culturales anteriores identificadas como contexto, no fronteras anuales observadas. [Ruta de historia terrestre](docs/ROADMAP-EARTH-HISTORY.md): el tramo 10000–6001 a. C. se incorpora en 0.49; dispersión humana, paleocostas y tectónica siguen como desarrollo por etapas.
+Ampliación **6000–3001 a. C.**: [poblamiento, yacimientos y cronologías](docs/RESEARCH-bc6000.md). Sin reyes o banderas inventados; fuentes culturales anteriores identificadas como contexto, no fronteras anuales observadas. [Ruta de historia terrestre](docs/ROADMAP-EARTH-HISTORY.md): el tramo 10000–6001 a. C. se incorpora en 0.49; las áreas humanas se incorporan en0.51; paleocostas detalladas y reconstrucción terrestre anterior continúan por etapas.
 
 Ampliación **3000–2001 a. C.**: [fuentes, poderes y culturas del tercer milenio](docs/RESEARCH-bc3000.md). Cronologías alternativas, testimonios regios sin reinados inventados y transición 2001/2000 conservada. Las imágenes son representaciones documentales con atribución, sin banderas nacionales supuestas.
 

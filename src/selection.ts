@@ -20,7 +20,7 @@ export function canonicalFeature(hit:{id?:string|number;properties:Record<string
  return undefined;
 }
 export function anchorFor(p:Record<string,any>,year:number,identities:IdentityData):CountryAnchor{
- return {key:p.contextKey||identityKey(p,year,identities),name:p.name??'',originalName:p.originalName??p.name??'',code:p.entityCode??p.code??'',uid:p.uid??'',place:!p.sovereignSeat&&p.rank!==undefined&&Boolean(p.country),country:p.country??'',properties:{...p},year};
+ return {key:p.contextKey||(p.referenceKind==='archaeological-site'?p.identityKey:undefined)||identityKey(p,year,identities),name:p.name??'',originalName:p.originalName??p.name??'',code:p.entityCode??p.code??'',uid:p.uid??'',place:!p.sovereignSeat&&p.rank!==undefined&&Boolean(p.country),country:p.country??'',properties:{...p},year};
 }
 /** Match the entity, never an arbitrary nearest polygon or one of its successors. */
 export function matchingFeature(anchor:CountryAnchor,data:FeatureCollection,year:number,identities:IdentityData):Feature|undefined{
@@ -31,6 +31,7 @@ export function matchingFeature(anchor:CountryAnchor,data:FeatureCollection,year
   if(anchor.place){const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();return normalize(p.name??'')===normalize(anchor.name)&&(anchor.key?identityKey(p,year,identities)===anchor.key:p.country===anchor.country);}
   if(anchor.uid)return p.uid===anchor.uid;
   if(p.uid)return false;
+  if(anchor.properties.referenceKind==='archaeological-site'&&anchor.key)return p.identityKey===anchor.key;
   if(anchor.key)return identityKey(p,year,identities)===anchor.key;
   return (p.originalName??p.name)===anchor.originalName&&(!anchor.code||(p.entityCode??p.code)===anchor.code);
  });

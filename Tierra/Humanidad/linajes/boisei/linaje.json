@@ -1,0 +1,57 @@
+{
+  "format": "hominin-lineage",
+  "key": "boisei",
+  "name": "Paranthropus boisei",
+  "group": "paranthropus",
+  "color": "#ba6f88",
+  "oldestKa": 2300,
+  "youngestKa": 1200,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-boisei",
+  "references": [
+    {
+      "title": "Paranthropus boisei · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-boisei"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    35.35,
+    -2.99
+  ],
+  "site": "Olduvai · referencia regional",
+  "regions": [
+    {
+      "id": "boisei-regional",
+      "oldestKa": 2300,
+      "youngestKa": 1200,
+      "bounds": [
+        32,
+        -8,
+        40,
+        9
+      ],
+      "label": "Olduvai · referencia regional",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-boisei",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-boisei",
+      "name": "Olduvai · referencia regional",
+      "coordinates": [
+        35.35,
+        -2.99
+      ],
+      "oldestKa": 1900,
+      "youngestKa": 1700,
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-boisei",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto. Ventana redondeada de consulta del ejemplar/conjunto, no duración de toda la especie ni error analítico."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

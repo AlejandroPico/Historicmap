@@ -1,0 +1,57 @@
+{
+  "format": "hominin-lineage",
+  "key": "luzon",
+  "name": "Homo luzonensis",
+  "group": "luzon",
+  "color": "#79bdba",
+  "oldestKa": 67,
+  "youngestKa": 50,
+  "classification": "especie de referencia",
+  "source": "https://doi.org/10.1038/s41586-019-1067-9",
+  "references": [
+    {
+      "title": "Homo luzonensis · referencia taxonómica",
+      "url": "https://doi.org/10.1038/s41586-019-1067-9"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    121.81,
+    17.7
+  ],
+  "site": "Callao · isla de Luzón",
+  "regions": [
+    {
+      "id": "luzon-regional",
+      "oldestKa": 67,
+      "youngestKa": 50,
+      "bounds": [
+        119,
+        14,
+        123,
+        20
+      ],
+      "label": "Callao · isla de Luzón",
+      "source": "https://doi.org/10.1038/s41586-019-1067-9",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 75
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-luzon",
+      "name": "Callao · isla de Luzón",
+      "coordinates": [
+        121.81,
+        17.7
+      ],
+      "oldestKa": 67,
+      "youngestKa": 50,
+      "source": "https://doi.org/10.1038/s41586-019-1067-9",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

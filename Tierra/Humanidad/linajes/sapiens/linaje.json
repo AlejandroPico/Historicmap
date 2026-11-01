@@ -1,0 +1,376 @@
+{
+  "format": "hominin-lineage",
+  "key": "sapiens",
+  "name": "Homo sapiens",
+  "group": "sapiens",
+  "color": "#edc47b",
+  "oldestKa": 315,
+  "youngestKa": 0,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+  "references": [
+    {
+      "title": "Homo sapiens · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens"
+    },
+    {
+      "title": "Jebel Irhoud315±34ka y origen panafricano",
+      "url": "https://doi.org/10.1038/nature22336"
+    },
+    {
+      "title": "Primeras dispersiones levantinas · cronología y evidencia",
+      "url": "https://doi.org/10.1126/science.aap8369"
+    },
+    {
+      "title": "Sudeste asiático · evidencias discontinuas · cronología y evidencia",
+      "url": "https://doi.org/10.1038/s41467-023-38715-y"
+    },
+    {
+      "title": "Sahul septentrional · cronología temprana discutida · cronología y evidencia",
+      "url": "https://doi.org/10.1038/nature22968"
+    },
+    {
+      "title": "Australia y Nueva Guinea · cronología y evidencia",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens"
+    },
+    {
+      "title": "Europa sudoriental · cronología y evidencia",
+      "url": "https://doi.org/10.1038/s41586-020-2259-z"
+    },
+    {
+      "title": "Siberia meridional · cronología y evidencia",
+      "url": "https://doi.org/10.1038/nature13810"
+    },
+    {
+      "title": "White Sands · evidencia regional, no todo el continente · cronología y evidencia",
+      "url": "https://doi.org/10.1126/science.adh5007"
+    },
+    {
+      "title": "América del Sur · expansión regional aproximada · cronología y evidencia",
+      "url": "https://doi.org/10.1126/science.1156533"
+    },
+    {
+      "title": "ADN antiguo, mezcla y diferencias entre poblaciones",
+      "url": "https://humanorigins.si.edu/evidence/genetics/ancient-dna-and-neanderthals"
+    },
+    {
+      "title": "Híbrida de madre neandertal y padre denisovano · evidencia localizada",
+      "url": "https://doi.org/10.1038/s41586-018-0455-x"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción. La mezcla genética está documentada, pero su contribución varía entre poblaciones e individuos; no se afirma un porcentaje uniforme o ADN arcaico detectable en toda persona.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    25,
+    5
+  ],
+  "site": "África · origen distribuido",
+  "regions": [
+    {
+      "id": "sapiens-norte-africa",
+      "oldestKa": 315,
+      "youngestKa": 130,
+      "bounds": [
+        -15,
+        20,
+        36,
+        36
+      ],
+      "label": "África septentrional",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-africa-oriental",
+      "oldestKa": 250,
+      "youngestKa": 12,
+      "bounds": [
+        24,
+        -16,
+        44,
+        16
+      ],
+      "label": "África oriental",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-africa-austral",
+      "oldestKa": 260,
+      "youngestKa": 12,
+      "bounds": [
+        12,
+        -35,
+        36,
+        -15
+      ],
+      "label": "África austral · atribuciones tempranas discutidas",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-africa130",
+      "oldestKa": 130,
+      "youngestKa": 11.95,
+      "bounds": [
+        -18,
+        -35,
+        44,
+        36
+      ],
+      "label": "África · distribución continental aproximada",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-levante-antiguo",
+      "oldestKa": 194,
+      "youngestKa": 90,
+      "bounds": [
+        33,
+        29,
+        37,
+        34
+      ],
+      "label": "Primeras dispersiones levantinas",
+      "source": "https://doi.org/10.1126/science.aap8369",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-arabia",
+      "oldestKa": 85,
+      "youngestKa": 11.95,
+      "bounds": [
+        33,
+        12,
+        58,
+        32
+      ],
+      "label": "Arabia y Asia occidental",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-sur-asia",
+      "oldestKa": 65,
+      "youngestKa": 11.95,
+      "bounds": [
+        57,
+        5,
+        93,
+        30
+      ],
+      "label": "Asia meridional · dispersión inferida",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-sureste",
+      "oldestKa": 86,
+      "youngestKa": 11.95,
+      "bounds": [
+        94,
+        -10,
+        120,
+        25
+      ],
+      "label": "Sudeste asiático · evidencias discontinuas",
+      "source": "https://doi.org/10.1038/s41467-023-38715-y",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-sahul-norte",
+      "oldestKa": 65,
+      "youngestKa": 45,
+      "bounds": [
+        123,
+        -15,
+        147,
+        -2
+      ],
+      "label": "Sahul septentrional · cronología temprana discutida",
+      "source": "https://doi.org/10.1038/nature22968",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-sahul",
+      "oldestKa": 50,
+      "youngestKa": 11.95,
+      "bounds": [
+        112,
+        -44,
+        154,
+        -2
+      ],
+      "label": "Australia y Nueva Guinea",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-europa-oriente",
+      "oldestKa": 46,
+      "youngestKa": 40,
+      "bounds": [
+        20,
+        35,
+        45,
+        51
+      ],
+      "label": "Europa sudoriental",
+      "source": "https://doi.org/10.1038/s41586-020-2259-z",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-europa",
+      "oldestKa": 40,
+      "youngestKa": 15,
+      "bounds": [
+        -10,
+        35,
+        48,
+        55
+      ],
+      "label": "Europa · límite septentrional aproximado",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-europa-tardia",
+      "oldestKa": 15,
+      "youngestKa": 11.95,
+      "bounds": [
+        -10,
+        35,
+        48,
+        64
+      ],
+      "label": "Europa · expansión tardiglacial",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-asia-oriental",
+      "oldestKa": 45,
+      "youngestKa": 11.95,
+      "bounds": [
+        100,
+        18,
+        145,
+        45
+      ],
+      "label": "Asia oriental",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-siberia",
+      "oldestKa": 45,
+      "youngestKa": 32,
+      "bounds": [
+        48,
+        45,
+        125,
+        61
+      ],
+      "label": "Siberia meridional",
+      "source": "https://doi.org/10.1038/nature13810",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-siberia32",
+      "oldestKa": 32,
+      "youngestKa": 11.95,
+      "bounds": [
+        50,
+        45,
+        180,
+        72
+      ],
+      "label": "Siberia y extremo nororiental",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-america-temprana",
+      "oldestKa": 23,
+      "youngestKa": 15,
+      "bounds": [
+        -110,
+        29,
+        -103,
+        36
+      ],
+      "label": "White Sands · evidencia regional, no todo el continente",
+      "source": "https://doi.org/10.1126/science.adh5007",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-america-norte",
+      "oldestKa": 16,
+      "youngestKa": 11.95,
+      "bounds": [
+        -168,
+        18,
+        -60,
+        61
+      ],
+      "label": "América del Norte · expansión regional aproximada",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-america-sur",
+      "oldestKa": 14.5,
+      "youngestKa": 11.95,
+      "bounds": [
+        -82,
+        -56,
+        -35,
+        13
+      ],
+      "label": "América del Sur · expansión regional aproximada",
+      "source": "https://doi.org/10.1126/science.1156533",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    }
+  ],
+  "fossils": [],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

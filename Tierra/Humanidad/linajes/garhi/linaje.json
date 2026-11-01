@@ -1,0 +1,57 @@
+{
+  "format": "hominin-lineage",
+  "key": "garhi",
+  "name": "Australopithecus garhi",
+  "group": "australopith",
+  "color": "#cd937b",
+  "oldestKa": 2550,
+  "youngestKa": 2450,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-garhi",
+  "references": [
+    {
+      "title": "Australopithecus garhi · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-garhi"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción. La banda es una ventana de consulta alrededor de2.5Ma, no duración demostrada.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    40.55,
+    10.27
+  ],
+  "site": "Bouri · referencia regional",
+  "regions": [
+    {
+      "id": "garhi-regional",
+      "oldestKa": 2550,
+      "youngestKa": 2450,
+      "bounds": [
+        38,
+        8,
+        42,
+        13
+      ],
+      "label": "Bouri · referencia regional",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-garhi",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-garhi",
+      "name": "Bouri · referencia regional",
+      "coordinates": [
+        40.55,
+        10.27
+      ],
+      "oldestKa": 2510,
+      "youngestKa": 2490,
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-garhi",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto. Ventana redondeada de consulta del ejemplar/conjunto, no duración de toda la especie ni error analítico."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

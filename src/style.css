@@ -268,8 +268,8 @@ input{width:100%;padding:13px;font:inherit;background:#0e2024;border:1px solid #
 /* Appearance follows the device clock only in automatic mode. The ocean is
    intentionally lighter than the surrounding background in every palette. */
 :root{--text:#e5eced;--background:#080f19;--ocean:#152b3b;--surface:#101d2b;--panel:#101d2bf2;--gold:#d3be8f;--muted:#a0b4bf;--line:#bfd4dd30;--dock:#0d1925;--soft:#192e3b;color:var(--text);background:var(--background)}
-:root[data-appearance=morning]{color-scheme:light;--text:#24383d;--surface:#f4f1e8;--panel:#f4f1e8f2;--gold:#785823;--muted:#4e676d;--line:#344d4930;--dock:#e3e8e5;--soft:#e2e5da;--ocean:#d4e4e8}
-:root[data-appearance=afternoon]{color-scheme:dark;--text:#fff0de;--surface:#382a25;--panel:#382a25f2;--gold:#f0bb7c;--muted:#d5bba7;--line:#efc49c30;--dock:#33231f;--soft:#503a31;--ocean:#755348}
+:root[data-appearance=morning]{color-scheme:light;--text:#24383d;--surface:#f4f1e8;--panel:#f4f1e8f2;--gold:#785823;--muted:#4e676d;--line:#344d4930;--dock:#e3e8e5;--soft:#e2e5da;--ocean:#d4e7f1}
+:root[data-appearance=afternoon]{color-scheme:dark;--text:#fff0de;--surface:#382a25;--panel:#382a25f2;--gold:#f0bb7c;--muted:#d5bba7;--line:#efc49c30;--dock:#33231f;--soft:#503a31;--ocean:#4b7f9c}
 #map{background:var(--background)}
 .map-shade{display:none}
 .toolbar{background:var(--panel)}
@@ -504,3 +504,5 @@ dialog.date-picker::backdrop{background:transparent;backdrop-filter:none}
 .coin-right .leader-portrait{transform:translateX(-50%)}
 .coin-top .leader-portrait,.coin-bottom .leader-portrait{width:100%;height:200%}
 .coin-bottom .leader-portrait{transform:translateY(-50%)}
+
+.human-range-key{display:flex;align-items:center;gap:.45rem;font-size:.75rem;margin:.25rem 0}.human-range-key i{width:.75rem;height:.75rem;flex-shrink:0}.human-distribution-legend small,.lineage-inventory small{display:block}.lineage-inventory p{font-size:.8rem}.layer-button[data-visibility="human-ranges"][disabled]{display:none}

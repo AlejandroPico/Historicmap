@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.51.0 · 2026-11-01
+
+- Áreas regionales humanas fechadas hasta7Ma,35 entradas taxonómicas/genéticas (24 con áreas,11 alternativas), franjas de coexistencia, selección compartida y fichas persistentes. Conservados los2820 registros previos;1000 intervalos adicionales con fuentes y propietarios canónicos naturales.
+- CostasCAO2024 de2–7Ma sin simplificar, navegación prehistórica y filtros ampliados; fuentes y ventanas de incertidumbre explícitas. No se inventan rutas, fronteras biológicas o guerras.
+- Hielo automático según variación del modeloPaleoMIST y elección manualauto/on/off. Contexto climáticoLR04 hasta5,32Ma, sin extrapolar contornos fuera de80ka.
+- Océanos azules claro/intermedio/oscuro; interfaz cálida de tarde conservada y noche sin cambios. Ocho grupos de navegador y barrido anual independiente conservados.
+
 ## 0.50.2 · 2026-11-01
 
 - La validación de navegador pasa de cuatro a ocho grupos independientes, con un navegador por grupo. El barrido anual1789–presente tiene una ejecución adicional propia, excluida de esos grupos para evitar duplicados. Todas las pruebas siguen siendo obligatorias; se reutiliza la compilación común y se mantiene la recopilación temprana.

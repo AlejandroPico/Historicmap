@@ -9,7 +9,7 @@ export function aboutContent(version:string,base:string){return `
       <div><dt>Versión</dt><dd>${version}</dd></div>
       <div><dt>Actualización</dt><dd>1 de noviembre de 2026</dd></div>
       <div><dt>Exploración</dt><dd>Mapa 2D y globo 3D</dd></div>
-      <div><dt>Cartografía</dt><dd>Consulta hasta 10.000 a. C. · referencias fechadas</dd></div>
+      <div><dt>Cartografía</dt><dd>Referencias humanas hasta7Ma · distribuciones estimadas</dd></div>
     </dl></aside>
     <div class="about-copy"><p class="about-lead">El tiempo tiene un lugar.</p><p>Un atlas para explorar la evolución de la Tierra y la historia de las sociedades humanas. Continentes, territorios y lugares, conectados por una misma línea temporal.</p>
       <div class="about-purpose"><h3>Explorar el atlas</h3><div><strong>Espacio</strong><span>Alterna entre mapa y globo. La rueda sobre el mapa ajusta su zoom.</span></div><div><strong>Tiempo</strong><span>Arrastra la regla para cambiar de fecha. La rueda sobre ella amplía o reduce la escala, manteniendo el momento seleccionado en el centro.</span></div><div><strong>Contexto</strong><span>Consulta capas, fuentes y metodología desde los botones de la esquina superior derecha.</span></div></div>

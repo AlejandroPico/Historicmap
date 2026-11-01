@@ -1,6 +1,26 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.50.2 · descarga atrasada y ocho grupos
+## Encargo vigente · 0.51 · áreas humanas y hielo automático
+
+El propietario autoriza el comienzo el1/11/2026. La espera anterior queda revocada. Base ff37b0e42; originales congelados por objetos Git en .cache/baseline051-git-index.txt. Conservar todas las referencias anteriores.
+
+- [x] Investigar especies, linajes y Lucy; cubrir homininos tempranos y controversias, sin equiparar todos los taxones a variantes de sapiens ni coexistencia a violencia.
+- [x] Áreas estimadas fechadas y regiones compartidas con franjas, selección de todos los grupos y yacimientos conservados.
+- [x] Ampliar consulta hasta7Ma con costas modeladas y límites científicos explícitos.
+- [x] Hielo automático según variación espacial del modelo, con control manual; incorporar contexto climático anterior sin fabricar contornos glaciales.
+- [x] Comprobar conservación, geometrías, filtros, selección, continuidad, tipos, producción y navegador; mantener ocho grupos y barrido anual.
+- [x] Documentar, versionar y preparar envío. El commit/push se ejecuta después de cerrar este registro; cotejar HEAD/origin/main al retomar, sin esperar Actions/Pages.
+
+- [x] Océanos azules en tres niveles; paneles de tarde ocres conservados. Pruebas de apariencia y capturas revisadas.
+- [x] Conservar272 entradas anteriores del manifiesto,217 GeoJSON anteriores,2820 evidencias humanas y archivos previos de Países/Tierra. Se añaden11 recursos;283 datos,11 glifos y9179 medios verificados.
+- [x] Doce recorridos focales distintos correctos tras actualizar la expectativa de Denisovanos: el recuento incluye áreas estimadas, no sólo puntos. Cero de Denisovanos se prueba ahora en20000a.C., no60000a.C.
+- [x] Recopilación normal148 casos,147 repartidos19/19/19/18/18/18/18/18 y un barrido anual dedicado; sin omisiones o duplicados. Tipos/producción, reproducción del compilador,34 Python y doce recorridos focales correctos. Registro cerrado para cotejo Git y envío0.51.0 a main.
+
+Pendientes científicos explícitos: contornos de hielo antes de80ka, paleocostas Beringia/Sunda/Sahul, paleorrelieve, posiciones fósiles reconstruidas por placa y contraste regional de las envolventes editoriales. Sustituirlas por delimitaciones publicadas cuando existan, sin confundir hábitat climáticamente adecuado con distribución observada. Revisar registros como Ledi-Geraru y LittleFoot y sus atribuciones sin inventar especies; el inventario no se declara cerrado. Facilitar en una mejora futura ocultar sólo los puntos conservando las áreas. Ver docs/RESEARCH-HUMAN-DISTRIBUTIONS.md.
+
+Validación general:383/384 correctos en la ejecución inicial y una auditoría con límite de tiempo; recuperación aislada30/30 (incluidos sus cinco casos), sin elevar el límite ni retirar pruebas. Tras la curación final,6/6 casos del módulo nuevo correctos. No confundir esta recuperación con otra ejecución completa. Después de la etiqueta definitiva, el recorrido de selección compartida vuelve a pasar. La confirmación del despliegue remoto corresponde al propietario.
+
+## Entrega anterior · 0.50.2 · descarga atrasada y ocho grupos
 
 - [x] Reproducir el fallo comunicado:10001a.C. contiene13 evidencias y la prueba antigua esperaba cero.
 - [x] Diferenciar el límite de áreas culturales del de evidencias humanas. Probar la descarga atrasada sobre una fecha prehistórica poblada y una geológica sin regiones; conservar retorno al900 y caché.

@@ -1,0 +1,88 @@
+{
+  "format": "hominin-lineage",
+  "key": "denisovan",
+  "name": "Denisovanos",
+  "group": "denisovan",
+  "color": "#b7a1de",
+  "oldestKa": 250,
+  "youngestKa": 32,
+  "classification": "linaje genético",
+  "source": "https://doi.org/10.1038/s41586-026-11132-z",
+  "references": [
+    {
+      "title": "Denisovanos · referencia taxonómica",
+      "url": "https://doi.org/10.1038/s41586-026-11132-z"
+    },
+    {
+      "title": "Tíbet · cronología y evidencia",
+      "url": "https://doi.org/10.1038/s41586-024-07612-9"
+    },
+    {
+      "title": "ADN antiguo, mezcla y diferencias entre poblaciones",
+      "url": "https://humanorigins.si.edu/evidence/genetics/ancient-dna-and-neanderthals"
+    },
+    {
+      "title": "Híbrida de madre neandertal y padre denisovano · evidencia localizada",
+      "url": "https://doi.org/10.1038/s41586-018-0455-x"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción. Harbin y Xujiayao se relacionan molecularmente con denisovanos; no se representan como imperios biológicos distintos bajo los nombres longi/juluensis. La mezcla genética está documentada, pero su contribución varía entre poblaciones e individuos; no se afirma un porcentaje uniforme o ADN arcaico detectable en toda persona.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    100,
+    38
+  ],
+  "site": "Altái, Tíbet y Asia oriental",
+  "regions": [
+    {
+      "id": "denisova-altai",
+      "oldestKa": 250,
+      "youngestKa": 50,
+      "bounds": [
+        80,
+        47,
+        91,
+        55
+      ],
+      "label": "Altái",
+      "source": "https://doi.org/10.1038/s41586-026-11132-z",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "denisova-tibet",
+      "oldestKa": 160,
+      "youngestKa": 32,
+      "bounds": [
+        88,
+        29,
+        105,
+        39
+      ],
+      "label": "Tíbet",
+      "source": "https://doi.org/10.1038/s41586-024-07612-9",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "denisova-china",
+      "oldestKa": 300,
+      "youngestKa": 100,
+      "bounds": [
+        108,
+        30,
+        132,
+        48
+      ],
+      "label": "China septentrional y oriental",
+      "source": "https://doi.org/10.1038/s41586-026-11132-z",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    }
+  ],
+  "fossils": [],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

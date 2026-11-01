@@ -71,7 +71,7 @@ test('every shipped cartographic snapshot renders without exceeding GPU segments
   await disableRelief(page);
   // A global planar view also covers snapshots whose land lies on the far hemisphere.
   await page.locator('#projection-button').click();
-  const samples=[...historicalYears.map(y=>{const snapshot=snapshotFor(y);return{year:y,file:snapshot.kind==='annual'?`history-${y}`:snapshot.file!};}),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
+  const samples=[...historicalYears.map(y=>{const snapshot=snapshotFor(y);return{year:y,file:snapshot.kind==='annual'?`history-${y}`:snapshot.file!};}),...geologicalMa.map(ma=>{const year=ma===1?-1000001:-ma*1e6;return{year,file:snapshotFor(year).kind==='prehistoric'?`prehistory-${year}`:`coastlines-${ma}.geojson`};})];
   for(const sample of samples){
     await page.locator('#date-button').click();
     await page.getByLabel('Año (negativo para a. C.)').fill(String(sample.year));

@@ -13,6 +13,18 @@ for (const entry of manifest.entries) {
   if(entry.format==='dated-human-evidence'){
     if(data.features.length!==entry.records||data.features.some(f=>f.geometry.type!=='Point'||!f.properties.canonicalFile||!f.properties.taxon||!f.properties.dateBasis||f.properties.start>f.properties.end))throw Error('Invalid human evidence');
   }
+  else if(entry.format==='human-range-geometries'){
+    if(data.features.length!==entry.features||data.features.some(f=>!f.properties.canonicalFile||!f.properties.source||f.properties.start>f.properties.end||f.properties.kind!=='human-range'))throw Error('Invalid human distributions');
+  }
+  else if(entry.format==='human-lineage-catalogue'){
+    if(data.taxa.length!==entry.records||data.taxa.some(t=>!t.source||!t.canonicalFile||t.oldestKa<t.youngestKa||!t.classification)||!data.policy.noAutomaticWar)throw Error('Invalid lineage catalogue');
+  }
+  else if(entry.format==='ice-automatic-policy'){
+    if(data.samples.length!==entry.records||!data.thresholdKm2||data.samples.some(s=>s.autoVisible!==(s.excessAreaKm2>=data.thresholdKm2)))throw Error('Invalid automatic ice policy');
+  }
+  else if(entry.format==='benthic-isotope-context'){
+    if(data.rows.length!==entry.records||!data.source||data.rows.some(r=>!Number.isFinite(r.ageKa)||!Number.isFinite(r.delta18O)))throw Error('Invalid climate proxy');
+  }
   else if(entry.format==='dated-human-evidence-index'){if(data.records!==entry.records||data.start!==-100000||data.end!==Math.max(...JSON.parse(await readFile(new URL('human-evidence.geojson',root),'utf8')).features.map(f=>f.properties.end))||!data.sites)throw Error('Invalid human evidence index');}
   else if(entry.format==='ice-margin-model-index'){
     if(data.referenceEpoch!==1950||data.temporalStepYears!==2500||data.consultationStart!==-78051||data.samples.length!==entry.records||data.samples.at(-1).ageBP!==80000)throw Error('Invalid ice model index');

@@ -1,0 +1,96 @@
+{
+  "format": "hominin-lineage",
+  "key": "erectus",
+  "name": "Homo erectus",
+  "group": "erectus",
+  "color": "#d29468",
+  "oldestKa": 1890,
+  "youngestKa": 108,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus",
+  "references": [
+    {
+      "title": "Homo erectus · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus"
+    },
+    {
+      "title": "Ngandong117–108ka; no coexistencia local inferida con sapiens",
+      "url": "https://doi.org/10.1038/s41586-019-1863-2"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    110.83,
+    -7.45
+  ],
+  "site": "Sangiran · referencia regional",
+  "regions": [
+    {
+      "id": "erectus-africa",
+      "oldestKa": 1890,
+      "youngestKa": 700,
+      "bounds": [
+        10,
+        -28,
+        43,
+        33
+      ],
+      "label": "África oriental, septentrional y austral",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "erectus-caucaso",
+      "oldestKa": 1850,
+      "youngestKa": 1200,
+      "bounds": [
+        39,
+        36,
+        48,
+        44
+      ],
+      "label": "Cáucaso · Dmanisi",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "erectus-china",
+      "oldestKa": 1600,
+      "youngestKa": 300,
+      "bounds": [
+        103,
+        22,
+        123,
+        41
+      ],
+      "label": "China · registro regional",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "erectus-java",
+      "oldestKa": 1500,
+      "youngestKa": 108,
+      "bounds": [
+        104,
+        -9.5,
+        115,
+        -5.5
+      ],
+      "label": "Java",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 300,
+      "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    }
+  ],
+  "fossils": [],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

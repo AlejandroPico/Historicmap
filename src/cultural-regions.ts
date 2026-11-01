@@ -8,7 +8,7 @@ export type RegionalRecord={key:string;ownerKey:string;contextKey:string;name:st
 export const regionalCoverage=coverage;
 export function hasRegionalCoverage(year:number){return year!==0&&coverage.windows.some(w=>w.start<=year&&year<=w.end);}
 export function regionalAsset(year:number){if(isPrehistoric(year))return'human-evidence.geojson';return segments.find(s=>s.start<=year&&year<=s.end)?.file;}
-export function regionalAssets(year:number){const file=regionalAsset(year),files=file?[file]:[];if(hasHumanEvidence(year)&&!files.includes('human-evidence.geojson'))files.push('human-evidence.geojson');return files;}
+export function regionalAssets(year:number){const file=regionalAsset(year),files=file?[file]:[];if(hasHumanEvidence(year)&&!files.includes('human-evidence.geojson'))files.push('human-evidence.geojson');if(hasHumanEvidence(year))files.push('hominin-sites.geojson');return files;}
 export function regionsAt(data:FeatureCollection,year:number,political:FeatureCollection):FeatureCollection{
  if(isPrehistoric(year))return humanEvidenceAt(data,year);
  const represented=new Set(political.features.map(f=>String(f.properties?.identityKey??f.properties?.entityCode??'')));

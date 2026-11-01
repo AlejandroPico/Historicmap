@@ -1,0 +1,57 @@
+{
+  "format": "hominin-lineage",
+  "key": "anamensis",
+  "name": "Australopithecus anamensis",
+  "group": "australopith",
+  "color": "#bdaf74",
+  "oldestKa": 4200,
+  "youngestKa": 3800,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-anamensis",
+  "references": [
+    {
+      "title": "Australopithecus anamensis · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-anamensis"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    36.1,
+    2.3
+  ],
+  "site": "Kanapoi · referencia regional",
+  "regions": [
+    {
+      "id": "anamensis-regional",
+      "oldestKa": 4200,
+      "youngestKa": 3800,
+      "bounds": [
+        34,
+        1,
+        42,
+        12
+      ],
+      "label": "Kanapoi · referencia regional",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-anamensis",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-anamensis",
+      "name": "Kanapoi · referencia regional",
+      "coordinates": [
+        36.1,
+        2.3
+      ],
+      "oldestKa": 4200,
+      "youngestKa": 4100,
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-anamensis",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto. Ventana redondeada de consulta del ejemplar/conjunto, no duración de toda la especie ni error analítico."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}

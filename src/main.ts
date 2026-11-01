@@ -1,5 +1,7 @@
 import{PREHISTORY_START,isPrehistoric,hasHumanEvidence,humanGroups,humanGroupCounts,humanLegend,cultureLabel}from'./prehistory';
 import {iceSampleFor,iceCaption,prehistoricClimate} from './ice-history';
+import{iceEnabledFor,climateContext,type IceMode}from'./ice-automatic';
+import{distributionsAt,coexistencePattern,distributionCoast,distributionCard,distributionLegend,lineageInventory}from'./human-distributions';
 import{displayLabel}from'./map-presentation';
 import{formatEventDate}from'./dates';
 import * as maplibregl from 'maplibre-gl';
@@ -39,7 +41,7 @@ const icons = { ArrowRight, ChevronDown, Database, Funnel, Globe2, Info, Layers,
 const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
 const icon = (name: string) => `<i data-lucide="${name}" aria-hidden="true"></i>`;
 function visibilityControls(scope:'layer'|'filter'){
-  return `<button id="political-${scope}" data-visibility="political" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Cartografía política</strong><small id="${scope==='layer'?'territory-description':'political-filter-help'}">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="cultural-${scope}" data-visibility="cultural" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('globe-2')}</span><span><strong>Pueblos y áreas culturales</strong><small id="${scope==='layer'?'cultural-help':'cultural-filter-help'}">Referencias documentadas; prioridad política</small></span><span class="layer-indicator"></span></button>`;
+  return `<button id="political-${scope}" data-visibility="political" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Cartografía política</strong><small id="${scope==='layer'?'territory-description':'political-filter-help'}">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="cultural-${scope}" data-visibility="cultural" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('globe-2')}</span><span><strong>Pueblos, culturas y yacimientos</strong><small id="${scope==='layer'?'cultural-help':'cultural-filter-help'}">Referencias documentadas; prioridad política</small></span><span class="layer-indicator"></span></button><button id="human-ranges-${scope}" data-visibility="human-ranges" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('globe-2')}</span><span><strong>Distribución humana</strong><small>Áreas estimadas y regiones compartidas</small></span><span class="layer-indicator"></span></button>`;
 }
 const organizationSections=[['Defensa y seguridad',['military','cooperation-security']],['Integración y comercio',['economic','trade','political-economic']],['Cooperación política y regional',['political','cooperation','infrastructure']]] as const;
 const organizationOptions=organizationSections.map(([label,types])=>`<optgroup label="${label}">${AFFILIATION_KINDS.filter(kind=>(types as readonly string[]).includes(AFFILIATIONS[kind].type)).map(kind=>`<option value="${kind}" title="${esc(AFFILIATIONS[kind].description)}">${esc(AFFILIATIONS[kind].label)}</option>`).join('')}</optgroup>`).join('');
@@ -69,11 +71,11 @@ app.innerHTML = `
     </section>
     <section id="filters-panel" class="filters-panel" role="dialog" aria-labelledby="filters-title" hidden>
       <div class="popover-head"><h2 id="filters-title">Filtros del atlas</h2><button id="close-filters" class="icon-button" aria-label="Cerrar filtros">${icon('x')}</button></div>
-      <div class="layers">${visibilityControls('filter')}<div id="human-filter-block" hidden><label for="human-group-select">Evidencias y grupos humanos</label><select id="human-group-select"><option value="">Todos los grupos</option></select><small>Las atribuciones siguen las fuentes; no delimitan rangos biológicos.</small></div><label class="theme-control" for="government-select">Forma política y régimen<select id="government-select"><option value="">Todas las formas</option></select><div id="government-empty" class="active-filter-note" hidden></div><small id="government-help">Clasificaciones fechadas; las categorías no documentadas se indican.</small></label><label class="theme-control" for="theme-select">Color del mapa<select id="theme-select"><option value="political">Territorios y dependencias</option><option value="gdp">PIB total</option><option value="gdpPerCapita">PIB por habitante</option><option value="population">Población</option></select><small id="theme-help">Indicadores del Banco Mundial desde 1960.</small></label><label class="theme-control" for="affiliation-select">Alianzas y organizaciones<select id="affiliation-select"><option value="">Sin superposición</option>${organizationOptions}</select><small id="affiliation-help">Altas, bajas y categorías documentadas · 1880–2026.</small></label></div>
+      <div class="layers">${visibilityControls('filter')}<div id="human-filter-block" hidden><label for="human-group-select">Evidencias y grupos humanos</label><select id="human-group-select"><option value="">Todos los grupos</option></select><small>Las atribuciones siguen las fuentes; los límites de las áreas son estimados.</small>${lineageInventory()}</div><label class="theme-control" for="government-select">Forma política y régimen<select id="government-select"><option value="">Todas las formas</option></select><div id="government-empty" class="active-filter-note" hidden></div><small id="government-help">Clasificaciones fechadas; las categorías no documentadas se indican.</small></label><label class="theme-control" for="theme-select">Color del mapa<select id="theme-select"><option value="political">Territorios y dependencias</option><option value="gdp">PIB total</option><option value="gdpPerCapita">PIB por habitante</option><option value="population">Población</option></select><small id="theme-help">Indicadores del Banco Mundial desde 1960.</small></label><label class="theme-control" for="affiliation-select">Alianzas y organizaciones<select id="affiliation-select"><option value="">Sin superposición</option>${organizationOptions}</select><small id="affiliation-help">Altas, bajas y categorías documentadas · 1880–2026.</small></label></div>
     </section>
     <section id="layers-panel" class="layers-panel" role="dialog" aria-labelledby="layers-title" hidden>
       <div class="popover-head"><h2 id="layers-title">Capas del atlas</h2><button id="close-layers" class="icon-button" aria-label="Cerrar capas">${icon('x')}</button></div>
-      <div class="layers">${visibilityControls('layer')}<button id="ice-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">❄</span><span><strong>Mantos de hielo</strong><small id="ice-help">Reconstrucción fechada · PaleoMIST 1.0</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales, ciudades y yacimientos</strong><small id="places-help">Capitales, cortes y sedes fechadas</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small id="occupations-help">Franjas y puntos de conflictos documentados</small></span><span class="layer-indicator"></span></button></div>
+      <div class="layers">${visibilityControls('layer')}<button id="ice-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">❄</span><span><strong>Mantos de hielo</strong><small id="ice-help">Reconstrucción fechada · PaleoMIST 1.0</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="ice-mode">Hielo<select id="ice-mode"><option value="auto">Automático según reconstrucción</option><option value="on">Mostrar modelo disponible</option><option value="off">Ocultar hielo</option></select></label><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales, ciudades y yacimientos</strong><small id="places-help">Capitales, cortes y sedes fechadas</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small id="occupations-help">Franjas y puntos de conflictos documentados</small></span><span class="layer-indicator"></span></button></div>
     </section>
     <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow" id="selection-date">EN EL MAPA</span><h2 id="selection-title"></h2><p id="selection-status" role="status" hidden></p><div id="selection-alternatives" hidden></div><div id="selection-text"></div></div>
     <aside id="map-legend" class="map-legend" aria-label="Leyenda del mapa" hidden></aside>
@@ -90,8 +92,11 @@ let year = PRESENT;
 let projection: 'globe' | 'mercator' = 'globe';
 let spacing = 230;
 let position = yearToPosition(year);
-let political = true, physical = false, showPlaces = false, showOccupations = false, showRegional = true, showIce = false;
+let political = true, physical = false, showPlaces = false, showOccupations = false, showRegional = true, showHumanRanges = true;
 let humanFilter='';
+let iceMode:IceMode='auto';
+let distributionData:FeatureCollection={type:'FeatureCollection',features:[]},sharedData:FeatureCollection={type:'FeatureCollection',features:[]};
+let sharedSignature='',distributionSignature='',referenceLandKey='',highlightedDistributionId:string|number|undefined;
 let theme:Theme='political';
 let affiliation:AffiliationKind|''='';
 let appearance=storedAppearance();
@@ -151,6 +156,13 @@ map.on('load', () => {
   map.addLayer({id:'cultural-fill',type:'fill',source:'cultural-regions',filter:['==',['get','kind'],'cultural-region'],paint:{'fill-color':['get','color'],'fill-opacity':1}});
   map.addLayer({id:'regional-polity-fill',type:'fill',source:'cultural-regions',filter:['==',['get','kind'],'polity-reference'],paint:{'fill-color':['get','color'],'fill-opacity':1}});
   map.addLayer({id:'cultural-line',type:'line',source:'cultural-regions',paint:{'line-color':'#536254','line-width':0.6,'line-opacity':0.65,'line-dasharray':[2,3]}});
+  map.addSource('human-ranges',{type:'geojson',data:empty,promoteId:RENDER_ID,tolerance:0.2,maxzoom:7,attribution:'<a href="https://github.com/AlejandroPico/Historicmap/tree/main/Tierra/Humanidad">Distribución humana · síntesis regional con fuentes</a>'});
+  map.addSource('human-shared',{type:'geojson',data:empty,tolerance:0.2,maxzoom:7});
+  map.addLayer({id:'human-range-fill',type:'fill',source:'human-ranges',paint:{'fill-color':['get','color'],'fill-opacity':0.86}});
+  map.addLayer({id:'human-range-shared',type:'fill',source:'human-shared',paint:{'fill-pattern':['get','patternKey'],'fill-opacity':1}});
+  map.addLayer({id:'human-range-line',type:'line',source:'human-ranges',paint:{'line-color':'#334744','line-width':0.7,'line-opacity':0.7,'line-dasharray':[3,2]}});
+  map.addLayer({id:'human-range-selected',type:'line',source:'human-ranges',paint:{'line-color':'#fff0bf','line-width':2,'line-opacity':['case',['boolean',['feature-state','selected'],false],1,0]}});
+  map.addLayer({id:'human-range-labels',type:'symbol',source:'human-ranges',minzoom:1.8,layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,'text-padding':14,'text-max-width':12},paint:{'text-color':'#fff4d5','text-halo-color':'#273d3d','text-halo-width':1.2}});
   // Subpixel render tolerance avoids overflowing GPU segments on dense coastlines.
   // The full-resolution source coordinates remain unchanged in public/data.
   map.addSource('territories',{type:'geojson',data:empty,promoteId:RENDER_ID,tolerance:0.2,maxzoom:7,attribution:'<a href="https://www.naturalearthdata.com/">Natural Earth</a> · <a href="https://icr.ethz.ch/data/cshapes/">CShapes · CC BY-NC-SA 4.0</a> · <a href="https://github.com/aourednik/historical-basemaps">A. Ourednik · GPL-3.0</a> · <a href="https://doi.org/10.1016/j.gsf.2024.101922">Cao et al. 2024 · CC BY 4.0</a>'});
@@ -207,9 +219,11 @@ map.on('click',event=>{
   const humanFeature=canonicalFeature(human,regionalData);if(humanFeature){selectFeature(humanFeature,event.lngLat.toArray());return;}
   const place=showPlaces?map.queryRenderedFeatures(event.point,{layers:['place-circles']})[0]:undefined;
   const feature=conflict?canonicalFeature(conflict,conflictData):place?canonicalFeature(place,cityData):canonicalFeature(political||snapshot.kind==='geological'?map.queryRenderedFeatures(event.point,{layers:['territory-fill']})[0]:undefined,loaded);
-  const alternatives=entitiesAt([event.lngLat.lng,event.lngLat.lat],visiblePoliticalData(),showRegional?regionalData:empty);
+  const alternatives=entitiesAt([event.lngLat.lng,event.lngLat.lat],visiblePoliticalData(),visibleRegions());
   if(feature||alternatives.length)selectFeature(feature??alternatives[0],[event.lngLat.lng,event.lngLat.lat]);
 });
+map.on('mouseenter','human-range-fill',()=>{map.getCanvas().style.cursor='pointer';});
+map.on('mouseleave','human-range-fill',()=>{map.getCanvas().style.cursor='';});
 map.on('mouseenter','territory-fill',()=>{map.getCanvas().style.cursor='pointer';});
 map.on('mouseleave','territory-fill',()=>{map.getCanvas().style.cursor='';});
 function selectFeature(feature:{properties:MapGeoJSONFeature['properties']|null;id?:string|number},location?:number[]) {
@@ -229,15 +243,17 @@ function highlightFeature(id?:string|number){
   highlightedId=id;
   if(id!==undefined)map.setFeatureState({source:'territories',id},{selected:true});
 }
-function closeSelection(){selectedAnchor=undefined;selectionLocation=undefined;selectionGeneration++;$('#selection').hidden=true;highlightFeature();highlightRegion();}
+function highlightDistribution(id?:string|number){if(highlightedDistributionId!==undefined)map.removeFeatureState({source:'human-ranges',id:highlightedDistributionId},'selected');highlightedDistributionId=id;if(id!==undefined)map.setFeatureState({source:'human-ranges',id},{selected:true});}
+function visibleRegions():FeatureCollection{return{type:'FeatureCollection',features:[...(showRegional?regionalData.features:[]),...(showRegional&&showHumanRanges?distributionData.features.filter(f=>!humanFilter||f.properties?.group===humanFilter):[])]};}
+function closeSelection(){selectedAnchor=undefined;selectionLocation=undefined;selectionGeneration++;$('#selection').hidden=true;highlightFeature();highlightRegion();highlightDistribution();}
 function highlightRegion(id?:string|number){if(highlightedRegionalId!==undefined)map.removeFeatureState({source:'cultural-regions',id:highlightedRegionalId},'selected');highlightedRegionalId=id;if(id!==undefined)map.setFeatureState({source:'cultural-regions',id},{selected:true});}
-function renderAlternatives(){selectionAlternatives=selectionLocation?entitiesAt(selectionLocation,visiblePoliticalData(),showRegional&&hasRegionalCoverage(year)?regionalData:empty):[];const panel=$('#selection-alternatives');panel.hidden=selectionAlternatives.length<2;panel.innerHTML=panel.hidden?'':`<span>En este lugar</span><div>${selectionAlternatives.map((f,i)=>`<button class="text-action" data-overlap-entity="${i}" aria-pressed="${selectedAnchor?.properties.contextKey?f.properties?.contextKey===selectedAnchor.properties.contextKey:!f.properties?.contextKey&&(f.properties?.identityKey??f.properties?.entityCode??f.properties?.name)===(selectedAnchor?.key||selectedAnchor?.name)}">${esc(String(f.properties?.name))}<small>${f.properties?.contextKey?(f.properties.kind==='polity-reference'?'Referencia política':'Región cultural'):'Entidad política'}</small></button>`).join('')}</div>`;}
+function renderAlternatives(){selectionAlternatives=selectionLocation?entitiesAt(selectionLocation,visiblePoliticalData(),visibleRegions()):[];const panel=$('#selection-alternatives');panel.hidden=selectionAlternatives.length<2;panel.innerHTML=panel.hidden?'':`<span>En este lugar</span><div>${selectionAlternatives.map((f,i)=>`<button class="text-action" data-overlap-entity="${i}" aria-pressed="${selectedAnchor?.properties.contextKey?f.properties?.contextKey===selectedAnchor.properties.contextKey:!f.properties?.contextKey&&(f.properties?.identityKey??f.properties?.entityCode??f.properties?.name)===(selectedAnchor?.key||selectedAnchor?.name)}">${esc(String(f.properties?.name))}<small>${f.properties?.kind==='archaeological-reference'?'Yacimiento o evidencia':f.properties?.contextKey?(f.properties.kind==='human-range'?'Distribución humana':f.properties.kind==='polity-reference'?'Referencia política':'Región cultural'):'Entidad política'}</small></button>`).join('')}</div>`;}
 $('#selection-alternatives').onclick=e=>{const b=(e.target as Element).closest<HTMLElement>('[data-overlap-entity]');if(b){const f=selectionAlternatives[Number(b.dataset.overlapEntity)];if(f)selectFeature(f,selectionLocation);}};
 function renderSelection(){
   if(!selectedAnchor||!identityData||$('#map').getAttribute('aria-busy')==='true')return;
   const top=document.querySelector('.country-content')?.scrollTop??0;
   selectionGeneration++;
-  const feature=matchingFeature(selectedAnchor,selectedAnchor.place?{type:'FeatureCollection',features:[...cityData.features,...conflictData.features]}:selectedAnchor.uid?overlayData:{type:'FeatureCollection',features:[...loaded.features,...regionalData.features,...cityData.features.filter(f=>f.properties?.sovereignSeat)]},year,identityData);
+  const feature=matchingFeature(selectedAnchor,selectedAnchor.place?{type:'FeatureCollection',features:[...cityData.features,...conflictData.features]}:selectedAnchor.uid?overlayData:{type:'FeatureCollection',features:[...loaded.features,...regionalData.features,...distributionData.features,...cityData.features.filter(f=>f.properties?.sovereignSeat)]},year,identityData);
   const p=feature?.properties??selectedAnchor.properties;
   $('#selection').hidden=false;$('#selection').setAttribute('aria-busy','false');$('#selection-status').hidden=true;
   $('#selection-title').textContent=displayLabel(feature?(p.contextKey?p.name:identityFor(p,year,identityData).name??p.name??'Área del mapa'):selectedAnchor.name||'Área del mapa');
@@ -250,8 +266,8 @@ function renderSelection(){
   }else if(selectedAnchor.place){
     $('#selection-text').innerHTML=feature?`<p>${esc(p.referenceKind==='archaeological-site'?'Yacimiento o centro documentado':p.capital?'Capital o sede administrativa':'Gran ciudad')} · ${esc(p.country)}</p><p>${esc(p.note??'Localización urbana de referencia contemporánea.')}</p><a class="profile-source" href="${esc(p.source)}" target="_blank" rel="noopener">Fuente del lugar ↗</a>`:`<p>No hay un registro de este lugar en la capa de ${formatYear(year)}. La ficha se conserva para continuar el recorrido.</p>`;
   }else if(p.contextKey){
-    $('#selection-date').textContent=`${formatYear(year)} · ${p.kind==='polity-reference'?'REFERENCIA POLÍTICA':'REGIÓN CULTURAL'}`;
-    $('#selection-text').innerHTML=regionalCard(p as RegionalRecord,year,Boolean(feature));
+    $('#selection-date').textContent=`${formatYear(year)} · ${p.kind==='human-range'?'DISTRIBUCIÓN HUMANA ESTIMADA':p.kind==='polity-reference'?'REFERENCIA POLÍTICA':'REGIÓN CULTURAL'}`;
+    $('#selection-text').innerHTML=p.kind==='human-range'?distributionCard(p,year,Boolean(feature)):regionalCard(p as RegionalRecord,year,Boolean(feature));
   }else{
     $('#selection-text').innerHTML=countryCard(p,year,snapshot,profiles,identityData,import.meta.env.BASE_URL,{indicators:indicatorData,history:countryHistory,available:Boolean(feature),key:selectedAnchor.key,timelineFilter,timelineFuture,timelineExpanded,trends:trendSelections});
     const tab=document.getElementById('tab-'+activeCountryTab);if(tab)activateCountryTab(tab);
@@ -260,7 +276,7 @@ function renderSelection(){
     if(activeCountryTab==='comparison')void renderComparison();
   }
   highlightFeature(!p.contextKey&&!selectedAnchor.uid&&!selectedAnchor.place&&!p.sovereignSeat?feature?.id:undefined);
-  highlightRegion(p.contextKey?feature?.id:undefined);renderAlternatives();
+  highlightRegion(p.contextKey&&p.kind!=='human-range'?feature?.id:undefined);highlightDistribution(p.kind==='human-range'?feature?.id:undefined);renderAlternatives();
   const content=document.querySelector('.country-content');if(content)content.scrollTop=top;
 }
 async function regionalRawAt(y:number):Promise<FeatureCollection>{const sets=await Promise.all(regionalAssets(y).map(file=>asset<FeatureCollection>(file)));return{type:'FeatureCollection',features:sets.flatMap(d=>d.features)};}
@@ -311,11 +327,12 @@ function updateSources(){
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a>${year>=-3000?' · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>':''}${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
   $('#source-scope').textContent=hasHumanEvidence(year)?'Yacimientos y ventanas de evidencia, no ocupaciones continuas, fronteras humanas o rutas exactas. Atribuciones biológicas y culturales según las fuentes. Costa contemporánea de referencia.':year<-3000&&year>=-10000?'Comunidades y yacimientos con fechas aproximadas; sin fronteras nacionales ni gobernantes supuestos. Costa contemporánea de referencia.':snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
   if(hasRegionalCoverage(year)){$('#source-links').innerHTML+=' · <a href="https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-MODERN-REVIEW.md" target="_blank" rel="noopener">Pueblos y regiones ↗</a>';$('#source-scope').textContent+=` Regiones culturales: ventanas de consulta ${regionalCoverage.windows.map(w=>w.start+'–'+w.end).join(', ')}; no son fronteras anuales. Las fichas distinguen testimonio espacial, incertidumbre y fechas.`;}
-  if(showIce&&iceSampleFor(year)){$('#source-links').innerHTML+=' · <a href="https://doi.pangaea.de/10.1594/PANGAEA.905800" target="_blank" rel="noopener">PaleoMIST · hielo ↗</a>';$('#source-scope').textContent+=' '+iceCaption(year)+' Márgenes de cuatro regiones continentales; no hielo marino, todos los glaciares de montaña ni paleocostas.';}
+  if(iceEnabledFor(year,iceMode)&&iceSampleFor(year)){$('#source-links').innerHTML+=' · <a href="https://doi.pangaea.de/10.1594/PANGAEA.905800" target="_blank" rel="noopener">PaleoMIST · hielo ↗</a>';$('#source-scope').textContent+=' '+iceCaption(year)+' Márgenes de cuatro regiones continentales; no hielo marino, todos los glaciares de montaña ni paleocostas.';}
   if(year>=-10000&&year<-3000)$('#source-scope').textContent+=' '+prehistoricClimate(year)+'. Límite del Holoceno: 11.700 años antes de 2000, no BP1950. La expansión humana es muy anterior a 10000 a. C.';
   if(isPrehistoric(year)&&!iceSampleFor(year))$('#source-scope').textContent+=' El modelo de hielo disponible termina en80.000BP1950; no se extrapola para esta fecha.';
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
   if(governmentFilter)$('#source-links').innerHTML+=' · <a href="https://ourworldindata.org/grapher/political-regime" target="_blank" rel="noopener">Formas políticas / V-Dem ↗</a>';
+  if(isPrehistoric(year)){if(distributionCoast(year)!=='countries.geojson')$('#source-scope').textContent=$('#source-scope').textContent!.replace('Costa contemporánea de referencia.','Costas CAO2024 de referencia; fecha del modelo '+distributionCoast(year).match(/\d+/)?.[0]+'Ma. Coordenadas de los fósiles actuales, sin rotación retrospectiva individual.');$('#source-scope').textContent+=' '+climateContext(year)+' Distribuciones regionales estimadas; sus franjas no acreditan guerras ni dominio.';}
   if(snapshot.kind==='concept')$('#source-scope').textContent='Escena conceptual y contexto documental; no hay geometría reconstruida para esta fecha.';
 }
 
@@ -323,7 +340,8 @@ function refreshMap(force=false):Promise<void> {
   snapshot=snapshotFor(year);
   const target={...snapshot}, targetYear=year, targetTheme=theme;
   const displayKey=target.kind==='prehistoric'?`prehistory-${targetYear}`:target.kind==='annual'?`history-${targetYear}`:target.file??`concept-${year < -1800000000 ? 'early':'human'}`;
-  const targetIce=showIce?iceSampleFor(targetYear):undefined;
+  const targetIce=iceEnabledFor(targetYear,iceMode)?iceSampleFor(targetYear):undefined;
+  const targetLand=target.kind==='prehistoric'?distributionCoast(targetYear):'countries.geojson';
   const key=`${displayKey}:${targetYear}:${theme}:ice-${targetIce?.ageBP??'off'}`;
   $('#ice-layer').toggleAttribute('disabled',!iceSampleFor(year));
   const concept=snapshot.kind==='concept';
@@ -359,19 +377,21 @@ function refreshMap(force=false):Promise<void> {
   updateSources();
   refreshPromise=(async()=>{
     try {
-      const [rawData,profileData,points,overlays,identities,referenceLand,indicators,historyDetails,regionalRaw,iceMargins]=await Promise.all([
+      const [rawData,profileData,points,overlays,identities,referenceLand,indicators,historyDetails,regionalRaw,iceMargins,rawDistributions]=await Promise.all([
         target.kind==='prehistoric'?Promise.resolve(empty):target.kind==='annual'?annualData(targetYear):asset<FeatureCollection>(target.file!),
         asset<ProfileData>('profiles.json'),
         target.kind==='modern'?modernCities():Promise.resolve(empty),
         targetYear>=-3000?overlaysFor(targetYear):Promise.resolve(empty),
         asset<IdentityData>('identities.json'),
-        target.kind!=='geological'?asset<FeatureCollection>('countries.geojson'):Promise.resolve(empty),
-        asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json'),regionalRawAt(targetYear),targetIce?asset<FeatureCollection>(targetIce.file):Promise.resolve(empty)
+        target.kind!=='geological'?asset<FeatureCollection>(targetLand):Promise.resolve(empty),
+        asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json'),regionalRawAt(targetYear),targetIce?asset<FeatureCollection>(targetIce.file):Promise.resolve(empty),target.kind==='prehistoric'?asset<FeatureCollection>('human-ranges.geojson'):Promise.resolve(empty)
       ]);
       if(current!==requestNumber)return;
       const composed=await controlledMap(politicalData(rawData,targetYear,target.kind==='modern'?profileData:undefined),overlays,targetYear);
       if(current!==requestNumber)return;
       const regional=withRenderIds(regionsAt(regionalRaw,targetYear,composed.territories),'regions');
+      const distribution=distributionsAt(rawDistributions,targetYear);
+      const ranges=withRenderIds(distribution.areas,'human-ranges');
       const data=withRenderIds(withGovernance(composed.territories,targetYear),displayKey),hatching=withGovernance({...composed.occupations,features:[...composed.occupations.features,...nationalInfluenceHatching(composed.territories,targetYear).features]},targetYear);
       const themed=thematicData(data,profileData,targetTheme,targetYear);
       const signature=target.kind==='annual'||target.kind==='modern'?data.features.map(f=>`${f.id}:${f.properties?.name}:${f.properties?.politicalColor}:${f.properties?.controlInfluenceColor}:${f.properties?.identityKey}:${f.properties?.controlRecord}:${f.properties?.governmentTags}`).join('|'):target.file!;
@@ -383,8 +403,8 @@ function refreshMap(force=false):Promise<void> {
         $('#map').dataset.iceAgeBp=targetIce?String(targetIce.ageBP):'';
         $('#map').dataset.loadStage='territories';
         const referenceOn=referenceLand.features.length>0;
-        if(referenceOn!==referenceLandOn){await (map.getSource('reference-land') as GeoJSONSource).setData(referenceLand);referenceLandOn=referenceOn;}
-        $('#map').dataset.referenceLand=String(referenceOn);
+        if(referenceOn!==referenceLandOn||referenceLandKey!==targetLand){await (map.getSource('reference-land') as GeoJSONSource).setData(referenceLand);referenceLandOn=referenceOn;referenceLandKey=targetLand;}
+        $('#map').dataset.referenceLand=String(referenceOn);$('#map').dataset.referenceLandFile=targetLand;
         if(signature!==territorySignature||force){
           const source=map.getSource('territories') as GeoJSONSource;
           if(committedDomain===target.kind&&['annual','modern'].includes(target.kind)){
@@ -405,6 +425,9 @@ function refreshMap(force=false):Promise<void> {
         if(nextRegionalSignature!==regionalSignature){await (map.getSource('cultural-regions') as GeoJSONSource).setData(regional);regionalSignature=nextRegionalSignature;}
         if(current!==requestNumber)return;
         regionalData=regional;$('#map').dataset.culturalRegions=String(regional.features.length);
+        const rangeSignature=ranges.features.map(f=>f.id).join('|');
+        if(rangeSignature!==distributionSignature){await(map.getSource('human-ranges') as GeoJSONSource).setData(ranges);if(current!==requestNumber)return;distributionSignature=rangeSignature;}
+        distributionData=ranges;sharedData=distribution.overlaps;$('#map').dataset.humanRanges=String(ranges.features.length);$('#map').dataset.humanShared=String(sharedData.features.length);
         $('#map').dataset.territories=String(data.features.length);
         loaded=themed;profiles=profileData;identityData=identities;indicatorData=indicators;countryHistory=historyDetails;overlayData=hatching;activeKey=displayKey;
         // Statistics change paint only: do not re-index or tessellate coastlines for a new number.
@@ -457,15 +480,24 @@ function applyGovernmentFilter(){
 }
 function applyLayers(){
   cityData=withGovernance(cityData,year);
-  for(const [kind,on]of [['political',political],['cultural',showRegional]]as const)for(const control of document.querySelectorAll(`[data-visibility=${kind}]`)){control.classList.toggle('active',on);control.setAttribute('aria-pressed',String(on));}
+  for(const [kind,on]of [['political',political],['cultural',showRegional],['human-ranges',showHumanRanges]]as const)for(const control of document.querySelectorAll(`[data-visibility=${kind}]`)){control.classList.toggle('active',on);control.setAttribute('aria-pressed',String(on));}
   $('#political-filter-help').textContent=$('#territory-description').textContent;
   $('#physical-layer').classList.toggle('active',physical&&reliefAvailable());$('#physical-layer').setAttribute('aria-pressed',String(physical&&reliefAvailable()));
   $('#places-layer').classList.toggle('active',showPlaces);$('#places-layer').setAttribute('aria-pressed',String(showPlaces));
   $('#occupations-layer').classList.toggle('active',showOccupations);$('#occupations-layer').setAttribute('aria-pressed',String(showOccupations));
-  $('#ice-layer').classList.toggle('active',showIce&&!!iceSampleFor(year));$('#ice-layer').setAttribute('aria-pressed',String(showIce&&!!iceSampleFor(year)));$('#ice-help').textContent=iceSampleFor(year)?'Referencia '+formatYear(iceSampleFor(year)!.referenceYear)+' · muestras de 2.500–5.000 años':'Revisión de esta fecha pendiente';
+  $('#ice-layer').classList.toggle('active',iceEnabledFor(year,iceMode));$('#ice-layer').setAttribute('aria-pressed',String(iceEnabledFor(year,iceMode)));$<HTMLSelectElement>('#ice-mode').value=iceMode;$('#map').dataset.iceMode=iceMode;$('#ice-help').textContent=iceSampleFor(year)?(iceMode==='auto'?'Automático · ':'')+'Referencia '+formatYear(iceSampleFor(year)!.referenceYear)+' · muestras de 2.500–5.000 años':'Sin contorno de hielo incorporado para esta fecha';
   if(!ready)return;
-  const iceOn=showIce&&!!iceSampleFor(year)&&$('#map').dataset.iceAgeBp===String(iceSampleFor(year)!.ageBP);
+  const iceOn=iceEnabledFor(year,iceMode)&&$('#map').dataset.iceAgeBp===String(iceSampleFor(year)!.ageBP);
   for(const id of ['ice-fill','ice-line'])map.setLayoutProperty(id,'visibility',iceOn?'visible':'none');$('#map').dataset.iceVisible=String(iceOn);
+  for(const control of document.querySelectorAll('[data-visibility=human-ranges]'))control.toggleAttribute('disabled',!isPrehistoric(year));
+  const rangesOn=showRegional&&showHumanRanges&&isPrehistoric(year);
+  for(const id of ['human-range-fill','human-range-line','human-range-shared','human-range-selected','human-range-labels'])map.setLayoutProperty(id,'visibility',rangesOn?'visible':'none');
+  const rangeFilter:any=humanFilter?['==',['get','group'],humanFilter]:['has','lineage'];
+  for(const id of ['human-range-fill','human-range-line','human-range-selected','human-range-labels'])map.setFilter(id,rangeFilter);
+  const shared={...sharedData,features:sharedData.features.filter(f=>!humanFilter||f.properties!.groups.includes(humanFilter)).map(f=>{const p=f.properties!,focus=humanFilter&&p.groups.filter((g:string)=>g===humanFilter).length===1?p.groups.indexOf(humanFilter):-1,patternKey='human-shared-'+p.members.join('-')+'-'+focus;if(!map.hasImage(patternKey))map.addImage(patternKey,coexistencePattern(p.colors,focus));return{...f,properties:{...p,patternKey}};})};
+  const sharedKey=distributionSignature+':'+humanFilter;
+  if(sharedKey!==sharedSignature){(map.getSource('human-shared') as GeoJSONSource).setData(shared);sharedSignature=sharedKey;}
+  $('#map').dataset.humanRangesVisible=String(rangesOn);
   const visibilitySignature=`${political}:${showRegional}`;
   if($('#map').dataset.visibilityRendered!==visibilitySignature)delete $('#map').dataset.visibilityRendered;
   const regionalOn=showRegional&&hasRegionalCoverage(year)&&!['concept','geological'].includes(snapshot.kind);
@@ -474,7 +506,7 @@ function applyLayers(){
   const regionalParents=[...new Set(regionalData.features.flatMap(f=>f.properties?.parentContextKeys??[]))];
   map.setFilter('cultural-labels',['all',['==',['geometry-type'],'Polygon'],['!', ['in',['get','contextKey'],['literal',regionalParents]]]]);
   const humanMask:any=['all',['==',['geometry-type'],'Point'],...(humanFilter?[['in',humanFilter,['get','taxonGroups']]]:[])];for(const id of['human-evidence-circles','human-evidence-labels'])map.setFilter(id,humanMask);
-  $('#human-filter-block').hidden=!hasHumanEvidence(year);const humanSelect=$<HTMLSelectElement>('#human-group-select'),counts=humanGroupCounts(regionalData);humanSelect.innerHTML='<option value="">Todos los grupos</option>'+counts.filter(g=>g.count||g.id===humanFilter).map(g=>`<option value="${g.id}">${g.label} · ${g.count}</option>`).join('');humanSelect.value=humanFilter;
+  $('#human-filter-block').hidden=!hasHumanEvidence(year);const humanSelect=$<HTMLSelectElement>('#human-group-select'),counts=humanGroupCounts({type:'FeatureCollection',features:[...regionalData.features,...distributionData.features]});humanSelect.innerHTML='<option value="">Todos los grupos</option>'+counts.filter(g=>g.count||g.id===humanFilter).map(g=>`<option value="${g.id}">${g.label} · ${g.count}</option>`).join('');humanSelect.value=humanFilter;
   $('#cultural-help').textContent=isPrehistoric(year)?`${regionalData.features.length} yacimientos · intervalos de evidencia y atribuciones de las fuentes`:hasRegionalCoverage(year)?`${regionalData.features.filter(f=>f.properties?.kind==='cultural-region').length} regiones · referencias ${[...new Set(regionalData.features.filter(f=>f.geometry.type!=='Point').map(f=>f.properties?.sourceYear))].sort((a,b)=>Number(a)-Number(b)).map(y=>Number(y)<0?formatYear(Number(y)):y).join(', ')}`:'Revisión de esta fecha pendiente · no implica desaparición';
   $('#cultural-filter-help').textContent=$('#cultural-help').textContent;
   $('#map').dataset.politicalVisible=String(political&&snapshot.kind!=='geological');
@@ -512,7 +544,7 @@ function applyLayers(){
   const familyLegend=political&&!affiliation&&theme==='political'&&loaded.features.some(f=>f.properties?.influenceKind||['colony','protectorate','mandate'].includes(f.properties?.status))?'<small>Los matices de una familia de color indican una relación documentada. Intervención o apoyo militar no equivalen a soberanía, anexión ni control uniforme.</small>':'';
   const front=loaded.features.find(f=>f.properties?.controlObservationDate)?.properties;
   const frontLegend=front?`<small class="control-observation">Ucrania · referencia cartográfica ${esc(String(front.controlObservationDate).split('-').reverse().join('/'))}<br>Incertidumbre mínima del frente: 7 km.</small>`:'';
-  $('#map-legend').innerHTML=(governmentFilter?`<div class="government-legend"><strong>${esc(governmentTags.find(t=>t.id===governmentFilter)?.label??governmentFilter)}</strong><small>${$('#map').dataset.governmentMatches??0} entidades · ${year}</small></div>`:'')+frontLegend+familyLegend+(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(showIce&&iceSampleFor(year)?`<small class="ice-legend"><strong>Mantos de hielo · referencia modelada</strong><br>${iceCaption(year)}<br>No reconstruye paleocostas ni hielo marino.</small>`:'')+(controlVisible?`<div class="conflict-points-legend"><strong>${conflictData.features.length} conflictos y episodios localizados</strong><small>Coral: batalla o episodio. Violeta: referencia regional.<br>Los puntos no representan frentes ni ocupación. ${nationalReference?'Las franjas nacionales son referencias de intervención o presencia, no frentes locales.' : 'Las franjas de control usan los límites documentados.'}</small></div>`:'')+(showRegional&&hasHumanEvidence(year)?humanLegend({type:'FeatureCollection',features:regionalData.features.filter(f=>!humanFilter||f.properties?.taxonGroups?.includes(humanFilter)||humanFilter==='mixed'&&f.properties?.taxonGroup==='mixed')}):'')+(showRegional&&!isPrehistoric(year)&&hasRegionalCoverage(year)?`<small class="regional-legend">Pueblos y regiones: referencias cartográficas de ${[...new Set(regionalData.features.filter(f=>f.geometry.type!=='Point').map(f=>f.properties?.sourceYear))].sort((a,b)=>Number(a)-Number(b)).map(y=>Number(y)<0?formatYear(Number(y)):y).join(', ')}.<br>Áreas aproximadas; prioridad política y consulta de coincidencias.</small>`:'')+(referenceLandOn?`<small>Gris: sin representación en las capas activas; no significa despoblación.<br>Costa contemporánea de referencia.${year>=-10000&&!hasRegionalCoverage(year)?'<br>Revisión cultural de esta fecha pendiente.':''}</small>`:'');
+  $('#map-legend').innerHTML=(governmentFilter?`<div class="government-legend"><strong>${esc(governmentTags.find(t=>t.id===governmentFilter)?.label??governmentFilter)}</strong><small>${$('#map').dataset.governmentMatches??0} entidades · ${year}</small></div>`:'')+frontLegend+familyLegend+(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(iceEnabledFor(year,iceMode)&&iceSampleFor(year)?`<small class="ice-legend"><strong>Mantos de hielo · referencia modelada</strong><br>${iceCaption(year)}<br>No reconstruye paleocostas ni hielo marino.</small>`:'')+(controlVisible?`<div class="conflict-points-legend"><strong>${conflictData.features.length} conflictos y episodios localizados</strong><small>Coral: batalla o episodio. Violeta: referencia regional.<br>Los puntos no representan frentes ni ocupación. ${nationalReference?'Las franjas nacionales son referencias de intervención o presencia, no frentes locales.' : 'Las franjas de control usan los límites documentados.'}</small></div>`:'')+(rangesOn?distributionLegend({type:'FeatureCollection',features:distributionData.features.filter(f=>!humanFilter||f.properties!.group===humanFilter)}):'')+(showRegional&&hasHumanEvidence(year)?humanLegend({type:'FeatureCollection',features:regionalData.features.filter(f=>!humanFilter||f.properties?.taxonGroups?.includes(humanFilter)||humanFilter==='mixed'&&f.properties?.taxonGroup==='mixed')}):'')+(showRegional&&!isPrehistoric(year)&&hasRegionalCoverage(year)?`<small class="regional-legend">Pueblos y regiones: referencias cartográficas de ${[...new Set(regionalData.features.filter(f=>f.geometry.type!=='Point').map(f=>f.properties?.sourceYear))].sort((a,b)=>Number(a)-Number(b)).map(y=>Number(y)<0?formatYear(Number(y)):y).join(', ')}.<br>Áreas aproximadas; prioridad política y consulta de coincidencias.</small>`:'')+(referenceLandOn?`<small>Gris: sin representación en las capas activas; no significa despoblación.<br>${isPrehistoric(year)&&distributionCoast(year)!=='countries.geojson'?'Costas continentales CAO2024 · referencia modelada, no paleocosta cuaternaria detallada.':'Costa contemporánea de referencia.'}${year>=-10000&&!hasRegionalCoverage(year)?'<br>Revisión cultural de esta fecha pendiente.':''}</small>`:'');
   $('#map-legend').hidden=!$('#map-legend').innerHTML;
 }
 let lastLocationWrite = -Infinity;
@@ -611,9 +643,10 @@ document.addEventListener('pointerdown',event=>{const target=event.target as Nod
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#layers-panel').hidden&&!$('#layers-panel').contains(target)&&!$('#layers-button').contains(target))closeLayers();});
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#sources-panel').hidden&&!$('#sources-panel').contains(target)&&!$('#sources-button').contains(target))closeSources();});
 $('#human-group-select').onchange=()=>{humanFilter=$<HTMLSelectElement>('#human-group-select').value;applyLayers();refreshSearch();};
-$('#ice-layer').onclick=()=>{showIce=!showIce;applyLayers();void refreshMap();};
+$('#ice-layer').onclick=()=>{iceMode=iceEnabledFor(year,iceMode)?'off':'on';applyLayers();void refreshMap();};
+$('#ice-mode').onchange=()=>{iceMode=$<HTMLSelectElement>('#ice-mode').value as IceMode;applyLayers();void refreshMap();};
 $('#physical-layer').onclick=()=>{physical=!physical;applyLayers();updateSources();};$('#places-layer').onclick=()=>{showPlaces=!showPlaces;applyLayers();};
-app.addEventListener('click',event=>{const button=(event.target as Element).closest<HTMLButtonElement>('[data-visibility]');if(!button||button.disabled)return;if(button.dataset.visibility==='political')political=!political;else showRegional=!showRegional;applyLayers();renderSelection();refreshSearch();});
+app.addEventListener('click',event=>{const button=(event.target as Element).closest<HTMLButtonElement>('[data-visibility]');if(!button||button.disabled)return;if(button.dataset.visibility==='political')political=!political;else if(button.dataset.visibility==='human-ranges')showHumanRanges=!showHumanRanges;else showRegional=!showRegional;applyLayers();renderSelection();refreshSearch();});
 $('#occupations-layer').onclick=()=>{showOccupations=!showOccupations;applyLayers();};
 $('#theme-select').onchange=()=>{stopPlay();political=true;theme=$<HTMLSelectElement>('#theme-select').value as Theme;affiliation='';$<HTMLSelectElement>('#affiliation-select').value='';void refreshMap();};
 $('#government-select').onchange=()=>{stopPlay();governmentFilter=$<HTMLSelectElement>('#government-select').value;applyLayers();refreshSearch();updateSources();};
@@ -695,7 +728,7 @@ $('#search-button').onclick=()=>{
     $('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
     if($('#map').getAttribute('aria-busy')==='true'){$('#search-results').textContent='Actualizando territorios…';return;}
     const q=$<HTMLInputElement>('#search-input').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-    const matches=[...visiblePoliticalData().features,...(showRegional?regionalData.features:[]),...(political?cityData.features.filter(f=>f.properties?.sovereignSeat):[])].filter(f=>!humanFilter||!hasHumanEvidence(year)||f.properties?.taxonGroups?.includes(humanFilter)||humanFilter==='mixed'&&f.properties?.taxonGroup==='mixed').filter(f=>!governmentFilter||f.properties?.referenceKind==='archaeological-site'||f.properties?.contextKey||(f.properties?.governmentTags??[]).includes(governmentFilter)).filter(f=>[f.properties?.name,...(f.properties?.taxa??[]),...(f.properties?.cultures??[]),...(f.properties?.cultures??[]).map(cultureLabel),...humanGroups.filter(g=>f.properties?.taxonGroups?.includes(g.id)).map(g=>g.label),f.properties?.sourceDisplayName,identityData?.countries[String(f.properties?.identityKey??f.properties?.code)]?.name,...(f.properties?.originalNames??[]),...(f.properties?.originalSiteNames??[]),f.properties?.originalName,f.properties?.controlName,profileFor(profiles,f.properties?.code||f.properties?.identityKey)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
+    const matches=[...visiblePoliticalData().features,...visibleRegions().features,...(political?cityData.features.filter(f=>f.properties?.sovereignSeat):[])].filter(f=>!humanFilter||!hasHumanEvidence(year)||f.properties?.taxonGroups?.includes(humanFilter)||humanFilter==='mixed'&&f.properties?.taxonGroup==='mixed').filter(f=>!governmentFilter||f.properties?.referenceKind==='archaeological-site'||f.properties?.contextKey||(f.properties?.governmentTags??[]).includes(governmentFilter)).filter(f=>[f.properties?.name,...(f.properties?.taxa??[]),...(f.properties?.cultures??[]),...(f.properties?.cultures??[]).map(cultureLabel),...humanGroups.filter(g=>f.properties?.taxonGroups?.includes(g.id)).map(g=>g.label),f.properties?.sourceDisplayName,identityData?.countries[String(f.properties?.identityKey??f.properties?.code)]?.name,...(f.properties?.originalNames??[]),...(f.properties?.originalSiteNames??[]),f.properties?.originalName,f.properties?.controlName,profileFor(profiles,f.properties?.code||f.properties?.identityKey)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
     $('#search-results').replaceChildren();
     if(!matches.length)$('#search-results').textContent=!political&&(!showRegional||!hasRegionalCoverage(year))?'Activa la cartografía política o las áreas culturales para buscar en el mapa.':'Sin resultados en esta instantánea. Prueba otra fecha o nombre. También puedes buscar el nombre original de la fuente.';
     matches.forEach(feature=>{const button=document.createElement('button');button.textContent=displayLabel(feature.properties?.name);button.onclick=()=>{if(feature.geometry.type==='Polygon'||feature.geometry.type==='MultiPolygon'){

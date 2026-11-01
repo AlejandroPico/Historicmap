@@ -9,9 +9,9 @@ import{emptyIndicators}from'../src/country-workspace';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8')),data=read('public/data/human-evidence.geojson'),inventory=read('docs/PALEOLITHIC-INVENTORY.json'),ids=read('public/data/identities.json'),empty={type:'FeatureCollection' as const,features:[]};
 describe('100000–10001BCE: individually dated human evidence',()=>{
  it('keeps exact consultation separate from political annual maps and advances without giant jumps',()=>{
-  expect(snapshotFor(-100001).kind).toBe('concept');expect(snapshotFor(-100000).kind).toBe('prehistoric');expect(snapshotFor(-10001).kind).toBe('prehistoric');expect(snapshotFor(-10000).kind).toBe('annual');expect(ANNUAL_CONSULTATION_START).toBe(-10000);
+  expect(snapshotFor(-100001).kind).toBe('prehistoric');expect(snapshotFor(-100000).kind).toBe('prehistoric');expect(snapshotFor(-10001).kind).toBe('prehistoric');expect(snapshotFor(-10000).kind).toBe('annual');expect(ANNUAL_CONSULTATION_START).toBe(-10000);
   for(const y of[-100000,-80000,-60000,-40000,-20000,-10001]){expect(regionalAsset(y)).toBe('human-evidence.geojson');expect(hasRegionalCoverage(y)).toBe(true);expect(regionsAt(data,y,empty).features.length).toBeGreaterThan(0);}
-  expect(hasRegionalCoverage(-100001)).toBe(false);expect(playbackYear(-100000)).toBe(-99900);expect(navigationYear(-60000,1)).toBe(-59900);expect(navigationYear(-100000,-1)).toBe(-100100);expect(playbackYear(-10001)).toBe(-10000);expect(playbackYear(-10000)).toBe(-9999);expect(navigationYear(-1,1)).toBe(1);
+  expect(hasRegionalCoverage(-100001)).toBe(true);expect(playbackYear(-100000)).toBe(-99900);expect(navigationYear(-60000,1)).toBe(-59900);expect(navigationYear(-100000,-1)).toBe(-100100);expect(playbackYear(-10001)).toBe(-10000);expect(playbackYear(-10000)).toBe(-9999);expect(navigationYear(-1,1)).toBe(1);
   expect(read('public/data/historical-context.json').startYear).toBe(ANNUAL_CONSULTATION_START);expect(read('public/data/country-history.json').coverageStart).toBe(ANNUAL_CONSULTATION_START);
  });
  it('keeps every original accepted source row and binds all records to an owned dossier',()=>{
@@ -40,7 +40,7 @@ describe('100000–10001BCE: individually dated human evidence',()=>{
  });
  it('compares dated archaeological evidence instead of manufacturing political or economic observations',()=>{
   const f=humanEvidenceAt(data,-10500).features.find(f=>f.properties!.identityKey==='ARCHAEOLOGY-LAPA-DO-SANTO')!,anchor=anchorFor(f.properties!,-10500,ids),state={mode:'dates' as const,a:-10600,b:-10400,metric:'population',pinned:[]},profiles={retrieved:'',countries:{}};
-  expect(comparisonShell(state,-10500,profiles,emptyIndicators)).toContain('min="-100000"');const html=comparisonMarkup([{anchor,year:-10600,feature:f},{anchor,year:-10400,feature:f}],state,profiles,emptyIndicators,ids,'/',-10500);expect(html).toContain('Intervalos activos');expect(html).toContain('Homo sapiens');expect(html).not.toContain('retraso máximo de cinco años');expect(html).not.toContain('Fuente territorial');
+  expect(comparisonShell(state,-10500,profiles,emptyIndicators)).toContain('min="-7000000"');const html=comparisonMarkup([{anchor,year:-10600,feature:f},{anchor,year:-10400,feature:f}],state,profiles,emptyIndicators,ids,'/',-10500);expect(html).toContain('Intervalos activos');expect(html).toContain('Homo sapiens');expect(html).not.toContain('retraso máximo de cinco años');expect(html).not.toContain('Fuente territorial');
  });
  it('adds Upper Palaeolithic skeletal contexts without treating raw radiocarbon measurements as calendar dates',()=>{
   const ph=data.features.filter((f:any)=>f.properties.sourceDataset==='PaleoHumans1.0.0');expect(ph).toHaveLength(417);expect(inventory.PaleoHumans.canonicalDossiers).toHaveLength(250);expect(inventory.PaleoHumans.unmapped).toHaveLength(5);expect(inventory.PaleoHumans.sharedOwners).toHaveLength(10);
@@ -49,6 +49,6 @@ describe('100000–10001BCE: individually dated human evidence',()=>{
  });
  it('keeps source-supported human contexts alongside cultural areas across10001/10000 until their actual published window ends',()=>{
   const regional=read('public/data/cultural-regions.geojson'),merged={...data,features:[...data.features,...regional.features]},sample=data.features.find((f:any)=>f.properties.sourceDataset==='PaleoHumans1.0.0'&&f.properties.end===-9751)!.properties;
-  expect(regionalAssets(-10000)).toEqual([regionalAsset(-10000),'human-evidence.geojson']);expect(regionalAssets(-9000)).not.toContain('human-evidence.geojson');for(const y of[-10001,-10000,-9751])expect(regionsAt(merged,y,empty).features.some(f=>f.properties!.identityKey===sample.identityKey)).toBe(true);const at=regionsAt(merged,-10000,empty);expect(at.features.some(f=>f.properties!.contextKey==='CULTURE-TASMANIA')).toBe(true);expect(at.features.some(f=>f.properties!.evidenceRecords)).toBe(true);expect(humanEvidenceAt(data,-9750).features.some(f=>f.properties!.identityKey===sample.identityKey)).toBe(false);
+  expect(regionalAssets(-10000)).toEqual([regionalAsset(-10000),'human-evidence.geojson','hominin-sites.geojson']);expect(regionalAssets(-9000)).not.toContain('human-evidence.geojson');for(const y of[-10001,-10000,-9751])expect(regionsAt(merged,y,empty).features.some(f=>f.properties!.identityKey===sample.identityKey)).toBe(true);const at=regionsAt(merged,-10000,empty);expect(at.features.some(f=>f.properties!.contextKey==='CULTURE-TASMANIA')).toBe(true);expect(at.features.some(f=>f.properties!.evidenceRecords)).toBe(true);expect(humanEvidenceAt(data,-9750).features.some(f=>f.properties!.identityKey===sample.identityKey)).toBe(false);
  });
 });

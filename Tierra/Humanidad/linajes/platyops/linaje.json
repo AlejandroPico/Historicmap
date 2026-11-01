@@ -1,0 +1,57 @@
+{
+  "format": "hominin-lineage",
+  "key": "platyops",
+  "name": "Kenyanthropus platyops",
+  "group": "australopith",
+  "color": "#a38db3",
+  "oldestKa": 3500,
+  "youngestKa": 3300,
+  "classification": "especie de referencia",
+  "source": "https://humanorigins.si.edu/evidence/human-fossils/species/kenyanthropus-platyops",
+  "references": [
+    {
+      "title": "Kenyanthropus platyops · referencia taxonómica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/kenyanthropus-platyops"
+    }
+  ],
+  "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción.",
+  "dateBasis": "Edades ka BP (base1950) aproximadas, trasladadas al eje civil sólo para consulta. No son fechas anuales de aparición o extinción ni prueba de ocupación continua.",
+  "focus": [
+    35.9,
+    3.9
+  ],
+  "site": "Lomekwi · referencia regional",
+  "regions": [
+    {
+      "id": "platyops-regional",
+      "oldestKa": 3500,
+      "youngestKa": 3300,
+      "bounds": [
+        34,
+        2,
+        37,
+        5.5
+      ],
+      "label": "Lomekwi · referencia regional",
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/kenyanthropus-platyops",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200
+    }
+  ],
+  "fossils": [
+    {
+      "id": "HOMININ-REF-platyops",
+      "name": "Lomekwi · referencia regional",
+      "coordinates": [
+        35.9,
+        3.9
+      ],
+      "oldestKa": 3500,
+      "youngestKa": 3300,
+      "source": "https://humanorigins.si.edu/evidence/human-fossils/species/kenyanthropus-platyops",
+      "dateQuality": "reference-window",
+      "note": "Localización regional del conjunto, no GPS del fósil. La ventana es la síntesis consultiva del registro citado, no ocupación continua de este punto."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+}
