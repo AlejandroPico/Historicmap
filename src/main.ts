@@ -5,14 +5,17 @@ import{distributionsAt,coexistencePattern,distributionCoast,distributionCard,dis
 import{displayLabel}from'./map-presentation';
 import{chronologyBands,chronologyBandsMarkup}from'./chronology-bands';
 import{planetCard,type PlanetTab}from'./planet-card';
+import{deepSceneAt,deepIceAt,deepSources,deepBackground}from'./deep-earth';
+import{drawDeepSurface}from'./deep-surface';
 import{formatEventDate}from'./dates';
 import * as maplibregl from 'maplibre-gl';
 import { type GeoJSONSource, type ExpressionSpecification, type MapGeoJSONFeature } from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
-import { createIcons, ArrowRight, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map as MapIcon, MapPin, Maximize, Minimize, Mountain, Orbit, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X } from 'lucide';
+import { createIcons, ArrowRight, BookOpen, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map as MapIcon, MapPin, Maximize, Minimize, Mountain, Orbit, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X } from 'lucide';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import './planet.css';
+import './encyclopedia.css';
 import { anchors, clamp, eraName, formatYear, positionToYear, PRESENT, snapshotFor, yearToPosition, playbackYear, navigationYear, type Snapshot } from './time';
 import { places } from './catalog';
 import type { FeatureCollection } from 'geojson';
@@ -40,7 +43,7 @@ import { appearances,appearanceLabels,appearanceIcons,palettes,resolveAppearance
 import {AFFILIATION_KINDS,AFFILIATIONS,affiliationLegend,affiliationGroups,affiliationSummary,affiliationsAvailable,type AffiliationKind} from './historical-affiliations';
 
 const VERSION = packageInfo.version;
-const icons = { ArrowRight, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map:MapIcon, MapPin, Maximize, Minimize, Mountain, Orbit, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X };
+const icons = { ArrowRight, BookOpen, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map:MapIcon, MapPin, Maximize, Minimize, Mountain, Orbit, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X };
 const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
 const icon = (name: string) => `<i data-lucide="${name}" aria-hidden="true"></i>`;
 function visibilityControls(scope:'layer'|'filter'){
@@ -52,10 +55,11 @@ const app = $('#app');
 app.innerHTML = `
   <main class="atlas">
     <div id="map" aria-label="Mapa interactivo de la Tierra"></div>
-    <div id="concept" class="concept" hidden><div class="primordial"><div class="planet"></div></div><span id="concept-caption"></span></div>
+    <div id="concept" class="concept" hidden><span id="concept-caption"></span></div>
     <div class="map-shade"></div>
     <nav class="toolbar" aria-label="Herramientas del atlas">
       <button id="search-button" class="icon-button" title="Buscar un territorio" aria-label="Buscar un territorio" aria-controls="search-panel" aria-expanded="false">${icon('search')}</button>
+      <button id="encyclopedia-button" class="icon-button" title="Enciclopedia" aria-label="Enciclopedia" aria-haspopup="dialog" aria-expanded="false">${icon('book-open')}</button>
       <button id="projection-button" class="icon-button" title="Ver mapa 2D" aria-label="Ver mapa 2D" data-view="globe">${icon('map')}</button>
       <button id="filters-button" class="icon-button" title="Filtros del atlas" aria-label="Filtros del atlas" aria-controls="filters-panel" aria-expanded="false">${icon('funnel')}</button>
       <button id="layers-button" class="icon-button" title="Capas del atlas" aria-label="Capas del atlas" aria-controls="layers-panel" aria-expanded="false">${icon('layers')}</button>
@@ -174,15 +178,30 @@ function applyAppearance(){
   const next=appearances[(appearances.indexOf(appearance)+1)%appearances.length];
   const label=`Tema: ${appearanceLabels[appearance]}. Cambiar a ${appearanceLabels[next]}`;
   $('#appearance-button').innerHTML=icon(appearanceIcons[appearance]);$('#appearance-button').setAttribute('aria-label',label);$('#appearance-button').title=label;
-  if(ready){map.setPaintProperty('ocean','background-color',palette.ocean);map.setSky({'sky-color':palette.background,'horizon-color':palette.horizon,'fog-color':palette.background,'sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.2});}
+  if(ready){map.setPaintProperty('ocean','background-color',deepBackground(year,iceMode!=='off')??palette.ocean);map.setSky({'sky-color':palette.background,'horizon-color':palette.horizon,'fog-color':palette.background,'sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.2});}
   createIcons({icons});
 }
 $('#appearance-button').onclick=()=>{appearance=appearances[(appearances.indexOf(appearance)+1)%appearances.length];try{localStorage.setItem('historicmap-appearance',appearance);}catch{}applyAppearance();};
 applyAppearance();setInterval(()=>{if(appearance==='auto')applyAppearance();},60000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&appearance==='auto')applyAppearance();});
+const deepCanvas=document.createElement('canvas');deepCanvas.width=1024;deepCanvas.height=1024;
+let deepSurfaceKey='';
+function paintDeepSurface(targetYear:number,coast?:FeatureCollection){
+ const scene=deepSceneAt(targetYear);map.setPaintProperty('ocean','background-color',deepBackground(targetYear,iceMode!=='off')??palettes[resolveAppearance(appearance)].ocean);map.setLayoutProperty('deep-surface','visibility',scene?'visible':'none');
+ $('.atlas').classList.toggle('deep-time',!!scene);$('#map').dataset.deepScene=scene?.id??'';
+ if(!scene){deepSurfaceKey='';$('#map').dataset.deepIce='';$('#map').dataset.deepIceVisible='false';$('#map').dataset.deepGeometry='';return;}
+ const key=scene.id+':'+deepIceAt(targetYear)+':'+iceMode+':'+(coast?.features.length?activeKey:'illustrative');
+ if(key!==deepSurfaceKey){drawDeepSurface(deepCanvas,scene,targetYear,coast,iceMode!=='off');deepSurfaceKey=key;$('#map').dataset.deepCoastReference=coast?.features.length?activeKey:'illustrative';const source=map.getSource('deep-surface')as maplibregl.CanvasSource;source.play();map.once('render',()=>source.pause());}
+ $('#map').dataset.deepGeometry=coast?.features.length?'dated-model':'illustrative';$('#map').dataset.deepIce=deepIceAt(targetYear)??'';$('#map').dataset.deepIceVisible=String(!!deepIceAt(targetYear)&&iceMode!=='off');
+}
+function showEncyclopedia(entry?:string){stopPlay();const at=year;void import('./encyclopedia').then(m=>m.openEncyclopedia(at,y=>{void updateYear(y)},entry)).catch(()=>status('No se pudo abrir la enciclopedia. Vuelve a intentarlo.',true));}
+$('#encyclopedia-button').onclick=()=>showEncyclopedia();
+app.addEventListener('click',event=>{const link=(event.target as Element).closest<HTMLElement>('[data-encyclopedia-entry]');if(link&&!(link.classList.contains('chronology-band')&&event.detail>0))showEncyclopedia(link.dataset.encyclopediaEntry)});
 map.on('load', () => {
   map.setProjection({type:projection});
   map.setSky({'sky-color':'#182c32','horizon-color':'#8fa9a3','fog-color':'#101e22','sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.2});
+  map.addSource('deep-surface',{type:'canvas',canvas:deepCanvas,animate:false,coordinates:[[-180,85.051129],[180,85.051129],[180,-85.051129],[-180,-85.051129]]});
+  map.addLayer({id:'deep-surface',type:'raster',source:'deep-surface',layout:{visibility:'none'},paint:{'raster-fade-duration':0}});
   map.addSource('reference-land',{type:'geojson',data:empty,tolerance:0.2,maxzoom:7});
   map.addLayer({id:'reference-land',type:'fill',source:'reference-land',paint:{'fill-color':'#6c7776','fill-opacity':1}});
   map.addSource('cultural-regions',{type:'geojson',data:empty,promoteId:RENDER_ID,tolerance:0.2,maxzoom:7,attribution:'<a href="https://github.com/aourednik/historical-basemaps">Regiones culturales · A. Ourednik · GPL-3.0</a>'});
@@ -235,7 +254,7 @@ map.on('idle',()=>{
   $('#map').dataset.humanEvidenceRendered=String(map.queryRenderedFeatures({layers:['human-evidence-circles']}).length);
   if($('#map').getAttribute('aria-busy')==='true')return;
   // An ocean or a region without a sovereign polygon is still a loaded view.
-  if((loaded.features.length||regionalData.features.length||isPrehistoric(year))&&$('#map').dataset.loadedYear===String(year)&&map.isSourceLoaded('territories')&&(!hasRegionalCoverage(year)||map.isSourceLoaded('cultural-regions'))) $('#map').dataset.rendered=activeKey;
+  if((loaded.features.length||regionalData.features.length||isPrehistoric(year)||deepSceneAt(year))&&$('#map').dataset.loadedYear===String(year)&&map.isSourceLoaded('territories')&&(!hasRegionalCoverage(year)||map.isSourceLoaded('cultural-regions'))) $('#map').dataset.rendered=activeKey;
   // Keep the indicator through tile replacement, not only the JSON download.
   if($('#map').dataset.loadedYear===String(year))setPlaybackLoading(false,year);
   const visibleHatching=showOccupations?map.queryRenderedFeatures({layers:['occupation-fill']}):[];
@@ -368,6 +387,7 @@ function updateSources(){
   if(isPrehistoric(year)){if(distributionCoast(year)!=='countries.geojson')$('#source-scope').textContent=$('#source-scope').textContent!.replace('Costa contemporánea de referencia.','Costas CAO2024 de referencia; fecha del modelo '+distributionCoast(year).match(/\d+/)?.[0]+'Ma. Coordenadas de los fósiles actuales, sin rotación retrospectiva individual.');$('#source-scope').textContent+=' '+climateContext(year)+' Distribuciones regionales estimadas; sus franjas no acreditan guerras ni dominio.';}
   if(snapshot.kind==='concept')$('#source-scope').textContent='Escena conceptual y contexto documental; no hay geometría reconstruida para esta fecha.';
   $('#source-links').innerHTML+=' · <a href="https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf" target="_blank" rel="noopener">Cronología ICS2026/06 ↗</a>';
+  const deep=deepSceneAt(year);if(deep){$('#source-links').insertAdjacentHTML('beforeend',deep.sourceIds.map(id=>{const s=deepSources[id as keyof typeof deepSources];return `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`}).join(''));$('#source-scope').textContent+=' Textura y clima visual ilustrativos; no porcentajes de gases ni contornos glaciales observados. Referencias y discrepancias en la enciclopedia.';}
 }
 
 function refreshMap(force=false):Promise<void> {
@@ -377,10 +397,10 @@ function refreshMap(force=false):Promise<void> {
   const targetIce=iceEnabledFor(targetYear,iceMode)?iceSampleFor(targetYear):undefined;
   const targetLand=target.kind==='prehistoric'?distributionCoast(targetYear):'countries.geojson';
   const key=`${displayKey}:${targetYear}:${theme}:ice-${targetIce?.ageBP??'off'}`;
-  $('#ice-layer').toggleAttribute('disabled',!iceSampleFor(year));
-  const concept=snapshot.kind==='concept';
+  $('#ice-layer').toggleAttribute('disabled',!iceSampleFor(year)&&!deepIceAt(year));
+  const concept=snapshot.kind==='concept';$('.atlas').classList.toggle('deep-time',!!deepSceneAt(year));
   $('#concept').hidden=!concept;
-  $('#map').style.visibility=concept?'hidden':'visible';
+  $('#map').style.visibility='visible';
   $('#physical-layer').toggleAttribute('disabled',!reliefAvailable());
   $('#affiliation-select').toggleAttribute('disabled',!affiliationsAvailable(year));
   for(const control of document.querySelectorAll('[data-visibility=political]'))control.toggleAttribute('disabled',concept||snapshot.kind==='geological');
@@ -402,11 +422,22 @@ function refreshMap(force=false):Promise<void> {
   setPlaybackLoading(true,targetYear);
   $('#map').dataset.loadStage='fetch';
   $('#search-button').toggleAttribute('disabled',true);
-  if(snapshot.kind==='geological'&&previousKind!=='geological')map.jumpTo({center:[0,15],zoom:1.5});
+  if(snapshot.kind==='geological'&&previousKind!=='geological'||concept&&committedDomain!=='concept')map.jumpTo({center:[0,15],zoom:1.5});
   if(selectedAnchor){$('#selection').setAttribute('aria-busy','true');$('#selection-status').hidden=true;}
   if(!$('#search-panel').hidden)$('#search-results').textContent='Actualizando territorios…';
   highlightFeature();
-  if(concept){activeKey=displayKey;loaded=empty;cityData=empty;overlayData=empty;$('#map-legend').hidden=true;$('#map').setAttribute('aria-busy','false');setPlaybackLoading(false,targetYear);status('Contexto documental · sin cartografía disponible');updateSources();renderSelection();refreshSearch();return Promise.resolve();}
+  if(concept){
+   const commit=async()=>{if(current!==requestNumber)return;
+    if(committedDomain!=='concept')for(const [id,source]of Object.entries(map.getStyle().sources))if(source.type==='geojson')await(map.getSource(id)as GeoJSONSource).setData(empty);
+    if(current!==requestNumber)return;
+    activeKey=displayKey;loaded=empty;cityData=empty;overlayData=empty;regionalData=empty;distributionData=empty;sharedData=empty;committedDomain='concept';committedData=empty;
+    territorySignature='';citySignature='';regionalSignature='';distributionSignature='';sharedSignature='';overlaySignature='';referenceLandKey='';referenceLandOn=false;
+    for(const name of ['overlays','humanRanges','humanShared','humanEvidence','conflictEvents','places'])$('#map').dataset[name]='0';$('#map').dataset.iceFile='off';$('#map').dataset.iceAgeBp='';$('#map').dataset.iceVisible='false';
+    $('#map-legend').hidden=true;$('#map').dataset.loadedYear=String(targetYear);$('#map').dataset.territories='0';$('#map').dataset.culturalRegions='0';$('#map').dataset.referenceLand='false';
+    applyLayers();paintDeepSurface(targetYear);$('#map').setAttribute('aria-busy','false');$('#map').dataset.loadStage='ready';setPlaybackLoading(false,targetYear);
+    status('Escenario precámbrico · geometría ilustrativa');updateSources();renderSelection();refreshSearch();map.triggerRepaint();
+   };renderQueue=renderQueue.then(commit,commit);refreshPromise=renderQueue;return refreshPromise;
+  }
   status(`Cargando ${formatYear(target.year)}…${loaded.features.length?' · se conserva el mapa anterior':''}`);
   updateSources();
   refreshPromise=(async()=>{
@@ -468,7 +499,7 @@ function refreshMap(force=false):Promise<void> {
         if(targetTheme!=='political')for(const f of themed.features)if(f.id!==undefined)map.setFeatureState({source:'territories',id:f.id},{metric:f.properties?.metric??null});
         cityData=target.kind==='prehistoric'?empty:target.kind==='modern'?points:target.kind==='annual'?datedPlaces(data,targetYear):{type:'FeatureCollection',features:places.filter(p=>targetYear>=p.start&&targetYear<=p.end).map(p=>({type:'Feature',geometry:{type:'Point',coordinates:p.coordinates},properties:{name:p.name,note:p.description,country:'Yacimiento / ciudad histórica',rank:1}}))};
         cityData=withGovernance(cityData,targetYear);
-        applyLayers();
+        applyLayers();paintDeepSurface(targetYear,target.kind==='geological'?themed:undefined);
         $('#map').dataset.loadedYear=String(targetYear);
         $('#map').setAttribute('aria-busy','false');
         $('#search-button').toggleAttribute('disabled',false);
@@ -580,6 +611,9 @@ function applyLayers(){
   const frontLegend=front?`<small class="control-observation">Ucrania · referencia cartográfica ${esc(String(front.controlObservationDate).split('-').reverse().join('/'))}<br>Incertidumbre mínima del frente: 7 km.</small>`:'';
   $('#map-legend').innerHTML=(governmentFilter?`<div class="government-legend"><strong>${esc(governmentTags.find(t=>t.id===governmentFilter)?.label??governmentFilter)}</strong><small>${$('#map').dataset.governmentMatches??0} entidades · ${year}</small></div>`:'')+frontLegend+familyLegend+(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(iceEnabledFor(year,iceMode)&&iceSampleFor(year)?`<small class="ice-legend"><strong>Mantos de hielo · referencia modelada</strong><br>${iceCaption(year)}<br>No reconstruye paleocostas ni hielo marino.</small>`:'')+(controlVisible?`<div class="conflict-points-legend"><strong>${conflictData.features.length} conflictos y episodios localizados</strong><small>Coral: batalla o episodio. Violeta: referencia regional.<br>Los puntos no representan frentes ni ocupación. ${nationalReference?'Las franjas nacionales son referencias de intervención o presencia, no frentes locales.' : 'Las franjas de control usan los límites documentados.'}</small></div>`:'')+(rangesOn?distributionLegend({type:'FeatureCollection',features:distributionData.features.filter(f=>!humanFilter||f.properties!.group===humanFilter)}):'')+(showRegional&&hasHumanEvidence(year)?humanLegend({type:'FeatureCollection',features:regionalData.features.filter(f=>!humanFilter||f.properties?.taxonGroups?.includes(humanFilter)||humanFilter==='mixed'&&f.properties?.taxonGroup==='mixed')}):'')+(showRegional&&!isPrehistoric(year)&&hasRegionalCoverage(year)?`<small class="regional-legend">Pueblos y regiones: referencias cartográficas de ${[...new Set(regionalData.features.filter(f=>f.geometry.type!=='Point').map(f=>f.properties?.sourceYear))].sort((a,b)=>Number(a)-Number(b)).map(y=>Number(y)<0?formatYear(Number(y)):y).join(', ')}.<br>Áreas aproximadas; prioridad política y consulta de coincidencias.</small>`:'')+(referenceLandOn?`<small>Gris: sin representación en las capas activas; no significa despoblación.<br>${isPrehistoric(year)&&distributionCoast(year)!=='countries.geojson'?'Costas continentales CAO2024 · referencia modelada, no paleocosta cuaternaria detallada.':'Costa contemporánea de referencia.'}${year>=-10000&&!hasRegionalCoverage(year)?'<br>Revisión cultural de esta fecha pendiente.':''}</small>`:'');
   $('#map-legend').hidden=!$('#map-legend').innerHTML;
+  const deep=deepSceneAt(year);map.setLayoutProperty('deep-surface','visibility',deep?'visible':'none');map.setPaintProperty('territory-line','line-opacity',deep?0:0.85);
+  if(deep){paintDeepSurface(year,snapshot.kind==='geological'?loaded:undefined);const icy=!!deepIceAt(year)&&iceMode!=='off';$('#ice-layer').classList.toggle('active',icy);$('#ice-layer').setAttribute('aria-pressed',String(icy));$('#ice-help').textContent=deepIceAt(year)?'Escenario glacial ilustrativo, sin contorno reconstruido':'Sin escenario glacial activo';map.setPaintProperty('territory-fill','fill-opacity',0);$('#map-legend').innerHTML=`<strong>${esc(deep.title)}</strong><small>${snapshot.kind==='geological'?'Costas de referencia '+formatYear(snapshot.year):'Geometría ilustrativa, sin posiciones reconstruidas'} · texturas y hielo conceptuales</small><button data-encyclopedia-entry="${deep.article}">Leer en la enciclopedia →</button>`;$('#map-legend').hidden=false;}
+
 }
 let lastLocationWrite = -Infinity;
 let locationTimer: ReturnType<typeof setTimeout>;
@@ -641,11 +675,11 @@ function renderRuler(){
   $('#ruler').setAttribute('aria-valuenow',String(Math.round(position*100)));
   $('#ruler').setAttribute('aria-valuetext',`${formatYear(year)}, ${eraName(year)}`);
 }
-let startX=0,startPosition=0,dragging=false;
+let startX=0,startPosition=0,dragging=false,bandPress:string|undefined;
 const ruler=$('#ruler');
-ruler.addEventListener('pointerdown',event=>{stopPlay();dragging=true;startX=event.clientX;startPosition=position;ruler.setPointerCapture(event.pointerId);ruler.classList.add('dragging');});
-ruler.addEventListener('pointermove',event=>{if(dragging)updateYear(positionToYear(startPosition-(event.clientX-startX)/spacing));});
-for(const type of ['pointerup','pointercancel'])ruler.addEventListener(type,()=>{dragging=false;ruler.classList.remove('dragging');});
+ruler.addEventListener('pointerdown',event=>{stopPlay();bandPress=(event.target as Element).closest<HTMLElement>('[data-encyclopedia-entry]')?.dataset.encyclopediaEntry;dragging=true;startX=event.clientX;startPosition=position;ruler.setPointerCapture(event.pointerId);ruler.classList.add('dragging');});
+ruler.addEventListener('pointermove',event=>{if(dragging&&Math.abs(event.clientX-startX)>4){bandPress=undefined;updateYear(positionToYear(startPosition-(event.clientX-startX)/spacing));}});
+for(const type of ['pointerup','pointercancel'])ruler.addEventListener(type,()=>{dragging=false;ruler.classList.remove('dragging');if(type==='pointerup'&&bandPress)showEncyclopedia(bandPress);bandPress=undefined;});
 function zoomRuler(factor:number){stopPlay();spacing=clamp(Math.round(spacing*factor),96,4800);if(dragging){dragging=false;ruler.classList.remove('dragging');}renderRuler();}
 $('.time-dock').addEventListener('wheel',event=>{event.preventDefault();event.stopPropagation();const units=event.deltaMode===1?16:event.deltaMode===2?ruler.clientHeight:1;zoomRuler(Math.exp(-clamp((event.deltaY||event.deltaX)*units,-240,240)*.0025));},{passive:false});
 ruler.addEventListener('keydown',event=>{const keys:Record<string,number>={ArrowLeft:-24/spacing,ArrowRight:24/spacing,PageUp:-ruler.clientWidth*.8/spacing,PageDown:ruler.clientWidth*.8/spacing};if(event.key in keys){event.preventDefault();stopPlay();updateYear(positionToYear(position+keys[event.key]));}else if(event.key==='Home'){event.preventDefault();stopPlay();updateYear(anchors[0]);}else if(event.key==='End'){event.preventDefault();stopPlay();updateYear(PRESENT);}else if(['+','=','-','_'].includes(event.key)){event.preventDefault();zoomRuler(['+','='].includes(event.key)?1.25:1/1.25);}});
@@ -698,7 +732,7 @@ document.addEventListener('pointerdown',event=>{const target=event.target as Nod
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#layers-panel').hidden&&!$('#layers-panel').contains(target)&&!$('#layers-button').contains(target))closeLayers();});
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#sources-panel').hidden&&!$('#sources-panel').contains(target)&&!$('#sources-button').contains(target))closeSources();});
 $('#human-group-select').onchange=()=>{humanFilter=$<HTMLSelectElement>('#human-group-select').value;applyLayers();refreshSearch();};
-$('#ice-layer').onclick=()=>{iceMode=iceEnabledFor(year,iceMode)?'off':'on';applyLayers();void refreshMap();};
+$('#ice-layer').onclick=()=>{iceMode=deepSceneAt(year)?(iceMode==='off'?'auto':'off'):iceEnabledFor(year,iceMode)?'off':'on';applyLayers();void refreshMap();};
 $('#ice-mode').onchange=()=>{iceMode=$<HTMLSelectElement>('#ice-mode').value as IceMode;applyLayers();void refreshMap();};
 $('#physical-layer').onclick=()=>{physical=!physical;applyLayers();updateSources();};$('#places-layer').onclick=()=>{showPlaces=!showPlaces;applyLayers();};
 app.addEventListener('click',event=>{const button=(event.target as Element).closest<HTMLButtonElement>('[data-visibility]');if(!button||button.disabled)return;if(button.dataset.visibility==='political')political=!political;else if(button.dataset.visibility==='human-ranges')showHumanRanges=!showHumanRanges;else showRegional=!showRegional;applyLayers();renderSelection();refreshSearch();});
@@ -810,6 +844,6 @@ document.addEventListener('pointerdown',event=>{const target=event.target as Nod
 $('#sources-button').onclick=()=>{const open=$('#sources-panel').hidden;closePlanet();closeLayers();closeFilters();closeSearch();$('#sources-panel').hidden=!open;$('#sources-button').setAttribute('aria-expanded',String(open));if(open)$('#close-sources').focus();};
 $('#close-sources').onclick=()=>closeSources(true);
 $('#about-button').onclick=()=>openModal('ACERCA DE HISTORICMAP',aboutContent(VERSION,import.meta.env.BASE_URL),'about-dialog');
-document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(modal.open)return;if(!$('#planet-panel').hidden){closePlanet(true);return;}if(!$('#search-panel').hidden){closeSearch(true);return;}if(!$('#filters-panel').hidden){closeFilters(true);return;}closeSelection();if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(modal.open||document.querySelector<HTMLDialogElement>('#encyclopedia')?.open)return;if(!$('#planet-panel').hidden){closePlanet(true);return;}if(!$('#search-panel').hidden){closeSearch(true);return;}if(!$('#filters-panel').hidden){closeFilters(true);return;}closeSelection();if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
 function restore(){const params=new URLSearchParams(location.hash.slice(1));const y=Number(params.get('year')??PRESENT);if(params.get('view')==='mercator')projection='mercator';else projection='globe';projectionControl();if(ready)map.setProjection({type:projection});updateYear(Number.isFinite(y)?y:PRESENT,false);}
 window.addEventListener('hashchange',restore);restore();

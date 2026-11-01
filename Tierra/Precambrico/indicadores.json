@@ -1,0 +1,8 @@
+{
+ "schemaVersion":1,
+ "meaning":"Referencias puntuales de paleorrotación. Ventanas de consulta editoriales de±1Ma, no incertidumbre de la edad ni interpolación física.",
+ "records":[
+ {"id":"solar-day-2460","field":"solarDay","value":16.9,"unit":"h","reference":{"basis":"Ma","ageMa":2460,"nominalEpoch":1950},"availableFromYear":-2460998051,"validUntilYear":-2458998052,"evidence":"estimate","quantity":"solar-day","uncertainty":{"minus":0.2,"plus":0.2,"description":"Incertidumbre publicada de la estimación de duración."},"method":"Lantink et al.2022: ciclos sedimentarios, geocronología y dinámica Tierra–Luna a2,46Ga. Ventana de consulta±1Ma editorial; no extiende esta duración a todo el Paleoproterozoico.","sourceId":"day2460","scope":"paleorotation-reference","interpolation":"none"},
+ {"id":"solar-day-620","field":"solarDay","value":21.9,"unit":"h","reference":{"basis":"Ma","ageMa":620,"nominalEpoch":1950},"availableFromYear":-620998051,"validUntilYear":-618998052,"evidence":"estimate","quantity":"solar-day","uncertainty":{"minus":0.4,"plus":0.4,"description":"Incertidumbre publicada de la estimación de duración."},"method":"Williams2000: ritmitas mareales neoproterozoicas australianas, referencia~620Ma. Ventana de consulta±1Ma editorial; no curva continua de rotación.","sourceId":"day620","scope":"paleorotation-reference","interpolation":"none"}
+ ]
+}

@@ -1,6 +1,7 @@
 import {geologicalUnits,humanUnits,geologicalEmphasis,rankLabels,type GeologicalRank,type HumanUnit} from './earth-chronology';
 import {anchors,PRESENT,yearToPosition,positionToYear} from './time';
 import {escapeHtml as esc} from './profiles';
+import{chronologyDisplayColor}from'./deep-earth';
 
 export interface Band {id:string;name:string;title:string;color:string;row:number;x:number;width:number;family:'geological'|'human'}
 export function chronologyBands(year:number,position:number,spacing:number,width:number){
@@ -41,6 +42,6 @@ export function chronologyBandsMarkup(model:ReturnType<typeof chronologyBands>){
  return(['geological','human'] as const).map(family=>{
   const opacity=family==='geological'?model.emphasis:1-model.emphasis;
   const labelled=family==='geological'?model.emphasis>=.5:model.emphasis<.5;
-  return `<div class="chronology-family" data-family="${family}" style="opacity:${opacity}" aria-hidden="${!labelled}">${model.bands.filter(b=>b.family===family).map(b=>`<span class="chronology-band" data-unit="${b.id}" title="${esc(b.title)}" style="left:${b.x}px;width:${b.width}px;top:${b.row*17}px;--band-color:${b.color};--band-ink:${ink(b.color)}">${labelled&&b.width>40?`<span>${esc(b.name)}</span>`:''}</span>`).join('')}</div>`;
+  return `<div class="chronology-family" data-family="${family}" style="opacity:${opacity}" aria-hidden="${!labelled}">${model.bands.filter(b=>b.family===family).map(b=>{const color=chronologyDisplayColor(b.id,b.color),name=b.name.startsWith('Precámbrico · ')&&b.width<165?b.name.replace('Precámbrico · ',''):b.name;return`<button type="button" class="chronology-band" data-unit="${b.id}" data-encyclopedia-entry="${family==='human'?'human-':'geo-'}${b.id}" tabindex="${labelled?0:-1}" aria-label="${esc(b.title)} · Abrir enciclopedia" title="${esc(b.title)}" style="left:${b.x}px;width:${b.width}px;top:${b.row*17}px;--band-color:${color};--band-ink:${ink(color)}">${labelled&&b.width>name.length*6+14?`<span>${esc(name)}</span>`:''}</button>`}).join('')}</div>`;
  }).join('');
 }

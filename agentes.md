@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.52.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.53.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección72; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección73; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** parte2/6 autorizada: panel planetario persistente y cronograma geológico/humano, esquema de valores y fuentes. Producto0.52.0. Las nuevas reconstrucciones físicas y curvas antiguas continúan en partes3–5; no importar automáticamente el OCR. Ver sección72 y tareas.md.
+**Encargo vigente:** parte3/6 y enciclopedia autorizadas. Producto0.53.0: escenarios precámbricos con alcance explícito, cronología más legible y enciclopedia contextual. Nuevas curvas/modelos y monografías se amplían con sus fuentes; no importar el OCR como medición. Ver sección73 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1537,3 +1537,24 @@ El despliegue comunicó que earth-foundation esperaba data-loaded-year=1 mientra
 Ambos recorridos completos del archivo final ejecutados juntos sobre producción0.52.0 con CI=1:2 correctos en59,0s. Sin capturas opcionales. Cambian únicamente prueba y documentación; aplicación, versión, datos, dependencias y workflows intactos. No repetir construcción ni batería completa por esta corrección; preparar commit/push, confirmar HEAD/origin/main y terminar sin esperar Actions/Pages.
 
 Siguiente etapa autorizable: parte3 formación/Precámbrico. Aún pendientes escenarios físicos, tectónica antigua, atmósferas/océanos, vida, glaciaciones e impactos de partes3–5. No anunciar esa reconstrucción como terminada porque existan el panel y las bandas.
+
+
+## 73. Parte3/6 y enciclopedia · 0.53.0
+
+Autorizado por el propietario tras77cf39202: formación/Precámbrico, mayor variedad cromática y espacio en la regla, y comienzo de una enciclopedia completa como interfaz, contextual por año. Informe docs/EARTH-PRECAMBRIAN-0.53.md. No se encarga aún la parte4.
+
+Contenido canónico en Tierra/Precambrico:15 escenarios,21 artículos temáticos, bibliografía, dos estimaciones de día solar, dos medios NASA acreditados y90 revisiones de candidatos del vídeo. Los90 no son90 dataciones científicas verificadas. Los no adoptados no producen efectos planetarios ni curvas: se conservan y se identifican al buscarlos. Los originales de parte1, Países, culturas, homininos, hielo PaleoMIST y geometrías existentes se conservan.
+
+Superficie procedimental determinista mediante CanvasSource nativo de MapLibre. Antes de1,8Ga, tierra y texturas ilustrativas; desde esa fecha usa las instantáneas CAO2024 existentes con fecha nominal visible. No inferir nuevas costas del color, ni temperatura/porcentajes de gases del OCR. Matices del agua científicos separados de temas visuales. Hielo antiguo ilustrativo y controlable: episodios distintos, ventana regional de Pongola/Gaskiers, sin importar mantos globales inventados a PaleoMIST. Las dos duraciones solares conservan incertidumbre y referencia; ventana editorial±1Ma no es incertidumbre cronológica del yacimiento.
+
+La regla añade anclas cada150Ma sin perder las anteriores. Paleta precámbrica editorial en deep-earth.ts; ICS canónica intacta. Los nombres completos sólo se imprimen si caben; tooltip/nombre accesible permanecen. Pulsar una banda abre su entrada, arrastrarla conserva desplazamiento temporal. Colores activables desde Capas.
+
+Enciclopedia importada al abrir, segundo icono (libro), diálogo nativo de pantalla completa.311 entradas de clases distintas:21 artículos,177 unidades geológicas,23 referencias humanas,90 revisiones audiovisuales. Abre por fecha; navegación interna e historial no cambian el mundo hasta «Ver en el mapa». Cerrar/Escape recuperan foco y conservan selección/paneles. Búsqueda local, relaciones, fuentes, imágenes de NASA/colaboradores con créditos, vídeo bajo demanda, esquemas propios e interacción simplificada. No se afirma una monografía exhaustiva de cada época o país; los contenidos de Países no se duplican fuera de sus carpetas.
+
+Los conceptos ya utilizan el mapa2D/globo navegable en lugar de la antigua esfera CSS. Se vacían fuentes por la cola de actualización, invalidando firmas al volver para evitar datos de fechas anteriores. No alterar los controles independientes de zoom, cursor fijo, salto1a.C./1d.C., selección cultural/política ni gesto del norte. Diez herramientas exactas; la prueba de inventario se amplía por identidad, no se elimina.
+
+Validación local cerrada: tipos y producción correctos;29 focales en cinco archivos correctos; siete nuevos repetidos tras ajustes. Nueve recorridos pertinentes correctos, incluidos los archivos completos de atlas/Tierra/enciclopedia y persistencia de ficha. Tras las últimas mejoras se repiten juntos los dos archivos de Tierra/enciclopedia:4 correctos en2,4min, con descarga de costa retrasada y cambio de capa, filtros limpios, retorno al hielo anterior y control de hielo en todo el fondo polar. El caché usa la referencia de la geometría realmente cargada, no sólo la solicitada; no almacenar una costa anterior bajo la clave nueva. Capturas revisadas. Recopilación152 casos en63 archivos. No se ha repetido toda la batería de navegador.
+
+Integridad:283 recursos,11 franjas tipográficas y9179 medios originales correctos por SHA; dos imágenes nuevas verificadas. Los originales de parte1 y reproducción ICS177 se mantienen. El manifiesto sólo cambia versión de display-labels, con el mismo hash/bytes y orden. Sin cambios en Países, Humanidad, Cuaternario, dependencias ni workflows. Una tentativa de batería completa en paralelo con generación/construcción se interrumpió tras un timeout de recursos; review-051 y los focales pasan luego con un trabajador. No registrar aquella tentativa como batería completa verde. Cierre de registro listo para commit/push; cotejar HEAD/origin/main al retomar y terminar sin esperar Actions/Pages.
+
+Siguientes: parte4 Cámbrico–homininos; parte5 profundización humana/hielo; parte6 integración. Además, adquirir curvas y modelos precámbricos mejor justificados, comprobar específicamente los candidatos no adoptados y ampliar artículos/medios por contexto. Una entrada de revisión o ficha cronológica no convierte un hueco científico en un hecho validado.

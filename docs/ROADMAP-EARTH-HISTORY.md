@@ -10,12 +10,12 @@ Encargo del propietario, 31 de octubre de 2026. El alcance es la Tierra desde su
 
 1. **Preparación documental:** [auditoría](AUDIT-EARTH-PART-1.md) de documentos, vídeo, campos, acontecimientos, fuentes e incertidumbre. Inventario observacional registrado; las cifras y candidatos no pasan automáticamente a producción.
 2. **Incorporada en0.52.0: base común de datos e interfaz.** [Panel planetario y bandas](EARTH-FOUNDATION-0.52.md),177 unidades ICS2026/06,23 referencias humanas regionales y siete referencias físicas contemporáneas. Fechas, nulos y fuentes explícitos; el OCR no se importa como curvas científicas. Reconstrucciones nuevas pendientes de partes3–5.
-3. **Formación terrestre y Precámbrico:** escenas propias, cotejo audiovisual por segmento, procedencia de reconstrucciones, atmósfera, océanos, vida, glaciaciones y episodios. No hay geometrías exactas adquiridas por el hecho de citar el vídeo.
+3. **Incorporada en0.53.0: formación/Precámbrico y enciclopedia inicial.**15 escenarios propios en2D/3D, contexto atmosférico/biológico, hielo ilustrativo y referencias puntuales de paleorrotación. Se reutilizan las instantáneas CAO2024 disponibles desde1,8Ga; antes la geografía es conceptual.21 artículos temáticos, fichas cronológicas, imágenes, esquemas y90 referencias audiovisuales con decisiones; no90 dataciones verificadas. [Alcance y pendientes](EARTH-PRECAMBRIAN-0.53.md).
 4. **Cámbrico a homininos:** modelos de deriva/paleocostas, clima, vida y extinciones; verificar bibliografía, impactos y rótulos pendientes antes de adoptar cada escena.
 5. **Homininos y transición humana:** resolver poblaciones/propuestas de la comparación, expansión y hielo con modelos fechados; conservar los yacimientos y distinguir contacto de conflicto. Las áreas actuales no certifican toda la distribución biológica.
 6. **Integración:** continuidad2D/3D, selección, capas/filtros, carga, conservación de datos, rendimiento, pruebas adecuadas y entrega. No esperar Actions/Pages tras subir.
 
-El propietario ha encargado y se ha implementado también la **segunda parte**; las reconstrucciones de partes3–5 siguen pendientes. Las limitaciones y tareas pendientes de la auditoría están en [tareas.md](../tareas.md); no dar las cuatro partes siguientes por realizadas. El detalle de los hitos anteriores se conserva a continuación.
+El propietario ha encargado también la **tercera parte** y el inicio de la enciclopedia. Se incorporan las escenas y contenidos descritos en0.53, sin afirmar paleogeografías exactas del Hádico, curvas cuantitativas completas o todas las monografías ya redactadas. Las partes4–6 y las investigaciones específicas no adoptadas siguen pendientes en [tareas.md](../tareas.md). El detalle de los hitos anteriores se conserva a continuación.
 
 ## Hitos anteriores y desarrollo general
 

@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "nominalEpoch": 1950,
+  "noInterpolationOfMeasurements": true,
+  "rendering": "Textura procedimental propia con geometrías fechadas donde existen; nunca fotografía del pasado.",
+  "scenes": [
+    {
+      "id": "accretion",
+      "title": "Acreción y océano de magma",
+      "oldestMa": 4567,
+      "youngestMa": 4500,
+      "mode": "magma",
+      "ocean": "#bf3b12",
+      "land": "#27201e",
+      "landFraction": 0.08,
+      "atmosphere": "Vapor de silicatos y volátiles en escenarios de impactos; sin porcentajes globales conocidos.",
+      "life": "Sin registro de vida en este intervalo.",
+      "ice": null,
+      "article": "formation",
+      "sourceIds": [
+        "nasa-earth",
+        "theia"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "cooling",
+      "title": "Enfriamiento y corteza inestable",
+      "oldestMa": 4500,
+      "youngestMa": 4400,
+      "mode": "cooling",
+      "ocean": "#ab491c",
+      "land": "#363034",
+      "landFraction": 0.35,
+      "atmosphere": "Desgasificación y vapor de agua; el impacto lunar no tiene una fecha única resuelta.",
+      "life": "No se atribuye una primera vida a una fecha exacta.",
+      "ice": null,
+      "article": "hadean",
+      "sourceIds": [
+        "theia",
+        "zircon"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "hadean-seas",
+      "title": "Agua líquida y primeras cortezas",
+      "oldestMa": 4400,
+      "youngestMa": 4031,
+      "mode": "water",
+      "ocean": "#25586b",
+      "land": "#675348",
+      "landFraction": 0.06,
+      "atmosphere": "Atmósfera secundaria; mezcla y presión inciertas, no equivalente al aire moderno.",
+      "life": "Los circones no son fósiles ni demuestran por sí solos vida.",
+      "ice": null,
+      "article": "hadean",
+      "sourceIds": [
+        "zircon",
+        "jack-hills"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "eoarchean",
+      "title": "La Tierra del Arcaico temprano",
+      "oldestMa": 4031,
+      "youngestMa": 3600,
+      "mode": "water",
+      "ocean": "#2a6e6b",
+      "land": "#5c5140",
+      "landFraction": 0.12,
+      "atmosphere": "Poco oxígeno libre; CO₂, N₂ y vapor de agua desempeñan papeles importantes.",
+      "life": "La cronología de los indicios biológicos más antiguos sigue discutida.",
+      "ice": null,
+      "article": "archean",
+      "sourceIds": [
+        "atmosphere",
+        "luca"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "paleoarchean",
+      "title": "Mares, microbios y estromatolitos",
+      "oldestMa": 3600,
+      "youngestMa": 3200,
+      "mode": "water",
+      "ocean": "#37776c",
+      "land": "#746049",
+      "landFraction": 0.18,
+      "atmosphere": "Atmósfera pobre en oxígeno; gases de efecto invernadero y un Sol menos luminoso.",
+      "life": "Comunidades microbianas; no se identifica LUCA con el primer organismo.",
+      "ice": null,
+      "article": "microbial",
+      "sourceIds": [
+        "atmosphere",
+        "luca",
+        "green"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "mesoarchean",
+      "title": "Crecimiento de núcleos continentales",
+      "oldestMa": 3200,
+      "youngestMa": 2500,
+      "mode": "water",
+      "ocean": "#387a69",
+      "land": "#836a4c",
+      "landFraction": 0.23,
+      "atmosphere": "Hierro disuelto y ambientes anóxicos; el verde es una hipótesis óptica regional.",
+      "life": "Bacterias y arqueas; oxígeno producido localmente puede ser consumido sin acumularse.",
+      "ice": null,
+      "article": "archean",
+      "sourceIds": [
+        "atmosphere",
+        "green",
+        "oxygen"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "oxygenation",
+      "title": "Oxigenación y cambios geoquímicos",
+      "oldestMa": 2500,
+      "youngestMa": 2400,
+      "mode": "water",
+      "ocean": "#366e77",
+      "land": "#92775a",
+      "landFraction": 0.25,
+      "atmosphere": "Transición heterogénea de oxígeno; no se completa en un año ni vuelve azul todo el mar.",
+      "life": "Fotosíntesis oxigénica y sumideros geoquímicos interactúan.",
+      "ice": null,
+      "article": "oxygenation",
+      "sourceIds": [
+        "oxygen",
+        "goe"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "huronian",
+      "title": "Intervalos glaciales paleoproterozoicos",
+      "oldestMa": 2400,
+      "youngestMa": 2100,
+      "mode": "water",
+      "ocean": "#376d82",
+      "land": "#816e5e",
+      "landFraction": 0.26,
+      "atmosphere": "Oxigenación y clima están relacionados; no se fija una concentración planetaria exacta.",
+      "life": "Persisten ecosistemas microbianos.",
+      "ice": "huronian",
+      "article": "ice",
+      "sourceIds": [
+        "goe",
+        "snowball"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "paleoproterozoic",
+      "title": "Nuna y océanos proterozoicos",
+      "oldestMa": 2100,
+      "youngestMa": 1600,
+      "mode": "water",
+      "ocean": "#326f83",
+      "land": "#977b5f",
+      "landFraction": 0.27,
+      "atmosphere": "Oxígeno inferior al actual y océanos con química heterogénea.",
+      "life": "Eucariotas y endosimbiosis se estudian mediante fósiles y filogenias.",
+      "ice": null,
+      "article": "proterozoic",
+      "sourceIds": [
+        "oxygen",
+        "cao"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "mesoproterozoic",
+      "title": "Continentes en reorganización",
+      "oldestMa": 1600,
+      "youngestMa": 1000,
+      "mode": "water",
+      "ocean": "#267b8b",
+      "land": "#9c805f",
+      "landFraction": 0.29,
+      "atmosphere": "No se representa un océano púrpura mundial: pueden existir medios locales de química diferente.",
+      "life": "Diversificación eucariota; la cronología de innovaciones tiene márgenes de incertidumbre.",
+      "ice": null,
+      "article": "proterozoic",
+      "sourceIds": [
+        "cao",
+        "oxygen"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "tonian",
+      "title": "Rodinia y sus márgenes",
+      "oldestMa": 1000,
+      "youngestMa": 717,
+      "mode": "water",
+      "ocean": "#26788c",
+      "land": "#9c8261",
+      "landFraction": 0.3,
+      "atmosphere": "Oxígeno y nutrientes no siguen una curva sencilla conocida.",
+      "life": "Algas y ecosistemas microbianos; no se dibujan bosques modernos.",
+      "ice": null,
+      "article": "rodinia",
+      "sourceIds": [
+        "cao",
+        "oxygen"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "sturtian",
+      "title": "Glaciación Esturtiana",
+      "oldestMa": 717,
+      "youngestMa": 660,
+      "mode": "water",
+      "ocean": "#43829b",
+      "land": "#8b7b68",
+      "landFraction": 0.3,
+      "atmosphere": "Escenario de hielo muy extendido, no un contorno topográfico reconstruido.",
+      "life": "Refugios y supervivencia de microorganismos bajo condiciones extremas.",
+      "ice": "snowball",
+      "article": "ice",
+      "sourceIds": [
+        "snowball",
+        "cao"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "interglacial",
+      "title": "Entre las grandes glaciaciones",
+      "oldestMa": 660,
+      "youngestMa": 650,
+      "mode": "water",
+      "ocean": "#357b8d",
+      "land": "#9b8060",
+      "landFraction": 0.3,
+      "atmosphere": "Intervalo entre episodios; no todo el Criogénico se pinta permanentemente helado.",
+      "life": "La vida microbiana persiste.",
+      "ice": null,
+      "article": "ice",
+      "sourceIds": [
+        "snowball",
+        "cao"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "marinoan",
+      "title": "Glaciación Marinoana",
+      "oldestMa": 650,
+      "youngestMa": 635,
+      "mode": "water",
+      "ocean": "#43829b",
+      "land": "#8d7c68",
+      "landFraction": 0.3,
+      "atmosphere": "Inicio aproximado discutido; final cercano a635Ma.",
+      "life": "Supervivencia y cambios tras la retirada del hielo.",
+      "ice": "snowball",
+      "article": "ice",
+      "sourceIds": [
+        "snowball",
+        "cao"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    },
+    {
+      "id": "ediacaran",
+      "title": "Ecosistemas del Ediacárico",
+      "oldestMa": 635,
+      "youngestMa": 538.8,
+      "mode": "water",
+      "ocean": "#257a91",
+      "land": "#a08767",
+      "landFraction": 0.3,
+      "atmosphere": "Oxigenación variable; no composición moderna deducida del color azul.",
+      "life": "Organismos macroscópicos ediacáricos y nuevas relaciones ecológicas.",
+      "ice": null,
+      "article": "ediacaran",
+      "sourceIds": [
+        "oxygen",
+        "ics",
+        "cao"
+      ],
+      "geometry": "CAO2024 cuando hay instantánea entre1800 y538,8Ma; geometría ilustrativa anterior",
+      "visualStatus": "Escenario editorial informado; colores, texturas y extensión de hielo no son mediciones ni paleocostas observadas."
+    }
+  ],
+  "regionalIce": [
+    {
+      "id": "pongola",
+      "oldestMa": 2950,
+      "youngestMa": 2850,
+      "scope": "Ventana editorial de consulta alrededor de2,9Ga; evidencia regional, no duración de100Ma ni manto global",
+      "sourceId": "pongola"
+    },
+    {
+      "id": "gaskiers",
+      "oldestMa": 580.9,
+      "youngestMa": 579.8,
+      "scope": "Ventana de consulta de depósitos regionales; no duración exacta ni equivalente demostrado a Snowball Earth",
+      "sourceId": "gaskiers"
+    }
+  ]
+}

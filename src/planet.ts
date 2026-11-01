@@ -1,4 +1,6 @@
 import catalog from '../Tierra/Planeta/indicadores.json' with {type:'json'};
+import ancient from '../Tierra/Precambrico/indicadores.json' with {type:'json'};
+import{deepSources}from'./deep-earth';
 export type PlanetField='meanTemperature'|'temperatureAnomaly'|'solarDay'|'siderealRotation'|'oceanArea'|'nitrogen'|'oxygen'|'argon'|'carbonDioxide'|'waterVapor'|'methane'|'ammonia'|'hydrogen'|'helium'|'rockVapor'|'otherGases';
 export type PlanetReference={basis:'civil';year:number}|{basis:'BP1950'|'b2k2000';ageYears:number}|{basis:'Ma';ageMa:number;nominalEpoch:number};
 export interface PlanetRecord{
@@ -7,8 +9,8 @@ export interface PlanetRecord{
  evidence:'observation-synthesis'|'rounded-reference'|'model'|'estimate';quantity:string;
  uncertainty:{minus:number;plus:number;description:string}|null;method:string;sourceId:string;scope:string;interpolation:'none';
 }
-export const planetRecords=catalog.records as PlanetRecord[];
-export const planetSources=catalog.sources as Record<string,{name:string;url:string;retrieved:string;version:string}>;
+export const planetRecords=[...catalog.records,...ancient.records] as PlanetRecord[];
+export const planetSources={...catalog.sources,...Object.fromEntries(Object.entries(deepSources).map(([id,s])=>[id,{...s,version:'Referencia por estudio'}]))} as Record<string,{name:string;url:string;retrieved:string;version:string}>;
 export const atmosphereNote=catalog.atmosphereBasis;
 export function planetReferenceLabel(reference:PlanetReference){return reference.basis==='civil'?String(reference.year):reference.basis==='Ma'?`${reference.ageMa.toLocaleString('es')} Ma · eje nominal${reference.nominalEpoch}`:`${reference.ageYears.toLocaleString('es')} ${reference.basis}`;}
 /** A dated reference is retained with its date; it never becomes a new observation. */

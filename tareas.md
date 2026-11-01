@@ -1,5 +1,22 @@
 # Tareas y continuidad
 
+## Entrega0.53.0 · parte3/6 y enciclopedia
+
+Autorizado por el propietario tras la corrección77cf39202. Formación y Precámbrico, más enciclopedia contextual de pantalla completa. Conservar los registros posteriores y no confundir escenarios visuales con costas observadas ni valores OCR con medidas.
+
+- [x] Revisar acontecimientos precámbricos del inventario y registrar fuentes, discrepancias y pendientes por candidato.
+- [x] Superficies propias en2D/3D: magma, enfriamiento, océanos/corteza tempranos, oxigenación y escenarios glaciales; reutilizar las geometrías CAO2024 donde existe cobertura.
+- [x] Incorporar indicadores antiguos sólo donde haya estimaciones publicadas, con fecha, método y unidades; contexto cualitativo para los campos no cuantificados.
+- [x] Aumentar resolución espacial de la regla antigua, nombres completos y paleta editorial diversa conservando la referencia ICS original.
+- [x] Enciclopedia completa como interfaz: apertura por fecha, índice, búsqueda, navegación entre artículos, regreso al mapa, figuras, fuentes, multimedia e interacción. Contenido detallado inicial centrado en Precámbrico; otras épocas y Países seguirán ampliándose sin inventar artículos completos.
+- [x] Comprobar archivos finales completos de Tierra/enciclopedia, regresiones pertinentes, producción, conservación y móvil; documentación cerrada y registro preparado para commit/push sin esperar Actions/Pages.
+
+Cierre local: tipos y producción correctos;29 focales correctos, con siete nuevos repetidos tras ajustes. Nueve recorridos pertinentes correctos: atlas.spec completo, earth-foundation.spec completo, precambrian.spec completo y persistencia de ficha. Repetición final conjunta de los dos archivos de Tierra/enciclopedia:4 correctos en2,4min. Incluye descarga retardada con cambio de capa para impedir almacenar la costa previa, limpieza de filtros al entrar en conceptos, control completo de hielo también en los polos y restauración del hielo anterior tras volver del Hádico. Capturas escritorio/móvil revisadas.152 casos recopilados en63 archivos; no se repite toda esa batería.
+
+Conservación:283 recursos,11 franjas de glifos y9179 medios anteriores SHA correctos; dos imágenes nuevas verificadas. Investigación original e ICS177 reproducible intactas. Países, Humanidad, Cuaternario y originales de parte1 sin cambios. El manifiesto sólo cambia la versión de display-labels de0.52.0 a0.53.0, conservando bytes/hash y orden. Sin dependencias ni workflows nuevos. Una tentativa de batería completa en paralelo con generación/construcción se interrumpió tras un timeout; review-051 pasa después en el conjunto serial. No afirmar que aquella tentativa fue verde. Registro preparado para envío; al retomar cotejar HEAD/origin/main antes de repetir, sin esperar Actions/Pages.
+
+Pendientes científicos explícitos: curvas atmosféricas/temperaturas y paleocostas tempranas sin fuente adecuada; comprobación específica de candidatos audiovisuales no adoptados; más monografías, especies, países y medios. Las311 entradas no equivalen a311 monografías detalladas:21 son artículos propios,177 fichas geológicas,23 referencias humanas y90 revisiones del vídeo.
+
 ## Corrección CI · 0.52.0 · espera temporal en earth-foundation
 
 - [x] Identificar el fallo comunicado: una espera de data-loaded-year=1 se insertó en el primer recorrido, que todavía consulta2026; no es un atasco de carga del mapa.

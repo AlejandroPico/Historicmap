@@ -2,11 +2,13 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.52.0** · 1 de noviembre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.53.0** · 1 de noviembre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
+
+**Enciclopedia y Precámbrico:** botón de libro, apertura por la fecha del mapa, índice y búsqueda, artículos temáticos, fuentes, fotografías y esquemas interactivos. Superficies propias en2D/3D con reconstrucciones fechadas donde existen y escenarios conceptuales donde no. [Entrega y límites0.53](docs/EARTH-PRECAMBRIAN-0.53.md).
 
 **Panel planetario y cronograma:** referencias científicas fechadas, jerarquía ICS2026/06 y periodizaciones humanas regionales. Bandas móviles con color opcional y panel que conserva pestaña/lectura al cambiar de fecha. [Parte2 y límites](docs/EARTH-FOUNDATION-0.52.md). Las nuevas reconstrucciones físicas siguen por etapas.
 
@@ -43,7 +45,7 @@ Créditos cartográficos integrados en **Datos y fuentes → Créditos del mapa*
 
 - Mapa vectorial 2D y globo 3D con zoom, selección y búsqueda local en panel compacto sin oscurecer el mapa.
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
-- Mapa a pantalla completa con nueve herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Filtros y Capas en paneles separados.
+- Mapa a pantalla completa con diez herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Filtros y Capas en paneles separados.
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
 - Cronología anual desde100a.C., sin año cero: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
