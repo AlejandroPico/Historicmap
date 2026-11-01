@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.50.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.50.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección65; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección66; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.50.0:** ampliar 100000–10001 a. C. con evidencias fechadas de poblamiento, atribuciones humanas, culturas materiales y hielo dentro de la cobertura real del modelo. Conservar el contenido posterior. No esperar Actions/Pages.
+**Encargo vigente 0.50.1:** corregir el fallo de importación JSON que impide recopilar las pruebas de los cuatro grupos de navegador. Conservar todos los datos y subir tras comprobar localmente, sin esperar Actions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1423,3 +1423,14 @@ Refuerzo final de0.50: PaleoHumans1.0.0, CC-BY4, ArenasdelAmoetal2024, DOI10.101
 Validación final0.50 tras el refuerzo:377 pruebas generales/77 archivos,34 de investigación,tipos/producción y272 datos/11 fuentes/9179 medios correctos. Ocho recorridos distintos de navegador correctos (siete del ciclo final más repetición focal corregida del globo). La consulta global de círculos no enumera los marcadores visibles sobre el globo: no confundir ese contador auxiliar con una prueba visual; el recorrido usa un clic real en un marcador. Las fichas se resuelven contra la colección canónica. sovereignSeat es una ruta interna a la ficha completa para estos puntos, no una afirmación de soberanía arqueológica.
 
 Cotejo del índice0.50:2549 archivos nuevos/modificados iguales a sus bytes locales;9462 recursos verificados por SHA-256 y objeto Git,9441 objetos de recurso anteriores intactos. El envío se realiza después de cerrar este registro; confirmar HEAD/origin/main si se retoma una sesión interrumpida. El propietario verifica Actions/Pages.
+
+
+## 66. Corrección 0.50.1 · recopilación de Playwright
+
+Base d1fb7cdeb, árbol limpio. El propietario informa del mismo TypeError en los cuatro grupos: cronologia.json requiere el atributo type:json. Reproducido con el comando normal de Playwright --list, antes de iniciar servidor o navegador. Las pruebas de navegador importan time.ts en Node ESM, mientras Vite/Vitest transforman las importaciones de la aplicación; superar pruebas focales de la entrega anterior no acreditó la recopilación completa con la configuración normal.
+
+Se declaran atributos `with {type:'json'}` en time.ts y en las dos importaciones JSON de ice-history.ts. Se conservan la versión fijada de Node, las conversiones BP/b2k/civiles, todos los recursos y los contratos de consulta. Referencia: https://nodejs.org/api/esm.html#import-attributes . No duplicar los datos canónicos para evitar la importación.
+
+Quality ejecuta `npm run test:e2e -- --list` tras npm ci y antes de la validación costosa. Esto carga todos los archivos y dependencias de pruebas sin iniciar un navegador; detecta errores de recopilación pronto, sin omitir ninguna prueba ni alterar los cuatro grupos o la condición de publicación. Para comprobar localmente, usar una caché de transformación nueva con PWTEST_CACHE_DIR y la configuración normal; las pruebas visuales focales pueden usar un puerto separado con la misma configuración base. Registrar resultados efectivos y pendientes en tareas.md. Enviar a main y terminar sin sondear Actions/Pages.
+
+Validación0.50.1: reproducción negativa previa con --list; recopilación posterior de los cuatro grupos con configuración normal y cachés nuevas,36/36/36/35 casos (143 total). Tipos correctos y28 comprobaciones de tiempo, fechas civiles y revisiones049/050 correctas. Producción correcta con4399 módulos; por un EPERM local al vaciar dist/media en Windows se utilizó una carpeta de salida nueva, sin cambiar la configuración de producción versionada ni los datos. Dos recorridos reales correctos sobre esa compilación: fecha/cursor/información/móvil y globo/hielo con selección real. No se ejecutan localmente los143 recorridos completos. Resultado y alcance en DELIVERY-0.50.1; no sondear Actions/Pages.

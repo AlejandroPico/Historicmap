@@ -17,6 +17,8 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
+      - name: Check browser test collection before expensive validation
+        run: npm run test:e2e -- --list
       - run: npm run data:verify
       - run: npm test
       - run: python3 -m unittest discover -s tests/research -p 'test_*.py'

@@ -1,5 +1,5 @@
 import {PREHISTORY_START,PREHISTORY_END} from './prehistoric-time';
-import chronology from '../Tierra/Cuaternario/cronologia.json';
+import chronology from '../Tierra/Cuaternario/cronologia.json' with {type:'json'};
 import {yearFromAge} from './dates';
 /** Civil years, with no year zero; geological dates are approximate years before 1950. */
 export const systemYear = (date = new Date()) => date.getFullYear();

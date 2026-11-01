@@ -1,6 +1,19 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.50.0 · 100000–10001 a. C.
+## Encargo vigente · 0.50.1 · corrección de recopilación ESM
+
+- [x] Reproducir el TypeError con Playwright normal --list: los cuatro grupos fallan antes de iniciar el navegador.
+- [x] Declarar el atributo JSON en cronología e índice glacial; conservar datos y conversiones.
+- [x] Añadir recopilación completa al inicio de Quality, manteniendo todos los tests y los cuatro grupos.
+- [x] Recopilación con configuración normal y cachés nuevas: grupos36/36/36/35,143 casos en total. Tipos correctos,28 pruebas focales correctas y producción correcta en una carpeta aislada. Dos recorridos reales correctos: fecha/información/móvil y globo/hielo.
+- [x] Registrar resultados y revisar el cambio: sólo importaciones, recopilación temprana de CI, versión y documentación; datos intactos.
+- [x] Preparar esta corrección verificada para main; el envío se realiza tras este registro. Cotejar HEAD/origin/main al retomar y no esperar Actions/Pages.
+
+La entrega0.50.0 está en main mediante d1fb7cdeb; su despliegue ha fallado por este problema de recopilación comunicado por el propietario. No declarar publicación correcta. Las comprobaciones anteriores fueron locales y no validaron la recopilación completa con la configuración normal.
+
+Comprobaciones detalladas en [DELIVERY-0.50.1](docs/DELIVERY-0.50.1.md). El envío ocurre después de guardar este registro; confirmar el historial y el remoto si se interrumpe la sesión. No se ejecutan de nuevo localmente los143 recorridos completos; el propietario comprueba el despliegue.
+
+## Entrega anterior · 0.50.0 · 100000–10001 a. C.
 
 - [x] Base4b5b4987b limpia y conservación congelada; no modificar hechos posteriores.
 - [x] Investigar y adquirir referencias primarias de poblamiento, culturas y grupos humanos; diferenciar evidencias, cronologías y atribuciones discutidas.

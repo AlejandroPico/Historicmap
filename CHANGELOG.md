@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.50.1 · 2026-11-01
+
+- Corregidas las importaciones JSON de cronología e índice glacial para la carga ESM de Node usada por Playwright. El fallo impedía recopilar las pruebas de los cuatro grupos antes de abrir el navegador.
+- Quality comprueba la recopilación completa de pruebas inmediatamente después de instalar dependencias, antes de verificar datos, ejecutar las baterías y compilar. Mantiene los cuatro grupos y los requisitos de publicación.
+- Conservados todos los datos y la ampliación hasta100000a.C.
+
 ## 0.50.0 · 2026-11-01
 
 - Consulta prehistórica hasta 100000 a. C.: 803 referencias de yacimientos o conjuntos y 2820 registros fechados o contextuales, sin fronteras biológicas ni ocupaciones continuas supuestas.

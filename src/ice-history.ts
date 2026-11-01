@@ -1,7 +1,7 @@
-import chronology from '../Tierra/Cuaternario/cronologia.json';
+import chronology from '../Tierra/Cuaternario/cronologia.json' with {type:'json'};
 import {yearFromAge} from './dates';
 export {yearFromAge} from './dates';
-import index from '../public/data/ice-model-index.json';
+import index from '../public/data/ice-model-index.json' with {type:'json'};
 import {formatYear} from './time';
 
 /** Model ages use BP1950; civil chronology has no year zero. */
