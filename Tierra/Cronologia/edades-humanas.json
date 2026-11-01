@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "version": "0.52.0",
+  "sources": {
+    "regional": {
+      "title": "Musée de Préhistoire Île-de-France · cronologías regionales",
+      "url": "https://www.musee-prehistoire-idf.fr/fr/des-collections-prehistoriques-et-protohistoriques"
+    },
+    "history": {
+      "title": "INRAP · frise chronologique générale",
+      "url": "https://multimedia.inrap.fr/archeologie-preventive/chronologie-generale"
+    },
+    "tools": {
+      "title": "Harmand et al.2015 · Lomekwi3",
+      "url": "https://doi.org/10.1038/nature14464"
+    },
+    "digital": {
+      "title": "Computer History Museum · Timeline",
+      "url": "https://computerhistory.org/timelines/"
+    },
+    "space": {
+      "title": "NASA · Sputnik and the Dawn of the Space Age",
+      "url": "https://www.nasa.gov/history/sputnik/"
+    },
+    "industrial": {
+      "title": "Science Museum · industria y máquinas de vapor",
+      "url": "https://www.sciencemuseum.org.uk/objects-and-stories/steam-engines"
+    },
+    "hominins": {
+      "title": "Smithsonian · homininos tempranos; referencia biológica",
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis"
+    }
+  },
+  "note": "Referencias regionales y síntesis editoriales. No escala oficial universal ni cronología de culturas individuales; no sustituye las regiones del mapa. La arquitectura admite otras regiones y periodizaciones.",
+  "units": [
+    {
+      "id": "early-hominins",
+      "name": "Homininos tempranos",
+      "startYear": -7000000,
+      "endYear": -3300000,
+      "lane": "overview",
+      "scope": "Referencia biológica; África",
+      "sourceId": "hominins",
+      "color": "#c8a47b",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "prehistory",
+      "name": "Prehistoria",
+      "startYear": -3300000,
+      "endYear": -3200,
+      "lane": "overview",
+      "scope": "Convención de consulta; final regional según escritura",
+      "sourceId": "tools",
+      "color": "#b5a781",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "antiquity",
+      "name": "Edad Antigua",
+      "startYear": -3200,
+      "endYear": 476,
+      "lane": "overview",
+      "scope": "Mediterráneo y tradición historiográfica europea",
+      "sourceId": "history",
+      "color": "#c3b485",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "middle-ages",
+      "name": "Edad Media",
+      "startYear": 476,
+      "endYear": 1492,
+      "lane": "overview",
+      "scope": "Europa; convenciones variables",
+      "sourceId": "history",
+      "color": "#9bab9a",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "early-modern",
+      "name": "Edad Moderna",
+      "startYear": 1492,
+      "endYear": 1789,
+      "lane": "overview",
+      "scope": "Periodización europea e iberoamericana",
+      "sourceId": "history",
+      "color": "#8aa6b2",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "contemporary",
+      "name": "Edad Contemporánea",
+      "startYear": 1789,
+      "endYear": null,
+      "lane": "overview",
+      "scope": "Convención europea; sin límite final fijado",
+      "sourceId": "history",
+      "color": "#aca2bd",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "lower-paleo",
+      "name": "Paleolítico inferior",
+      "startYear": -800000,
+      "endYear": -300000,
+      "lane": "regional",
+      "scope": "Norte de Francia · cronología regional",
+      "sourceId": "regional",
+      "color": "#b5a687",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "middle-paleo",
+      "name": "Paleolítico medio",
+      "startYear": -300000,
+      "endYear": -40000,
+      "lane": "regional",
+      "scope": "Norte de Francia · cronología regional",
+      "sourceId": "regional",
+      "color": "#b9ac8c",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "upper-paleo",
+      "name": "Paleolítico superior",
+      "startYear": -40000,
+      "endYear": -9000,
+      "lane": "regional",
+      "scope": "Norte de Francia · cronología regional",
+      "sourceId": "regional",
+      "color": "#c6b48e",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "mesolithic",
+      "name": "Mesolítico",
+      "startYear": -9000,
+      "endYear": -5100,
+      "lane": "regional",
+      "scope": "Norte de Francia · cronología regional",
+      "sourceId": "regional",
+      "color": "#b7b88b",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "neolithic",
+      "name": "Neolítico",
+      "startYear": -5100,
+      "endYear": -2300,
+      "lane": "regional",
+      "scope": "Norte de Francia · cronología regional",
+      "sourceId": "regional",
+      "color": "#a4b18c",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "bronze",
+      "name": "Edad del Bronce",
+      "startYear": -2300,
+      "endYear": -800,
+      "lane": "regional",
+      "scope": "Norte de Francia · cronología regional",
+      "sourceId": "regional",
+      "color": "#b48e6d",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "iron",
+      "name": "Edad del Hierro",
+      "startYear": -800,
+      "endYear": -52,
+      "lane": "regional",
+      "scope": "Norte de Francia · cronología regional",
+      "sourceId": "regional",
+      "color": "#919da4",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "copper",
+      "name": "Calcolítico / Edad del Cobre",
+      "startYear": -3500,
+      "endYear": -2200,
+      "lane": "transformation",
+      "scope": "Europa occidental · transiciones regionales, límites orientativos",
+      "sourceId": "history",
+      "color": "#b99a7d",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "early-medieval",
+      "name": "Alta Edad Media",
+      "startYear": 476,
+      "endYear": 1000,
+      "lane": "regional",
+      "scope": "Europa · subdivisión historiográfica convencional",
+      "sourceId": "history",
+      "color": "#a3af95",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "central-medieval",
+      "name": "Plena Edad Media",
+      "startYear": 1000,
+      "endYear": 1300,
+      "lane": "regional",
+      "scope": "Europa · subdivisión historiográfica convencional",
+      "sourceId": "history",
+      "color": "#91a88f",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "late-medieval",
+      "name": "Baja Edad Media",
+      "startYear": 1300,
+      "endYear": 1492,
+      "lane": "regional",
+      "scope": "Europa · subdivisión historiográfica convencional",
+      "sourceId": "history",
+      "color": "#7f9a8c",
+      "priority": 0,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "exploration",
+      "name": "Exploraciones oceánicas",
+      "startYear": 1450,
+      "endYear": 1650,
+      "lane": "transformation",
+      "scope": "Transformación histórica · comienzo orientativo, expansión desigual",
+      "sourceId": "history",
+      "color": "#89a9b1",
+      "priority": 2,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "industrial",
+      "name": "Industrialización",
+      "startYear": 1760,
+      "endYear": 1950,
+      "lane": "transformation",
+      "scope": "Transformación histórica · comienzo orientativo, expansión desigual",
+      "sourceId": "industrial",
+      "color": "#ad9d83",
+      "priority": 1,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "industry-one",
+      "name": "Primera industrialización",
+      "startYear": 1760,
+      "endYear": 1840,
+      "lane": "transformation",
+      "scope": "Transformación histórica · comienzo orientativo, expansión desigual",
+      "sourceId": "industrial",
+      "color": "#b5a68d",
+      "priority": 3,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "industry-two",
+      "name": "Segunda industrialización",
+      "startYear": 1870,
+      "endYear": 1914,
+      "lane": "transformation",
+      "scope": "Transformación histórica · comienzo orientativo, expansión desigual",
+      "sourceId": "industrial",
+      "color": "#a09d92",
+      "priority": 3,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "digital",
+      "name": "Digitalización",
+      "startYear": 1950,
+      "endYear": null,
+      "lane": "transformation",
+      "scope": "Transformación histórica · comienzo orientativo, expansión desigual",
+      "sourceId": "digital",
+      "color": "#94b1b4",
+      "priority": 6,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    },
+    {
+      "id": "space-age",
+      "name": "Era espacial",
+      "startYear": 1957,
+      "endYear": null,
+      "lane": "transformation",
+      "scope": "Transformación histórica · comienzo orientativo, expansión desigual",
+      "sourceId": "space",
+      "color": "#a2a6c2",
+      "priority": 4,
+      "formal": false,
+      "precision": "periodización editorial aproximada y regional; límites no universales"
+    }
+  ]
+}

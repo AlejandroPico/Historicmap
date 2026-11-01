@@ -102,3 +102,8 @@ Muestreo nativo: cada1s antes de650s, cada8 fotogramas entre650–690s y todos l
 El validador independiente comprueba integridad de originales, cobertura de las entradas, identidades actuales, referencias, muestras y tiempos. La aplicación no se importa desde estos inventarios. El material audiovisual completo y su OCR narrativo permanecen privados; la licencia de la música no se extiende al vídeo.
 
 No se ha repetido la batería de navegadores para cambios únicamente documentales. No se espera al despliegue: la confirmación de GitHub Pages sigue correspondiendo al propietario.
+
+
+## Seguimiento en parte2 · 0.52.0
+
+La revisión de los metadatos finales del RDF resuelve la duda de su cabecera: owl:versionInfo y versionIRI identifican2026-06, con modificación20/06/2026. La mención2024-12 era una cita antigua. El vocabulario preparado y su conciliación de fechas constan en [la entrega de parte2](EARTH-FOUNDATION-0.52.md). No se modificaron los originales ni sus hashes.

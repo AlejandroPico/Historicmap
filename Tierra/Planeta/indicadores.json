@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "version": "0.52.0",
+  "sources": {
+    "nasa": {
+      "name": "NASA · Facts About Earth",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "retrieved": "2026-11-01",
+      "version": "consulta2026-11-01"
+    },
+    "wmo2024": {
+      "name": "OMM · Estado del clima mundial2024",
+      "url": "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024",
+      "retrieved": "2026-11-01",
+      "version": "informe publicado2025"
+    },
+    "ics": {
+      "name": "ICS · Carta2026/06",
+      "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "retrieved": "2026-11-01",
+      "version": "2026/06"
+    },
+    "wmo2025": {
+      "name": "OMM · Estado del clima mundial2025",
+      "url": "https://wmo.int/news/media-centre/earths-climate-swings-increasingly-out-of-balance",
+      "retrieved": "2026-11-01",
+      "version": "informe publicado23/03/2026"
+    }
+  },
+  "records": [
+    {
+      "id": "nitrogen-2026",
+      "field": "nitrogen",
+      "value": 78,
+      "unit": "%",
+      "reference": {
+        "basis": "civil",
+        "year": 2026
+      },
+      "availableFromYear": 2026,
+      "evidence": "rounded-reference",
+      "quantity": "fraction",
+      "uncertainty": null,
+      "method": "Composición superficial aproximada de referencia; no serie anual ni mezcla detallada a todas las alturas.",
+      "sourceId": "nasa",
+      "scope": "global-reference",
+      "interpolation": "none"
+    },
+    {
+      "id": "oxygen-2026",
+      "field": "oxygen",
+      "value": 21,
+      "unit": "%",
+      "reference": {
+        "basis": "civil",
+        "year": 2026
+      },
+      "availableFromYear": 2026,
+      "evidence": "rounded-reference",
+      "quantity": "fraction",
+      "uncertainty": null,
+      "method": "Composición superficial aproximada; cifras redondeadas.",
+      "sourceId": "nasa",
+      "scope": "global-reference",
+      "interpolation": "none"
+    },
+    {
+      "id": "otherGases-2026",
+      "field": "otherGases",
+      "value": 1,
+      "unit": "%",
+      "reference": {
+        "basis": "civil",
+        "year": 2026
+      },
+      "availableFromYear": 2026,
+      "evidence": "rounded-reference",
+      "quantity": "fraction",
+      "uncertainty": null,
+      "method": "Resto agrupado, incluidos argón, CO₂ y neón; no desglose de cada gas.",
+      "sourceId": "nasa",
+      "scope": "global-reference",
+      "interpolation": "none"
+    },
+    {
+      "id": "siderealRotation-2026",
+      "field": "siderealRotation",
+      "value": 23.9,
+      "unit": "h",
+      "reference": {
+        "basis": "civil",
+        "year": 2026
+      },
+      "availableFromYear": 2026,
+      "evidence": "rounded-reference",
+      "quantity": "sidereal-rotation",
+      "uncertainty": null,
+      "method": "Rotación respecto a las estrellas; distinta del día solar de aproximadamente24h.",
+      "sourceId": "nasa",
+      "scope": "global-reference",
+      "interpolation": "none"
+    },
+    {
+      "id": "oceanArea-2026",
+      "field": "oceanArea",
+      "value": 71,
+      "unit": "%",
+      "reference": {
+        "basis": "civil",
+        "year": 2026
+      },
+      "availableFromYear": 2026,
+      "evidence": "rounded-reference",
+      "quantity": "surface-fraction",
+      "uncertainty": null,
+      "method": "Superficie oceánica contemporánea aproximada; no paleocosta reconstruida.",
+      "sourceId": "nasa",
+      "scope": "global-reference",
+      "interpolation": "none"
+    },
+    {
+      "id": "temperatureAnomaly-2024",
+      "field": "temperatureAnomaly",
+      "value": 1.55,
+      "unit": "°C",
+      "reference": {
+        "basis": "civil",
+        "year": 2024
+      },
+      "availableFromYear": 2024,
+      "evidence": "observation-synthesis",
+      "quantity": "temperature-anomaly",
+      "uncertainty": {
+        "minus": 0.13,
+        "plus": 0.13,
+        "description": "incertidumbre publicada por la OMM"
+      },
+      "method": "Media global anual cercana a la superficie respecto a1850–1900. No temperatura absoluta ni estimación del año seleccionado.",
+      "sourceId": "wmo2024",
+      "scope": "global-reference",
+      "interpolation": "none"
+    },
+    {
+      "id": "temperatureAnomaly-2025",
+      "field": "temperatureAnomaly",
+      "value": 1.43,
+      "unit": "°C",
+      "reference": {
+        "basis": "civil",
+        "year": 2025
+      },
+      "availableFromYear": 2025,
+      "evidence": "observation-synthesis",
+      "quantity": "temperature-anomaly",
+      "uncertainty": {
+        "minus": 0.13,
+        "plus": 0.13,
+        "description": "incertidumbre publicada por la OMM"
+      },
+      "method": "Media global anual cercana a la superficie respecto a1850–1900. No temperatura absoluta ni estimación del año seleccionado.",
+      "sourceId": "wmo2025",
+      "scope": "global-reference",
+      "interpolation": "none"
+    }
+  ],
+  "missingMeans": "Sin estimación incorporada para esta fecha; no valor0. No se usan automáticamente las curvas OCR del vídeo.",
+  "futurePolicy": "Mostrar únicamente referencias fechadas anteriores o iguales al cursor, con año visible. Ninguna referencia se presenta como observación anual de años posteriores.",
+  "atmosphereBasis": "Mezcla superficial aproximada según NASA; base seca/húmeda no desglosada en esta referencia divulgativa. No inferir presiones parciales.",
+  "fieldDefinitions": {
+    "meanTemperature": {
+      "unit": "°C",
+      "quantity": "absolute-mean-surface-temperature",
+      "missingValue": null
+    },
+    "temperatureAnomaly": {
+      "unit": "°C",
+      "quantity": "temperature-anomaly-with-baseline",
+      "missingValue": null
+    },
+    "solarDay": {
+      "unit": "h",
+      "quantity": "solar-day-duration",
+      "missingValue": null
+    },
+    "siderealRotation": {
+      "unit": "h",
+      "quantity": "sidereal-rotation",
+      "missingValue": null
+    },
+    "oceanArea": {
+      "unit": "%",
+      "quantity": "surface-fraction",
+      "missingValue": null
+    },
+    "nitrogen": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "oxygen": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "argon": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "carbonDioxide": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "waterVapor": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "methane": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "ammonia": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "hydrogen": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "helium": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "rockVapor": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    },
+    "otherGases": {
+      "unit": "%",
+      "quantity": "atmospheric-fraction",
+      "missingValue": null
+    }
+  },
+  "recordContract": {
+    "value": "number | {min,max} | null; never replace unknown with zero",
+    "reference": "discriminated temporal basis: civil/year, BP1950 or b2k2000/ageYears, Ma/ageMa with nominalEpoch",
+    "validity": "availableFromYear and optional validUntilYear; dated references retain their original reference date",
+    "source": "sourceId resolves to title, URL, retrieval date and source version",
+    "quality": "evidence, quantity, uncertainty, method and explicit no-interpolation"
+  }
+}

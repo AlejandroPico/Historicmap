@@ -1,0 +1,64 @@
+/* Scientific content and chronology colours are independent of the map theme. */
+:root{--dock-height:168px}
+.chronology-bands{position:absolute;left:0;right:0;top:4px;height:51px;z-index:1;pointer-events:none}
+.chronology-family{position:absolute;inset:0;pointer-events:none}
+.chronology-band{position:absolute;height:16px;overflow:hidden;white-space:nowrap;background:var(--band-color);color:var(--band-ink);border-right:1px solid #14242c55;pointer-events:auto;font-size:10px;font-weight:600;line-height:16px}
+.chronology-band>span{display:block;overflow:hidden;text-overflow:ellipsis;padding-inline:7px;text-align:center}
+.time-dock[data-chronology-colors=false] .chronology-band{background:var(--panel);color:var(--muted);border-right-color:var(--line);border-bottom:1px solid var(--line)}
+.tick{top:63px}
+.cursor-line{height:156px}
+.planet-panel{position:absolute;right:16px;top:64px;z-index:7;width:330px;max-height:calc(100dvh - var(--dock-height) - 92px - var(--legend-height,0px));display:flex;flex-direction:column;border:1px solid var(--line);border-radius:4px;background:var(--panel);backdrop-filter:blur(16px);box-shadow:0 12px 32px #0003}
+.planet-heading{display:flex;align-items:flex-start;justify-content:space-between;padding:17px 14px 12px 18px;flex-shrink:0}
+.planet-heading .eyebrow{font-size:8px;letter-spacing:1.3px}
+.planet-heading h2{font:30px/1.1 'Libre Caslon Display',Georgia,serif;font-weight:400;margin:5px 0}
+#planet-date{font-size:11px;color:var(--muted)}
+.planet-tabs{display:flex;gap:0;border-block:1px solid var(--line);padding-inline:10px;flex-shrink:0}
+.planet-tabs button{flex:1;font-size:11px;padding:12px 4px;border-bottom:2px solid transparent}
+.planet-tabs [aria-selected=true]{border-bottom-color:var(--gold);color:var(--gold)}
+.planet-content{overflow:auto;scrollbar-width:none;padding:14px 18px 20px;min-height:0;overscroll-behavior:contain}
+.planet-content::-webkit-scrollbar{display:none}
+.planet-content h3{font-size:10px;letter-spacing:.5px;font-weight:600;margin:19px 0 10px;color:var(--muted)}
+.planet-content p{font-size:11px;line-height:1.7}
+.planet-epoch{margin:0 0 15px;font-size:11px;line-height:1.6}
+.planet-metrics{display:grid;grid-template-columns:1fr;gap:10px}
+.planet-metric{padding:10px 11px;border:1px solid var(--line);border-radius:2px}
+.planet-metric>span{display:block;font-size:10px;color:var(--muted)}
+.planet-metric>strong{display:block;margin-block:5px;font-size:15px;font-weight:500}
+.planet-metric>small{display:block;font-size:9px;color:var(--muted);line-height:1.6}
+.planet-metric:has([data-missing]){border-style:dashed}
+.planet-metric details,.planet-method{margin-top:8px;font-size:10px;line-height:1.6;color:var(--muted)}
+.planet-metric details p{margin:7px 0;font-size:10px}
+.planet-metric summary,.planet-method summary{cursor:pointer}
+.planet-atmosphere{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.planet-atmosphere .planet-metric:last-child:nth-child(odd){grid-column:1/-1}
+.planet-empty,.planet-intro{color:var(--muted)}
+.planet-chronology{list-style:none;padding:0;margin:0}
+.planet-chronology li{padding:10px 0;border-bottom:1px solid var(--line);font-size:11px}
+.planet-chronology li>span{display:block;font-size:9px;color:var(--muted);margin-bottom:4px}
+.planet-chronology strong{display:block;font-weight:500}
+.planet-chronology small{display:block;color:var(--muted);font-size:10px;line-height:1.6;margin-top:4px}
+.planet-chronology details{font-size:10px;margin-top:7px;line-height:1.7;color:var(--muted)}
+.planet-chronology a{font-size:10px;display:inline-block;margin-top:6px}
+.planet-chronology .text-action{display:block;margin-top:8px}
+.planet-source{display:block;font-size:11px;line-height:1.6;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.planet-source small{display:block;font-size:9px;color:var(--muted)}
+@media(max-width:760px){
+ :root{--dock-height:162px}
+ .planet-panel{top:58px;right:12px;width:min(330px,calc(100vw - 24px));max-height:calc(100dvh - var(--dock-height) - 80px)}
+ .chronology-band{font-size:9px}
+}
+@media(max-width:360px){.toolbar .icon-button{width:32px}}
+@media(max-height:650px){
+ :root{--dock-height:142px}
+ .planet-panel{max-height:calc(100dvh - var(--dock-height) - 76px)}
+ .planet-heading{padding:10px 12px;align-items:center}
+ .planet-heading>div{display:flex;align-items:baseline;gap:12px}
+ .planet-heading .eyebrow{display:none}
+ .planet-heading h2{font-size:23px;margin:0}
+ .planet-tabs button{padding-block:8px}
+ .planet-content{padding:8px 12px 12px}
+ .planet-content h3{margin:6px 0 8px}
+ .date-heading{font-size:23px}
+ .time-focus{bottom:5px}
+ .cursor-line{height:136px}
+}

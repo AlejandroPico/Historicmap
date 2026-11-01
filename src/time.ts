@@ -1,6 +1,7 @@
 import {PREHISTORY_START,PREHISTORY_END} from './prehistoric-time';
 import chronology from '../Tierra/Cuaternario/cronologia.json' with {type:'json'};
 import {yearFromAge} from './dates';
+import {geologicalAt} from './earth-chronology';
 /** Civil years, with no year zero; geological dates are approximate years before 1950. */
 export const systemYear = (date = new Date()) => date.getFullYear();
 export const PRESENT = systemYear();
@@ -27,11 +28,7 @@ export function formatYear(year: number): string {
   return `${year.toLocaleString('es', { useGrouping: false })} d. C.`;
 }
 export function eraName(year: number): string {
-  if (year < -4000000000) return 'Hádico';
-  if (year < -2500000000) return 'Arcaico';
-  if (year < -541000000) return 'Proterozoico';
-  if (year < -252000000) return 'Paleozoico';
-  if (year < -66000000) return 'Mesozoico';
+  if(year<PREHISTORY_START){const units=geologicalAt(year);return (units.some(u=>u.id==='Phanerozoic')?units.find(u=>u.rank==='era')?.name:units.find(u=>u.rank==='eon')?.name)??'Tiempo geológico';}
   if(year>=PREHISTORY_START&&year < -5330000)return 'Mioceno · homininos tempranos';
   if(year>=PREHISTORY_START&&year < -2580000)return 'Plioceno · homininos';
   if (year < -2600000) return 'Cenozoico';

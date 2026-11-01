@@ -1,0 +1,3382 @@
+{
+  "schemaVersion": 1,
+  "version": "2026/06",
+  "license": "CC-BY-4.0",
+  "attribution": "International Commission on Stratigraphy · Cohen, Harper, Gibbard & Car (2025, actualizado2026/06)",
+  "sourceSha256": "8548707d66c383460b3bddc20afb7070cb5f3ea187ea1262418dc3a6f2d6e9f7",
+  "rdfVersion": "2026-06",
+  "rdfModified": "2026-06-20",
+  "reconciliation": "La cita inglesa Modified2024-12 es antigua; owl:versionInfo y versionIRI identifican2026-06. El límite Hádico/Arcaico4031Ma y demás valores proceden de esta versión. Holoceno usa edades GSSP b2k ya curadas, conservando cifras redondeadas de carta por separado.",
+  "axisConvention": "Intervalos [inicio,fin), presente abierto. Ma se sitúa nominalmente respecto1950; no es precisión calendárica. Holoceno/GSSP tiene base2000 explícita. Sin año cero.",
+  "units": [
+    {
+      "id": "Hadean",
+      "name": "Hádico",
+      "rank": "eon",
+      "parent": "Precambrian",
+      "oldestMa": 4567.0,
+      "youngestMa": 4031.0,
+      "color": "#AE027E",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 3.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -4566998051,
+      "axisEndYear": -4030998051
+    },
+    {
+      "id": "Precambrian",
+      "name": "Precámbrico",
+      "rank": "group",
+      "parent": null,
+      "oldestMa": 4567.0,
+      "youngestMa": 538.8,
+      "color": "#F74370",
+      "formal": false,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -4566998051,
+      "axisEndYear": -538798051
+    },
+    {
+      "id": "Archean",
+      "name": "Arcaico",
+      "rank": "eon",
+      "parent": "Precambrian",
+      "oldestMa": 4031.0,
+      "youngestMa": 2500.0,
+      "color": "#F0047F",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 3.0,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -4030998051,
+      "axisEndYear": -2499998051
+    },
+    {
+      "id": "Eoarchean",
+      "name": "Eoarcaico",
+      "rank": "era",
+      "parent": "Archean",
+      "oldestMa": 4031.0,
+      "youngestMa": 3600.0,
+      "color": "#DA037F",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 3.0,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -4030998051,
+      "axisEndYear": -3599998051
+    },
+    {
+      "id": "Paleoarchean",
+      "name": "Paleoarcaico",
+      "rank": "era",
+      "parent": "Archean",
+      "oldestMa": 3600.0,
+      "youngestMa": 3200.0,
+      "color": "#F4449F",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -3599998051,
+      "axisEndYear": -3199998051
+    },
+    {
+      "id": "Mesoarchean",
+      "name": "Mesoarcaico",
+      "rank": "era",
+      "parent": "Archean",
+      "oldestMa": 3200.0,
+      "youngestMa": 2800.0,
+      "color": "#F768A9",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -3199998051,
+      "axisEndYear": -2799998051
+    },
+    {
+      "id": "Neoarchean",
+      "name": "Neoarcaico",
+      "rank": "era",
+      "parent": "Archean",
+      "oldestMa": 2800.0,
+      "youngestMa": 2500.0,
+      "color": "#F99BC1",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2799998051,
+      "axisEndYear": -2499998051
+    },
+    {
+      "id": "Proterozoic",
+      "name": "Proterozoico",
+      "rank": "eon",
+      "parent": "Precambrian",
+      "oldestMa": 2500.0,
+      "youngestMa": 538.8,
+      "color": "#F73563",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2499998051,
+      "axisEndYear": -538798051
+    },
+    {
+      "id": "Paleoproterozoic",
+      "name": "Paleoproterozoico",
+      "rank": "era",
+      "parent": "Proterozoic",
+      "oldestMa": 2500.0,
+      "youngestMa": 1600.0,
+      "color": "#F74370",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2499998051,
+      "axisEndYear": -1599998051
+    },
+    {
+      "id": "Siderian",
+      "name": "Sidérico",
+      "rank": "period",
+      "parent": "Paleoproterozoic",
+      "oldestMa": 2500.0,
+      "youngestMa": 2300.0,
+      "color": "#F74F7C",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2499998051,
+      "axisEndYear": -2299998051
+    },
+    {
+      "id": "Rhyacian",
+      "name": "Riácico",
+      "rank": "period",
+      "parent": "Paleoproterozoic",
+      "oldestMa": 2300.0,
+      "youngestMa": 2050.0,
+      "color": "#F75B89",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2299998051,
+      "axisEndYear": -2049998051
+    },
+    {
+      "id": "Orosirian",
+      "name": "Orosírico",
+      "rank": "period",
+      "parent": "Paleoproterozoic",
+      "oldestMa": 2050.0,
+      "youngestMa": 1800.0,
+      "color": "#F76898",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2049998051,
+      "axisEndYear": -1799998051
+    },
+    {
+      "id": "Statherian",
+      "name": "Estatérico",
+      "rank": "period",
+      "parent": "Paleoproterozoic",
+      "oldestMa": 1800.0,
+      "youngestMa": 1600.0,
+      "color": "#F875A7",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -1799998051,
+      "axisEndYear": -1599998051
+    },
+    {
+      "id": "Mesoproterozoic",
+      "name": "Mesoproterozoico",
+      "rank": "era",
+      "parent": "Proterozoic",
+      "oldestMa": 1600.0,
+      "youngestMa": 1000.0,
+      "color": "#FDB462",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -1599998051,
+      "axisEndYear": -999998051
+    },
+    {
+      "id": "Calymmian",
+      "name": "Calímico",
+      "rank": "period",
+      "parent": "Mesoproterozoic",
+      "oldestMa": 1600.0,
+      "youngestMa": 1400.0,
+      "color": "#FDC07A",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -1599998051,
+      "axisEndYear": -1399998051
+    },
+    {
+      "id": "Ectasian",
+      "name": "Ectásico",
+      "rank": "period",
+      "parent": "Mesoproterozoic",
+      "oldestMa": 1400.0,
+      "youngestMa": 1200.0,
+      "color": "#FDCC8A",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -1399998051,
+      "axisEndYear": -1199998051
+    },
+    {
+      "id": "Stenian",
+      "name": "Esténico",
+      "rank": "period",
+      "parent": "Mesoproterozoic",
+      "oldestMa": 1200.0,
+      "youngestMa": 1000.0,
+      "color": "#FED99A",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -1199998051,
+      "axisEndYear": -999998051
+    },
+    {
+      "id": "Neoproterozoic",
+      "name": "Neoproterozoico",
+      "rank": "era",
+      "parent": "Proterozoic",
+      "oldestMa": 1000.0,
+      "youngestMa": 538.8,
+      "color": "#FEB342",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -999998051,
+      "axisEndYear": -538798051
+    },
+    {
+      "id": "Tonian",
+      "name": "Tónico",
+      "rank": "period",
+      "parent": "Neoproterozoic",
+      "oldestMa": 1000.0,
+      "youngestMa": 720.0,
+      "color": "#FEBF4E",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -999998051,
+      "axisEndYear": -719998051
+    },
+    {
+      "id": "Cryogenian",
+      "name": "Criogénico",
+      "rank": "period",
+      "parent": "Neoproterozoic",
+      "oldestMa": 720.0,
+      "youngestMa": 635.0,
+      "color": "#FECC5C",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -719998051,
+      "axisEndYear": -634998051
+    },
+    {
+      "id": "Ediacaran",
+      "name": "Ediacárico",
+      "rank": "period",
+      "parent": "Neoproterozoic",
+      "oldestMa": 635.0,
+      "youngestMa": 538.8,
+      "color": "#FED96A",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -634998051,
+      "axisEndYear": -538798051
+    },
+    {
+      "id": "Fortunian",
+      "name": "Fortuniense",
+      "rank": "age",
+      "parent": "Terreneuvian",
+      "oldestMa": 538.8,
+      "youngestMa": 529.0,
+      "color": "#99B575",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -538798051,
+      "axisEndYear": -528998051
+    },
+    {
+      "id": "Phanerozoic",
+      "name": "Fanerozoico",
+      "rank": "eon",
+      "parent": null,
+      "oldestMa": 538.8,
+      "youngestMa": 0.0,
+      "color": "#9AD9DD",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -538798051,
+      "axisEndYear": null
+    },
+    {
+      "id": "Terreneuvian",
+      "name": "Terreneuviense",
+      "rank": "epoch",
+      "parent": "Cambrian",
+      "oldestMa": 538.8,
+      "youngestMa": 521.0,
+      "color": "#8CB06C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -538798051,
+      "axisEndYear": -520998051
+    },
+    {
+      "id": "Paleozoic",
+      "name": "Paleozoico",
+      "rank": "era",
+      "parent": "Phanerozoic",
+      "oldestMa": 538.8,
+      "youngestMa": 251.902,
+      "color": "#99C08D",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": 0.024
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -538798051,
+      "axisEndYear": -251900051
+    },
+    {
+      "id": "Cambrian",
+      "name": "Cámbrico",
+      "rank": "period",
+      "parent": "Paleozoic",
+      "oldestMa": 538.8,
+      "youngestMa": 486.85,
+      "color": "#7FA056",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": 1.5
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -538798051,
+      "axisEndYear": -486848051
+    },
+    {
+      "id": "CambrianStage2",
+      "name": "Piso 2",
+      "rank": "age",
+      "parent": "Terreneuvian",
+      "oldestMa": 529.0,
+      "youngestMa": 521.0,
+      "color": "#A6BA80",
+      "formal": false,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -528998051,
+      "axisEndYear": -520998051
+    },
+    {
+      "id": "CambrianStage3",
+      "name": "Piso 3",
+      "rank": "age",
+      "parent": "CambrianSeries2",
+      "oldestMa": 521.0,
+      "youngestMa": 514.5,
+      "color": "#A6C583",
+      "formal": false,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -520998051,
+      "axisEndYear": -514498051
+    },
+    {
+      "id": "CambrianSeries2",
+      "name": "Serie 2",
+      "rank": "epoch",
+      "parent": "Cambrian",
+      "oldestMa": 521.0,
+      "youngestMa": 506.5,
+      "color": "#99C078",
+      "formal": false,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -520998051,
+      "axisEndYear": -506498051
+    },
+    {
+      "id": "CambrianStage4",
+      "name": "Piso 4",
+      "rank": "age",
+      "parent": "CambrianSeries2",
+      "oldestMa": 514.5,
+      "youngestMa": 506.5,
+      "color": "#B3CA8E",
+      "formal": false,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -514498051,
+      "axisEndYear": -506498051
+    },
+    {
+      "id": "Wuliuan",
+      "name": "Wuliuense",
+      "rank": "age",
+      "parent": "Miaolingian",
+      "oldestMa": 506.5,
+      "youngestMa": 504.5,
+      "color": "#B3D492",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -506498051,
+      "axisEndYear": -504498051
+    },
+    {
+      "id": "Miaolingian",
+      "name": "Miaolingiense",
+      "rank": "epoch",
+      "parent": "Cambrian",
+      "oldestMa": 506.5,
+      "youngestMa": 497.0,
+      "color": "#A6CF86",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -506498051,
+      "axisEndYear": -496998051
+    },
+    {
+      "id": "Drumian",
+      "name": "Drumiense",
+      "rank": "age",
+      "parent": "Miaolingian",
+      "oldestMa": 504.5,
+      "youngestMa": 500.5,
+      "color": "#BFD99D",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -504498051,
+      "axisEndYear": -500498051
+    },
+    {
+      "id": "Guzhangian",
+      "name": "Guzhangiense",
+      "rank": "age",
+      "parent": "Miaolingian",
+      "oldestMa": 500.5,
+      "youngestMa": 497.0,
+      "color": "#CCDFAA",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -500498051,
+      "axisEndYear": -496998051
+    },
+    {
+      "id": "Paibian",
+      "name": "Paibiense",
+      "rank": "age",
+      "parent": "Furongian",
+      "oldestMa": 497.0,
+      "youngestMa": 494.2,
+      "color": "#CCEBAE",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -496998051,
+      "axisEndYear": -494198051
+    },
+    {
+      "id": "Furongian",
+      "name": "Furongiense",
+      "rank": "epoch",
+      "parent": "Cambrian",
+      "oldestMa": 497.0,
+      "youngestMa": 486.85,
+      "color": "#B3E095",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 1.5
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -496998051,
+      "axisEndYear": -486848051
+    },
+    {
+      "id": "Jiangshanian",
+      "name": "Jiangshaniense",
+      "rank": "age",
+      "parent": "Furongian",
+      "oldestMa": 494.2,
+      "youngestMa": 491.0,
+      "color": "#D9F0BB",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -494198051,
+      "axisEndYear": -490998051
+    },
+    {
+      "id": "CambrianStage10",
+      "name": "Piso 10",
+      "rank": "age",
+      "parent": "Furongian",
+      "oldestMa": 491.0,
+      "youngestMa": 486.85,
+      "color": "#E6F5C9",
+      "formal": false,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 1.5
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -490998051,
+      "axisEndYear": -486848051
+    },
+    {
+      "id": "Tremadocian",
+      "name": "Tremadociense",
+      "rank": "age",
+      "parent": "LowerOrdovician",
+      "oldestMa": 486.85,
+      "youngestMa": 477.1,
+      "color": "#33A97E",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.5,
+        "youngest": 1.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -486848051,
+      "axisEndYear": -477098051
+    },
+    {
+      "id": "LowerOrdovician",
+      "name": "Ordovícico inferior",
+      "rank": "epoch",
+      "parent": "Ordovician",
+      "oldestMa": 486.85,
+      "youngestMa": 471.3,
+      "color": "#1A9D6F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.5,
+        "youngest": 1.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -486848051,
+      "axisEndYear": -471298051
+    },
+    {
+      "id": "Ordovician",
+      "name": "Ordovícico",
+      "rank": "period",
+      "parent": "Paleozoic",
+      "oldestMa": 486.85,
+      "youngestMa": 443.1,
+      "color": "#009270",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.5,
+        "youngest": 1.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -486848051,
+      "axisEndYear": -443098051
+    },
+    {
+      "id": "Floian",
+      "name": "Floiense",
+      "rank": "age",
+      "parent": "LowerOrdovician",
+      "oldestMa": 477.1,
+      "youngestMa": 471.3,
+      "color": "#41B087",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.2,
+        "youngest": 1.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -477098051,
+      "axisEndYear": -471298051
+    },
+    {
+      "id": "Dapingian",
+      "name": "Dapingiense",
+      "rank": "age",
+      "parent": "MiddleOrdovician",
+      "oldestMa": 471.3,
+      "youngestMa": 469.4,
+      "color": "#66C092",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.4,
+        "youngest": 0.9
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -471298051,
+      "axisEndYear": -469398051
+    },
+    {
+      "id": "MiddleOrdovician",
+      "name": "Ordovícico medio",
+      "rank": "epoch",
+      "parent": "Ordovician",
+      "oldestMa": 471.3,
+      "youngestMa": 458.2,
+      "color": "#4DB47E",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.4,
+        "youngest": 0.7
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -471298051,
+      "axisEndYear": -458198051
+    },
+    {
+      "id": "Darriwilian",
+      "name": "Darriwiliense",
+      "rank": "age",
+      "parent": "MiddleOrdovician",
+      "oldestMa": 469.4,
+      "youngestMa": 458.2,
+      "color": "#74C69C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.9,
+        "youngest": 0.7
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -469398051,
+      "axisEndYear": -458198051
+    },
+    {
+      "id": "Sandbian",
+      "name": "Sandbiense",
+      "rank": "age",
+      "parent": "UpperOrdovician",
+      "oldestMa": 458.2,
+      "youngestMa": 452.8,
+      "color": "#8CD094",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.7,
+        "youngest": 0.7
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -458198051,
+      "axisEndYear": -452798051
+    },
+    {
+      "id": "UpperOrdovician",
+      "name": "Ordovícico superior",
+      "rank": "epoch",
+      "parent": "Ordovician",
+      "oldestMa": 458.2,
+      "youngestMa": 443.1,
+      "color": "#7FCA93",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.7,
+        "youngest": 1.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -458198051,
+      "axisEndYear": -443098051
+    },
+    {
+      "id": "Katian",
+      "name": "Katiense",
+      "rank": "age",
+      "parent": "UpperOrdovician",
+      "oldestMa": 452.8,
+      "youngestMa": 445.2,
+      "color": "#99D69F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.7,
+        "youngest": 0.9
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -452798051,
+      "axisEndYear": -445198051
+    },
+    {
+      "id": "Hirnantian",
+      "name": "Hirnantiense",
+      "rank": "age",
+      "parent": "UpperOrdovician",
+      "oldestMa": 445.2,
+      "youngestMa": 443.1,
+      "color": "#A6DBAB",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.9,
+        "youngest": 1.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -445198051,
+      "axisEndYear": -443098051
+    },
+    {
+      "id": "Rhuddanian",
+      "name": "Rhuddaniense",
+      "rank": "age",
+      "parent": "Llandovery",
+      "oldestMa": 443.1,
+      "youngestMa": 440.5,
+      "color": "#A6DCB5",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.0,
+        "youngest": 1.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -443098051,
+      "axisEndYear": -440498051
+    },
+    {
+      "id": "Llandovery",
+      "name": "Llandovery",
+      "rank": "epoch",
+      "parent": "Silurian",
+      "oldestMa": 443.1,
+      "youngestMa": 432.9,
+      "color": "#99D7B3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.0,
+        "youngest": 1.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -443098051,
+      "axisEndYear": -432898051
+    },
+    {
+      "id": "Silurian",
+      "name": "Silúrico",
+      "rank": "period",
+      "parent": "Paleozoic",
+      "oldestMa": 443.1,
+      "youngestMa": 419.62,
+      "color": "#B3E1B6",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.0,
+        "youngest": 1.36
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -443098051,
+      "axisEndYear": -419618051
+    },
+    {
+      "id": "Aeronian",
+      "name": "Aeroniense",
+      "rank": "age",
+      "parent": "Llandovery",
+      "oldestMa": 440.5,
+      "youngestMa": 438.6,
+      "color": "#B3E1C2",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.0,
+        "youngest": 1.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -440498051,
+      "axisEndYear": -438598051
+    },
+    {
+      "id": "Telychian",
+      "name": "Telychiense",
+      "rank": "age",
+      "parent": "Llandovery",
+      "oldestMa": 438.6,
+      "youngestMa": 432.9,
+      "color": "#BFE6CF",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.0,
+        "youngest": 1.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -438598051,
+      "axisEndYear": -432898051
+    },
+    {
+      "id": "Sheinwoodian",
+      "name": "Sheinwoodiense",
+      "rank": "age",
+      "parent": "Wenlock",
+      "oldestMa": 432.9,
+      "youngestMa": 430.6,
+      "color": "#BFE6C3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.2,
+        "youngest": 1.3
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -432898051,
+      "axisEndYear": -430598051
+    },
+    {
+      "id": "Wenlock",
+      "name": "Wenlock",
+      "rank": "epoch",
+      "parent": "Silurian",
+      "oldestMa": 432.9,
+      "youngestMa": 426.7,
+      "color": "#B3E1C2",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.2,
+        "youngest": 1.5
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -432898051,
+      "axisEndYear": -426698051
+    },
+    {
+      "id": "Homerian",
+      "name": "Homeriense",
+      "rank": "age",
+      "parent": "Wenlock",
+      "oldestMa": 430.6,
+      "youngestMa": 426.7,
+      "color": "#CCEBD1",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.3,
+        "youngest": 1.5
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -430598051,
+      "axisEndYear": -426698051
+    },
+    {
+      "id": "Gorstian",
+      "name": "Gorstiense",
+      "rank": "age",
+      "parent": "Ludlow",
+      "oldestMa": 426.7,
+      "youngestMa": 425.0,
+      "color": "#CCECDD",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.5,
+        "youngest": 1.5
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -426698051,
+      "axisEndYear": -424998051
+    },
+    {
+      "id": "Ludlow",
+      "name": "Ludlow",
+      "rank": "epoch",
+      "parent": "Silurian",
+      "oldestMa": 426.7,
+      "youngestMa": 419.62,
+      "color": "#BFE6CF",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.5,
+        "youngest": 1.36
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -426698051,
+      "axisEndYear": -419618051
+    },
+    {
+      "id": "Ludfordian",
+      "name": "Ludfordiense",
+      "rank": "age",
+      "parent": "Ludlow",
+      "oldestMa": 425.0,
+      "youngestMa": 422.7,
+      "color": "#D9F0DF",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.5,
+        "youngest": 1.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -424998051,
+      "axisEndYear": -422698051
+    },
+    {
+      "id": "Lochkovian",
+      "name": "Lochkoviense",
+      "rank": "age",
+      "parent": "LowerDevonian",
+      "oldestMa": 419.62,
+      "youngestMa": 413.02,
+      "color": "#E5B75A",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.36,
+        "youngest": 1.91
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -419618051,
+      "axisEndYear": -413018051
+    },
+    {
+      "id": "LowerDevonian",
+      "name": "Devónico inferior",
+      "rank": "epoch",
+      "parent": "Devonian",
+      "oldestMa": 419.62,
+      "youngestMa": 393.47,
+      "color": "#E5AC4D",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.36,
+        "youngest": 0.99
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -419618051,
+      "axisEndYear": -393468051
+    },
+    {
+      "id": "Devonian",
+      "name": "Devónico",
+      "rank": "period",
+      "parent": "Paleozoic",
+      "oldestMa": 419.62,
+      "youngestMa": 358.86,
+      "color": "#CB8C37",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.36,
+        "youngest": 0.19
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -419618051,
+      "axisEndYear": -358858051
+    },
+    {
+      "id": "Pragian",
+      "name": "Pragiense",
+      "rank": "age",
+      "parent": "LowerDevonian",
+      "oldestMa": 413.02,
+      "youngestMa": 410.62,
+      "color": "#E5C468",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.91,
+        "youngest": 1.95
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -413018051,
+      "axisEndYear": -410618051
+    },
+    {
+      "id": "Emsian",
+      "name": "Emsiense",
+      "rank": "age",
+      "parent": "LowerDevonian",
+      "oldestMa": 410.62,
+      "youngestMa": 393.47,
+      "color": "#E5D075",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.95,
+        "youngest": 0.99
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -410618051,
+      "axisEndYear": -393468051
+    },
+    {
+      "id": "Eifelian",
+      "name": "Eifeliense",
+      "rank": "age",
+      "parent": "MiddleDevonian",
+      "oldestMa": 393.47,
+      "youngestMa": 387.95,
+      "color": "#F1D576",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.99,
+        "youngest": 1.04
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -393468051,
+      "axisEndYear": -387948051
+    },
+    {
+      "id": "MiddleDevonian",
+      "name": "Devónico medio",
+      "rank": "epoch",
+      "parent": "Devonian",
+      "oldestMa": 393.47,
+      "youngestMa": 382.31,
+      "color": "#F1C868",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.99,
+        "youngest": 1.36
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -393468051,
+      "axisEndYear": -382308051
+    },
+    {
+      "id": "Givetian",
+      "name": "Givetiense",
+      "rank": "age",
+      "parent": "MiddleDevonian",
+      "oldestMa": 387.95,
+      "youngestMa": 382.31,
+      "color": "#F1E185",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.04,
+        "youngest": 1.36
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -387948051,
+      "axisEndYear": -382308051
+    },
+    {
+      "id": "Frasnian",
+      "name": "Frasniense",
+      "rank": "age",
+      "parent": "UpperDevonian",
+      "oldestMa": 382.31,
+      "youngestMa": 372.15,
+      "color": "#F2EDAD",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.36,
+        "youngest": 0.46
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -382308051,
+      "axisEndYear": -372148051
+    },
+    {
+      "id": "UpperDevonian",
+      "name": "Devónico superior",
+      "rank": "epoch",
+      "parent": "Devonian",
+      "oldestMa": 382.31,
+      "youngestMa": 358.86,
+      "color": "#F1E19D",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.36,
+        "youngest": 0.19
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -382308051,
+      "axisEndYear": -358858051
+    },
+    {
+      "id": "Famennian",
+      "name": "Fameniense",
+      "rank": "age",
+      "parent": "UpperDevonian",
+      "oldestMa": 372.15,
+      "youngestMa": 358.86,
+      "color": "#F2EDB3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.46,
+        "youngest": 0.19
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -372148051,
+      "axisEndYear": -358858051
+    },
+    {
+      "id": "Tournaisian",
+      "name": "Tournaisiense",
+      "rank": "age",
+      "parent": "LowerMississippian",
+      "oldestMa": 358.86,
+      "youngestMa": 346.7,
+      "color": "#8CB06C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.19,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -358858051,
+      "axisEndYear": -346698051
+    },
+    {
+      "id": "LowerMississippian",
+      "name": "Misisípico inferior",
+      "rank": "epoch",
+      "parent": "Mississippian",
+      "oldestMa": 358.86,
+      "youngestMa": 346.7,
+      "color": "#80AB6C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.19,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -358858051,
+      "axisEndYear": -346698051
+    },
+    {
+      "id": "Carboniferous",
+      "name": "Carbonífero",
+      "rank": "period",
+      "parent": "Paleozoic",
+      "oldestMa": 358.86,
+      "youngestMa": 298.9,
+      "color": "#67A599",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.19,
+        "youngest": 0.15
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -358858051,
+      "axisEndYear": -298898051
+    },
+    {
+      "id": "Mississippian",
+      "name": "Misisípico",
+      "rank": "subperiod",
+      "parent": "Carboniferous",
+      "oldestMa": 358.86,
+      "youngestMa": 323.4,
+      "color": "#678F66",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.19,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -358858051,
+      "axisEndYear": -323398051
+    },
+    {
+      "id": "Visean",
+      "name": "Viseense",
+      "rank": "age",
+      "parent": "MiddleMississippian",
+      "oldestMa": 346.7,
+      "youngestMa": 330.3,
+      "color": "#A6B96C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -346698051,
+      "axisEndYear": -330298051
+    },
+    {
+      "id": "MiddleMississippian",
+      "name": "Misisípico medio",
+      "rank": "epoch",
+      "parent": "Mississippian",
+      "oldestMa": 346.7,
+      "youngestMa": 330.3,
+      "color": "#99B46C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -346698051,
+      "axisEndYear": -330298051
+    },
+    {
+      "id": "Serpukhovian",
+      "name": "Serpukhoviense",
+      "rank": "age",
+      "parent": "UpperMississippian",
+      "oldestMa": 330.3,
+      "youngestMa": 323.4,
+      "color": "#BFC26B",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -330298051,
+      "axisEndYear": -323398051
+    },
+    {
+      "id": "UpperMississippian",
+      "name": "Misisípico superior",
+      "rank": "epoch",
+      "parent": "Mississippian",
+      "oldestMa": 330.3,
+      "youngestMa": 323.4,
+      "color": "#B3BE6C",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -330298051,
+      "axisEndYear": -323398051
+    },
+    {
+      "id": "Bashkirian",
+      "name": "Bashkiriense",
+      "rank": "age",
+      "parent": "LowerPennsylvanian",
+      "oldestMa": 323.4,
+      "youngestMa": 315.2,
+      "color": "#99C2B5",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -323398051,
+      "axisEndYear": -315198051
+    },
+    {
+      "id": "LowerPennsylvanian",
+      "name": "Pensilvánico inferior",
+      "rank": "epoch",
+      "parent": "Pennsylvanian",
+      "oldestMa": 323.4,
+      "youngestMa": 315.2,
+      "color": "#8CBEB4",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -323398051,
+      "axisEndYear": -315198051
+    },
+    {
+      "id": "Pennsylvanian",
+      "name": "Pensilvánico",
+      "rank": "subperiod",
+      "parent": "Carboniferous",
+      "oldestMa": 323.4,
+      "youngestMa": 298.9,
+      "color": "#7EBCC6",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.15
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -323398051,
+      "axisEndYear": -298898051
+    },
+    {
+      "id": "Moscovian",
+      "name": "Moscoviense",
+      "rank": "age",
+      "parent": "MiddlePennsylvanian",
+      "oldestMa": 315.2,
+      "youngestMa": 307.0,
+      "color": "#B3CBB9",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.1
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -315198051,
+      "axisEndYear": -306998051
+    },
+    {
+      "id": "MiddlePennsylvanian",
+      "name": "Pensilvánico medio",
+      "rank": "epoch",
+      "parent": "Pennsylvanian",
+      "oldestMa": 315.2,
+      "youngestMa": 307.0,
+      "color": "#A6C7B7",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.1
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -315198051,
+      "axisEndYear": -306998051
+    },
+    {
+      "id": "Kasimovian",
+      "name": "Kasimoviense",
+      "rank": "age",
+      "parent": "UpperPennsylvanian",
+      "oldestMa": 307.0,
+      "youngestMa": 303.7,
+      "color": "#BFD0C5",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.1,
+        "youngest": 0.1
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -306998051,
+      "axisEndYear": -303698051
+    },
+    {
+      "id": "UpperPennsylvanian",
+      "name": "Pensilvánico superior",
+      "rank": "epoch",
+      "parent": "Pennsylvanian",
+      "oldestMa": 307.0,
+      "youngestMa": 298.9,
+      "color": "#BFD0BA",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.1,
+        "youngest": 0.15
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -306998051,
+      "axisEndYear": -298898051
+    },
+    {
+      "id": "Gzhelian",
+      "name": "Gzheliense",
+      "rank": "age",
+      "parent": "UpperPennsylvanian",
+      "oldestMa": 303.7,
+      "youngestMa": 298.9,
+      "color": "#CCD4C7",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.1,
+        "youngest": 0.15
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -303698051,
+      "axisEndYear": -298898051
+    },
+    {
+      "id": "Asselian",
+      "name": "Asseliense",
+      "rank": "age",
+      "parent": "Cisuralian",
+      "oldestMa": 298.9,
+      "youngestMa": 293.52,
+      "color": "#E36350",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.15,
+        "youngest": 0.17
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -298898051,
+      "axisEndYear": -293518051
+    },
+    {
+      "id": "Cisuralian",
+      "name": "Cisuraliense",
+      "rank": "epoch",
+      "parent": "Permian",
+      "oldestMa": 298.9,
+      "youngestMa": 274.4,
+      "color": "#EF5845",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.15,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -298898051,
+      "axisEndYear": -274398051
+    },
+    {
+      "id": "Permian",
+      "name": "Pérmico",
+      "rank": "period",
+      "parent": "Paleozoic",
+      "oldestMa": 298.9,
+      "youngestMa": 251.902,
+      "color": "#F04028",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.15,
+        "youngest": 0.024
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -298898051,
+      "axisEndYear": -251900051
+    },
+    {
+      "id": "Sakmarian",
+      "name": "Sakmariense",
+      "rank": "age",
+      "parent": "Cisuralian",
+      "oldestMa": 293.52,
+      "youngestMa": 290.1,
+      "color": "#E36F5C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.17,
+        "youngest": 0.26
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -293518051,
+      "axisEndYear": -290098051
+    },
+    {
+      "id": "Artinskian",
+      "name": "Artinskiense",
+      "rank": "age",
+      "parent": "Cisuralian",
+      "oldestMa": 290.1,
+      "youngestMa": 283.3,
+      "color": "#E37B68",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.26,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -290098051,
+      "axisEndYear": -283298051
+    },
+    {
+      "id": "Kungurian",
+      "name": "Kunguriense",
+      "rank": "age",
+      "parent": "Cisuralian",
+      "oldestMa": 283.3,
+      "youngestMa": 274.4,
+      "color": "#E38776",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -283298051,
+      "axisEndYear": -274398051
+    },
+    {
+      "id": "Roadian",
+      "name": "Roadiense",
+      "rank": "age",
+      "parent": "Guadalupian",
+      "oldestMa": 274.4,
+      "youngestMa": 266.9,
+      "color": "#FB8069",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.4
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -274398051,
+      "axisEndYear": -266898051
+    },
+    {
+      "id": "Guadalupian",
+      "name": "Guadalupiense",
+      "rank": "epoch",
+      "parent": "Permian",
+      "oldestMa": 274.4,
+      "youngestMa": 259.857,
+      "color": "#FB745C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.084
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -274398051,
+      "axisEndYear": -259855051
+    },
+    {
+      "id": "Wordian",
+      "name": "Wordiense",
+      "rank": "age",
+      "parent": "Guadalupian",
+      "oldestMa": 266.9,
+      "youngestMa": 264.28,
+      "color": "#FB8D76",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.4,
+        "youngest": 0.16
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -266898051,
+      "axisEndYear": -264278051
+    },
+    {
+      "id": "Capitanian",
+      "name": "Capitaniense",
+      "rank": "age",
+      "parent": "Guadalupian",
+      "oldestMa": 264.28,
+      "youngestMa": 259.857,
+      "color": "#FB9A85",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.16,
+        "youngest": 0.084
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -264278051,
+      "axisEndYear": -259855051
+    },
+    {
+      "id": "Wuchiapingian",
+      "name": "Wuchiapingiense",
+      "rank": "age",
+      "parent": "Lopingian",
+      "oldestMa": 259.857,
+      "youngestMa": 254.14,
+      "color": "#FCB4A2",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.084,
+        "youngest": 0.07
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -259855051,
+      "axisEndYear": -254138051
+    },
+    {
+      "id": "Lopingian",
+      "name": "Lopingiense",
+      "rank": "epoch",
+      "parent": "Permian",
+      "oldestMa": 259.857,
+      "youngestMa": 251.902,
+      "color": "#FBA794",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.084,
+        "youngest": 0.024
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -259855051,
+      "axisEndYear": -251900051
+    },
+    {
+      "id": "Changhsingian",
+      "name": "Changhsingiense",
+      "rank": "age",
+      "parent": "Lopingian",
+      "oldestMa": 254.14,
+      "youngestMa": 251.902,
+      "color": "#FCC0B2",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.07,
+        "youngest": 0.024
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -254138051,
+      "axisEndYear": -251900051
+    },
+    {
+      "id": "Induan",
+      "name": "Induense",
+      "rank": "age",
+      "parent": "LowerTriassic",
+      "oldestMa": 251.902,
+      "youngestMa": 250.8,
+      "color": "#A4469F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.024,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -251900051,
+      "axisEndYear": -250798051
+    },
+    {
+      "id": "LowerTriassic",
+      "name": "Triásico inferior",
+      "rank": "epoch",
+      "parent": "Triassic",
+      "oldestMa": 251.902,
+      "youngestMa": 247.0,
+      "color": "#983999",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.024,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -251900051,
+      "axisEndYear": -246998051
+    },
+    {
+      "id": "Mesozoic",
+      "name": "Mesozoico",
+      "rank": "era",
+      "parent": "Phanerozoic",
+      "oldestMa": 251.902,
+      "youngestMa": 66.0,
+      "color": "#67C5CA",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.024,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -251900051,
+      "axisEndYear": -65998051
+    },
+    {
+      "id": "Triassic",
+      "name": "Triásico",
+      "rank": "period",
+      "parent": "Mesozoic",
+      "oldestMa": 251.902,
+      "youngestMa": 201.4,
+      "color": "#812B92",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.024,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -251900051,
+      "axisEndYear": -201398051
+    },
+    {
+      "id": "Olenekian",
+      "name": "Olenekiense",
+      "rank": "age",
+      "parent": "LowerTriassic",
+      "oldestMa": 250.8,
+      "youngestMa": 247.0,
+      "color": "#B051A5",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -250798051,
+      "axisEndYear": -246998051
+    },
+    {
+      "id": "Anisian",
+      "name": "Anisiense",
+      "rank": "age",
+      "parent": "MiddleTriassic",
+      "oldestMa": 247.0,
+      "youngestMa": 241.464,
+      "color": "#BC75B7",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.28
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -246998051,
+      "axisEndYear": -241462051
+    },
+    {
+      "id": "MiddleTriassic",
+      "name": "Triásico medio",
+      "rank": "epoch",
+      "parent": "Triassic",
+      "oldestMa": 247.0,
+      "youngestMa": 237.0,
+      "color": "#B168B1",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -246998051,
+      "axisEndYear": -236998051
+    },
+    {
+      "id": "Ladinian",
+      "name": "Ladiniense",
+      "rank": "age",
+      "parent": "MiddleTriassic",
+      "oldestMa": 241.464,
+      "youngestMa": 237.0,
+      "color": "#C983BF",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.28,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -241462051,
+      "axisEndYear": -236998051
+    },
+    {
+      "id": "Carnian",
+      "name": "Carniense",
+      "rank": "age",
+      "parent": "UpperTriassic",
+      "oldestMa": 237.0,
+      "youngestMa": 227.3,
+      "color": "#C99BCB",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -236998051,
+      "axisEndYear": -227298051
+    },
+    {
+      "id": "UpperTriassic",
+      "name": "Triásico superior",
+      "rank": "epoch",
+      "parent": "Triassic",
+      "oldestMa": 237.0,
+      "youngestMa": 201.4,
+      "color": "#BD8CC3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -236998051,
+      "axisEndYear": -201398051
+    },
+    {
+      "id": "Norian",
+      "name": "Noriense",
+      "rank": "age",
+      "parent": "UpperTriassic",
+      "oldestMa": 227.3,
+      "youngestMa": 205.7,
+      "color": "#D6AAD3",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -227298051,
+      "axisEndYear": -205698051
+    },
+    {
+      "id": "Rhaetian",
+      "name": "Rhaetiense",
+      "rank": "age",
+      "parent": "UpperTriassic",
+      "oldestMa": 205.7,
+      "youngestMa": 201.4,
+      "color": "#E3B9DB",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -205698051,
+      "axisEndYear": -201398051
+    },
+    {
+      "id": "Hettangian",
+      "name": "Hettangiense",
+      "rank": "age",
+      "parent": "LowerJurassic",
+      "oldestMa": 201.4,
+      "youngestMa": 199.5,
+      "color": "#4EB3D3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.3
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -201398051,
+      "axisEndYear": -199498051
+    },
+    {
+      "id": "LowerJurassic",
+      "name": "Jurásico inferior",
+      "rank": "epoch",
+      "parent": "Jurassic",
+      "oldestMa": 201.4,
+      "youngestMa": 174.7,
+      "color": "#42AED0",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.8
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -201398051,
+      "axisEndYear": -174698051
+    },
+    {
+      "id": "Jurassic",
+      "name": "Jurásico",
+      "rank": "period",
+      "parent": "Mesozoic",
+      "oldestMa": 201.4,
+      "youngestMa": 143.1,
+      "color": "#34B2C9",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -201398051,
+      "axisEndYear": -143098051
+    },
+    {
+      "id": "Sinemurian",
+      "name": "Sinemuriense",
+      "rank": "age",
+      "parent": "LowerJurassic",
+      "oldestMa": 199.5,
+      "youngestMa": 192.9,
+      "color": "#67BCD8",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.3,
+        "youngest": 0.3
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -199498051,
+      "axisEndYear": -192898051
+    },
+    {
+      "id": "Pliensbachian",
+      "name": "Pliensbachiense",
+      "rank": "age",
+      "parent": "LowerJurassic",
+      "oldestMa": 192.9,
+      "youngestMa": 184.2,
+      "color": "#80C5DD",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.3,
+        "youngest": 0.3
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -192898051,
+      "axisEndYear": -184198051
+    },
+    {
+      "id": "Toarcian",
+      "name": "Toarciense",
+      "rank": "age",
+      "parent": "LowerJurassic",
+      "oldestMa": 184.2,
+      "youngestMa": 174.7,
+      "color": "#99CEE3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.3,
+        "youngest": 0.8
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -184198051,
+      "axisEndYear": -174698051
+    },
+    {
+      "id": "Aalenian",
+      "name": "Aaleniense",
+      "rank": "age",
+      "parent": "MiddleJurassic",
+      "oldestMa": 174.7,
+      "youngestMa": 170.9,
+      "color": "#9AD9DD",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.8,
+        "youngest": 0.8
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -174698051,
+      "axisEndYear": -170898051
+    },
+    {
+      "id": "MiddleJurassic",
+      "name": "Jurásico medio",
+      "rank": "epoch",
+      "parent": "Jurassic",
+      "oldestMa": 174.7,
+      "youngestMa": 161.5,
+      "color": "#80CFD8",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.8,
+        "youngest": 1.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -174698051,
+      "axisEndYear": -161498051
+    },
+    {
+      "id": "Bajocian",
+      "name": "Bajociense",
+      "rank": "age",
+      "parent": "MiddleJurassic",
+      "oldestMa": 170.9,
+      "youngestMa": 168.2,
+      "color": "#A6DDE0",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.8,
+        "youngest": 1.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -170898051,
+      "axisEndYear": -168198051
+    },
+    {
+      "id": "Bathonian",
+      "name": "Bathoniense",
+      "rank": "age",
+      "parent": "MiddleJurassic",
+      "oldestMa": 168.2,
+      "youngestMa": 165.3,
+      "color": "#B3E2E3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.2,
+        "youngest": 1.1
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -168198051,
+      "axisEndYear": -165298051
+    },
+    {
+      "id": "Callovian",
+      "name": "Calloviense",
+      "rank": "age",
+      "parent": "MiddleJurassic",
+      "oldestMa": 165.3,
+      "youngestMa": 161.5,
+      "color": "#BFE7E5",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 1.1,
+        "youngest": 1.0
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -165298051,
+      "axisEndYear": -161498051
+    },
+    {
+      "id": "Oxfordian",
+      "name": "Oxfordiense",
+      "rank": "age",
+      "parent": "UpperJurassic",
+      "oldestMa": 161.5,
+      "youngestMa": 154.8,
+      "color": "#BFE7F1",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 1.0,
+        "youngest": 0.8
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -161498051,
+      "axisEndYear": -154798051
+    },
+    {
+      "id": "UpperJurassic",
+      "name": "Jurásico superior",
+      "rank": "epoch",
+      "parent": "Jurassic",
+      "oldestMa": 161.5,
+      "youngestMa": 143.1,
+      "color": "#B3E3EE",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 1.0,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -161498051,
+      "axisEndYear": -143098051
+    },
+    {
+      "id": "Kimmeridgian",
+      "name": "Kimmeridgiense",
+      "rank": "age",
+      "parent": "UpperJurassic",
+      "oldestMa": 154.8,
+      "youngestMa": 149.2,
+      "color": "#CCECF4",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.8,
+        "youngest": 0.7
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -154798051,
+      "axisEndYear": -149198051
+    },
+    {
+      "id": "Tithonian",
+      "name": "Titoniense",
+      "rank": "age",
+      "parent": "UpperJurassic",
+      "oldestMa": 149.2,
+      "youngestMa": 143.1,
+      "color": "#D9F1F7",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.7,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -149198051,
+      "axisEndYear": -143098051
+    },
+    {
+      "id": "Berriasian",
+      "name": "Berriasiense",
+      "rank": "age",
+      "parent": "LowerCretaceous",
+      "oldestMa": 143.1,
+      "youngestMa": 137.05,
+      "color": "#8CCD60",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -143098051,
+      "axisEndYear": -137048051
+    },
+    {
+      "id": "LowerCretaceous",
+      "name": "Cretácico inferior",
+      "rank": "epoch",
+      "parent": "Cretaceous",
+      "oldestMa": 143.1,
+      "youngestMa": 100.5,
+      "color": "#8CCD57",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": 0.1
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -143098051,
+      "axisEndYear": -100498051
+    },
+    {
+      "id": "Cretaceous",
+      "name": "Cretácico",
+      "rank": "period",
+      "parent": "Mesozoic",
+      "oldestMa": 143.1,
+      "youngestMa": 66.0,
+      "color": "#7FC64E",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -143098051,
+      "axisEndYear": -65998051
+    },
+    {
+      "id": "Valanginian",
+      "name": "Valanginiense",
+      "rank": "age",
+      "parent": "LowerCretaceous",
+      "oldestMa": 137.05,
+      "youngestMa": 132.6,
+      "color": "#99D36A",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -137048051,
+      "axisEndYear": -132598051
+    },
+    {
+      "id": "Hauterivian",
+      "name": "Hauteriviense",
+      "rank": "age",
+      "parent": "LowerCretaceous",
+      "oldestMa": 132.6,
+      "youngestMa": 125.77,
+      "color": "#A6D975",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -132598051,
+      "axisEndYear": -125768051
+    },
+    {
+      "id": "Barremian",
+      "name": "Barremiense",
+      "rank": "age",
+      "parent": "LowerCretaceous",
+      "oldestMa": 125.77,
+      "youngestMa": 121.4,
+      "color": "#B3DF7F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": 0.6
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -125768051,
+      "axisEndYear": -121398051
+    },
+    {
+      "id": "Aptian",
+      "name": "Aptiense",
+      "rank": "age",
+      "parent": "LowerCretaceous",
+      "oldestMa": 121.4,
+      "youngestMa": 113.2,
+      "color": "#BFE48A",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": 0.6,
+        "youngest": 0.3
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -121398051,
+      "axisEndYear": -113198051
+    },
+    {
+      "id": "Albian",
+      "name": "Albiense",
+      "rank": "age",
+      "parent": "LowerCretaceous",
+      "oldestMa": 113.2,
+      "youngestMa": 100.5,
+      "color": "#CCEA97",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.3,
+        "youngest": 0.1
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -113198051,
+      "axisEndYear": -100498051
+    },
+    {
+      "id": "Cenomanian",
+      "name": "Cenomaniense",
+      "rank": "age",
+      "parent": "UpperCretaceous",
+      "oldestMa": 100.5,
+      "youngestMa": 93.9,
+      "color": "#B3DE53",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.1,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -100498051,
+      "axisEndYear": -93898051
+    },
+    {
+      "id": "UpperCretaceous",
+      "name": "Cretácico superior",
+      "rank": "epoch",
+      "parent": "Cretaceous",
+      "oldestMa": 100.5,
+      "youngestMa": 66.0,
+      "color": "#A6D84A",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.1,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -100498051,
+      "axisEndYear": -65998051
+    },
+    {
+      "id": "Turonian",
+      "name": "Turoniense",
+      "rank": "age",
+      "parent": "UpperCretaceous",
+      "oldestMa": 93.9,
+      "youngestMa": 89.8,
+      "color": "#BFE35D",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.3
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -93898051,
+      "axisEndYear": -89798051
+    },
+    {
+      "id": "Coniacian",
+      "name": "Coniaciense",
+      "rank": "age",
+      "parent": "UpperCretaceous",
+      "oldestMa": 89.8,
+      "youngestMa": 85.7,
+      "color": "#CCE968",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.3,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -89798051,
+      "axisEndYear": -85698051
+    },
+    {
+      "id": "Santonian",
+      "name": "Santoniense",
+      "rank": "age",
+      "parent": "UpperCretaceous",
+      "oldestMa": 85.7,
+      "youngestMa": 83.6,
+      "color": "#D9EF74",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -85698051,
+      "axisEndYear": -83598051
+    },
+    {
+      "id": "Campanian",
+      "name": "Campaniense",
+      "rank": "age",
+      "parent": "UpperCretaceous",
+      "oldestMa": 83.6,
+      "youngestMa": 72.2,
+      "color": "#E6F47F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": 0.2
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -83598051,
+      "axisEndYear": -72198051
+    },
+    {
+      "id": "Maastrichtian",
+      "name": "Maastrichtiense",
+      "rank": "age",
+      "parent": "UpperCretaceous",
+      "oldestMa": 72.2,
+      "youngestMa": 66.0,
+      "color": "#F2FA8C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 0.2,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -72198051,
+      "axisEndYear": -65998051
+    },
+    {
+      "id": "Danian",
+      "name": "Daniense",
+      "rank": "age",
+      "parent": "Paleocene",
+      "oldestMa": 66.0,
+      "youngestMa": 61.66,
+      "color": "#FDB462",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -65998051,
+      "axisEndYear": -61658051
+    },
+    {
+      "id": "Paleocene",
+      "name": "Paleoceno",
+      "rank": "epoch",
+      "parent": "Paleogene",
+      "oldestMa": 66.0,
+      "youngestMa": 56.0,
+      "color": "#FDA75F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -65998051,
+      "axisEndYear": -55998051
+    },
+    {
+      "id": "Cenozoic",
+      "name": "Cenozoico",
+      "rank": "era",
+      "parent": "Phanerozoic",
+      "oldestMa": 66.0,
+      "youngestMa": 0.0,
+      "color": "#F2F91D",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -65998051,
+      "axisEndYear": null
+    },
+    {
+      "id": "Paleogene",
+      "name": "Paleógeno",
+      "rank": "period",
+      "parent": "Cenozoic",
+      "oldestMa": 66.0,
+      "youngestMa": 23.04,
+      "color": "#FD9A52",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -65998051,
+      "axisEndYear": -23038051
+    },
+    {
+      "id": "Selandian",
+      "name": "Selandiense",
+      "rank": "age",
+      "parent": "Paleocene",
+      "oldestMa": 61.66,
+      "youngestMa": 59.24,
+      "color": "#FEBF65",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -61658051,
+      "axisEndYear": -59238051
+    },
+    {
+      "id": "Thanetian",
+      "name": "Thanetiense",
+      "rank": "age",
+      "parent": "Paleocene",
+      "oldestMa": 59.24,
+      "youngestMa": 56.0,
+      "color": "#FDBF6F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -59238051,
+      "axisEndYear": -55998051
+    },
+    {
+      "id": "Ypresian",
+      "name": "Ypresiense",
+      "rank": "age",
+      "parent": "Eocene",
+      "oldestMa": 56.0,
+      "youngestMa": 48.07,
+      "color": "#FCA773",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -55998051,
+      "axisEndYear": -48068051
+    },
+    {
+      "id": "Eocene",
+      "name": "Eoceno",
+      "rank": "epoch",
+      "parent": "Paleogene",
+      "oldestMa": 56.0,
+      "youngestMa": 33.9,
+      "color": "#FDB46C",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -55998051,
+      "axisEndYear": -33898051
+    },
+    {
+      "id": "Lutetian",
+      "name": "Luteciense",
+      "rank": "age",
+      "parent": "Eocene",
+      "oldestMa": 48.07,
+      "youngestMa": 41.03,
+      "color": "#FDB482",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -48068051,
+      "axisEndYear": -41028051
+    },
+    {
+      "id": "Bartonian",
+      "name": "Bartoniense",
+      "rank": "age",
+      "parent": "Eocene",
+      "oldestMa": 41.03,
+      "youngestMa": 37.71,
+      "color": "#FDC091",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -41028051,
+      "axisEndYear": -37708051
+    },
+    {
+      "id": "Priabonian",
+      "name": "Priaboniense",
+      "rank": "age",
+      "parent": "Eocene",
+      "oldestMa": 37.71,
+      "youngestMa": 33.9,
+      "color": "#FDCDA1",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -37708051,
+      "axisEndYear": -33898051
+    },
+    {
+      "id": "Rupelian",
+      "name": "Rupeliense",
+      "rank": "age",
+      "parent": "Oligocene",
+      "oldestMa": 33.9,
+      "youngestMa": 27.3,
+      "color": "#FED99A",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -33898051,
+      "axisEndYear": -27298051
+    },
+    {
+      "id": "Oligocene",
+      "name": "Oligoceno",
+      "rank": "epoch",
+      "parent": "Paleogene",
+      "oldestMa": 33.9,
+      "youngestMa": 23.04,
+      "color": "#FEC07A",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -33898051,
+      "axisEndYear": -23038051
+    },
+    {
+      "id": "Chattian",
+      "name": "Chattiense",
+      "rank": "age",
+      "parent": "Oligocene",
+      "oldestMa": 27.3,
+      "youngestMa": 23.04,
+      "color": "#FEE6AA",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -27298051,
+      "axisEndYear": -23038051
+    },
+    {
+      "id": "Miocene",
+      "name": "Mioceno",
+      "rank": "epoch",
+      "parent": "Neogene",
+      "oldestMa": 23.04,
+      "youngestMa": 5.333,
+      "color": "#FFFF00",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -23038051,
+      "axisEndYear": -5331051
+    },
+    {
+      "id": "Neogene",
+      "name": "Neógeno",
+      "rank": "period",
+      "parent": "Cenozoic",
+      "oldestMa": 23.04,
+      "youngestMa": 2.58,
+      "color": "#FFE619",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -23038051,
+      "axisEndYear": -2578051
+    },
+    {
+      "id": "Aquitanian",
+      "name": "Aquitaniense",
+      "rank": "age",
+      "parent": "Miocene",
+      "oldestMa": 23.03,
+      "youngestMa": 20.45,
+      "color": "#FFFF33",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -23028051,
+      "axisEndYear": -20448051
+    },
+    {
+      "id": "Burdigalian",
+      "name": "Burdigaliense",
+      "rank": "age",
+      "parent": "Miocene",
+      "oldestMa": 20.45,
+      "youngestMa": 15.98,
+      "color": "#FFFF41",
+      "formal": true,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -20448051,
+      "axisEndYear": -15978051
+    },
+    {
+      "id": "Langhian",
+      "name": "Langhiense",
+      "rank": "age",
+      "parent": "Miocene",
+      "oldestMa": 15.98,
+      "youngestMa": 13.82,
+      "color": "#FFFF4D",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -15978051,
+      "axisEndYear": -13818051
+    },
+    {
+      "id": "Serravallian",
+      "name": "Serravalliense",
+      "rank": "age",
+      "parent": "Miocene",
+      "oldestMa": 13.82,
+      "youngestMa": 11.63,
+      "color": "#FFFF59",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -13818051,
+      "axisEndYear": -11628051
+    },
+    {
+      "id": "Tortonian",
+      "name": "Tortoniense",
+      "rank": "age",
+      "parent": "Miocene",
+      "oldestMa": 11.63,
+      "youngestMa": 7.246,
+      "color": "#FFFF66",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -11628051,
+      "axisEndYear": -7244051
+    },
+    {
+      "id": "Messinian",
+      "name": "Messiniense",
+      "rank": "age",
+      "parent": "Miocene",
+      "oldestMa": 7.246,
+      "youngestMa": 5.333,
+      "color": "#FFFF73",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -7244051,
+      "axisEndYear": -5331051
+    },
+    {
+      "id": "Zanclean",
+      "name": "Zancliense",
+      "rank": "age",
+      "parent": "Pliocene",
+      "oldestMa": 5.333,
+      "youngestMa": 3.6,
+      "color": "#FFFFB3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -5331051,
+      "axisEndYear": -3598051
+    },
+    {
+      "id": "Pliocene",
+      "name": "Plioceno",
+      "rank": "epoch",
+      "parent": "Neogene",
+      "oldestMa": 5.333,
+      "youngestMa": 2.58,
+      "color": "#FFFF99",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -5331051,
+      "axisEndYear": -2578051
+    },
+    {
+      "id": "Piacenzian",
+      "name": "Piacenziense",
+      "rank": "age",
+      "parent": "Pliocene",
+      "oldestMa": 3.6,
+      "youngestMa": 2.58,
+      "color": "#FFFFBF",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -3598051,
+      "axisEndYear": -2578051
+    },
+    {
+      "id": "Gelasian",
+      "name": "Gelasiense",
+      "rank": "age",
+      "parent": "Pleistocene",
+      "oldestMa": 2.58,
+      "youngestMa": 1.8,
+      "color": "#FFEDB3",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2578051,
+      "axisEndYear": -1798051
+    },
+    {
+      "id": "Pleistocene",
+      "name": "Pleistocene",
+      "rank": "epoch",
+      "parent": "Quaternary",
+      "oldestMa": 2.58,
+      "youngestMa": 0.0117,
+      "color": "#FFEFAF",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2578051,
+      "axisEndYear": -9701,
+      "axisEndSource": "https://doi.org/10.1002/jqs.3097"
+    },
+    {
+      "id": "Quaternary",
+      "name": "Cuaternario",
+      "rank": "period",
+      "parent": "Cenozoic",
+      "oldestMa": 2.58,
+      "youngestMa": 0.0,
+      "color": "#F9F97F",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -2578051,
+      "axisEndYear": null
+    },
+    {
+      "id": "Calabrian",
+      "name": "Calabriense",
+      "rank": "age",
+      "parent": "Pleistocene",
+      "oldestMa": 1.8,
+      "youngestMa": 0.774,
+      "color": "#FFF2BA",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -1798051,
+      "axisEndYear": -772051
+    },
+    {
+      "id": "Chibanian",
+      "name": "Chibaniense",
+      "rank": "age",
+      "parent": "Pleistocene",
+      "oldestMa": 0.774,
+      "youngestMa": 0.129,
+      "color": "#FFF2C7",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -772051,
+      "axisEndYear": -127051
+    },
+    {
+      "id": "UpperPleistocene",
+      "name": "Pleistocene superior",
+      "rank": "age",
+      "parent": "Pleistocene",
+      "oldestMa": 0.129,
+      "youngestMa": 0.0117,
+      "color": "#FFF2D3",
+      "formal": false,
+      "gsspRatified": false,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -127051,
+      "axisEndYear": -9701,
+      "axisEndSource": "https://doi.org/10.1002/jqs.3097"
+    },
+    {
+      "id": "Greenlandian",
+      "name": "Groenlandiense",
+      "rank": "age",
+      "parent": "Holocene",
+      "oldestMa": 0.0117,
+      "youngestMa": 0.0082,
+      "color": "#FEECDB",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "GSSP · años b2k2000; no BP1950",
+      "axisOldestYear": -9701,
+      "axisEndYear": -6237,
+      "axisSource": "https://doi.org/10.1002/jqs.3097"
+    },
+    {
+      "id": "Holocene",
+      "name": "Holoceno",
+      "rank": "epoch",
+      "parent": "Quaternary",
+      "oldestMa": 0.0117,
+      "youngestMa": 0.0,
+      "color": "#FEEBD2",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "GSSP · años b2k2000; no BP1950",
+      "axisOldestYear": -9701,
+      "axisEndYear": null,
+      "axisSource": "https://doi.org/10.1002/jqs.3097"
+    },
+    {
+      "id": "Northgrippian",
+      "name": "Norgripiense",
+      "rank": "age",
+      "parent": "Holocene",
+      "oldestMa": 0.0082,
+      "youngestMa": 0.0042,
+      "color": "#FDECE4",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "GSSP · años b2k2000; no BP1950",
+      "axisOldestYear": -6237,
+      "axisEndYear": -2251,
+      "axisSource": "https://doi.org/10.1002/jqs.3097"
+    },
+    {
+      "id": "Meghalayan",
+      "name": "Megalayense",
+      "rank": "age",
+      "parent": "Holocene",
+      "oldestMa": 0.0042,
+      "youngestMa": 0.0,
+      "color": "#FDEDEC",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": null,
+        "youngest": null
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "GSSP · años b2k2000; no BP1950",
+      "axisOldestYear": -2251,
+      "axisEndYear": null,
+      "axisSource": "https://doi.org/10.1002/jqs.3097"
+    }
+  ]
+}

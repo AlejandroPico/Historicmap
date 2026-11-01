@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.51.1**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **1 de noviembre de 2026**. Versión del producto: **0.52.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección71; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección72; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** parte1/6 de investigación terrestre: auditar dos documentos aportados y el vídeo de Algol, registrar observaciones, fuentes, discrepancias y límites; mantener aplicación0.51.1 sin implementar todavía paneles, bandas o nuevas reconstrucciones. Ver sección71 y tareas.md.
+**Encargo vigente:** parte2/6 autorizada: panel planetario persistente y cronograma geológico/humano, esquema de valores y fuentes. Producto0.52.0. Las nuevas reconstrucciones físicas y curvas antiguas continúan en partes3–5; no importar automáticamente el OCR. Ver sección72 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1510,3 +1510,24 @@ Discrepancias del vídeo priorizadas: PETM50Ma frente a referencia56Ma, fuego600
 Ruta:2 esquema/panel/bandas;3 formación/Precámbrico;4 Cámbrico–homininos;5 homininos/hielo/transición humana;6 integración/verificación. Los pendientes concretos siguen en tareas.md. Ningún inventario OCR se importa en producción automáticamente.
 
 Comprobación independiente: python scripts/check-earth-research.py; sin dependencias adicionales, sin medios privados. Verifica hashes,38/11 correspondencias, referencias,198 candidatos,754 muestras,950 imágenes y29 referencias. Aplicación, Países, Tierra/Humanidad, datos de producción, dependencias y workflows intactos. No se repite la batería de navegador por documentación. Cerrar con commit/push y cotejo de origen; terminar sin esperar Actions/Pages.
+
+
+## 72. Parte2/6 · base planetaria y cronograma · 0.52.0
+
+El propietario solicita «Segunda parte»; autoriza esta etapa adicional y revoca la limitación operativa a parte1. Base f81368667. Informe docs/EARTH-FOUNDATION-0.52.md. Los originales y el inventario observacional de parte1 permanecen como referencia, sin convertirse en curvas científicas.
+
+Tierra/Cronologia/ics-2026-06.json contiene177 unidades oficiales/contextuales, etiquetas españolas, parentesco, rango, paleta, incertidumbre por límite y estado del GSSP. Fuente RDF archivada de la ICS: su metadato real owl:versionInfo2026-06 y modificación20/06/2026 resuelven la duda de la cita inglesa2024-12. No son dos datasets distintos por esa cita antigua. Preparación reproducible scripts/prepare-earth-chronology.py --check, sin paquetes Python adicionales. Holoceno/Groenlandiense/Northgrippiense/Meghalayense conservan11700/8236/4250b2k2000 y el final del Pleistoceno comparte límite; sin hueco50años ni año cero. Los demás Ma tienen eje nominal1950 explícito, no precisión anual. GSSP no ratificado e informalidad del nombre son conceptos separados.
+
+Tierra/Cronologia/edades-humanas.json inicia23 referencias regionales/editoriales, con fuentes, ámbito, tres familias y prioridades para solapamientos. No escala oficial mundial ni inventario exhaustivo de todas las regiones. La división arqueológica francesa se identifica como tal; las edades europeas y transformaciones industriales/digitales/espaciales pueden coexistir. La ficha lista todos los contextos activos aunque en una misma fila de regla prime uno.
+
+Tierra/Planeta/indicadores.json define campos y siete referencias iniciales: cinco aproximaciones NASA consultadas2026 y anomalías térmicas OMM2024/2025 con fecha/certeza. Tipo de valor number/range/null; unidad, cantidad, base temporal civil/BP1950/b2k/Ma, disponibilidad, límite opcional, fuente, versión, método e incertidumbre. Nulo no es0; anomalía no es temperatura absoluta; rotación sidérea no es día solar. No se proyectan referencias modernas hacia el pasado. Los años posteriores retienen la fecha de referencia, sin inventar observaciones anuales. No se adoptan las curvas OCR ni episodios no validados.
+
+src/earth-chronology.ts consulta jerarquías; src/chronology-bands.ts proyecta intervalos sobre la regla existente, adapta niveles y difumina geología hacia referencias humanas al consultar con detalle el Cuaternario. No termina el intervalo geológico. Bandas sobre trazos/números, cursor fijo, rueda temporal independiente. Precámbrico se conserva como contexto de eones. Colores opcionales en Capas y preferencia local historicmap-chronology-colors, activada por defecto; no pintan mares o atmósfera ni alteran los temas de interfaz.
+
+src/planet.ts y planet-card.ts proporcionan panel accesible por nuevo botón orbital, tres pestañas Planeta/Cronología/Fuentes, persistencia temporal, lectura y detalles, coexistencia con la ficha de país, teclado/foco/Escape y móvil. Los otros desplegables derechos se alternan por apertura explícita. El panel se adapta a la altura de la leyenda; en pantallas bajas adopta un formato compacto con desplazamiento interno. Se reutiliza contexto climático LR04 y referencia PaleoMIST sin producir hielo o temperaturas nuevos, y se distingue fecha de cursor y de la instantánea paleogeográfica disponible.
+
+Se conservan Países, autoridades, banderas, medios, geometrías, culturas, homininos y hielo. El generador de etiquetas actualiza únicamente la versión de display-labels en el manifiesto, con el mismo hash/recurso; no adquiere información nueva. Sin dependencias ni workflows nuevos; continúan8 grupos de navegador y barrido anual separado. Todos los JSON nuevos importados por TS usan atributo type:json.
+
+Validación local cerrada: batería completa390 pruebas correctas en79 archivos;23 focales tras ajustes, reproducción geológica Python y auditoría de originales correctas; tipos y producción correctos. Recopilación150 casos navegador en62 archivos. Cinco recorridos pertinentes correctos: los dos nuevos, persistencia de ficha, autoridades/fotos actuales y herramientas/zoom independiente. Se actualizó la lista exacta de herramientas de ocho a nueve por el botón Planeta; se conservaron las aserciones de rueda y cursor. Última repetición móvil correcta tras los ajustes de altura, con mapa cargado en1d.C.; capturas escritorio, móvil y horizontal revisadas. Integridad283 recursos,11 franjas tipográficas y9179 medios correcta. No se repitió toda la batería de navegador. Registro de entrega listo para commit/push; cotejar HEAD/origin/main al retomar, sin esperar Actions/Pages.
+
+Siguiente etapa autorizable: parte3 formación/Precámbrico. Aún pendientes escenarios físicos, tectónica antigua, atmósferas/océanos, vida, glaciaciones e impactos de partes3–5. No anunciar esa reconstrucción como terminada porque existan el panel y las bandas.

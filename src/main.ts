@@ -3,13 +3,16 @@ import {iceSampleFor,iceCaption,prehistoricClimate} from './ice-history';
 import{iceEnabledFor,climateContext,type IceMode}from'./ice-automatic';
 import{distributionsAt,coexistencePattern,distributionCoast,distributionCard,distributionLegend,lineageInventory}from'./human-distributions';
 import{displayLabel}from'./map-presentation';
+import{chronologyBands,chronologyBandsMarkup}from'./chronology-bands';
+import{planetCard,type PlanetTab}from'./planet-card';
 import{formatEventDate}from'./dates';
 import * as maplibregl from 'maplibre-gl';
 import { type GeoJSONSource, type ExpressionSpecification, type MapGeoJSONFeature } from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
-import { createIcons, ArrowRight, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map as MapIcon, MapPin, Maximize, Minimize, Mountain, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X } from 'lucide';
+import { createIcons, ArrowRight, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map as MapIcon, MapPin, Maximize, Minimize, Mountain, Orbit, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X } from 'lucide';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
+import './planet.css';
 import { anchors, clamp, eraName, formatYear, positionToYear, PRESENT, snapshotFor, yearToPosition, playbackYear, navigationYear, type Snapshot } from './time';
 import { places } from './catalog';
 import type { FeatureCollection } from 'geojson';
@@ -37,7 +40,7 @@ import { appearances,appearanceLabels,appearanceIcons,palettes,resolveAppearance
 import {AFFILIATION_KINDS,AFFILIATIONS,affiliationLegend,affiliationGroups,affiliationSummary,affiliationsAvailable,type AffiliationKind} from './historical-affiliations';
 
 const VERSION = packageInfo.version;
-const icons = { ArrowRight, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map:MapIcon, MapPin, Maximize, Minimize, Mountain, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X };
+const icons = { ArrowRight, ChevronDown, Database, Funnel, Globe2, Info, Layers, Map:MapIcon, MapPin, Maximize, Minimize, Mountain, Orbit, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X };
 const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
 const icon = (name: string) => `<i data-lucide="${name}" aria-hidden="true"></i>`;
 function visibilityControls(scope:'layer'|'filter'){
@@ -56,6 +59,7 @@ app.innerHTML = `
       <button id="projection-button" class="icon-button" title="Ver mapa 2D" aria-label="Ver mapa 2D" data-view="globe">${icon('map')}</button>
       <button id="filters-button" class="icon-button" title="Filtros del atlas" aria-label="Filtros del atlas" aria-controls="filters-panel" aria-expanded="false">${icon('funnel')}</button>
       <button id="layers-button" class="icon-button" title="Capas del atlas" aria-label="Capas del atlas" aria-controls="layers-panel" aria-expanded="false">${icon('layers')}</button>
+      <button id="planet-button" class="icon-button" title="Planeta y cronología" aria-label="Planeta y cronología" aria-controls="planet-panel" aria-expanded="false">${icon('orbit')}</button>
       <button id="sources-button" class="icon-button" title="Base de datos y fuentes" aria-label="Base de datos y fuentes" aria-controls="sources-panel" aria-expanded="false">${icon('database')}</button>
       <button id="fullscreen" class="icon-button" title="Pantalla completa" aria-label="Pantalla completa">${icon('maximize')}</button>
       <button id="appearance-button" class="icon-button" aria-label="Tema automático">${icon('contrast')}</button>
@@ -75,12 +79,17 @@ app.innerHTML = `
     </section>
     <section id="layers-panel" class="layers-panel" role="dialog" aria-labelledby="layers-title" hidden>
       <div class="popover-head"><h2 id="layers-title">Capas del atlas</h2><button id="close-layers" class="icon-button" aria-label="Cerrar capas">${icon('x')}</button></div>
-      <div class="layers">${visibilityControls('layer')}<button id="ice-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">❄</span><span><strong>Mantos de hielo</strong><small id="ice-help">Reconstrucción fechada · PaleoMIST 1.0</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="ice-mode">Hielo<select id="ice-mode"><option value="auto">Automático según reconstrucción</option><option value="on">Mostrar modelo disponible</option><option value="off">Ocultar hielo</option></select></label><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales, ciudades y yacimientos</strong><small id="places-help">Capitales, cortes y sedes fechadas</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small id="occupations-help">Franjas y puntos de conflictos documentados</small></span><span class="layer-indicator"></span></button></div>
+      <div class="layers">${visibilityControls('layer')}<button id="chronology-colors" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('orbit')}</span><span><strong>Colores del cronograma</strong><small>Etapas geológicas y periodizaciones humanas</small></span><span class="layer-indicator"></span></button><button id="ice-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">❄</span><span><strong>Mantos de hielo</strong><small id="ice-help">Reconstrucción fechada · PaleoMIST 1.0</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="ice-mode">Hielo<select id="ice-mode"><option value="auto">Automático según reconstrucción</option><option value="on">Mostrar modelo disponible</option><option value="off">Ocultar hielo</option></select></label><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales, ciudades y yacimientos</strong><small id="places-help">Capitales, cortes y sedes fechadas</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small id="occupations-help">Franjas y puntos de conflictos documentados</small></span><span class="layer-indicator"></span></button></div>
     </section>
     <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow" id="selection-date">EN EL MAPA</span><h2 id="selection-title"></h2><p id="selection-status" role="status" hidden></p><div id="selection-alternatives" hidden></div><div id="selection-text"></div></div>
+    <section id="planet-panel" class="planet-panel" role="dialog" aria-labelledby="planet-title" hidden>
+      <div class="planet-heading"><div><span class="eyebrow">EL PLANETA EN EL TIEMPO</span><h2 id="planet-title">Tierra</h2><span id="planet-date"></span></div><button id="close-planet" class="icon-button" aria-label="Cerrar planeta">${icon('x')}</button></div>
+      <div class="planet-tabs" role="tablist" aria-label="Información planetaria"><button id="planet-tab-planet" role="tab" aria-controls="planet-content" aria-selected="true" data-planet-tab="planet">Planeta</button><button id="planet-tab-chronology" role="tab" aria-controls="planet-content" aria-selected="false" tabindex="-1" data-planet-tab="chronology">Cronología</button><button id="planet-tab-sources" role="tab" aria-controls="planet-content" aria-selected="false" tabindex="-1" data-planet-tab="sources">Fuentes</button></div>
+      <div id="planet-content" class="planet-content" role="tabpanel" aria-labelledby="planet-tab-planet" tabindex="0"></div>
+    </section>
     <aside id="map-legend" class="map-legend" aria-label="Leyenda del mapa" hidden></aside>
     <section class="time-dock" aria-label="Navegación temporal">
-      <div id="ruler" class="ruler" role="slider" tabindex="0" aria-label="Fecha del atlas. Arrastra para desplazarte; rueda o teclas más y menos para cambiar la escala" aria-valuemin="0" aria-valuemax="1900"><div id="ruler-track"></div><div class="fixed-cursor"><div class="cursor-line"></div></div><div class="ruler-fade left"></div><div class="ruler-fade right"></div></div>
+      <div id="ruler" class="ruler" role="slider" tabindex="0" aria-label="Fecha del atlas. Arrastra para desplazarte; rueda o teclas más y menos para cambiar la escala" aria-valuemin="0" aria-valuemax="1900"><div id="chronology-bands" class="chronology-bands" role="group" aria-label="Etapas del cronograma"></div><div id="ruler-track"></div><div class="fixed-cursor"><div class="cursor-line"></div></div><div class="ruler-fade left"></div><div class="ruler-fade right"></div></div>
       <div class="time-focus"><button id="date-button" class="date-heading" title="Ir a una fecha"><span id="year"></span>${icon('chevron-down')}</button><div class="playback"><button id="previous" class="icon-button" aria-label="Época anterior">${icon('skip-back')}</button><button id="play" class="play-button" aria-label="Reproducir recorrido" aria-pressed="false" aria-busy="true">${icon('play')}</button><button id="next" class="icon-button" aria-label="Época siguiente">${icon('skip-forward')}</button><span id="playback-status" class="playback-status" role="status" aria-live="polite" aria-atomic="true"></span></div></div>
     </section>
     <dialog id="modal" aria-labelledby="modal-label"><div class="modal-head"><span id="modal-label" class="eyebrow"></span><button id="close-modal" class="icon-button" aria-label="Cerrar ventana">${icon('x')}</button></div><div id="modal-body"></div></dialog>
@@ -95,6 +104,30 @@ let position = yearToPosition(year);
 let political = true, physical = false, showPlaces = false, showOccupations = false, showRegional = true, showHumanRanges = true;
 let humanFilter='';
 let iceMode:IceMode='auto';
+let activePlanetTab:PlanetTab='planet';
+let chronologyColored=true;
+try{chronologyColored=localStorage.getItem('historicmap-chronology-colors')!=='off';}catch{}
+function updateChronologyColors(){
+ $('.time-dock').dataset.chronologyColors=String(chronologyColored);
+ $('#chronology-colors').setAttribute('aria-pressed',String(chronologyColored));
+ $('#chronology-colors').classList.toggle('active',chronologyColored);
+}
+updateChronologyColors();
+function renderPlanet(){
+ $('#planet-date').textContent=formatYear(year);
+ $('#planet-panel').dataset.year=String(year);
+ if($('#planet-panel').hidden)return;
+ const pane=$('#planet-content'),scroll=pane.scrollTop;
+ const open=[...pane.querySelectorAll<HTMLDetailsElement>('details[open]')].map(d=>d.closest<HTMLElement>('[data-indicator],[data-geological-unit]')?.dataset.indicator??d.closest<HTMLElement>('[data-geological-unit]')?.dataset.geologicalUnit).filter(Boolean);
+ pane.innerHTML=planetCard(year,activePlanetTab);
+ pane.querySelectorAll<HTMLDetailsElement>('details').forEach(d=>{const holder=d.closest<HTMLElement>('[data-indicator],[data-geological-unit]');if(holder&&open.includes(holder.dataset.indicator??holder.dataset.geologicalUnit))d.open=true;});pane.scrollTop=scroll;
+}
+function closePlanet(focus=false){$('#planet-panel').hidden=true;$('#planet-button').setAttribute('aria-expanded','false');if(focus)$('#planet-button').focus();}
+function selectPlanetTab(tab:PlanetTab,focus=false){
+ activePlanetTab=tab;
+ document.querySelectorAll<HTMLButtonElement>('[data-planet-tab]').forEach(b=>{const selected=b.dataset.planetTab===tab;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1;if(selected&&focus)b.focus();});
+ $('#planet-content').setAttribute('aria-labelledby','planet-tab-'+tab);$('#planet-content').scrollTop=0;renderPlanet();
+}
 let distributionData:FeatureCollection={type:'FeatureCollection',features:[]},sharedData:FeatureCollection={type:'FeatureCollection',features:[]};
 let sharedSignature='',distributionSignature='',referenceLandKey='',highlightedDistributionId:string|number|undefined;
 let theme:Theme='political';
@@ -334,6 +367,7 @@ function updateSources(){
   if(governmentFilter)$('#source-links').innerHTML+=' · <a href="https://ourworldindata.org/grapher/political-regime" target="_blank" rel="noopener">Formas políticas / V-Dem ↗</a>';
   if(isPrehistoric(year)){if(distributionCoast(year)!=='countries.geojson')$('#source-scope').textContent=$('#source-scope').textContent!.replace('Costa contemporánea de referencia.','Costas CAO2024 de referencia; fecha del modelo '+distributionCoast(year).match(/\d+/)?.[0]+'Ma. Coordenadas de los fósiles actuales, sin rotación retrospectiva individual.');$('#source-scope').textContent+=' '+climateContext(year)+' Distribuciones regionales estimadas; sus franjas no acreditan guerras ni dominio.';}
   if(snapshot.kind==='concept')$('#source-scope').textContent='Escena conceptual y contexto documental; no hay geometría reconstruida para esta fecha.';
+  $('#source-links').innerHTML+=' · <a href="https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf" target="_blank" rel="noopener">Cronología ICS2026/06 ↗</a>';
 }
 
 function refreshMap(force=false):Promise<void> {
@@ -561,13 +595,17 @@ function updateYear(next:number,save=true){
   position=yearToPosition(year);
   $('#year').textContent=formatYear(year);
   if(!affiliationsAvailable(year)){affiliation='';$<HTMLSelectElement>('#affiliation-select').value='';}
-  renderRuler(); const refreshed=refreshMap();
+  renderRuler(); renderPlanet(); const refreshed=refreshMap();
   if(save)persistLocation();
   return refreshed;
 }
 let rulerKey='';
 function renderRuler(){
   const track=$('#ruler-track');
+  const bands=chronologyBands(year,position,spacing,$('#ruler').clientWidth);
+  $('#chronology-bands').innerHTML=chronologyBandsMarkup(bands);
+  $('#chronology-bands').dataset.emphasis=String(bands.emphasis);
+  $('#chronology-bands').dataset.mode=bands.emphasis>=.5?'geological':'human';
   const width=$('#ruler').clientWidth;
   const key=`${spacing}:${Math.floor(position*spacing/120)}:${width}`;
   if(rulerKey!==key){
@@ -635,9 +673,26 @@ function closeFilters(focus=false){$('#filters-panel').hidden=true;$('#filters-b
 function closeLayers(focus=false){$('#layers-panel').hidden=true;$('#layers-button').setAttribute('aria-expanded','false');if(focus)$('#layers-button').focus();}
 function closeSources(focus=false){$('#sources-panel').hidden=true;$('#sources-button').setAttribute('aria-expanded','false');if(focus)$('#sources-button').focus();}
 function closeSearch(focus=false){$('#search-panel').hidden=true;$('#search-button').setAttribute('aria-expanded','false');if(focus)$('#search-button').focus();}
-$('#layers-button').onclick=()=>{const open=$('#layers-panel').hidden;$('#layers-panel').hidden=!open;$('#layers-button').setAttribute('aria-expanded',String(open));if(open){closeSources();closeSearch();closeFilters();$('#close-layers').focus();}};
+$('#layers-button').onclick=()=>{const open=$('#layers-panel').hidden;$('#layers-panel').hidden=!open;$('#layers-button').setAttribute('aria-expanded',String(open));if(open){closePlanet();closeSources();closeSearch();closeFilters();$('#close-layers').focus();}};
 $('#close-layers').onclick=()=>closeLayers(true);
-$('#filters-button').onclick=()=>{const open=$('#filters-panel').hidden;$('#filters-panel').hidden=!open;$('#filters-button').setAttribute('aria-expanded',String(open));if(open){closeSources();closeSearch();closeLayers();$('#close-filters').focus();}};
+$('#planet-button').onclick=()=>{
+ if(!$('#planet-panel').hidden){closePlanet(true);return;}
+ closeLayers();closeFilters();closeSources();closeSearch();
+ $('#planet-panel').hidden=false;$('#planet-button').setAttribute('aria-expanded','true');renderPlanet();$('#close-planet').focus();
+};
+$('#close-planet').onclick=()=>closePlanet(true);
+$('#chronology-colors').onclick=()=>{chronologyColored=!chronologyColored;try{localStorage.setItem('historicmap-chronology-colors',chronologyColored?'on':'off');}catch{}updateChronologyColors();};
+$('#planet-panel').addEventListener('click',event=>{
+ const target=event.target as Element,tab=target.closest<HTMLButtonElement>('[data-planet-tab]');
+ if(tab)selectPlanetTab(tab.dataset.planetTab as PlanetTab);
+ const jump=target.closest<HTMLButtonElement>('[data-planet-year]');if(jump){stopPlay();void updateYear(Number(jump.dataset.planetYear));}
+});
+$('.planet-tabs').addEventListener('keydown',event=>{
+ if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
+ event.preventDefault();const tabs:PlanetTab[]=['planet','chronology','sources'];const i=event.key==='Home'?0:event.key==='End'?2:(tabs.indexOf(activePlanetTab)+(event.key==='ArrowRight'?1:2))%3;selectPlanetTab(tabs[i],true);
+});
+new ResizeObserver(()=>{$('.atlas').style.setProperty('--legend-height',$('#map-legend').hidden?'0px':$('#map-legend').getBoundingClientRect().height+'px');}).observe($('#map-legend'));
+$('#filters-button').onclick=()=>{const open=$('#filters-panel').hidden;$('#filters-panel').hidden=!open;$('#filters-button').setAttribute('aria-expanded',String(open));if(open){closePlanet();closeSources();closeSearch();closeLayers();$('#close-filters').focus();}};
 $('#close-filters').onclick=()=>closeFilters(true);
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#filters-panel').hidden&&!$('#filters-panel').contains(target)&&!$('#filters-button').contains(target))closeFilters();});
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#layers-panel').hidden&&!$('#layers-panel').contains(target)&&!$('#layers-button').contains(target))closeLayers();});
@@ -722,7 +777,7 @@ $('#date-button').onclick=()=>{
 };
 $('#search-button').onclick=()=>{
   if(!$('#search-panel').hidden){closeSearch(true);return;}
-  stopPlay();closeLayers();closeFilters();closeSources();$('#search-panel').hidden=false;$('#search-button').setAttribute('aria-expanded','true');
+  stopPlay();closePlanet();closeLayers();closeFilters();closeSources();$('#search-panel').hidden=false;$('#search-button').setAttribute('aria-expanded','true');
   $<HTMLInputElement>('#search-input').value='';$('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
   const search=()=>{
     $('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
@@ -752,9 +807,9 @@ $('#search-panel').addEventListener('keydown',event=>{
  results[event.key==='ArrowDown'?(index+1)%results.length:(index<=0?results.length-1:index-1)].focus();
 });
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#search-panel').hidden&&!$('#search-panel').contains(target)&&!$('#search-button').contains(target))closeSearch();});
-$('#sources-button').onclick=()=>{const open=$('#sources-panel').hidden;closeLayers();closeFilters();closeSearch();$('#sources-panel').hidden=!open;$('#sources-button').setAttribute('aria-expanded',String(open));if(open)$('#close-sources').focus();};
+$('#sources-button').onclick=()=>{const open=$('#sources-panel').hidden;closePlanet();closeLayers();closeFilters();closeSearch();$('#sources-panel').hidden=!open;$('#sources-button').setAttribute('aria-expanded',String(open));if(open)$('#close-sources').focus();};
 $('#close-sources').onclick=()=>closeSources(true);
 $('#about-button').onclick=()=>openModal('ACERCA DE HISTORICMAP',aboutContent(VERSION,import.meta.env.BASE_URL),'about-dialog');
-document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(modal.open)return;if(!$('#search-panel').hidden){closeSearch(true);return;}if(!$('#filters-panel').hidden){closeFilters(true);return;}closeSelection();if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(modal.open)return;if(!$('#planet-panel').hidden){closePlanet(true);return;}if(!$('#search-panel').hidden){closeSearch(true);return;}if(!$('#filters-panel').hidden){closeFilters(true);return;}closeSelection();if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
 function restore(){const params=new URLSearchParams(location.hash.slice(1));const y=Number(params.get('year')??PRESENT);if(params.get('view')==='mercator')projection='mercator';else projection='globe';projectionControl();if(ready)map.setProjection({type:projection});updateYear(Number.isFinite(y)?y:PRESENT,false);}
 window.addEventListener('hashchange',restore);restore();
