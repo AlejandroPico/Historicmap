@@ -1,5 +1,14 @@
 # Tareas y continuidad
 
+## Corrección CI · 0.52.0 · espera temporal en earth-foundation
+
+- [x] Identificar el fallo comunicado: una espera de data-loaded-year=1 se insertó en el primer recorrido, que todavía consulta2026; no es un atasco de carga del mapa.
+- [x] Comprobar2026 en ese contexto y esperar1 únicamente después del salto1a.C.→1d.C. del segundo recorrido. Conservar tiempos límite y el resto de aserciones.
+- [x] Ejecutar juntos ambos recorridos completos sobre el archivo final:2 correctos en59,0s, con CI=1, configuración heredada y producción local0.52.0; sin capturas opcionales ni aumentar límites.
+- [x] Registrar corrección y preparar commit/push sin esperar Actions/Pages. Versión del producto0.52.0 conservada: cambian pruebas y continuidad, no aplicación ni datos. Cotejar HEAD/origin/main al retomar.
+
+La validación anterior de los cinco recorridos se obtuvo en ejecuciones parciales; una edición posterior situó mal esta espera y sólo se volvió a ejecutar el recorrido móvil. Esa afirmación no certificaba el primer recorrido del archivo finalmente enviado. Esta corrección debe cerrar ambos juntos, no sólo el caso editado por intención.
+
 ## Entrega0.52.0 · parte2/6 · datos planetarios y cronograma
 
 Autorizado por el propietario al pedir «Segunda parte». Base f81368667; conservar geometrías, culturas, homininos, hielo y medios actuales. Implementar esquema planetario, panel persistente y bandas jerárquicas con colores opcionales. No incorporar automáticamente OCR ni prometer reconstrucciones físicas de partes3–5.

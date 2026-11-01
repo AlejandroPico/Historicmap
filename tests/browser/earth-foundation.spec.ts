@@ -13,7 +13,7 @@ test('planet panel retains its tab and date, identifies dated references and geo
  if(process.env.EARTH_QA_SCREENSHOTS)await page.screenshot({path:testInfo.outputPath('planet-modern.png'),timeout:45000,animations:'disabled'});
  await page.getByRole('tab',{name:'Cronología',exact:true}).click();
  await expect(page.locator('[data-geological-unit="Holocene"]')).toBeVisible();
- await expect(page.locator('#map')).toHaveAttribute('data-loaded-year','1',{timeout:90000});
+ await expect(page.locator('#map')).toHaveAttribute('data-loaded-year','2026',{timeout:90000});
  await date(page,-100000000);
  await expect(page.getByRole('tab',{name:'Cronología',exact:true})).toHaveAttribute('aria-selected','true');
  await expect(page.locator('[data-geological-unit="Cretaceous"]')).toBeVisible();
@@ -45,6 +45,7 @@ test('compact bands, colour persistence, keyboard tabs and projection work on a 
  await date(page,-1);await page.locator('#next').click();
  await expect(page.locator('#planet-panel')).toHaveAttribute('data-year','1');
  await expect(page.locator('[data-geological-unit="Holocene"]')).toBeVisible();
+ await expect(page.locator('#map')).toHaveAttribute('data-loaded-year','1',{timeout:90000});
  await page.locator('#projection-button').click();
  await expect(page.locator('#projection-button')).toHaveAttribute('data-view','globe');
  await expect(page.locator('#planet-panel')).toBeVisible();

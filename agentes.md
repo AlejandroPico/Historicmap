@@ -1530,4 +1530,10 @@ Se conservan Países, autoridades, banderas, medios, geometrías, culturas, homi
 
 Validación local cerrada: batería completa390 pruebas correctas en79 archivos;23 focales tras ajustes, reproducción geológica Python y auditoría de originales correctas; tipos y producción correctos. Recopilación150 casos navegador en62 archivos. Cinco recorridos pertinentes correctos: los dos nuevos, persistencia de ficha, autoridades/fotos actuales y herramientas/zoom independiente. Se actualizó la lista exacta de herramientas de ocho a nueve por el botón Planeta; se conservaron las aserciones de rueda y cursor. Última repetición móvil correcta tras los ajustes de altura, con mapa cargado en1d.C.; capturas escritorio, móvil y horizontal revisadas. Integridad283 recursos,11 franjas tipográficas y9179 medios correcta. No se repitió toda la batería de navegador. Registro de entrega listo para commit/push; cotejar HEAD/origin/main al retomar, sin esperar Actions/Pages.
 
+### Corrección de CI · espera temporal de0.52.0
+
+El despliegue comunicó que earth-foundation esperaba data-loaded-year=1 mientras el primer recorrido permanecía en2026. Una inserción sobre un texto repetido colocó la espera del segundo recorrido en el primero. La validación parcial previa no certificaba ese primer recorrido tras la última edición; no fue un atasco del mapa. Se comprueba2026 en el primer contexto y se espera1 sólo tras1a.C.→1d.C. en el segundo, antes de cambiar proyección. Sin aumentar tiempos límite ni retirar cobertura.
+
+Ambos recorridos completos del archivo final ejecutados juntos sobre producción0.52.0 con CI=1:2 correctos en59,0s. Sin capturas opcionales. Cambian únicamente prueba y documentación; aplicación, versión, datos, dependencias y workflows intactos. No repetir construcción ni batería completa por esta corrección; preparar commit/push, confirmar HEAD/origin/main y terminar sin esperar Actions/Pages.
+
 Siguiente etapa autorizable: parte3 formación/Precámbrico. Aún pendientes escenarios físicos, tectónica antigua, atmósferas/océanos, vida, glaciaciones e impactos de partes3–5. No anunciar esa reconstrucción como terminada porque existan el panel y las bandas.

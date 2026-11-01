@@ -40,4 +40,6 @@ Las pruebas nuevas cubren jerarquía y transiciones, b2k y ausencia de cero, int
 
 ## Siguiente parte
 
+Corrección posterior de CI: una espera del año1 había quedado en el recorrido de2026 tras la última edición de la prueba. Se comprueba2026 allí y1 después del salto1a.C.→1d.C. del segundo recorrido. Ambos completos del archivo corregido pasan juntos en modo CI sobre producción0.52.0:2 correctos en59,0s. No se cambia aplicación, versión ni datos; no se han repetido toda la batería o construcción.
+
 Parte3: formación terrestre y Precámbrico. Revisar los segmentos del vídeo y sus fuentes, adoptar modelos y geometrías con alcance identificado, incorporar sólo curvas justificadas y producir escenas propias con su incertidumbre. La existencia del panel no significa que esa reconstrucción ya esté realizada.
