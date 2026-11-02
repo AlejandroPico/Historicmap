@@ -1,5 +1,17 @@
 # Tareas y continuidad
 
+## CorrecciónCI · fuente textual entre Windows/Linux · 0.54.1
+
+Baseca83a870d. Fallo comunicado:1/403 en la huella del CSV de transcripción. No iniciar parte5 ni esperar el despliegue.
+
+- [x] Reproducir los hashes:WindowsCRLF d4c42f… frente aGit/LinuxLF12eb937…, con el mismo contenido.
+- [x] Normalizar sólo finalesCRLF→LF para esta fuente textual, declarar la base del hash y regenerar metadatos sin alterar muestras.
+- [x] Mantener integridad:LF yCRLF deben pasar; una celda cambiada debe fallar. OriginalPhanDA sigue con hash binario.
+- [x] Ejecutar el compilador real con ambas variantes en una prueba temporal; exigir salidas idénticas y detectar cambios reales.26 focales y prueba del compilador correctas.
+- [x] Comprobar tipos, producción, investigación y conservación; cerrar documentación y preparar la subida sin esperar Actions/Pages.
+
+Cierre0.54.1:26 focales en cuatro archivos correctos;36 pruebas de investigación correctas. Tipos, generación de etiquetas y construcciónVite de producción correctos. El compilador real genera exactamente los mismos archivos desdeLF yCRLF y detecta una celda modificada. La nueva huella coincide con el objetoCSV real almacenado enGit (12eb937…). Las31 muestras audiovisuales,85 intervalosPhanDA y fuentes protegidas permanecen intactas.291 recursos conservan bytes/hash; sólo la versión de display-labels cambia en su metadato. No se repite la batería de navegador: no cambia el renderizado ni los valores. Registro preparado para commit/push; al retomar comprobar HEAD/origin/main. No esperar Actions/Pages.
+
 ## Entrega0.54.0 · parte4 y revisión de enfoque
 
 Autorizado el2/11/2026: Fanerozoico hasta homininos, enciclopedia independiente del vídeo, más recursos temáticos y explicaciones; indicadores numéricos antiguos con procedencia; revisar etapa rojiza, hielo y ritmo de la regla. Conservar datos previos y subir sin esperar Actions.

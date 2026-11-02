@@ -18,3 +18,7 @@ Las superficies usan ruido espacial esférico reproducible, máscaras de costa f
 La neblina arcaica anaranjada representa un escenario de aerosoles orgánicos descrito por NASA. La variante rojiza ferruginosa se puede comparar explícitamente desde Planeta entre2,6 y2,1Ga: **no prueba un océano rojo mundial**, ni calcula espectros de reflectancia a partir de porcentajes atmosféricos. No equiparar hierro en sedimentos con color uniforme observado desde el espacio.
 
 Temperatura y CO₂ publicados tienen prioridad en el modo normal; las referencias publicadas de día solar a2,46Ga/620Ma también conservan prioridad. El modo de comparación audiovisual cambia los indicadores, no las geometrías científicas. El formato permite sustituir gradualmente los escenarios por nuevas curvas publicadas con incertidumbre y procedencia.
+
+## Huella de la transcripción · corrección0.54.1
+
+`transcriptionSha256` utiliza los bytes UTF-8 del CSV textual con finales de línea LF: únicamenteCRLF se convierte aLF antes de calcular SHA-256. Coincide con la representación almacenada en Git, aunque el archivo de trabajo deWindows tengaCRLF. `transcriptionHashBasis` declara esta convención. No se modifica el CSV fuente ni se normalizan contenidos, espacios o valores. El CSV original dePhanDA conserva su comprobación binaria exacta independiente.

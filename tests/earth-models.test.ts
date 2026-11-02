@@ -11,12 +11,16 @@ import media from'../Tierra/Fanerozoico/medios.json'with{type:'json'};
 import reference from'../Tierra/Fanerozoico/referencia-audiovisual.json'with{type:'json'};
 import manifest from'../public/data/manifest.json'with{type:'json'};
 const at=(age:number)=>yearFromAge(age*1e6);
+// Normalize only line-ending bytes, preserving the rest of this text source.
+const transcriptionHash=(bytes:Buffer)=>createHash('sha256').update(Buffer.from(bytes.toString('latin1').replace(/\r\n/g,'\n'),'latin1')).digest('hex');
 it('retains published bins and percentiles without inventing annual observations or replacing their limits',()=>{
  expect(phandaBins).toHaveLength(85);const raw=readFileSync(new URL('../Tierra/Fanerozoico/originales/'+compiled.original,import.meta.url));expect(createHash('sha256').update(raw).digest('hex')).toBe(compiled.sha256);
  const p=phandaAt(at(100))!,r=planetRecordFor('meanTemperature',at(100))!,co=planetRecordFor('carbonDioxide',at(100))!;expect(r.value).toBe(p.temperature['50']);expect(r.uncertainty?.minus).toBeCloseTo(p.temperature['50']-p.temperature['16']);expect(co.value).toBeCloseTo(p.co2ppm['50']/10000);expect(r.sourceId).toBe('phanda');expect(r.interpolation).toBe('none');expect(phandaAt(at(500))).toBeUndefined();expect(phandaAt(2026)).toBeUndefined();
 });
 it('keeps author scenarios separate, initial silicate vapour distinct from nitrogen and rounded zero bounded',()=>{
- const original=readFileSync(new URL('../Tierra/Investigacion/parte-1/muestras-indicadores-video.csv',import.meta.url));expect(createHash('sha256').update(original).digest('hex')).toBe(reference.transcriptionSha256);
+ const original=readFileSync(new URL('../Tierra/Investigacion/parte-1/muestras-indicadores-video.csv',import.meta.url)),lf=Buffer.from(original.toString('latin1').replace(/\r\n/g,'\n'),'latin1'),crlf=Buffer.from(lf.toString('latin1').replace(/\n/g,'\r\n'),'latin1');
+ expect(reference.transcriptionHashBasis).toBe('UTF-8 source bytes with LF line endings (CRLF normalized)');
+ expect(transcriptionHash(lf)).toBe(reference.transcriptionSha256);expect(transcriptionHash(crlf)).toBe(reference.transcriptionSha256);expect(transcriptionHash(Buffer.concat([lf,Buffer.from('changed-cell')]))).not.toBe(reference.transcriptionSha256);
  const s=videoScenarioAt(-4540000000)!;expect(s.gases.rockVapor).toBe(100);expect(s.gases.nitrogen).toBeUndefined();expect(planetRecordFor('rockVapor',-4540000000)?.evidence).toBe('illustrative-scenario');expect(planetRecordFor('nitrogen',-4540000000)).toBeUndefined();expect(planetRecordFor('oxygen',at(3970))?.value).toEqual({min:0,max:.005});expect(planetRecordFor('oceanArea',at(3970))).toBeUndefined();
  expect(planetRecordFor('meanTemperature',at(100),planetRecords,'video')?.sourceId).toBe('video-scenario');expect(planetRecordFor('solarDay',at(2460))?.value).toBe(16.9);expect(planetRecordFor('oxygen',1990)).toBeUndefined();
  expect(planetRecordFor('oxygen',2026,planetRecords,'video')).toEqual(planetRecordFor('oxygen',2026));expect(planetRecordFor('temperatureAnomaly',2026,planetRecords,'video')).toEqual(planetRecordFor('temperatureAnomaly',2026));

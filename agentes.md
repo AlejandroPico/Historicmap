@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **2 de noviembre de 2026**. Versión del producto: **0.54.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **2 de noviembre de 2026**. Versión del producto: **0.54.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección74; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección75; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** parte4/6 y correcciones solicitadas el2/11/2026. Fanerozoico hasta7Ma, enciclopedia independiente del vídeo, indicadores numéricos con procedencia, hielo y regla revisados. Ver sección74 y tareas.md. Partes5–6 todavía pendientes de encargo.
+**Encargo vigente:** corregir el falloCI de SHA de transcripción comunicado tras0.54.0, subir sin esperar despliegue. Producto0.54.1; ver sección75 y tareas.md. Parte4 conservada, partes5–6 pendientes de encargo.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1577,3 +1577,12 @@ Validación y cierre efectivo se registran en tareas.md. Mantener ocho gruposCI 
 Cierre adicional de comportamiento: la comparación audiovisual no anula observaciones modernas al volver al presente. Figuras SVG con tamaño propio (no18px de los iconos); temperaturas PhanDA redondeadas a una décima en presentación, conservando datos y percentiles completos. Recorrido cartográfico dividido automáticamente en grupos de hasta8 instantáneas (39 actuales), mismas verificaciones y límite existente; ocho gruposCI conservados, sin sondear despliegues.
 
 Verificación local0.54 cerrada:403 pruebas/81 archivos correctos;35 de investigación;26 focales tras ajustes;13 recorridos de cuatro archivos completos correctos y repetición final de los cinco de Tierra/enciclopedia (4,3min) sobre la última construcción. Tipos, producción, recopilación157/64 y capturas correctos.291 recursos/11 franjas/9179 medios y cinco nuevos verificados;283 recursos previos con bytes/hash conservados. La tentativa inicial de navegador tuvo un timeout monolítico y se registra como tal. No se altera la batería para omitir épocas. Estado de envío comprobable con Git; no esperar despliegues.
+
+
+## 75. Corrección de procedencia entre sistemas · 0.54.1
+
+Baseca83a870d. El propietario comunica que npm test falla sólo en earth-models,402 de403 correctos. Raíz reproducida: CSV de trabajoWindows con755CRLF, SHA d4c42f4bacd562b0bd7881969398903c96ce8cf97521854205944054413eaf31; objetoGit/Linux conLF, SHA12eb93707a27e40eadbc195356d74642283a2781624e0aa664460a7faae45cfd. El archivo fuente se conserva. No atribuirlo a datos históricos distintos ni omitir la comprobación.
+
+scripts/prepare-earth-models.py calcula la huella del CSV textual tras normalizar únicamenteCRLF→LF y declara transcriptionHashBasis. Vitest aplica el mismo contrato byte a byte, comprueba ambas terminaciones y exige detectar alteraciones de contenido. Nueva pruebaPython ejecuta el compilador real en una carpeta temporal conLF/CRLF; ambas salidas deben coincidir, y cambiar una celda debe modificar huella y datos. El CSV originalPhanDA sigue con hash binario exacto; muestras31 y85 intervalos publicados no se alteran en esta corrección. Verificación efectiva y envío en tareas.md. No esperar Actions/Pages ni comenzar parte5.
+
+Cierre0.54.1:26 focales/4 archivos y36 pruebasPython de investigación correctos; tipos y construcciónVite de producción correctos tras generar etiquetas. No se regenera el catálogo de países porque sus datos/scripts no cambian; no se repite navegador por procedencia sin cambios visuales. Nueva huella comprobada contra el objetoGit real;31 muestras y85 intervalos intactos.291 recursos con bytes/hash conservados (versión de display-labels actualizada sólo en metadato). FuenteCSV y originales sin cambios. Registro preparado para envío autorizado, sin esperar Actions/Pages.
