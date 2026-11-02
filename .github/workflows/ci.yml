@@ -20,9 +20,13 @@ jobs:
       - name: Check browser test collection before expensive validation
         run: npm run test:e2e -- --list
       - run: npm run data:verify
+      - name: Check Earth integration inventory and internal references
+        run: npm run earth:audit
       - run: npm test
       - run: python3 -m unittest discover -s tests/research -p 'test_*.py'
       - run: npm run build
+      - name: Ensure build keeps the prepared human data reproducible
+        run: python3 scripts/prepare-human-knowledge.py --check
       - name: Record the built revision
         run: node -e "require('node:fs').writeFileSync('dist/revision.json',JSON.stringify({sha:process.env.GITHUB_SHA,version:require('./package.json').version})+'\n')"
       - uses: actions/upload-artifact@v7

@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.56.0 · 2 de noviembre de 2026
+
+- Sexta parte: revisión de integración geológica/humana, inventario reproducible de fuentes, relaciones, medios y carencias.
+- Corregida la prueba heredada de100.000a.C.: reconoce la hipótesisMIS5c y comprueba un hueco real sin extrapolación; se conserva el límite propio dePaleoMIST.
+- Fecha de retorno de la enciclopedia coherente con el contexto válido, capítulo del Cuaternario y seis fotografías fósiles/reproducciones acreditadas.
+- Rótulos temporales sin solapamientos, marca1d.C. prioritaria y fuentes glaciales más claras. Corregida una asociación de imagen a un artículo inexistente.
+- Ocho gruposCI y barrido anual conservados; comprobación rápida adicional de integridad enciclopédica.
+
+
 ## 0.55.0 · 2026-11-02
 
 - Quinta parte: 49 artículos humanos contextualizados, 39 entradas taxonómicas/poblacionales, 12 fotografías acreditadas, diagramas y comparador de linajes; enlaces desde manchas y yacimientos.

@@ -1,5 +1,6 @@
 import content from '../Tierra/Precambrico/enciclopedia.json' with {type:'json'};
 import phanerozoic from '../Tierra/Fanerozoico/enciclopedia.json' with {type:'json'};
+import quaternary from '../Tierra/Cuaternario/enciclopedia.json' with {type:'json'};
 import review from '../Tierra/Precambrico/revision-video.json' with {type:'json'};
 import phanerozoicReview from '../Tierra/Fanerozoico/revision-video.json' with {type:'json'};
 import{deepSceneAt,deepSources}from'./deep-earth';
@@ -8,8 +9,8 @@ import{yearFromAge}from'./dates';
 import{humanKnowledge,humanArticleForYear}from'./human-knowledge';
 import lineages from'../public/data/human-lineages.json'with{type:'json'};
 export interface EncyclopediaArticle{id:string;title:string;summary:string;sections:{title:string;text:string}[];sourceIds:string[];related:string[];diagram:string;year:number;videoStart?:number;kind?:string;themeId?:string}
-export const curatedArticles=[...content.articles,...phanerozoic.articles,...humanKnowledge.articles] as EncyclopediaArticle[];
-const periodThemes:Record<string,string>={Cambrian:'cambrian',Ordovician:'ordovician',Silurian:'silurian',Devonian:'devonian',Carboniferous:'carboniferous',Permian:'permian',Triassic:'triassic',Jurassic:'jurassic',Cretaceous:'cretaceous',Paleogene:'paleogene',Neogene:'neogene'};
+export const curatedArticles=[...content.articles,...phanerozoic.articles,...quaternary.articles,...humanKnowledge.articles] as EncyclopediaArticle[];
+const periodThemes:Record<string,string>={Cambrian:'cambrian',Ordovician:'ordovician',Silurian:'silurian',Devonian:'devonian',Carboniferous:'carboniferous',Permian:'permian',Triassic:'triassic',Jurassic:'jurassic',Cretaceous:'cretaceous',Paleogene:'paleogene',Neogene:'neogene',Quaternary:'quaternary'};
 const reviewedEvents=[...new Map([...review.events,...phanerozoicReview.events,...humanKnowledge.videoReview.events].map(e=>[e.videoId,e])).values()];
 export function encyclopediaArticle(id:string):EncyclopediaArticle|undefined{
  const authored=curatedArticles.find(a=>a.id===id);if(authored)return{...authored,kind:'Artículo temático'};
@@ -24,4 +25,17 @@ export function encyclopediaArticle(id:string):EncyclopediaArticle|undefined{
 export function encyclopediaForYear(year:number){const scene=deepSceneAt(year);if(scene)return scene.article;const thematic=humanArticleForYear(year);if(thematic)return thematic;const human=humanAt(year).find(u=>u.lane==='overview');if(human)return'human-'+human.id;const units=geologicalAt(year);return'geo-'+(units.find(u=>u.rank==='period')??units.find(u=>u.rank==='era')??units.find(u=>u.rank==='eon'))!.id;}
 export const encyclopediaIndex=(archive=false)=>[...curatedArticles.map(a=>({id:a.id,title:a.title,group:'Conceptos y procesos'})),...geologicalUnits.map(u=>({id:'geo-'+u.id,title:u.name,group:rankLabels[u.rank]})),...humanUnits.map(u=>({id:'human-'+u.id,title:u.name,group:'Edades humanas'})),...(archive?reviewedEvents.map(e=>({id:e.videoId,title:e.name,group:'Archivo audiovisual'})):[])];
 export function searchEncyclopedia(query:string,archive=false){const norm=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const q=norm(query.trim());return encyclopediaIndex(archive).filter(a=>!q||norm(a.title+' '+a.group+' '+((lineages.taxa.find(t=>'hominin-'+t.key===a.id)as{aliases?:string[]}|undefined)?.aliases??[]).join(' ')).includes(q));}
-export const encyclopediaSources={...deepSources,...humanKnowledge.sources};
+/** Keep the consulted date when it belongs to the selected entry, not its editorial midpoint. */
+export function encyclopediaReferenceYear(article:EncyclopediaArticle,consultedYear:number){
+ if(!Number.isInteger(consultedYear)||consultedYear===0)return article.year;
+ if(encyclopediaForYear(consultedYear)===article.id)return consultedYear;
+ const unit=geologicalUnits.find(u=>'geo-'+u.id===article.id||article.id==='quaternary'&&u.id==='Quaternary');
+ if(unit&&consultedYear>=unit.axisOldestYear&&(unit.axisEndYear===null||consultedYear<unit.axisEndYear))return consultedYear;
+ const lineage=lineages.taxa.find(t=>'hominin-'+t.key===article.id);
+ const age=consultedYear<0?1949-consultedYear:1950-consultedYear;
+ if(lineage&&consultedYear<=-10001&&age>=lineage.youngestKa*1000&&age<=lineage.oldestKa*1000)return consultedYear;
+ const human=humanUnits.find(u=>'human-'+u.id===article.id);
+ if(human&&consultedYear>=human.startYear&&(human.endYear===null||consultedYear<human.endYear))return consultedYear;
+ return article.year;
+}
+export const encyclopediaSources={...deepSources,...humanKnowledge.sources,...quaternary.sources};

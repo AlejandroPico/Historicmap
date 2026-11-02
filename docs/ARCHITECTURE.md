@@ -128,3 +128,10 @@ Filtros reúne forma/régimen, color y organizaciones, separado de Capas. Las op
 ## Extensión 1600–1699 ·0.20
 
 La selección anual usa un tercer archivo Cliopatria con los mismos IDs y coordenadas de origen. La resolución fechada distingue uniones dinásticas, administraciones y regímenes rivales antes de componer la pintura y el filtro. Una ficha colonial conservada no puede heredar su administrador de respaldo fuera del intervalo numérico del registro de fuente. Las relaciones documentales explícitas mantienen prioridad.
+
+
+### Revisión integral0.56
+
+La enciclopedia resuelve la fecha de retorno con encyclopediaReferenceYear: conserva el cursor sólo si pertenece a la entrada; el resto usa su referencia temática. Cuaternario se añade desde su propietario Tierra/Cuaternario. La regla mide texto real y resuelve colisiones de etiquetas sin eliminar marcas.
+
+El inventario de integración se genera offline con scripts/audit-earth-integration.mjs y se valida en Quality con npm run earth:audit. Incluye relaciones internas, claves de fuente, medios y carencias explícitas. No certifica disponibilidadHTTP ni valida automáticamente fechas científicas del archivo audiovisual. Mantener el límite del móduloPaleoMIST separado de displayIceSampleFor, que puede elegir hipótesis antiguas. Ver docs/EARTH-INTEGRATION-0.56.md.

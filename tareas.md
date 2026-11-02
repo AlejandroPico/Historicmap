@@ -1,5 +1,28 @@
 # Tareas y continuidad
 
+## Entrega0.56.0 · sexta parte y corrección CI cerradas
+
+Encargo del propietario: terminar la revisión integral de las seis partes y subirla junto con el fallo de Browser8/8. Base ef86e0967. Ocho grupos de navegador y barrido anual independiente conservados. Una única entrega autorizada; no esperar ni sondear Actions/Pages.
+
+- [x] Corregir las expectativas antiguas de hielo: MIS5c manual disponible, automático cálido oculto, fuente explícita y hueco real sin extrapolación. El módulo PaleoMIST conserva su límite propio de80ka.
+- [x] Auditar integración, referencias internas, medios y conservación; publicar inventario reproducible y límites reales.
+- [x] Corregir fecha de retorno enciclopédica y rótulos temporales; mantener las fichas y retirar el aviso anual inaplicable al consultar geología.
+- [x] Desarrollar el capítulo del Cuaternario y añadir seis fotografías acreditadas en las carpetas naturales de linajes.
+- [x] Validar tipos, construcción, investigación, datos y recorridos pertinentes sobre producción, con fallos y repeticiones documentados.
+- [x] Cerrar versión, documentación y preparación de la única subida autorizada. Comprobar HEAD/origin/main al enviar o retomar; el propietario verifica el despliegue.
+
+**Resultado local:**416 pruebas en83 archivos correctas;40 pruebas de investigación correctas;330 recursos,11 franjas tipográficas y9179 medios anteriores verificados. Inventario nuevo reproducido offline,25 originales geológicos/humanos comprobados y164 recorridos/66 archivos recopilados. Tipos y construcción correctos. Después del último ajuste de texto:20 focales correctos y cuatro pruebas de reproducción humana correctas.
+
+**Navegador:**38 recorridos distintos correctos en diez archivos. La tanda principal dio33/34; el caso restante había recopilado la expectativa antigua80.000 antes de editar el archivo. Repetición final completa de review-051, Tierra y ficha:10/10 correctos sobre la construcción final,6,2min. El recorrido notificado de review-050 pasó completo y comprueba PaleoMIST→MIS5c→hueco, fuentes y ficha fósil. Capturas revisadas de Hádico, planeta, regla móvil, enciclopedia y márgenes glaciales.
+
+La tentativa inicial de toda la batería con dos navegadores locales se interrumpió por esperas iniciales agotadas en atlas; no se registra como batería verde ni se aumentan tiempos. Los164 casos no se ejecutaron todos localmente. La verificación dirigida posterior con un navegador pasó los recorridos pertinentes. CI conserva ocho máquinas independientes y barrido anual.
+
+**Reproducción:** el preparador de etiquetas conserva el JSON compacto del manifiesto. Secuencia real preparador→prepare-human-knowledge --check correcta; Quality añade esa reproducción después de construir. Se conservan330 recursos sin pérdidas; sólo human-knowledge cambia contenido para añadir medios. Sus49 artículos y12 imágenes anteriores siguen idénticos. Países, culturas, geometrías, hielo y originales anteriores intactos.
+
+**Pendientes científicos/editoriales, sin confundir con la integración concluida:**22 expedientes sin fotografía propia; paleocostas cuaternarias detalladas; reconstrucciones antárticas antiguas/espesores; intervalos glaciales sin fuente; más curvas publicadas de temperatura/gases; profundidad monográfica y contraste individual de los198 candidatos audiovisuales. El inventario no convierte esos huecos en hechos verificados. Consultar docs/EARTH-INTEGRATION-0.56.md y Tierra/Investigacion/parte-6/integracion.json.
+
+Registro listo para el envío autorizado. Al retomar, comprobar Git antes de repetir una subida. No esperar el despliegue.
+
 ## Entrega0.55.0 · quinta parte cerrada localmente
 
 El propietario autoriza la parte5: homininos, expansión, glaciaciones y transición humana. Base58135d26a; la revisión integral queda para la sexta parte, sin iniciarla de oficio. Subir al terminar sin esperar Actions/Pages.
@@ -19,12 +42,12 @@ Reproducciónoffline:los tres compiladores correctos con --check; elGIS reproduc
 
 Registro listo para commit/push autorizado. Alretomar cotejar HEAD/origin/main para determinar si resta enviar; no iniciar parte6 deoficio ni esperar/sondear Actions/Pages. No confundir validaciónlocal con despliegue ya publicado.
 
-### Siguiente parte6 · pendiente de encargo
+### Alcance de parte6 · cerrado en0.56
 
-- [ ] Revisión integral del recorrido geológico/humano, controles, escalas temporales yconvivencia dedatos, sin borrar evidencia anterior.
-- [ ] Revisar cobertura bibliográfica y profundidad enciclopédica, ampliar fotografías ligadas aejemplares yvalidar candidatos noadoptados antesdeefectosfechados.
-- [ ] Contrastar paleocostas, hielo antártico antiguo/espesores yventanas glaciales sinmodelo; no rellenarlas por extrapolación.
-- [ ] Evaluar rendimiento ypresentación con el catálogo ampliado, conservando ocho gruposCI ybarridoanual independiente.
+- [x] Integración2D/3D, continuidad, selección y conservación: ver entrega0.56 e informe.
+- [x] Revisión del registro bibliográfico/enciclopédico y medios; ampliación de fotografías, sin declarar completo el contraste científico individual.
+- [x] Evaluación de límites de paleocostas y hielo: huecos conservados y registrados, sin extrapolación.
+- [x] Evaluación de presentación y rendimiento; ocho gruposCI y barrido anual conservados.
 
 ## CorrecciónCI · fuente textual entre Windows/Linux · 0.54.1
 
@@ -111,7 +134,7 @@ El propietario autoriza exclusivamente la auditoría de los dos documentos adjun
 - [ ] **Parte3:** formación/Precámbrico. Cotejar los segmentos del vídeo, rótulos/topónimos y referencias pendientes, adquirir geometrías/curvas apropiadas, separar escenarios conceptuales y medidas. Revisar Theia, tectónica temprana, núcleo interno, Oklo, colores oceánicos y oxigenación.
 - [ ] **Parte4:** Cámbrico–homininos. Resolver modelos/versiones, paleocostas, vida/extinciones y clima. Confirmar impactos discutidos y primeras evidencias antes de incorporarlos. Corregir PETM y la anotación de fuego600Ma.
 - [ ] **Parte5:** homininos y transición humana. Investigar gautengensis, Ledi-Geraru y Nesher Ramla como sus clases respectivas; revisar Herto/MZR y aliases regionales sin duplicar yacimientos o poblaciones; resolver correlaciones glaciales y contornos anteriores a80ka sólo con modelos apropiados.
-- [ ] **Parte6:** integración2D/3D, continuidad, selección, carga, capas/filtros, conservación, rendimiento y pruebas. El inventario OCR de referencia no se importa automáticamente en producción.
+- [x] **Parte6:** revisión de integración cerrada en0.56; resultados y límites en el encargo vigente. El inventario OCR no se convierte automáticamente en hechos científicos ni efectos fechados.
 - [ ] En partes3–5 revisar los rótulos breves/ilegibles y topónimos no completamente inventariados. Resolver y contrastar las29 referencias finales según el segmento; su detección no equivale a lectura íntegra. No declarar el vídeo exhaustivamente transcrito ni todas sus cifras verificadas.
 
 Sólo parte1 encargada en esta tanda. La investigación se encuentra en Tierra/Investigacion/parte-1; no mueve contenido de Países ni modifica datos científicos existentes. Estado detallado en agentes.md§71. Las evidencias audiovisuales privadas permanecen en .cache; los hashes, tiempos y referencias públicos permiten volver a obtenerlas.

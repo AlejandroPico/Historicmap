@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **2 de noviembre de 2026**. Versión del producto: **0.55.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **2 de noviembre de 2026**. Versión del producto: **0.56.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección76; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección77; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** quinta parte autorizada: humanidad, expansión, glaciaciones y transición cultural. Producto0.55.0; ver sección76 y tareas.md. Parte6, revisión integral, pendiente de encargo. Subir al cerrar sin esperar Actions/Pages.
+**Encargo vigente:** sexta parte autorizada, revisión integral y corrección de CI comunicada. Producto0.56.0 validado localmente; ver sección77 y tareas.md. Subir ambas juntas al cerrar, sin esperar Actions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1614,3 +1614,34 @@ Verificación y cierre efectivos se actualizan en tareas.md antesdecommit. Mante
 Cierrelocal0.55:410/82 pruebas correctas;40Python correctas;20focales trasactualización científica. Los14 recorridos de cinco archivos completos pasan juntos en10min (Tierra, humanidad, Fanerozoico, Precámbrico, regresión0.51). Dos selectores nuevos se corrigieron trasuna tentativa inicial; no ocultar esa tentativa comosi hubiera pasado. Traselajustefinal de presentaciónfotográfica: tipado/construcción correctos, siete focales correctos yQA privadareal enmodomañana, escritorio/móvil yreferenciaPink, sinerrores, desbordamientonirecorte de imagen. Capturas revisadas.
 
 Los tres compiladores reproducenoffline con --check (GIS36 variantes);330 recursos,11franjas,9179 medios y12fotoshumanas verificados;181 originales de hielo y el original de CO₂ intactos. Ningún recurso previo perdido;288/291 conservan bytes/hash ylos treshumanos se amplían preservandocoordenadas yregistros anteriores. Países/culturas/demásfuentes yworkflows intactos.162recorridos/65archivos recopilados; no se ha ejecutado todaesa batería. Registro listo parauna única subidaautorizada; cotejar HEAD/origin/main alretomar. Parte6 siguependiente; no esperar/sondeardespliegues.
+
+
+## 77. Sexta parte · revisión integral y corrección CI · 0.56.0
+
+Base ef86e0967. El propietario autoriza cerrar las seis partes y subir junto con la corrección del fallo Browser8/8. Informe docs/EARTH-INTEGRATION-0.56.md; resultados efectivos y envío en tareas.md. No esperar ni sondear Actions/Pages.
+
+La prueba móvil heredada de review-050 esperaba ausencia total de hielo en100.000a.C. antes de existir Batchelor2019. Ahora exige PaleoMIST en su dominio propio, MIS5c en modo manual con archivo/modelo/fuente correctos y ausencia de contorno en el hueco real120kaBP1950, conservando selección fósil y navegación. No retirar la reconstrucción documentada ni ampliar el límite de PaleoMIST; no se sube el timeout ni se omite el recorrido.
+
+Integración: encyclopediaReferenceYear conserva la consulta cuando pertenece a un linaje, unidad geológica o referencia humana; una entrada ajena mantiene su fecha temática. Cuaternario y subdivisiones enlazan con nuevo capítulo canónico en Tierra/Cuaternario/enciclopedia.json, seis apartados; curvaCO2 sólo800–12ka, no todo el periodo. Fuentes distingue referencia oculta, hipótesis antigua y hueco documental; ausencia de contorno no significa ausencia de hielo. Los originales glaciales no se modifican.
+
+Regla: readableRulerLabels mide rótulos reales y oculta sólo los que se solaparían; conserva marcas, fechas accesibles, prioridad1d.C., cursor fijo y escala. Se corrige la asociación de permian-reef a un artículo inexistente usando extinctions, sin cambiar la imagen.
+
+Seis medios añadidos y vistos: africanus, rudolfensis, sediba, heidelbergensis, antecessor, luzon. Originales completos conhash/créditos/licencia en las carpetas naturales de linajes; réplicas identificadas y presentacióncontain. Se conservan exactamente49 artículos humanos y12 medios anteriores; total18 medios humanos. No afirmar imagen dedicada para todas las39 entradas:22 siguen sin ella y se inventarían incorrectamente si se asignase otra especie por rellenar.
+
+Auditoríaoffline: scripts/audit-earth-integration.mjs [--check], npm run earth:audit, resultado canónico Tierra/Investigacion/parte-6/integracion.json. Revisa identidades, 309 relaciones internas, 105 referencias registradas, huellas de 25 medios y 198 candidatos audiovisuales contabilizados.291 entradas ordinarias de clases distintas (91 artículos, 177 unidades y 23 referencias humanas). Las URLs se comprueban por sintaxis/registro, no por disponibilidadHTTP. Las disposiciones de los 198 candidatos no equivalen a contraste científico individual completo. Quality añade comprobación rápida del inventario antes de tests; conserva ocho grupos y barrido anual independiente.
+
+Conservación contra 0.55: 330 recursos sin pérdidas, sólo human-knowledge cambia contenido para sumar seis medios; CO₂ conserva 1.901 observaciones, áreas humanas 68 ventanas y fósiles 1.007 puntos. Países, culturas, costas, hielo, originales y las otras partes se preservan.
+
+Pendientes documentales/científicos: paleocostas cuaternarias detalladas, mantos antárticos/espesores modelados, ventanas glaciales sin fuente, curvas publicadas de temperatura y gases adicionales, mayor profundidad monográfica, medios apropiados y contraste individual de eventos. Las texturas antiguas siguen ilustrativas, no simulaciones espectrales. El cierre de la revisión de integración no declara esos huecos resueltos.
+
+
+Ajustes de cierre0.56: review-051 conserva MIS5c cálido oculto en automático, pero comprueba su hipótesis disponible y no la antigua expectativa textual80.000. Eliminar esa expectativa no amplía el dominio del móduloPaleoMIST. La tanda iniciada antes de editar esa prueba conservó el código ya recopilado:33/34 correctos; se repite su archivo completo en un proceso nuevo. No registrar esa tanda como íntegramente correcta.
+
+El preparador de etiquetas conserva JSON compacto en el manifiesto, compatible con la reproducción estricta de prepare-human-knowledge.py --check. Se comprobó la secuencia real preparador→compilador y se añade la comprobación después de construir enQuality. Sin esta coherencia de serialización, construir podía reformatear el manifiesto aunque los datos fueran idénticos. No confundir un cambio de formato con una modificación científica.
+
+Las capturas detectaron un aviso genérico de cierre anual dentro de una ficha política conservada al consultar el Hádico. Se retira esa frase, manteniendo el aviso de ausencia territorial, autoridades documentadas y persistencia. Reconstrucción final de frontend, tipos y20focales (ficha/integración/Precámbrico) correctos. Resultados restantes y envío en tareas.md.
+
+
+Cierre local0.56:416 pruebas/83 archivos y40 pruebas de investigación correctas;330 recursos/11 franjas/9179 medios anteriores verificados. Veinte focales y cuatro de reproducción repetidos al cierre, correctos. Treinta y ocho recorridos distintos correctos en diez archivos; repetición final completa de ficha/Tierra/review-051:10/10 en6,2min. El caso comunicado review-050 pasa con modelo, archivo, fuentes y hueco real. Capturas finales revisadas, incluido el aviso de ficha corregido. Tipos y producción correctos; inventario reproducible y25 medios originales verificados.
+
+No afirmar batería completa de navegador:164 casos recopilados, intento con dos trabajadores locales interrumpido por esperas de recursos; tanda dirigida33/34 antes de recargar la expectativa modificada; archivo final repetido completo correctamente. Mantener un navegador por máquinaCI, ocho grupos y barrido anual separado. Registro listo para commit/push autorizado; comprobar HEAD/origin/main al enviar o retomar y no esperar Actions/Pages.

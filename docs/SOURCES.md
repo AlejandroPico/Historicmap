@@ -185,3 +185,8 @@ Autoridades y símbolos revisados con fuentes por intervalo. Taxonomía instituc
 ## Humanidad y hielo · parte5
 
 La ampliación0.55 mantiene cada fuente con su propietario natural. [Método, transformaciones y límites](EARTH-HUMANITY-0.55.md). Homininos: fichas propias con literatura primaria e institucional; fotografías originales con autor/licencia. Hielo: hipótesis boreales de [Batchelor et al.2019](https://doi.org/10.1038/s41467-019-11601-2), originalesOSF, ventanas sin extrapolación, variantes mínima/central/máxima y alcance boreal auditado. CO₂: [Bereiter2015/NOAA](https://doi.org/10.25921/n8y4-bp27), edadesdelgasBP1950 y errores conservados; sin deducir temperatura global o paleocostas.
+
+
+### Integración0.56
+
+Inventario reproducible y límites de las seis partes: [EARTH-INTEGRATION-0.56](EARTH-INTEGRATION-0.56.md) y Tierra/Investigacion/parte-6/integracion.json. Los seis medios adicionales de fósiles/réplicas conservan originales,autor,licencia,página ySHAen las carpetas de suslinajes. Cuaternario conecta bibliografíaICS/LR04/PaleoMIST/Batchelor/NOAA/Smithsonian/NSIDC ya registrada, sin incorporar cifras atmosféricas ni contornos supuestos. Las fuentes originales anteriores se mantienen.

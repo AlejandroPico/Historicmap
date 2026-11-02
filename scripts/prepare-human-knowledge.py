@@ -16,7 +16,7 @@ def save(p,b):
 manifest=read('public/data/manifest.json')
 def register(file,data,source,url,license,**extra):
  b=encoded(data);save('public/data/'+file,b)
- entry=dict(file=file,format=data['format'],version='Historicmap0.55',source=source,url=url,license=license,bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),**extra)
+ entry=dict(file=file,format=data['format'],version='Historicmap0.56',source=source,url=url,license=license,bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),**extra)
  found=next((i for i,e in enumerate(manifest['entries'])if e['file']==file),None)
  if found is None:manifest['entries'].append(entry)
  else:manifest['entries'][found]=entry

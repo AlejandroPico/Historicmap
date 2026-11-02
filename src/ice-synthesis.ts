@@ -6,6 +6,12 @@ export function displayIceSampleFor(year:number):IceReference|undefined{
  const recent=iceSampleFor(year);if(recent)return{...recent,model:iceModel.model,source:iceModel.source,kind:'margin',scope:'Cuatro regiones continentales · sin hielo marino ni cobertura completa de glaciares de montaña'};
  if(!Number.isInteger(year)||year===0)return;
  const age=ageFromYear(year)/1000,s=older.samples.find(s=>age>=s.youngestKa&&age<s.oldestKa);
- return s?{...s,label:s.folder,kind:'interval-hypothesis'}:undefined;
+ return s?{...s,label:s.folder,kind:'interval-hypothesis',scope:'Síntesis de mantos continentales del hemisferio norte; sin reconstrucción antártica, hielo marino ni cobertura completa de glaciares de montaña'}:undefined;
 }
 export function displayIceCaption(year:number){const s=displayIceSampleFor(year);return !s?'':s.kind==='margin'?iceCaption(year):`${s.model} · ${s.label}, ${s.youngestKa}–${s.oldestKa} ka BP1950. ${s.character==='peak-warmth'?'Síntesis del momento cálido':'Síntesis de la extensión máxima dentro del intervalo'}, no frente de este año. Sólo hemisferio norte; no incorpora Antártida ni hielo marino.`;}
+export function iceAvailabilityNote(year:number,visible:boolean){
+ const reference=displayIceSampleFor(year);
+ if(!reference)return'PaleoMIST termina en80.000BP1950 y las síntesis anteriores sólo cubren intervalos específicos; no se extrapolan para esta fecha. La ausencia de contorno disponible no significa ausencia de hielo.';
+ const state=visible?'':reference.kind==='interval-hypothesis'?'Hipótesis glacial disponible, no activada en este modo. ':'Referencia PaleoMIST disponible, no activada en este modo. ';
+ return state+displayIceCaption(year)+' '+reference.scope+'; no paleocosta detallada.';
+}

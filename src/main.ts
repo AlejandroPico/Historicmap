@@ -1,6 +1,7 @@
+import{readableRulerLabels}from'./ruler-labels';
 import{PREHISTORY_START,isPrehistoric,hasHumanEvidence,humanGroups,humanGroupCounts,humanLegend,cultureLabel}from'./prehistory';
 import {prehistoricClimate} from './ice-history';
-import{displayIceSampleFor as iceSampleFor,displayIceCaption as iceCaption}from'./ice-synthesis';
+import{displayIceSampleFor as iceSampleFor,displayIceCaption as iceCaption,iceAvailabilityNote}from'./ice-synthesis';
 import{iceEnabledFor,climateContext,type IceMode}from'./ice-automatic';
 import{distributionsAt,coexistencePattern,distributionCoast,distributionCard,distributionLegend,lineageInventory}from'./human-distributions';
 import{displayLabel}from'./map-presentation';
@@ -388,10 +389,10 @@ function updateSources(){
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a>${year>=-3000?' · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>':''}${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
   $('#source-scope').textContent=hasHumanEvidence(year)?'Yacimientos y ventanas de evidencia, no ocupaciones continuas, fronteras humanas o rutas exactas. Atribuciones biológicas y culturales según las fuentes. Costa contemporánea de referencia.':year<-3000&&year>=-10000?'Comunidades y yacimientos con fechas aproximadas; sin fronteras nacionales ni gobernantes supuestos. Costa contemporánea de referencia.':snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
   if(hasRegionalCoverage(year)){$('#source-links').innerHTML+=' · <a href="https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-MODERN-REVIEW.md" target="_blank" rel="noopener">Pueblos y regiones ↗</a>';$('#source-scope').textContent+=` Regiones culturales: ventanas de consulta ${regionalCoverage.windows.map(w=>w.start+'–'+w.end).join(', ')}; no son fronteras anuales. Las fichas distinguen testimonio espacial, incertidumbre y fechas.`;}
-  if(iceEnabledFor(year,iceMode)&&iceSampleFor(year)){$('#source-links').innerHTML+=` · <a href="${iceSampleFor(year)!.source}" target="_blank" rel="noopener">${esc(iceSampleFor(year)!.model)} · hielo ↗</a>`;$('#source-scope').textContent+=' '+iceCaption(year)+' '+iceSampleFor(year)!.scope+'; no paleocosta detallada.';}
+  if(iceEnabledFor(year,iceMode)&&iceSampleFor(year)){$('#source-links').innerHTML+=` · <a href="${iceSampleFor(year)!.source}" target="_blank" rel="noopener">${esc(iceSampleFor(year)!.model)} · hielo ↗</a>`;$('#source-scope').textContent+=' '+iceAvailabilityNote(year,true);}
   if(year>=-10000&&year<-3000)$('#source-scope').textContent+=' '+prehistoricClimate(year)+'. Límite del Holoceno: 11.700 años antes de 2000, no BP1950. La expansión humana es muy anterior a 10000 a. C.';
-  if(isPrehistoric(year)&&iceSampleFor(year)&&!iceEnabledFor(year,iceMode))$('#source-scope').textContent+=' PaleoMIST cubre hasta80.000BP1950; la síntesis anterior disponible no está activada en este modo. '+iceCaption(year);
-  if(isPrehistoric(year)&&!iceSampleFor(year))$('#source-scope').textContent+=' PaleoMIST termina en80.000BP1950 y las síntesis anteriores sólo cubren intervalos específicos; no se extrapolan para esta fecha.';
+  if(isPrehistoric(year)&&iceSampleFor(year)&&!iceEnabledFor(year,iceMode))$('#source-scope').textContent+=' '+iceAvailabilityNote(year,false);
+  if(isPrehistoric(year)&&!iceSampleFor(year))$('#source-scope').textContent+=' '+iceAvailabilityNote(year,false);
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
   if(governmentFilter)$('#source-links').innerHTML+=' · <a href="https://ourworldindata.org/grapher/political-regime" target="_blank" rel="noopener">Formas políticas / V-Dem ↗</a>';
   if(isPrehistoric(year)){if(distributionCoast(year)!=='countries.geojson')$('#source-scope').textContent=$('#source-scope').textContent!.replace('Costa contemporánea de referencia.','Costas CAO2024 de referencia; fecha del modelo '+distributionCoast(year).match(/\d+/)?.[0]+'Ma. Coordenadas de los fósiles actuales, sin rotación retrospectiva individual.');$('#source-scope').textContent+=' '+climateContext(year)+' Distribuciones regionales estimadas; sus franjas no acreditan guerras ni dominio.';}
@@ -685,6 +686,9 @@ function renderRuler(){
       }
     }
     tick(1,true);track.replaceChildren(fragment);
+    const labels=[...track.querySelectorAll<HTMLElement>('.tick.major')].map(t=>({year:Number(t.dataset.year),x:parseFloat(t.style.left),width:t.querySelector('span')!.getBoundingClientRect().width}));
+    const readable=readableRulerLabels(labels);
+    for(const t of track.querySelectorAll<HTMLElement>('.tick.major')){const label=t.querySelector('span')!;t.title=label.textContent!;t.setAttribute('aria-label',label.textContent!);label.hidden=!readable.has(Number(t.dataset.year));}
   }
   track.style.transform=`translateX(${width/2-position*spacing}px)`;
   $('#ruler').dataset.scale=String(spacing);

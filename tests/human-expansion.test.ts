@@ -39,7 +39,7 @@ it('opens substantial human contexts, supports every article and clearly separat
  expect(humanComparison('longi','denisovan')).toContain('Sin mancha independiente');expect(humanComparison('sapiens','neanderthal')).toContain('no demuestra encuentro');
 });
 it('ships real credited images whole and exposes encyclopedia links inside archaeological and distribution cards',()=>{
- expect(humanKnowledge.images).toHaveLength(12);
+ expect(humanKnowledge.images).toHaveLength(18);
  for(const m of humanKnowledge.images){const b=readFileSync('public/'+m.file);expect(b.length).toBe(m.bytes);expect(createHash('sha256').update(b).digest('hex')).toBe(m.sha256);expect(m.licenseUrl).toMatch(/^https:/);expect(m.canonicalFile).toMatch(/^Tierra\/Humanidad\//);}
  expect(humanPhoto('hominin-afarensis')).toContain('Réplica');expect(humanPhoto('hominin-denisovan')).toContain('cueva');
  const lucy=humanEvidenceAt(sites as any,-3200000).features.find(f=>f.properties!.identityKey==='HOMININ-REF-afarensis')!;expect(humanEvidenceMarkup(lucy.properties!)).toContain('data-encyclopedia-entry="hominin-afarensis"');expect(humanEvidenceMarkup(lucy.properties!)).toContain('Imagen de referencia del linaje');

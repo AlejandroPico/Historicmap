@@ -6,4 +6,4 @@ Leer también **[tareas.md](tareas.md)** y actualizar la pizarra al avanzar o in
 
 Actualizar `agentes.md`, `CHANGELOG.md` y la documentación pertinente en toda entrega que cambie funcionalidad, arquitectura, datos, alcance o limitaciones. No duplicar la especificación en este archivo. No confundir planes con funciones implementadas.
 
-Estado vigente0.55: quinta parte cerrada localmente y preparada para envío; ver sección76 de agentes.md y pizarra de tareas.md. Parte6 pendiente de encargo. Las verificaciones previas0.54 se conservan como historial, no certifican esta entrega.
+Estado vigente0.56: sexta parte y correcciónCI cerradas localmente; ver sección77 de agentes.md y tareas.md. Subir juntas al cerrar, sin esperar Actions/Pages. Las verificaciones anteriores son historial y no certifican esta entrega.
