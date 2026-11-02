@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **2 de noviembre de 2026**. Versión del producto: **0.54.1**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **2 de noviembre de 2026**. Versión del producto: **0.55.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección75; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección76; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** corregir el falloCI de SHA de transcripción comunicado tras0.54.0, subir sin esperar despliegue. Producto0.54.1; ver sección75 y tareas.md. Parte4 conservada, partes5–6 pendientes de encargo.
+**Encargo vigente:** quinta parte autorizada: humanidad, expansión, glaciaciones y transición cultural. Producto0.55.0; ver sección76 y tareas.md. Parte6, revisión integral, pendiente de encargo. Subir al cerrar sin esperar Actions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1586,3 +1586,31 @@ Baseca83a870d. El propietario comunica que npm test falla sólo en earth-models,
 scripts/prepare-earth-models.py calcula la huella del CSV textual tras normalizar únicamenteCRLF→LF y declara transcriptionHashBasis. Vitest aplica el mismo contrato byte a byte, comprueba ambas terminaciones y exige detectar alteraciones de contenido. Nueva pruebaPython ejecuta el compilador real en una carpeta temporal conLF/CRLF; ambas salidas deben coincidir, y cambiar una celda debe modificar huella y datos. El CSV originalPhanDA sigue con hash binario exacto; muestras31 y85 intervalos publicados no se alteran en esta corrección. Verificación efectiva y envío en tareas.md. No esperar Actions/Pages ni comenzar parte5.
 
 Cierre0.54.1:26 focales/4 archivos y36 pruebasPython de investigación correctos; tipos y construcciónVite de producción correctos tras generar etiquetas. No se regenera el catálogo de países porque sus datos/scripts no cambian; no se repite navegador por procedencia sin cambios visuales. Nueva huella comprobada contra el objetoGit real;31 muestras y85 intervalos intactos.291 recursos con bytes/hash conservados (versión de display-labels actualizada sólo en metadato). FuenteCSV y originales sin cambios. Registro preparado para envío autorizado, sin esperar Actions/Pages.
+
+
+## 76. Quinta parte · humanidad, glaciaciones y transición cultural · 0.55.0
+
+Base58135d26a. El propietario encarga parte5 y reserva parte6 para una revisión integral posterior. Informe canónico docs/EARTH-HUMANITY-0.55.md. No avanzar parte6 de oficio ni esperar/sondear despliegues al subir.
+
+39 expedientes de linajes, especies propuestas o poblaciones; no39 especies independientes aceptadas. Correspondencias de las38 entradas aportadas registradas en Tierra/Humanidad/revisiones/parte5. Las cuatro entradas nuevas no añaden cuatro poblaciones dibujadas: las propuestas y poblaciones sin distribución independiente permanecen documentales. Longi/Harbin no duplica una expansión denisovana; sapiens/idaltu y nombres regionales de erectus se encuentran como aliases.
+
+49 artículos humanos (39 fichas y10 procesos) con fuentes, relaciones, esquemas y12 fotografías originales acreditadas, completos en sus carpetas naturales. Enciclopedia abre por contexto entre7Ma y3000a.C.; enlaces desde manchas, inventario y fósiles. Comparador de dos entradas: coincidencia de ventanas no demuestra contacto. Curva y exploradorCO2 con muestra real. Imágenes completas/contain; fósiles, réplicas y paisajes se distinguen. No prometer que cada una de las39 fichas tiene fotografía o una monografía exhaustiva.
+
+Distribuciones: se conservan las66 geometrías anteriores exactamente; dos fases regionales nuevas (Ranis/Harbin) elevan a68 ventanas. Coordenadas previas sin simplificar. Fósiles:1000 anteriores conservados, siete nuevas referencias, total1007; los982 originalesTimmermann siguen byte-lógicamente iguales en sus registros. Colección arqueológica anterior2820 intacta. Nuevos puntos incluyen ventanas editoriales expresas alrededor de edades redondeadas y taxonGroups curados cuando el género no resuelve especie. Los contextos revisados de NesherRamla/Herto/Sima/Denisova acompañan, no sobrescriben, etiquetas originales.
+
+Batchelor2019 añade doce ventanas con best/minimum/maximum separadas,36 recursosgzip sin pérdida y cabecera determinista entre sistemas. Originales181 ficheros binarios congelados conhash; procedencia/licencia del artículo y ausencia de licencia separadaOSF explícitas. Proyección real porarchivo: MIS16max vieneWGS84, no Lambert. Algunas plantillasmínimas incluyen glaciares globales; se preservan originales pero se recorta al hemisferio norte declarado y se audita área/exclusiones. No simplificar ni descartar por tamaño para arreglar topología. Geometrías válidas, antimeridiano dividido, coordenadas finitas; discrepancia de área local máxima~0,0151% trasreproyección, noexactitudhistórica.
+
+PaleoMIST conserva precedencia hasta80ka; huecos desconocidos nointerpolados. Momentoscálidos noautovisibles; Matuyama/Gauss sólo manuales por amplitudtemporal. MIS8/10 conadvertencia especial. Margenes mínimo/máximo se cargan sólo alactivarlos, caché de recursosantiguos acotado a6. El fetch permitegzip crudo yrespuesta ya descomprimida porservidor; testsde navegador debenusar ruta real. NoAntártida antigua inferida de plantilla global, ni hielo marino o espesores.
+
+CO2: Bereiter2015/NOAA,WDS17975,1901 observaciones originalesde edad delgas,ppm y1sigma. JSON compilado desdeoriginalbinario congelado. ReferenciaBP1950, muestra realmás cercana sininterpolación/extrapolación; consumoenprehistoria hasta10001a.C., sinreemplazardatosmodernos. Planetamuestra ppm/porcentaje sinredondearerroracero; barrasusan porcentajesoriginalesconvertidos. No globalT inferida deCO2 oLR04. LR04 conservaproxybentónico, no fronterasdehielo.
+
+Compiladores: prepare-human-distributions.py --human-only [--check] evita regenerar fuentes ajenas; prepare-human-knowledge.py [--check] agrega contenido depropietarios yCO2; prepare-quaternary-synthesis.py [--check] transformaoriginalesGIS, --fetch explícito. Shapely/pyproj/pyshp sólo enpreparación; CI dereproducciónordinaria usa Pythonstdlib. Manifiestos actualizanentradas ensu sitio para no crear diferencias pororden.
+
+Cinco candidatos audiovisuales restantes departe5 registrados condisposición explícita. Las edadesdeHomo/sapiens no se toman delcursor. Crisis mesiniense/inundaciónzancliense contextualizadas conestudios propios; geometríaregional yefectosautomáticos noincorporados. Parte6 revisarála integración, noconvierte estos huecos enhechosyaresueltos.
+
+Verificación y cierre efectivos se actualizan en tareas.md antesdecommit. Mantener ocho gruposCI ybarridoanual separado; ningúnworkflow modificado enestaentrega.
+
+
+Cierrelocal0.55:410/82 pruebas correctas;40Python correctas;20focales trasactualización científica. Los14 recorridos de cinco archivos completos pasan juntos en10min (Tierra, humanidad, Fanerozoico, Precámbrico, regresión0.51). Dos selectores nuevos se corrigieron trasuna tentativa inicial; no ocultar esa tentativa comosi hubiera pasado. Traselajustefinal de presentaciónfotográfica: tipado/construcción correctos, siete focales correctos yQA privadareal enmodomañana, escritorio/móvil yreferenciaPink, sinerrores, desbordamientonirecorte de imagen. Capturas revisadas.
+
+Los tres compiladores reproducenoffline con --check (GIS36 variantes);330 recursos,11franjas,9179 medios y12fotoshumanas verificados;181 originales de hielo y el original de CO₂ intactos. Ningún recurso previo perdido;288/291 conservan bytes/hash ylos treshumanos se amplían preservandocoordenadas yregistros anteriores. Países/culturas/demásfuentes yworkflows intactos.162recorridos/65archivos recopilados; no se ha ejecutado todaesa batería. Registro listo parauna única subidaautorizada; cotejar HEAD/origin/main alretomar. Parte6 siguependiente; no esperar/sondeardespliegues.

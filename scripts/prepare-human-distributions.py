@@ -5,7 +5,8 @@ from shapely.ops import unary_union
 from pyproj import Geod
 parser=argparse.ArgumentParser(description='Compile canonically sourced human distributions and climate references.')
 parser.add_argument('--check',action='store_true',help='Verify reproducibility without writing any file.')
-check=parser.parse_args().check
+parser.add_argument('--human-only',action='store_true',help='Compile the human catalogue, areas and fossils without regenerating unrelated climate/coast resources.')
+args=parser.parse_args();check=args.check
 R=Path('.');read=lambda p:json.loads(Path(p).read_text(encoding='utf-8'))
 def write(p,d):
  data=(json.dumps(d,ensure_ascii=False,separators=(',',':'))+'\n').encode('utf-8')
@@ -17,14 +18,17 @@ def register(file,data,format,source,url,license,**extra):
  # Product-only patches do not change the declared version of scientific data.
  previous=next((e for e in manifest['entries'] if e['file']==file),None)
  resource_version=previous['version'] if check and previous else version
- write('public/data/'+file,data);b=Path('public/data/'+file).read_bytes();e={'file':file,'format':format,'version':resource_version,'source':source,'url':url,'license':license,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),**extra};manifest['entries']=[x for x in manifest['entries'] if x['file']!=file]+[e]
+ write('public/data/'+file,data);b=Path('public/data/'+file).read_bytes();e={'file':file,'format':format,'version':resource_version,'source':source,'url':url,'license':license,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),**extra}
+ index=next((i for i,r in enumerate(manifest['entries'])if r['file']==file),None)
+ if index is None:manifest['entries'].append(e)
+ else:manifest['entries'][index]=e
 coasts=read('Tierra/Paleogeografia/CAO2024/fuentes.json')['originals']
 assert len(coasts)==6
-for s in coasts:
+for s in ([] if args.human_only else coasts):
  raw=read(s['file']);out={'type':'FeatureCollection','features':[]}
  for i,f in enumerate(raw['features']):out['features'].append({'type':'Feature','id':i,'geometry':f['geometry'],'properties':{'name':'Masa continental reconstruida','code':'','color':i%12,'plateId':f.get('properties',{}).get('PLATEID1')}})
  register('coastlines-'+str(s['ma'])+'.geojson',out,'paleogeographic-reference','GPlates / Cao et al.2024',s['url'],'CC-BY-4.0',features=len(out['features']),year=-s['ma']*1000000)
-write('Tierra/Paleogeografia/CAO2024/fuentes.json',{'model':'CAO2024','source':'https://doi.org/10.1016/j.gsf.2024.101922','license':'CC-BY-4.0','originals':coasts,'note':'Original geometry retained. Rotated continental coastlines, not bathymetry-derived Quaternary shorelines. Fossil coordinates retain their present-day reference.'})
+if not args.human_only:write('Tierra/Paleogeografia/CAO2024/fuentes.json',{'model':'CAO2024','source':'https://doi.org/10.1016/j.gsf.2024.101922','license':'CC-BY-4.0','originals':coasts,'note':'Original geometry retained. Rotated continental coastlines, not bathymetry-derived Quaternary shorelines. Fossil coordinates retain their present-day reference.'})
 # Resolve land masks once, without simplifying source vertices.
 land={}
 def coast_for(y):return 'countries.geojson' if y> -500000 else 'coastlines-'+str(min(7,max(1,int((-y+500000)//1000000))))+'.geojson'
@@ -48,7 +52,8 @@ for p in sorted(Path('Tierra/Humanidad/linajes').glob('*/linaje.json')):
  for f in d['fossils']:
   # Record approximate source windows, not a point's continuous occupation.
   a,b=1949-round(f['oldestKa']*1000),1949-round(f['youngestKa']*1000)
-  record={'id':f['id'],'name':f['name'],'identityKey':f['id'],'entityCode':f['id'],'taxon':d['name'],'culture':'','start':a,'end':b,'ageMaxBP':round(f['oldestKa']*1000),'ageMinBP':round(f['youngestKa']*1000),'source':f['source'],'sourceLabel':'Registro de homininos · referencia regional','citation':d['name']+' · '+f['name'],'dateBasis':d['dateBasis']+' '+f['note'],'dateQuality':'reference-window','attributionBasis':d['classification']+'. '+d['note'],'locationBasis':'Referencia regional WGS84 actual, no GPS ni coordenada paleorreconstruida.','canonicalFile':p.as_posix(),'license':'CC0-1.0 (síntesis de hechos con atribución)','kind':'archaeological-reference','referenceKind':'archaeological-site'}
+  record={'id':f['id'],'name':f['name'],'identityKey':f['id'],'entityCode':f['id'],'taxon':f.get('taxon',d['name']),'culture':'','start':a,'end':b,'ageMaxBP':round(f['oldestKa']*1000),'ageMinBP':round(f['youngestKa']*1000),'source':f['source'],'sourceLabel':'Registro de homininos · referencia regional','citation':d['name']+' · '+f['name'],'dateBasis':d['dateBasis']+' '+f['note'],'dateQuality':'reference-window','attributionBasis':d['classification']+'. '+d['note'],'locationBasis':'Referencia regional WGS84 actual, no GPS ni coordenada paleorreconstruida.','canonicalFile':p.as_posix(),'license':'CC0-1.0 (síntesis de hechos con atribución)','kind':'archaeological-reference','referenceKind':'archaeological-site'}
+  if f['id'].startswith('HOMININ-P5-'):record['taxonGroups']=[d['group']]
   sites.append({'type':'Feature','id':f['id'],'geometry':{'type':'Point','coordinates':f['coordinates']},'properties':record})
 for source in sorted(Path('Tierra/Humanidad/fossiles').glob('*.json')):
  extra=read(source);assert extra['format']=='additional-hominin-evidence';sites.extend(extra['records'])
@@ -56,6 +61,10 @@ assert len({f['id'] for f in sites})==len(sites)
 register('human-ranges.geojson',{'type':'FeatureCollection','features':features},'human-range-geometries','Historicmap · síntesis regional con fuentes taxonómicas','https://github.com/AlejandroPico/Historicmap/tree/main/Tierra/Humanidad','CC0-1.0 (envolventes); Natural Earth PD; Cao2024 CC-BY-4.0',features=len(features))
 register('human-lineages.json',{'format':'human-lineage-catalogue','taxa':taxa,'policy':read('Tierra/Humanidad/metodologia.json')},'human-lineage-catalogue','Síntesis taxonómica con fuentes primarias e institucionales','https://humanorigins.si.edu/evidence/human-fossils/species','CC0-1.0 (síntesis editorial)',records=len(taxa))
 register('hominin-sites.geojson',{'type':'FeatureCollection','features':sites},'dated-human-evidence','Referencias fósiles regionales, taxonomía documentada','https://github.com/AlejandroPico/Historicmap/tree/main/Tierra/Humanidad','CC0-1.0 (referencias editoriales); CC-BY-4.0 (Timmermann2022)',features=len(sites),records=len(sites))
+if args.human_only:
+ write('public/data/manifest.json',manifest)
+ print('Prepared',len(taxa),'taxa',len(features),'range windows',len(sites),'reference points',flush=True)
+ raise SystemExit(0)
 # Quantify excess area relative to each region at0BP; display policy is editorial, not a climatic diagnosis.
 ice=read('public/data/ice-model-index.json');geod=Geod(ellps='WGS84')
 def areas(file):

@@ -1,6 +1,7 @@
 import{compareDates}from'../src/dates.ts';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import{gunzipSync}from'node:zlib';
 const root = new URL('../public/data/',import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('manifest.json',root),'utf8'));
 if(!manifest.entries.some(e=>e.file==='territorial-administrations.json'))throw Error('Missing territorial administration provenance');
@@ -9,8 +10,23 @@ for (const entry of manifest.entries) {
   const bytes = await readFile(new URL(entry.file,root));
   if (createHash('sha256').update(bytes).digest('hex') !== entry.sha256) throw new Error(`Checksum mismatch ${entry.file}`);
   for(const [input,expected] of Object.entries(entry.inputSha256??{}))if(createHash('sha256').update(await readFile(new URL(input,root))).digest('hex')!==expected)throw Error(`Stale prepared input ${entry.file}: ${input}`);
-  const data = JSON.parse(bytes);
-  if(entry.format==='dated-human-evidence'){
+  const data = JSON.parse(entry.file.endsWith('.gz')?gunzipSync(bytes):bytes);
+  if(entry.format==='human-knowledge'){
+    if(data.articles.length!==entry.records||new Set(data.articles.map(a=>a.id)).size!==entry.records)throw Error('Invalid human articles');
+    for(const a of data.articles)if(a.sections.length<3||!a.sourceIds.length||a.sourceIds.some(id=>!data.sources[id]))throw Error('Unreferenced human article '+a.id);
+    for(const m of data.images){const b=await readFile(new URL('../public/'+m.file,import.meta.url));if(createHash('sha256').update(b).digest('hex')!==m.sha256||b.length!==m.bytes||!m.license||!m.licenseUrl||!m.canonicalFile)throw Error('Invalid human media '+m.file);}
+  }
+  else if(entry.format==='ice-core-co2'){
+    const original=await readFile(new URL('../'+data.originalFile,import.meta.url));
+    if(createHash('sha256').update(original).digest('hex')!==data.originalSha256||data.rows.length!==entry.records||data.referenceEpoch!==1950||data.rows.some((r,i)=>!Number.isFinite(r.ageBP)||r.co2ppm<=0||r.sigmaPpm<0||i>0&&r.ageBP<data.rows[i-1].ageBP))throw Error('Invalid ice-core CO2');
+  }
+  else if(entry.format==='quaternary-ice-synthesis-index'){
+    if(data.samples.length!==entry.records||data.samples.some(s=>s.youngestKa>=s.oldestKa||!manifest.entries.some(e=>e.file===s.file)||s.uncertaintyFiles.length!==2||s.uncertaintyFiles.some(f=>!manifest.entries.some(e=>e.file===f))))throw Error('Invalid older ice windows');
+  }
+  else if(entry.format==='dated-ice-hypothesis-gzip'){
+    if(data.type!=='FeatureCollection'||data.features.length!==1||data.features[0].geometry.type!=='MultiPolygon'||!['best','minimum','maximum'].includes(data.features[0].properties.variant)||!data.features[0].properties.canonicalFile)throw Error('Invalid older ice hypothesis');
+  }
+  else if(entry.format==='dated-human-evidence'){
     if(data.features.length!==entry.records||data.features.some(f=>f.geometry.type!=='Point'||!f.properties.canonicalFile||!f.properties.taxon||!f.properties.dateBasis||f.properties.start>f.properties.end))throw Error('Invalid human evidence');
   }
   else if(entry.format==='human-range-geometries'){

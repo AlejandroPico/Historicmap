@@ -29,9 +29,9 @@ describe('dated hominin distributions and automatic ice',()=>{
   const p=coexistencePattern(['#ff0000','#0000ff']),focused=coexistencePattern(['#ff0000','#0000ff'],0);let red=0,focusRed=0;for(let i=0;i<p.data.length;i+=4){red+=Number(p.data[i]===255);focusRed+=Number(focused.data[i]===255);}expect(red).toBe(288);expect(focusRed).toBeGreaterThan(red);
  });
  it('does not count alternative Denisovan names as separate biological populations',()=>{
-  expect(lineageCatalogue.taxa).toHaveLength(35);for(const key of['longi','juluensis','georgicus','bodoensis']){const d=lineageCatalogue.taxa.find(t=>t.key===key)!;expect(d.regions).toHaveLength(0);expect(d.classification).toContain('alternativa');}
+  expect(lineageCatalogue.taxa).toHaveLength(39);for(const key of['longi','juluensis','georgicus','bodoensis']){const d=lineageCatalogue.taxa.find(t=>t.key===key)!;expect(d.regions).toHaveLength(0);expect(d.classification).toContain('alternativa');}
   for(const t of lineageCatalogue.taxa){const {canonicalFile,...compiled}=t;expect(compiled).toEqual(read(canonicalFile));}
-  expect(sites.features).toHaveLength(1000);expect(sites.features.filter((f:any)=>f.properties.originalRow)).toHaveLength(982);
+  expect(sites.features).toHaveLength(1007);expect(sites.features.filter((f:any)=>f.properties.originalRow)).toHaveLength(982);
   expect(sites.features.filter((f:any)=>f.properties.originalRow)).toEqual(read('Tierra/Humanidad/fossiles/timmermann2022-anteriores.json').records);
   for(const f of raw.features){expect(f.properties.canonicalFile).toMatch(/^Tierra\/Humanidad\/linajes\//);expect(f.properties.source).toMatch(/^https:\/\//);expect(f.properties.start).toBeLessThanOrEqual(f.properties.end);expect(f.properties.spatialUncertaintyKm).toBeGreaterThan(0);}
  });
@@ -41,7 +41,7 @@ describe('dated hominin distributions and automatic ice',()=>{
   expect(humanEvidenceAt(sites,-2000000).features.some(f=>f.properties!.identityKey==='HOMININ-REF-afarensis')).toBe(false);
  });
  it('uses data-supported excess ice with a manual override and never extrapolates to unmodelled ages',()=>{
-  expect(iceEnabledFor(2026,'auto')).toBe(false);expect(iceEnabledFor(-4000,'auto')).toBe(false);expect(iceEnabledFor(-20000,'auto')).toBe(true);expect(iceEnabledFor(-100000,'auto')).toBe(false);expect(iceEnabledFor(-3200000,'on')).toBe(false);
+  expect(iceEnabledFor(2026,'auto')).toBe(false);expect(iceEnabledFor(-4000,'auto')).toBe(false);expect(iceEnabledFor(-20000,'auto')).toBe(true);expect(iceEnabledFor(-100000,'auto')).toBe(false);expect(iceEnabledFor(-3200000,'on')).toBe(true);
   expect(iceEnabledFor(-20000,'off')).toBe(false);expect(iceEnabledFor(2026,'on')).toBe(true);
   expect(climateRecordFor(-3200000)).toBeDefined();expect(climateRecordFor(-6500000)).toBeUndefined();
  });

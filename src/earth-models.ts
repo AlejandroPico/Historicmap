@@ -3,12 +3,15 @@ import reference from '../Tierra/Fanerozoico/referencia-audiovisual.json' with {
 import{deepAge}from'./deep-earth';
 import{yearFromAge}from'./dates';
 import type{PlanetField,PlanetRecord}from'./planet';
+import{prehistoricCO2,iceCoreCO2}from'./ice-core-co2';
 export type EvidencePolicy='reconstruction'|'video';
-export const physicalSources={phanda:{name:'Judd et al.2024 · PhanDA · mediana y percentiles',url:'https://doi.org/10.1126/science.adk3705',retrieved:'2026-11-02',version:phanda.commit},'video-scenario':{name:'Algol · escenario numérico audiovisual',url:reference.url,retrieved:'2026-11-02',version:'31 puntos seleccionados; referencia ilustrativa, no consenso'}};
+export const physicalSources={phanda:{name:'Judd et al.2024 · PhanDA · mediana y percentiles',url:'https://doi.org/10.1126/science.adk3705',retrieved:'2026-11-02',version:phanda.commit},'video-scenario':{name:'Algol · escenario numérico audiovisual',url:reference.url,retrieved:'2026-11-02',version:'31 puntos seleccionados; referencia ilustrativa, no consenso'},'ice-core-co2':{name:'Bereiter et al.2015 · CO₂ en testigos antárticos · NOAA NCEI',url:iceCoreCO2.source,retrieved:'2026-11-02',version:'Compuesto original de1901 muestras; edad del gas BP1950'}};
 export const phandaBins=phanda.bins;
 export function phandaAt(year:number){const age=deepAge(year);return age>=7?phanda.bins.find(b=>age>b.youngestMa&&age<=b.oldestMa):undefined;}
 export function videoScenarioAt(year:number){const age=deepAge(year);return age>=7&&age<=4540.01?reference.samples.reduce((a,b)=>Math.abs(a.ageMa-age)<=Math.abs(b.ageMa-age)?a:b):undefined;}
 export function physicalRecord(field:PlanetField,year:number,policy:EvidencePolicy='reconstruction'):PlanetRecord|undefined{
+ const core=policy==='reconstruction'&&field==='carbonDioxide'?prehistoricCO2(year):undefined;
+ if(core)return{id:'ice-core-co2-'+core.ageBP,field,value:core.co2ppm/10000,unit:'%',reference:{basis:'BP1950',ageYears:core.ageBP},availableFromYear:Math.ceil(yearFromAge(iceCoreCO2.rows.at(-1)!.ageBP)),validUntilYear:-10001,evidence:'observation-synthesis',quantity:'volume-fraction',uncertainty:{minus:core.sigmaPpm/10000,plus:core.sigmaPpm/10000,description:iceCoreCO2.error},method:`Compuesto antártico Bereiter2015, muestra real más cercana: ${core.co2ppm}ppm a${core.ageBP} años BP1950; ±${core.sigmaPpm}ppm (1σ, según la colección). Edad del gas publicada, no edad del hielo. Sin interpolación o extrapolación; no proporciona temperatura global.`,sourceId:'ice-core-co2',scope:'nearest-published-gas-sample',interpolation:'none'};
  const p=policy==='reconstruction'?phandaAt(year):undefined;
  if(p&&(field==='meanTemperature'||field==='carbonDioxide')){
   const values=field==='meanTemperature'?p.temperature:p.co2ppm,scale=field==='carbonDioxide'?1/10000:1;

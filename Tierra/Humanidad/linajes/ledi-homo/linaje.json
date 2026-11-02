@@ -1,0 +1,51 @@
+{
+  "format": "hominin-lineage",
+  "key": "ledi-homo",
+  "name": "Homo sp. temprano de Ledi-Geraru",
+  "group": "early-homo",
+  "color": "#8fbc96",
+  "oldestKa": 2800,
+  "youngestKa": 2580,
+  "classification": "registro de género · especie no determinada",
+  "source": "https://doi.org/10.1126/science.aaa1343",
+  "references": [
+    {
+      "title": "Homo sp. temprano de Ledi-Geraru · fuente primaria",
+      "url": "https://doi.org/10.1126/science.aaa1343"
+    }
+  ],
+  "note": "Se distingue Homo sin especie de Australopithecus contemporáneo; no se asigna automáticamente a habilis.",
+  "dateBasis": "Edadeska BP1950 aproximadas, trasladadas al eje civil para consulta; no fechas anuales de origen o extinción.",
+  "focus": [
+    40.9,
+    11.3
+  ],
+  "regions": [],
+  "fossils": [
+    {
+      "id": "HOMININ-P5-LEDI-H1",
+      "name": "Ledi-Geraru · Homo temprano LD350-1",
+      "oldestKa": 2800,
+      "youngestKa": 2750,
+      "coordinates": [
+        40.9,
+        11.3
+      ],
+      "source": "https://doi.org/10.1126/science.aaa1343",
+      "note": "Referencia regional WGS84 aproximada; rango publicado del contexto de LD350-1."
+    },
+    {
+      "id": "HOMININ-P5-LEDI-H2",
+      "name": "Ledi-Geraru · Homo, evidencia de2,59Ma",
+      "oldestKa": 2600,
+      "youngestKa": 2580,
+      "coordinates": [
+        40.9,
+        11.3
+      ],
+      "source": "https://doi.org/10.1038/s41586-025-09390-4",
+      "note": "Ventana editorial±10ka alrededor de2,59Ma, no error estadístico ni ocupación continua."
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial)"
+}

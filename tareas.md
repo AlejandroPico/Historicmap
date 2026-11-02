@@ -1,5 +1,31 @@
 # Tareas y continuidad
 
+## Entrega0.55.0 · quinta parte cerrada localmente
+
+El propietario autoriza la parte5: homininos, expansión, glaciaciones y transición humana. Base58135d26a; la revisión integral queda para la sexta parte, sin iniciarla de oficio. Subir al terminar sin esperar Actions/Pages.
+
+- [x] Cerrar correspondencias de las38 entradas aportadas y35 previas: especies, propuestas, poblaciones y nombres regionales, con fuentes y sin duplicar expansiones.
+- [x] Revisar evidencias/localizaciones y fases humanas prioritarias; conservar los982 registros originales y culturas previas.
+- [x] Ampliar hielo con reconstrucciones publicadas apropiadas, incertidumbre y ventanas temporales; sin extrapolarPaleoMIST ni deducir contornos deLR04.
+- [x] Desarrollar enciclopedia humana contextual y fichas de linajes con imágenes acreditadas, diagramas y navegación desde el mapa.
+- [x] Verificar continuidad temporal, selección/persistencia, filtros y2D/3D; pruebas focales y conservación.
+- [x] Actualizar versión, documentación y siguientes pendientes; preparar una única subida autorizada sin esperar despliegue.
+
+Cierre0.55:410 pruebas en82 archivos correctas;40 pruebas de investigación correctas. Tras los últimos cambios de datos/texto,20 focales correctas. Los14 recorridos de cinco archivos completos pasan conjuntamente en10,0min: Tierra/indicadores, humanidad, Fanerozoico, Precámbrico y regresiónhumana0.51. La primera tentativa detectó dos selectores propios incorrectos (figura repetida detrásdel diálogo yconsulta conun título distinto); se corrigieron yse repitieronlosarchivos completos, conservandolasaserciones ylímites.
+
+Últimos ajustes de presentación: leyendas fotográficas legibles enmodo mañana yreferencia de linaje diferenciada delejemplar seleccionado. Tipos/construcción actualizados; siete focales correctas yuna comprobación privada de navegador sobrelaúltimaconstrucción verifica Lucy enescritorio/móvil yPink, imágenes completas/contain, sin erroresde página ni desbordamiento horizontal. Capturas revisadas, incluidas lacurvaCO2 ylosmárgenesboreales.
+
+Reproducciónoffline:los tres compiladores correctos con --check; elGIS reproduce36 variantesy susauditorías. Integridad330 recursos/11 franjas/9179 mediosmás12 imágenes humanas, hashes de los181 originales de hielo y del archivo CO₂ intactos. De291 recursosprevios no se pierdeninguno:288 mantienen bytes/hash ylos tresproductos humanos se amplían; las66geometrías y1000puntos anteriores se conservan dentrodeellos, incluidos982 registrosoriginales idénticos. Países, culturas, fuentesPrecámbrico/Fanerozoico, investigacióndelvídeo, PaleoMIST,LR04, costasanteriores yworkflows sin cambios. Recopilación162recorridos/65archivos correcta; no se repite todaesa batería.
+
+Registro listo para commit/push autorizado. Alretomar cotejar HEAD/origin/main para determinar si resta enviar; no iniciar parte6 deoficio ni esperar/sondear Actions/Pages. No confundir validaciónlocal con despliegue ya publicado.
+
+### Siguiente parte6 · pendiente de encargo
+
+- [ ] Revisión integral del recorrido geológico/humano, controles, escalas temporales yconvivencia dedatos, sin borrar evidencia anterior.
+- [ ] Revisar cobertura bibliográfica y profundidad enciclopédica, ampliar fotografías ligadas aejemplares yvalidar candidatos noadoptados antesdeefectosfechados.
+- [ ] Contrastar paleocostas, hielo antártico antiguo/espesores yventanas glaciales sinmodelo; no rellenarlas por extrapolación.
+- [ ] Evaluar rendimiento ypresentación con el catálogo ampliado, conservando ocho gruposCI ybarridoanual independiente.
+
 ## CorrecciónCI · fuente textual entre Windows/Linux · 0.54.1
 
 Baseca83a870d. Fallo comunicado:1/403 en la huella del CSV de transcripción. No iniciar parte5 ni esperar el despliegue.

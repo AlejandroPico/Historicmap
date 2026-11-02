@@ -5,3 +5,5 @@ Antes de trabajar, leer íntegramente **[agentes.md](agentes.md)**, documento ca
 Leer también **[tareas.md](tareas.md)** y actualizar la pizarra al avanzar o interrumpir trabajo. Conservar comprobaciones, carencias y siguiente paso; no confundir una reanudación de sesión con haber terminado pendientes.
 
 Actualizar `agentes.md`, `CHANGELOG.md` y la documentación pertinente en toda entrega que cambie funcionalidad, arquitectura, datos, alcance o limitaciones. No duplicar la especificación en este archivo. No confundir planes con funciones implementadas.
+
+Estado vigente0.55: quinta parte cerrada localmente y preparada para envío; ver sección76 de agentes.md y pizarra de tareas.md. Parte6 pendiente de encargo. Las verificaciones previas0.54 se conservan como historial, no certifican esta entrega.

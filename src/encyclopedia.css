@@ -31,3 +31,10 @@
 .encyclopedia-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;padding:22px;background:var(--panel);border:1px solid var(--line);margin:25px 0}.encyclopedia-facts span,.encyclopedia-facts a{display:block;font-size:10px;color:var(--muted)}.encyclopedia-facts strong{display:block;font-size:18px;font-weight:500;margin:8px 0}.encyclopedia-reading section{scroll-margin-top:20px}
 .encyclopedia-facts>small{grid-column:1/-1;color:var(--muted);font-size:10px}
 .encyclopedia-diagram svg{height:auto;aspect-ratio:660/290;max-height:330px}
+.human-diagram svg{aspect-ratio:760/340;max-height:380px}
+.human-lab{padding:24px;border:1px solid var(--line);background:var(--panel);margin:28px 0}
+.human-compare-inputs,.human-compare-result>div{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.human-compare-inputs label{display:grid;gap:8px;font-size:12px}.human-compare-inputs select{width:100%;min-width:0;background:var(--panel);color:var(--text);border:1px solid var(--line);padding:10px}
+.human-compare-result article{min-width:0;padding:15px 0}.human-compare-result h3{font-size:16px}.human-compare-result small{display:block;color:var(--muted);line-height:1.7}.human-lab button{padding:10px 12px;border:1px solid var(--line);margin:12px 0;color:var(--text)}
+.human-lab input[type=range]{width:100%;margin:18px 0;accent-color:var(--gold)}.human-lab output{display:block}.human-lab output strong{font-size:24px}.human-lab>a{display:block;font-size:12px}
+@media(max-width:600px){.human-compare-inputs,.human-compare-result>div{grid-template-columns:1fr}.human-lab{padding:14px}.human-diagram{overflow-x:auto}.human-diagram svg{min-width:600px}}

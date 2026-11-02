@@ -24,6 +24,14 @@
     {
       "title": "Híbrida de madre neandertal y padre denisovano · evidencia localizada",
       "url": "https://doi.org/10.1038/s41586-018-0455-x"
+    },
+    {
+      "title": "Fu et al.2025 · proteoma de Harbin",
+      "url": "https://doi.org/10.1126/science.adu9677"
+    },
+    {
+      "title": "Demeter et al.2022 · molar de Tam Ngu Hao2",
+      "url": "https://doi.org/10.1038/s41467-022-29923-z"
     }
   ],
   "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción. Harbin y Xujiayao se relacionan molecularmente con denisovanos; no se representan como imperios biológicos distintos bajo los nombres longi/juluensis. La mezcla genética está documentada, pero su contribución varía entre poblaciones e individuos; no se afirma un porcentaje uniforme o ADN arcaico detectable en toda persona.",
@@ -81,8 +89,50 @@
       "certainty": "regional-estimate",
       "spatialUncertaintyKm": 300,
       "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "denisovan-harbin",
+      "oldestKa": 309,
+      "youngestKa": 146,
+      "bounds": [
+        124,
+        43,
+        129,
+        48
+      ],
+      "label": "Noreste de China · Harbin",
+      "source": "https://doi.org/10.1126/science.adu9677",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200,
+      "note": "Hipótesis regional de consulta apoyada en la afinidad molecular de Harbin.146ka es un mínimo publicado; la ventana309–146ka se conserva como rango cronológico consultivo de la atribución previa, no origen/extinción del linaje."
     }
   ],
-  "fossils": [],
+  "fossils": [
+    {
+      "id": "HOMININ-P5-HARBIN",
+      "name": "Harbin · afinidad molecular denisovana",
+      "oldestKa": 309,
+      "youngestKa": 146,
+      "coordinates": [
+        126.65,
+        45.76
+      ],
+      "source": "https://doi.org/10.1126/science.adu9677",
+      "note": "Coordenada regional de Harbin, no punto de excavación. El mínimo146ka no fija la primera aparición del linaje."
+    },
+    {
+      "id": "HOMININ-P5-LAOS",
+      "name": "Tam Ngu Hao2 · molar de afinidad denisovana",
+      "oldestKa": 164,
+      "youngestKa": 131,
+      "coordinates": [
+        103.4,
+        20.2
+      ],
+      "source": "https://doi.org/10.1038/s41467-022-29923-z",
+      "note": "Referencia regional de Laos; afinidad propuesta por anatomía/proteínas, no genoma completo.",
+      "taxon": "Homo sp. · afinidad denisovana"
+    }
+  ],
   "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
 }

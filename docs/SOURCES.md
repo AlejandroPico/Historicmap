@@ -180,3 +180,8 @@ Autoridades y símbolos revisados con fuentes por intervalo. Taxonomía instituc
 ## Ampliación 1600–1699 ·0.20
 
 783 intervalos componentes de la misma revisión fijada de Cliopatria, CCBY4.0, sin modificar coordenadas ni archivos posteriores. 196 intervalos de autoridades revisados y 31 ventanas de símbolos con licencia individual. Calendarios y regencias explícitos; los diseños modernos o sin testimonio histórico no se convierten en banderas nacionales antiguas. [Investigación, preparación y límites](RESEARCH-1600.md); [auditoría anual](REVIEW-1600-1699.json). Los puntos regionales de conflictos no son geometrías de control militar.
+
+
+## Humanidad y hielo · parte5
+
+La ampliación0.55 mantiene cada fuente con su propietario natural. [Método, transformaciones y límites](EARTH-HUMANITY-0.55.md). Homininos: fichas propias con literatura primaria e institucional; fotografías originales con autor/licencia. Hielo: hipótesis boreales de [Batchelor et al.2019](https://doi.org/10.1038/s41467-019-11601-2), originalesOSF, ventanas sin extrapolación, variantes mínima/central/máxima y alcance boreal auditado. CO₂: [Bereiter2015/NOAA](https://doi.org/10.25921/n8y4-bp27), edadesdelgasBP1950 y errores conservados; sin deducir temperatura global o paleocostas.

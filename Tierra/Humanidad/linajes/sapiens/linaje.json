@@ -56,6 +56,18 @@
     {
       "title": "Híbrida de madre neandertal y padre denisovano · evidencia localizada",
       "url": "https://doi.org/10.1038/s41586-018-0455-x"
+    },
+    {
+      "title": "Pederzani et al.2024 · sapiens en estepas frías de Ranis",
+      "url": "https://doi.org/10.1038/s41559-023-02318-z"
+    },
+    {
+      "title": "Zhang et al.2022 · genoma de Maludong",
+      "url": "https://doi.org/10.1016/j.cub.2022.06.016"
+    },
+    {
+      "title": "White et al.2003 · fósiles de Herto",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12802332/"
     }
   ],
   "note": "Rango fósil aproximado; las áreas son envolventes regionales editoriales de consulta, no fronteras ni presencia uniforme. Los extremos no son fechas exactas de aparición o extinción. La mezcla genética está documentada, pero su contribución varía entre poblaciones e individuos; no se afirma un porcentaje uniforme o ADN arcaico detectable en toda persona.",
@@ -369,8 +381,46 @@
       "certainty": "regional-estimate",
       "spatialUncertaintyKm": 300,
       "note": "Envolvente regional interpretativa; no cubre cada asentamiento, todos los individuos o rutas exactas. No presupone presencia continua dentro de la ventana."
+    },
+    {
+      "id": "sapiens-ranis",
+      "oldestKa": 47.5,
+      "youngestKa": 43.3,
+      "bounds": [
+        8.5,
+        48,
+        15,
+        53
+      ],
+      "label": "Europa central · evidencia de Ranis",
+      "source": "https://doi.org/10.1038/s41559-023-02318-z",
+      "certainty": "regional-estimate",
+      "spatialUncertaintyKm": 200,
+      "note": "Envolvente editorial alrededor de la región de Ranis; no atribuye toda Europa al linaje ni presencia continua. Rango calBP de niveles publicados, no edad de una sola persona."
     }
   ],
-  "fossils": [],
-  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia"
+  "fossils": [
+    {
+      "id": "HOMININ-P5-MZR",
+      "name": "Maludong · MZR/Mengzi Ren",
+      "oldestKa": 14.5,
+      "youngestKa": 13.5,
+      "coordinates": [
+        103.4,
+        23.4
+      ],
+      "source": "https://doi.org/10.1016/j.cub.2022.06.016",
+      "note": "Ventana editorial±0,5ka alrededor de la edad redondeada14ka del individuo secuenciado; no abarca todos los restos de Maludong o Longlin.",
+      "taxon": "Homo sapiens · MZR"
+    }
+  ],
+  "license": "CC0-1.0 (síntesis editorial y geometría de delimitación); datos costeros con licencia propia",
+  "aliases": [
+    "Homo sapiens sapiens",
+    "Homo sapiens idaltu",
+    "Herto",
+    "Mengzi Ren",
+    "MZR",
+    "Maludong"
+  ]
 }

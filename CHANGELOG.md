@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.55.0 · 2026-11-02
+
+- Quinta parte: 49 artículos humanos contextualizados, 39 entradas taxonómicas/poblacionales, 12 fotografías acreditadas, diagramas y comparador de linajes; enlaces desde manchas y yacimientos.
+- Dos fases regionales y siete referencias fósiles nuevas; conservadas las66 geometrías y los982 registros originales anteriores. Correspondencias de la lista aportada y revisiones contextuales sin sobrescribir atribuciones originales.
+- Doce ventanas glaciales boreales de Batchelor2019 con36 recursos comprimidos sin pérdida, variantes mínima/máxima optativas, límites de cobertura y selección automática sin extrapolar; PaleoMIST mantiene precedencia.
+- Compuesto antártico de1.901 observaciones deCO₂: edad real del gas, ppm, porcentaje y error; gráfica y explorador interactivos. No se deducen temperatura global, paleocostas o guerras de esas referencias.
+- Conservación de países/culturas y ocho gruposCI más barrido anual independiente. [Alcance y pendientes](docs/EARTH-HUMANITY-0.55.md); parte6 pendiente de encargo.
+
 ## 0.51.1 · 2026-11-01
 
 - Corregida una expectativa antigua de navegador: Capas contiene el selector de hielo; gobierno, alianzas y tema cartográfico siguen exclusivamente en Filtros. Se mantienen las comprobaciones de opciones positivas, cero resultados, foco y móvil.

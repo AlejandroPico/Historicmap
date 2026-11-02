@@ -1,7 +1,7 @@
 import{describe,it,expect}from'vitest';
 import{readFileSync}from'node:fs';import{createHash}from'node:crypto';
 import{deepAge,deepSceneAt,deepScenes,deepSources,deepIceAt,deepBackground,chronologyDisplayColor}from'../src/deep-earth';
-import{curatedArticles,encyclopediaArticle,encyclopediaForYear,encyclopediaIndex,searchEncyclopedia}from'../src/encyclopedia-model';
+import{curatedArticles,encyclopediaSources,encyclopediaArticle,encyclopediaForYear,encyclopediaIndex,searchEncyclopedia}from'../src/encyclopedia-model';
 import{planetRecordFor,planetValue}from'../src/planet';
 import{geologicalUnits}from'../src/earth-chronology';
 import{yearFromAge}from'../src/dates';
@@ -28,7 +28,7 @@ describe('Precambrian scenarios and contextual encyclopedia',()=>{
  });
  it('opens by the consulted context and preserves detailed articles, links and all chronological references',()=>{
   expect(encyclopediaForYear(-4540000000)).toBe('formation');expect(encyclopediaForYear(at(700))).toBe('ice');expect(encyclopediaForYear(2026)).toBe('human-contemporary');expect(encyclopediaArticle('geo-Hadean')?.sections).toEqual(encyclopediaArticle('hadean')?.sections);
-  for(const a of curatedArticles){expect(a.sections.length).toBeGreaterThanOrEqual(3);for(const id of a.related)expect(encyclopediaArticle(id),a.id+':'+id).toBeDefined();for(const id of a.sourceIds)expect(deepSources).toHaveProperty(id);}
+  for(const a of curatedArticles){expect(a.sections.length).toBeGreaterThanOrEqual(3);for(const id of a.related)expect(encyclopediaArticle(id),a.id+':'+id).toBeDefined();for(const id of a.sourceIds)expect(encyclopediaSources).toHaveProperty(id);}
   for(const entry of encyclopediaIndex())expect(encyclopediaArticle(entry.id),entry.id).toBeDefined();expect(searchEncyclopedia('nucleo').some(a=>a.id==='interior')).toBe(true);expect(searchEncyclopedia('Precámbrico').some(a=>a.id==='geo-Precambrian')).toBe(true);expect(encyclopediaArticle('video-event-035')?.related).toContain('matachewan');expect(encyclopediaArticle('kpg')?.summary).toContain('no cerró el Jurásico');
  });
  it('accounts for every observed Precambrian candidate without converting OCR dates to physical effects',()=>{

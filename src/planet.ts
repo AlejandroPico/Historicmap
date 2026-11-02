@@ -22,6 +22,7 @@ export function planetRecordFor(field:PlanetField,year:number,records=planetReco
 }
 export function planetValue(record:PlanetRecord|undefined){
  if(!record||record.value===null)return'Sin estimación incorporada';
+ if(record.sourceId==='ice-core-co2'&&typeof record.value==='number'){const ppm=(n:number)=>n.toLocaleString('es',{maximumFractionDigits:3});return`${ppm(record.value*10000)}${record.uncertainty?' ± '+ppm(record.uncertainty.plus*10000):''} ppm · ${record.value.toLocaleString('es',{maximumFractionDigits:6})} %`;}
  const f=(n:number)=>n.toLocaleString('es',{maximumFractionDigits:record.sourceId==='phanda'&&record.field==='meanTemperature'?1:3});
  const value=typeof record.value==='number'?f(record.value):`${f(record.value.min)}–${f(record.value.max)}`;
  const error=record.uncertainty?(record.uncertainty.minus===record.uncertainty.plus?` ± ${f(record.uncertainty.plus)}`:` −${f(record.uncertainty.minus)}/+${f(record.uncertainty.plus)}`):'';

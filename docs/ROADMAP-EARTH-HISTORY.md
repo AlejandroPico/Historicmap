@@ -83,3 +83,8 @@ Subir las entregas comprobadas a GitHub sin esperar ni sondear Actions/Pages, po
 ## Estado2/11/2026 · cuarta parte
 
 0.54.0 incorpora Fanerozoico hasta7Ma, PhanDA, escenarios atmosféricos audiovisuales identificados y enciclopedia ampliada. Se elimina la pestaña cronológica duplicada y las bandas completas se pueden ocultar. Ver [entrega](EARTH-PHANEROZOIC-0.54.md). Parte5 sigue dedicada a homininos/transición humana; parte6 cerrará integración y auditoría. Pendientes: modelos glaciales antiguos más precisos, curvas adicionales, eventos con contraste específico y monografías extensas, sin convertir referencias ilustrativas en observaciones.
+
+
+## Estado2/11/2026 · quinta parte
+
+0.55.0 amplía humanidad y transición cultural con49 artículos,39 entradas documentales, medios ycomparadores; añade hipótesis boreales anteriores yCO₂ antártico con edadesdelgas originales. [Fuentes ylímites](EARTH-HUMANITY-0.55.md). Parte6 continúa pendiente deencargo: revisiónintegral, más paleocostas/modelosglaciales yprofundización documental, sin extrapolar geometrías ausentes ni confundir un nombre alternativoconotra población.

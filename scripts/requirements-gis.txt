@@ -1,0 +1,5 @@
+# Data preparation only; application builds and ordinary CI do not install these.
+# Tested with Python3.12 on Windows for the 0.55 scientific compilation.
+shapely==2.2.0
+pyproj==3.8.0
+pyshp==3.1.6

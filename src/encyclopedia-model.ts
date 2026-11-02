@@ -5,10 +5,12 @@ import phanerozoicReview from '../Tierra/Fanerozoico/revision-video.json' with {
 import{deepSceneAt,deepSources}from'./deep-earth';
 import{geologicalUnits,geologicalAt,humanUnits,humanAt,rankLabels,geologicalRangeLabel,humanChronologySources}from'./earth-chronology';
 import{yearFromAge}from'./dates';
+import{humanKnowledge,humanArticleForYear}from'./human-knowledge';
+import lineages from'../public/data/human-lineages.json'with{type:'json'};
 export interface EncyclopediaArticle{id:string;title:string;summary:string;sections:{title:string;text:string}[];sourceIds:string[];related:string[];diagram:string;year:number;videoStart?:number;kind?:string;themeId?:string}
-export const curatedArticles=[...content.articles,...phanerozoic.articles] as EncyclopediaArticle[];
+export const curatedArticles=[...content.articles,...phanerozoic.articles,...humanKnowledge.articles] as EncyclopediaArticle[];
 const periodThemes:Record<string,string>={Cambrian:'cambrian',Ordovician:'ordovician',Silurian:'silurian',Devonian:'devonian',Carboniferous:'carboniferous',Permian:'permian',Triassic:'triassic',Jurassic:'jurassic',Cretaceous:'cretaceous',Paleogene:'paleogene',Neogene:'neogene'};
-const reviewedEvents=[...new Map([...review.events,...phanerozoicReview.events].map(e=>[e.videoId,e])).values()];
+const reviewedEvents=[...new Map([...review.events,...phanerozoicReview.events,...humanKnowledge.videoReview.events].map(e=>[e.videoId,e])).values()];
 export function encyclopediaArticle(id:string):EncyclopediaArticle|undefined{
  const authored=curatedArticles.find(a=>a.id===id);if(authored)return{...authored,kind:'Artículo temático'};
  const event=reviewedEvents.find(e=>e.videoId===id);
@@ -19,7 +21,7 @@ export function encyclopediaArticle(id:string):EncyclopediaArticle|undefined{
  const human=humanUnits.find(u=>'human-'+u.id===id);
  if(human)return{id,title:human.name,summary:human.scope,year:human.startYear,kind:'Referencia humana regional',diagram:'chronology',sourceIds:[],related:['uncertainty'],sections:[{title:'Una periodización situada',text:`${human.name} se consulta para ${human.scope}. Es una referencia ${human.precision}; no una etapa universal que todo el planeta atravesara a la vez.`},{title:'Cómo se relaciona con el mapa',text:'Culturas, formas políticas, territorios y gobernantes se consultan con sus propios intervalos y evidencias. Una fecha puede pertenecer a varias periodizaciones regionales. Las fichas existentes de territorios se conservan al regresar al mapa.'},{title:'Referencia',text:humanChronologySources[human.sourceId].title}]};
 }
-export function encyclopediaForYear(year:number){const scene=deepSceneAt(year);if(scene)return scene.article;const human=humanAt(year).find(u=>u.lane==='overview');if(human)return'human-'+human.id;const units=geologicalAt(year);return'geo-'+(units.find(u=>u.rank==='period')??units.find(u=>u.rank==='era')??units.find(u=>u.rank==='eon'))!.id;}
+export function encyclopediaForYear(year:number){const scene=deepSceneAt(year);if(scene)return scene.article;const thematic=humanArticleForYear(year);if(thematic)return thematic;const human=humanAt(year).find(u=>u.lane==='overview');if(human)return'human-'+human.id;const units=geologicalAt(year);return'geo-'+(units.find(u=>u.rank==='period')??units.find(u=>u.rank==='era')??units.find(u=>u.rank==='eon'))!.id;}
 export const encyclopediaIndex=(archive=false)=>[...curatedArticles.map(a=>({id:a.id,title:a.title,group:'Conceptos y procesos'})),...geologicalUnits.map(u=>({id:'geo-'+u.id,title:u.name,group:rankLabels[u.rank]})),...humanUnits.map(u=>({id:'human-'+u.id,title:u.name,group:'Edades humanas'})),...(archive?reviewedEvents.map(e=>({id:e.videoId,title:e.name,group:'Archivo audiovisual'})):[])];
-export function searchEncyclopedia(query:string,archive=false){const norm=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const q=norm(query.trim());return encyclopediaIndex(archive).filter(a=>!q||norm(a.title+' '+a.group).includes(q));}
-export const encyclopediaSources=deepSources;
+export function searchEncyclopedia(query:string,archive=false){const norm=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const q=norm(query.trim());return encyclopediaIndex(archive).filter(a=>!q||norm(a.title+' '+a.group+' '+((lineages.taxa.find(t=>'hominin-'+t.key===a.id)as{aliases?:string[]}|undefined)?.aliases??[]).join(' ')).includes(q));}
+export const encyclopediaSources={...deepSources,...humanKnowledge.sources};

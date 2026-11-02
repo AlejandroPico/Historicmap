@@ -1,0 +1,24 @@
+{
+  "model": "Batchelor et al.2019",
+  "source": "https://doi.org/10.1038/s41467-019-11601-2",
+  "repository": "https://osf.io/7jen3/",
+  "repositoryDoi": "https://doi.org/10.17605/OSF.IO/7JEN3",
+  "license": "CC-BY-4.0 · author reconstructions accompanying the open-access article",
+  "rightsNote": "Associated article is CC-BY-4.0; OSF node has no separately populated license field. Preserve author attribution and original README scope; these are the authors' hypotheses, not redistribution of the underlying third-party empirical maps.",
+  "coverage": "Northern Hemisphere grounded ice sheets; no Antarctic reconstruction, floating sea ice or completeness of mountain glaciers",
+  "selection": "Only published time-slices, with PaleoMIST retained through80000BP. Best estimate plus original minimum/maximum outlines. No interpolation across gaps; broad palaeomagnetic-chron syntheses are manual-only.",
+  "slices": [
+    {"id":"mis5a","folder":"MIS 5a","youngestKa":72,"oldestKa":86,"autoVisible":false,"character":"peak-warmth"},
+    {"id":"mis5b","folder":"MIS 5b","youngestKa":86,"oldestKa":92,"autoVisible":true,"character":"within-interval-maximum"},
+    {"id":"mis5c","folder":"MIS 5c","youngestKa":92,"oldestKa":108,"autoVisible":false,"character":"peak-warmth"},
+    {"id":"mis5d","folder":"MIS 5d","youngestKa":108,"oldestKa":117,"autoVisible":true,"character":"within-interval-maximum"},
+    {"id":"mis6","folder":"MIS 6","youngestKa":132,"oldestKa":190,"autoVisible":true,"character":"within-interval-maximum"},
+    {"id":"mis8","folder":"MIS 8","youngestKa":243,"oldestKa":279,"autoVisible":true,"character":"highly-uncertain-maximum"},
+    {"id":"mis10","folder":"MIS 10","youngestKa":337,"oldestKa":365,"autoVisible":true,"character":"highly-uncertain-maximum"},
+    {"id":"mis12","folder":"MIS 12","youngestKa":429,"oldestKa":477,"autoVisible":true,"character":"within-interval-maximum"},
+    {"id":"mis16","folder":"MIS 16","youngestKa":622,"oldestKa":677,"autoVisible":true,"character":"within-interval-maximum"},
+    {"id":"mis20-24","folder":"MIS 20-24","youngestKa":790,"oldestKa":928,"autoVisible":true,"character":"multi-cycle-synthesis"},
+    {"id":"matuyama","folder":"Early Matuyama Chron","youngestKa":1780,"oldestKa":2600,"autoVisible":false,"character":"broad-chron-manual-only"},
+    {"id":"gauss","folder":"Late Gauss Chron","youngestKa":2600,"oldestKa":3590,"autoVisible":false,"character":"broad-chron-manual-only"}
+  ]
+}

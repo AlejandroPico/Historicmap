@@ -11,8 +11,9 @@ const requests=new Map<string,Promise<unknown>>();
 export function asset<T>(file:string):Promise<T>{
   const previous=requests.get(file);
   if(previous){requests.delete(file);requests.set(file,previous);return previous as Promise<T>;}
-  const request=fetch(base+file).then(async r=>{if(!r.ok)throw Error(`${file}: ${r.status}`);return r.json();}).catch(error=>{requests.delete(file);throw error;});
+  const request=fetch(base+file).then(async r=>{if(!r.ok)throw Error(`${file}: ${r.status}`);if(!file.endsWith('.gz'))return r.json();const bytes=new Uint8Array(await r.arrayBuffer());return bytes[0]===31&&bytes[1]===139?new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).json():JSON.parse(new TextDecoder().decode(bytes));}).catch(error=>{requests.delete(file);throw error;});
   requests.set(file,request);
+  const olderIce=[...requests.keys()].filter(k=>k.startsWith('ice-batchelor-'));if(olderIce.length>6)requests.delete(olderIce[0]);
   // Bound retained geological/snapshot data; shared contemporary/history assets persist.
   const snapshots=[...requests.keys()].filter(k=>k.startsWith('world_')||k.startsWith('coastlines-'));
   if(snapshots.length>3)requests.delete(snapshots[0]);
