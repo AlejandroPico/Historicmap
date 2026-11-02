@@ -79,3 +79,7 @@ Datos y originales bajo sus entidades o fenómenos correspondientes, con fuentes
 Pruebas de continuidad temporal, límites del modelo, selección y lectura de fichas, alternancia de capas, representación 2D/3D y conservación de lo anterior. No usar un salto mayor de la regla como excusa para perder episodios intermedios documentados. No aumentar el límite de 400 años de los estudios políticos para fabricar miles de mandatos anuales prehistóricos; la resolución arqueológica es un contrato distinto.
 
 Subir las entregas comprobadas a GitHub sin esperar ni sondear Actions/Pages, por instrucción del propietario. Mantener `agentes.md` y `tareas.md` con hechos, pendientes y siguiente fase autorizada.
+
+## Estado2/11/2026 · cuarta parte
+
+0.54.0 incorpora Fanerozoico hasta7Ma, PhanDA, escenarios atmosféricos audiovisuales identificados y enciclopedia ampliada. Se elimina la pestaña cronológica duplicada y las bandas completas se pueden ocultar. Ver [entrega](EARTH-PHANEROZOIC-0.54.md). Parte5 sigue dedicada a homininos/transición humana; parte6 cerrará integración y auditoría. Pendientes: modelos glaciales antiguos más precisos, curvas adicionales, eventos con contraste específico y monografías extensas, sin convertir referencias ilustrativas en observaciones.

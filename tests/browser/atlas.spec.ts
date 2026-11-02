@@ -62,24 +62,27 @@ test('fixed center cursor, keyboard navigation, exact date, about and narrow lay
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
   await expect(page.locator('#chapters-button,.story-panel,#time-scale')).toHaveCount(0);
 });
-test('every shipped cartographic snapshot renders without exceeding GPU segments',async({page})=>{
+// Keep all shipped resources covered, but distribute bounded batches across CI shards.
+const cartographicSamples=[...historicalYears.map(y=>{const snapshot=snapshotFor(y);return{year:y,file:snapshot.kind==='annual'?`history-${y}`:snapshot.file!};}),...geologicalMa.map(ma=>{const year=ma===1?-1000001:-ma*1e6;return{year,file:snapshotFor(year).kind==='prehistoric'?`prehistory-${year}`:`coastlines-${ma}.geojson`};})];
+for(let offset=0;offset<cartographicSamples.length;offset+=8){
+ const samples=cartographicSamples.slice(offset,offset+8);
+ test(`cartographic snapshots ${offset+1}–${offset+samples.length} render without exceeding GPU segments`,async({page})=>{
   test.setTimeout(240000);
-  const geometryWarnings:string[]=[];
-  page.on('console',message=>{if(message.text().includes('Max vertices per segment'))geometryWarnings.push(message.text());});
+  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+  page.on('console',message=>{if(message.text().includes('Max vertices per segment'))errors.push(message.text());});
   await page.goto('/');
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson',{timeout:45000});
   await disableRelief(page);
-  // A global planar view also covers snapshots whose land lies on the far hemisphere.
+  // A global planar view also covers land on the far hemisphere.
   await page.locator('#projection-button').click();
-  const samples=[...historicalYears.map(y=>{const snapshot=snapshotFor(y);return{year:y,file:snapshot.kind==='annual'?`history-${y}`:snapshot.file!};}),...geologicalMa.map(ma=>{const year=ma===1?-1000001:-ma*1e6;return{year,file:snapshotFor(year).kind==='prehistoric'?`prehistory-${year}`:`coastlines-${ma}.geojson`};})];
   for(const sample of samples){
-    await page.locator('#date-button').click();
-    await page.getByLabel('Año (negativo para a. C.)').fill(String(sample.year));
-    await page.getByRole('button',{name:'Explorar fecha'}).click();
+    await date(page,sample.year);
     await expect(page.locator('#map')).toHaveAttribute('data-rendered',sample.file,{timeout:45000});
+    await expect(page.locator('#date-button')).toBeVisible();
   }
-  expect(geometryWarnings).toEqual([]);
-});
+  expect(errors).toEqual([]);
+ });
+}
 test('compact tools and independent map/timeline wheel zoom',async({page})=>{
   await page.goto('/#year=1800&view=globe');
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-1800',{timeout:45000});

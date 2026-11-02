@@ -1,5 +1,20 @@
 # Tareas y continuidad
 
+## Entrega0.54.0 · parte4 y revisión de enfoque
+
+Autorizado el2/11/2026: Fanerozoico hasta homininos, enciclopedia independiente del vídeo, más recursos temáticos y explicaciones; indicadores numéricos antiguos con procedencia; revisar etapa rojiza, hielo y ritmo de la regla. Conservar datos previos y subir sin esperar Actions.
+
+- [x] Retirar pestaña Cronología del panel; jerarquía completa en la regla, bandas activables por defecto y más espacio para el Fanerozoico.
+- [x] Ampliar representación Cámbrico–homininos, clima/glaciaciones/extinciones con fuentes e incertidumbre.
+- [x] Incorporar datos publicados de temperatura y escenarios numéricos de referencia audiovisual cotejados, sin presentarlos como mediciones ni normalizar mezclas inconsistentes.
+- [x] Rehacer lectura enciclopédica y artículos: recursos específicos, fuentes diversas, fotografías/ilustraciones temáticas, vídeos optativos diferentes; no reproducir siempre el vídeo de referencia.
+- [x] Mejorar hielo y explicar/representar alternativas rojizas (neblina atmosférica frente a agua/depósitos de hierro), sin confundir escenarios con certezas.
+- [x] Verificar archivos finales completos pertinentes, conservación y producción; cerrar documentación y preparar el envío autorizado.
+
+Estado de verificación0.54: construcción y tipos correctos;403 pruebas en81 archivos correctas;35 de investigación correctas;26 focales correctas tras los ajustes de indicadores. Integridad291 recursos/11 franjas/9179 medios correcta y cinco medios nuevos cotejados;283 recursos previos conservan bytes/hash. Países, Humanidad, Cuaternario, investigación original eICS intactos. Recopilación157 recorridos en64 archivos correcta.
+
+La primera ejecución de navegador tuvo8 correctos y un timeout global del antiguo recorrido monolítico. Se conservan sus39 consultas y se dividen en cinco bloques de hasta8, con el mismo límite: los13 recorridos de los cuatro archivos completos pasan después (13,2min). No se declara verde la tentativa previa. Revisión visual corrige figuras reducidas por el estilo de iconos. Últimos ajustes: comparación audiovisual conserva datos modernos al volver al presente; gráfica usa la fecha consultada. Tipos,26 focales y construcción correctos; repetición final de los cinco recorridos completos de Tierra/enciclopedia correcta (4,3min). Capturas de escritorio, móvil, horizontal y figura climática revisadas. Registro cerrado y preparado para commit/push; al retomar cotejar HEAD/origin/main antes de repetir. No esperar Actions/Pages. Próxima parte5 pendiente de encargo.
+
 ## Entrega0.53.0 · parte3/6 y enciclopedia
 
 Autorizado por el propietario tras la corrección77cf39202. Formación y Precámbrico, más enciclopedia contextual de pantalla completa. Conservar los registros posteriores y no confundir escenarios visuales con costas observadas ni valores OCR con medidas.

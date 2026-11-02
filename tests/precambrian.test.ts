@@ -14,13 +14,13 @@ const at=(ma:number)=>yearFromAge(ma*1e6);
 describe('Precambrian scenarios and contextual encyclopedia',()=>{
  it('covers every boundary without overlap, preserves the Cambrian handover and has sources',()=>{
   for(let i=0;i<deepScenes.length;i++){const s=deepScenes[i];if(i)expect(deepScenes[i-1].youngestMa).toBe(s.oldestMa);expect(deepSceneAt(at((s.oldestMa+s.youngestMa)/2))?.id).toBe(s.id);for(const id of s.sourceIds)expect(deepSources).toHaveProperty(id);expect(encyclopediaArticle(s.article)).toBeDefined();}
-  for(let ma=539;ma<=4540;ma++)expect(deepSceneAt(at(ma))).toBeDefined();expect(deepSceneAt(at(538.8))).toBeUndefined();expect(deepSceneAt(2026)).toBeUndefined();expect(deepAge(at(2460))).toBe(2460);
+  for(let ma=539;ma<=4540;ma++)expect(deepSceneAt(at(ma))).toBeDefined();expect(deepSceneAt(at(538.8))?.id).toBe('cambrian');expect(deepSceneAt(2026)).toBeUndefined();expect(deepAge(at(2460))).toBe(2460);
  });
  it('separates glacial intervals and regional evidence instead of freezing the whole Cryogenian',()=>{
   expect(deepIceAt(at(700))).toBe('snowball');expect(deepIceAt(at(655))).toBeNull();expect(deepIceAt(at(640))).toBe('snowball');expect(deepIceAt(at(620))).toBeNull();expect(deepIceAt(at(2900))).toBe('pongola');expect(deepIceAt(at(580.5))).toBe('gaskiers');expect(deepIceAt(2026)).toBeNull();expect(deepBackground(at(700),false)).toBe(deepSceneAt(at(700))!.ocean);expect(deepBackground(at(700),true)).not.toBe(deepBackground(at(700),false));expect(deepBackground(2026)).toBeUndefined();
  });
  it('retains dated paleorotation references without interpolating into other eras',()=>{
-  expect(planetValue(planetRecordFor('solarDay',at(2460)))).toContain('16,9 ± 0,2');expect(planetRecordFor('solarDay',at(2460))?.reference).toMatchObject({basis:'Ma',ageMa:2460});expect(planetValue(planetRecordFor('solarDay',at(620)))).toContain('21,9 ± 0,4');for(const y of[at(2500),at(2400),at(700),at(600),2026])expect(planetRecordFor('solarDay',y)).toBeUndefined();expect(planetRecordFor('oxygen',at(3000))).toBeUndefined();
+  expect(planetValue(planetRecordFor('solarDay',at(2460)))).toContain('16,9 ± 0,2');expect(planetRecordFor('solarDay',at(2460))?.reference).toMatchObject({basis:'Ma',ageMa:2460});expect(planetValue(planetRecordFor('solarDay',at(620)))).toContain('21,9 ± 0,4');for(const y of[at(2500),at(2400),at(700),at(600)])expect(planetRecordFor('solarDay',y)?.evidence).toBe('illustrative-scenario');expect(planetRecordFor('solarDay',2026)).toBeUndefined();expect(planetRecordFor('oxygen',at(3000))?.evidence).toBe('illustrative-scenario');
  });
  it('uses a distinct editorial palette and readable full names while retaining source colours',()=>{
   const source=geologicalUnits.find(u=>u.id==='Hadean')!.color;expect(chronologyDisplayColor('Hadean',source)).not.toBe(source);expect(geologicalUnits.find(u=>u.id==='Hadean')!.color).toBe(source);

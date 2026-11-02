@@ -68,7 +68,7 @@ describe('Earth foundation: chronological and evidential boundaries',()=>{
   expect(planetValue({...base,value:{min:10,max:20}})).toBe('10–20 °C');
   expect(planetValue({...base,uncertainty:{minus:1,plus:2,description:'rango'}})).toBe('0 −1/+2 °C');
   expect(planetReferenceLabel({basis:'b2k2000',ageYears:11700})).toContain('b2k2000');
-  expect(planetCard(-3000000000,'planet')).toContain('Sin composición atmosférica');
+  expect(planetCard(-3000000000,'planet')).toContain('Composición atmosférica');expect(planetCard(-3000000000,'planet')).toContain('Escenario audiovisual');
   expect(planetCard(-3000000000,'planet')).not.toContain('≈ 78');
  });
 });

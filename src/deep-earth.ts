@@ -1,12 +1,16 @@
 import catalog from '../Tierra/Precambrico/escenarios.json' with {type:'json'};
 import bibliography from '../Tierra/Precambrico/fuentes.json' with {type:'json'};
+import phanerozoic from '../Tierra/Fanerozoico/escenarios.json' with {type:'json'};
+import phanerozoicSources from '../Tierra/Fanerozoico/fuentes.json' with {type:'json'};
 import {yearFromAge} from './dates';
+import{PREHISTORY_START}from'./prehistoric-time';
 export interface DeepScene {id:string;title:string;oldestMa:number;youngestMa:number;mode:string;ocean:string;land:string;landFraction:number;atmosphere:string;life:string;ice:string|null;article:string;sourceIds:string[];geometry:string;visualStatus:string}
-export const deepScenes=catalog.scenes as DeepScene[];
-export const deepSources=bibliography.sources;
+export const precambrianScenes=catalog.scenes as DeepScene[];
+export const deepScenes=[...catalog.scenes,...phanerozoic.scenes] as DeepScene[];
+export const deepSources={...bibliography.sources,...phanerozoicSources.sources};
 export const deepAge=(year:number)=>(1950-(year<0?year+1:year))/1e6;
-export function deepSceneAt(year:number){const age=deepAge(year);return deepScenes.find(s=>age<=s.oldestMa&&age>s.youngestMa);}
-export function deepIceAt(year:number){const scene=deepSceneAt(year);if(!scene)return null;return scene.ice??catalog.regionalIce.find(r=>deepAge(year)<=r.oldestMa&&deepAge(year)>r.youngestMa)?.id??null;}
+export function deepSceneAt(year:number){if(year>=PREHISTORY_START)return;const age=deepAge(year);return deepScenes.find(s=>age<=s.oldestMa&&age>s.youngestMa);}
+export function deepIceAt(year:number){const scene=deepSceneAt(year);if(!scene)return null;const age=deepAge(year);if(scene.id==='ordovician')return age<=445?'gondwana':null;if(scene.id==='carboniferous')return age<=335?'gondwana':null;if(scene.id==='permian')return age>280?'gondwana':null;if(scene.id==='paleogene')return age<=34?'antarctic':null;return scene.ice??catalog.regionalIce.find(r=>age<=r.oldestMa&&age>r.youngestMa)?.id??null;}
 /** Polar areas beyond the Mercator texture must honour the same ice control. */
 export function deepBackground(year:number,showIce=true){const scene=deepSceneAt(year);return scene?(showIce&&deepIceAt(year)==='snowball'?'#d8e7e7':scene.ocean):undefined;}
 export const sceneYear=(scene:DeepScene)=>Math.max(-4540000000,yearFromAge((scene.oldestMa+scene.youngestMa)*.5e6));

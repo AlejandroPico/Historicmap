@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "scenes": [
+    {
+      "id": "cambrian",
+      "title": "Cámbrico · mares cámbricos",
+      "oldestMa": 538.8,
+      "youngestMa": 486.85,
+      "mode": "water",
+      "ocean": "#246e89",
+      "land": "#887950",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Los mares someros de los márgenes continentales albergaron artrópodos, esponjas, braquiópodos y otros animales. Trilobites y pequeños fósiles con partes duras enriquecen el registro, mientras yacimientos excepcionales conservan organismos blandos.",
+      "ice": null,
+      "article": "cambrian",
+      "sourceIds": [
+        "nps-cambrian",
+        "nps-time",
+        "phanda",
+        "trilobites"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "ordovician",
+      "title": "Ordovícico · diversificación marina",
+      "oldestMa": 486.85,
+      "youngestMa": 443.1,
+      "mode": "water",
+      "ocean": "#247e91",
+      "land": "#898555",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Braquiópodos, briozoos, moluscos, trilobites y equinodermos ocuparon muchos ambientes. Los graptolitos y conodontos ayudan a correlacionar estratos lejanos; un fósil guía sirve para comparar edades, no para describir toda la fauna.",
+      "ice": "gondwana",
+      "article": "ordovician",
+      "sourceIds": [
+        "nps-ordovician",
+        "nps-time",
+        "phanda",
+        "trilobites"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "silurian",
+      "title": "Silúrico · recuperación y colonización terrestre",
+      "oldestMa": 443.1,
+      "youngestMa": 419.62,
+      "mode": "water",
+      "ocean": "#277d92",
+      "land": "#7b8b5b",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Peces sin mandíbulas y linajes con mandíbulas coexistieron. Artrópodos y pequeñas plantas aparecen en registros terrestres y marginales; una primera evidencia conservada no equivale a la fecha exacta de origen del grupo.",
+      "ice": null,
+      "article": "silurian",
+      "sourceIds": [
+        "nps-silurian",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "devonian",
+      "title": "Devónico · peces, bosques y tetrápodos",
+      "oldestMa": 419.62,
+      "youngestMa": 358.86,
+      "mode": "water",
+      "ocean": "#287c8c",
+      "land": "#6b8b57",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Se diversificaron peces acorazados, cartilaginosos y óseos. Algunos sarcopterigios presentan combinaciones anatómicas relevantes para el origen de los tetrápodos; no se supone que todos los peces actuales descendieran de una sola especie fósil conocida.",
+      "ice": null,
+      "article": "devonian",
+      "sourceIds": [
+        "nps-devonian",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "carboniferous",
+      "title": "Carbonífero · bosques y ciclos glaciales",
+      "oldestMa": 358.86,
+      "youngestMa": 298.9,
+      "mode": "water",
+      "ocean": "#2c7785",
+      "land": "#537c4b",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Licófitas arbóreas, equisetales, helechos y plantas con semillas contribuyeron a paisajes diversos. Los amniotas desarrollaron estrategias reproductoras que redujeron la dependencia de ambientes acuáticos para reproducirse.",
+      "ice": "gondwana",
+      "article": "carboniferous",
+      "sourceIds": [
+        "nps-carboniferous",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "permian",
+      "title": "Pérmico · Pangea y la gran crisis",
+      "oldestMa": 298.9,
+      "youngestMa": 251.902,
+      "mode": "water",
+      "ocean": "#2b7183",
+      "land": "#a28c5a",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Sinápsidos como Dimetrodon suelen confundirse con dinosaurios, pero pertenecen a otra rama evolutiva. Los dinosaurios aparecen más tarde, en el Triásico. Coníferas y otras plantas con semillas ocuparon numerosos ambientes.",
+      "ice": null,
+      "article": "permian",
+      "sourceIds": [
+        "nps-permian",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "triassic",
+      "title": "Triásico · recuperación tras el Pérmico",
+      "oldestMa": 251.902,
+      "youngestMa": 201.4,
+      "mode": "water",
+      "ocean": "#28758a",
+      "land": "#a18b59",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Los arcosaurios se diversificaron y aparecieron dinosaurios y pterosaurios. En paralelo continuó la evolución de cinodontos y formas próximas al origen de los mamíferos; no fue una época exclusiva de dinosaurios gigantes.",
+      "ice": null,
+      "article": "triassic",
+      "sourceIds": [
+        "nps-triassic",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "jurassic",
+      "title": "Jurásico · dinosaurios y mares abiertos",
+      "oldestMa": 201.4,
+      "youngestMa": 143.1,
+      "mode": "water",
+      "ocean": "#267b96",
+      "land": "#638259",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Saurópodos, terópodos y dinosaurios ornitisquios ocuparon ecosistemas diversos. Pterosaurios volaban y reptiles marinos vivían en los océanos, pero ni unos ni otros son dinosaurios. Mamíferos pequeños y numerosos invertebrados también formaban parte del mundo jurásico.",
+      "ice": null,
+      "article": "jurassic",
+      "sourceIds": [
+        "nps-jurassic",
+        "nps-time",
+        "phanda",
+        "morrison"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "cretaceous",
+      "title": "Cretácico · continentes separados y angiospermas",
+      "oldestMa": 143.1,
+      "youngestMa": 66,
+      "mode": "water",
+      "ocean": "#237a99",
+      "land": "#698c5b",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Las plantas con flores se expandieron y cambiaron relaciones con insectos y otros organismos. Dinosaurios no avianos, aves, mamíferos y reptiles marinos coexistieron en comunidades muy variadas.",
+      "ice": null,
+      "article": "cretaceous",
+      "sourceIds": [
+        "nps-cretaceous",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "paleogene",
+      "title": "Paleógeno · mamíferos y enfriamiento cenozoico",
+      "oldestMa": 66,
+      "youngestMa": 23.03,
+      "mode": "water",
+      "ocean": "#267a97",
+      "land": "#728c61",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Paleoceno, Eoceno y Oligoceno contienen episodios climáticos diferentes. El Máximo Térmico del Paleoceno–Eoceno fue un calentamiento asociado a una perturbación del carbono, no una extinción por impacto equivalente a Chicxulub.",
+      "ice": "antarctic",
+      "article": "paleogene",
+      "sourceIds": [
+        "nps-paleogene",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    },
+    {
+      "id": "neogene",
+      "title": "Neógeno · ecosistemas y homininos tempranos",
+      "oldestMa": 23.03,
+      "youngestMa": 7,
+      "mode": "water",
+      "ocean": "#267b98",
+      "land": "#83916a",
+      "landFraction": 0.3,
+      "atmosphere": "Composición consultable por indicadores: modelos publicados y escenario audiovisual se identifican por separado.",
+      "life": "Pastizales y ambientes abiertos se expandieron en varias regiones, junto con bosques y mosaicos de vegetación. No toda sabana implica el mismo clima ni una trayectoria inevitable hacia los seres humanos.",
+      "ice": "antarctic",
+      "article": "neogene",
+      "sourceIds": [
+        "nps-neogene",
+        "nps-time",
+        "phanda"
+      ],
+      "geometry": "CAO2024 · instantánea fechada",
+      "visualStatus": "Paisaje interpretativo con geometría modelada; hielo y biomas sin detalle topográfico observado."
+    }
+  ]
+}

@@ -1,12 +1,14 @@
 /* Scientific content and chronology colours are independent of the map theme. */
-:root{--dock-height:168px}
-.chronology-bands{position:absolute;left:0;right:0;top:4px;height:51px;z-index:1;pointer-events:none}
+:root{--chronology-height:45px;--dock-height:calc(117px + var(--chronology-height))}
+.chronology-bands{position:absolute;left:0;right:0;top:4px;height:var(--chronology-height);z-index:1;pointer-events:none}
 .chronology-family{position:absolute;inset:0;pointer-events:none}
-.chronology-band{position:absolute;height:16px;overflow:hidden;white-space:nowrap;background:var(--band-color);color:var(--band-ink);border-right:1px solid #14242c55;pointer-events:auto;font-size:10px;font-weight:600;line-height:16px}
+.chronology-band{position:absolute;height:14px;overflow:hidden;white-space:nowrap;background:var(--band-color);color:var(--band-ink);border-right:1px solid #14242c55;pointer-events:auto;font-size:10px;font-weight:600;line-height:14px}
 .chronology-band>span{display:block;overflow:hidden;text-overflow:ellipsis;padding-inline:7px;text-align:center}
 .time-dock[data-chronology-colors=false] .chronology-band{background:var(--panel);color:var(--muted);border-right-color:var(--line);border-bottom:1px solid var(--line)}
-.tick{top:63px}
-.cursor-line{height:156px}
+.chronology-band[data-active=true]{overflow:visible;z-index:2}
+.chronology-band[data-active=true]>span{position:relative;left:50%;transform:translateX(-50%);width:max-content;max-width:calc(100vw - 20px);overflow:visible;background:inherit;color:inherit;box-shadow:0 0 0 1px var(--line)}
+.tick{top:calc(var(--chronology-height) + 12px)}
+.cursor-line{height:calc(var(--dock-height) - 12px)}
 .planet-panel{position:absolute;right:16px;top:64px;z-index:7;width:330px;max-height:calc(100dvh - var(--dock-height) - 92px - var(--legend-height,0px));display:flex;flex-direction:column;border:1px solid var(--line);border-radius:4px;background:var(--panel);backdrop-filter:blur(16px);box-shadow:0 12px 32px #0003}
 .planet-heading{display:flex;align-items:flex-start;justify-content:space-between;padding:17px 14px 12px 18px;flex-shrink:0}
 .planet-heading .eyebrow{font-size:8px;letter-spacing:1.3px}
@@ -43,13 +45,13 @@
 .planet-source{display:block;font-size:11px;line-height:1.6;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none}
 .planet-source small{display:block;font-size:9px;color:var(--muted)}
 @media(max-width:760px){
- :root{--dock-height:162px}
+ :root{--dock-height:calc(111px + var(--chronology-height))}
  .planet-panel{top:58px;right:12px;width:min(330px,calc(100vw - 24px));max-height:calc(100dvh - var(--dock-height) - 80px)}
  .chronology-band{font-size:9px}
 }
 @media(max-width:360px){.toolbar .icon-button{width:32px}}
 @media(max-height:650px){
- :root{--dock-height:142px}
+ :root{--dock-height:calc(91px + var(--chronology-height))}
  .planet-panel{max-height:calc(100dvh - var(--dock-height) - 76px)}
  .planet-heading{padding:10px 12px;align-items:center}
  .planet-heading>div{display:flex;align-items:baseline;gap:12px}
@@ -60,5 +62,12 @@
  .planet-content h3{margin:6px 0 8px}
  .date-heading{font-size:23px}
  .time-focus{bottom:5px}
- .cursor-line{height:136px}
+ .cursor-line{height:calc(var(--dock-height) - 6px)}
 }
+.planet-model-control{display:block;font-size:10px;color:var(--muted);margin-bottom:14px}
+.planet-model-control select{width:100%;margin-top:7px;padding:9px 5px;background:var(--panel);color:var(--text);border:1px solid var(--line);font-size:10px}
+.atmosphere-bars{display:grid;gap:12px}.atmosphere-bars article{padding-bottom:10px;border-bottom:1px solid var(--line)}
+.atmosphere-bars article>div{display:flex;justify-content:space-between;gap:8px;font-size:11px}.atmosphere-bars strong{font-weight:500;text-align:right}
+.atmosphere-bars meter{width:100%;height:12px;accent-color:#4da3b7}.atmosphere-bars meter::-webkit-meter-optimum-value{background:#4da3b7}.atmosphere-bars small{display:block;font-size:9px;color:var(--muted)}
+.atmosphere-bars details{font-size:10px;line-height:1.7;margin-top:6px}.atmosphere-bars summary{cursor:pointer;color:var(--muted)}
+#earth-optics{padding:10px;font-size:11px;border:1px solid var(--line);margin-top:12px}

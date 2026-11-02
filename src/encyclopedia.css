@@ -25,3 +25,9 @@
 .atlas.deep-time #concept-caption{bottom:calc(var(--dock-height) + 50px)}
 .encyclopedia-diagram svg rect~text{fill:#fff7df}
 .encyclopedia-related button:hover,#encyclopedia-index button:hover{background:var(--soft)}
+
+.encyclopedia-contents{display:flex;flex-wrap:wrap;gap:9px 18px;padding:18px 0;border-block:1px solid var(--line);margin:25px 0;font-size:12px}.encyclopedia-contents strong{flex:0 0 100%;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}.encyclopedia-contents a{color:var(--gold);text-decoration:none}.encyclopedia-contents a:hover{text-decoration:underline}.encyclopedia-archive{display:flex!important;align-items:center;gap:8px;margin-top:15px;font-size:10px!important}.encyclopedia-archive input{accent-color:var(--gold)}
+
+.encyclopedia-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;padding:22px;background:var(--panel);border:1px solid var(--line);margin:25px 0}.encyclopedia-facts span,.encyclopedia-facts a{display:block;font-size:10px;color:var(--muted)}.encyclopedia-facts strong{display:block;font-size:18px;font-weight:500;margin:8px 0}.encyclopedia-reading section{scroll-margin-top:20px}
+.encyclopedia-facts>small{grid-column:1/-1;color:var(--muted);font-size:10px}
+.encyclopedia-diagram svg{height:auto;aspect-ratio:660/290;max-height:330px}

@@ -2,11 +2,13 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.53.0** · 1 de noviembre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.54.0** · 2 de noviembre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
+
+**Fanerozoico y enciclopedia:** nueva lectura temática con fotografías científicas, figuras, fuentes y contexto por período. Planeta incorpora temperatura/CO₂ PhanDA con percentiles y distingue los escenarios numéricos audiovisuales. Bandas geológicas completas y ocultables en Capas; hielo antiguo por episodios. [Parte4 y límites](docs/EARTH-PHANEROZOIC-0.54.md).
 
 **Enciclopedia y Precámbrico:** botón de libro, apertura por la fecha del mapa, índice y búsqueda, artículos temáticos, fuentes, fotografías y esquemas interactivos. Superficies propias en2D/3D con reconstrucciones fechadas donde existen y escenarios conceptuales donde no. [Entrega y límites0.53](docs/EARTH-PRECAMBRIAN-0.53.md).
 

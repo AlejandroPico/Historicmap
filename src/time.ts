@@ -7,7 +7,7 @@ export const systemYear = (date = new Date()) => date.getFullYear();
 export const PRESENT = systemYear();
 /** Exact cursor consultation, not a claim of annually observed political maps. */
 export const ANNUAL_CONSULTATION_START = -10000;
-export const anchors = [-4540000000, ...Array.from({length:27},(_,i)=>-4500000000+i*150000000), -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -7000000, -6000000, -5000000, -4400000, -4200000, -3850000, -3200000, -3000000, -2600000, -2000000, -1800000, -1000000, -700000, -300000, -100000, -80000, -60000, -40000, -20000, -10000, -6000, -3000, -2600, -2200, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT].filter((v,i,a)=>a.indexOf(v)===i).sort((a,b)=>a-b);
+export const anchors = [-4540000000, ...Array.from({length:27},(_,i)=>-4500000000+i*150000000), ...Array.from({length:54},(_,i)=>-540000000+i*10000000), -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -7000000, -6000000, -5000000, -4400000, -4200000, -3850000, -3200000, -3000000, -2600000, -2000000, -1800000, -1000000, -700000, -300000, -100000, -80000, -60000, -40000, -20000, -10000, -6000, -3000, -2600, -2200, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT].filter((v,i,a)=>a.indexOf(v)===i).sort((a,b)=>a-b);
 export const clamp = (n: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, n));
 export function yearToPosition(year: number): number {
   const y = clamp(year, anchors[0], PRESENT);
@@ -40,7 +40,7 @@ export function eraName(year: number): string {
   return 'Edad Contemporánea';
 }
 export const historicalYears = [-10000, -3000, -1000, -500, 100, 500, 1000, 1492, 1800, 1914, 1945, 1994, 2010];
-export const geologicalMa = [1, 2, 3, 4, 5, 6, 7, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500, 1800];
+export const geologicalMa = [34,56,145,201,252,360,420,445,1, 2, 3, 4, 5, 6, 7, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500, 1800];
 export type Snapshot = { kind: 'prehistoric' | 'modern' | 'annual' | 'historical' | 'geological' | 'concept'; year: number; file?: string };
 export function snapshotFor(year: number): Snapshot {
   if (year < -1800000000) return { kind: 'concept', year };

@@ -3,8 +3,9 @@ import{deepIceAt,type DeepScene}from'./deep-earth';
 const rgb=(hex:string)=>[parseInt(hex.slice(1,3),16),parseInt(hex.slice(3,5),16),parseInt(hex.slice(5,7),16)];
 const mix=(a:number[],b:number[],t:number)=>a.map((v,i)=>v*(1-t)+b[i]*t);
 /** Smooth, periodic 3-D field on the sphere: no random change when a date is revisited. */
-function field(x:number,y:number,z:number){return Math.sin(x*3.4+y*2.1+z*4.8)+.48*Math.sin(x*8.3-y*6.1+z*3.7)+.22*Math.sin(x*18.1+y*13.8-z*15.3)+.08*Math.sin(x*41-y*33+z*29);}
-export function drawDeepSurface(canvas:HTMLCanvasElement,scene:DeepScene,year:number,coast?:FeatureCollection,showIce=true){
+function noise(x:number,y:number,z:number){const a=Math.floor(x),b=Math.floor(y),c=Math.floor(z),smooth=(t:number)=>t*t*(3-2*t),u=smooth(x-a),v=smooth(y-b),w=smooth(z-c);const hash=(i:number,j:number,k:number)=>{let n=Math.imul(i,374761393)^Math.imul(j,668265263)^Math.imul(k,2147483647);n=Math.imul(n^(n>>>13),1274126177);return((n^(n>>>16))>>>0)/2147483647-1};const lerp=(p:number,q:number,t:number)=>p+(q-p)*t;return lerp(lerp(lerp(hash(a,b,c),hash(a+1,b,c),u),lerp(hash(a,b+1,c),hash(a+1,b+1,c),u),v),lerp(lerp(hash(a,b,c+1),hash(a+1,b,c+1),u),lerp(hash(a,b+1,c+1),hash(a+1,b+1,c+1),u),v),w);}
+function field(x:number,y:number,z:number){return noise(x*3,y*3,z*3)+.5*noise(x*7+19,y*7-8,z*7+5)+.25*noise(x*17-6,y*17+14,z*17);}
+export function drawDeepSurface(canvas:HTMLCanvasElement,scene:DeepScene,year:number,coast?:FeatureCollection,showIce=true,optics:'standard'|'ferruginous'='standard'){
  const w=canvas.width,h=canvas.height,ctx=canvas.getContext('2d')!,pixels=ctx.createImageData(w,h),ocean=rgb(scene.ocean),land=rgb(scene.land);
  let mask:Uint8ClampedArray|undefined;
  if(coast?.features.length){
@@ -29,9 +30,13 @@ export function drawDeepSurface(canvas:HTMLCanvasElement,scene:DeepScene,year:nu
     c=continental>.4?land.map(v=>v*(.83+n*.08+fine*.045)):ocean.map(v=>v*(.92+n*.028+fine*.025));
     if(mask&&continental>0&&continental<.9)c=mix(ocean,land,continental);
     if(ice){
-     const cap=ice==='snowball'?0.97:ice==='huronian'?Math.max(0,(Math.abs(z)-.53)*2.5):continental>.5&&n>.5&&fine>.3?.65:0;
+     const rugged=n*.13+fine*.055;
+     const cap=ice==='snowball'?.97:ice==='antarctic'?Math.max(0,(-z-.86+rugged)*8):ice==='gondwana'?Math.max(0,(-z-.52+rugged)*4)*(continental>.4?1:.22):ice==='huronian'?Math.max(0,(Math.abs(z)-.57+rugged)*3):continental>.5&&n>.3&&fine>.2?.65:0;
      if(cap>0){const frost=Math.min(1,cap+fine*(ice==='snowball'?.015:.10));c=mix(c,[216+fine*3,231+fine*2,231+fine*2],Math.max(0,frost));}
     }
+    const age=(1950-(year<0?year+1:year))/1e6;
+    if(age>=2500&&age<=3400)c=mix(c,[173,101,51],.24+Math.max(0,fine)*.08);
+    if(optics==='ferruginous'&&age>=2100&&age<=2600&&continental<.5)c=mix(c,[157,62,37],.74);
    }
    pixels.data[i]=Math.max(0,Math.min(255,c[0]));pixels.data[i+1]=Math.max(0,Math.min(255,c[1]));pixels.data[i+2]=Math.max(0,Math.min(255,c[2]));pixels.data[i+3]=255;
   }

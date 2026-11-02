@@ -26,7 +26,7 @@ const jobs = [
     const file = `world_${year < 0 ? `bc${-year}` : year}.geojson`;
     return {file, year, url:`https://raw.githubusercontent.com/aourednik/historical-basemaps/${historical.sha}/geojson/${file}`,source:'Historical Basemaps · A. Ourednik',version:historical.sha,license:'GPL-3.0'};
   }),
-  ...[1,20,66,100,200,300,400,541,750,1000,1500,1800].map(ma => ({file:`coastlines-${ma}.geojson`,year:-ma*1e6,url:`https://gws.gplates.org/reconstruct/coastlines/?time=${ma}&model=CAO2024&wrap=true`,source:'GPlates / Cao et al. (2024)', version:'CAO2024; anchor_plate_id=0; wrap=true',license:'CC-BY-4.0 (model data; see docs/SOURCES.md)'})),
+  ...[1,2,3,4,5,6,7,20,34,56,66,100,145,200,201,252,300,360,400,420,445,541,750,1000,1500,1800].map(ma => ({file:`coastlines-${ma}.geojson`,year:-ma*1e6,url:`https://gws.gplates.org/reconstruct/coastlines/?time=${ma}&model=CAO2024&wrap=true`,source:'GPlates / Cao et al. (2024)', version:'CAO2024; anchor_plate_id=0; wrap=true',license:'CC-BY-4.0 (model data; see docs/SOURCES.md)'})),
 ];
 // Limit simultaneous requests to avoid overwhelming upstream scientific services.
 for (let i = 0; i < jobs.length; i += 3) {

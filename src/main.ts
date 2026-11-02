@@ -5,6 +5,7 @@ import{distributionsAt,coexistencePattern,distributionCoast,distributionCard,dis
 import{displayLabel}from'./map-presentation';
 import{chronologyBands,chronologyBandsMarkup}from'./chronology-bands';
 import{planetCard,type PlanetTab}from'./planet-card';
+import type{EvidencePolicy}from'./earth-models';
 import{deepSceneAt,deepIceAt,deepSources,deepBackground}from'./deep-earth';
 import{drawDeepSurface}from'./deep-surface';
 import{formatEventDate}from'./dates';
@@ -63,7 +64,7 @@ app.innerHTML = `
       <button id="projection-button" class="icon-button" title="Ver mapa 2D" aria-label="Ver mapa 2D" data-view="globe">${icon('map')}</button>
       <button id="filters-button" class="icon-button" title="Filtros del atlas" aria-label="Filtros del atlas" aria-controls="filters-panel" aria-expanded="false">${icon('funnel')}</button>
       <button id="layers-button" class="icon-button" title="Capas del atlas" aria-label="Capas del atlas" aria-controls="layers-panel" aria-expanded="false">${icon('layers')}</button>
-      <button id="planet-button" class="icon-button" title="Planeta y cronología" aria-label="Planeta y cronología" aria-controls="planet-panel" aria-expanded="false">${icon('orbit')}</button>
+      <button id="planet-button" class="icon-button" title="Planeta y atmósfera" aria-label="Planeta y atmósfera" aria-controls="planet-panel" aria-expanded="false">${icon('orbit')}</button>
       <button id="sources-button" class="icon-button" title="Base de datos y fuentes" aria-label="Base de datos y fuentes" aria-controls="sources-panel" aria-expanded="false">${icon('database')}</button>
       <button id="fullscreen" class="icon-button" title="Pantalla completa" aria-label="Pantalla completa">${icon('maximize')}</button>
       <button id="appearance-button" class="icon-button" aria-label="Tema automático">${icon('contrast')}</button>
@@ -83,12 +84,12 @@ app.innerHTML = `
     </section>
     <section id="layers-panel" class="layers-panel" role="dialog" aria-labelledby="layers-title" hidden>
       <div class="popover-head"><h2 id="layers-title">Capas del atlas</h2><button id="close-layers" class="icon-button" aria-label="Cerrar capas">${icon('x')}</button></div>
-      <div class="layers">${visibilityControls('layer')}<button id="chronology-colors" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('orbit')}</span><span><strong>Colores del cronograma</strong><small>Etapas geológicas y periodizaciones humanas</small></span><span class="layer-indicator"></span></button><button id="ice-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">❄</span><span><strong>Mantos de hielo</strong><small id="ice-help">Reconstrucción fechada · PaleoMIST 1.0</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="ice-mode">Hielo<select id="ice-mode"><option value="auto">Automático según reconstrucción</option><option value="on">Mostrar modelo disponible</option><option value="off">Ocultar hielo</option></select></label><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales, ciudades y yacimientos</strong><small id="places-help">Capitales, cortes y sedes fechadas</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small id="occupations-help">Franjas y puntos de conflictos documentados</small></span><span class="layer-indicator"></span></button></div>
+      <div class="layers">${visibilityControls('layer')}<button id="chronology-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('orbit')}</span><span><strong>Etapas del cronograma</strong><small>Mostrar eras, períodos y edades en la regla</small></span><span class="layer-indicator"></span></button><button id="chronology-colors" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('orbit')}</span><span><strong>Colores del cronograma</strong><small>Etapas geológicas y periodizaciones humanas</small></span><span class="layer-indicator"></span></button><button id="ice-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">❄</span><span><strong>Mantos de hielo</strong><small id="ice-help">Reconstrucción fechada · PaleoMIST 1.0</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="ice-mode">Hielo<select id="ice-mode"><option value="auto">Automático según reconstrucción</option><option value="on">Mostrar modelo disponible</option><option value="off">Ocultar hielo</option></select></label><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales, ciudades y yacimientos</strong><small id="places-help">Capitales, cortes y sedes fechadas</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small id="occupations-help">Franjas y puntos de conflictos documentados</small></span><span class="layer-indicator"></span></button></div>
     </section>
     <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow" id="selection-date">EN EL MAPA</span><h2 id="selection-title"></h2><p id="selection-status" role="status" hidden></p><div id="selection-alternatives" hidden></div><div id="selection-text"></div></div>
     <section id="planet-panel" class="planet-panel" role="dialog" aria-labelledby="planet-title" hidden>
       <div class="planet-heading"><div><span class="eyebrow">EL PLANETA EN EL TIEMPO</span><h2 id="planet-title">Tierra</h2><span id="planet-date"></span></div><button id="close-planet" class="icon-button" aria-label="Cerrar planeta">${icon('x')}</button></div>
-      <div class="planet-tabs" role="tablist" aria-label="Información planetaria"><button id="planet-tab-planet" role="tab" aria-controls="planet-content" aria-selected="true" data-planet-tab="planet">Planeta</button><button id="planet-tab-chronology" role="tab" aria-controls="planet-content" aria-selected="false" tabindex="-1" data-planet-tab="chronology">Cronología</button><button id="planet-tab-sources" role="tab" aria-controls="planet-content" aria-selected="false" tabindex="-1" data-planet-tab="sources">Fuentes</button></div>
+      <div class="planet-tabs" role="tablist" aria-label="Información planetaria"><button id="planet-tab-planet" role="tab" aria-controls="planet-content" aria-selected="true" data-planet-tab="planet">Planeta</button><button id="planet-tab-sources" role="tab" aria-controls="planet-content" aria-selected="false" tabindex="-1" data-planet-tab="sources">Fuentes</button></div>
       <div id="planet-content" class="planet-content" role="tabpanel" aria-labelledby="planet-tab-planet" tabindex="0"></div>
     </section>
     <aside id="map-legend" class="map-legend" aria-label="Leyenda del mapa" hidden></aside>
@@ -109,7 +110,9 @@ let political = true, physical = false, showPlaces = false, showOccupations = fa
 let humanFilter='';
 let iceMode:IceMode='auto';
 let activePlanetTab:PlanetTab='planet';
-let chronologyColored=true;
+let chronologyColored=true,chronologyVisible=true;
+let planetPolicy:EvidencePolicy='reconstruction',earthOptics:'standard'|'ferruginous'='standard';
+try{chronologyVisible=localStorage.getItem('historicmap-chronology-visible')!=='off';}catch{}
 try{chronologyColored=localStorage.getItem('historicmap-chronology-colors')!=='off';}catch{}
 function updateChronologyColors(){
  $('.time-dock').dataset.chronologyColors=String(chronologyColored);
@@ -123,7 +126,8 @@ function renderPlanet(){
  if($('#planet-panel').hidden)return;
  const pane=$('#planet-content'),scroll=pane.scrollTop;
  const open=[...pane.querySelectorAll<HTMLDetailsElement>('details[open]')].map(d=>d.closest<HTMLElement>('[data-indicator],[data-geological-unit]')?.dataset.indicator??d.closest<HTMLElement>('[data-geological-unit]')?.dataset.geologicalUnit).filter(Boolean);
- pane.innerHTML=planetCard(year,activePlanetTab);
+ pane.innerHTML=planetCard(year,activePlanetTab,planetPolicy);
+ const optics=pane.querySelector('#earth-optics');if(optics){optics.setAttribute('aria-pressed',String(earthOptics==='ferruginous'));optics.textContent=earthOptics==='standard'?'Comparar variante rojiza del agua':'Volver al aspecto de referencia';}
  pane.querySelectorAll<HTMLDetailsElement>('details').forEach(d=>{const holder=d.closest<HTMLElement>('[data-indicator],[data-geological-unit]');if(holder&&open.includes(holder.dataset.indicator??holder.dataset.geologicalUnit))d.open=true;});pane.scrollTop=scroll;
 }
 function closePlanet(focus=false){$('#planet-panel').hidden=true;$('#planet-button').setAttribute('aria-expanded','false');if(focus)$('#planet-button').focus();}
@@ -190,8 +194,9 @@ function paintDeepSurface(targetYear:number,coast?:FeatureCollection){
  const scene=deepSceneAt(targetYear);map.setPaintProperty('ocean','background-color',deepBackground(targetYear,iceMode!=='off')??palettes[resolveAppearance(appearance)].ocean);map.setLayoutProperty('deep-surface','visibility',scene?'visible':'none');
  $('.atlas').classList.toggle('deep-time',!!scene);$('#map').dataset.deepScene=scene?.id??'';
  if(!scene){deepSurfaceKey='';$('#map').dataset.deepIce='';$('#map').dataset.deepIceVisible='false';$('#map').dataset.deepGeometry='';return;}
- const key=scene.id+':'+deepIceAt(targetYear)+':'+iceMode+':'+(coast?.features.length?activeKey:'illustrative');
- if(key!==deepSurfaceKey){drawDeepSurface(deepCanvas,scene,targetYear,coast,iceMode!=='off');deepSurfaceKey=key;$('#map').dataset.deepCoastReference=coast?.features.length?activeKey:'illustrative';const source=map.getSource('deep-surface')as maplibregl.CanvasSource;source.play();map.once('render',()=>source.pause());}
+ const key=scene.id+':'+deepIceAt(targetYear)+':'+iceMode+':'+earthOptics+':'+(coast?.features.length?activeKey:'illustrative');
+ if(key!==deepSurfaceKey){drawDeepSurface(deepCanvas,scene,targetYear,coast,iceMode!=='off',earthOptics);deepSurfaceKey=key;$('#map').dataset.deepCoastReference=coast?.features.length?activeKey:'illustrative';const source=map.getSource('deep-surface')as maplibregl.CanvasSource;source.play();map.once('render',()=>source.pause());}
+ $('#map').dataset.earthOptics=earthOptics;
  $('#map').dataset.deepGeometry=coast?.features.length?'dated-model':'illustrative';$('#map').dataset.deepIce=deepIceAt(targetYear)??'';$('#map').dataset.deepIceVisible=String(!!deepIceAt(targetYear)&&iceMode!=='off');
 }
 function showEncyclopedia(entry?:string){stopPlay();const at=year;void import('./encyclopedia').then(m=>m.openEncyclopedia(at,y=>{void updateYear(y)},entry)).catch(()=>status('No se pudo abrir la enciclopedia. Vuelve a intentarlo.',true));}
@@ -638,6 +643,9 @@ function renderRuler(){
   const track=$('#ruler-track');
   const bands=chronologyBands(year,position,spacing,$('#ruler').clientWidth);
   $('#chronology-bands').innerHTML=chronologyBandsMarkup(bands);
+  $('#chronology-bands').hidden=!chronologyVisible;
+  document.documentElement.style.setProperty('--chronology-height',chronologyVisible?bands.rows*15+'px':'0px');
+  $('#chronology-layer').setAttribute('aria-pressed',String(chronologyVisible));$('#chronology-layer').classList.toggle('active',chronologyVisible);
   $('#chronology-bands').dataset.emphasis=String(bands.emphasis);
   $('#chronology-bands').dataset.mode=bands.emphasis>=.5?'geological':'human';
   const width=$('#ruler').clientWidth;
@@ -716,14 +724,17 @@ $('#planet-button').onclick=()=>{
 };
 $('#close-planet').onclick=()=>closePlanet(true);
 $('#chronology-colors').onclick=()=>{chronologyColored=!chronologyColored;try{localStorage.setItem('historicmap-chronology-colors',chronologyColored?'on':'off');}catch{}updateChronologyColors();};
+$('#chronology-layer').onclick=()=>{chronologyVisible=!chronologyVisible;try{localStorage.setItem('historicmap-chronology-visible',chronologyVisible?'on':'off');}catch{}renderRuler();};
+$('#planet-panel').addEventListener('change',event=>{const target=event.target as HTMLSelectElement;if(target.id==='planet-evidence'){planetPolicy=target.value as EvidencePolicy;renderPlanet();}});
 $('#planet-panel').addEventListener('click',event=>{
  const target=event.target as Element,tab=target.closest<HTMLButtonElement>('[data-planet-tab]');
  if(tab)selectPlanetTab(tab.dataset.planetTab as PlanetTab);
+ if(target.closest('#earth-optics')){earthOptics=earthOptics==='standard'?'ferruginous':'standard';applyLayers();renderPlanet();}
  const jump=target.closest<HTMLButtonElement>('[data-planet-year]');if(jump){stopPlay();void updateYear(Number(jump.dataset.planetYear));}
 });
 $('.planet-tabs').addEventListener('keydown',event=>{
  if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
- event.preventDefault();const tabs:PlanetTab[]=['planet','chronology','sources'];const i=event.key==='Home'?0:event.key==='End'?2:(tabs.indexOf(activePlanetTab)+(event.key==='ArrowRight'?1:2))%3;selectPlanetTab(tabs[i],true);
+ event.preventDefault();const tabs:PlanetTab[]=['planet','sources'];const i=event.key==='Home'?0:event.key==='End'?1:(tabs.indexOf(activePlanetTab)+1)%2;selectPlanetTab(tabs[i],true);
 });
 new ResizeObserver(()=>{$('.atlas').style.setProperty('--legend-height',$('#map-legend').hidden?'0px':$('#map-legend').getBoundingClientRect().height+'px');}).observe($('#map-legend'));
 $('#filters-button').onclick=()=>{const open=$('#filters-panel').hidden;$('#filters-panel').hidden=!open;$('#filters-button').setAttribute('aria-expanded',String(open));if(open){closePlanet();closeSources();closeSearch();closeLayers();$('#close-filters').focus();}};
