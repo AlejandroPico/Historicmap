@@ -75,3 +75,18 @@ describe('componentes visuales', () => {
     expect(component('inexistente', '', { year: 1 })).toContain('no disponible');
   });
 });
+
+describe('contenido de la P03 · formación de la Tierra y Arcaico', () => {
+  const index = JSON.parse(compileEncyclopedia().files.get('indice.json')!);
+  const byId = (id: string) => index.paginas.find((p: { id: string }) => p.id === id);
+  it('cada unidad del Hádico y el Arcaico tiene página propia y extensa', () => {
+    for (const id of ['geo-Hadean', 'geo-Archean', 'geo-Eoarchean', 'geo-Paleoarchean', 'geo-Mesoarchean', 'geo-Neoarchean']) expect(byId(id)?.palabras, id).toBeGreaterThan(350);
+  });
+  it('los artículos temáticos cuelgan de su unidad y sustituyen a los heredados', () => {
+    const topics = index.paginas.filter((p: { padre: string | null }) => ['geo-Hadean', 'geo-Archean', 'geo-Eoarchean', 'geo-Paleoarchean', 'geo-Mesoarchean', 'geo-Neoarchean'].includes(p.padre ?? ''));
+    expect(topics.length).toBeGreaterThanOrEqual(24);
+    for (const t of topics) expect(t.palabras, t.id).toBeGreaterThan(500);
+    expect(byId('geo-Hadean').reemplaza).toContain('hadean'); expect(byId('geo-Archean').reemplaza).toContain('archean');
+    for (const id of ['formation', 'theia', 'luca', 'microbial', 'interior']) expect(byId(id), id).toBeDefined();
+  });
+});

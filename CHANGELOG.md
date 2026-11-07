@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.59.0 · 7 de noviembre de 2026
+
+- Enciclopedia P03: formación de la Tierra, Hádico y Arcaico. 29 páginas nuevas o reescritas (≈ 18.000 palabras): las seis unidades (Hádico, Arcaico y sus cuatro eras) y 24 artículos temáticos — formación del sistema solar, diferenciación, Theia y la Luna, océano de magma, origen del agua, circones de Jack Hills, bombardeo intenso, campo magnético, interior terrestre, rocas más antiguas, cratones y supercratones, rocas verdes y komatiitas, tectónica arcaica, aire y mar del Arcaico, paradoja del Sol débil, glaciación de Pongola, impactos arcaicos, duración del día, hierro bandeado, primer oxígeno, origen de la vida, LUCA, estromatolitos, metabolismos primitivos y fotosíntesis oxigénica.
+- Siete imágenes nuevas de Commons con licencia y crédito; mapas, líneas de tiempo, gráficos (brillo del Sol, duración del día, impactos) y composición atmosférica por era.
+- Motor: «Leer completo» de una unidad geológica incluye sus artículos temáticos antes de sus subdivisiones; campo `reemplaza` para retirar artículos heredados duplicados (redirige `hadean` y `archean`); al sustituir el texto de un artículo heredado se conservan sus imágenes, laboratorios y vídeos (Theia, Formación). Panorama de fecha con pasos adaptados a la escala (50 Ma en el Precámbrico remoto) y lectura principal con el texto nuevo.
+- El script de imágenes corrige la extensión cuando Commons entrega PNG para un SVG.
+
 ## 0.58.0 · 7 de noviembre de 2026
 
 - Enciclopedia P02: escala geológica interactiva que se amplía al pulsar cada unidad (eón → era → periodo → época → edad), con migas y desplazamiento horizontal en pantallas estrechas; sustituye a la escala fija que aplastaba las unidades cortas.

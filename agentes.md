@@ -6,7 +6,7 @@ Documento canónico para colaboradores humanos y asistentes de cualquier proveed
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** reconstrucción completa de la enciclopedia en 25 fases (P00–P24 y opcionales PX1/PX2), según [enciclopedia/PLAN.md](enciclopedia/PLAN.md). P00–P02 cerradas en 0.58.0; ver secciones78–79 y tareas.md. Cada fase empieza solo cuando el propietario la ordena; el propietario sube a Git y verifica el despliegue.
+**Encargo vigente:** reconstrucción completa de la enciclopedia en 25 fases (P00–P24 y opcionales PX1/PX2), según [enciclopedia/PLAN.md](enciclopedia/PLAN.md). P00–P03 cerradas en 0.59.0; ver secciones78–80 y tareas.md. Cada fase empieza solo cuando el propietario la ordena; el propietario sube a Git y verifica el despliegue.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1681,3 +1681,16 @@ El propietario pide que la escala geológica horizontal no aplaste las unidades 
 Validación local: tipos; 424 pruebas unitarias en 84 archivos; compilador sin errores; construcción. Navegador: precambrian 2/2, earth-integration (enciclopedia), human-expansion (contexto y CO₂), political-history 2/2 y dependent-authorities correctos. Capturas revisadas (escala ampliada hasta el Jurásico, mapa, galería, línea de tiempo, sucesión de España, ficha de Alemania 1943 con enlace).
 
 Siguiente: P03 (formación de la Tierra, Hádico y Arcaico en profundidad: todas sus unidades y temas).
+
+
+## 80. Enciclopedia · P03 · formación de la Tierra, Hádico y Arcaico · 0.59.0 · 7/11/2026
+
+El propietario pide continuar con P03 y limpiar de la lista de progreso las tareas terminadas. Contenido: 29 páginas (≈ 18.000 palabras) en enciclopedia/geologia (Hádico, Arcaico, Eoarcaico, Paleoarcaico, Mesoarcaico, Neoarcaico), enciclopedia/tierra/formacion, enciclopedia/tierra/arcaico, enciclopedia/tierra/interior.md, enciclopedia/clima/arcaico y enciclopedia/vida/origen. Total de la enciclopedia nueva: 37 páginas, ≈ 25.000 palabras, 360 enlaces validados. Siete imágenes de Commons acreditadas.
+
+Motor: los artículos con `padre: geo-X` se componen dentro de la unidad (temas antes que subdivisiones) y cuentan en «Leer completo»; `reemplaza` (validado contra los identificadores heredados) redirige `hadean`→`geo-Hadean` y `archean`→`geo-Archean` y los oculta de búsqueda e índice. Las páginas con el mismo id que un artículo heredado (formation, theia, luca, microbial, interior) sustituyen su texto, conservando `legacyExtras` (imagen, laboratorio de impacto, vídeo NASA de Theia). Los grupos del índice lateral muestran también los artículos que cuelgan de unidades geológicas. Panorama de fecha: pasos de navegación adaptados (50 Ma ≥1 Ga, 5 Ma ≥100 Ma, 1 Ma ≥10 Ma…) y tarjeta de lectura principal con título/resumen nuevos.
+
+Criterio editorial aplicado: cifras con fuente (ICS, artículos revisados, Wikipedia como referencia general), debates explícitos en bloques «debate» (LHB, Nuvvuagittuq, Apex Chert, bocanadas de oxígeno, edad de LUCA, inicio de la tectónica), sin texto defensivo repetido. El gráfico de luminosidad solar se calcula con la fórmula de Gough (1981); los del bombardeo y la duración del día se rotulan como esquema o estimación.
+
+Pruebas: recorridos de precambrian ajustados con `.first()` donde la página nueva repite enlaces o imágenes; nuevas pruebas unitarias exigen página propia (>350 palabras) para las seis unidades y ≥24 temas de >500 palabras. Validación local: tipos; 426 pruebas en 84 archivos; compilador sin errores; inventario earth:audit correcto; precambrian 2/2, earth-integration (enciclopedia) y human-expansion (contexto) correctos en navegador; capturas revisadas.
+
+Siguiente: P04 (Proterozoico: tres eras, diez periodos y sus temas).

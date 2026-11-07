@@ -11,7 +11,8 @@ ficha:
   Océanos: ricos en hierro disuelto, sin oxígeno; temperatura debatida
   Brillo del Sol: ≈ 75–80 % del actual
   Vida: procariotas (bacterias y arqueas); fotosíntesis oxigénica probablemente al final
-relacionados: [archean, microbial, luca, atmosphere, water, plate-tectonics, geo-Hadean, geo-Proterozoic]
+reemplaza: [archean]
+relacionados: [microbial, luca, tierra-atmosfera-arcaica, tierra-cratones, tierra-tectonica-arcaica, geo-Hadean, geo-Proterozoic]
 fuentes:
   - titulo: Wikipedia · Arcaico
     url: https://es.wikipedia.org/wiki/Arcaico
@@ -101,3 +102,12 @@ La Luna estaba más cerca y la Tierra giraba más rápido. A comienzos del Arcai
 ## El final del Arcaico
 
 El Arcaico termina por convenio hace 2.500 millones de años. Para entonces había ya grandes masas continentales estables, la tectónica de placas probablemente funcionaba de forma parecida a la actual y las cianobacterias llevaban tiempo produciendo oxígeno, aunque este era consumido de inmediato por el hierro y los gases volcánicos. El escenario estaba preparado para el gran cambio químico del [[geo-Proterozoic|Proterozoico]].
+
+## Para profundizar
+
+El Arcaico se desarrolla en artículos temáticos y en sus cuatro eras. Con «Leer completo» se recorren todos seguidos:
+
+- **La Tierra sólida:** [[tierra-cratones|cratones y supercratones]], [[tierra-tectonica-arcaica|la tectónica del Arcaico]], [[tierra-rocas-antiguas|las rocas más antiguas]], [[tierra-rocas-verdes|cinturones de rocas verdes y komatiitas]], [[tierra-impactos-arcaicos|los impactos del Arcaico]].
+- **El aire, el mar y el clima:** [[tierra-atmosfera-arcaica|el aire y el mar del Arcaico]], [[clima-sol-debil|la paradoja del Sol débil]], [[clima-pongola|la glaciación de Pongola]], [[tierra-dia-luna|la duración del día y la Luna]], [[tierra-hierro-bandeado|las formaciones de hierro bandeado]], [[tierra-oxigeno-temprano|el primer oxígeno]].
+- **La vida:** [[vida-origen|el origen de la vida]], [[luca|LUCA]], [[microbial|estromatolitos y primeros fósiles]], [[vida-metabolismos|los metabolismos primitivos]], [[vida-fotosintesis-oxigenica|las cianobacterias y la fotosíntesis oxigénica]].
+- **Las eras:** [[geo-Eoarchean|Eoarcaico]], [[geo-Paleoarchean|Paleoarcaico]], [[geo-Mesoarchean|Mesoarcaico]] y [[geo-Neoarchean|Neoarcaico]].

@@ -97,11 +97,13 @@ function chart(args: string, _ctx: ComponentContext, content: string) {
   const Y = (v: number) => T + (H - T - B) * (1 - (v - y0) / (y1 - y0 || 1));
   const categorical = kind === 'barras' || rows.some(r => !Number.isFinite(num(r[0])));
   const xs = rows.map(r => num(r[0])), xMin = Math.min(...xs), xMax = Math.max(...xs);
-  const X = (i: number) => categorical ? L + (W - L - R) * (i + .5) / rows.length : L + (W - L - R) * ((xs[i] - xMin) / (xMax - xMin || 1));
+  const reversed = !categorical && xs[0] > xs[xs.length - 1];
+  const fx = (v: number) => (reversed ? xMax - v : v - xMin) / (xMax - xMin || 1);
+  const X = (i: number) => categorical ? L + (W - L - R) * (i + .5) / rows.length : L + (W - L - R) * fx(xs[i]);
   const grid = yt.map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}" class="enc-grid"/><text x="${L - 8}" y="${(Y(v) + 4).toFixed(1)}" text-anchor="end" class="enc-tick">${esc(fmt(v))}</text>`).join('');
   const every = Math.max(1, Math.ceil(rows.length / 10));
   const xlabels = categorical ? rows.map((r, i) => i % every ? '' : `<text x="${X(i).toFixed(1)}" y="${H - B + 18}" text-anchor="middle" class="enc-tick">${esc(r[0])}</text>`).join('')
-    : niceTicks(xMin, xMax, 6).map(v => { const x = L + (W - L - R) * ((v - xMin) / (xMax - xMin || 1)); return `<text x="${x.toFixed(1)}" y="${H - B + 18}" text-anchor="middle" class="enc-tick">${esc(fmt(v))}</text>`; }).join('');
+    : niceTicks(xMin, xMax, 6).map(v => { const x = L + (W - L - R) * fx(v); return `<text x="${x.toFixed(1)}" y="${H - B + 18}" text-anchor="middle" class="enc-tick">${esc(fmt(v))}</text>`; }).join('');
   let marks = '';
   series.forEach((name, s) => {
     const color = PALETTE[s % PALETTE.length];

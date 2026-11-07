@@ -127,7 +127,7 @@ Biblioteca de componentes: gráficos de series (temperatura, CO₂, O₂, nivel 
 
 ### Bloque 1 · La Tierra antes de la vida compleja
 
-**P03 · Formación de la Tierra, Hádico y Arcaico**
+**P03 · Formación de la Tierra, Hádico y Arcaico** ✅ *(0.59.0)*
 Nebulosa solar, acreción, Theia y la Luna, océano de magma, primeras aguas y circones de Jack Hills, Bombardeo Intenso Tardío, Eoarcaico→Neoarcaico, cratones, primeras evidencias de vida (LUCA, estromatolitos), atmósfera reductora, día de pocas horas.
 *Volumen:* ~35 páginas (A/B).
 
@@ -239,4 +239,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P00 | ✅ Completada (7/11/2026) |
 | P01 | ✅ Completada (7/11/2026) · versión 0.57.0 |
 | P02 | ✅ Completada (7/11/2026) · versión 0.58.0 |
-| P03–P24 | Pendientes |
+| P03 | ✅ Completada (7/11/2026) · versión 0.59.0 · 29 páginas |
+| P04–P24 | Pendientes |

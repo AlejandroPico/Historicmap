@@ -25,7 +25,8 @@ async function get(url, binary = false) {
   throw Error('Demasiados reintentos: ' + url);
 }
 
-export async function fetchCommons(file, dest, { width = 1280, caption = '' } = {}) {
+export async function fetchCommons(file, destination, { width = 1280, caption = '' } = {}) {
+  let dest = destination;
   const title = file.startsWith('File:') ? file : 'File:' + file;
   const api = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata|mime&iiurlwidth=${width}&titles=${encodeURIComponent(title)}`;
   const data = await get(api);
@@ -36,6 +37,8 @@ export async function fetchCommons(file, dest, { width = 1280, caption = '' } = 
   const license = strip(meta.LicenseShortName?.value) || strip(meta.License?.value);
   if (!FREE.test(license)) throw Error(`Licencia no admitida (${license || 'desconocida'}): ${title}`);
   const bytes = await get(info.thumburl ?? info.url, true);
+  const kind = bytes[0] === 0x89 && bytes[1] === 0x50 ? 'png' : bytes[0] === 0xff && bytes[1] === 0xd8 ? 'jpg' : null;
+  if (kind && !dest.toLowerCase().endsWith('.' + kind) && !(kind === 'jpg' && /\.jpe?g$/i.test(dest))) dest = dest.replace(/\.[a-z0-9]+$/i, '.' + kind);
   const target = join(MEDIA, dest);
   mkdirSync(dirname(target), { recursive: true });
   writeFileSync(target, bytes);
@@ -47,7 +50,7 @@ export async function fetchCommons(file, dest, { width = 1280, caption = '' } = 
     fuente: info.descriptionurl, archivo: title, consultado: new Date().toISOString().slice(0, 10)
   };
   writeFileSync(CREDITS, JSON.stringify(Object.fromEntries(Object.entries(credits).sort()), null, 2) + '\n');
-  return credits[dest];
+  return { ...credits[dest], dest };
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
@@ -57,7 +60,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   let failed = 0;
   for (const [file, dest, cap = ''] of jobs) {
     if (!file || !dest) { console.error('Uso: fetch-encyclopedia-media.mjs "File:…" carpeta/archivo.jpg'); process.exit(2); }
-    try { const c = await fetchCommons(file, dest, { width, caption: cap }); console.log(`✓ ${dest} · ${c.autor} · ${c.licencia}`); }
+    try { const c = await fetchCommons(file, dest, { width, caption: cap }); console.log(`✓ ${c.dest} · ${c.autor} · ${c.licencia}`); }
     catch (e) { failed++; console.error(`✗ ${file}: ${e.message}`); }
     await sleep(800);
   }

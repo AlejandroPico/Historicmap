@@ -125,6 +125,7 @@ export function compileEncyclopedia() {
   for (const p of pages) {
     const refs = [...internalLinks(p.body), ...(p.meta.relacionados ?? []), ...(p.meta.padre ? [p.meta.padre] : [])];
     for (const id of refs) { linkCount++; if (!resolves(id)) errors.push(`${p.rel}: enlace a una página inexistente «${id}»`); }
+    for (const id of p.meta.reemplaza ?? []) if (!known.has(id)) errors.push(`${p.rel}: «reemplaza» apunta a un artículo heredado inexistente «${id}»`);
     if (!Array.isArray(p.meta.fuentes) || !p.meta.fuentes.length) warnings.push(`${p.rel}: sin fuentes`);
     for (const b of blocksIn(p.body)) {
       const name = b.kind === 'componente' ? b.arg.split(/\s+/)[0] : b.kind;
@@ -141,7 +142,7 @@ export function compileEncyclopedia() {
     id: p.meta.id, tipo: p.meta.tipo, titulo: p.meta.titulo, alias: p.meta.alias ?? [],
     resumen: p.meta.resumen ?? firstParagraph(p.body), inicio: p.inicio, fin: p.fin,
     ancla: p.meta.anclaMapa !== undefined ? civilYear(p.meta.anclaMapa) : null,
-    padre: p.meta.padre ?? null, orden: p.meta.orden ?? null, ruta: p.rel, rama: p.rel.split('/')[0],
+    padre: p.meta.padre ?? null, orden: p.meta.orden ?? null, ruta: p.rel, rama: p.rel.split('/')[0], reemplaza: p.meta.reemplaza ?? [],
     palabras: p.body.split(/\s+/).filter(Boolean).length
   })).sort((a, b) => a.id.localeCompare(b.id));
 

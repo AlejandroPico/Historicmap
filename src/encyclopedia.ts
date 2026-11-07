@@ -24,7 +24,8 @@ interface Page {
 }
 
 let dialog: HTMLDialogElement, history: string[] = [], cursor = -1, consultedYear = 2026, onMap: (year: number) => void, returnFocus: HTMLElement;
-let index: EncyclopediaIndexFile | null = null, renderToken = 0;
+let index: EncyclopediaIndexFile | null = null, renderToken = 0, replacedBy = new Map<string, string>();
+const isReplaced = (id: string) => replacedBy.has(id);
 const byId = (id: string) => document.getElementById(id)!;
 const BASE = import.meta.env.BASE_URL;
 const pageById = (id: string) => index?.paginas.find(p => p.id === id);
@@ -80,6 +81,17 @@ function legacyBody(a: EncyclopediaArticle, year: number) {
 }
 
 /* ---------- Constructores de páginas ---------- */
+/** Artículos temáticos que cuelgan de una página (campo «padre»), en su orden. */
+function topicsOf(id: string) {
+  return (index?.paginas ?? []).filter(c => c.padre === id).sort((a, b) => (a.orden ?? 1e9) - (b.orden ?? 1e9) || a.titulo.localeCompare(b.titulo, 'es'))
+    .map(c => ({ id: c.id, title: c.titulo, summary: c.resumen, meta: c.inicio !== null && !c.id.startsWith('geo-') ? (Math.abs(c.inicio) >= 1e6 ? `${yearLabel(c.inicio)} — ${yearLabel(c.fin)}` : '') : '' }));
+}
+/** Elementos interactivos de un artículo heredado que se conservan al sustituir su texto. */
+function legacyExtras(a: EncyclopediaArticle, year: number) {
+  const diagram = legacyDiagram({ ...a, year });
+  const video = a.id === 'theia' ? `<section class="encyclopedia-video"><h2 id="enc-simulacion">Simular una colisión</h2><p>NASA: visualización de una simulación del impacto formador de la Luna.</p><button data-video-id="kRlhlCWplqk">Cargar animación de NASA</button><div id="encyclopedia-video-frame"></div><a href="https://www.nasa.gov/solar-system/nasa-finds-moon-may-have-formed-in-hours-instead-of-years/" target="_blank" rel="noopener">Contexto científico de la simulación ↗</a></section>` : '';
+  return { top: humanPhoto(a.themeId ?? a.id) + legacyImage(a), html: diagram + video };
+}
 function unitChildren(u: GeologicalUnit) { return geologicalUnits.filter(c => c.parent === u.id).sort((a, b) => b.oldestMa - a.oldestMa); }
 function unitTrail(u: GeologicalUnit) { const out: GeologicalUnit[] = []; let p = u.parent ? unitById(u.parent) : undefined; while (p) { out.unshift(p); p = p.parent ? unitById(p.parent) : undefined; } return out; }
 const duration = (u: GeologicalUnit) => geologicalAgeLabel(Math.max(0, u.oldestMa - u.youngestMa));
@@ -126,7 +138,7 @@ async function geologicalPage(u: GeologicalUnit, md: Awaited<ReturnType<typeof l
     summary: idx?.resumen && md ? geologicalRangeLabel(u) + '. ' + idx.resumen : geologicalRangeLabel(u) + '.',
     year, html, headings, infobox: mergeInfobox(unitInfobox(u), infoboxFromMeta(md?.meta)),
     breadcrumb: trail.map(t => ({ id: 'geo-' + t.id, title: t.name })),
-    children: unitChildren(u).map(c => ({ id: 'geo-' + c.id, title: c.name, summary: pageById('geo-' + c.id)?.resumen ?? '', meta: geologicalRangeLabel(c) })),
+    children: [...topicsOf(id), ...unitChildren(u).map(c => ({ id: 'geo-' + c.id, title: c.name, summary: pageById('geo-' + c.id)?.resumen ?? '', meta: geologicalRangeLabel(c) }))],
     related: (md?.meta.relacionados as string[] | undefined) ?? (ownTheme ? legacy.related.filter(r => !r.startsWith('geo-')) : []),
     sources: [...sourcesFromMeta(md?.meta), { title: 'Comisión Internacional de Estratigrafía · Carta cronoestratigráfica 2026/06', url: u.source }, ...(ownTheme && !md ? legacySources(legacy) : [])],
     top: legacyImage(legacy) + planetFacts(year), legacy
@@ -148,14 +160,15 @@ async function markdownPage(p: IndexPage): Promise<Page | undefined> {
   const { html, headings } = renderMarkdown(md.body, renderOptions());
   const trail: { id: string; title: string }[] = []; let parent = p.padre;
   while (parent) { trail.unshift({ id: parent, title: knownTitle(parent) ?? parent }); parent = pageById(parent)?.padre ?? (parent.startsWith('geo-') ? (unitById(parent.slice(4))?.parent ? 'geo-' + unitById(parent.slice(4))!.parent : null) : null); }
+  const legacy = encyclopediaArticle(p.id);
   const kids = index!.paginas.filter(c => c.padre === p.id).sort((a, b) => (a.orden ?? 1e9) - (b.orden ?? 1e9) || (a.inicio ?? 0) - (b.inicio ?? 0) || a.titulo.localeCompare(b.titulo, 'es'));
   const year = p.ancla ?? (p.inicio !== null && p.fin !== null && consultedYear >= p.inicio && consultedYear <= p.fin ? consultedYear : p.inicio) ?? consultedYear;
   const KIND: Record<string, string> = { portada: 'Enciclopedia', guia: 'Guía', geologia: 'Escala geológica', tierra: 'Planeta Tierra', clima: 'Clima', vida: 'Vida', especie: 'Especie', humanidad: 'Humanidad', cultura: 'Cultura', contexto: 'Contexto histórico', entidad: 'Entidad política', persona: 'Biografía', evento: 'Acontecimiento', obra: 'Obra y monumento', tema: 'Tema', lista: 'Listado' };
   return {
     id: p.id, kind: KIND[p.tipo] ?? p.tipo, title: p.titulo, summary: (md.meta.resumen as string) ?? '', year,
-    html, headings, infobox: infoboxFromMeta(md.meta), breadcrumb: trail,
+    html: html + (legacy ? legacyExtras(legacy, year).html : ''), headings, infobox: infoboxFromMeta(md.meta), breadcrumb: trail,
     children: kids.map(c => ({ id: c.id, title: c.titulo, summary: c.resumen, meta: c.inicio !== null ? `${yearLabel(c.inicio)} — ${yearLabel(c.fin)}` : '' })),
-    related: (md.meta.relacionados as string[] | undefined) ?? [], sources: sourcesFromMeta(md.meta), top: ''
+    related: (md.meta.relacionados as string[] | undefined) ?? [], sources: sourcesFromMeta(md.meta), top: legacy ? legacyExtras(legacy, year).top : ''
   };
 }
 
@@ -208,7 +221,7 @@ async function datePage(year: number): Promise<Page> {
   const parts: string[] = [], headings: Heading[] = [];
   const section = (anchor: string, title: string, body: string) => { headings.push({ level: 2, text: title, anchor }); parts.push(`<section id="${anchor}"><h2>${esc(title)}</h2>${body}</section>`); };
   for (const c of contexts) { const md = await loadSource(c); if (md) section('enc-ctx-' + c.id, c.titulo, renderMarkdown(md.body, renderOptions({ headingOffset: 1, anchorPrefix: 'enc-' + c.id + '-' })).html); }
-  if (lead) section('enc-lectura', 'Lectura principal', `<button class="enc-card" data-encyclopedia-entry="${lead.id}"><strong>${esc(lead.title)}</strong><span>${esc(lead.summary)}</span></button>`);
+  if (lead) { const leadId = replacedBy.get(lead.id) ?? lead.id, md = pageById(leadId); section('enc-lectura', 'Lectura principal', `<button class="enc-card" data-encyclopedia-entry="${esc(leadId)}"><strong>${esc(md?.titulo ?? lead.title)}</strong><span>${esc(md?.resumen ?? lead.summary)}</span></button>`); }
   const chain = units.filter(u => u.rank !== 'group').map(u => `<a href="#" class="enc-link" data-encyclopedia-entry="geo-${u.id}"><small>${esc(rankLabels[u.rank])}</small>${esc(u.name)}</a>`).join('');
   section('enc-tiempo', 'Tiempo geológico', `<nav class="enc-chain" aria-label="Unidades geológicas vigentes">${chain}</nav>${humans.length ? `<p class="enc-chain-human">Periodizaciones humanas: ${humans.map(h => `<a href="#" class="enc-link" data-encyclopedia-entry="human-${h.id}">${esc(h.name)}</a> <small>(${esc(h.scope)})</small>`).join(' · ')}</p>` : ''}`);
   if (!deep) {
@@ -226,7 +239,7 @@ async function datePage(year: number): Promise<Page> {
   }
   const dated = index!.paginas.filter(p => p.tipo !== 'contexto' && p.inicio !== null && p.fin !== null && p.inicio <= year && year <= p.fin && !p.id.startsWith('geo-'));
   if (dated.length) section('enc-paginas', 'Páginas de esta época', `<div class="enc-children">${dated.slice(0, 80).map(p => `<button data-encyclopedia-entry="${p.id}"><strong>${esc(p.titulo)}</strong><span>${esc(p.resumen)}</span></button>`).join('')}</div>`);
-  const step = year > -10000 ? 1 : year > -1000000 ? 100 : year > -100000000 ? 100000 : 1000000;
+  const ay = Math.abs(year), step = ay >= 1e9 ? 5e7 : ay >= 1e8 ? 5e6 : ay >= 1e7 ? 1e6 : ay >= 1e6 ? 1e5 : ay >= 1e5 ? 1e4 : ay >= 1e4 ? 1000 : 1;
   const shift = (y: number, d: number) => { const n = y + d; return n === 0 ? (d > 0 ? 1 : -1) : y < 0 && n > 0 && d > 0 ? n : n; };
   const prev = shift(year, -step), next = shift(year, step);
   const nav = `<nav class="enc-years" aria-label="Navegación por fechas"><button data-encyclopedia-entry="fecha-${prev}">← ${esc(formatYear(prev))}</button><button data-encyclopedia-entry="fecha-${next}">${esc(formatYear(next))} →</button></nav>`;
@@ -251,7 +264,8 @@ function legacyPage(a: EncyclopediaArticle): Page {
 
 /** Resuelve cualquier identificador en una página. */
 async function resolve(id: string, compact = false): Promise<Page | undefined> {
-  if (!index) index = await loadIndex();
+  if (!index) { index = await loadIndex(); replacedBy = new Map(index.paginas.flatMap(p => (p.reemplaza ?? []).map(r => [r, p.id] as [string, string]))); }
+  if (replacedBy.has(id)) return resolve(replacedBy.get(id)!, compact);
   if (/^fecha--?\d+$/.test(id)) return datePage(Number(id.slice(6)));
   const idx = pageById(id);
   if (id.startsWith('geo-')) { const u = unitById(id.slice(4)); if (u) return geologicalPage(u, idx ? await loadSource(idx) : null, idx, compact); }
@@ -276,8 +290,7 @@ async function composedChildren(page: Page, depth: number): Promise<string> {
   return out.join('');
 }
 function countDescendants(page: Page): number {
-  if (page.id.startsWith('geo-')) { const walk = (id: string): number => geologicalUnits.filter(u => u.parent === id).reduce((n, u) => n + 1 + walk(u.id), 0); return walk(page.id.slice(4)); }
-  const walk = (id: string): number => index!.paginas.filter(p => p.padre === id).reduce((n, p) => n + 1 + walk(p.id), 0);
+  const walk = (id: string): number => index!.paginas.filter(p => p.padre === id).reduce((n, p) => n + 1 + walk(p.id), 0) + (id.startsWith('geo-') ? geologicalUnits.filter(u => u.parent === id.slice(4)).reduce((n, u) => n + 1 + walk('geo-' + u.id), 0) : 0);
   return walk(page.id);
 }
 
@@ -298,7 +311,7 @@ async function renderIndex() {
   const stats = index?.stats;
   if (query) {
     const q = normalizeText(query);
-    const legacy = searchEncyclopedia(query, (byId('encyclopedia-archive') as HTMLInputElement).checked).slice(0, 60).map(a => ({ id: a.id, title: a.title, group: a.group }));
+    const legacy = searchEncyclopedia(query, (byId('encyclopedia-archive') as HTMLInputElement).checked).filter(a => !isReplaced(a.id)).slice(0, 60).map(a => ({ id: a.id, title: a.title, group: a.group }));
     const pages = (index?.paginas ?? []).filter(p => normalizeText([p.titulo, ...p.alias, p.resumen].join(' ')).includes(q)).map(p => ({ id: p.id, title: p.titulo, group: 'Enciclopedia' }));
     const seen = new Set<string>(), results = [...pages, ...legacy].filter(r => !seen.has(r.id) && seen.add(r.id));
     nav.innerHTML = results.map(r => entry(r.id, r.title, r.group)).join('');
@@ -314,13 +327,13 @@ async function renderIndex() {
   const path = new Set<string>(currentUnit ? [currentUnit.id, ...unitTrail(currentUnit).map(u => u.id)] : []);
   const pages = index?.paginas ?? [];
   const branches: Record<string, string> = { tierra: 'Planeta Tierra', clima: 'Clima y glaciaciones', vida: 'La vida', humanidad: 'Humanidad', culturas: 'Culturas', contextos: 'El mundo en cada época', entidades: 'Estados e imperios', personas: 'Biografías', eventos: 'Acontecimientos', obras: 'Obras y monumentos', temas: 'Temas' };
-  const byBranch = Object.entries(branches).map(([b, title]) => { const list = pages.filter(p => p.rama === b && !p.padre); return list.length ? group(title, list.sort((x, y) => (x.orden ?? 1e9) - (y.orden ?? 1e9) || x.titulo.localeCompare(y.titulo, 'es')).map(p => entry(p.id, p.titulo)).join(''), false, pages.filter(p => p.rama === b).length) : ''; }).join('');
+  const byBranch = Object.entries(branches).map(([b, title]) => { const list = pages.filter(p => p.rama === b && (!p.padre || p.padre.startsWith('geo-'))); return list.length ? group(title, list.sort((x, y) => (x.orden ?? 1e9) - (y.orden ?? 1e9) || x.titulo.localeCompare(y.titulo, 'es')).map(p => entry(p.id, p.titulo)).join(''), false, pages.filter(p => p.rama === b).length) : ''; }).join('');
   const general = pages.filter(p => ['portada', 'guia'].includes(p.tipo)).sort((x, y) => (x.orden ?? 1e9) - (y.orden ?? 1e9));
   nav.innerHTML = [
     entry('fecha-' + consultedYear, (consultedYear <= -1000000 ? 'La Tierra hace ' : 'El mundo en ') + formatYear(consultedYear), 'Ahora en el mapa'),
     ...general.map(p => entry(p.id, p.titulo)),
     group('Escala temporal geológica', `<div class="enc-tree">${unitTree(null, path)}</div>`, history[cursor]?.startsWith('geo-'), geologicalUnits.length),
-    group('Tierra y vida · artículos temáticos', curatedArticles.filter(a => !humanKnowledge.articles.some(h => h.id === a.id)).map(a => entry(a.id, a.title)).join(''), false),
+    group('Tierra y vida · artículos temáticos', curatedArticles.filter(a => !humanKnowledge.articles.some(h => h.id === a.id) && !isReplaced(a.id) && !pageById(a.id)).map(a => entry(a.id, a.title)).join(''), false),
     group('Evolución humana', humanKnowledge.articles.map(a => entry(a.id, a.title)).join(''), false, humanKnowledge.articles.length),
     group('Edades de la humanidad', humanUnits.map(u => entry('human-' + u.id, u.name, u.scope)).join(''), false, humanUnits.length),
     byBranch

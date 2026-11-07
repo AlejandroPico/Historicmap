@@ -2,7 +2,7 @@
 // por scripts/build-encyclopedia.mjs (índice, dirigentes, entidades, mandatos). Todo se carga bajo demanda.
 import { splitPage, shardOf, PERSON_SHARDS, ENTITY_SHARDS, centuryOf, normalizeText } from '../../scripts/lib/encyclopedia-format.mjs';
 
-export interface IndexPage { id: string; tipo: string; titulo: string; alias: string[]; resumen: string; inicio: number | null; fin: number | null; ancla: number | null; padre: string | null; orden: number | null; ruta: string; rama: string; palabras: number }
+export interface IndexPage { id: string; tipo: string; titulo: string; alias: string[]; resumen: string; inicio: number | null; fin: number | null; ancla: number | null; padre: string | null; orden: number | null; ruta: string; rama: string; palabras: number; reemplaza?: string[] }
 export interface EncyclopediaIndexFile { version: number; stats: { paginas: number; palabras: number; enlaces: number; personas: number; entidades: number; mandatos: number }; paginas: IndexPage[] }
 /** [entidad, cargo, inicio, fin, precisión] */
 export type PersonMandate = [string, string, string, string, number];

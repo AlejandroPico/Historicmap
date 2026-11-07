@@ -10,7 +10,8 @@ ficha:
   Atmósfera: vapor de roca, luego vapor de agua y CO₂; sin oxígeno libre
   Duración del día: de ≈ 5 horas tras el impacto lunar a unas 10–12 horas
   Rocas conservadas: ninguna; solo cristales de circón
-relacionados: [formation, theia, hadean, interior, water, geo-Archean]
+reemplaza: [hadean]
+relacionados: [formation, theia, tierra-oceano-magma, tierra-circones-jack-hills, tierra-bombardeo, geo-Archean]
 fuentes:
   - titulo: Wikipedia · Hádico
     url: https://es.wikipedia.org/wiki/H%C3%A1dico
@@ -66,3 +67,16 @@ No hay ninguna prueba firme de vida en el Hádico, pero tampoco puede descartars
 ## El final del eón
 
 El Hádico termina, por convenio, con la roca entera más antigua conocida: los **gneises de Acasta**, en los Territorios del Noroeste de Canadá, de unos 4.031 millones de años. A partir de ahí, el registro geológico deja de ser un puñado de cristales y empieza el [[geo-Archean|Arcaico]].
+
+## Para profundizar
+
+El Hádico se desarrolla en ocho artículos, que se leen seguidos con «Leer completo»:
+
+1. [[formation|Formación de la Tierra]]: de la nube molecular a un planeta caliente.
+2. [[tierra-diferenciacion|La diferenciación en capas]]: núcleo, manto y corteza.
+3. [[theia|Theia y el origen de la Luna]].
+4. [[tierra-oceano-magma|El océano de magma y la primera atmósfera]].
+5. [[tierra-origen-agua|El origen del agua y los primeros océanos]].
+6. [[tierra-circones-jack-hills|Los circones de Jack Hills]], los únicos testigos materiales del eón.
+7. [[tierra-bombardeo|El bombardeo intenso]] y los impactos del Hádico.
+8. [[tierra-campo-magnetico|El campo magnético primitivo]].

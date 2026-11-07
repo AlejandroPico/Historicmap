@@ -52,6 +52,8 @@ fuentes:
 
 Las unidades geológicas no necesitan `padre`, `inicio` ni `fin`: los toma de la carta ICS (`Tierra/Cronologia/ics-2026-06.json`).
 
+Un artículo temático con `padre: geo-<unidad>` forma parte de esa unidad: aparece en su «Contenido» y se lee dentro de ella con «Leer completo», antes de sus subdivisiones. El campo `reemplaza: [id-heredado]` retira un artículo antiguo de `Tierra/` y redirige sus enlaces a la página nueva. Si una página nueva usa el mismo identificador que un artículo heredado (p. ej. `theia`), lo sustituye conservando sus imágenes, esquemas interactivos y vídeos.
+
 ## Cuerpo
 
 - Títulos `##`, `###`, `####` (el título principal sale de la cabecera).
