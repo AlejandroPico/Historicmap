@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.57.0 · 7 de noviembre de 2026
+
+- Enciclopedia P01 (cimientos): nueva carpeta raíz `enciclopedia/` con páginas Markdown + cabecera YAML, guía editorial y plan de 25 fases ([PLAN](enciclopedia/PLAN.md)).
+- Compilador `scripts/build-encyclopedia.mjs` sin dependencias: valida cabeceras, identificadores y enlaces internos; genera índice, nombres y fichas de los 12.606 dirigentes, 2.423 entidades y 20.559 mandatos del atlas (fragmentos cargados bajo demanda). Se ejecuta al arrancar Vite; `enciclopedia/_generado/` no se versiona.
+- Lector nuevo: índice por ramas con árbol completo de la escala ICS, búsqueda unificada (artículos, unidades, dirigentes y entidades), ficha lateral, migas de pan, «Leer completo» que compone una unidad con todas sus subdivisiones, panorama «El mundo en…» por fecha (unidades vigentes, periodizaciones, dirigentes de todo el mundo ese año, navegación año a año) y fichas automáticas de personas y entidades.
+- Componentes visuales iniciales: escala geológica proporcional interactiva, reloj geológico y curva de temperatura fanerozoica. Primeras páginas: portada, guía, escala temporal, Precámbrico y los cuatro eones.
+- Contenido heredado de Tierra/ conservado con sus diagramas, fotografías e indicadores; las subdivisiones geológicas ya no repiten el artículo temático de su periodo.
+
 ## 0.56.0 · 2 de noviembre de 2026
 
 - Sexta parte: revisión de integración geológica/humana, inventario reproducible de fuentes, relaciones, medios y carencias.

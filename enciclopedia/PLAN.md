@@ -114,10 +114,10 @@ Cada fase indica objetivo, entregables y criterio de cierre. Las fases de conten
 
 ### Bloque 0 · Cimientos
 
-**P00 · Análisis, diagnóstico y plan** ✅ *(esta entrega)*
+**P00 · Análisis, diagnóstico y plan** ✅
 Descarga y diagnóstico del clon, lectura de `agentes.md`, `tareas.md`, código y datos, prueba de compilación, capturas de la enciclopedia actual y este plan.
 
-**P01 · Arquitectura y lector nuevo**
+**P01 · Arquitectura y lector nuevo** ✅ *(0.57.0)*
 Carpeta `enciclopedia/` con esquema y guía editorial; compilador con validación y detección de enlaces rotos; lector nuevo: índice lateral por ramas (Tierra, Vida, Humanidad, Historia, Personas, Eventos), ficha lateral (infobox), tabla de contenidos, **composición jerárquica** con secciones plegables (“leer completo” incluye a las hijas), historial, búsqueda con acentos y alias, apertura por fecha. Migración de lo aprovechable de los 91 artículos actuales (quitando la retórica defensiva). Pruebas unitarias rápidas. Instrucciones para ejecutar en local.
 *Cierre:* el lector nuevo abre las páginas migradas, compone una unidad con sus hijas y no aumenta el tiempo de Actions de forma apreciable.
 
@@ -162,13 +162,14 @@ Paleolítico superior y arte rupestre, Último Máximo Glacial, poblamiento de A
 
 ### Bloque 4 · Historia: «El mundo en…», entidades, personas y eventos
 
-Cada fase histórica entrega cuatro cosas para su intervalo:
-1. **Contextos** «El mundo en…» con desglose por regiones (Europa, Mediterráneo, Oriente Próximo, África, Asia meridional, Asia oriental, América, Oceanía).
-2. **Entidades**: imperios, reinos y estados del mapa en ese intervalo.
-3. **Personas**: biografías A/B de los dirigentes y figuras clave (no solo gobernantes: también Aristóteles, Confucio, Colón, Newton… cuando sean imprescindibles para el contexto).
-4. **Eventos y obras**: guerras, batallas, revoluciones, pandemias, tratados, monumentos.
+Cada fase histórica entrega cinco cosas para su intervalo:
+1. **Anales año a año** (requisito del propietario, 7/11/2026): una página «El mundo en *año*» para **cada año** desde el 3000 a. C. hasta hoy, con la situación mundial en todos sus aspectos (política, guerras, economía, sociedad, religión, ciencia, cultura, clima y catástrofes) desglosada por regiones. En la Antigüedad remota, donde muchos años no tienen hechos fechados, la página anual se apoya en el panorama de su década o siglo y recoge todo lo fechado que exista, sin inventar sucesos; desde la época clásica, y sobre todo desde la Edad Media, cada año tiene contenido propio.
+2. **Contextos** de década, siglo y época con desglose por regiones (Europa, Mediterráneo, Oriente Próximo, África, Asia meridional, Asia oriental, América, Oceanía).
+3. **Entidades**: imperios, reinos y estados del mapa en ese intervalo.
+4. **Personas**: biografías A/B de los dirigentes y figuras clave (no solo gobernantes: también Aristóteles, Confucio, Colón, Newton… cuando sean imprescindibles para el contexto).
+5. **Eventos y obras**: guerras, batallas, revoluciones, pandemias, tratados, monumentos.
 
-| Fase | Intervalo | Ejemplos de contenido | Volumen orientativo |
+| Fase | Intervalo | Ejemplos de contenido | Páginas temáticas (sin contar anales) |
 |---|---|---|---|
 | **P11** | 3500–1200 a.C. | Sumer, Acad, Egipto (Reinos Antiguo, Medio y Nuevo; Sesostris I, Amenemhat I, Keops, Hatshepsut, Ramsés II), pirámides de Guiza, Harappa, Shang, Hititas, Babilonia y Hammurabi, colapso de la Edad del Bronce | ~140 |
 | **P12** | 1200–500 a.C. | Asiria, Neobabilonia, Fenicia, Israel y Judá, Zhou, Olmecas, Grecia arcaica, Persia aqueménida (Ciro, Darío) | ~130 |
@@ -198,7 +199,7 @@ Auditoría de enlaces, repeticiones, fechas y fuentes; rendimiento; accesibilida
 - **P-X1 · Fichas de país simplificadas**: fichas del mapa escuetas y elegantes (nombre, bandera, dirigentes con enlace a la enciclopedia, capital, dos datos), con lo técnico movido a la enciclopedia. Puede adelantarse si se prefiere.
 - **P-X2 · Idiomas**: traducción de la interfaz y, por niveles, de la enciclopedia (ca, es, en, fr, de, pt, it y los idiomas de ampliación).
 
-**Total: 25 fases (P00–P24) + 2 opcionales.** Volumen estimado al final: ~3.000–4.500 páginas escritas (A/B) más fichas generadas para todos los dirigentes y entidades restantes.
+**Total: 25 fases (P00–P24) + 2 opcionales.** Volumen estimado al final: ~3.000–4.500 páginas temáticas escritas (A/B), **más ~5.000 páginas de anales anuales** (3000 a. C.–2026), más fichas generadas para todos los dirigentes y entidades. Las fases de historia con más volumen (P16–P21) podrán dividirse en subpartes (por ejemplo P20a, P20b) para entregarlas por tandas sin perder profundidad.
 
 ---
 
@@ -236,4 +237,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | Fase | Estado |
 |---|---|
 | P00 | ✅ Completada (7/11/2026) |
-| P01–P24 | Pendientes |
+| P01 | ✅ Completada (7/11/2026) · versión 0.57.0 |
+| P02–P24 | Pendientes |

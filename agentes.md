@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **2 de noviembre de 2026**. Versión del producto: **0.56.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **7 de noviembre de 2026**. Versión del producto: **0.57.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección77; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección78; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** sexta parte autorizada, revisión integral y corrección de CI comunicada. Producto0.56.0 validado localmente; ver sección77 y tareas.md. Subir ambas juntas al cerrar, sin esperar Actions/Pages.
+**Encargo vigente:** reconstrucción completa de la enciclopedia en 25 fases (P00–P24 y opcionales PX1/PX2), según [enciclopedia/PLAN.md](enciclopedia/PLAN.md). P00 y P01 cerradas en 0.57.0; ver sección78 y tareas.md. Cada fase empieza solo cuando el propietario la ordena; el propietario sube a Git y verifica el despliegue.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1645,3 +1645,24 @@ Las capturas detectaron un aviso genérico de cierre anual dentro de una ficha p
 Cierre local0.56:416 pruebas/83 archivos y40 pruebas de investigación correctas;330 recursos/11 franjas/9179 medios anteriores verificados. Veinte focales y cuatro de reproducción repetidos al cierre, correctos. Treinta y ocho recorridos distintos correctos en diez archivos; repetición final completa de ficha/Tierra/review-051:10/10 en6,2min. El caso comunicado review-050 pasa con modelo, archivo, fuentes y hueco real. Capturas finales revisadas, incluido el aviso de ficha corregido. Tipos y producción correctos; inventario reproducible y25 medios originales verificados.
 
 No afirmar batería completa de navegador:164 casos recopilados, intento con dos trabajadores locales interrumpido por esperas de recursos; tanda dirigida33/34 antes de recargar la expectativa modificada; archivo final repetido completo correctamente. Mantener un navegador por máquinaCI, ocho grupos y barrido anual separado. Registro listo para commit/push autorizado; comprobar HEAD/origin/main al enviar o retomar y no esperar Actions/Pages.
+
+
+## 78. Enciclopedia · P00–P01 · arquitectura y lector nuevo · 0.57.0 · 7/11/2026
+
+El propietario encarga la enciclopedia completa, por fases, y declara insatisfactoria la anterior por su escasez y su tono. Requisitos expresos: monumental y técnica (la cara «sencilla» es el mapa); autocompositiva (una unidad incluye a sus hijas: «Jurásico» contiene Inferior/Medio/Superior y sus edades; una edad terminal se lee sola); contextual por fecha; hipervinculada; con gráficos, estadísticas, fotos y esquemas; sin repeticiones; carpeta raíz propia `enciclopedia/`. Los ejemplos que dio (Jurásico, 1943, Tiberio, Sesostris I, Alejandro Magno…) son aleatorios: la exigencia es de cobertura total. El 7/11/2026 añade **anales año a año** «El mundo en *año*» desde el 3000 a. C. (o 5000 a. C.) hasta hoy, con la situación mundial completa. No inventar sucesos en años sin hechos fechados: la página anual se apoya entonces en el panorama de su década/siglo. Preferencias: progreso visible por fases; al cerrar cada fase, comandos de PowerShell para subir y para ejecutar en local; el propietario hace el push. Pocos subagentes.
+
+Hallazgo P00: el clon en Windows falla porque 21 rutas de Países/ superan 260 caracteres (CULTURE-…-poblamiento). Solución: `git config --global core.longpaths true` y `git reset --hard HEAD`. Carpeta duplicada EGYPT-HERACLEOPOLITAN-POWERS-…-nort/-norte pendiente de revisar (no se toca).
+
+Arquitectura P01:
+- `enciclopedia/`: páginas Markdown con cabecera YAML reducida (guía en enciclopedia/README.md). El identificador manda: `geo-<idICS>` sustituye la ficha automática de la unidad; `persona-<QID>` y `entidad-<CLAVE>` se anteponen a las fichas generadas; `contexto-…`/`anales-<año>` con inicio/fin entran en el panorama de fecha.
+- `scripts/lib/encyclopedia-format.mjs` (+ .d.mts): YAML reducido, fechas civiles/edades (sin año cero), enlaces `[[id|texto]]`, fragmentación. Compartido por Node y navegador.
+- `scripts/build-encyclopedia.mjs [--check]`: valida y genera `enciclopedia/_generado/` (ignorado por Git): índice, nombres, 64 fragmentos de personas, 32 de entidades y mandatos por siglo, desde `public/data/identities.json` (12.606 personas, 2.423 entidades, 20.559 mandatos). Un enlace roto es error. El plugin de vite.config.ts lo ejecuta en buildStart y al cambiar .md en desarrollo; CI no necesita pasos nuevos.
+- `src/encyclopedia/` (markdown.ts, store.ts, components.ts) y `src/encyclopedia.ts` reescrito: índice por ramas con árbol ICS, búsqueda unificada (artículos, unidades, aliases de linajes, dirigentes y entidades), ficha lateral, migas, «Leer completo» con composición recursiva (hasta 4 niveles), panorama `fecha-<año>` (contextos ordenados de lo concreto a lo general, lectura principal, unidades vigentes, edades humanas, indicadores, dirigentes de ese año agrupados por entidad, páginas fechadas, navegación ←/→), fichas generadas de personas y entidades. Contenido heredado (Tierra/*/enciclopedia.json, human-knowledge.json) conservado con diagramas, laboratorios, fotos, vídeo e indicadores; las subdivisiones con el mismo tema que su unidad superior ya no repiten el artículo y enlazan a él.
+- Abrir sin entrada concreta lleva ahora al panorama de la fecha (antes al artículo temático); los recorridos de navegador afectados se actualizaron para entrar por la «Lectura principal» sin perder aserciones.
+- Componentes: `escala-geologica [idICS]`, `reloj-geologico`, `curva-temperatura-fanerozoico`. P02 amplía la biblioteca.
+- Páginas nuevas: portada, guía, escala temporal, Precámbrico, Hádico, Arcaico, Proterozoico, Fanerozoico (≈6.500 palabras).
+- CSS: `dialog a{font-size:11px}` global obligaba a restaurar el tamaño de los enlaces del cuerpo; diseño sin cajas (preferencia del propietario).
+
+Validación local 0.57.0: tipos correctos; 31 pruebas unitarias de los cinco archivos de enciclopedia/Tierra/humanidad correctas (incluido el nuevo tests/encyclopedia-pages.test.ts); compilador sin errores; construcción Vite correcta. Navegador (Chromium del entorno): recorridos de enciclopedia de precambrian (2/2), earth-integration (enciclopedia), human-expansion (contexto, alias y comparación; CO₂) correctos. Fallaron en este entorno esperas de carga del globo ajenas a la enciclopedia (phanerozoic línea 11, human-expansion 15 y 22, earth-integration 17); phanerozoic falla igual con el código de 0.56.0 en el mismo entorno. CI decide; no se aumentaron tiempos ni se retiraron aserciones.
+
+Siguiente: P02 (componentes visuales e integración con fichas del mapa: icono de consulta junto a cada dirigente/entidad).

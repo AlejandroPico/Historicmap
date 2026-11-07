@@ -38,3 +38,123 @@
 .human-compare-result article{min-width:0;padding:15px 0}.human-compare-result h3{font-size:16px}.human-compare-result small{display:block;color:var(--muted);line-height:1.7}.human-lab button{padding:10px 12px;border:1px solid var(--line);margin:12px 0;color:var(--text)}
 .human-lab input[type=range]{width:100%;margin:18px 0;accent-color:var(--gold)}.human-lab output{display:block}.human-lab output strong{font-size:24px}.human-lab>a{display:block;font-size:12px}
 @media(max-width:600px){.human-compare-inputs,.human-compare-result>div{grid-template-columns:1fr}.human-lab{padding:14px}.human-diagram{overflow-x:auto}.human-diagram svg{min-width:600px}}
+
+/* ===== Lector 0.57 (P01): índice por ramas, composición, ficha lateral ===== */
+.encyclopedia-layout{grid-template-columns:300px 1fr}
+.encyclopedia-reading{padding:42px 5% 0}
+.encyclopedia-reading>article.enc-page{max-width:1240px}
+#encyclopedia-index{gap:2px}
+#encyclopedia-index button{padding:7px 8px;border:0;font-size:12px;line-height:1.45;border-radius:3px;width:100%}
+#encyclopedia-index [aria-current=page]{background:var(--soft);color:var(--gold);border:0}
+.enc-group{margin:6px 0}
+.enc-group>summary{cursor:pointer;list-style:none;font-size:10px;letter-spacing:1.1px;text-transform:uppercase;color:var(--muted);padding:12px 8px 6px;user-select:none}
+.enc-group>summary::-webkit-details-marker{display:none}
+.enc-group>summary::before{content:'▸';display:inline-block;width:14px;transition:transform .15s}.enc-group[open]>summary::before{transform:rotate(90deg)}
+.enc-group>summary small{letter-spacing:0;opacity:.7}
+.enc-tree details{position:relative}
+.enc-tree details>summary{position:absolute;left:0;top:4px;width:18px;height:22px;cursor:pointer;list-style:none;color:var(--muted);font-size:10px;text-align:center;line-height:22px}
+.enc-tree details>summary::-webkit-details-marker{display:none}
+.enc-tree details>summary::before{content:'▸';display:inline-block;transition:transform .15s}.enc-tree details[open]>summary::before{transform:rotate(90deg)}
+.enc-tree details>button,.enc-tree .enc-leaf>button{padding-left:22px!important}
+.enc-tree details>div,.enc-tree details>div{margin-left:12px}
+.enc-tree i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:7px;vertical-align:1px}
+.enc-head{max-width:900px}
+.encyclopedia-breadcrumb{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-bottom:18px;font-size:11px}
+.encyclopedia-breadcrumb button{border:0!important;padding:2px 0!important;color:var(--muted);font-size:11px!important}.encyclopedia-breadcrumb button:hover{color:var(--gold)}
+.encyclopedia-breadcrumb span{color:var(--muted);opacity:.6}
+.enc-compose{border:0;background:none;color:var(--gold);font-size:12px;padding:12px 4px!important;text-decoration:underline;text-underline-offset:4px}
+.enc-columns{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:56px;align-items:start}
+.enc-columns:not(:has(.enc-infobox)){grid-template-columns:minmax(0,900px)}
+.enc-main{min-width:0;padding-bottom:70px}
+.enc-infobox{position:sticky;top:0;padding:4px 0 30px}
+.enc-infobox dl{margin:0;display:grid;gap:15px}
+.enc-infobox dt{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.enc-infobox dd{margin:0;font-size:13px;line-height:1.55}
+.enc-swatch{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px}
+.enc-body p,.enc-composition p{font-size:15px;line-height:1.9;max-width:76ch}
+.enc-body h3,.enc-composition h3{font:21px 'Libre Caslon Display',Georgia,serif;margin:30px 0 10px}
+.enc-body h4,.enc-composition h4{font-size:15px;font-weight:600;margin:24px 0 8px;color:var(--gold)}
+.enc-composition h5,.enc-composition h6{font-size:13px;font-weight:600;margin:20px 0 6px}
+.enc-body ul,.enc-body ol,.enc-composition ul,.enc-composition ol{font-size:15px;line-height:1.8;max-width:74ch;padding-left:22px}
+.enc-body li,.enc-composition li{margin:4px 0}
+.enc-link{color:var(--gold);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--gold) 35%,transparent)}
+.enc-link:hover{border-bottom-color:var(--gold)}
+.enc-body blockquote{margin:24px 0;padding:2px 0 2px 22px;border-left:2px solid var(--gold);color:var(--muted);font-style:italic}
+.enc-callout{margin:26px 0;padding:4px 0 4px 20px;border-left:2px solid var(--gold)}
+.enc-callout>strong{display:block;font-size:10px;letter-spacing:1.1px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.enc-callout p{margin:6px 0}
+.enc-debate{border-left-color:#7fa8b8}.enc-debate>strong{color:#7fa8b8}
+.enc-table{overflow-x:auto;margin:22px 0}
+.enc-table table{border-collapse:collapse;width:100%;font-size:13px}
+.enc-table th{text-align:left;font-size:10px;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);font-weight:500;padding:8px 14px 8px 0;border-bottom:1px solid var(--line)}
+.enc-table td{padding:8px 14px 8px 0;vertical-align:top;line-height:1.5}
+.enc-table tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--soft) 45%,transparent)}
+.enc-timeline{list-style:none;padding:0;margin:24px 0;max-width:76ch}
+.enc-timeline li{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:7px 0;font-size:14px;line-height:1.6}
+.enc-timeline time{color:var(--gold);font-variant-numeric:tabular-nums}
+.enc-data{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px 26px;margin:26px 0}
+.enc-data dt{font-size:10px;color:var(--muted);letter-spacing:.8px;text-transform:uppercase}.enc-data dd{margin:5px 0 0;font-size:19px}
+.enc-figure{margin:28px 0}.enc-figure img{max-width:100%;max-height:520px;display:block;margin:auto;object-fit:contain}
+.enc-figure figcaption,.enc-portrait figcaption{font-size:11px;color:var(--muted);line-height:1.6;padding-top:8px}
+.enc-portrait{float:right;width:190px;margin:0 0 20px 28px}.enc-portrait img{width:100%;border-radius:3px;display:block}
+.enc-children{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:4px 22px;margin:14px 0}
+.enc-children button,.enc-card{display:block;text-align:left;padding:12px 10px 12px 0;border:0;border-radius:0;line-height:1.5;color:var(--text)}
+.enc-children button:hover strong,.enc-card:hover strong{color:var(--gold)}
+.enc-children strong,.enc-card strong{display:block;font-size:15px;font-weight:500}
+.enc-children small{display:block;font-size:10px;color:var(--muted);margin:2px 0}
+.enc-children span,.enc-card span{display:block;font-size:12px;color:var(--muted);margin-top:4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.enc-composed{margin-top:34px}
+.enc-composed>h2,.enc-composed>h3,.enc-composed>h4,.enc-composed>h5{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline}
+.enc-composed>h2 small,.enc-composed>h3 small,.enc-composed>h4 small,.enc-composed>h5 small{font:11px system-ui,sans-serif;color:var(--muted);letter-spacing:0}
+.enc-composed .enc-link{border-bottom:0}
+.enc-composed[data-depth="2"]{margin-left:0;padding-left:18px;border-left:1px solid var(--line)}
+.enc-composed[data-depth="3"],.enc-composed[data-depth="4"]{padding-left:16px}
+.enc-pending{color:var(--muted);font-style:italic}
+.enc-muted{color:var(--muted);font-size:12px!important}
+.enc-see{font-size:13px!important;color:var(--muted)}
+.enc-chain{display:flex;flex-wrap:wrap;gap:6px 26px;margin:12px 0}
+.enc-chain a{border:0;display:flex;flex-direction:column;font-size:16px}.enc-chain small{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.enc-chain-human{font-size:13px!important}
+.enc-rulers{columns:2 320px;column-gap:40px;margin-top:14px}
+.enc-rulers>div{break-inside:avoid;margin:0 0 16px}
+.enc-entity{font-size:13px;letter-spacing:.3px;color:var(--text);text-decoration:none;font-weight:600}.enc-entity:hover{color:var(--gold)}
+.enc-rulers ul{list-style:none;margin:4px 0 0;padding:0}.enc-rulers li{font-size:13px;line-height:1.55;margin:2px 0}.enc-rulers small{display:block;color:var(--muted);font-size:11px}
+.enc-component{margin:30px 0}.enc-component svg{width:100%;height:auto;display:block}
+.enc-component figcaption{font-size:11px;color:var(--muted);padding-top:8px}
+.enc-scale text{font:11px system-ui,sans-serif;fill:#1d1d1d;pointer-events:none}
+.enc-scale .enc-scale-label,.enc-scale .enc-scale-tick{fill:var(--muted)}
+.enc-scale-unit{cursor:pointer}.enc-scale-unit:hover rect,.enc-scale-unit:focus rect{stroke:var(--text);stroke-width:1.5}
+.enc-clock td a{border:0}
+.encyclopedia-photo,.encyclopedia-diagram,.encyclopedia-facts{border:0!important;background:transparent!important}
+.encyclopedia-facts{padding:6px 0!important}
+.encyclopedia-contents{border-block:0!important;padding:4px 0 10px!important}
+.encyclopedia-references{border-top:0!important;margin-top:50px}
+.encyclopedia-related button{border:0!important;padding:8px 10px 8px 0!important;color:var(--gold)}
+@media(max-width:1100px){.enc-columns{grid-template-columns:minmax(0,1fr)}.enc-infobox{position:static;order:-1;padding:0}.enc-infobox dl{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}}
+@media(max-width:760px){
+ .encyclopedia-layout{grid-template-columns:1fr}
+ .encyclopedia-layout>aside{max-height:38dvh}
+ #encyclopedia-index{flex-direction:column;overflow:visible}
+ #encyclopedia-index button{flex:none}
+ .encyclopedia-reading{padding:22px 16px 0}
+ .enc-portrait{float:none;width:150px;margin:0 0 16px}
+ .enc-timeline li{grid-template-columns:1fr;gap:2px}
+ .enc-body p,.enc-composition p{font-size:14px}
+}
+#encyclopedia-index .enc-group>summary small{display:inline;font-size:9px;margin-left:6px}
+.enc-node .enc-kids{display:none;margin-left:13px}.enc-node[data-open=true]>.enc-kids{display:block}
+.enc-row{display:flex;align-items:center}
+.enc-toggle{flex:0 0 18px;width:18px;height:26px;padding:0!important;border:0;background:none;color:var(--muted);font-size:9px;text-align:center}
+button.enc-toggle::before{content:'▸';display:inline-block;transition:transform .15s}.enc-node[data-open=true]>.enc-row>.enc-toggle::before{transform:rotate(90deg)}
+.enc-tree .enc-row>button[data-encyclopedia-entry]{padding-left:4px!important}
+.enc-composition .enc-composed>h2{font:27px 'Libre Caslon Display',Georgia,serif;margin:44px 0 10px}
+.enc-composition .enc-composed>h3{font:22px 'Libre Caslon Display',Georgia,serif;margin:30px 0 8px}
+.enc-composition .enc-composed>h4,.enc-composition .enc-composed>h5{font:600 15px system-ui,sans-serif;margin:24px 0 6px}
+.enc-composition .enc-composed>h2 a,.enc-composition .enc-composed>h3 a,.enc-composition .enc-composed>h4 a{color:var(--text)}
+.enc-infobox .enc-portrait{float:none;width:100%;margin:0 0 22px}
+#encyclopedia .enc-link,#encyclopedia .enc-body a,#encyclopedia .enc-composition a,#encyclopedia .enc-infobox dd a,#encyclopedia .enc-chain a,#encyclopedia .enc-entity{font-size:inherit}
+#encyclopedia .enc-chain a{font-size:16px}#encyclopedia .enc-entity{font-size:13px}
+.encyclopedia-layout>aside .encyclopedia-archive{justify-content:flex-start}
+@media(max-width:760px){.encyclopedia-layout>aside{max-height:30dvh}}
+.enc-years{display:flex;justify-content:space-between;gap:12px;margin:0 0 18px;max-width:900px}
+.enc-years button{border:0;padding:6px 0;color:var(--gold);font-size:13px}

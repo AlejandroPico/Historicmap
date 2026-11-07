@@ -1,0 +1,13 @@
+export function parseYaml(text: string): any;
+export function splitPage(source: string): { meta: Record<string, any>; body: string };
+export const PAGE_TYPES: string[];
+export const ID_PATTERN: RegExp;
+export function civilYear(value: unknown): number | null;
+export const LINK_PATTERN: RegExp;
+export function internalLinks(body: string): string[];
+export const normalizeText: (s: string) => string;
+export function firstParagraph(body: string): string;
+export function shardOf(key: string, count: number): number;
+export const PERSON_SHARDS: number;
+export const ENTITY_SHARDS: number;
+export const centuryOf: (year: number) => number;
