@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync, readdirSync, statSync, mkdirSync, rmSync, existsSync } from 'node:fs';
 import { join, relative, dirname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { splitPage, PAGE_TYPES, ID_PATTERN, civilYear, internalLinks, firstParagraph, shardOf, PERSON_SHARDS, ENTITY_SHARDS, centuryOf } from './lib/encyclopedia-format.mjs';
+import { splitPage, PAGE_TYPES, ID_PATTERN, civilYear, internalLinks, firstParagraph, shardOf, PERSON_SHARDS, ENTITY_SHARDS, centuryOf, COMPONENT_NAMES, CALLOUT_KINDS, blocksIn } from './lib/encyclopedia-format.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const readJson = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -38,6 +38,38 @@ function legacyIds() {
 
 export function entityPageId(key) { return 'entidad-' + key.replace(/[^A-Za-z0-9-]/g, '-'); }
 export function personPageId(person) { return 'persona-' + String(person).replace(/[^A-Za-z0-9-]/g, '-'); }
+
+
+/** Douglas-Peucker sobre un anillo [lon, lat]. */
+function simplify(ring, tol) {
+  if (ring.length < 4) return ring;
+  const keep = new Uint8Array(ring.length); keep[0] = keep[ring.length - 1] = 1;
+  const stack = [[0, ring.length - 1]];
+  while (stack.length) {
+    const [a, b] = stack.pop(); let max = 0, idx = -1;
+    const [ax, ay] = ring[a], [bx, by] = ring[b], dx = bx - ax, dy = by - ay, len = Math.hypot(dx, dy) || 1e-12;
+    for (let i = a + 1; i < b; i++) { const d = Math.abs(dy * ring[i][0] - dx * ring[i][1] + bx * ay - by * ax) / len; if (d > max) { max = d; idx = i; } }
+    if (max > tol && idx > 0) { keep[idx] = 1; stack.push([a, idx], [idx, b]); }
+  }
+  return ring.filter((_, i) => keep[i]);
+}
+const ringArea = r => { let a = 0; for (let i = 0, j = r.length - 1; i < r.length; j = i++) a += (r[j][0] - r[i][0]) * (r[j][1] + r[i][1]); return Math.abs(a / 2); };
+/** Contorno mundial muy simplificado (Natural Earth, dominio público) para los mapas de localización. */
+function worldOutline() {
+  const out = {};
+  for (const f of readJson('public/data/countries.geojson').features) {
+    const polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+    const parts = [];
+    for (const poly of polys) {
+      const outer = poly[0]; if (ringArea(outer) < 0.08) continue;
+      let far = 0, fd = 0; outer.forEach((pt, i) => { const d = Math.hypot(pt[0] - outer[0][0], pt[1] - outer[0][1]); if (d > fd) { fd = d; far = i; } });
+      const r = [...simplify(outer.slice(0, far + 1), 0.12), ...simplify(outer.slice(far), 0.12).slice(1)]; if (r.length < 4) continue;
+      parts.push('M' + r.map(([x, y]) => `${x.toFixed(2)} ${(-y).toFixed(2)}`).join('L') + 'Z');
+    }
+    if (parts.length) out[f.properties.code ?? f.properties.name] = (out[f.properties.code] ?? '') + parts.join('');
+  }
+  return out;
+}
 
 /** Compila en memoria. Devuelve { files: Map<rutaRelativa, contenido>, errors, stats }. */
 export function compileEncyclopedia() {
@@ -84,6 +116,7 @@ export function compileEncyclopedia() {
 
   // Índice y validación de enlaces.
   const known = legacyIds();
+  const credits = existsSync(join(dir, 'medios', 'creditos.json')) ? JSON.parse(readFileSync(join(dir, 'medios', 'creditos.json'), 'utf8')) : {};
   const ids = new Set();
   for (const p of pages) { if (ids.has(p.meta.id)) errors.push(`${p.rel}: identificador duplicado ${p.meta.id}`); ids.add(p.meta.id); }
   const personIds = new Set([...persons.keys()].map(personPageId)), entityIds = new Set([...entities.keys()].map(entityPageId));
@@ -93,6 +126,16 @@ export function compileEncyclopedia() {
     const refs = [...internalLinks(p.body), ...(p.meta.relacionados ?? []), ...(p.meta.padre ? [p.meta.padre] : [])];
     for (const id of refs) { linkCount++; if (!resolves(id)) errors.push(`${p.rel}: enlace a una página inexistente «${id}»`); }
     if (!Array.isArray(p.meta.fuentes) || !p.meta.fuentes.length) warnings.push(`${p.rel}: sin fuentes`);
+    for (const b of blocksIn(p.body)) {
+      const name = b.kind === 'componente' ? b.arg.split(/\s+/)[0] : b.kind;
+      if (!['cronologia', 'datos', ...CALLOUT_KINDS].includes(name) && !COMPONENT_NAMES.includes(name)) errors.push(`${p.rel}: componente desconocido «${name}»`);
+    }
+    const images = [...p.body.matchAll(/!\[[^\]]*\]\((?!https?:)([^)\s]+)/g)].map(m => m[1]).concat([...p.body.matchAll(/^\s*(medios\/[^|\s]+)\s*\|/gm)].map(m => m[1]));
+    for (const img of images) {
+      const clean = img.replace(/^\.?\/?/, '');
+      if (!existsSync(join(dir, clean))) errors.push(`${p.rel}: imagen inexistente «${img}»`);
+      else if (!credits[clean.replace(/^medios\//, '')]) errors.push(`${p.rel}: la imagen «${img}» no tiene crédito en medios/creditos.json`);
+    }
   }
   const index = pages.map(p => ({
     id: p.meta.id, tipo: p.meta.tipo, titulo: p.meta.titulo, alias: p.meta.alias ?? [],
@@ -114,6 +157,7 @@ export function compileEncyclopedia() {
   for (const e of entities.values()) entityShards[shardOf(e.k, ENTITY_SHARDS)][e.k] = e;
   entityShards.forEach((s, i) => put(`entidades/${String(i).padStart(2, '0')}.json`, s));
   for (const [c, bucket] of centuries) put(`mandatos/${c}.json`, bucket);
+  put('mundo.json', worldOutline());
   return { files, errors, warnings, stats };
 }
 

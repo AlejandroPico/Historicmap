@@ -12,8 +12,8 @@ import { formatEventDate } from './dates';
 import media from '../Tierra/Precambrico/medios.json' with { type: 'json' };
 import phanerozoicMedia from '../Tierra/Fanerozoico/medios.json' with { type: 'json' };
 import { render as renderMarkdown, esc, type Heading } from './encyclopedia/markdown';
-import { loadIndex, loadSource, loadPerson, loadEntity, loadCentury, loadNames, mediaUrl, activeIn, dateYearOf, normalizeText, type IndexPage, type EncyclopediaIndexFile } from './encyclopedia/store';
-import { component } from './encyclopedia/components';
+import { loadIndex, loadSource, loadPerson, loadEntity, loadCentury, loadNames, loadWorld, mediaUrl, mediaCredit, activeIn, dateYearOf, normalizeText, type IndexPage, type EncyclopediaIndexFile } from './encyclopedia/store';
+import { component, scaleView, mapSvg, successionChart } from './encyclopedia/components';
 
 interface Source { title: string; url: string }
 interface Page {
@@ -41,7 +41,7 @@ function knownTitle(id: string) {
   if (id.startsWith('fecha-')) { const y = Number(id.slice(6)); return (y <= -1000000 ? 'La Tierra hace ' : 'El mundo en ') + formatYear(y); }
   return encyclopediaArticle(id)?.title;
 }
-const renderOptions = (extra = {}) => ({ title: knownTitle, media: mediaUrl, component: (name: string, args: string) => component(name, args, { year: consultedYear }), ...extra });
+const renderOptions = (extra = {}) => ({ title: knownTitle, media: mediaUrl, credit: mediaCredit, component: (name: string, args: string, content = '') => component(name, args, { year: consultedYear, media: mediaUrl, credit: mediaCredit }, content), ...extra });
 
 /* ---------- Esquemas heredados (conservados de las versiones 0.53–0.56) ---------- */
 function legacyDiagram(a: EncyclopediaArticle) {
@@ -183,6 +183,8 @@ async function personPage(id: string, md?: Page): Promise<Page | undefined> {
 async function entityPage(id: string, md?: Page): Promise<Page | undefined> {
   const e = await loadEntity(entityKey(id)); if (!e && !md) return;
   const rows = e ? e.m.map(m => `<tr><td><a href="#" class="enc-link" data-encyclopedia-entry="persona-${esc(m[0])}">${esc(m[1])}</a></td><td>${esc(m[2])}</td><td>${esc(dateLabel(m[3]))}</td><td>${esc(dateLabel(m[4]))}</td></tr>`) : [];
+  const bars = e ? e.m.map(m => ({ id: 'persona-' + m[0], name: m[1], role: m[2], start: dateYearOf(m[3]) ?? 0, end: dateYearOf(m[4]) ?? dateYearOf(m[3]) ?? 0 })).filter(b => b.start) : [];
+  const chart = successionChart(bars, 'Sucesión en el tiempo');
   const table = rows.length ? `<h2 id="enc-sucesion">Sucesión de dirigentes registrada</h2><div class="enc-table"><table><thead><tr><th>Dirigente</th><th>Cargo</th><th>Desde</th><th>Hasta</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>` : '';
   const year = e?.a ?? consultedYear;
   const base: Page = md ?? {
@@ -193,7 +195,7 @@ async function entityPage(id: string, md?: Page): Promise<Page | undefined> {
     headings: [], infobox: [], breadcrumb: [], children: [], related: [], sources: [], top: '', note: 'Ficha generada a partir de los datos de autoridades del atlas.'
   };
   return {
-    ...base, html: base.html + table, headings: [...base.headings, ...(table ? [{ level: 2, text: 'Sucesión de dirigentes registrada', anchor: 'enc-sucesion' }] : [])],
+    ...base, html: base.html + chart + table, headings: [...base.headings, ...(table ? [{ level: 2, text: 'Sucesión de dirigentes registrada', anchor: 'enc-sucesion' }] : [])],
     infobox: [...base.infobox, ...(e ? [['Registros', `${yearLabel(e.a)} — ${yearLabel(e.b)}`], ['Mandatos', String(e.m.length)]] as [string, string][] : [])],
     sources: [...base.sources, ...(e?.q ? [{ title: 'Wikidata · ' + e.q, url: 'https://www.wikidata.org/wiki/' + e.q }] : [])]
   };
@@ -356,9 +358,17 @@ ${page.sources.length || page.note ? `<section class="encyclopedia-references"><
 </div>${page.infobox.length || page.portrait ? `<aside class="enc-infobox" aria-label="Ficha">${page.portrait ?? ''}<dl>${page.infobox.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl></aside>` : ''}</div>
 </article>`;
   dialog.dataset.article = page.id;
+  void hydrate(byId('encyclopedia-article'));
   void renderIndex();
   const reading = byId('encyclopedia-article'); reading.scrollTop = 0;
   reading.querySelector<HTMLElement>('h1')?.focus({ preventScroll: true });
+}
+
+/** Completa componentes que necesitan datos asíncronos (mapas). */
+async function hydrate(root: HTMLElement) {
+  const maps = [...root.querySelectorAll<HTMLElement>('[data-enc-map]')]; if (!maps.length) return;
+  const world = await loadWorld();
+  for (const m of maps) { try { m.querySelector('.enc-map-canvas')!.innerHTML = mapSvg(world, JSON.parse(m.dataset.encMap!)); } catch { /* sin mapa */ } }
 }
 
 export function navigateEncyclopedia(id: string) {
@@ -377,6 +387,8 @@ function setup() {
   dialog.addEventListener('click', e => {
     const target = e.target as Element;
     if (target.closest('summary')) return;
+    const zoom = target.closest<HTMLElement>('[data-scale-zoom]');
+    if (zoom) { const fig = zoom.closest<HTMLElement>('.enc-scale'); if (fig) { const caption = fig.querySelector('figcaption')?.outerHTML ?? ''; fig.innerHTML = scaleView(zoom.dataset.scaleZoom ?? '') + caption; } return; }
     const toggle = target.closest<HTMLElement>('[data-enc-toggle]');
     if (toggle) { const node = toggle.closest<HTMLElement>('.enc-node')!, open = node.dataset.open !== 'true'; node.dataset.open = String(open); toggle.setAttribute('aria-expanded', String(open)); return; }
     const entryEl = target.closest<HTMLElement>('[data-encyclopedia-entry]'), jump = target.closest<HTMLElement>('[data-encyclopedia-map]'), video = target.closest<HTMLElement>('[data-video-id]'), compose = target.closest<HTMLElement>('[data-encyclopedia-compose]');
@@ -387,6 +399,7 @@ function setup() {
     if (jump) { dialog.close(); onMap(Number(jump.dataset.encyclopediaMap)); }
     if (video) { const frame = document.createElement('iframe'); frame.src = `https://www.youtube-nocookie.com/embed/${video.dataset.videoId}`; frame.title = 'NASA · simulación de la formación lunar'; frame.allowFullscreen = true; frame.referrerPolicy = 'strict-origin-when-cross-origin'; byId('encyclopedia-video-frame').replaceChildren(frame); }
   });
+  dialog.addEventListener('keydown', e => { const t = e.target as HTMLElement; if ((e.key === 'Enter' || e.key === ' ') && t.matches('g[role=button], g[role=link]')) { e.preventDefault(); t.dispatchEvent(new MouseEvent('click', { bubbles: true })); } });
   dialog.addEventListener('input', e => {
     const range = e.target as HTMLInputElement; if (handleHumanInput(range)) return; if (range.id !== 'encyclopedia-lab') return;
     const a = encyclopediaArticle(history[cursor]); if (!a) return;

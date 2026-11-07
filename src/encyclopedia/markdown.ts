@@ -10,8 +10,10 @@ export interface RenderOptions {
   title?: (id: string) => string | undefined;
   /** URL de un medio de enciclopedia/medios. */
   media?: (path: string) => string | undefined;
+  /** Crédito HTML de un medio local. */
+  credit?: (path: string) => string | undefined;
   /** Componentes visuales registrados para «:::componente nombre». */
-  component?: (name: string, args: string) => string;
+  component?: (name: string, args: string, content?: string) => string;
   /** Desplaza el nivel de los títulos al componer páginas hijas. */
   headingOffset?: number;
   /** Prefijo de anclas para no repetir identificadores al componer. */
@@ -53,6 +55,7 @@ function list(lines: string[], o: RenderOptions): string {
 
 function special(kind: string, arg: string, content: string[], o: RenderOptions) {
   if (kind === 'componente') return o.component?.(arg.split(/\s+/)[0], arg.split(/\s+/).slice(1).join(' ')) ?? '';
+  if (!['nota', 'debate', 'clave', 'curiosidad', 'cita', 'cronologia', 'datos'].includes(kind)) return o.component?.(kind, arg, content.join('\n')) ?? '';
   if (kind === 'cronologia') return `<ol class="enc-timeline">${content.filter(l => l.trim()).map(l => { const [date, ...rest] = l.replace(/^[-*]\s*/, '').split('|'); return `<li><time>${inline(date.trim(), o)}</time><span>${inline(rest.join('|').trim(), o)}</span></li>`; }).join('')}</ol>`;
   if (kind === 'datos') return `<dl class="enc-data">${content.filter(l => l.includes(':')).map(l => { const i = l.indexOf(':'); return `<div><dt>${inline(l.slice(0, i).replace(/^[-*]\s*/, '').trim(), o)}</dt><dd>${inline(l.slice(i + 1).trim(), o)}</dd></div>`; }).join('')}</dl>`;
   const label = arg || ({ nota: 'Nota', debate: 'Evidencias y debate', clave: 'Idea clave', curiosidad: 'Curiosidad', cita: '' } as Record<string, string>)[kind] || '';
@@ -68,7 +71,7 @@ export function render(source: string, o: RenderOptions = {}): { html: string; h
   while (i < lines.length) {
     const line = lines[i], t = line.trim();
     if (!t) { flush(); i++; continue; }
-    const fence = /^:::\s*([a-z]+)\s*(.*)$/.exec(t);
+    const fence = /^:::\s*([a-z][a-z-]*)\s*(.*)$/.exec(t);
     if (fence) {
       flush(); const content: string[] = []; i++;
       let depth = 0;
@@ -97,7 +100,8 @@ export function render(source: string, o: RenderOptions = {}): { html: string; h
     const img = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$/.exec(t);
     if (img) {
       flush(); const src = /^https?:/.test(img[2]) ? img[2] : o.media?.(img[2]);
-      if (src) out.push(`<figure class="enc-figure"><img src="${esc(src)}" alt="${esc(img[1])}" loading="lazy">${img[3] ? `<figcaption>${inline(img[3], o)}</figcaption>` : ''}</figure>`);
+      const credit = /^https?:/.test(img[2]) ? undefined : o.credit?.(img[2]);
+      if (src) out.push(`<figure class="enc-figure"><img src="${esc(src)}" alt="${esc(img[1])}" loading="lazy">${img[3] || credit ? `<figcaption>${img[3] ? inline(img[3], o) : ''}${credit ? ` <span class="enc-credit">${credit}</span>` : ''}</figcaption>` : ''}</figure>`);
       i++; continue;
     }
     para.push(t); i++;

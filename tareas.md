@@ -6,8 +6,11 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 
 - [x] P00 · Análisis, diagnóstico (clon con rutas largas) y plan.
 - [x] P01 · Arquitectura y lector nuevo (0.57.0): carpeta enciclopedia/, compilador con validación de enlaces, lector con índice por ramas, composición, panorama por fecha, fichas de 12.606 dirigentes y 2.423 entidades; 8 páginas iniciales.
-- [ ] P02 · Componentes visuales e integración con el mapa (icono de consulta en las fichas de dirigentes/entidades).
-- [ ] P03–P24 y opcionales PX1/PX2 según el plan.
+- [x] P02 · Componentes visuales e integración con el mapa (0.58.0): escala interactiva, gráficos, líneas de tiempo, mapas, galerías, sucesiones, enlaces desde las fichas, canal de imágenes de Commons; plazo de despliegue de Pages ampliado.
+- [ ] P03 · Formación de la Tierra, Hádico y Arcaico.
+- [ ] P04–P24 y opcionales PX1/PX2 según el plan.
+
+Riesgo anotado: el sitio publicado ocupa ≈1,3 GB (límite recomendado de Pages: 1 GB). Si el despliegue vuelve a agotar el plazo, relanzar el trabajo; a medio plazo conviene sacar retratos/datos pesados de Pages.
 
 Pendientes conocidos tras P01: el contenido heredado de Tierra/ conserva su redacción anterior hasta las fases P03–P10; las 177 unidades geológicas sin página propia muestran una ficha generada; las fichas del mapa aún no enlazan a las fichas de dirigentes (P02). En el entorno de trabajo, varias esperas de carga del globo agotan su tiempo también con 0.56.0; CI es la referencia.
 

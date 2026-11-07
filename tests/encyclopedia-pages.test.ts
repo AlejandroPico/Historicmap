@@ -3,6 +3,8 @@ import { splitPage, parseYaml, civilYear, internalLinks, firstParagraph, shardOf
 import { compileEncyclopedia } from '../scripts/build-encyclopedia.mjs';
 import { render, inline } from '../src/encyclopedia/markdown';
 import { geologicalUnits } from '../src/earth-chronology';
+import { COMPONENT_NAMES } from '../scripts/lib/encyclopedia-format.mjs';
+import { componentNames, component, scaleView, mapSvg, successionChart } from '../src/encyclopedia/components';
 
 describe('formato de páginas de la enciclopedia', () => {
   it('lee la cabecera YAML reducida', () => {
@@ -51,5 +53,25 @@ describe('compilación de enciclopedia/', () => {
     expect(shard.Q1407.m.some((m: string[]) => m[0] === 'ROMAN-EMPIRE-CLASSICAL')).toBe(true);
     const c19 = JSON.parse(build.files.get('mandatos/19.json')!);
     expect(c19.m.length).toBeGreaterThan(1000);
+  });
+});
+
+describe('componentes visuales', () => {
+  it('el compilador y el lector conocen los mismos componentes', () => { expect([...componentNames].sort()).toEqual([...COMPONENT_NAMES].sort()); });
+  it('la escala amplía cualquier unidad sin aplastarla', () => {
+    const root = scaleView(''); expect(root).toContain('data-scale-zoom="Phanerozoic"'); expect(root).toContain('Toda la historia');
+    const meso = scaleView('Mesozoic'); expect(meso).toContain('data-scale-zoom="Jurassic"'); expect(meso).toContain('data-scale-zoom="UpperJurassic"'); expect(meso).toContain('data-encyclopedia-entry="geo-Tithonian"');
+    expect(scaleView('UpperJurassic')).toContain('Titoniense');
+  });
+  it('dibuja gráficos, líneas de tiempo, mapas y sucesiones', () => {
+    const chart = component('grafico', 'barras | Prueba | %', { year: 2026 }, 'x; a\nUno; 10\nDos; 20');
+    expect(chart).toContain('<rect'); expect(chart).toContain('Uno · a: 10 %');
+    const tl = component('linea-tiempo', 'Hitos', { year: 2026 }, '2.5 Ga | Inicio\n717 Ma / 660 Ma | Esturtiana');
+    expect(tl).toContain('Esturtiana'); expect(tl).toContain('<rect');
+    const spec = JSON.parse(component('mapa', '', { year: 2026 }, '40.4, -3.7 | Madrid\npaíses: ESP').match(/data-enc-map="([^"]+)"/)![1].replace(/&quot;/g, '"'));
+    expect(spec).toEqual({ points: [[40.4, -3.7, 'Madrid']], countries: ['ESP'], bbox: null });
+    expect(mapSvg({ ESP: 'M0 0L1 1Z' }, spec)).toContain('enc-map-hi');
+    expect(successionChart([{ id: 'persona-Q1', name: 'A', role: 'Rey', start: 1000, end: 1010 }, { id: 'persona-Q2', name: 'B', role: 'Rey', start: 1010, end: 1030 }], 'Sucesión')).toContain('persona-Q2');
+    expect(component('inexistente', '', { year: 1 })).toContain('no disponible');
   });
 });

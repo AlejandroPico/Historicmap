@@ -140,3 +140,9 @@ export const PERSON_SHARDS = 64;
 export const ENTITY_SHARDS = 32;
 /** Siglo civil (sin año cero): 1–100 → 0, -100…-1 → -1. */
 export const centuryOf = year => year > 0 ? Math.floor((year - 1) / 100) : -Math.floor((-year - 1) / 100) - 1;
+
+/** Componentes visuales disponibles (debe coincidir con src/encyclopedia/components.ts). */
+export const COMPONENT_NAMES = ['escala-geologica', 'reloj-geologico', 'curva-temperatura-fanerozoico', 'atmosfera', 'grafico', 'linea-tiempo', 'mapa', 'galeria'];
+export const CALLOUT_KINDS = ['nota', 'debate', 'clave', 'curiosidad', 'cita'];
+/** Bloques «:::tipo» usados en un cuerpo, con sus argumentos. */
+export function blocksIn(body) { return [...body.matchAll(/^:::\s*([a-z-]+)\s*(.*)$/gm)].map(m => ({ kind: m[1], arg: m[2].trim() })); }

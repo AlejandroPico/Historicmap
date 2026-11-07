@@ -27,12 +27,23 @@ export const loadIndex = () => load<EncyclopediaIndexFile>('indice.json', { vers
 export const loadNames = () => load<[string, string, 'p' | 'e'][]>('nombres.json', []);
 export async function loadPerson(id: string) { const shard = await load<Record<string, PersonRecord>>(`personas/${String(shardOf(id, PERSON_SHARDS)).padStart(2, '0')}.json`, {}); return shard[id]; }
 export async function loadEntity(key: string) { const shard = await load<Record<string, EntityRecord>>(`entidades/${String(shardOf(key, ENTITY_SHARDS)).padStart(2, '0')}.json`, {}); return shard[key]; }
+export const loadWorld = () => load<Record<string, string>>('mundo.json', {});
 export const loadCentury = (year: number) => load<CenturyBucket | null>(`mandatos/${centuryOf(year)}.json`, null);
 
 /** Página Markdown por identificador (null si no existe). */
 export async function loadSource(page: IndexPage) {
   const loader = sources['../../enciclopedia/' + page.ruta];
   return loader ? splitPage(await loader()) : null;
+}
+export interface MediaCredit { titulo?: string; autor: string; licencia: string; licenciaUrl?: string; fuente: string }
+const creditFiles = import.meta.glob('../../enciclopedia/medios/creditos.json', { import: 'default', eager: true }) as Record<string, Record<string, MediaCredit>>;
+const credits: Record<string, MediaCredit> = Object.values(creditFiles)[0] ?? {};
+const cleanMedia = (path: string) => path.replace(/^\.?\/?(medios\/)?/, '');
+/** Crédito HTML de una imagen de enciclopedia/medios (autor, licencia y fuente). */
+export function mediaCredit(path: string) {
+  const c = credits[cleanMedia(path)]; if (!c) return undefined;
+  const e = (s: string) => s.replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]!));
+  return `${e(c.autor)} · ${c.licenciaUrl ? `<a href="${e(c.licenciaUrl)}" target="_blank" rel="noopener">${e(c.licencia)}</a>` : e(c.licencia)} · <a href="${e(c.fuente)}" target="_blank" rel="noopener">Fuente ↗</a>`;
 }
 export function mediaUrl(path: string) {
   const clean = path.replace(/^\.?\/?(medios\/)?/, '');

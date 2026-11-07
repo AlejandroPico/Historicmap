@@ -43,6 +43,10 @@ La hipótesis explica varios hechos: la Luna tiene un núcleo de hierro muy pequ
 
 El calor de la acreción y del impacto lunar dejó la superficie cubierta por un **océano de magma** de cientos o miles de kilómetros de profundidad, envuelto en una atmósfera de vapor de roca. A medida que se enfriaba, el magma cristalizó de abajo arriba y la atmósfera pasó a estar dominada por vapor de agua y dióxido de carbono, con una presión superficial que pudo ser de cientos de atmósferas.
 
+
+:::componente atmosfera 4.4 Ga
+:::
+
 Cuando la superficie bajó de unos cientos de grados, el vapor de agua se condensó y llovió durante miles de años: así nacieron los primeros océanos. El agua procedía, en su mayor parte, de los propios materiales que formaron la Tierra —condritas ricas en minerales hidratados—, con una contribución menor de cometas y asteroides llegados después.
 
 ## Los circones de Jack Hills

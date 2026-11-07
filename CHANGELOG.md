@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.58.0 · 7 de noviembre de 2026
+
+- Enciclopedia P02: escala geológica interactiva que se amplía al pulsar cada unidad (eón → era → periodo → época → edad), con migas y desplazamiento horizontal en pantallas estrechas; sustituye a la escala fija que aplastaba las unidades cortas.
+- Biblioteca de componentes desde Markdown: `:::grafico` (líneas, áreas, barras, con tabla de datos), `:::linea-tiempo` proporcional, `:::mapa` de localización (contorno simplificado de Natural Earth generado al compilar), `:::galeria`, `atmosfera` (composición de referencia en una fecha) y diagrama de sucesión de mandatos en las fichas de entidades.
+- Integración con el mapa: el nombre de cada dirigente de la ficha abre su página de la enciclopedia, y la ficha ofrece «Historia y dirigentes en la enciclopedia» para la entidad seleccionada.
+- Canal de imágenes `scripts/fetch-encyclopedia-media.mjs`: descarga desde Wikimedia Commons solo con licencias libres y registra autor, licencia y fuente en `enciclopedia/medios/creditos.json`; el compilador rechaza imágenes sin crédito, componentes desconocidos y enlaces rotos. Tres primeras imágenes acreditadas.
+- Publicación: el paso de despliegue de Pages admite hasta 30 min (el sitio supera 1 GB y agotó el plazo por defecto de 10 min).
+
 ## 0.57.0 · 7 de noviembre de 2026
 
 - Enciclopedia P01 (cimientos): nueva carpeta raíz `enciclopedia/` con páginas Markdown + cabecera YAML, guía editorial y plan de 25 fases ([PLAN](enciclopedia/PLAN.md)).

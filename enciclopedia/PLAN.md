@@ -121,7 +121,7 @@ Descarga y diagnóstico del clon, lectura de `agentes.md`, `tareas.md`, código 
 Carpeta `enciclopedia/` con esquema y guía editorial; compilador con validación y detección de enlaces rotos; lector nuevo: índice lateral por ramas (Tierra, Vida, Humanidad, Historia, Personas, Eventos), ficha lateral (infobox), tabla de contenidos, **composición jerárquica** con secciones plegables (“leer completo” incluye a las hijas), historial, búsqueda con acentos y alias, apertura por fecha. Migración de lo aprovechable de los 91 artículos actuales (quitando la retórica defensiva). Pruebas unitarias rápidas. Instrucciones para ejecutar en local.
 *Cierre:* el lector nuevo abre las páginas migradas, compone una unidad con sus hijas y no aumenta el tiempo de Actions de forma apreciable.
 
-**P02 · Componentes visuales e integración con el mapa**
+**P02 · Componentes visuales e integración con el mapa** ✅ *(0.58.0)*
 Biblioteca de componentes: gráficos de series (temperatura, CO₂, O₂, nivel del mar, biodiversidad, población), línea de tiempo interactiva, mapa en miniatura de localización, esquemas SVG reutilizables, tablas comparativas, galerías con créditos, árboles genealógicos y de sucesión. Puntos de entrada: nombres de la regla cronológica, icono «consultar en la enciclopedia» junto a cada dirigente y entidad en las fichas, manchas de homininos, culturas y yacimientos. Canal de medios de Commons con licencias.
 *Cierre:* desde cualquier dirigente, era o cultura del mapa se llega a su página (real o ficha generada).
 
@@ -238,4 +238,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 |---|---|
 | P00 | ✅ Completada (7/11/2026) |
 | P01 | ✅ Completada (7/11/2026) · versión 0.57.0 |
-| P02–P24 | Pendientes |
+| P02 | ✅ Completada (7/11/2026) · versión 0.58.0 |
+| P03–P24 | Pendientes |

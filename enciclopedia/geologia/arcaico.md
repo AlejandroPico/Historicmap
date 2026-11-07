@@ -46,7 +46,17 @@ Estas divisiones se basan en edades numéricas redondas, no en acontecimientos c
 
 Las rocas arcaicas más características son los **TTG** (tonalitas, trondhjemitas y granodioritas), rocas graníticas claras que forman el núcleo de los cratones más antiguos, y los **cinturones de rocas verdes** (*greenstone belts*), secuencias de lavas, a menudo submarinas, y sedimentos metamorfizados de tono verdoso. Entre las lavas destacan las **komatiitas**, muy ricas en magnesio, que solo pudieron fundirse a temperaturas de unos 1.600 °C: prueba de que el manto arcaico estaba bastante más caliente que el actual.
 
-Los afloramientos arcaicos mejor estudiados son el cratón de Pilbara (Australia Occidental), el cinturón de Barberton (Sudáfrica y Esuatini), el cinturón de Isua (Groenlandia) y el escudo Canadiense. Muchos de estos cratones podrían haber formado parte de supercontinentes o «supercratones» primitivos, como **Vaalbará** (Kaapvaal más Pilbara) hacia 3.300 Ma o **Kenorland** y **Superia** hacia el final del eón, aunque su existencia y forma siguen en discusión.
+Los afloramientos arcaicos mejor estudiados son el cratón de Pilbara (Australia Occidental), el cinturón de Barberton (Sudáfrica y Esuatini), el cinturón de Isua (Groenlandia) y el escudo Canadiense. 
+:::mapa Los grandes afloramientos arcaicos
+-26.6, 116.5 | Jack Hills
+-21.2, 119.4 | Pilbara
+-25.9, 31.0 | Barberton
+65.2, -50.2 | Isua
+65.2, -115.6 | Acasta
+58.4, -77.8 | Nuvvuagittuq
+:::
+
+Muchos de estos cratones podrían haber formado parte de supercontinentes o «supercratones» primitivos, como **Vaalbará** (Kaapvaal más Pilbara) hacia 3.300 Ma o **Kenorland** y **Superia** hacia el final del eón, aunque su existencia y forma siguen en discusión.
 
 :::debate ¿Cuándo empezó la tectónica de placas?
 Hoy la superficie terrestre está dividida en placas que se mueven y se hunden unas bajo otras en zonas de subducción. No está claro desde cuándo funciona así. Algunos investigadores ven indicios de subducción ya hace más de 4.000 millones de años; otros piensan que el manto arcaico, más caliente, producía una corteza demasiado débil para hundirse en placas rígidas, y que la Tierra funcionó durante cientos de millones de años como una «tapa estancada» con penachos y goteos de corteza hacia el manto. Muchos datos apuntan a una transición gradual hacia la tectónica moderna entre 3.200 y 2.500 millones de años atrás.
@@ -60,6 +70,12 @@ El Arcaico es el eón en el que la vida deja sus primeras huellas claras:
 - **Microfósiles.** Filamentos y células fosilizadas en sílex de Pilbara y Barberton, de 3.400–3.500 millones de años, cuyo origen biológico está respaldado por su química.
 - **Huellas isotópicas.** Los organismos que fijan carbono prefieren el isótopo ligero carbono 12. El grafito con carbono ligero en rocas de Isua (más de 3.700 Ma) se interpreta como una posible señal de vida.
 
+
+:::galeria Huellas del mundo arcaico
+medios/arcaico/estromatolitos-shark-bay.jpg | Estromatolitos actuales en Shark Bay (Australia Occidental), análogos vivos de los construidos por comunidades microbianas en el Arcaico.
+medios/arcaico/komatiita-spinifex.jpg | Komatiita con textura spinifex en Pilbara: cristales alargados que crecieron al enfriarse bruscamente una lava muy caliente y rica en magnesio.
+:::
+
 Estos organismos eran **procariotas**: bacterias y arqueas, células sin núcleo. Muchos obtenían energía de reacciones químicas con hidrógeno, azufre o hierro; otros practicaban una fotosíntesis que no liberaba oxígeno. Los **metanógenos**, arqueas que producen metano, pudieron tener un papel clave en el clima.
 
 La gran invención del Arcaico fue la **fotosíntesis oxigénica** de las cianobacterias, que usa agua y luz solar y libera oxígeno como residuo. Su momento de aparición es incierto: hay indicios geoquímicos de «bocanadas» de oxígeno local hacia 3.000–2.700 Ma, pero el oxígeno no se acumuló en la atmósfera hasta la [[oxygenation|Gran Oxigenación]], ya en el Proterozoico.
@@ -67,6 +83,10 @@ La gran invención del Arcaico fue la **fotosíntesis oxigénica** de las cianob
 ## El aire y el mar
 
 La atmósfera arcaica estaba compuesta sobre todo por **nitrógeno**, con mucho más **dióxido de carbono** que hoy y cantidades notables de **metano**. El oxígeno libre era prácticamente inexistente: menos de una cienmilésima del nivel actual, como demuestra un fenómeno químico llamado fraccionamiento independiente de la masa de los isótopos de azufre, que solo ocurre en una atmósfera sin oxígeno ni capa de ozono. Sin ozono, la radiación ultravioleta llegaba a la superficie con toda su fuerza.
+
+
+:::componente atmosfera 3.5 Ga
+:::
 
 Es posible que, en algunos momentos, una **neblina orgánica** —parecida a la de Titán, la luna de Saturno— diera al cielo un tono anaranjado. Los océanos, sin oxígeno, contenían hierro disuelto en grandes cantidades; cuando ese hierro se oxidaba, precipitaba en capas que formaron las primeras **formaciones de hierro bandeado**, una de las rocas más características del Precámbrico.
 

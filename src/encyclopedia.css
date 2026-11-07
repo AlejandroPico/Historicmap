@@ -158,3 +158,43 @@ button.enc-toggle::before{content:'▸';display:inline-block;transition:transfor
 @media(max-width:760px){.encyclopedia-layout>aside{max-height:30dvh}}
 .enc-years{display:flex;justify-content:space-between;gap:12px;margin:0 0 18px;max-width:900px}
 .enc-years button{border:0;padding:6px 0;color:var(--gold);font-size:13px}
+
+/* ===== Componentes P02 ===== */
+.enc-scale-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 20px;margin-bottom:6px}
+.enc-scale-head nav{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:12px}
+.enc-scale-head nav button{border:0;padding:2px 0;color:var(--muted);font-size:12px}.enc-scale-head nav button:last-of-type{color:var(--text)}.enc-scale-head nav button:hover{color:var(--gold)}
+.enc-scale-head nav span{color:var(--muted);opacity:.6}
+.enc-scale-head a{font-size:13px}
+.enc-scale-info{font-size:12px!important;color:var(--muted);margin:0 0 8px}
+.enc-scale-scroll{overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding-bottom:4px}
+.enc-scale-scroll svg{min-width:760px}
+.enc-scale-unit rect{transition:opacity .15s}.enc-scale-unit:hover rect{opacity:.85}
+.enc-scale-unit:focus{outline:none}.enc-scale-unit:focus rect{stroke:var(--gold);stroke-width:2}
+.enc-axis{stroke:var(--muted);stroke-width:1;opacity:.6}
+.enc-grid{stroke:var(--line);stroke-width:1}
+.enc-tick{font:11px system-ui,sans-serif;fill:var(--muted)}
+.enc-chart svg,.enc-tl svg,.enc-succession svg{width:100%;height:auto;display:block}
+.enc-chart-title{display:block;font-size:14px;font-weight:600;margin-bottom:8px}
+.enc-legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;margin-bottom:6px;color:var(--muted)}
+.enc-legend i,.enc-atmo dt i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.enc-data-table{margin-top:8px}.enc-data-table>summary{cursor:pointer;font-size:12px;color:var(--gold);list-style:none}.enc-data-table>summary::-webkit-details-marker{display:none}
+.enc-tl-item circle,.enc-tl-item rect{fill:var(--gold)}.enc-tl-item text{font:12px system-ui,sans-serif;fill:var(--text)}
+.enc-tl-item:hover circle,.enc-tl-item:hover rect,.enc-tl-item:focus circle,.enc-tl-item:focus rect{fill:#f3d79b}
+.enc-map-canvas svg{width:100%;height:auto;display:block;max-height:460px}
+.enc-map-land path{fill:color-mix(in srgb,var(--text) 14%,transparent);stroke:color-mix(in srgb,var(--text) 32%,transparent)}
+.enc-map-land path.enc-map-hi{fill:color-mix(in srgb,var(--gold) 55%,transparent)}
+.enc-map-points circle{fill:var(--gold);stroke:var(--background);stroke-width:.2}
+.enc-map-points text{fill:var(--text);font-family:system-ui,sans-serif;paint-order:stroke;stroke:var(--background);stroke-width:.25}
+.enc-gallery>div{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
+.enc-gallery figure{margin:0}.enc-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px;display:block}
+.enc-gallery figcaption{font-size:11px;color:var(--muted);line-height:1.5;padding-top:6px}
+.enc-credit{display:block;font-size:10px;opacity:.85}.enc-credit a{font-size:10px!important}
+.enc-atmo-bar,.enc-clock-bar{display:flex;height:22px;border-radius:3px;overflow:hidden;gap:1px}
+.enc-atmo dl{display:flex;flex-wrap:wrap;gap:8px 26px;margin:10px 0}
+.enc-atmo dt{font-size:11px;color:var(--muted)}.enc-atmo dd{margin:2px 0 0;font-size:14px}
+.enc-clock-hours{display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin:4px 0 10px}
+.enc-succ rect{opacity:.9}.enc-succ:hover rect,.enc-succ:focus rect{opacity:1;stroke:var(--text);stroke-width:1}
+.enc-succ text{font:11px system-ui,sans-serif;fill:#1d1d1d;pointer-events:none}
+.enc-succ{cursor:pointer}
+.enc-scale text{font-size:12.5px}
+.enc-succession .enc-scale-scroll svg{min-width:0}

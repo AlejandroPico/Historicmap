@@ -37,6 +37,22 @@ El **Proterozoico** es el tercer y más largo eón de la historia de la Tierra: 
 | [[geo-Mesoproterozoic|Mesoproterozoico]] | 1.600–1.000 Ma | Calímmico, Ectásico, Esténico | Estabilidad química y climática («los mil millones aburridos»); algas rojas; reproducción sexual; ensamblaje de Rodinia |
 | [[geo-Neoproterozoic|Neoproterozoico]] | 1.000–538,8 Ma | Tónico, Criogénico, Ediacárico | Ruptura de Rodinia; Tierra bola de nieve; segunda oxigenación; primeros animales |
 
+
+:::linea-tiempo Hitos del Proterozoico
+2.5 Ga | Comienza el Proterozoico
+2.43 Ga / 2.2 Ga | Gran Oxigenación
+2.4 Ga / 2.1 Ga | Glaciaciones huronianas
+2.02 Ga | Impacto de Vredefort
+1.85 Ga | Impacto de Sudbury
+1.8 Ga / 1.4 Ga | Supercontinente Columbia
+1.65 Ga | Primeros eucariotas aceptados
+1.05 Ga | Bangiomorpha, reproducción sexual
+1.1 Ga / 750 Ma | Supercontinente Rodinia
+717 Ma / 660 Ma | Glaciación Esturtiana
+650 Ma / 635 Ma | Glaciación Marinoana
+575 Ma / 539 Ma | Biota de Ediacara
+:::
+
 ## La Gran Oxigenación
 
 Hace unos 2.430 millones de años, el oxígeno producido por las cianobacterias empezó a acumularse por primera vez de forma permanente en la atmósfera. Hasta entonces era consumido por el hierro disuelto en el mar, los gases volcánicos y las rocas expuestas. Este acontecimiento, la [[oxygenation|Gran Oxigenación]], es uno de los mayores cambios de la historia del planeta.
@@ -78,6 +94,8 @@ La versión más extrema de la hipótesis plantea un océano totalmente helado. 
 ## Los primeros animales
 
 Tras las glaciaciones, el oxígeno volvió a aumentar en la llamada **oxigenación neoproterozoica**, y aparecieron los primeros organismos pluricelulares de gran tamaño. La [[ediacaran|biota de Ediacara]] (≈ 575–539 Ma) incluye formas como *Dickinsonia*, *Charnia* o *Spriggina*, de cuerpo blando, algunas de casi un metro. Muchas no se parecen a ningún animal actual, aunque se ha demostrado, por los biomarcadores que conservan, que *Dickinsonia* era un animal. Al final del Ediacárico aparecen los primeros esqueletos minerales (*Cloudina*) y las primeras huellas de animales que se desplazaban.
+
+![Fósil de Dickinsonia costata](medios/proterozoico/dickinsonia-costata.jpg "*Dickinsonia costata*, de la biota de Ediacara: uno de los animales más antiguos conocidos.")
 
 ## Otras curiosidades del eón
 

@@ -68,3 +68,6 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v5
         id: deployment
+        with:
+          # El sitio supera 1 GB (datos y retratos); el plazo por defecto de 10 min puede agotarse.
+          timeout: 1800000

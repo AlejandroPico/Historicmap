@@ -82,6 +82,16 @@ El registro fósil del Fanerozoico muestra que la diversidad de la vida no creci
 | Final del Triásico | 201,4 Ma | ≈ 75–80 % | Vulcanismo de la Provincia Magmática del Atlántico Central |
 | Final del Cretácico | 66,0 Ma | ≈ 75 % | Impacto de Chicxulub (y vulcanismo del Decán) |
 
+
+:::grafico barras | Especies marinas desaparecidas en cada gran extinción | % estimado
+Extinción; Especies marinas extinguidas
+Ordovícico; 85
+Devónico; 75
+Pérmico; 93
+Triásico; 77
+Cretácico; 75
+:::
+
 Cada una abrió espacio a nuevos grupos: tras el Pérmico se expandieron los arcosaurios, de los que surgirían los dinosaurios; tras el Cretácico, los mamíferos y las aves. El artículo [[extinctions|Extinciones]] reúne las causas y su comparación.
 
 ## Un planeta en movimiento

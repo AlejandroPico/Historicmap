@@ -83,7 +83,39 @@ CO₂: 800 ppm
 :::
 ```
 
-Otros tipos de recuadro: `nota`, `curiosidad`, `cita`. Componentes disponibles: `escala-geologica [idICS]`, `reloj-geologico`, `curva-temperatura-fanerozoico` (la biblioteca crece en la fase P02).
+Otros tipos de recuadro: `nota`, `curiosidad`, `cita`.
+
+Componentes sin datos (`:::componente nombre argumentos` + `:::`): `escala-geologica [idICS]` (interactiva, se amplía al pulsar), `reloj-geologico`, `curva-temperatura-fanerozoico`, `atmosfera [fecha]`.
+
+Componentes con datos en el bloque:
+
+```markdown
+:::grafico linea | Población mundial | millones | año
+año; población
+1800; 990
+1900; 1650
+2000; 6150
+:::
+
+:::linea-tiempo Hitos del Proterozoico
+2.43 Ga / 2.2 Ga | Gran Oxigenación
+717 Ma / 660 Ma | Glaciación Esturtiana
+1492 | Llegada de Colón a América | texto opcional
+:::
+
+:::mapa Yacimientos
+-26.6, 116.5 | Jack Hills
+países: AUS
+:::
+
+:::galeria Título
+medios/carpeta/imagen.jpg | Pie de foto
+:::
+```
+
+`grafico` admite `linea`, `area` y `barras`; separador `;`, `,` o tabulador. En `linea-tiempo`, un intervalo se escribe `inicio / fin`.
+
+**Imágenes.** Se descargan con `node scripts/fetch-encyclopedia-media.mjs "File:Nombre.jpg" carpeta/archivo.jpg --pie "texto"` (o `--lista archivo.txt`), que solo admite licencias libres y registra autor, licencia y fuente en `medios/creditos.json`. El compilador rechaza imágenes sin crédito.
 
 ## Estilo
 

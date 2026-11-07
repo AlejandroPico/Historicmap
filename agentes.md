@@ -6,7 +6,7 @@ Documento canónico para colaboradores humanos y asistentes de cualquier proveed
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** reconstrucción completa de la enciclopedia en 25 fases (P00–P24 y opcionales PX1/PX2), según [enciclopedia/PLAN.md](enciclopedia/PLAN.md). P00 y P01 cerradas en 0.57.0; ver sección78 y tareas.md. Cada fase empieza solo cuando el propietario la ordena; el propietario sube a Git y verifica el despliegue.
+**Encargo vigente:** reconstrucción completa de la enciclopedia en 25 fases (P00–P24 y opcionales PX1/PX2), según [enciclopedia/PLAN.md](enciclopedia/PLAN.md). P00–P02 cerradas en 0.58.0; ver secciones78–79 y tareas.md. Cada fase empieza solo cuando el propietario la ordena; el propietario sube a Git y verifica el despliegue.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1666,3 +1666,18 @@ Arquitectura P01:
 Validación local 0.57.0: tipos correctos; 31 pruebas unitarias de los cinco archivos de enciclopedia/Tierra/humanidad correctas (incluido el nuevo tests/encyclopedia-pages.test.ts); compilador sin errores; construcción Vite correcta. Navegador (Chromium del entorno): recorridos de enciclopedia de precambrian (2/2), earth-integration (enciclopedia), human-expansion (contexto, alias y comparación; CO₂) correctos. Fallaron en este entorno esperas de carga del globo ajenas a la enciclopedia (phanerozoic línea 11, human-expansion 15 y 22, earth-integration 17); phanerozoic falla igual con el código de 0.56.0 en el mismo entorno. CI decide; no se aumentaron tiempos ni se retiraron aserciones.
 
 Siguiente: P02 (componentes visuales e integración con fichas del mapa: icono de consulta junto a cada dirigente/entidad).
+
+
+## 79. Enciclopedia · P02 · componentes e integración con el mapa · 0.58.0 · 7/11/2026
+
+El propietario pide que la escala geológica horizontal no aplaste las unidades cortas (desplazable/interactiva o vertical, a elección) y comunica un fallo de Publish atlas: `actions/deploy-pages@v5` termina con «Timeout reached, aborting». Diagnóstico: el sitio construido ocupa ≈1,3 GB (data 614 MB, media 622 MB), por encima del límite recomendado de 1 GB de Pages; el plazo por defecto del paso es 10 min. Se añade `timeout: 1800000` en pages.yml. Si vuelve a fallar, «Re-run failed jobs» reutiliza el artefacto validado. Reducir el tamaño del sitio (p. ej. retratos/datos fuera de Pages) queda como riesgo anotado, no resuelto.
+
+- Escala: `scaleView(id)` muestra la unidad enfocada y hasta tres rangos inferiores a escala propia; pulsar una unidad con subdivisiones amplía, una terminal abre su página; migas y enlace «Abrir…»; contenedor desplazable con anchura mínima.
+- Componentes (src/encyclopedia/components.ts, lista sincronizada con COMPONENT_NAMES en scripts/lib/encyclopedia-format.mjs y comprobada por prueba): grafico, linea-tiempo, mapa (contorno `_generado/mundo.json`, 272 KB, Douglas-Peucker 0,12° sobre countries.geojson NE), galeria, atmosfera, escala-geologica, reloj-geologico, curva-temperatura-fanerozoico, y `successionChart` en fichas de entidad. Los mapas se completan tras pintar (`hydrate`). Bloques Markdown con guion (`linea-tiempo`) admitidos.
+- Medios: scripts/fetch-encyclopedia-media.mjs (Commons API, reintentos ante 429, licencias PD/CC0/CC BY/CC BY-SA/GFDL); créditos en enciclopedia/medios/creditos.json; figuras y galerías muestran autor, licencia y fuente. El compilador da error si una imagen no existe o no tiene crédito, y si un componente es desconocido.
+- Mapa: `.leader-name` envuelve el nombre en un enlace a `persona-<id>` con icono de libro (texto visible idéntico para las pruebas); botón `#selection-encyclopedia` hacia `entidad-<clave>` cuando la entidad tiene dirigentes. El manejador global evita que `href="#"` altere el hash de la URL.
+- Páginas: mapa de afloramientos, galería y composición atmosférica en Arcaico; atmósfera en Hádico; línea de tiempo y Dickinsonia en Proterozoico; gráfico de extinciones en Fanerozoico.
+
+Validación local: tipos; 424 pruebas unitarias en 84 archivos; compilador sin errores; construcción. Navegador: precambrian 2/2, earth-integration (enciclopedia), human-expansion (contexto y CO₂), political-history 2/2 y dependent-authorities correctos. Capturas revisadas (escala ampliada hasta el Jurásico, mapa, galería, línea de tiempo, sucesión de España, ficha de Alemania 1943 con enlace).
+
+Siguiente: P03 (formación de la Tierra, Hádico y Arcaico en profundidad: todas sus unidades y temas).
