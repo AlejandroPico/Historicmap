@@ -11,7 +11,9 @@ import lineages from'../public/data/human-lineages.json'with{type:'json'};
 export interface EncyclopediaArticle{id:string;title:string;summary:string;sections:{title:string;text:string}[];sourceIds:string[];related:string[];diagram:string;year:number;videoStart?:number;kind?:string;themeId?:string}
 export const curatedArticles=[...content.articles,...phanerozoic.articles,...quaternary.articles,...humanKnowledge.articles] as EncyclopediaArticle[];
 const periodThemes:Record<string,string>={Cambrian:'cambrian',Ordovician:'ordovician',Silurian:'silurian',Devonian:'devonian',Carboniferous:'carboniferous',Permian:'permian',Triassic:'triassic',Jurassic:'jurassic',Cretaceous:'cretaceous',Paleogene:'paleogene',Neogene:'neogene',Quaternary:'quaternary'};
-const reviewedEvents=[...new Map([...review.events,...phanerozoicReview.events,...humanKnowledge.videoReview.events].map(e=>[e.videoId,e])).values()];
+/** Artículos heredados agrupados por procedencia (para el índice lateral). */
+export const curatedGroups:[string,EncyclopediaArticle[]][]=[['Precámbrico',content.articles as EncyclopediaArticle[]],['Fanerozoico',phanerozoic.articles as EncyclopediaArticle[]],['Cuaternario',quaternary.articles as EncyclopediaArticle[]]];
+export const reviewedEvents=[...new Map([...review.events,...phanerozoicReview.events,...humanKnowledge.videoReview.events].map(e=>[e.videoId,e])).values()];
 export function encyclopediaArticle(id:string):EncyclopediaArticle|undefined{
  const authored=curatedArticles.find(a=>a.id===id);if(authored)return{...authored,kind:'Artículo temático'};
  const event=reviewedEvents.find(e=>e.videoId===id);

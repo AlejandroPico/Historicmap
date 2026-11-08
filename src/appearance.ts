@@ -4,7 +4,7 @@ export const appearances:Appearance[]=['morning','afternoon','night','auto'];
 export const appearanceLabels:Record<Appearance,string>={morning:'Mañana',afternoon:'Tarde',night:'Noche',auto:'Automático'};
 export const appearanceIcons:Record<Appearance,string>={morning:'sun',afternoon:'sunset',night:'moon',auto:'contrast'};
 export const palettes:Record<ResolvedAppearance,{background:string;ocean:string;horizon:string}>={
-  morning:{background:'#aecbd9',ocean:'#d4e7f1',horizon:'#dbeaf2'},
+  morning:{background:'#a2c0cf',ocean:'#d4e7f1',horizon:'#dbeaf2'},
   afternoon:{background:'#283d4a',ocean:'#4b7f9c',horizon:'#93b7ca'},
   night:{background:'#080f19',ocean:'#152b3b',horizon:'#566b7e'},
 };

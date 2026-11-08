@@ -8,8 +8,8 @@ import{HOLOCENE_START}from'../src/ice-history';
 
 describe('Earth foundation: chronological and evidential boundaries',()=>{
  it('retains a complete ICS hierarchy, with no overlapping same-rank units at handovers',()=>{
-  expect(chronologyVersion).toBe('2026/06');expect(geologicalUnits).toHaveLength(177);
-  const ids=new Set(geologicalUnits.map(u=>u.id));expect(ids.size).toBe(177);
+  expect(chronologyVersion).toBe('2026/06');expect(geologicalUnits).toHaveLength(178);
+  const ids=new Set(geologicalUnits.map(u=>u.id));expect(ids.size).toBe(178);
   for(const u of geologicalUnits){
    expect(u.name).not.toBe('');expect(u.parent===null||ids.has(u.parent)).toBe(true);
    expect(u.axisOldestYear).toBeLessThan(u.axisEndYear??PRESENT);

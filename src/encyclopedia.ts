@@ -1,7 +1,7 @@
 // Lector de la enciclopedia (P01): índice por ramas, búsqueda unificada, composición jerárquica,
 // ficha lateral, historial, panorama por fecha y fichas generadas de dirigentes y entidades.
 // Fuentes de contenido, por prioridad: páginas de enciclopedia/ → contenido heredado de Tierra/ → fichas generadas.
-import { encyclopediaArticle, encyclopediaForYear, encyclopediaReferenceYear, searchEncyclopedia, encyclopediaSources, curatedArticles, type EncyclopediaArticle } from './encyclopedia-model';
+import { encyclopediaArticle, encyclopediaForYear, encyclopediaReferenceYear, searchEncyclopedia, encyclopediaSources, curatedArticles, curatedGroups, reviewedEvents, type EncyclopediaArticle } from './encyclopedia-model';
 import { geologicalUnits, humanUnits, humanChronologySources, geologicalAt, humanAt, rankLabels, geologicalRangeLabel, geologicalAgeLabel, type GeologicalUnit } from './earth-chronology';
 import { scientificDiagram } from './encyclopedia-diagrams';
 import { humanDiagram, handleHumanInput } from './human-encyclopedia';
@@ -306,7 +306,7 @@ function unitTree(parent: string | null, path: Set<string>): string {
     return `<div class="enc-node" data-open="${open}"><span class="enc-row">${kids ? `<button class="enc-toggle" data-enc-toggle aria-expanded="${open}" aria-label="Desplegar ${esc(u.name)}"></button>` : '<span class="enc-toggle"></span>'}${button}</span>${kids ? `<div class="enc-kids">${unitTree(u.id, path)}</div>` : ''}</div>`;
   }).join('');
 }
-function group(title: string, body: string, open = false, count?: number) { return `<details class="enc-group"${open ? ' open' : ''}><summary>${esc(title)}${count !== undefined ? ` <small>${count.toLocaleString('es')}</small>` : ''}</summary><div>${body}</div></details>`; }
+function group(title: string, body: string, open = false, count?: number, sub = false) { return `<details class="enc-group${sub ? ' enc-subgroup' : ''}"${open ? ' open' : ''}><summary>${esc(title)}${count !== undefined ? ` <small>${count.toLocaleString('es')}</small>` : ''}</summary><div>${body}</div></details>`; }
 const entry = (id: string, title: string, sub = '') => `<button data-encyclopedia-entry="${esc(id)}"${history[cursor] === id ? ' aria-current="page"' : ''}>${sub ? `<small>${esc(sub)}</small>` : ''}${esc(title)}</button>`;
 
 let searchSerial = 0;
@@ -315,7 +315,7 @@ async function renderIndex() {
   const stats = index?.stats;
   if (query) {
     const q = normalizeText(query);
-    const legacy = searchEncyclopedia(query, (byId('encyclopedia-archive') as HTMLInputElement).checked).filter(a => !isReplaced(a.id)).slice(0, 60).map(a => ({ id: a.id, title: a.title, group: a.group }));
+    const legacy = searchEncyclopedia(query, true).filter(a => !isReplaced(a.id)).slice(0, 60).map(a => ({ id: a.id, title: a.title, group: a.group }));
     const pages = (index?.paginas ?? []).filter(p => normalizeText([p.titulo, ...p.alias, p.resumen].join(' ')).includes(q)).map(p => ({ id: p.id, title: p.titulo, group: 'Enciclopedia' }));
     const seen = new Set<string>(), results = [...pages, ...legacy].filter(r => !seen.has(r.id) && seen.add(r.id));
     nav.innerHTML = results.map(r => entry(r.id, r.title, r.group)).join('');
@@ -331,16 +331,36 @@ async function renderIndex() {
   const path = new Set<string>(currentUnit ? [currentUnit.id, ...unitTrail(currentUnit).map(u => u.id)] : []);
   const pages = index?.paginas ?? [];
   const branches: Record<string, string> = { tierra: 'Planeta Tierra', clima: 'Clima y glaciaciones', vida: 'La vida', humanidad: 'Humanidad', culturas: 'Culturas', contextos: 'El mundo en cada época', entidades: 'Estados e imperios', personas: 'Biografías', eventos: 'Acontecimientos', obras: 'Obras y monumentos', temas: 'Temas' };
-  const byBranch = Object.entries(branches).map(([b, title]) => { const list = pages.filter(p => p.rama === b && (!p.padre || p.padre.startsWith('geo-'))); return list.length ? group(title, list.sort((x, y) => (x.orden ?? 1e9) - (y.orden ?? 1e9) || x.titulo.localeCompare(y.titulo, 'es')).map(p => entry(p.id, p.titulo)).join(''), false, pages.filter(p => p.rama === b).length) : ''; }).join('');
+  // Cada rama se subdivide por el eón o la era a la que pertenece la página (por su padre geológico).
+  const eraOf = (p: IndexPage) => {
+    let u = p.padre?.startsWith('geo-') ? unitById(p.padre.slice(4)) : p.id.startsWith('geo-') ? unitById(p.id.slice(4)) : undefined;
+    if (!u) return 'General';
+    const trail = [u, ...unitTrail(u)];
+    return (trail.find(t => t.rank === 'era' && t.parent === 'Phanerozoic') ?? trail.find(t => t.rank === 'eon'))?.name ?? 'General';
+  };
+  const ERA_ORDER = ['Hádico', 'Arcaico', 'Proterozoico', 'Paleozoico', 'Mesozoico', 'Cenozoico', 'General'];
+  const byBranch = Object.entries(branches).map(([b, title]) => {
+    const all = pages.filter(p => p.rama === b); if (!all.length) return '';
+    const sorted = all.sort((x, y) => (x.inicio !== null && y.inicio !== null ? x.inicio - y.inicio : 0) || (x.orden ?? 1e9) - (y.orden ?? 1e9) || x.titulo.localeCompare(y.titulo, 'es'));
+    const buckets = new Map<string, IndexPage[]>(); for (const p of sorted) { const k = eraOf(p); buckets.set(k, [...(buckets.get(k) ?? []), p]); }
+    const body = buckets.size === 1 ? sorted.map(p => entry(p.id, p.titulo)).join('') : [...buckets].sort((a, c) => ERA_ORDER.indexOf(a[0]) - ERA_ORDER.indexOf(c[0])).map(([k, list]) => group(k, list.map(p => entry(p.id, p.titulo)).join(''), list.some(p => p.id === history[cursor]), list.length, true)).join('');
+    return group(title, body, all.some(p => p.id === history[cursor]), all.length);
+  }).join('');
+  const archiveBuckets: [string, (ma: number) => boolean][] = [['Precámbrico', ma => ma > 538.8], ['Paleozoico', ma => ma <= 538.8 && ma > 251.9], ['Mesozoico', ma => ma <= 251.9 && ma > 66], ['Cenozoico', ma => ma <= 66]];
+  const events = [...reviewedEvents].sort((a, c) => (c.observedAgeMa ?? 0) - (a.observedAgeMa ?? 0));
+  const archive = archiveBuckets.map(([k, test]) => { const list = events.filter(e => test(e.observedAgeMa ?? 0)); return list.length ? group(k, list.map(e => entry(e.videoId, e.name)).join(''), false, list.length, true) : ''; }).join('');
+  const concepts = curatedGroups.map(([k, list]) => { const l = list.filter(a => !isReplaced(a.id) && !pageById(a.id)); return l.length ? group(k, l.map(a => entry(a.id, a.title)).join(''), l.some(a => a.id === history[cursor]), l.length, true) : ''; }).join('');
+  const conceptCount = curatedGroups.reduce((n, [, l]) => n + l.filter(a => !isReplaced(a.id) && !pageById(a.id)).length, 0);
   const general = pages.filter(p => ['portada', 'guia'].includes(p.tipo)).sort((x, y) => (x.orden ?? 1e9) - (y.orden ?? 1e9));
   nav.innerHTML = [
     entry('fecha-' + consultedYear, (consultedYear <= -1000000 ? 'La Tierra hace ' : 'El mundo en ') + formatYear(consultedYear), 'Ahora en el mapa'),
     ...general.map(p => entry(p.id, p.titulo)),
     group('Escala temporal geológica', `<div class="enc-tree">${unitTree(null, path)}</div>`, history[cursor]?.startsWith('geo-'), geologicalUnits.length),
-    group('Tierra y vida · artículos temáticos', curatedArticles.filter(a => !humanKnowledge.articles.some(h => h.id === a.id) && !isReplaced(a.id) && !pageById(a.id)).map(a => entry(a.id, a.title)).join(''), false),
+    group('Conceptos y procesos', concepts, false, conceptCount),
     group('Evolución humana', humanKnowledge.articles.map(a => entry(a.id, a.title)).join(''), false, humanKnowledge.articles.length),
     group('Edades de la humanidad', humanUnits.map(u => entry('human-' + u.id, u.name, u.scope)).join(''), false, humanUnits.length),
-    byBranch
+    byBranch,
+    group('Archivo audiovisual', archive, history[cursor]?.startsWith('video-'), events.length)
   ].join('');
   byId('encyclopedia-count').textContent = stats ? `${(stats.paginas + geologicalUnits.length + curatedArticles.length).toLocaleString('es')} artículos · ${stats.personas.toLocaleString('es')} dirigentes · ${stats.entidades.toLocaleString('es')} entidades` : '';
 }
@@ -396,9 +416,9 @@ export function navigateEncyclopedia(id: string) {
 
 function setup() {
   dialog = document.createElement('dialog'); dialog.id = 'encyclopedia'; dialog.setAttribute('aria-labelledby', 'encyclopedia-title');
-  dialog.innerHTML = `<header class="encyclopedia-header"><div><span class="eyebrow">HISTORICMAP</span><h2 id="encyclopedia-title">Enciclopedia</h2></div><div class="encyclopedia-history"><button id="encyclopedia-back" aria-label="Página anterior">←</button><button id="encyclopedia-forward" aria-label="Página siguiente">→</button></div><span id="encyclopedia-context"></span>${playerMarkup()}<button id="encyclopedia-close" aria-label="Cerrar enciclopedia y volver al mapa"><span class="enc-close-label">Volver al mapa </span>×</button></header><div class="encyclopedia-layout"><aside><label for="encyclopedia-search">Buscar en la enciclopedia</label><input id="encyclopedia-search" type="search" placeholder="Época, persona, estado, concepto…" autocomplete="off"><label class="encyclopedia-archive"><input id="encyclopedia-archive" type="checkbox"> Incluir archivo audiovisual</label><p id="encyclopedia-count"></p><nav id="encyclopedia-index" aria-label="Índice enciclopédico"></nav></aside><div id="encyclopedia-article" class="encyclopedia-reading"></div></div>`;
+  dialog.innerHTML = `<header class="encyclopedia-header"><div><span class="eyebrow">HISTORICMAP</span><h2 id="encyclopedia-title">Enciclopedia</h2></div><div class="encyclopedia-history"><button id="encyclopedia-back" aria-label="Página anterior">←</button><button id="encyclopedia-forward" aria-label="Página siguiente">→</button></div><span id="encyclopedia-context"></span>${playerMarkup()}<button id="encyclopedia-close" aria-label="Cerrar enciclopedia y volver al mapa"><span class="enc-close-label">Volver al mapa </span>×</button></header><div class="encyclopedia-layout"><aside><label for="encyclopedia-search">Buscar en la enciclopedia</label><input id="encyclopedia-search" type="search" placeholder="Época, persona, estado, concepto…" autocomplete="off"><p id="encyclopedia-count"></p><nav id="encyclopedia-index" aria-label="Índice enciclopédico"></nav></aside><div id="encyclopedia-article" class="encyclopedia-reading"></div></div>`;
   document.body.append(dialog);
-  byId('encyclopedia-search').oninput = () => void renderIndex(); byId('encyclopedia-archive').onchange = () => void renderIndex();
+  byId('encyclopedia-search').oninput = () => void renderIndex();
   byId('encyclopedia-close').onclick = () => dialog.close();
   byId('encyclopedia-back').onclick = () => { if (cursor > 0) { cursor--; void render(); } };
   byId('encyclopedia-forward').onclick = () => { if (cursor < history.length - 1) { cursor++; void render(); } };

@@ -249,3 +249,19 @@ button.enc-toggle::before{content:'▸';display:inline-block;transition:transfor
 @media(max-width:1100px){.enc-infobox{width:min(300px,40%)}}
 @media(max-width:820px){.enc-infobox{float:none;width:auto;margin:0 0 22px;padding:0;border-left:0}.enc-infobox dl{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}}
 .enc-figure img[src$=".png"],.enc-figure img[src$=".svg"]{background:#f6f4ee;border-radius:3px}
+.enc-subgroup{margin:0 0 0 10px}
+.enc-subgroup>summary{font-size:9.5px!important;padding:8px 8px 4px!important;letter-spacing:.8px!important}
+.enc-subgroup>div{padding-left:4px;border-left:1px solid var(--line)}
+/* Tonos propios de la enciclopedia: cabecera, índice lateral y área de lectura con contraste suficiente en cada tema. */
+#encyclopedia{--enc-head:var(--panel);--enc-side:color-mix(in srgb,var(--background) 86%,#fff 4%);--enc-read:var(--background);--enc-title:#f0ecdd;background:var(--enc-read)}
+:root[data-appearance=afternoon] #encyclopedia{--enc-head:#1c2d38;--enc-side:#22343f;--enc-read:#283d4a}
+:root[data-appearance=morning] #encyclopedia{--background:#faf8f2;--enc-read:#faf8f2;--enc-side:#f0ece2;--enc-head:#e7e1d3;--enc-title:#1b2a2f;--text:#22333a;--muted:#56686c;--gold:#7a5418;--line:#2e45402b;--soft:#e6e0d1;--panel:#f2eee4;--surface:#faf8f2}
+#encyclopedia::backdrop{background:var(--enc-read,var(--background))}
+.encyclopedia-header{background:var(--enc-head)}
+.encyclopedia-layout>aside{background:var(--enc-side)}
+.encyclopedia-reading{background:var(--enc-read)}
+.encyclopedia-reading h1,.encyclopedia-header h2{color:var(--enc-title)}
+:root[data-appearance=morning] #encyclopedia-search{background:#fff}
+:root[data-appearance=morning] .encyclopedia-reading h2,:root[data-appearance=morning] .encyclopedia-reading h3{color:#1f3035}
+:root[data-appearance=morning] .enc-pl-pop{background:#fbf9f3}
+:root[data-appearance=night] #encyclopedia{--enc-read:#080f19;--enc-side:#0b1521;--enc-head:#101d2b}

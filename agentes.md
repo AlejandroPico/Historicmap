@@ -1722,3 +1722,20 @@ Dudas factuales anotadas por los redactores (revisar): nombres y límites de la 
 Validación local: tipos; 430 pruebas unitarias; compilador 65 páginas, ≈ 223.000 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2; reproductor comprobado con síntesis simulada (play, pausa, anterior, siguiente, salto, selección, velocidad, detener) en 1600 px y 390 px sin desbordamiento; capturas revisadas.
 
 Siguiente: P05 (Paleozoico).
+
+
+## 83. Enciclopedia · P05 (1.ª entrega: Paleozoico, Cámbrico, Ordovícico) · índice y tema de mañana · 0.62.0 · 8/11/2026
+
+Contenido: 32 páginas (≈ 90.600 palabras; 2.050–5.600 por página) en enciclopedia/geologia/paleozoico.md, geologia/paleozoico/{cambrico,ordovicico}/, vida/paleozoico (explosión cámbrica, Lagerstätten, GOBE, extinción ordovícica) y tierra/paleozoico (eventos oceánicos cámbricos). Cuatro redactores en dos tandas de dos; encargo común más añadido P05 (/tmp, fuera del repo) que exige a las páginas de edad etimología, GSSP o candidatos, bioestratigrafía, correlación, eventos, paleogeografía, yacimientos y afloramientos (también ibéricos). Corregido un `\**combrogi*` (el Markdown no admite escapes).
+
+ICS: la importación RDF fundía Přídolí con Ludlow; se restituye a mano la serie Pridoli (422,7–419,62 Ma, sin pisos) y Ludlow termina en 422,7 Ma; nota en `reconciliation`; prueba earth-foundation a 178 unidades.
+
+Petición del propietario (exploración de la enciclopedia): quitar la casilla «Incluir archivo audiovisual» (incluido siempre); «Conceptos y procesos» aparecía en el buscador pero no en el índice (era el grupo de artículos heredados, rotulado «Tierra y vida · artículos temáticos»): ahora es el mismo nombre, con subdesplegables por procedencia (`curatedGroups`), y las ramas de páginas nuevas se subdividen por eón/era según su padre geológico; nuevo grupo «Archivo audiovisual» (`reviewedEvents` exportado) por eras. Tema de mañana: fondo celeste con títulos blancos poco legible → variables propias de #encyclopedia (`--enc-head`, `--enc-side`, `--enc-read`, `--enc-title`) con tonos de papel en mañana y tonos diferenciados en tarde y noche; fondo de mapa de mañana #aecbd9 → #a2c0cf. Prueba phanerozoic: ya no exige que la búsqueda excluya el archivo audiovisual. Pide además rehacer «Tectónica de placas y cratones» (artículo heredado) con esquemas de calidad: anotado para P08.
+
+Dudas factuales anotadas por los redactores: etimologías (Ovetiense, Katiense, Steptoense), alturas exactas de GSSP citadas de memoria (Drumiense, Guzhangiense, Paibiense, Wuliuense, Jiangshaniense, Tremadociense, Floiense, Dapingiense, Darriwiliense, Sandbiense, Katiense, Hirnantiense), unidades ibéricas (Bilbiliense/Huérmeda, *Saukianda andalusiae*, formaciones hirnantienses), correlaciones regionales castellanizadas, fechas de ratificación de los GSSP ordovícicos, cifras aproximadas (Marble Canyon, Fezouata, Finnegan, bentonitas). Varias páginas sin fotografía (Terreneuviense, Fortuniense, Paibiense, Jiangshaniense, eventos oceánicos) por el límite de peticiones de Commons.
+
+Nota: `npm run build` (prepare-country-catalog) borra 27 `Países/CULTURE-…/entidad.json` en este entorno; se restauran con `git checkout -- Países` y no se entregan.
+
+Validación: tipos; 430 pruebas; compilador 97 páginas, ≈ 313.800 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2 y phanerozoic 1/1; capturas de los tres temas revisadas.
+
+Siguiente: P05 (2.ª entrega): Silúrico y Devónico; después Carbonífero y Pérmico.

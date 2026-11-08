@@ -6,7 +6,7 @@
   "sourceSha256": "8548707d66c383460b3bddc20afb7070cb5f3ea187ea1262418dc3a6f2d6e9f7",
   "rdfVersion": "2026-06",
   "rdfModified": "2026-06-20",
-  "reconciliation": "La cita inglesa Modified2024-12 es antigua; owl:versionInfo y versionIRI identifican2026-06. El límite Hádico/Arcaico4031Ma y demás valores proceden de esta versión. Holoceno usa edades GSSP b2k ya curadas, conservando cifras redondeadas de carta por separado.",
+  "reconciliation": "La cita inglesa Modified2024-12 es antigua; owl:versionInfo y versionIRI identifican2026-06. El límite Hádico/Arcaico4031Ma y demás valores proceden de esta versión. Holoceno usa edades GSSP b2k ya curadas, conservando cifras redondeadas de carta por separado. Přídolí (422,7–419,62 Ma) restituido como serie del Silúrico: la importación lo había fundido con el Ludlow.",
   "axisConvention": "Intervalos [inicio,fin), presente abierto. Ma se sitúa nominalmente respecto1950; no es precisión calendárica. Holoceno/GSSP tiene base2000 explícita. Sin año cero.",
   "units": [
     {
@@ -1117,18 +1117,18 @@
       "rank": "epoch",
       "parent": "Silurian",
       "oldestMa": 426.7,
-      "youngestMa": 419.62,
+      "youngestMa": 422.7,
       "color": "#BFE6CF",
       "formal": true,
       "gsspRatified": true,
       "numericalUncertaintyMa": {
         "oldest": 1.5,
-        "youngest": 1.36
+        "youngest": 1.6
       },
       "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
       "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
       "axisOldestYear": -426698051,
-      "axisEndYear": -419618051
+      "axisEndYear": -422698051
     },
     {
       "id": "Ludfordian",
@@ -1148,6 +1148,26 @@
       "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
       "axisOldestYear": -424998051,
       "axisEndYear": -422698051
+    },
+    {
+      "id": "Pridoli",
+      "name": "Přídolí",
+      "rank": "epoch",
+      "parent": "Silurian",
+      "oldestMa": 422.7,
+      "youngestMa": 419.62,
+      "color": "#E6F5E1",
+      "formal": true,
+      "gsspRatified": true,
+      "numericalUncertaintyMa": {
+        "oldest": 1.6,
+        "youngest": 1.36
+      },
+      "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
+      "axisOldestYear": -422698051,
+      "axisEndYear": -419618051,
+      "note": "Serie sin pisos subdivididos (es a la vez serie y piso); restituida a mano porque la importación RDF la fusionaba con el Ludlow."
     },
     {
       "id": "Lochkovian",

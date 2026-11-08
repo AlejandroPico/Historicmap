@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.62.0 · 8 de noviembre de 2026
+
+- Enciclopedia P05 (primera entrega): 32 páginas nuevas (≈ 90.600 palabras): era Paleozoica; Cámbrico con sus 4 series y 10 pisos; Ordovícico con sus 3 series y 7 pisos; temas explosión cámbrica, Lagerstätten cámbricos (Chengjiang, Burgess, Sirius Passet, Emu Bay, Kaili, Orsten), eventos oceánicos cámbricos (BACE–HERB), Gran Evento de Biodiversificación del Ordovícico y extinción del Ordovícico-Silúrico. 44 imágenes nuevas de Commons, sin repeticiones. `cambrian` y `ordovician` redirigen a las páginas nuevas.
+- Cronología ICS: restituida la serie Přídolí (422,7–419,62 Ma), que la importación había fundido con el Ludlow (que ahora termina en 422,7 Ma); 178 unidades.
+- Índice lateral: «Conceptos y procesos» (antes «Tierra y vida · artículos temáticos») con subapartados Precámbrico/Fanerozoico/Cuaternario; Planeta Tierra, Clima y La vida subdivididos por eón o era; nuevo desplegable «Archivo audiovisual» por eras. El buscador incluye siempre el archivo audiovisual (se retira la casilla).
+- Tema de mañana: la enciclopedia usa tonos de papel propios (cabecera, índice y lectura diferenciados) con títulos en tinta oscura; tarde y noche separan ligeramente el índice del texto. Fondo del mapa de mañana algo menos claro.
+
 ## 0.61.0 · 8 de noviembre de 2026
 
 - Enciclopedia P04 · Proterozoico: 28 páginas nuevas (≈ 95.600 palabras; entre 2.470 y 5.000 por página): eras Paleoproterozoico, Mesoproterozoico y Neoproterozoico; periodos Sidérico, Riácico, Orosírico, Estatérico, Calímico, Ectásico, Esténico, Tónico, Criogénico y Ediacárico; temas Gran Oxigenación, glaciaciones huronianas, diques y grandes provincias ígneas, excursión Lomagundi-Jatuli y evento Shunga, impactos de Yarrabubba, Vredefort y Sudbury, reactores de Oklo, Columbia/Nuna, «mil millones aburridos», eucariotas, sexo y multicelularidad, Rodinia, Tierra bola de nieve, biota de Ediacara, origen de los animales y anomalía de Shuram. Los artículos heredados `oxygenation`, `matachewan`, `oklo`, `eukaryotes`, `rodinia`, `ice` y `ediacaran` se sustituyen conservando su id (y sus laboratorios); `proterozoic` redirige a la página del eón.
