@@ -14,6 +14,7 @@ import phanerozoicMedia from '../Tierra/Fanerozoico/medios.json' with { type: 'j
 import { render as renderMarkdown, esc, type Heading } from './encyclopedia/markdown';
 import { loadIndex, loadSource, loadPerson, loadEntity, loadCentury, loadNames, loadWorld, mediaUrl, mediaCredit, activeIn, dateYearOf, normalizeText, type IndexPage, type EncyclopediaIndexFile } from './encyclopedia/store';
 import { component, scaleView, mapSvg, successionChart } from './encyclopedia/components';
+import { handleSpeechClick, handleSpeechRate, resetSpeech, stopSpeech } from './encyclopedia/speech';
 
 interface Source { title: string; url: string }
 interface Page {
@@ -108,15 +109,14 @@ function unitInfobox(u: GeologicalUnit): [string, string][] {
     ['Color ICS', `<span class="enc-swatch" style="background:${esc(u.color)}"></span> ${esc(u.color)}`]
   ];
 }
-function unitGeneratedText(u: GeologicalUnit, compact = false) {
-  const trail = unitTrail(u), parent = trail[trail.length - 1], kids = unitChildren(u);
-  const chain = trail.length && !compact ? ` dentro de ${trail.slice().reverse().map(t => `[[geo-${t.id}|${t.name}]]`).join(', ')}` : '';
-  const start = geologicalAgeLabel(u.oldestMa), end = u.youngestMa > 0 ? geologicalAgeLabel(u.youngestMa) : null;
-  let text = `**${u.name}** es ${u.rank === 'age' || u.rank === 'era' || u.rank === 'epoch' ? 'una' : 'un'} ${rankLabels[u.rank].toLowerCase()} de la escala temporal geológica${chain}. Comenzó hace ${start}${end ? ` y terminó hace ${end}` : ' y llega hasta la actualidad'}, por lo que abarca unos ${duration(u)}.`;
-  if (kids.length) text += ` Se divide en ${kids.length} ${RANK_PLURAL[kids[0].rank] ?? 'unidades'}: ${kids.map(k => `[[geo-${k.id}|${k.name}]]`).join(', ')}.`;
-  if (u.gsspRatified) text += ` Su base está definida por un *GSSP* (estratotipo y punto de límite global) ratificado por la Comisión Internacional de Estratigrafía.`;
-  if (parent && !kids.length && !compact) text += ` Es una de las subdivisiones más finas de la escala oficial.`;
-  return text;
+/** Fase del plan en la que se redacta la monografía de una unidad. */
+function unitPhase(u: GeologicalUnit) {
+  const ids = [u.id, ...unitTrail(u).map(t => t.id)];
+  return ids.includes('Proterozoic') ? 'P04 · Proterozoico' : ids.includes('Paleozoic') ? 'P05 · Paleozoico' : ids.includes('Mesozoic') ? 'P06 · Mesozoico' : ids.includes('Cenozoic') ? 'P07 · Cenozoico' : 'P03 · Hádico y Arcaico';
+}
+/** Unidad todavía sin monografía: solo un aviso; los datos están en la ficha y la escala. */
+function unitPendingNote(u: GeologicalUnit) {
+  return `<p class="enc-pending">La monografía de ${esc(u.name)} se redacta en la fase ${esc(unitPhase(u))} del plan de la enciclopedia. Mientras tanto, la ficha recoge sus datos oficiales y la escala permite situarla.</p>`;
 }
 
 async function geologicalPage(u: GeologicalUnit, md: Awaited<ReturnType<typeof loadSource>>, idx?: IndexPage, compact = false): Promise<Page> {
@@ -126,11 +126,11 @@ async function geologicalPage(u: GeologicalUnit, md: Awaited<ReturnType<typeof l
   const year = encyclopediaReferenceYear(legacy, consultedYear);
   let html: string, headings: Heading[];
   if (md) ({ html, headings } = renderMarkdown(md.body, renderOptions()));
-  else if (ownTheme && !compact) ({ html, headings } = legacyBody(legacy, year));
+  else if (ownTheme && !compact) { ({ html, headings } = legacyBody(legacy, year)); html = unitPendingNote(u) + html; }
+  else if (compact) { html = `<p class="enc-pending">Monografía pendiente · fase ${esc(unitPhase(u))}.</p>`; headings = []; }
   else {
-    const generated = renderMarkdown(unitGeneratedText(u, compact), renderOptions());
     const theme = legacy.themeId ? curatedArticles.find(a => a.id === legacy.themeId) : undefined;
-    html = generated.html + (theme && !compact ? `<p class="enc-see">Contexto general: <a href="#" class="enc-link" data-encyclopedia-entry="${theme.id}">${esc(theme.title)}</a>.</p>` : '');
+    html = unitPendingNote(u) + `<figure class="enc-component enc-scale" data-scale-root="${esc(u.id)}">${scaleView(unitChildren(u).length ? u.id : u.parent ?? '')}</figure>` + (theme ? `<p class="enc-see">Lectura provisional relacionada: <a href="#" class="enc-link" data-encyclopedia-entry="${theme.id}">${esc(theme.title)}</a>.</p>` : '');
     headings = [];
   }
   return {
@@ -221,6 +221,10 @@ async function datePage(year: number): Promise<Page> {
   const parts: string[] = [], headings: Heading[] = [];
   const section = (anchor: string, title: string, body: string) => { headings.push({ level: 2, text: title, anchor }); parts.push(`<section id="${anchor}"><h2>${esc(title)}</h2>${body}</section>`); };
   for (const c of contexts) { const md = await loadSource(c); if (md) section('enc-ctx-' + c.id, c.titulo, renderMarkdown(md.body, renderOptions({ headingOffset: 1, anchorPrefix: 'enc-' + c.id + '-' })).html); }
+  if (deep) {
+    const covering = [...units].reverse().find(u => pageById('geo-' + u.id));
+    if (covering) { const idx = pageById('geo-' + covering.id)!, md = await loadSource(idx); if (md) section('enc-detalle', `${rankLabels[covering.rank]} vigente: ${covering.name}`, renderMarkdown(md.body, renderOptions({ headingOffset: 1, anchorPrefix: 'enc-det-' })).html + `<p class="enc-see">Página completa: <a href="#" class="enc-link" data-encyclopedia-entry="geo-${covering.id}">${esc(covering.name)}</a>.</p>`); }
+  }
   if (lead) { const leadId = replacedBy.get(lead.id) ?? lead.id, md = pageById(leadId); section('enc-lectura', 'Lectura principal', `<button class="enc-card" data-encyclopedia-entry="${esc(leadId)}"><strong>${esc(md?.titulo ?? lead.title)}</strong><span>${esc(md?.resumen ?? lead.summary)}</span></button>`); }
   const chain = units.filter(u => u.rank !== 'group').map(u => `<a href="#" class="enc-link" data-encyclopedia-entry="geo-${u.id}"><small>${esc(rankLabels[u.rank])}</small>${esc(u.name)}</a>`).join('');
   section('enc-tiempo', 'Tiempo geológico', `<nav class="enc-chain" aria-label="Unidades geológicas vigentes">${chain}</nav>${humans.length ? `<p class="enc-chain-human">Periodizaciones humanas: ${humans.map(h => `<a href="#" class="enc-link" data-encyclopedia-entry="human-${h.id}">${esc(h.name)}</a> <small>(${esc(h.scope)})</small>`).join(' · ')}</p>` : ''}`);
@@ -359,18 +363,20 @@ async function render(composeAll = false) {
 <header class="enc-head">
 ${page.breadcrumb.length ? `<nav class="encyclopedia-breadcrumb" aria-label="Jerarquía">${page.breadcrumb.map(b => `<button data-encyclopedia-entry="${esc(b.id)}">${esc(b.title)}</button>`).join('<span>›</span>')}</nav>` : ''}
 <div class="encyclopedia-kicker">${esc(page.kind)}</div><h1 tabindex="-1">${esc(page.title)}</h1>${page.summary ? `<p class="encyclopedia-lead">${esc(page.summary)}</p>` : ''}
-<div class="encyclopedia-actions"><button class="primary-button" data-encyclopedia-map="${page.year}">Ver en el mapa · ${formatYear(page.year)}</button>${descendants ? `<button class="enc-compose" data-encyclopedia-compose="${composeAll ? 'off' : 'on'}" aria-pressed="${composeAll}">${composeAll ? 'Leer solo esta página' : `Leer completo · incluye ${descendants} subdivisiones`}</button>` : ''}</div>
+<div class="encyclopedia-actions"><button class="primary-button" data-encyclopedia-map="${page.year}">Ver en el mapa · ${formatYear(page.year)}</button><span class="enc-tts" role="group" aria-label="Lectura en voz alta"><button data-tts="play" aria-label="Escuchar la página" title="Escuchar la página (o desde el texto seleccionado)">▶ Escuchar</button><button data-tts="stop" aria-label="Detener la lectura" title="Detener" hidden>■</button><select data-tts-rate aria-label="Velocidad de lectura"><option value="0.85">0,85×</option><option value="1" selected>1×</option><option value="1.2">1,2×</option><option value="1.5">1,5×</option></select></span>${descendants ? `<button class="enc-compose" data-encyclopedia-compose="${composeAll ? 'off' : 'on'}" aria-pressed="${composeAll}">${composeAll ? 'Leer solo esta página' : `Leer completo · incluye ${descendants} subdivisiones`}</button>` : ''}</div>
 </header>
 <div class="enc-columns"><div class="enc-main">
+${page.infobox.length || page.portrait ? `<aside class="enc-infobox" aria-label="Ficha">${page.portrait ?? ''}<dl>${page.infobox.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl></aside>` : ''}
 ${page.top}
 ${toc.length > 1 ? `<nav class="encyclopedia-contents" aria-label="En este artículo"><strong>En este artículo</strong>${toc.map(h => `<a href="#${esc(h.anchor)}">${esc(h.text)}</a>`).join('')}</nav>` : ''}
 <div class="enc-body">${page.html}</div>
 ${composeAll ? `<div class="enc-composition">${composed}</div>` : page.children.length ? `<section id="enc-contenido"><h2>Contenido</h2><div class="enc-children">${page.children.map(c => `<button data-encyclopedia-entry="${esc(c.id)}"><strong>${esc(c.title)}</strong>${c.meta ? `<small>${esc(c.meta)}</small>` : ''}${c.summary ? `<span>${esc(c.summary)}</span>` : ''}</button>`).join('')}</div></section>` : ''}
 ${related.length ? `<section><h2>Continúa explorando</h2><div class="encyclopedia-related">${related.map(r => `<button data-encyclopedia-entry="${esc(r.id)}">${esc(r.title!)} →</button>`).join('')}</div></section>` : ''}
 ${page.sources.length || page.note ? `<section class="encyclopedia-references"><h2>Fuentes</h2>${page.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a>`).join('')}${page.note ? `<p>${esc(page.note)}</p>` : ''}</section>` : ''}
-</div>${page.infobox.length || page.portrait ? `<aside class="enc-infobox" aria-label="Ficha">${page.portrait ?? ''}<dl>${page.infobox.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl></aside>` : ''}</div>
+</div></div>
 </article>`;
   dialog.dataset.article = page.id;
+  resetSpeech(byId('encyclopedia-article'));
   void hydrate(byId('encyclopedia-article'));
   void renderIndex();
   const reading = byId('encyclopedia-article'); reading.scrollTop = 0;
@@ -396,10 +402,12 @@ function setup() {
   byId('encyclopedia-close').onclick = () => dialog.close();
   byId('encyclopedia-back').onclick = () => { if (cursor > 0) { cursor--; void render(); } };
   byId('encyclopedia-forward').onclick = () => { if (cursor < history.length - 1) { cursor++; void render(); } };
-  dialog.addEventListener('close', () => { byId('encyclopedia-video-frame')?.replaceChildren(); returnFocus?.setAttribute('aria-expanded', 'false'); returnFocus?.focus(); });
+  dialog.addEventListener('change', e => { handleSpeechRate(e.target as Element); });
+  dialog.addEventListener('close', () => { stopSpeech(); byId('encyclopedia-video-frame')?.replaceChildren(); returnFocus?.setAttribute('aria-expanded', 'false'); returnFocus?.focus(); });
   dialog.addEventListener('click', e => {
     const target = e.target as Element;
     if (target.closest('summary')) return;
+    if (handleSpeechClick(target, byId('encyclopedia-article'))) return;
     const zoom = target.closest<HTMLElement>('[data-scale-zoom]');
     if (zoom) { const fig = zoom.closest<HTMLElement>('.enc-scale'); if (fig) { const caption = fig.querySelector('figcaption')?.outerHTML ?? ''; fig.innerHTML = scaleView(zoom.dataset.scaleZoom ?? '') + caption; } return; }
     const toggle = target.closest<HTMLElement>('[data-enc-toggle]');

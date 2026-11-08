@@ -121,12 +121,14 @@ export function compileEncyclopedia() {
   for (const p of pages) { if (ids.has(p.meta.id)) errors.push(`${p.rel}: identificador duplicado ${p.meta.id}`); ids.add(p.meta.id); }
   const personIds = new Set([...persons.keys()].map(personPageId)), entityIds = new Set([...entities.keys()].map(entityPageId));
   const resolves = id => ids.has(id) || known.has(id) || personIds.has(id) || entityIds.has(id) || /^fecha--?\d+$/.test(id);
-  let linkCount = 0;
+  let linkCount = 0; const imageUse = new Map();
   for (const p of pages) {
     const refs = [...internalLinks(p.body), ...(p.meta.relacionados ?? []), ...(p.meta.padre ? [p.meta.padre] : [])];
     for (const id of refs) { linkCount++; if (!resolves(id)) errors.push(`${p.rel}: enlace a una página inexistente «${id}»`); }
     for (const id of p.meta.reemplaza ?? []) if (!known.has(id)) errors.push(`${p.rel}: «reemplaza» apunta a un artículo heredado inexistente «${id}»`);
     if (!Array.isArray(p.meta.fuentes) || !p.meta.fuentes.length) warnings.push(`${p.rel}: sin fuentes`);
+    const words = p.body.split(/\s+/).filter(Boolean).length;
+    if (words < 1500 && !p.meta.breve) warnings.push(`${p.rel}: ${words} palabras (mínimo editorial: 1.500)`);
     for (const b of blocksIn(p.body)) {
       const name = b.kind === 'componente' ? b.arg.split(/\s+/)[0] : b.kind;
       if (!['cronologia', 'datos', ...CALLOUT_KINDS].includes(name) && !COMPONENT_NAMES.includes(name)) errors.push(`${p.rel}: componente desconocido «${name}»`);
@@ -136,6 +138,7 @@ export function compileEncyclopedia() {
       const clean = img.replace(/^\.?\/?/, '');
       if (!existsSync(join(dir, clean))) errors.push(`${p.rel}: imagen inexistente «${img}»`);
       else if (!credits[clean.replace(/^medios\//, '')]) errors.push(`${p.rel}: la imagen «${img}» no tiene crédito en medios/creditos.json`);
+      const used = imageUse.get(clean); if (used && used !== p.rel) errors.push(`${p.rel}: la imagen «${img}» ya se usa en ${used} (cada imagen, una sola vez)`); else imageUse.set(clean, p.rel);
     }
   }
   const index = pages.map(p => ({

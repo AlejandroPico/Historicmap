@@ -90,3 +90,11 @@ describe('contenido de la P03 · formación de la Tierra y Arcaico', () => {
     for (const id of ['formation', 'theia', 'luca', 'microbial', 'interior']) expect(byId(id), id).toBeDefined();
   });
 });
+
+describe('nivel editorial', () => {
+  it('ninguna página de la enciclopedia baja de 1.500 palabras y ninguna imagen se repite', () => {
+    const build = compileEncyclopedia();
+    expect(build.warnings.filter(w => w.includes('palabras'))).toEqual([]);
+    expect(build.errors.filter(w => w.includes('ya se usa'))).toEqual([]);
+  });
+});

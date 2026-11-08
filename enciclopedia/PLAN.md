@@ -203,7 +203,11 @@ Auditoría de enlaces, repeticiones, fechas y fuentes; rendimiento; accesibilida
 
 ---
 
-## 5. Forma de trabajo en cada fase
+## 5. Norma editorial (desde la versión 0.60.0)
+
+Exigencia del propietario: la enciclopedia es la parte técnica del proyecto y debe tener nivel universitario o de doctorado. Cada página, sea una unidad geológica, un tema, un año, una persona o un acontecimiento, tiene **al menos 1.500 palabras**; las unidades amplias (eones, eras, periodos) y los panoramas, bastantes más. Cada página explica por qué se llama así, cómo y por qué se definen sus límites, dónde se observa, cómo era el mundo, qué pruebas hay y qué se debate, con tablas, gráficos, mapas, líneas de tiempo e imágenes que no se repiten entre páginas. Objetivo final: varios millones de palabras. El compilador avisa de cualquier página por debajo del mínimo.
+
+## 6. Forma de trabajo en cada fase
 
 1. Investigar primero (Wikipedia y fuentes especializadas), redactar después.
 2. Escribir en `enciclopedia/`; tocar `src/` solo cuando la fase lo requiera.
@@ -211,7 +215,7 @@ Auditoría de enlaces, repeticiones, fechas y fuentes; rendimiento; accesibilida
 4. Actualizar este plan (estado de la fase), `tareas.md`, `agentes.md` y `CHANGELOG.md`.
 5. Entregar los comandos de Git y de ejecución local. El propietario sube; no se esperan ni sondean Actions/Pages.
 
-## 6. Comandos útiles
+## 7. Comandos útiles
 
 **Reparar el clon actual (Windows, PowerShell):**
 
@@ -232,7 +236,7 @@ npm run dev
 
 Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run build` para ver en local: regenera archivos preparados y puede dejar cambios en el árbol de trabajo.
 
-## 7. Estado de las fases
+## 8. Estado de las fases
 
 | Fase | Estado |
 |---|---|
@@ -240,4 +244,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P01 | ✅ Completada (7/11/2026) · versión 0.57.0 |
 | P02 | ✅ Completada (7/11/2026) · versión 0.58.0 |
 | P03 | ✅ Completada (7/11/2026) · versión 0.59.0 · 29 páginas |
+| P01–P03 (revisión) | ✅ Reescritas a nivel universitario (8/11/2026) · versión 0.60.0 · 37 páginas, ≈ 127.500 palabras |
 | P04–P24 | Pendientes |

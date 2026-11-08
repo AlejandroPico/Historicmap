@@ -6,7 +6,7 @@ Documento canónico para colaboradores humanos y asistentes de cualquier proveed
 
 ## 1. Identidad y visión
 
-**Encargo vigente:** reconstrucción completa de la enciclopedia en 25 fases (P00–P24 y opcionales PX1/PX2), según [enciclopedia/PLAN.md](enciclopedia/PLAN.md). P00–P03 cerradas en 0.59.0; ver secciones78–80 y tareas.md. Cada fase empieza solo cuando el propietario la ordena; el propietario sube a Git y verifica el despliegue.
+**Encargo vigente:** reconstrucción completa de la enciclopedia en 25 fases (P00–P24 y opcionales PX1/PX2), según [enciclopedia/PLAN.md](enciclopedia/PLAN.md). P00–P03 cerradas y revisadas en 0.60.0; ver secciones78–81 y tareas.md. Cada fase empieza solo cuando el propietario la ordena; el propietario sube a Git y verifica el despliegue.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1694,3 +1694,16 @@ Criterio editorial aplicado: cifras con fuente (ICS, artículos revisados, Wikip
 Pruebas: recorridos de precambrian ajustados con `.first()` donde la página nueva repite enlaces o imágenes; nuevas pruebas unitarias exigen página propia (>350 palabras) para las seis unidades y ≥24 temas de >500 palabras. Validación local: tipos; 426 pruebas en 84 archivos; compilador sin errores; inventario earth:audit correcto; precambrian 2/2, earth-integration (enciclopedia) y human-expansion (contexto) correctos en navegador; capturas revisadas.
 
 Siguiente: P04 (Proterozoico: tres eras, diez periodos y sus temas).
+
+
+## 81. Enciclopedia · revisión de P01–P03 a nivel universitario · 0.60.0 · 8/11/2026
+
+El propietario califica de «suspenso» el contenido de P03 (textos breves y plantillas idénticas en unidades como Ludlow, Gorstiense o Ludfordiense) y exige repetir todo el contenido con nivel universitario/doctorado: mínimo 1.500–2.000 palabras en **cada** página (unidades, temas, años, personas), etimología, razones técnicas de los límites, localidades, fósiles, métodos, debates, gráficos, esquemas, fotografías sin repetir y widgets si hace falta; objetivo de varios millones de palabras. Pide además lectura en voz alta con la voz del navegador (página entera o desde el punto seleccionado/pulsado) y aprovechar toda la anchura de la pantalla.
+
+Hecho: 37 páginas reescritas (≈ 127.500 palabras; mínimo 1.918, máximo ≈ 7.800), con la ayuda de seis redactores delegados en tandas de dos según la preferencia del propietario, cada uno con el encargo común (archivado fuera del repositorio) y verificación del compilador. 79 imágenes de Commons acreditadas, cada una usada una vez (error de compilación si se repite). `src/encyclopedia/speech.ts`: Web Speech API, frases ≤ 220 caracteres para evitar cortes, voz es-ES preferente, inicio en la selección (recordada aunque el clic en «Escuchar» la deshaga), salto al párrafo pulsado durante la lectura, pausa/continuar/detener, velocidad 0,85–1,5×. Ficha flotante (`.enc-infobox` float) y párrafos sin `max-width`. Unidades sin monografía: aviso con la fase del plan (`unitPhase`) más escala; nunca texto de plantilla. Panorama de tiempo profundo: añade el cuerpo de la unidad vigente con página propia.
+
+Pendientes y dudas registradas por los redactores para una revisión posterior: cifras de memoria señaladas en sus informes (p. ej. nombres de periodos propuestos por Van Kranendonk 2012, edades de capas de esférulas neoarcaicas, valores intermedios del perfil PREM, ritmos de crecimiento en Shark Bay, cifras de Moody et al. 2024), armonizar la localización del hallazgo de Lowe (1980) entre microbial y geo-Paleoarchean, y rótulos en inglés/neerlandés de dos esquemas. Los datos ICS de Ludlow (fin a 419,62 Ma, como Pridoli) parecen fusionar el Pridoli: revisar Tierra/Cronologia en P05.
+
+Validación local: tipos; 427 pruebas unitarias (incluida la norma de 1.500 palabras e imágenes únicas); compilador sin errores ni avisos; construcción; navegador: precambrian 2/2, earth-integration (enciclopedia), human-expansion (contexto), political-history (fichas) correctos; lectura en voz alta comprobada con una síntesis simulada (inicio, salto, pausa, parada, selección); capturas escritorio 1920 px y móvil 390 px sin desbordamiento.
+
+Siguiente: P04 (Proterozoico: tres eras y diez periodos) con la nueva norma.

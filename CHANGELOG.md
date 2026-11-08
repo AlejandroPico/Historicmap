@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.60.0 · 8 de noviembre de 2026
+
+- Revisión completa del contenido de P01–P03 a petición del propietario (nivel universitario, mínimo 1.500 palabras por página): las 37 páginas pasan de ≈ 25.000 a ≈ 127.500 palabras (entre 1.900 y 7.800 por página), con etimología, definición de límites (GSSP/GSSA y propuestas de la ICS), localidades y formaciones, métodos (geocronología, isótopos, modelos), historia de la investigación, debates, tablas, gráficos calculados o rotulados como esquema, mapas y líneas de tiempo. DOI contrastados con Crossref; corregidos DOI erróneos heredados (Young 1998, Lowe 2014, Condie 2018).
+- 79 imágenes de Wikimedia Commons con licencia libre y crédito; cada imagen se usa en una sola página (el compilador lo exige).
+- Lectura en voz alta: botón «Escuchar» con la síntesis de voz del navegador (voz española), pausa, parada y velocidad; lee la página entera o desde el texto seleccionado; durante la lectura, pulsar un párrafo salta a él; resalta y sigue el párrafo leído.
+- Lector a toda la anchura: la ficha flota dentro del texto en lugar de reservar una columna fija; los párrafos ocupan todo el ancho disponible.
+- Las unidades geológicas aún sin monografía ya no muestran un texto de plantilla: indican la fase del plan en que se redactarán y muestran sus datos y su escala.
+- El panorama «La Tierra hace…» incluye el texto completo de la unidad geológica vigente.
+- El compilador avisa de las páginas con menos de 1.500 palabras; una prueba unitaria exige que no haya ninguna y que no se repitan imágenes.
+
 ## 0.59.0 · 7 de noviembre de 2026
 
 - Enciclopedia P03: formación de la Tierra, Hádico y Arcaico. 29 páginas nuevas o reescritas (≈ 18.000 palabras): las seis unidades (Hádico, Arcaico y sus cuatro eras) y 24 artículos temáticos — formación del sistema solar, diferenciación, Theia y la Luna, océano de magma, origen del agua, circones de Jack Hills, bombardeo intenso, campo magnético, interior terrestre, rocas más antiguas, cratones y supercratones, rocas verdes y komatiitas, tectónica arcaica, aire y mar del Arcaico, paradoja del Sol débil, glaciación de Pongola, impactos arcaicos, duración del día, hierro bandeado, primer oxígeno, origen de la vida, LUCA, estromatolitos, metabolismos primitivos y fotosíntesis oxigénica.
