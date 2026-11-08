@@ -6,7 +6,7 @@
   "sourceSha256": "8548707d66c383460b3bddc20afb7070cb5f3ea187ea1262418dc3a6f2d6e9f7",
   "rdfVersion": "2026-06",
   "rdfModified": "2026-06-20",
-  "reconciliation": "La cita inglesa Modified2024-12 es antigua; owl:versionInfo y versionIRI identifican2026-06. El límite Hádico/Arcaico4031Ma y demás valores proceden de esta versión. Holoceno usa edades GSSP b2k ya curadas, conservando cifras redondeadas de carta por separado. Přídolí (422,7–419,62 Ma) restituido como serie del Silúrico: la importación lo había fundido con el Ludlow.",
+  "reconciliation": "La cita inglesa Modified2024-12 es antigua; owl:versionInfo y versionIRI identifican2026-06. El límite Hádico/Arcaico4031Ma y demás valores proceden de esta versión. Holoceno usa edades GSSP b2k ya curadas, conservando cifras redondeadas de carta por separado. Přídolí, serie y piso a la vez en el RDF, se clasifica como serie; el techo del Ludlow, que el RDF iguala al del Přídolí (419,62 Ma), se corrige a 422,7 Ma como en la carta.",
   "axisConvention": "Intervalos [inicio,fin), presente abierto. Ma se sitúa nominalmente respecto1950; no es precisión calendárica. Holoceno/GSSP tiene base2000 explícita. Sin año cero.",
   "units": [
     {
@@ -1151,7 +1151,7 @@
     },
     {
       "id": "Pridoli",
-      "name": "Přídolí",
+      "name": "Prídoli",
       "rank": "epoch",
       "parent": "Silurian",
       "oldestMa": 422.7,
@@ -1166,8 +1166,7 @@
       "source": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
       "timeBasis": "Ma · eje nominal BP1950; edades numéricas aproximadas",
       "axisOldestYear": -422698051,
-      "axisEndYear": -419618051,
-      "note": "Serie sin pisos subdivididos (es a la vez serie y piso); restituida a mano porque la importación RDF la fusionaba con el Ludlow."
+      "axisEndYear": -419618051
     },
     {
       "id": "Lochkovian",

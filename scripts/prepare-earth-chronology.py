@@ -17,9 +17,12 @@ def prepare():
     ranks = {'Eon': 'eon', 'Era': 'era', 'Period': 'period', 'Epoch': 'epoch', 'Age': 'age', 'Sub': 'subperiod', 'Super': 'group'}
     units = []
     for key, block in re.findall(r'(?ms)^gtsd:([^\s]+)\n(.*?)(?=^\S|\Z)', text):
-        rank = re.search(r'gts:rank rank:(\w+)', block)
-        if not rank:
+        rank_list = re.search(r'gts:rank\s+((?:rank:\w+\s*,\s*)*rank:\w+)', block)
+        if not rank_list:
             continue
+        found = re.findall(r'rank:(\w+)', rank_list[1])
+        # Přídolí figura a la vez como serie y piso (no tiene pisos): se clasifica como serie.
+        rank = [None, 'Epoch' if 'Epoch' in found else found[0]]
         ages = re.findall(r'gtsd:inMYA ([\d.]+)', block)
         assert len(ages) == 2, key
         pref = re.search(r'skos:prefLabel\s+(.*?);', block, re.S)
@@ -59,16 +62,23 @@ def prepare():
         if unit['youngestMa'] == .0117:
             unit['axisEndYear'] = by_id['Holocene']['axisOldestYear']
             unit['axisEndSource'] = 'https://doi.org/10.1002/jqs.3097'
+    # El RDF oficial 2026-06 da al Ludlow el techo del Přídolí (419,62 Ma); la carta lo cierra en la base
+    # del Přídolí (422,7 Ma), que es también el techo del Ludfordiense.
+    if by_id['Ludlow']['youngestMa'] == by_id['Pridoli']['youngestMa']:
+        ludlow = by_id['Ludlow']
+        ludlow['youngestMa'] = by_id['Pridoli']['oldestMa']
+        ludlow['numericalUncertaintyMa']['youngest'] = by_id['Pridoli']['numericalUncertaintyMa']['oldest']
+        ludlow['axisEndYear'] = by_id['Pridoli']['axisOldestYear']
     for unit in units:
         parent = by_id.get(unit['parent'])
         if parent:
             assert parent['axisOldestYear'] <= unit['axisOldestYear'], unit['id']
             assert parent['axisEndYear'] is None or (unit['axisEndYear'] is not None and parent['axisEndYear'] >= unit['axisEndYear']), unit['id']
-    assert len(units) == 177
+    assert len(units) == 178
     return {'schemaVersion': 1, 'version': '2026/06', 'license': 'CC-BY-4.0',
             'attribution': 'International Commission on Stratigraphy · Cohen, Harper, Gibbard & Car (2025, actualizado2026/06)',
             'sourceSha256': hashlib.sha256(raw).hexdigest(), 'rdfVersion': '2026-06', 'rdfModified': '2026-06-20',
-            'reconciliation': 'La cita inglesa Modified2024-12 es antigua; owl:versionInfo y versionIRI identifican2026-06. El límite Hádico/Arcaico4031Ma y demás valores proceden de esta versión. Holoceno usa edades GSSP b2k ya curadas, conservando cifras redondeadas de carta por separado.',
+            'reconciliation': 'La cita inglesa Modified2024-12 es antigua; owl:versionInfo y versionIRI identifican2026-06. El límite Hádico/Arcaico4031Ma y demás valores proceden de esta versión. Holoceno usa edades GSSP b2k ya curadas, conservando cifras redondeadas de carta por separado. Přídolí, serie y piso a la vez en el RDF, se clasifica como serie; el techo del Ludlow, que el RDF iguala al del Přídolí (419,62 Ma), se corrige a 422,7 Ma como en la carta.',
             'axisConvention': 'Intervalos [inicio,fin), presente abierto. Ma se sitúa nominalmente respecto1950; no es precisión calendárica. Holoceno/GSSP tiene base2000 explícita. Sin año cero.',
             'units': sorted(units, key=lambda u: (-u['oldestMa'], u['rank'], u['id']))}
 
@@ -78,7 +88,7 @@ if __name__ == '__main__':
     serialized = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
     if '--check' in sys.argv:
         assert TARGET.read_text(encoding='utf-8') == serialized, 'Chronology is out of date'
-        print('ICS2026/06:177 units, hierarchy and b2k reconciliation verified')
+        print('ICS2026/06:178 units, hierarchy and b2k reconciliation verified')
     else:
         TARGET.parent.mkdir(parents=True, exist_ok=True)
         TARGET.write_text(serialized, encoding='utf-8', newline='\n')
