@@ -1707,3 +1707,18 @@ Pendientes y dudas registradas por los redactores para una revisión posterior: 
 Validación local: tipos; 427 pruebas unitarias (incluida la norma de 1.500 palabras e imágenes únicas); compilador sin errores ni avisos; construcción; navegador: precambrian 2/2, earth-integration (enciclopedia), human-expansion (contexto), political-history (fichas) correctos; lectura en voz alta comprobada con una síntesis simulada (inicio, salto, pausa, parada, selección); capturas escritorio 1920 px y móvil 390 px sin desbordamiento.
 
 Siguiente: P04 (Proterozoico: tres eras y diez periodos) con la nueva norma.
+
+
+## 82. Enciclopedia · P04 · Proterozoico · lector de voz en la cabecera · 0.61.0 · 8/11/2026
+
+El propietario, ya satisfecho con la revisión, pide: (1) que la voz pronuncie bien unidades y cifras (Ma → «millones de años», Ga → «miles de millones de años», 4.031 no leído como decimal) sin cambiar lo que se ve; (2) mover los controles de lectura a un micro-reproductor fijo y centrado en la cabecera, con aspecto de reproductor de música (play redondo con animación sencilla, anterior/siguiente párrafo, detener, selector de voz discreto, casi sin texto); (3) continuar con P04.
+
+Voz: `src/encyclopedia/speech-text.ts` (`speakable`) transforma el texto solo para la síntesis: subíndices, fórmulas y métodos isotópicos, miles con punto, intervalos, unidades tras cifra (Ga, Ma, ka, BP, a. C., km², °C, ‰, ppm, GPa, µT…), superíndices («elevado a») y símbolos (±, ≈, ≤, ×, δ…). Pruebas en tests/encyclopedia-speech.test.ts. `speech.ts` genera el reproductor (`playerMarkup`) dentro de `.encyclopedia-header`, centrado en absoluto en escritorio y compacto en móvil (sin «anterior» ni «detener», cierre solo con ×); estado `data-state` idle/playing/paused, barra de progreso por párrafos, ecualizador animado (respeta `prefers-reduced-motion`), ventana de ajustes con velocidad 0,8–1,75× y voces del navegador (español primero) guardadas en localStorage con try/catch.
+
+Contenido: 28 páginas en tandas de dos redactores (un tercer intento se cortó por el límite de uso y se relanzó): geologia/{paleo,meso,neo}proterozoico.md, geologia/proterozoico/*.md (10 periodos), tierra/proterozoico (oxygenation, matachewan, lomagundi, impactos, oklo, columbia, mil millones aburridos, rodinia, shuram), clima/proterozoico (huroniana, ice), vida/proterozoico (eukaryotes, sexo y multicelularidad, ediacaran, origen de los animales). `geo-Proterozoic` lleva `reemplaza: [proterozoic]`. Corregido `blocksIn` (`[ \t]*` en lugar de `\s*`). Prueba precambrian: `.first()` en el enlace a albedo (ahora aparece en texto y en «Continúa explorando»).
+
+Dudas factuales anotadas por los redactores (revisar): nombres y límites de la propuesta de Van Kranendonk et al. (2012) («Columbiano», «Eucariense»); cifras de Melezhik 1999 (Zaonega), Evans y Halls 2010, El Albani 2019; edades de Ruyang/Shuiyousphaeridium, Changcheng y Xiamaling; cifras de Oklo (100 kW, 16 zonas) y de cráteres; ortoversión (Mitchell 2012); edad del Grupo Missoula, East Kootenay, Mutherbukin, Valhalla; Pannotia atribuida a Powell 1995; Bitter Springs (811–788 Ma), Franklin (> 2 Mkm²), ritmitas de Elatina, tamaños de Dickinsonia/Charnia, caída del 80 % (Evans 2022), amplitud de Shuram en Johnnie. Ectásico y Sexo y multicelularidad sin fotografía (Commons limitaba peticiones).
+
+Validación local: tipos; 430 pruebas unitarias; compilador 65 páginas, ≈ 223.000 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2; reproductor comprobado con síntesis simulada (play, pausa, anterior, siguiente, salto, selección, velocidad, detener) en 1600 px y 390 px sin desbordamiento; capturas revisadas.
+
+Siguiente: P05 (Paleozoico).

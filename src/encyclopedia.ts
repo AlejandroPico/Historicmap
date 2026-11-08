@@ -14,7 +14,7 @@ import phanerozoicMedia from '../Tierra/Fanerozoico/medios.json' with { type: 'j
 import { render as renderMarkdown, esc, type Heading } from './encyclopedia/markdown';
 import { loadIndex, loadSource, loadPerson, loadEntity, loadCentury, loadNames, loadWorld, mediaUrl, mediaCredit, activeIn, dateYearOf, normalizeText, type IndexPage, type EncyclopediaIndexFile } from './encyclopedia/store';
 import { component, scaleView, mapSvg, successionChart } from './encyclopedia/components';
-import { handleSpeechClick, handleSpeechRate, resetSpeech, stopSpeech } from './encyclopedia/speech';
+import { handleSpeechChange, handleSpeechClick, playerMarkup, resetSpeech, stopSpeech } from './encyclopedia/speech';
 
 interface Source { title: string; url: string }
 interface Page {
@@ -363,7 +363,7 @@ async function render(composeAll = false) {
 <header class="enc-head">
 ${page.breadcrumb.length ? `<nav class="encyclopedia-breadcrumb" aria-label="Jerarquía">${page.breadcrumb.map(b => `<button data-encyclopedia-entry="${esc(b.id)}">${esc(b.title)}</button>`).join('<span>›</span>')}</nav>` : ''}
 <div class="encyclopedia-kicker">${esc(page.kind)}</div><h1 tabindex="-1">${esc(page.title)}</h1>${page.summary ? `<p class="encyclopedia-lead">${esc(page.summary)}</p>` : ''}
-<div class="encyclopedia-actions"><button class="primary-button" data-encyclopedia-map="${page.year}">Ver en el mapa · ${formatYear(page.year)}</button><span class="enc-tts" role="group" aria-label="Lectura en voz alta"><button data-tts="play" aria-label="Escuchar la página" title="Escuchar la página (o desde el texto seleccionado)">▶ Escuchar</button><button data-tts="stop" aria-label="Detener la lectura" title="Detener" hidden>■</button><select data-tts-rate aria-label="Velocidad de lectura"><option value="0.85">0,85×</option><option value="1" selected>1×</option><option value="1.2">1,2×</option><option value="1.5">1,5×</option></select></span>${descendants ? `<button class="enc-compose" data-encyclopedia-compose="${composeAll ? 'off' : 'on'}" aria-pressed="${composeAll}">${composeAll ? 'Leer solo esta página' : `Leer completo · incluye ${descendants} subdivisiones`}</button>` : ''}</div>
+<div class="encyclopedia-actions"><button class="primary-button" data-encyclopedia-map="${page.year}">Ver en el mapa · ${formatYear(page.year)}</button>${descendants ? `<button class="enc-compose" data-encyclopedia-compose="${composeAll ? 'off' : 'on'}" aria-pressed="${composeAll}">${composeAll ? 'Leer solo esta página' : `Leer completo · incluye ${descendants} subdivisiones`}</button>` : ''}</div>
 </header>
 <div class="enc-columns"><div class="enc-main">
 ${page.infobox.length || page.portrait ? `<aside class="enc-infobox" aria-label="Ficha">${page.portrait ?? ''}<dl>${page.infobox.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl></aside>` : ''}
@@ -376,7 +376,7 @@ ${page.sources.length || page.note ? `<section class="encyclopedia-references"><
 </div></div>
 </article>`;
   dialog.dataset.article = page.id;
-  resetSpeech(byId('encyclopedia-article'));
+  resetSpeech();
   void hydrate(byId('encyclopedia-article'));
   void renderIndex();
   const reading = byId('encyclopedia-article'); reading.scrollTop = 0;
@@ -396,18 +396,18 @@ export function navigateEncyclopedia(id: string) {
 
 function setup() {
   dialog = document.createElement('dialog'); dialog.id = 'encyclopedia'; dialog.setAttribute('aria-labelledby', 'encyclopedia-title');
-  dialog.innerHTML = `<header class="encyclopedia-header"><div><span class="eyebrow">HISTORICMAP</span><h2 id="encyclopedia-title">Enciclopedia</h2></div><div class="encyclopedia-history"><button id="encyclopedia-back" aria-label="Página anterior">←</button><button id="encyclopedia-forward" aria-label="Página siguiente">→</button></div><span id="encyclopedia-context"></span><button id="encyclopedia-close" aria-label="Cerrar enciclopedia y volver al mapa">Volver al mapa ×</button></header><div class="encyclopedia-layout"><aside><label for="encyclopedia-search">Buscar en la enciclopedia</label><input id="encyclopedia-search" type="search" placeholder="Época, persona, estado, concepto…" autocomplete="off"><label class="encyclopedia-archive"><input id="encyclopedia-archive" type="checkbox"> Incluir archivo audiovisual</label><p id="encyclopedia-count"></p><nav id="encyclopedia-index" aria-label="Índice enciclopédico"></nav></aside><div id="encyclopedia-article" class="encyclopedia-reading"></div></div>`;
+  dialog.innerHTML = `<header class="encyclopedia-header"><div><span class="eyebrow">HISTORICMAP</span><h2 id="encyclopedia-title">Enciclopedia</h2></div><div class="encyclopedia-history"><button id="encyclopedia-back" aria-label="Página anterior">←</button><button id="encyclopedia-forward" aria-label="Página siguiente">→</button></div><span id="encyclopedia-context"></span>${playerMarkup()}<button id="encyclopedia-close" aria-label="Cerrar enciclopedia y volver al mapa"><span class="enc-close-label">Volver al mapa </span>×</button></header><div class="encyclopedia-layout"><aside><label for="encyclopedia-search">Buscar en la enciclopedia</label><input id="encyclopedia-search" type="search" placeholder="Época, persona, estado, concepto…" autocomplete="off"><label class="encyclopedia-archive"><input id="encyclopedia-archive" type="checkbox"> Incluir archivo audiovisual</label><p id="encyclopedia-count"></p><nav id="encyclopedia-index" aria-label="Índice enciclopédico"></nav></aside><div id="encyclopedia-article" class="encyclopedia-reading"></div></div>`;
   document.body.append(dialog);
   byId('encyclopedia-search').oninput = () => void renderIndex(); byId('encyclopedia-archive').onchange = () => void renderIndex();
   byId('encyclopedia-close').onclick = () => dialog.close();
   byId('encyclopedia-back').onclick = () => { if (cursor > 0) { cursor--; void render(); } };
   byId('encyclopedia-forward').onclick = () => { if (cursor < history.length - 1) { cursor++; void render(); } };
-  dialog.addEventListener('change', e => { handleSpeechRate(e.target as Element); });
+  dialog.addEventListener('change', e => { handleSpeechChange(e.target as Element); });
   dialog.addEventListener('close', () => { stopSpeech(); byId('encyclopedia-video-frame')?.replaceChildren(); returnFocus?.setAttribute('aria-expanded', 'false'); returnFocus?.focus(); });
   dialog.addEventListener('click', e => {
     const target = e.target as Element;
     if (target.closest('summary')) return;
-    if (handleSpeechClick(target, byId('encyclopedia-article'))) return;
+    if (handleSpeechClick(target)) return;
     const zoom = target.closest<HTMLElement>('[data-scale-zoom]');
     if (zoom) { const fig = zoom.closest<HTMLElement>('.enc-scale'); if (fig) { const caption = fig.querySelector('figcaption')?.outerHTML ?? ''; fig.innerHTML = scaleView(zoom.dataset.scaleZoom ?? '') + caption; } return; }
     const toggle = target.closest<HTMLElement>('[data-enc-toggle]');

@@ -245,4 +245,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P02 | ✅ Completada (7/11/2026) · versión 0.58.0 |
 | P03 | ✅ Completada (7/11/2026) · versión 0.59.0 · 29 páginas |
 | P01–P03 (revisión) | ✅ Reescritas a nivel universitario (8/11/2026) · versión 0.60.0 · 37 páginas, ≈ 127.500 palabras |
-| P04–P24 | Pendientes |
+| P04 | ✅ Proterozoico completo (8/11/2026) · versión 0.61.0 · 28 páginas, ≈ 95.600 palabras |
+| P05–P24 | Pendientes |

@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.61.0 · 8 de noviembre de 2026
+
+- Enciclopedia P04 · Proterozoico: 28 páginas nuevas (≈ 95.600 palabras; entre 2.470 y 5.000 por página): eras Paleoproterozoico, Mesoproterozoico y Neoproterozoico; periodos Sidérico, Riácico, Orosírico, Estatérico, Calímico, Ectásico, Esténico, Tónico, Criogénico y Ediacárico; temas Gran Oxigenación, glaciaciones huronianas, diques y grandes provincias ígneas, excursión Lomagundi-Jatuli y evento Shunga, impactos de Yarrabubba, Vredefort y Sudbury, reactores de Oklo, Columbia/Nuna, «mil millones aburridos», eucariotas, sexo y multicelularidad, Rodinia, Tierra bola de nieve, biota de Ediacara, origen de los animales y anomalía de Shuram. Los artículos heredados `oxygenation`, `matachewan`, `oklo`, `eukaryotes`, `rodinia`, `ice` y `ediacaran` se sustituyen conservando su id (y sus laboratorios); `proterozoic` redirige a la página del eón.
+- 35 imágenes nuevas de Commons con licencia libre y crédito, sin repeticiones; los PNG/SVG con fondo transparente se muestran sobre fondo claro.
+- Lectura en voz alta: reproductor fijo y centrado en la cabecera (párrafo anterior, reproducir/pausa con ecualizador animado, párrafo siguiente, detener y ajustes discretos de velocidad y voz, recordados en el navegador). La voz pronuncia «millones de años» por Ma, «miles de millones de años» por Ga, cifras con punto de millar como enteros, intervalos («a»), ±, ≈, fórmulas (CO₂, CH₄), métodos (U-Pb) y unidades habituales, sin cambiar el texto visible.
+- Compilador: los bloques `:::` ya no confunden una lista tras una línea en blanco con un componente desconocido.
+
 ## 0.60.0 · 8 de noviembre de 2026
 
 - Revisión completa del contenido de P01–P03 a petición del propietario (nivel universitario, mínimo 1.500 palabras por página): las 37 páginas pasan de ≈ 25.000 a ≈ 127.500 palabras (entre 1.900 y 7.800 por página), con etimología, definición de límites (GSSP/GSSA y propuestas de la ICS), localidades y formaciones, métodos (geocronología, isótopos, modelos), historia de la investigación, debates, tablas, gráficos calculados o rotulados como esquema, mapas y líneas de tiempo. DOI contrastados con Crossref; corregidos DOI erróneos heredados (Young 1998, Lowe 2014, Condie 2018).

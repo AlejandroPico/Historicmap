@@ -6,4 +6,4 @@ Leer también **[tareas.md](tareas.md)** y actualizar la pizarra al avanzar o in
 
 Actualizar `agentes.md`, `CHANGELOG.md` y la documentación pertinente en toda entrega que cambie funcionalidad, arquitectura, datos, alcance o limitaciones. No duplicar la especificación en este archivo. No confundir planes con funciones implementadas.
 
-Estado vigente 0.57: enciclopedia por fases (enciclopedia/PLAN.md); P00–P01 cerradas, ver sección78 de agentes.md y tareas.md. El propietario sube y verifica el despliegue. Las verificaciones anteriores son historial y no certifican esta entrega.
+Estado vigente 0.61: enciclopedia por fases (enciclopedia/PLAN.md); P00–P04 cerradas, ver sección 82 de agentes.md.

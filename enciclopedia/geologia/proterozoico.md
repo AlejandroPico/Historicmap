@@ -19,7 +19,8 @@ ficha:
   Glaciaciones: Huroniana y Makganyene (≈ 2.450–2.220 Ma); Esturtiana, Marinoana y Gaskiers (717–580 Ma)
   Impactos mayores: Vredefort (2.023 Ma) y Sudbury (1.850 Ma)
   Vida: cianobacterias y procariotas; eucariotas desde ≥ 1.650 Ma; algas rojas hacia 1.050 Ma; animales en el Ediacárico
-relacionados: [proterozoic, oxygenation, eukaryotes, rodinia, ice, ediacaran, matachewan, oklo, tierra-hierro-bandeado, geo-Archean, geo-Phanerozoic, geo-Precambrian]
+reemplaza: [proterozoic]
+relacionados: [oxygenation, eukaryotes, rodinia, ice, ediacaran, matachewan, oklo, tierra-hierro-bandeado, geo-Archean, geo-Phanerozoic, geo-Precambrian]
 fuentes:
   - titulo: Comisión Internacional de Estratigrafía · Carta cronoestratigráfica internacional 2026/06
     url: https://stratigraphy.org/chart

@@ -9,7 +9,8 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 - [x] P02 · Componentes visuales e integración con el mapa (0.58.0): escala interactiva, gráficos, líneas de tiempo, mapas, galerías, sucesiones, enlaces desde las fichas, canal de imágenes de Commons; plazo de despliegue de Pages ampliado.
 - [x] P03 · Formación de la Tierra, Hádico y Arcaico (0.59.0): 29 páginas, temas dentro de cada unidad, sustitución de artículos heredados.
 - [x] Revisión de P01–P03 (0.60.0): 37 páginas a nivel universitario (≈ 127.500 palabras, mínimo 1.500 por página), 79 imágenes únicas, lectura en voz alta, lector a toda la anchura.
-- [ ] P04 · Proterozoico (con la norma de 1.500 palabras por página como mínimo).
+- [x] P04 · Proterozoico (0.61.0): 28 páginas (≈ 95.600 palabras), 35 imágenes; reproductor de voz en la cabecera y pronunciación de unidades y cifras.
+- [ ] P05 · Paleozoico (con la norma de 1.500 palabras por página como mínimo; revisar los datos ICS de Ludlow/Pridoli).
 - [ ] P05–P24 y opcionales PX1/PX2 según el plan.
 
 Riesgo anotado: el sitio publicado ocupa ≈1,3 GB (límite recomendado de Pages: 1 GB). Si el despliegue vuelve a agotar el plazo, relanzar el trabajo; a medio plazo conviene sacar retratos/datos pesados de Pages.
