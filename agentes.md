@@ -1739,3 +1739,14 @@ Nota: `npm run build` (prepare-country-catalog) borra 27 `Países/CULTURE-…/en
 Validación: tipos; 430 pruebas; compilador 97 páginas, ≈ 313.800 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2 y phanerozoic 1/1; capturas de los tres temas revisadas.
 
 Siguiente: P05 (2.ª entrega): Silúrico y Devónico; después Carbonífero y Pérmico.
+
+
+## 84. Enciclopedia · P05 (2.ª entrega: Silúrico y Devónico) · 0.63.0 · 14/11/2026
+
+Contenido: 30 páginas (≈ 97.400 palabras; 2.400–5.400 por página) en geologia/paleozoico/{silurico,devonico}/, tierra/paleozoico (eventos silúricos, eventos devónicos, plantas y CO₂) y vida/paleozoico (conquista de la tierra, peces con mandíbula, origen de los tetrápodos, extinción devónica). Seis tandas de redactores (dos a la vez); una tanda se cortó por el límite semanal de uso con nueve páginas ya escritas y otra completó las cinco restantes reutilizando las imágenes descargadas. Las páginas de Llandovery, Aeroniense, Wenlock, Sheinwoodiense, Homeriense, Ludlow, Gorstiense y Ludfordiense (las que el propietario suspendió por plantilla) se rehacen con GSSP, eventos y localidades propias; el Telychiense incorpora el nuevo GSSP de El Pintado (Sevilla, 2024).
+
+Dudas anotadas por los redactores: evento Sandvika (sin fuente con DOI), estado del GSSP propuesto del Aeroniense en Hlásná Třebaň, hallazgo de Herefordshire (Bob King), edad del evento Valgu (≈437–436 frente a 436–434 Ma entre páginas: unificar), evento Klev, magnitudes de Linde y Lau por regiones, edad de *Pneumodesmus* (428 frente a ≈414 Ma), lobolito de *Scyphocrinites* (flotador frente a anclaje: unificar silurico.md y pridoli.md), edades de los eventos devónicos menores (aproximadas), factores de GEOCARB, Narkiewicz 2015 sobre Zachełmie, cotas exactas de GSSP. Varias páginas sin fotografía por el límite de Commons.
+
+Validación: tipos; 430 pruebas; 40 pruebas de investigación (Python); compilador 127 páginas, ≈ 411.000 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2 y phanerozoic 1/1.
+
+Siguiente: P05 (3.ª entrega): Carbonífero (Misisípico, Pensilvánico) y Pérmico con la Gran Mortandad.

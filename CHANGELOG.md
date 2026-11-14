@@ -1,5 +1,10 @@
 # Historial de versiones
 
+## 0.63.0 · 14 de noviembre de 2026
+
+- Enciclopedia P05 (segunda entrega): 30 páginas nuevas (≈ 97.400 palabras): Silúrico con sus 4 series (incluido Přídolí) y 8 pisos; Devónico con sus 3 series y 7 pisos; temas eventos del Silúrico (Ireviken, Mulde, Lau…), conquista de los continentes, peces con mandíbula, origen de los tetrápodos, eventos globales del Devónico, plantas y CO₂, y extinción del Devónico tardío. 26 imágenes nuevas sin repeticiones; `silurian` y `devonian` redirigen a las páginas nuevas.
+- Cronología ICS: el generador `prepare-earth-chronology.py` reconoce Přídolí (serie y piso a la vez en el RDF) y corrige el techo del Ludlow (422,7 Ma), con lo que la prueba de reproducibilidad vuelve a pasar en CI.
+
 ## 0.62.0 · 8 de noviembre de 2026
 
 - Enciclopedia P05 (primera entrega): 32 páginas nuevas (≈ 90.600 palabras): era Paleozoica; Cámbrico con sus 4 series y 10 pisos; Ordovícico con sus 3 series y 7 pisos; temas explosión cámbrica, Lagerstätten cámbricos (Chengjiang, Burgess, Sirius Passet, Emu Bay, Kaili, Orsten), eventos oceánicos cámbricos (BACE–HERB), Gran Evento de Biodiversificación del Ordovícico y extinción del Ordovícico-Silúrico. 44 imágenes nuevas de Commons, sin repeticiones. `cambrian` y `ordovician` redirigen a las páginas nuevas.
