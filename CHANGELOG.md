@@ -1,5 +1,9 @@
 # Historial de versiones
 
+## 0.64.0 · 14 de noviembre de 2026
+
+- Enciclopedia P05 completada (tercera entrega): 38 páginas nuevas (≈ 130.700 palabras): Carbonífero con sus subperiodos Misisípico y Pensilvánico, 6 series y 7 pisos; Pérmico con sus 3 series y 9 pisos; temas bosques del carbón, oxígeno del Carbonífero y artrópodos gigantes, origen de los amniotas, Pangea, glaciación del Karoo, sinápsidos del Pérmico, extinción del Capitaniense, Trampas Siberianas y la Gran Mortandad del Pérmico-Triásico. 46 imágenes nuevas sin repeticiones; `carboniferous` y `permian` redirigen a las páginas nuevas. Todas las unidades ICS del Paleozoico (79) tienen ya página propia.
+
 ## 0.63.0 · 14 de noviembre de 2026
 
 - Enciclopedia P05 (segunda entrega): 30 páginas nuevas (≈ 97.400 palabras): Silúrico con sus 4 series (incluido Přídolí) y 8 pisos; Devónico con sus 3 series y 7 pisos; temas eventos del Silúrico (Ireviken, Mulde, Lau…), conquista de los continentes, peces con mandíbula, origen de los tetrápodos, eventos globales del Devónico, plantas y CO₂, y extinción del Devónico tardío. 26 imágenes nuevas sin repeticiones; `silurian` y `devonian` redirigen a las páginas nuevas.

@@ -1750,3 +1750,14 @@ Dudas anotadas por los redactores: evento Sandvika (sin fuente con DOI), estado 
 Validación: tipos; 430 pruebas; 40 pruebas de investigación (Python); compilador 127 páginas, ≈ 411.000 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2 y phanerozoic 1/1.
 
 Siguiente: P05 (3.ª entrega): Carbonífero (Misisípico, Pensilvánico) y Pérmico con la Gran Mortandad.
+
+
+## 85. Enciclopedia · P05 (3.ª entrega: Carbonífero y Pérmico) · P05 cerrada · 0.64.0 · 14/11/2026
+
+Contenido: 38 páginas (≈ 130.700 palabras; 2.400–6.100 por página) en geologia/paleozoico/{carbonifero,permico}/, tierra/paleozoico (oxígeno del Carbonífero, Pangea, Trampas Siberianas), clima/paleozoico (glaciación del Karoo, id clima-karoo) y vida/paleozoico (bosques del carbón, origen de los amniotas, sinápsidos pérmicos, extinción capitaniense, Gran Mortandad). Las 79 unidades ICS del Paleozoico tienen página propia (comprobado contra ics-2026-06.json). Tandas de dos redactores; parte del Carbonífero y del Cisuraliense se escribió en una sesión anterior del mismo día cuyo contexto no se conservó y se continuó desde el árbol de trabajo.
+
+Dudas anotadas por los redactores: posiciones exactas de los GSSP del Guadalupiense, Wuchiapingiense y Changhsingiense citadas de memoria; autorías de nombres (Furnish 1973, Glenister y Furnish 1961, Grabau 1931); biozonas del Karoo (la revisión de 2020 con la zona de *Endothiodon* frente a los nombres antiguos usados en las páginas del Lopingiense: unificar); edades de las faunas rusas (Ocher, Isheevo, Mezen) y del Kupferschiefer; volumen de Viluy y Emeishan; fases de Burgess y Bowring 2015; interpretación de Huttenlocker 2010 sobre la vela de *Dimetrodon*. El mapa de extensión de las Trampas Siberianas tiene rótulos en alemán. El Changhsingiense no tiene fotografía (no hay foto libre de Meishan en Commons).
+
+Validación: tipos; 430 pruebas; 40 pruebas de investigación; compilador 165 páginas, ≈ 541.900 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2 y phanerozoic 1/1.
+
+Siguiente: P06 (Mesozoico: Triásico, Jurásico y Cretácico, con dinosaurios y K-Pg).
