@@ -8,8 +8,9 @@ import{displayLabel}from'./map-presentation';
 import{chronologyBands,chronologyBandsMarkup}from'./chronology-bands';
 import{planetCard,type PlanetTab}from'./planet-card';
 import type{EvidencePolicy}from'./earth-models';
-import{deepSceneAt,deepIceAt,deepSources,deepBackground}from'./deep-earth';
-import{drawDeepSurface}from'./deep-surface';
+import{deepSceneAt,deepIceAt,deepSources,deepBackground,deepAge}from'./deep-earth';
+import{drawDeepSurface,animateDeepSurface,deepSurfaceAnimated,deepRenderProfile,deepPoleColors}from'./deep-render';
+import{updateDeepSpace}from'./deep-space';
 import{formatEventDate}from'./dates';
 import * as maplibregl from 'maplibre-gl';
 import { type GeoJSONSource, type ExpressionSpecification, type MapGeoJSONFeature } from 'maplibre-gl';
@@ -185,20 +186,36 @@ function applyAppearance(){
   const next=appearances[(appearances.indexOf(appearance)+1)%appearances.length];
   const label=`Tema: ${appearanceLabels[appearance]}. Cambiar a ${appearanceLabels[next]}`;
   $('#appearance-button').innerHTML=icon(appearanceIcons[appearance]);$('#appearance-button').setAttribute('aria-label',label);$('#appearance-button').title=label;
-  if(ready){map.setPaintProperty('ocean','background-color',deepBackground(year,iceMode!=='off')??palette.ocean);map.setSky({'sky-color':palette.background,'horizon-color':palette.horizon,'fog-color':palette.background,'sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.2});}
+  if(ready){map.setPaintProperty('ocean','background-color',deepBackground(year,iceMode!=='off')??palette.ocean);map.setSky({'sky-color':palette.background,'horizon-color':palette.horizon,'fog-color':palette.background,'sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.2,'atmosphere-blend':['interpolate',['linear'],['zoom'],0,1,4,1,6,0]});}
   createIcons({icons});
 }
 $('#appearance-button').onclick=()=>{appearance=appearances[(appearances.indexOf(appearance)+1)%appearances.length];try{localStorage.setItem('historicmap-appearance',appearance);}catch{}applyAppearance();};
 applyAppearance();setInterval(()=>{if(appearance==='auto')applyAppearance();},60000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&appearance==='auto')applyAppearance();});
-const deepCanvas=document.createElement('canvas');deepCanvas.width=1024;deepCanvas.height=1024;
-let deepSurfaceKey='';
+const deepCanvas=document.createElement('canvas');deepCanvas.width=deepCanvas.height=deepRenderProfile().size;
+let deepSurfaceKey='',deepAnimation=0;
+/** Escenas con magma o volcanes: se repintan en cada fotograma (salvo con movimiento reducido). */
+function animateDeep(on:boolean){
+ const source=map.getSource('deep-surface')as maplibregl.CanvasSource|undefined;cancelAnimationFrame(deepAnimation);deepAnimation=0;
+ if(!source)return;if(!on||reduced){source.play();map.once('render',()=>{if(!deepAnimation)source.pause()});return;}
+ source.play();const start=performance.now();let last=0;
+ let slow=0;
+ const tick=(now:number)=>{deepAnimation=requestAnimationFrame(tick);if(document.hidden||now-last<33)return;if(last&&now-last>220&&++slow>12){cancelAnimationFrame(deepAnimation);deepAnimation=0;source.pause();return;}last=now;if(animateDeepSurface(deepCanvas,(now-start)/1000))map.triggerRepaint();};
+ deepAnimation=requestAnimationFrame(tick);
+}
+/** Casquetes polares (más allá de la textura Mercator) con el color real del borde de la textura. */
+function paintDeepPoles(){
+ const colors=deepPoleColors(deepCanvas),source=map.getSource('deep-poles')as maplibregl.GeoJSONSource|undefined;if(!source)return;
+ const band=(a:number,b:number,color:string)=>({type:'Feature' as const,properties:{color},geometry:{type:'Polygon' as const,coordinates:[[[-180,a],[180,a],[180,b],[-180,b],[-180,a]]]}});
+ source.setData(colors?{type:'FeatureCollection',features:[band(84.6,85.0511,colors[0]),band(-85.0511,-84.6,colors[1])]}:empty);
+}
 function paintDeepSurface(targetYear:number,coast?:FeatureCollection){
- const scene=deepSceneAt(targetYear);map.setPaintProperty('ocean','background-color',deepBackground(targetYear,iceMode!=='off')??palettes[resolveAppearance(appearance)].ocean);map.setLayoutProperty('deep-surface','visibility',scene?'visible':'none');
+ const scene=deepSceneAt(targetYear);map.setPaintProperty('ocean','background-color',deepBackground(targetYear,iceMode!=='off')??palettes[resolveAppearance(appearance)].ocean);map.setLayoutProperty('deep-surface','visibility',scene?'visible':'none');map.setLayoutProperty('deep-poles','visibility',scene?'visible':'none');
  $('.atlas').classList.toggle('deep-time',!!scene);$('#map').dataset.deepScene=scene?.id??'';
- if(!scene){deepSurfaceKey='';$('#map').dataset.deepIce='';$('#map').dataset.deepIceVisible='false';$('#map').dataset.deepGeometry='';return;}
+ updateDeepSpace(map,scene,deepAge(targetYear),iceMode!=='off'?deepIceAt(targetYear):null,projection==='globe');
+ if(!scene){deepSurfaceKey='';cancelAnimationFrame(deepAnimation);deepAnimation=0;$('#map').dataset.deepIce='';$('#map').dataset.deepIceVisible='false';$('#map').dataset.deepGeometry='';return;}
  const key=scene.id+':'+deepIceAt(targetYear)+':'+iceMode+':'+earthOptics+':'+(coast?.features.length?activeKey:'illustrative');
- if(key!==deepSurfaceKey){drawDeepSurface(deepCanvas,scene,targetYear,coast,iceMode!=='off',earthOptics);deepSurfaceKey=key;$('#map').dataset.deepCoastReference=coast?.features.length?activeKey:'illustrative';const source=map.getSource('deep-surface')as maplibregl.CanvasSource;source.play();map.once('render',()=>source.pause());}
+ if(key!==deepSurfaceKey){drawDeepSurface(deepCanvas,scene,targetYear,coast,iceMode!=='off',earthOptics);deepSurfaceKey=key;paintDeepPoles();$('#map').dataset.deepCoastReference=coast?.features.length?activeKey:'illustrative';animateDeep(deepSurfaceAnimated(scene));}
  $('#map').dataset.earthOptics=earthOptics;
  $('#map').dataset.deepGeometry=coast?.features.length?'dated-model':'illustrative';$('#map').dataset.deepIce=deepIceAt(targetYear)??'';$('#map').dataset.deepIceVisible=String(!!deepIceAt(targetYear)&&iceMode!=='off');
 }
@@ -210,6 +227,8 @@ map.on('load', () => {
   map.setSky({'sky-color':'#182c32','horizon-color':'#8fa9a3','fog-color':'#101e22','sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.2});
   map.addSource('deep-surface',{type:'canvas',canvas:deepCanvas,animate:false,coordinates:[[-180,85.051129],[180,85.051129],[180,-85.051129],[-180,-85.051129]]});
   map.addLayer({id:'deep-surface',type:'raster',source:'deep-surface',layout:{visibility:'none'},paint:{'raster-fade-duration':0}});
+  map.addSource('deep-poles',{type:'geojson',data:empty});
+  map.addLayer({id:'deep-poles',type:'fill',source:'deep-poles',layout:{visibility:'none'},paint:{'fill-color':['get','color'],'fill-antialias':false}});
   map.addSource('reference-land',{type:'geojson',data:empty,tolerance:0.2,maxzoom:7});
   map.addLayer({id:'reference-land',type:'fill',source:'reference-land',paint:{'fill-color':'#6c7776','fill-opacity':1}});
   map.addSource('cultural-regions',{type:'geojson',data:empty,promoteId:RENDER_ID,tolerance:0.2,maxzoom:7,attribution:'<a href="https://github.com/aourednik/historical-basemaps">Regiones culturales · A. Ourednik · GPL-3.0</a>'});

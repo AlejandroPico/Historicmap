@@ -1761,3 +1761,20 @@ Dudas anotadas por los redactores: posiciones exactas de los GSSP del Guadalupie
 Validación: tipos; 430 pruebas; 40 pruebas de investigación; compilador 165 páginas, ≈ 541.900 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2 y phanerozoic 1/1.
 
 Siguiente: P06 (Mesozoico: Triásico, Jurásico y Cretácico, con dinosaurios y K-Pg).
+
+
+## 86. Renovación gráfica del tiempo profundo · 0.65.0 · 15/11/2026
+
+Petición del propietario: antes de P06, rehacer el aspecto visual de la Tierra desde su formación hasta 7 Ma «como un videojuego AAA»: bola de fuego animada, enfriamiento, relieve con desiertos y cordilleras reconocibles, y sobre todo casquetes glaciares realistas (antes, «trazas blancas en los bordes»); sin nubes; no tocar el atlas desde 7 Ma (homininos, culturas, política).
+
+Solución: no se sustituye MapLibre. `src/deep-render.ts` genera con WebGL2 la misma textura Mercator que antes pintaba por CPU `deep-surface.ts` (que queda como alternativa sin WebGL2), con la misma interfaz `drawDeepSurface` y los mismos datos (escenas, costas fechadas rasterizadas como máscara más dos versiones difuminadas para plataforma y continentalidad, `deepIceAt`, calima 2,5–3,4 Ga, óptica ferruginosa). Ruido símplex 3D sobre la esfera (sin costuras), fbm y crestas para relieve, Voronói para grietas del magma y témpanos. Uniformes derivados de la edad: vegetación (470→360 Ma), oxidación (2400→2100 Ma), frío, exuberancia (Carbonífero, Jurásico, Cretácico). `animateDeepSurface` repinta magma, corteza y volcanes; `main.ts` lo llama a ≤ 30 fps y se detiene si el equipo no llega o con movimiento reducido. `deepRenderProfile` decide tamaño y animación según el renderizador (el lienzo cambia de tamaño entre escenas animadas y fijas; MapLibre admite el cambio). `deepPoleColors` lee las filas extremas para la capa `deep-poles` (dos bandas de relleno que MapLibre estira hasta los polos).
+
+`src/deep-space.ts`: tres elementos HTML en #map — estrellas (azulejo procedimental determinista) y halo detrás del lienzo (transparente fuera del globo), y sombreado esférico encima del lienzo y debajo de marcadores y controles —, colocados con `map.project` en cada movimiento; solo en proyección globo y con escena de tiempo profundo; en los tres temas el espacio es oscuro.
+
+Parte del motor se escribió en un intento anterior del mismo encargo cuyo contexto no se conservó; se retomó desde el árbol de trabajo, se añadieron espacio, halo, sombreado, polos y perfil de resolución, y se revisaron todas las escenas en globo y plano, tema de mañana, móvil y la transición a 7 Ma.
+
+Validación: tipos; 430 pruebas; construcción; navegador precambrian 2/2, phanerozoic 1/1, earth-integration 1/2 (la que falla espera la carga de 300.000 a. C. en 5 s y no llega en este entorno sin GPU; no toca el tiempo profundo). En este entorno solo hay trazado por software (1024 px, sin animación): la animación del magma y los 4096 px no se han podido ver aquí; el cambio de tamaño del lienzo se comprobó forzando 2048 px.
+
+Pendiente posible: iluminación día/noche real y reflejo especular del océano exigirían una capa personalizada de MapLibre; relieve derivado de datos (hoy es procedimental e ilustrativo, como indica el rótulo «texturas y hielo conceptuales»).
+
+Siguiente: P06 (Mesozoico).

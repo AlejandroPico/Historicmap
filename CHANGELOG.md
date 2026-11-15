@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.65.0 · 15 de noviembre de 2026
+
+- Renovación gráfica del tiempo profundo (de la acreción a 7 Ma; el atlas posterior no cambia): nuevo motor `src/deep-render.ts` que pinta en la GPU (WebGL2, un sombreador de fragmentos) la textura que MapLibre proyecta en el globo y en el plano. Océano de magma animado con balsas de corteza, grietas incandescentes e impactos; corteza en enfriamiento con lagos de lava; relieve sombreado con cordilleras, cinturones climáticos por latitud (selva ecuatorial, desiertos subtropicales, templado, tundra), capas rojas tras la Gran Oxigenación y vegetación desde el Ordovícico; mares con fosas, plataformas y bajíos turquesa; mantos de hielo con relieve y grietas, banquisa fragmentada, Tierra bola de nieve con hielo azul tropical y fracturas, glaciares regionales; volcanes activos en el Hádico y el Eoarcaico. Las costas fechadas, la extensión del hielo, la calima arcaica y la variante ferruginosa siguen saliendo de los datos del atlas.
+- Globo en el espacio (`src/deep-space.ts`): fondo estrellado que se desplaza al girar, halo atmosférico con color por época (resplandor del magma, calima anaranjada, azul tras la oxigenación, blanco azulado en las glaciaciones globales) y sombreado esférico. Los casquetes más allá de 85° de latitud se rellenan con el color real del borde de la textura (antes quedaba un disco plano).
+- Resolución adaptada al equipo: 4096 px en escenas fijas y 2048 px en las animadas con GPU de sobremesa, 2048 px en móviles, 1024 px sin animación con trazado por software; si WebGL2 no está disponible se usa el pintor anterior. Ajuste manual opcional con `localStorage['historicmap-deep-size']`. Se respeta «movimiento reducido».
+
 ## 0.64.0 · 14 de noviembre de 2026
 
 - Enciclopedia P05 completada (tercera entrega): 38 páginas nuevas (≈ 130.700 palabras): Carbonífero con sus subperiodos Misisípico y Pensilvánico, 6 series y 7 pisos; Pérmico con sus 3 series y 9 pisos; temas bosques del carbón, oxígeno del Carbonífero y artrópodos gigantes, origen de los amniotas, Pangea, glaciación del Karoo, sinápsidos del Pérmico, extinción del Capitaniense, Trampas Siberianas y la Gran Mortandad del Pérmico-Triásico. 46 imágenes nuevas sin repeticiones; `carboniferous` y `permian` redirigen a las páginas nuevas. Todas las unidades ICS del Paleozoico (79) tienen ya página propia.
