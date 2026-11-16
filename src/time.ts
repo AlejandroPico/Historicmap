@@ -1,3 +1,4 @@
+import { tx, language } from './i18n';
 import {PREHISTORY_START,PREHISTORY_END} from './prehistoric-time';
 import chronology from '../Tierra/Cuaternario/cronologia.json' with {type:'json'};
 import {yearFromAge} from './dates';
@@ -22,22 +23,22 @@ export function positionToYear(position: number): number {
   return y === 0 ? 1 : y;
 }
 export function formatYear(year: number): string {
-  if (year <= -1000000000) return `${Number((Math.abs(year) / 1e9).toFixed(2)).toLocaleString('es')} Ga`;
-  if (year <= -1000000) return `${Number((Math.abs(year) / 1e6).toFixed(2)).toLocaleString('es')} Ma`;
-  if (year < 0) return `${Math.abs(year).toLocaleString('es')} a. C.`;
-  return `${year.toLocaleString('es', { useGrouping: false })} d. C.`;
+  if (year <= -1000000000) return `${Number((Math.abs(year) / 1e9).toFixed(2)).toLocaleString(language)} Ga`;
+  if (year <= -1000000) return `${Number((Math.abs(year) / 1e6).toFixed(2)).toLocaleString(language)} Ma`;
+  if (year < 0) return `${Math.abs(year).toLocaleString(language)} a. C.`;
+  return `${year.toLocaleString(language, { useGrouping: false })} d. C.`;
 }
 export function eraName(year: number): string {
-  if(year<PREHISTORY_START){const units=geologicalAt(year);return (units.some(u=>u.id==='Phanerozoic')?units.find(u=>u.rank==='era')?.name:units.find(u=>u.rank==='eon')?.name)??'Tiempo geológico';}
-  if(year>=PREHISTORY_START&&year < -5330000)return 'Mioceno · homininos tempranos';
-  if(year>=PREHISTORY_START&&year < -2580000)return 'Plioceno · homininos';
+  if(year<PREHISTORY_START){const units=geologicalAt(year);return (units.some(u=>u.id==='Phanerozoic')?units.find(u=>u.rank==='era')?.name:units.find(u=>u.rank==='eon')?.name)??tx('time.tiempoGeologico');}
+  if(year>=PREHISTORY_START&&year < -5330000)return tx('time.miocenoHomininosTempranos');
+  if(year>=PREHISTORY_START&&year < -2580000)return tx('time.pliocenoHomininos');
   if (year < -2600000) return 'Cenozoico';
   if (year < yearFromAge(chronology.holocene.age,chronology.holocene.epoch)) return 'Pleistoceno';
-  if (year < -3000) return 'Holoceno · Prehistoria';
-  if (year < 476) return 'Edad Antigua';
-  if (year < 1492) return 'Edad Media';
-  if (year < 1789) return 'Edad Moderna';
-  return 'Edad Contemporánea';
+  if (year < -3000) return tx('time.holocenoPrehistoria');
+  if (year < 476) return tx('time.edadAntigua');
+  if (year < 1492) return tx('time.edadMedia');
+  if (year < 1789) return tx('time.edadModerna');
+  return tx('time.edadContemporanea');
 }
 export const historicalYears = [-10000, -3000, -1000, -500, 100, 500, 1000, 1492, 1800, 1914, 1945, 1994, 2010];
 export const geologicalMa = [34,56,145,201,252,360,420,445,1, 2, 3, 4, 5, 6, 7, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500, 1800];

@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import {isoYear} from './dates';
 import {escapeHtml as esc} from './profiles';
 type Resource={file:string;title:string;source:string;license:string;start:string;end:string;artist?:string};
@@ -13,5 +14,5 @@ export function entityResources(key:string,year:number){
 }
 export function resourceMarkup(key:string,year:number){
  const resources=entityResources(key,year);if(!resources.length)return '';
- return `<section class="entity-resources"><h3>Himnos y documentos</h3>${resources.map(r=>`<article><h4>${esc(r.title)}</h4>${/\.pdf$/i.test(r.file)?`<a href="${esc(r.url)}" target="_blank" rel="noopener">Abrir documento ↗</a>`:`<audio controls preload="none" src="${esc(r.url)}" aria-label="${esc(r.title)}"></audio>`}<p class="profile-note">${esc(r.start)} — ${esc(r.end)}</p><a class="media-credit" href="${esc(r.source)}" target="_blank" rel="noopener">${esc(r.artist??'Procedencia')} · ${esc(r.license)} ↗</a></article>`).join('')}</section>`;
+ return `<section class="entity-resources"><h3>${tx('entityResources.himnosYDocumentos')}</h3>${resources.map(r=>`<article><h4>${esc(r.title)}</h4>${/\.pdf$/i.test(r.file)?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${tx('entityResources.abrirDocumento')}</a>`:`<audio controls preload="none" src="${esc(r.url)}" aria-label="${esc(r.title)}"></audio>`}<p class="profile-note">${esc(r.start)} — ${esc(r.end)}</p><a class="media-credit" href="${esc(r.source)}" target="_blank" rel="noopener">${esc(r.artist??'Procedencia')} · ${esc(r.license)} ↗</a></article>`).join('')}</section>`;
 }

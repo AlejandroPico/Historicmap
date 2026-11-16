@@ -1,7 +1,8 @@
+import { tx } from './i18n';
 export type Appearance='morning'|'afternoon'|'night'|'auto';
 export type ResolvedAppearance=Exclude<Appearance,'auto'>;
 export const appearances:Appearance[]=['morning','afternoon','night','auto'];
-export const appearanceLabels:Record<Appearance,string>={morning:'Mañana',afternoon:'Tarde',night:'Noche',auto:'Automático'};
+export const appearanceLabels:Record<Appearance,string>={morning:tx('appearance.manana'),afternoon:'Tarde',night:'Noche',auto:tx('appearance.automatico')};
 export const appearanceIcons:Record<Appearance,string>={morning:'sun',afternoon:'sunset',night:'moon',auto:'contrast'};
 export const palettes:Record<ResolvedAppearance,{background:string;ocean:string;horizon:string}>={
   morning:{background:'#a2c0cf',ocean:'#d4e7f1',horizon:'#dbeaf2'},

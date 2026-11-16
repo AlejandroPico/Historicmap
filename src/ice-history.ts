@@ -1,3 +1,4 @@
+import { tx, language } from './i18n';
 import chronology from '../Tierra/Cuaternario/cronologia.json' with {type:'json'};
 import {yearFromAge} from './dates';
 export {yearFromAge} from './dates';
@@ -13,5 +14,5 @@ export function iceSampleFor(year:number){
  const age=Math.max(0,ageFromYear(year));
  return index.samples.reduce((a,b)=>Math.abs(b.ageBP-age)<Math.abs(a.ageBP-age)||Math.abs(b.ageBP-age)===Math.abs(a.ageBP-age)&&b.ageBP>a.ageBP?b:a);
 }
-export function iceCaption(year:number){const s=iceSampleFor(year);return s?`${index.model} · referencia ${formatYear(s.referenceYear)} (${s.ageBP.toLocaleString('es')} BP1950). Modelo con muestras cada 2.500–5.000 años; muestra más cercana, sin interpolación anual.`:'';}
-export function prehistoricClimate(year:number){return chronology.holocene.subdivisions.find(p=>year>=yearFromAge(p.age,p.epoch))?.label??'Pleistoceno tardío';}
+export function iceCaption(year:number){const s=iceSampleFor(year);return s?tx('iceHistory.referenciaBp1950ModeloConMuestras',{model:index.model,v1:formatYear(s.referenceYear),v2:s.ageBP.toLocaleString(language)}):'';}
+export function prehistoricClimate(year:number){return chronology.holocene.subdivisions.find(p=>year>=yearFromAge(p.age,p.epoch))?.label??tx('iceHistory.pleistocenoTardio');}

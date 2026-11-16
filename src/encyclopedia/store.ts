@@ -1,5 +1,6 @@
 // Acceso a los datos de la enciclopedia nueva: páginas Markdown de enciclopedia/ y datos generados
 // por scripts/build-encyclopedia.mjs (índice, dirigentes, entidades, mandatos). Todo se carga bajo demanda.
+import { tx } from '../i18n';
 import { splitPage, shardOf, PERSON_SHARDS, ENTITY_SHARDS, centuryOf, normalizeText } from '../../scripts/lib/encyclopedia-format.mjs';
 
 export interface IndexPage { id: string; tipo: string; titulo: string; alias: string[]; resumen: string; inicio: number | null; fin: number | null; ancla: number | null; padre: string | null; orden: number | null; ruta: string; rama: string; palabras: number; reemplaza?: string[] }
@@ -43,7 +44,7 @@ const cleanMedia = (path: string) => path.replace(/^\.?\/?(medios\/)?/, '');
 export function mediaCredit(path: string) {
   const c = credits[cleanMedia(path)]; if (!c) return undefined;
   const e = (s: string) => s.replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]!));
-  return `${e(c.autor)} · ${c.licenciaUrl ? `<a href="${e(c.licenciaUrl)}" target="_blank" rel="noopener">${e(c.licencia)}</a>` : e(c.licencia)} · <a href="${e(c.fuente)}" target="_blank" rel="noopener">Fuente ↗</a>`;
+  return `${e(c.autor)} · ${c.licenciaUrl ? `<a href="${e(c.licenciaUrl)}" target="_blank" rel="noopener">${e(c.licencia)}</a>` : e(c.licencia)} · <a href="${e(c.fuente)}" target="_blank" rel="noopener">${tx('encyclopediaStore.fuente')}</a>`;
 }
 export function mediaUrl(path: string) {
   const clean = path.replace(/^\.?\/?(medios\/)?/, '');

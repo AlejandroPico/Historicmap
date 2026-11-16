@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import forms from '../public/data/governance.json';
 import regimes from '../public/data/regimes-of-world.json';
 import type {FeatureCollection} from 'geojson';
@@ -43,8 +44,8 @@ export function governmentCounts(data:FeatureCollection){
 export function governanceMarkup(p:Record<string,any>,year:number){
  const g=governmentFor(p,year);
  const documented=g.tags.filter(t=>t!=='unclassified'&&t!==g.regimeTag&&!g.tags.some(other=>byTag.get(other)?.parents.includes(t)));
- const observations=g.records.length?`<div class="government-tags">${documented.map(id=>`<button class="secondary-button" data-government-filter="${esc(id)}">${esc(byTag.get(id)!.label)}</button>`).join('')}</div>`:'<p>Forma institucional pendiente de documentar para esta fecha.</p>';
- const assessment=g.regimeTag?`<p class="government-regime"><strong>${esc(byTag.get(g.regimeTag)!.label)}</strong> · observación de ${year}</p><a class="profile-source" href="${regimes.source}" target="_blank" rel="noopener">V-Dem / Regimes of the World · edición2026 ↗</a>`:g.dependent?'<p class="profile-note">Territorio dependiente: no se atribuye automáticamente la evaluación democrática del Estado administrador.</p>':year>regimes.endYear?`<p class="profile-note">La serie de evaluación política llega a ${regimes.endYear}; no se extrapola al año consultado.</p>`:'';
+ const observations=g.records.length?`<div class="government-tags">${documented.map(id=>`<button class="secondary-button" data-government-filter="${esc(id)}">${esc(byTag.get(id)!.label)}</button>`).join('')}</div>`:tx('governance.pFormaInstitucionalPendienteDe');
+ const assessment=g.regimeTag?`<p class="government-regime"><strong>${esc(byTag.get(g.regimeTag)!.label)}</strong> ${tx('governance.observacionDe')} ${year}</p><a class="profile-source" href="${regimes.source}" target="_blank" rel="noopener">${tx('governance.vDemRegimesOfThe')}</a>`:g.dependent?tx('governance.pClassProfileNoteTerritorio'):year>regimes.endYear?`<p class="profile-note">${tx('governance.laSerieDeEvaluacionPolitica')} ${regimes.endYear}${tx('governance.noSeExtrapolaAlAno')}</p>`:'';
  const sources=[...new Map(g.records.map(r=>[r.source,r])).values()];
- return `<section class="government-record"><h3>Forma política · ${year}</h3>${observations}${assessment}${sources.map(r=>`<p class="profile-note">${esc(r.note??'Clasificación con vigencia documentada.')}</p><a class="profile-source" href="${esc(r.source)}" target="_blank" rel="noopener">${esc(r.sourceLabel)} ↗</a>`).join('')}<p class="profile-note">Forma institucional y evaluación del régimen son dimensiones distintas. Las etiquetas conservan su fecha y fuente.</p></section>`;
+ return `<section class="government-record"><h3>${tx('governance.formaPolitica')} ${year}</h3>${observations}${assessment}${sources.map(r=>`<p class="profile-note">${esc(r.note??tx('governance.clasificacionConVigenciaDocumentada'))}</p><a class="profile-source" href="${esc(r.source)}" target="_blank" rel="noopener">${esc(r.sourceLabel)} ↗</a>`).join('')}<p class="profile-note">${tx('governance.formaInstitucionalYEvaluacionDel')}</p></section>`;
 }

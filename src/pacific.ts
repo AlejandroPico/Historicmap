@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import {isoYear} from './dates';
 import type {Feature,FeatureCollection,Polygon,MultiPolygon} from 'geojson';
 import components from '../public/data/pacific-components.json';
@@ -12,7 +13,7 @@ export function pacificComponents(data:FeatureCollection,year:number):FeatureCol
   const removed=new Set(rows.flatMap(r=>r.sourceComponentIndexes));
   const retained=polygons.filter((_,i)=>!removed.has(i));
   const result:Feature[]=retained.length?[{...f,geometry:{type:'MultiPolygon',coordinates:retained}}]:[];
-  for(const r of rows){const admin=r.entityCode==='GUM'?'ESP':'FRA';result.push({...f,id:r.id,geometry:{type:'MultiPolygon',coordinates:r.sourceComponentIndexes.map(i=>polygons[i])},properties:{...f.properties,name:r.entityCode==='GUM'?'Guam':'Nueva Caledonia',originalName:r.entityCode==='GUM'?'Guam':'New Caledonia',identityKey:r.entityCode,entityCode:r.entityCode,code:'',status:'colony',administratorKey:admin,localAuthorityKey:r.entityCode,ownerName:admin==='ESP'?'España':'Francia',sourceFeatureId:r.sourceFeatureId,sourceOriginalName:r.sourceOriginalName,sourceComponentExtraction:true,note:'Componente separado del agregado histórico, conservando sus coordenadas y retirándolo de éste. No se añade una costa superpuesta.'}});}
+  for(const r of rows){const admin=r.entityCode==='GUM'?'ESP':'FRA';result.push({...f,id:r.id,geometry:{type:'MultiPolygon',coordinates:r.sourceComponentIndexes.map(i=>polygons[i])},properties:{...f.properties,name:r.entityCode==='GUM'?'Guam':tx('pacific.nuevaCaledonia'),originalName:r.entityCode==='GUM'?'Guam':tx('pacific.newCaledonia'),identityKey:r.entityCode,entityCode:r.entityCode,code:'',status:'colony',administratorKey:admin,localAuthorityKey:r.entityCode,ownerName:admin==='ESP'?tx('pacific.espana'):'Francia',sourceFeatureId:r.sourceFeatureId,sourceOriginalName:r.sourceOriginalName,sourceComponentExtraction:true,note:tx('pacific.componenteSeparadoDelAgregadoHistorico')}});}
   return result;
  })};
 }

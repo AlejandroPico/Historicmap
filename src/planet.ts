@@ -1,3 +1,4 @@
+import { tx, language } from './i18n';
 import catalog from '../Tierra/Planeta/indicadores.json' with {type:'json'};
 import ancient from '../Tierra/Precambrico/indicadores.json' with {type:'json'};
 import{deepSources}from'./deep-earth';
@@ -11,9 +12,9 @@ export interface PlanetRecord{
  uncertainty:{minus:number;plus:number;description:string}|null;method:string;sourceId:string;scope:string;interpolation:'none';
 }
 export const planetRecords=[...catalog.records,...ancient.records] as PlanetRecord[];
-export const planetSources={...catalog.sources,...Object.fromEntries(Object.entries(deepSources).map(([id,s])=>[id,{...s,version:'Referencia por estudio'}])),...physicalSources} as Record<string,{name:string;url:string;retrieved:string;version:string}>;
+export const planetSources={...catalog.sources,...Object.fromEntries(Object.entries(deepSources).map(([id,s])=>[id,{...s,version:tx('planet.referenciaPorEstudio')}])),...physicalSources} as Record<string,{name:string;url:string;retrieved:string;version:string}>;
 export const atmosphereNote=catalog.atmosphereBasis;
-export function planetReferenceLabel(reference:PlanetReference){return reference.basis==='civil'?String(reference.year):reference.basis==='Ma'?`${reference.ageMa.toLocaleString('es')} Ma · eje nominal${reference.nominalEpoch}`:`${reference.ageYears.toLocaleString('es')} ${reference.basis}`;}
+export function planetReferenceLabel(reference:PlanetReference){return reference.basis==='civil'?String(reference.year):reference.basis==='Ma'?tx('planet.maEjeNominal',{v0:reference.ageMa.toLocaleString(language),nominalEpoch:reference.nominalEpoch}):`${reference.ageYears.toLocaleString(language)} ${reference.basis}`;}
 /** A dated reference is retained with its date; it never becomes a new observation. */
 export function planetRecordFor(field:PlanetField,year:number,records=planetRecords,policy:EvidencePolicy='reconstruction'){
  if(!Number.isFinite(year)||year===0)throw Error('Fecha civil inválida');
@@ -21,9 +22,9 @@ export function planetRecordFor(field:PlanetField,year:number,records=planetReco
  return records.filter(r=>r.field===field&&r.availableFromYear<=year&&(r.validUntilYear===undefined||year<=r.validUntilYear)).sort((a,b)=>b.availableFromYear-a.availableFromYear)[0]??(records===planetRecords?physicalRecord(field,year,policy):undefined);
 }
 export function planetValue(record:PlanetRecord|undefined){
- if(!record||record.value===null)return'Sin estimación incorporada';
- if(record.sourceId==='ice-core-co2'&&typeof record.value==='number'){const ppm=(n:number)=>n.toLocaleString('es',{maximumFractionDigits:3});return`${ppm(record.value*10000)}${record.uncertainty?' ± '+ppm(record.uncertainty.plus*10000):''} ppm · ${record.value.toLocaleString('es',{maximumFractionDigits:6})} %`;}
- const f=(n:number)=>n.toLocaleString('es',{maximumFractionDigits:record.sourceId==='phanda'&&record.field==='meanTemperature'?1:3});
+ if(!record||record.value===null)return tx('planet.sinEstimacionIncorporada');
+ if(record.sourceId==='ice-core-co2'&&typeof record.value==='number'){const ppm=(n:number)=>n.toLocaleString(language,{maximumFractionDigits:3});return`${ppm(record.value*10000)}${record.uncertainty?' ± '+ppm(record.uncertainty.plus*10000):''} ppm · ${record.value.toLocaleString(language,{maximumFractionDigits:6})} %`;}
+ const f=(n:number)=>n.toLocaleString(language,{maximumFractionDigits:record.sourceId==='phanda'&&record.field==='meanTemperature'?1:3});
  const value=typeof record.value==='number'?f(record.value):`${f(record.value.min)}–${f(record.value.max)}`;
  const error=record.uncertainty?(record.uncertainty.minus===record.uncertainty.plus?` ± ${f(record.uncertainty.plus)}`:` −${f(record.uncertainty.minus)}/+${f(record.uncertainty.plus)}`):'';
  return`${record.evidence==='rounded-reference'?'≈ ':''}${value}${error} ${record.unit}`;

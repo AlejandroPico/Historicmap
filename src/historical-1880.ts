@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import type {FeatureCollection} from 'geojson';
 
 export type EntityResolution={coverageStart:number;coverageEnd:number;qidKeys:Record<string,string>;names:Record<string,string>;records:{names:string[];key:string;label:string;entityCode:string;admin:string;status:string;start:number;end:number;source:string;note:string;colorFamily?:string}[]};
@@ -14,14 +15,14 @@ export function resolve1880(data:FeatureCollection,year:number,catalogue:EntityR
   const label=rule?.label??catalogue.names[key]??p.name;
   const status=rule?.status??p.status??'source-polity';
   const owner=rule?.admin?catalogue.names[rule.admin]??rule.admin:undefined;
-  const note=[p.note,rule?.note,early?'Geometría de síntesis Cliopatria sin día uniforme; la corrección de identidad no certifica todos sus límites ni su periodización.':''].filter(Boolean).join(' ');
+  const note=[p.note,rule?.note,early?tx('historical1880.geometriaDeSintesisCliopatriaSin'):''].filter(Boolean).join(' ');
   return {...f,properties:{...p,sourceName,sourceWikidata:p.wikidata,
    name:label,identityKey:key??p.identityKey,entityCode:rule?.entityCode??(early?key:p.entityCode),
    ...(rule?.colorFamily?{colorFamily:rule.colorFamily}:{}),
    code:early||['BRA-EMPIRE','JOS','HAW-KINGDOM','HAW-PROVISIONAL','HAW-REPUBLIC','HAW'].includes(key)?'':p.code,
    ...(early?{status}:{}),...(rule?.admin?{status,administratorKey:rule.admin,localAuthorityKey:key,ownerName:owner,group:owner}:{}),
    ...(rule?{identityCorrection:`dated-${catalogue.coverageStart}-${catalogue.coverageEnd}`,identitySource:rule.source}:{}),
-   ...(status==='source-reference'?{politicalStatus:'Contorno de fuente con cronología sin resolver'}:{}),note,
+   ...(status==='source-reference'?{politicalStatus:tx('historical1880.contornoDeFuenteConCronologia')}:{}),note,
    ...(early&&!rule?.admin?{parentName:''}:{}),
   }};
  })};

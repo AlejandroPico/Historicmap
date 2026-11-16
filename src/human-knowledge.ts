@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import knowledge from '../public/data/human-knowledge.json' with {type:'json'};
 import{escapeHtml as esc}from'./profiles';
 export const humanKnowledge=knowledge;
@@ -7,6 +8,6 @@ export function humanArticleForYear(year:number){
 }
 export function humanPhoto(article:string,compact=false,referenceOnly=false){
  const m=knowledge.images.find(m=>m.articleIds.includes(article));if(!m)return'';
- return`<figure class="human-fossil-photo ${compact?'compact':''}"><img src="${import.meta.env.BASE_URL+m.file}" alt="${esc(m.alt)}" loading="lazy"><figcaption>${referenceOnly?'<strong>Imagen de referencia del linaje.</strong> ':''}${esc(m.caption)} <a href="${esc(m.page)}" target="_blank" rel="noopener">${esc(m.credit)} ↗</a> · <a href="${esc(m.licenseUrl)}" target="_blank" rel="noopener">${esc(m.license)}</a></figcaption></figure>`;
+ return`<figure class="human-fossil-photo ${compact?'compact':''}"><img src="${import.meta.env.BASE_URL+m.file}" alt="${esc(m.alt)}" loading="lazy"><figcaption>${referenceOnly?tx('humanKnowledge.strongImagenDeReferenciaDel'):''}${esc(m.caption)} <a href="${esc(m.page)}" target="_blank" rel="noopener">${esc(m.credit)} ↗</a> · <a href="${esc(m.licenseUrl)}" target="_blank" rel="noopener">${esc(m.license)}</a></figcaption></figure>`;
 }
 export function reviewedSiteContext(names:string[]){return knowledge.siteReviews.contexts.filter(c=>c.names.some(n=>names.includes(n)));}

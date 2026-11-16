@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import {geologicalUnits,humanUnits,geologicalEmphasis,rankLabels,type GeologicalRank,type HumanUnit} from './earth-chronology';
 import {anchors,PRESENT,yearToPosition,positionToYear} from './time';
 import {escapeHtml as esc} from './profiles';
@@ -17,8 +18,8 @@ export function chronologyBands(year:number,position:number,spacing:number,width
  const ranks:GeologicalRank[]=(['eon','era','period','subperiod','epoch','age']as GeologicalRank[]).filter(rank=>geologicalUnits.some(u=>u.rank===rank&&u.axisOldestYear<to&&(u.axisEndYear??PRESENT)>from));
  for(const unit of geologicalUnits){
   const row=ranks.indexOf(unit.rank);if(row<0)continue;
-  const contextual=unit.rank==='eon'&&unit.parent==='Precambrian'?'Precámbrico · ':'';
-  add(unit.id,contextual+unit.name,`${rankLabels[unit.rank]} · ${contextual}${unit.name}${unit.formal?'':' · denominación contextual/informal'} · ICS ${unit.timeBasis}`,unit.color,row,unit.axisOldestYear,unit.axisEndYear??PRESENT,'geological');
+  const contextual=unit.rank==='eon'&&unit.parent==='Precambrian'?tx('chronologyBands.precambrico'):'';
+  add(unit.id,contextual+unit.name,`${rankLabels[unit.rank]} · ${contextual}${unit.name}${unit.formal?'':tx('chronologyBands.denominacionContextualInformal')} · ICS ${unit.timeBasis}`,unit.color,row,unit.axisOldestYear,unit.axisEndYear??PRESENT,'geological');
  }
  const lanes:HumanUnit['lane'][]=['overview','regional','transformation'];
  for(const [row,lane] of lanes.entries()){
@@ -40,6 +41,6 @@ export function chronologyBandsMarkup(model:ReturnType<typeof chronologyBands>){
  return(['geological','human'] as const).map(family=>{
   const opacity=family==='geological'?model.emphasis:1-model.emphasis;
   const labelled=family==='geological'?model.emphasis>=.5:model.emphasis<.5;
-  return `<div class="chronology-family" data-family="${family}" style="opacity:${opacity}" aria-hidden="${!labelled}">${model.bands.filter(b=>b.family===family).map(b=>{const color=chronologyDisplayColor(b.id,b.color),name=b.name.startsWith('Precámbrico · ')&&b.width<165?b.name.replace('Precámbrico · ',''):b.name;return`<button type="button" class="chronology-band" data-unit="${b.id}" data-active="${b.active}" data-encyclopedia-entry="${family==='human'?'human-':'geo-'}${b.id}" tabindex="${labelled?0:-1}" aria-label="${esc(b.title)} · Abrir enciclopedia" title="${esc(b.title)}" style="left:${b.x}px;width:${b.width}px;top:${b.row*15}px;--band-color:${color};--band-ink:${ink(color)}">${labelled&&(b.active||b.width>name.length*6+14)?`<span>${esc(name)}</span>`:''}</button>`}).join('')}</div>`;
+  return `<div class="chronology-family" data-family="${family}" style="opacity:${opacity}" aria-hidden="${!labelled}">${model.bands.filter(b=>b.family===family).map(b=>{const color=chronologyDisplayColor(b.id,b.color),name=b.name.startsWith('Precámbrico · ')&&b.width<165?b.name.replace('Precámbrico · ',''):b.name;return`<button type="button" class="chronology-band" data-unit="${b.id}" data-active="${b.active}" data-encyclopedia-entry="${family==='human'?'human-':'geo-'}${b.id}" tabindex="${labelled?0:-1}" aria-label="${esc(b.title)} ${tx('chronologyBands.abrirEnciclopedia')}" title="${esc(b.title)}" style="left:${b.x}px;width:${b.width}px;top:${b.row*15}px;--band-color:${color};--band-ink:${ink(color)}">${labelled&&(b.active||b.width>name.length*6+14)?`<span>${esc(name)}</span>`:''}</button>`}).join('')}</div>`;
  }).join('');
 }

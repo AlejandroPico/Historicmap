@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.66.0 · 17 de noviembre de 2026
+
+- Internacionalización preparada (fase PX2, primera parte): nueva carpeta raíz `i18n/` con `idiomas.json` (español como base y once idiomas previstos: catalán, inglés, francés, alemán, portugués, italiano, chino, japonés, hindi, ruso y árabe) y `i18n/es/` con todos los textos de la interfaz en seis archivos (interfaz, fichas, historia, tierra, enciclopedia, acerca; 1.312 textos). El código los pide con `tx('modulo.clave')`; los datos variables van como `{marcadores}`.
+- `src/i18n.ts`: detecta el idioma del sistema (o el elegido, guardado en el navegador), usa el español como reserva para las claves que falten, fija `lang` y la dirección de escritura del documento. Los formatos de números y fechas y la voz de lectura siguen el idioma activo.
+- `i18n/README.md` explica cómo traducir la carpeta de una vez y qué contenidos quedan fuera (enciclopedia, datos, nombres). `npm run i18n:check` (y una prueba unitaria) comprueban que no falte ninguna clave y, en cada idioma traducido, claves que faltan o sobran y marcadores perdidos.
+
 ## 0.65.0 · 15 de noviembre de 2026
 
 - Renovación gráfica del tiempo profundo (de la acreción a 7 Ma; el atlas posterior no cambia): nuevo motor `src/deep-render.ts` que pinta en la GPU (WebGL2, un sombreador de fragmentos) la textura que MapLibre proyecta en el globo y en el plano. Océano de magma animado con balsas de corteza, grietas incandescentes e impactos; corteza en enfriamiento con lagos de lava; relieve sombreado con cordilleras, cinturones climáticos por latitud (selva ecuatorial, desiertos subtropicales, templado, tundra), capas rojas tras la Gran Oxigenación y vegetación desde el Ordovícico; mares con fosas, plataformas y bajíos turquesa; mantos de hielo con relieve y grietas, banquisa fragmentada, Tierra bola de nieve con hielo azul tropical y fracturas, glaciares regionales; volcanes activos en el Hádico y el Eoarcaico. Las costas fechadas, la extensión del hielo, la calima arcaica y la variante ferruginosa siguen saliendo de los datos del atlas.

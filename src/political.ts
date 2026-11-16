@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import{compareDates}from'./dates';
 import {isoYear} from './dates';
 import type {FeatureCollection} from 'geojson';
@@ -114,7 +115,7 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
     const controlInfluence=!!influence&&['occupation','intervention'].includes(influence.kind);
     const tinted=influence?dependencyColor(baseColor,identityKey,influence.kind==='bloc'||influence.kind==='military-support'):dependent?dependencyColor(baseColor,identityKey):baseColor;
     const politicalColor=p.status==='source-reference'?'#8b9188':controlInfluence?regimeColor(ownerKey,year):tinted;
-    return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor,...(dependent&&ownerKey!==identityKey?{administratorKey:ownerKey}:{}),...(controlInfluence?{controlInfluenceColor:tinted}:{}),...(influence?{dominantPower:power,influenceKind:influence.kind,influenceNote:influence.note,influenceSource:influence.source,influenceHatchScope:influence.hatchScope,influenceLabel:influence.label}:modernDependency?{dominantPower:ownerKey,influenceKind:'dependency',influenceNote:`Dependencia vinculada a ${sovereignLabels.get(ownerKey)??profile!.sovereign} según la referencia contemporánea de Natural Earth incorporada en 2026. El matiz indica vinculación administrativa; conserva identidad y datos propios.`,influenceSource:'https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/'}:{})}};
+    return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor,...(dependent&&ownerKey!==identityKey?{administratorKey:ownerKey}:{}),...(controlInfluence?{controlInfluenceColor:tinted}:{}),...(influence?{dominantPower:power,influenceKind:influence.kind,influenceNote:influence.note,influenceSource:influence.source,influenceHatchScope:influence.hatchScope,influenceLabel:influence.label}:modernDependency?{dominantPower:ownerKey,influenceKind:'dependency',influenceNote:tx('political.dependenciaVinculadaASegunLa',{v0:sovereignLabels.get(ownerKey)??profile!.sovereign}),influenceSource:'https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/'}:{})}};
   })};
 }
 /** Country outlines are an explicitly labelled documentary reference here,
@@ -126,5 +127,5 @@ export function nationalInfluenceHatching(data:FeatureCollection,year:number):Fe
  })};
 }
 function frenchName(year:number){
-  return `Francia · ${year<=1791?'monarquía':year<=1794?'Primera República':year<=1799?'Directorio':year<=1803?'Consulado':year<=1813?'Primer Imperio':year<=1829?'Restauración':year<=1847?'Monarquía de Julio':year<=1851?'Segunda República':year<=1869?'Segundo Imperio':'Tercera República'}`;
+  return tx('political.francia',{v0:year<=1791?tx('political.monarquia'):year<=1794?tx('political.primeraRepublica'):year<=1799?'Directorio':year<=1803?'Consulado':year<=1813?tx('political.primerImperio'):year<=1829?tx('political.restauracion'):year<=1847?tx('political.monarquiaDeJulio'):year<=1851?tx('political.segundaRepublica'):year<=1869?tx('political.segundoImperio'):tx('political.terceraRepublica')});
 }

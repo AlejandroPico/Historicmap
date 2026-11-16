@@ -1,6 +1,6 @@
 {
   "name": "historicmap",
-  "version": "0.65.0",
+  "version": "0.66.0",
   "private": true,
   "type": "module",
   "description": "Atlas temporal de la Tierra, su geografía y sus sociedades",
@@ -19,7 +19,8 @@
     "regions:prepare": "python scripts/prepare-cultural-regions.py",
     "data:fetch:modern": "node scripts/fetch-modern.mjs",
     "data:audit": "node scripts/build-review.mjs",
-    "entities:prepare": "node scripts/prepare-country-catalog.mjs"
+    "entities:prepare": "node scripts/prepare-country-catalog.mjs",
+    "i18n:check": "node scripts/check-i18n.mjs"
   },
   "dependencies": {
     "lucide": "1.61.0",

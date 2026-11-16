@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import{dateYear}from'./dates';
 import catalogue from '../public/data/portrait-series.json';
 import type {Media} from './identities';
@@ -10,5 +11,5 @@ export function portraitAt(person:string,year:number,start:string,end:string,fal
  if(first>last)return fallback;
  const record=data.records.filter(r=>r.person===person&&r.start<=last&&r.end>=first).sort((a,b)=>b.start-a.start)[0];
  if(record)return {...record.media,photoDate:record.photoDate??undefined,photoDateLabel:record.dateLabel};
- return fallback&&data.records.some(r=>r.person===person)?{...fallback,photoDateLabel:'Imagen de referencia · variante de esta etapa pendiente de acreditar'}:fallback;
+ return fallback&&data.records.some(r=>r.person===person)?{...fallback,photoDateLabel:tx('portraitSeries.imagenDeReferenciaVarianteDe')}:fallback;
 }

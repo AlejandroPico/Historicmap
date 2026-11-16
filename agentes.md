@@ -1778,3 +1778,14 @@ Validación: tipos; 430 pruebas; construcción; navegador precambrian 2/2, phane
 Pendiente posible: iluminación día/noche real y reflejo especular del océano exigirían una capa personalizada de MapLibre; relieve derivado de datos (hoy es procedimental e ilustrativo, como indica el rótulo «texturas y hielo conceptuales»).
 
 Siguiente: P06 (Mesozoico).
+
+
+## 87. Internacionalización: carpeta i18n · 0.66.0 · 17/11/2026
+
+Petición del propietario: antes de seguir, preparar la estructura de traducción (fase PX2) con una carpeta raíz de internacionalización y los textos agrupados en los mínimos archivos, para poder entregarla más adelante a una IA y traducir todo de una vez. Decisiones (preguntadas): la enciclopedia se queda en `enciclopedia/` como original y sus traducciones irán a `i18n/<código>/enciclopedia/`; se extraen ya todos los textos de la interfaz.
+
+Hecho: extracción automática con un programa de transformación sobre el árbol sintáctico de TypeScript (fuera del repositorio): literales en español → `tx('modulo.clave')`; plantillas sin HTML → mensaje con `{marcadores}`; plantillas HTML → se sustituyen solo los textos visibles y los atributos `aria-label`, `title`, `placeholder`, `alt`. Se excluyen a propósito los literales usados como claves o comparaciones con los datos (===, includes, case, mapas de nombres→clave, `as const`), URL, CSS, mensajes internos de error y consola, y las reglas de pronunciación (`speech-text.ts`) y los sombreadores. 1.312 textos en `i18n/es/{interfaz,fichas,historia,tierra,enciclopedia,acerca}.json`, agrupados por módulo (nombre del archivo fuente en camelCase) y clave legible derivada del texto. `src/i18n.ts` incluye siempre el español con importaciones estáticas (funciona también fuera de Vite, en las pruebas de Node y Playwright) y los demás idiomas con `import.meta.glob`. `toLocaleString`, `localeCompare` e `Intl` usan `language`; la voz de lectura elige voz por idioma y solo aplica las reglas de pronunciación en español. `scripts/check-i18n.mjs` + `npm run i18n:check` + tests/i18n.test.ts. AGENTS.md: regla de no escribir textos visibles en el código.
+
+Validación: tipos; 432 pruebas; 40 de investigación; construcción; navegador: atlas 8/8, country-workspace 4/4, map-attributions, political-history, precambrian 2/2, human-expansion 3/5 y phanerozoic 0/1 por esperas de 5 s tras la carga que este entorno de 2 CPU no cumple (medido: el mismo retraso, ≈ 5 s, con y sin el cambio); capturas de interfaz, capas, ficha y enciclopedia sin claves sin resolver.
+
+Pendiente en PX2: textos de los datos (escenas, culturas, contextos), selector de idioma en la interfaz y las traducciones.

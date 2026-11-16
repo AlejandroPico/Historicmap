@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import clipping,{type MultiPolygon as MP,type Polygon as P} from 'polygon-clipping';
 import type {Feature,FeatureCollection,Polygon,MultiPolygon} from 'geojson';
 type Area=Feature<Polygon|MultiPolygon>;
@@ -37,7 +38,7 @@ export function centralEuropeanControls(base:FeatureCollection,controls:FeatureC
   // annexation. Protect it in1938 and in the incorporation mask used for1939.
   const borderAllowed=new Set([...allowed].filter(k=>k!=='CSK'||observed===1939&&!incorporation));
   corrected=protect(corrected,borderAllowed);
-  return {...geometry(f,corrected),properties:{...f.properties,sourceComponents:original.length,retainedSourceComponents:retained.length,controlCorrection:'central-europe-1938-1939',note:f.properties.note+' Corrección acotada: componentes aislados ajenos al teatro descartados sin umbral de superficie; fronteras de países no controlados protegidas con la base fechada. Austria incorporada completa, no una mancha sobre su antigua ficha.'}};
+  return {...geometry(f,corrected),properties:{...f.properties,sourceComponents:original.length,retainedSourceComponents:retained.length,controlCorrection:'central-europe-1938-1939',note:f.properties.note+tx('centralEurope.correccionAcotadaComponentesAisladosAjenos')}};
  });
  if(year!==1939||!czech||!hungary)return {...controls,features:prepared};
  const h=prepared.find(f=>f.properties?.uid==='central-hungary-1939'),s=prepared.find(f=>f.properties?.uid==='central-slovakia-reference-1939');

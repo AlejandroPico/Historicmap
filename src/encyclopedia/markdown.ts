@@ -1,6 +1,7 @@
 // Markdown de la enciclopedia → HTML. Subconjunto propio, sin dependencias:
 // títulos ##–####, párrafos, negrita/cursiva/código, enlaces externos, enlaces internos [[id|texto]],
 // listas (con un nivel de anidación), tablas, citas, imágenes y bloques «:::tipo».
+import { tx } from '../i18n';
 import { LINK_PATTERN } from '../../scripts/lib/encyclopedia-format.mjs';
 
 export const esc = (s: unknown) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
@@ -58,7 +59,7 @@ function special(kind: string, arg: string, content: string[], o: RenderOptions)
   if (!['nota', 'debate', 'clave', 'curiosidad', 'cita', 'cronologia', 'datos'].includes(kind)) return o.component?.(kind, arg, content.join('\n')) ?? '';
   if (kind === 'cronologia') return `<ol class="enc-timeline">${content.filter(l => l.trim()).map(l => { const [date, ...rest] = l.replace(/^[-*]\s*/, '').split('|'); return `<li><time>${inline(date.trim(), o)}</time><span>${inline(rest.join('|').trim(), o)}</span></li>`; }).join('')}</ol>`;
   if (kind === 'datos') return `<dl class="enc-data">${content.filter(l => l.includes(':')).map(l => { const i = l.indexOf(':'); return `<div><dt>${inline(l.slice(0, i).replace(/^[-*]\s*/, '').trim(), o)}</dt><dd>${inline(l.slice(i + 1).trim(), o)}</dd></div>`; }).join('')}</dl>`;
-  const label = arg || ({ nota: 'Nota', debate: 'Evidencias y debate', clave: 'Idea clave', curiosidad: 'Curiosidad', cita: '' } as Record<string, string>)[kind] || '';
+  const label = arg || ({ nota: 'Nota', debate: tx('encyclopediaMarkdown.evidenciasYDebate'), clave: tx('encyclopediaMarkdown.ideaClave'), curiosidad: 'Curiosidad', cita: '' } as Record<string, string>)[kind] || '';
   return `<aside class="enc-callout enc-${esc(kind)}">${label ? `<strong>${esc(label)}</strong>` : ''}${render(content.join('\n'), o).html}</aside>`;
 }
 

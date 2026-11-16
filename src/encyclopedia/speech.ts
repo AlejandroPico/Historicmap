@@ -1,6 +1,10 @@
 // Lectura en voz alta con la síntesis de voz del navegador (Web Speech API).
 // El reproductor vive en la cabecera fija de la enciclopedia: anterior · reproducir/pausa · siguiente · detener · ajustes
 // (velocidad y voz). Lee la página entera o desde el texto seleccionado; durante la lectura, pulsar un párrafo salta a él.
+import { tx, language } from '../i18n';
+// Voz preferida por idioma (región principal); las reglas de pronunciación de speech-text.ts son del español.
+const VOICE_LANG: Record<string, string> = { es: 'es-ES', ca: 'ca-ES', en: 'en-GB', fr: 'fr-FR', de: 'de-DE', pt: 'pt-PT', it: 'it-IT', zh: 'zh-CN', ja: 'ja-JP', hi: 'hi-IN', ru: 'ru-RU', ar: 'ar-SA' };
+const SPEECH_LANG = VOICE_LANG[language] ?? language;
 import { speakable } from './speech-text';
 
 const BLOCKS = 'h1, .encyclopedia-lead, .enc-body h2, .enc-body h3, .enc-body h4, .enc-body p, .enc-body li, .enc-body dt, .enc-body dd, .enc-composition h2, .enc-composition h3, .enc-composition h4, .enc-composition h5, .enc-composition p, .enc-composition li';
@@ -28,33 +32,33 @@ const ICON = {
   prev: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14M19 5 9 12l10 7z"/></svg>',
   next: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 5v14M5 5l10 7-10 7z"/></svg>',
   play: '<svg class="enc-ico-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg><svg class="enc-ico-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>',
-  stop: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="6.5" width="11" height="11" rx="1.5"/></svg>',
+  stop: tx('encyclopediaSpeech.svgViewbox0024'),
   gear: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>'
 };
 /** Marcado del reproductor de la cabecera. */
 export function playerMarkup() {
   if (!speechSupported()) return '';
-  return `<div class="enc-player" role="group" aria-label="Lectura en voz alta" data-state="idle">
-<button data-tts="prev" class="enc-pl-side" aria-label="Párrafo anterior" title="Párrafo anterior">${ICON.prev}</button>
-<button data-tts="play" class="enc-pl-main" aria-label="Leer en voz alta" title="Leer en voz alta (desde el texto seleccionado, si lo hay)">${ICON.play}<span class="enc-pl-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span></button>
-<button data-tts="next" class="enc-pl-side" aria-label="Párrafo siguiente" title="Párrafo siguiente">${ICON.next}</button>
-<button data-tts="stop" class="enc-pl-side" aria-label="Detener la lectura" title="Detener">${ICON.stop}</button>
-<button data-tts="settings" class="enc-pl-side" aria-label="Velocidad y voz" title="Velocidad y voz" aria-expanded="false">${ICON.gear}</button>
-<div class="enc-pl-pop" hidden><label>Velocidad <select data-tts-rate>${[0.8, 0.9, 1, 1.15, 1.3, 1.5, 1.75].map(r => `<option value="${r}"${r === state.rate ? ' selected' : ''}>${String(r).replace('.', ',')}×</option>`).join('')}</select></label><label>Voz <select data-tts-voice><option value="">Automática (español)</option></select></label></div>
+  return `<div class="enc-player" role="group" aria-label="${tx('encyclopediaSpeech.lecturaEnVozAlta')}" data-state="idle">
+<button data-tts="prev" class="enc-pl-side" aria-label="${tx('encyclopediaSpeech.parrafoAnterior')}" title="${tx('encyclopediaSpeech.parrafoAnterior')}">${ICON.prev}</button>
+<button data-tts="play" class="enc-pl-main" aria-label="${tx('encyclopediaSpeech.leerEnVozAlta')}" title="${tx('encyclopediaSpeech.leerEnVozAltaDesde')}">${ICON.play}<span class="enc-pl-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span></button>
+<button data-tts="next" class="enc-pl-side" aria-label="${tx('encyclopediaSpeech.parrafoSiguiente')}" title="${tx('encyclopediaSpeech.parrafoSiguiente')}">${ICON.next}</button>
+<button data-tts="stop" class="enc-pl-side" aria-label="${tx('encyclopediaSpeech.detenerLaLectura')}" title="Detener">${ICON.stop}</button>
+<button data-tts="settings" class="enc-pl-side" aria-label="${tx('encyclopediaSpeech.velocidadYVoz')}" title="${tx('encyclopediaSpeech.velocidadYVoz')}" aria-expanded="false">${ICON.gear}</button>
+<div class="enc-pl-pop" hidden><label>Velocidad <select data-tts-rate>${[0.8, 0.9, 1, 1.15, 1.3, 1.5, 1.75].map(r => `<option value="${r}"${r === state.rate ? ' selected' : ''}>${String(r).replace('.', ',')}×</option>`).join('')}</select></label><label>Voz <select data-tts-voice><option value="">${tx('encyclopediaSpeech.automaticaEspanol')}</option></select></label></div>
 </div>`;
 }
 function fillVoices() {
   const select = document.querySelector<HTMLSelectElement>('[data-tts-voice]'); if (!select || !speechSupported()) return;
   const voices = speechSynthesis.getVoices(); if (!voices.length) return;
-  const es = voices.filter(v => v.lang.toLowerCase().startsWith('es')), other = voices.filter(v => !v.lang.toLowerCase().startsWith('es'));
+  const es = voices.filter(v => v.lang.toLowerCase().startsWith(language)), other = voices.filter(v => !v.lang.toLowerCase().startsWith(language));
   const opt = (v: SpeechSynthesisVoice) => `<option value="${v.name.replace(/"/g, '&quot;')}"${v.name === state.voice ? ' selected' : ''}>${v.name.replace(/</g, '&lt;')} · ${v.lang}</option>`;
-  select.innerHTML = `<option value="">Automática (español)</option>${es.length ? `<optgroup label="Español">${es.map(opt).join('')}</optgroup>` : ''}${other.length ? `<optgroup label="Otros idiomas">${other.map(opt).join('')}</optgroup>` : ''}`;
+  select.innerHTML = `<option value="">${tx('encyclopediaSpeech.automaticaEspanol')}</option>${es.length ? `<optgroup label="${tx('encyclopediaSpeech.espanol')}">${es.map(opt).join('')}</optgroup>` : ''}${other.length ? `<optgroup label="${tx('encyclopediaSpeech.otrosIdiomas')}">${other.map(opt).join('')}</optgroup>` : ''}`;
 }
 if (typeof window !== 'undefined' && speechSupported()) speechSynthesis.addEventListener?.('voiceschanged', fillVoices);
 
 function voice() {
   const voices = speechSynthesis.getVoices();
-  return voices.find(v => v.name === state.voice) ?? voices.find(v => v.lang === 'es-ES' && /natural|google|online|neural/i.test(v.name)) ?? voices.find(v => v.lang === 'es-ES') ?? voices.find(v => v.lang.startsWith('es'));
+  return voices.find(v => v.name === state.voice) ?? voices.find(v => v.lang === SPEECH_LANG && /natural|google|online|neural/i.test(v.name)) ?? voices.find(v => v.lang === SPEECH_LANG) ?? voices.find(v => v.lang.startsWith(language));
 }
 /** Divide un párrafo en frases de longitud moderada: algunos motores cortan las locuciones muy largas. */
 function split(text: string) {
@@ -73,7 +77,7 @@ function paint() {
     player.dataset.state = !state.active ? 'idle' : state.paused ? 'paused' : 'playing';
     player.style.setProperty('--enc-progress', String(state.blocks.length ? (state.index + 1) / state.blocks.length : 0));
     const play = player.querySelector('[data-tts="play"]');
-    play?.setAttribute('aria-label', !state.active ? 'Leer en voz alta' : state.paused ? 'Continuar la lectura' : 'Pausar la lectura');
+    play?.setAttribute('aria-label', !state.active ? tx('encyclopediaSpeech.leerEnVozAlta') : state.paused ? tx('encyclopediaSpeech.continuarLaLectura') : tx('encyclopediaSpeech.pausarLaLectura'));
     play?.setAttribute('aria-pressed', String(state.active && !state.paused));
   }
   document.querySelectorAll('.enc-speaking').forEach(el => el.classList.remove('enc-speaking'));
@@ -83,9 +87,9 @@ function speakCurrent(token: number) {
   if (token !== state.token || !state.active) return;
   const block = state.blocks[state.index];
   if (!block) { stopSpeech(); return; }
-  if (state.part === 0) { state.parts = split(speakable(block.innerText.trim())); block.scrollIntoView({ block: 'center', behavior: 'smooth' }); paint(); }
+  if (state.part === 0) { state.parts = split(language === 'es' ? speakable(block.innerText.trim()) : block.innerText.trim()); block.scrollIntoView({ block: 'center', behavior: 'smooth' }); paint(); }
   const u = new SpeechSynthesisUtterance(state.parts[state.part] ?? '');
-  const v = voice(); u.lang = v?.lang ?? 'es-ES'; u.rate = state.rate; if (v) u.voice = v;
+  const v = voice(); u.lang = v?.lang ?? SPEECH_LANG; u.rate = state.rate; if (v) u.voice = v;
   u.onend = () => { if (token !== state.token) return; state.part++; if (state.part >= state.parts.length) { state.part = 0; state.index++; } speakCurrent(token); };
   u.onerror = () => { if (token === state.token) { state.part = 0; state.index++; speakCurrent(token); } };
   speechSynthesis.speak(u);

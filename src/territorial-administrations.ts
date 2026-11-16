@@ -1,3 +1,4 @@
+import { tx } from './i18n';
 import {isoYear,compareDates,dateParts} from './dates';
 import catalogue from '../public/data/territorial-administrations.json';
 import extension from '../public/data/historical-1880-administrations.json';
@@ -11,6 +12,6 @@ export function administrationFor(p:Record<string,any>,year:number):Administrati
  // A retained card's source administrator is evidence only inside that source
  // interval, never before the colony is attested or after this observation.
  if(typeof p.start==='number'&&year<p.start||typeof p.end==='number'&&year>p.end)return;
- if(p.administratorKey&&p.administratorKey!==p.identityKey)return {id:'source-administration',names:[name],codes:[code],admin:p.administratorKey,localKey:p.localAuthorityKey??p.code??'',start:year<1?`${isoYear(year)}-01-01`:year<1900?'0001-01-01':catalogue.coverageStart,end:null,label:'Autoridades del Estado administrador',note:'La relación administrativa procede de la cartografía de esta fecha. Los cargos estatales no equivalen a gobernadores territoriales; la serie local todavía puede ser parcial.',source:p.source??'https://icr.ethz.ch/data/cshapes/',headOfStateOnly:false};
+ if(p.administratorKey&&p.administratorKey!==p.identityKey)return {id:'source-administration',names:[name],codes:[code],admin:p.administratorKey,localKey:p.localAuthorityKey??p.code??'',start:year<1?`${isoYear(year)}-01-01`:year<1900?'0001-01-01':catalogue.coverageStart,end:null,label:tx('territorialAdministrations.autoridadesDelEstadoAdministrador'),note:tx('territorialAdministrations.laRelacionAdministrativaProcedeDe'),source:p.source??'https://icr.ethz.ch/data/cshapes/',headOfStateOnly:false};
 }
 export function dayBefore(date:string){const [y,m,day]=dateParts(date);if(y===1&&m===1&&day===1)return '-0001-12-31';if(y<0){const d=new Date(0);d.setUTCFullYear(y+1,m-1,day);d.setUTCDate(d.getUTCDate()-1);const out=d.getUTCFullYear();return `${isoYear(out<=0?out-1:out)}-${String(d.getUTCMonth()+1).padStart(2,'0')}-${String(d.getUTCDate()).padStart(2,'0')}`;}const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-1);return d.toISOString().slice(0,10);}
