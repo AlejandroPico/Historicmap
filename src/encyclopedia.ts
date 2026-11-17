@@ -126,7 +126,8 @@ async function geologicalPage(u: GeologicalUnit, md: Awaited<ReturnType<typeof l
   const ownTheme = legacy.themeId && parentLegacy?.themeId !== legacy.themeId;
   const year = encyclopediaReferenceYear(legacy, consultedYear);
   let html: string, headings: Heading[];
-  if (md) ({ html, headings } = renderMarkdown(md.body, renderOptions()));
+  // Con monografía propia se conservan los esquemas y laboratorios interactivos del artículo temático de la unidad.
+  if (md) { ({ html, headings } = renderMarkdown(md.body, renderOptions())); if (ownTheme && !compact) html += legacyExtras(legacy, year).html; }
   else if (ownTheme && !compact) { ({ html, headings } = legacyBody(legacy, year)); html = unitPendingNote(u) + html; }
   else if (compact) { html = `<p class="enc-pending">${tx('encyclopedia.monografiaPendienteFase')} ${esc(unitPhase(u))}.</p>`; headings = []; }
   else {

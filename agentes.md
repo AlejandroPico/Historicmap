@@ -1802,3 +1802,16 @@ Validación: tipos; 432 pruebas; 40 de investigación; compilador 222 páginas, 
 Siguiente: P07 (Cenozoico).
 
 Corrección posterior (CI): tests/browser/phanerozoic.spec.ts abría desde el panorama el artículo heredado `jurassic` y comprobaba su ficha, su gráfico climático y su foto. Desde P06 `jurassic` redirige a `geo-Jurassic` (`reemplaza`), así que el enlace ya no existe en el panorama y la prueba agotaba el tiempo (4 min). Ahora abre `geo-Jurassic`, comprueba título, índice, escala y texto, y sigue a `dinosaurs` (página nueva) y `petm`. A partir de ahora, al cerrar cada fase se pasa también phanerozoic.spec.ts.
+
+
+## 89. Enciclopedia · P07 · Cenozoico · 0.68.0 · 17/11/2026
+
+Contenido: 47 páginas (≈ 167.200 palabras) en geologia/cenozoico.md, geologia/cenozoico/{paleogeno,neogeno,cuaternario}/, clima/cenozoico (PETM —id `petm`, sustituye al heredado—, glaciación antártica, ciclos de Milankovitch, glaciaciones del Pleistoceno), tierra/cenozoico (Himalaya, crisis messiniense, istmo de Panamá, Antropoceno) y vida/cenozoico (radiación de los mamíferos, cetáceos, praderas C4, extinción de la megafauna). Las 35 unidades ICS del Cenozoico tienen página propia. Casi todo se escribió en una sesión anterior cuyo contexto no se conservó; se retomó desde el árbol de trabajo: se corrigió `fin: 0` en ciclos-milankovitch (el compilador no admite año 0) y un redactor escribió las dos páginas que faltaban (glaciaciones del Pleistoceno, con la curva LR04 real del repositorio, y Antropoceno, con el rechazo de 2024).
+
+Motor: `geologicalPage` descartaba el cuerpo heredado al existir monografía, y con él el esquema o laboratorio del artículo temático (p. ej. el laboratorio de CO₂ de `human-climate` en geo-Quaternary, que exige earth-integration). Ahora, si la unidad tiene tema propio, se añaden al final `legacyExtras` (esquema, laboratorio, vídeo).
+
+Dudas anotadas: volumen DATED-1, superficie del manto patagónico, longitudes de glaciares ibéricos, edades H1–H6, abstenciones en la votación de 2024, cifras de Koch 2019 y del lago Crawford, frase atribuida a Hooke 2000; la foto del drumlin tiene un coche en primer plano.
+
+Validación: tipos; 432 pruebas; 40 de investigación; compilador 269 páginas, ≈ 933.700 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2, phanerozoic 1/1, earth-integration 1/2 (la otra espera 5 s tras cargar 300.000 a. C. y no llega en este entorno; sin relación con la enciclopedia).
+
+Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehacer «Tectónica de placas y cratones»).

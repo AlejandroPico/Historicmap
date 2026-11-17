@@ -1,5 +1,10 @@
 # Historial de versiones
 
+## 0.68.0 · 17 de noviembre de 2026
+
+- Enciclopedia P07 · Cenozoico completo: 47 páginas nuevas (≈ 167.200 palabras): la era; Paleógeno, Neógeno y Cuaternario con sus 7 épocas y 24 edades (las 35 unidades ICS del Cenozoico con página propia); temas radiación de los mamíferos, cetáceos, máximo térmico del Paleoceno-Eoceno (sustituye al artículo heredado `petm`), glaciación antártica, Himalaya, crisis salina del Messiniense, istmo de Panamá, praderas C4, ciclos de Milankovitch, glaciaciones del Pleistoceno, extinción de la megafauna y Antropoceno. 45 imágenes nuevas sin repeticiones; `paleogene` y `neogene` redirigen a las páginas nuevas.
+- Las unidades geológicas con monografía propia conservan al final los esquemas y laboratorios interactivos de su artículo temático (gráfico climático, laboratorio de CO₂ de los sondeos de hielo en el Cuaternario…), que antes desaparecían al sustituirse el texto.
+
 ## 0.67.0 · 17 de noviembre de 2026
 
 - Enciclopedia P06 · Mesozoico completo: 57 páginas nuevas (≈ 224.600 palabras): la era; Triásico, Jurásico y Cretácico con sus 8 series y 30 pisos (las 42 unidades ICS del Mesozoico con página propia); temas origen de los dinosaurios, dinosaurios, origen de las aves, pterosaurios, reptiles marinos, mamíferos mesozoicos, angiospermas, extinción del Triásico-Jurásico, recuperación triásica, episodio pluvial del Carniense, evento anóxico del Toarciense, eventos anóxicos oceánicos del Cretácico, ruptura de Pangea, Trampas del Decán y el impacto de Chicxulub y la extinción K-Pg (sustituye al artículo heredado `kpg`). 66 imágenes nuevas sin repeticiones; `triassic`, `jurassic` y `cretaceous` redirigen a las páginas nuevas.
