@@ -1800,3 +1800,5 @@ Dudas anotadas por los redactores: edad de Kem Kem; formaciones cenomanienses ib
 Validación: tipos; 432 pruebas; 40 de investigación; compilador 222 páginas, ≈ 766.500 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2.
 
 Siguiente: P07 (Cenozoico).
+
+Corrección posterior (CI): tests/browser/phanerozoic.spec.ts abría desde el panorama el artículo heredado `jurassic` y comprobaba su ficha, su gráfico climático y su foto. Desde P06 `jurassic` redirige a `geo-Jurassic` (`reemplaza`), así que el enlace ya no existe en el panorama y la prueba agotaba el tiempo (4 min). Ahora abre `geo-Jurassic`, comprueba título, índice, escala y texto, y sigue a `dinosaurs` (página nueva) y `petm`. A partir de ahora, al cerrar cada fase se pasa también phanerozoic.spec.ts.
