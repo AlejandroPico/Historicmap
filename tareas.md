@@ -13,7 +13,8 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 - [x] P05 · Paleozoico (0.62.0–0.64.0): 100 páginas (≈ 319.000 palabras), las 79 unidades ICS con página propia y 21 temas.
 - [x] Renovación gráfica del tiempo profundo (0.65.0): motor WebGL2, espacio estrellado, halo atmosférico, hielos realistas.
 - [x] PX2 (1.ª parte, 0.66.0): carpeta i18n/ con los 1.312 textos de la interfaz, cargador y detección de idioma. Pendiente en PX2: textos de los datos, selector de idioma y las traducciones.
-- [ ] P06 · Mesozoico (con la norma de 1.500 palabras por página como mínimo).
+- [x] P06 · Mesozoico (0.67.0): 57 páginas (≈ 224.600 palabras), las 42 unidades ICS y 15 temas.
+- [ ] P07 · Cenozoico (con la norma de 1.500 palabras por página como mínimo).
 - [ ] P08 · rehacer «Tectónica de placas y cratones» (plate-tectonics) con esquemas de calidad o widgets interactivos (pedido del propietario).
 - [ ] P05–P24 y opcionales PX1/PX2 según el plan.
 

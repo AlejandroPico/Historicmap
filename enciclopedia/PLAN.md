@@ -247,4 +247,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P01–P03 (revisión) | ✅ Reescritas a nivel universitario (8/11/2026) · versión 0.60.0 · 37 páginas, ≈ 127.500 palabras |
 | P04 | ✅ Proterozoico completo (8/11/2026) · versión 0.61.0 · 28 páginas, ≈ 95.600 palabras |
 | P05 | ✅ Paleozoico completo (14/11/2026) · versiones 0.62.0–0.64.0 · 100 páginas, ≈ 319.000 palabras |
-| P06–P24 | Pendientes |
+| P06 | ✅ Mesozoico completo (17/11/2026) · versión 0.67.0 · 57 páginas, ≈ 224.600 palabras |
+| P07–P24 | Pendientes |

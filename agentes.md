@@ -1789,3 +1789,14 @@ Hecho: extracción automática con un programa de transformación sobre el árbo
 Validación: tipos; 432 pruebas; 40 de investigación; construcción; navegador: atlas 8/8, country-workspace 4/4, map-attributions, political-history, precambrian 2/2, human-expansion 3/5 y phanerozoic 0/1 por esperas de 5 s tras la carga que este entorno de 2 CPU no cumple (medido: el mismo retraso, ≈ 5 s, con y sin el cambio); capturas de interfaz, capas, ficha y enciclopedia sin claves sin resolver.
 
 Pendiente en PX2: textos de los datos (escenas, culturas, contextos), selector de idioma en la interfaz y las traducciones.
+
+
+## 88. Enciclopedia · P06 · Mesozoico · 0.67.0 · 17/11/2026
+
+Contenido: 57 páginas (≈ 224.600 palabras) en geologia/mesozoico.md, geologia/mesozoico/{triasico,jurasico,cretacico}/, vida/mesozoico (origen de los dinosaurios, dinosaurios, origen de las aves, pterosaurios, reptiles marinos, mamíferos mesozoicos, angiospermas, extinción triásica, recuperación triásica, kpg), clima/mesozoico (pluvial carniense, OAE cretácicos) y tierra/mesozoico (evento toarciense, ruptura de Pangea, Trampas del Decán). Las 42 unidades ICS del Mesozoico tienen página propia (comprobado contra ics-2026-06.json). La mayor parte se escribió en una sesión anterior cuyo contexto no se conservó; se retomó desde el árbol de trabajo y una última tanda de dos redactores completó el Cretácico superior (serie y seis pisos), la página del K-Pg y la del Decán. Los redactores ya no tocan src/ ni i18n/.
+
+Dudas anotadas por los redactores: edad de Kem Kem; formaciones cenomanienses ibéricas; edad de la Ciudad Encantada (Cenomaniense en cretacico.md frente a Turoniense en turoniense.md: unificar); eventos Navigation y White Fall; nivel de 115,2 m en Tercis; iridio en Gubbio; reparto del volumen del Decán antes y después del límite (Sprain 2019, Schoene 2019); edades de formaciones campanienses; secciones candidatas del Santoniense y Sant Corneli; tono del debate sobre Tanis. El GSSP del Campaniense figura como definido (Gale et al., Episodes 2023).
+
+Validación: tipos; 432 pruebas; 40 de investigación; compilador 222 páginas, ≈ 766.500 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2.
+
+Siguiente: P07 (Cenozoico).

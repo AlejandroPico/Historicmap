@@ -1,5 +1,9 @@
 # Historial de versiones
 
+## 0.67.0 · 17 de noviembre de 2026
+
+- Enciclopedia P06 · Mesozoico completo: 57 páginas nuevas (≈ 224.600 palabras): la era; Triásico, Jurásico y Cretácico con sus 8 series y 30 pisos (las 42 unidades ICS del Mesozoico con página propia); temas origen de los dinosaurios, dinosaurios, origen de las aves, pterosaurios, reptiles marinos, mamíferos mesozoicos, angiospermas, extinción del Triásico-Jurásico, recuperación triásica, episodio pluvial del Carniense, evento anóxico del Toarciense, eventos anóxicos oceánicos del Cretácico, ruptura de Pangea, Trampas del Decán y el impacto de Chicxulub y la extinción K-Pg (sustituye al artículo heredado `kpg`). 66 imágenes nuevas sin repeticiones; `triassic`, `jurassic` y `cretaceous` redirigen a las páginas nuevas.
+
 ## 0.66.0 · 17 de noviembre de 2026
 
 - Internacionalización preparada (fase PX2, primera parte): nueva carpeta raíz `i18n/` con `idiomas.json` (español como base y once idiomas previstos: catalán, inglés, francés, alemán, portugués, italiano, chino, japonés, hindi, ruso y árabe) y `i18n/es/` con todos los textos de la interfaz en seis archivos (interfaz, fichas, historia, tierra, enciclopedia, acerca; 1.312 textos). El código los pide con `tx('modulo.clave')`; los datos variables van como `{marcadores}`.
