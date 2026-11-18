@@ -13,6 +13,11 @@ import enciclopedia from '../i18n/es/enciclopedia.json' with { type: 'json' };
 import acerca from '../i18n/es/acerca.json' with { type: 'json' };
 
 type Bundle = Record<string, Record<string, string>>;
+/** localStorage del navegador, o null fuera de él (Node trae un localStorage experimental que avisa al tocarlo). */
+export function browserStorage(): Storage | null {
+  if (typeof window === 'undefined' || typeof document === 'undefined') return null;
+  try { return window.localStorage; } catch { return null; }
+}
 // El español va siempre incluido; los demás idiomas se recogen de la carpeta al compilar con Vite
 // (fuera de Vite, p. ej. en las pruebas de Node, import.meta.glob no existe y solo hay español).
 let files: Record<string, Bundle> = {};
@@ -30,7 +35,7 @@ export const languages = idiomas.idiomas.filter(l => dictionaries[l.codigo]);
 /** Idioma elegido por el usuario (si lo hay) o el primero del sistema que tenga traducción; si no, el base. */
 function detect(): string {
   const available = new Set(Object.keys(dictionaries));
-  try { const saved = localStorage.getItem('historicmap-idioma'); if (saved && available.has(saved)) return saved; } catch { /* sin almacenamiento */ }
+  try { const saved = browserStorage()?.getItem('historicmap-idioma'); if (saved && available.has(saved)) return saved; } catch { /* sin almacenamiento */ }
   const wanted = typeof navigator === 'undefined' ? [] : [...(navigator.languages ?? []), navigator.language].filter(Boolean);
   for (const tag of wanted) { const code = tag.toLowerCase().split('-')[0]; if (available.has(code)) return code; }
   return BASE_LANGUAGE;
@@ -50,6 +55,6 @@ export function tx(key: string, values?: Record<string, unknown>): string {
 }
 /** Cambia de idioma y recarga la aplicación (los textos se resuelven al cargar). */
 export function setLanguage(code: string) {
-  try { localStorage.setItem('historicmap-idioma', code); } catch { /* sin almacenamiento */ }
+  try { browserStorage()?.setItem('historicmap-idioma', code); } catch { /* sin almacenamiento */ }
   location.reload();
 }

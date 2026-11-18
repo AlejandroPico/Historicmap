@@ -37,7 +37,8 @@ export function inline(text: string, o: RenderOptions = {}) {
 }
 
 function table(lines: string[], o: RenderOptions) {
-  const cells = (l: string) => l.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim());
+  // Las barras dentro de un enlace [[id|texto]] no separan celdas.
+  const cells = (l: string) => l.trim().replace(/^\||\|$/g, '').replace(/\[\[[^\]]*\]\]/g, m => m.replace(/\|/g, '\u0000')).split('|').map(c => c.trim().replace(/\u0000/g, '|'));
   const head = cells(lines[0]), align = cells(lines[1]).map(c => c.endsWith(':') ? (c.startsWith(':') ? 'center' : 'right') : '');
   const row = (l: string, tag: string) => `<tr>${cells(l).map((c, i) => `<${tag}${align[i] ? ` style="text-align:${align[i]}"` : ''}>${inline(c, o)}</${tag}>`).join('')}</tr>`;
   return `<div class="enc-table"><table><thead>${row(lines[0], 'th')}</thead><tbody>${lines.slice(2).map(l => row(l, 'td')).join('')}</tbody></table></div>`;

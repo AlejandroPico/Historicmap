@@ -15,5 +15,5 @@ export function resolveAppearance(mode:Appearance,now=new Date()):ResolvedAppear
   const hour=now.getHours();return hour>=7&&hour<13?'morning':hour>=13&&hour<20?'afternoon':'night';
 }
 export function storedAppearance():Appearance{
-  try{const value=localStorage.getItem('historicmap-appearance');return appearances.includes(value as Appearance)?value as Appearance:'auto';}catch{return 'auto';}
+  try{const value=typeof window==='undefined'?null:window.localStorage.getItem('historicmap-appearance');return appearances.includes(value as Appearance)?value as Appearance:'auto';}catch{return 'auto';}
 }

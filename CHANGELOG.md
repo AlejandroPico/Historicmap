@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.69.0 · 18 de noviembre de 2026
+
+- Enciclopedia P08 · Procesos transversales y bestiario: 96 páginas nuevas (≈ 259.000 palabras). 14 síntesis en la rama nueva «Procesos y síntesis» (tectónica de placas, extinciones masivas, glaciaciones de Pongola a hoy, supercontinentes, grandes impactos, nivel del mar, historia de la atmósfera, océanos, fósiles y tafonomía, indicadores paleoclimáticos, biodiversidad, escala del tiempo geológico, incertidumbre y neblina orgánica arcaica); 11 sustituyen a sus artículos heredados.
+- Bestiario de la vida pasada: 82 fichas de especie (Ediacárico a Pleistoceno), cada una con ficha lateral, mapa de yacimientos e imagen libre propia; rama propia en el índice, subdividida por eras.
+- Componente interactivo `tectonica-placas`: cortes animados de dorsal, subducción, colisión continental, falla transformante y punto caliente, con explicación y ejemplos por modo (textos en i18n).
+- Las tablas de la enciclopedia admiten enlaces `[[id|texto]]` en sus celdas.
+- Corregido el aviso `ExperimentalWarning: localStorage is not available` de Node 26 en las pruebas: el acceso al almacenamiento pasa por `browserStorage()`, que solo lo toca en el navegador.
+
 ## 0.68.0 · 17 de noviembre de 2026
 
 - Enciclopedia P07 · Cenozoico completo: 47 páginas nuevas (≈ 167.200 palabras): la era; Paleógeno, Neógeno y Cuaternario con sus 7 épocas y 24 edades (las 35 unidades ICS del Cenozoico con página propia); temas radiación de los mamíferos, cetáceos, máximo térmico del Paleoceno-Eoceno (sustituye al artículo heredado `petm`), glaciación antártica, Himalaya, crisis salina del Messiniense, istmo de Panamá, praderas C4, ciclos de Milankovitch, glaciaciones del Pleistoceno, extinción de la megafauna y Antropoceno. 45 imágenes nuevas sin repeticiones; `paleogene` y `neogene` redirigen a las páginas nuevas.

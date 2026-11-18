@@ -15,6 +15,7 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 - [x] PX2 (1.ª parte, 0.66.0): carpeta i18n/ con los 1.312 textos de la interfaz, cargador y detección de idioma. Pendiente en PX2: textos de los datos, selector de idioma y las traducciones.
 - [x] P06 · Mesozoico (0.67.0): 57 páginas (≈ 224.600 palabras), las 42 unidades ICS y 15 temas.
 - [x] P07 · Cenozoico (0.68.0): 47 páginas (≈ 167.200 palabras), las 35 unidades ICS y 12 temas.
+- [x] P08 · Procesos transversales y bestiario (0.69.0): 14 síntesis, 82 fichas de especie, componente interactivo de tectónica de placas.
 - [ ] P08 · Grandes procesos del tiempo profundo y bestiario (con la norma de 1.500 palabras por página como mínimo).
 - [ ] P08 · rehacer «Tectónica de placas y cratones» (plate-tectonics) con esquemas de calidad o widgets interactivos (pedido del propietario).
 - [ ] P05–P24 y opcionales PX1/PX2 según el plan.

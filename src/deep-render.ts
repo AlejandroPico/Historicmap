@@ -286,7 +286,7 @@ export function deepRenderProfile() {
       gl.getExtension('WEBGL_lose_context')?.loseContext();
     }
     // Ajuste manual opcional (p. ej. equipos modestos): localStorage «historicmap-deep-size» = 1024, 2048 o 4096.
-    const forced = Number(localStorage.getItem('historicmap-deep-size'));
+    const forced = Number(window.localStorage.getItem('historicmap-deep-size'));
     if ([1024, 2048, 4096].includes(forced)) profile = { ...profile, staticSize: forced, size: Math.min(profile.size, forced) };
   } catch { /* sin WebGL2 o sin almacenamiento */ }
   return profile;

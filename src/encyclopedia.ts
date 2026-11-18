@@ -16,6 +16,7 @@ import { render as renderMarkdown, esc, type Heading } from './encyclopedia/mark
 import { loadIndex, loadSource, loadPerson, loadEntity, loadCentury, loadNames, loadWorld, mediaUrl, mediaCredit, activeIn, dateYearOf, normalizeText, type IndexPage, type EncyclopediaIndexFile } from './encyclopedia/store';
 import { component, scaleView, mapSvg, successionChart } from './encyclopedia/components';
 import { handleSpeechChange, handleSpeechClick, playerMarkup, resetSpeech, stopSpeech } from './encyclopedia/speech';
+import { handleTectonicsClick } from './encyclopedia/tectonics';
 
 interface Source { title: string; url: string }
 interface Page {
@@ -332,7 +333,7 @@ async function renderIndex() {
   const currentUnit = history[cursor]?.startsWith('geo-') ? unitById(history[cursor].slice(4)) : geologicalAt(consultedYear).at(-1);
   const path = new Set<string>(currentUnit ? [currentUnit.id, ...unitTrail(currentUnit).map(u => u.id)] : []);
   const pages = index?.paginas ?? [];
-  const branches: Record<string, string> = { tierra: tx('encyclopedia.planetaTierra'), clima: tx('encyclopedia.climaYGlaciaciones'), vida: tx('encyclopedia.laVida'), humanidad: 'Humanidad', culturas: 'Culturas', contextos: tx('encyclopedia.elMundoEnCadaEpoca'), entidades: tx('encyclopedia.estadosEImperios'), personas: tx('encyclopedia.biografias'), eventos: 'Acontecimientos', obras: tx('encyclopedia.obrasYMonumentos'), temas: 'Temas' };
+  const branches: Record<string, string> = { tierra: tx('encyclopedia.planetaTierra'), clima: tx('encyclopedia.climaYGlaciaciones'), vida: tx('encyclopedia.laVida'), procesos: tx('encyclopedia.procesosYSintesis'), bestiario: tx('encyclopedia.bestiario'), humanidad: 'Humanidad', culturas: 'Culturas', contextos: tx('encyclopedia.elMundoEnCadaEpoca'), entidades: tx('encyclopedia.estadosEImperios'), personas: tx('encyclopedia.biografias'), eventos: 'Acontecimientos', obras: tx('encyclopedia.obrasYMonumentos'), temas: 'Temas' };
   // Cada rama se subdivide por el eón o la era a la que pertenece la página (por su padre geológico).
   const eraOf = (p: IndexPage) => {
     let u = p.padre?.startsWith('geo-') ? unitById(p.padre.slice(4)) : p.id.startsWith('geo-') ? unitById(p.id.slice(4)) : undefined;
@@ -430,6 +431,7 @@ function setup() {
     const target = e.target as Element;
     if (target.closest('summary')) return;
     if (handleSpeechClick(target)) return;
+    if (handleTectonicsClick(target)) return;
     const zoom = target.closest<HTMLElement>('[data-scale-zoom]');
     if (zoom) { const fig = zoom.closest<HTMLElement>('.enc-scale'); if (fig) { const caption = fig.querySelector('figcaption')?.outerHTML ?? ''; fig.innerHTML = scaleView(zoom.dataset.scaleZoom ?? '') + caption; } return; }
     const toggle = target.closest<HTMLElement>('[data-enc-toggle]');

@@ -1,7 +1,7 @@
 // Lectura en voz alta con la síntesis de voz del navegador (Web Speech API).
 // El reproductor vive en la cabecera fija de la enciclopedia: anterior · reproducir/pausa · siguiente · detener · ajustes
 // (velocidad y voz). Lee la página entera o desde el texto seleccionado; durante la lectura, pulsar un párrafo salta a él.
-import { tx, language } from '../i18n';
+import { tx, language, browserStorage } from '../i18n';
 // Voz preferida por idioma (región principal); las reglas de pronunciación de speech-text.ts son del español.
 const VOICE_LANG: Record<string, string> = { es: 'es-ES', ca: 'ca-ES', en: 'en-GB', fr: 'fr-FR', de: 'de-DE', pt: 'pt-PT', it: 'it-IT', zh: 'zh-CN', ja: 'ja-JP', hi: 'hi-IN', ru: 'ru-RU', ar: 'ar-SA' };
 const SPEECH_LANG = VOICE_LANG[language] ?? language;
@@ -12,8 +12,8 @@ const SKIP = 'figure, .enc-infobox, nav, details:not([open]) > :not(summary), .e
 const VOICE_KEY = 'historicmap-voice', RATE_KEY = 'historicmap-voice-rate';
 
 interface State { article: HTMLElement | null; blocks: HTMLElement[]; index: number; part: number; parts: string[]; active: boolean; paused: boolean; rate: number; voice: string; token: number }
-const read = (k: string) => { try { return localStorage.getItem(k) ?? ''; } catch { return ''; } };
-const write = (k: string, v: string) => { try { localStorage.setItem(k, v); } catch { /* sin almacenamiento */ } };
+const read = (k: string) => { try { return browserStorage()?.getItem(k) ?? ''; } catch { return ''; } };
+const write = (k: string, v: string) => { try { browserStorage()?.setItem(k, v); } catch { /* sin almacenamiento */ } };
 const state: State = { article: null, blocks: [], index: 0, part: 0, parts: [], active: false, paused: false, rate: Number(read(RATE_KEY)) || 1, voice: read(VOICE_KEY), token: 0 };
 export const speechSupported = () => typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined';
 

@@ -1815,3 +1815,12 @@ Dudas anotadas: volumen DATED-1, superficie del manto patagónico, longitudes de
 Validación: tipos; 432 pruebas; 40 de investigación; compilador 269 páginas, ≈ 933.700 palabras, sin errores ni avisos; construcción; navegador precambrian 2/2, phanerozoic 1/1, earth-integration 1/2 (la otra espera 5 s tras cargar 300.000 a. C. y no llega en este entorno; sin relación con la enciclopedia).
 
 Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehacer «Tectónica de placas y cratones»).
+
+## 90. Enciclopedia · P08 · Procesos transversales y bestiario · 0.69.0 · 18/11/2026
+
+- Carpeta `enciclopedia/procesos/` (rama «Procesos y síntesis»): 14 páginas. Sustituyen con el mismo id a los artículos heredados plate-tectonics, extinctions, icehouses, atmosphere, water, fossils, climate-proxies, biodiversification, geologic-ranks, uncertainty y haze; nuevas tierra-supercontinentes, tierra-grandes-impactos y tierra-nivel-mar.
+- Carpeta `enciclopedia/bestiario/<era>/` (rama «Bestiario de la vida pasada»): 82 fichas `especie-<slug>`, `tipo: especie`, `padre` = unidad ICS más precisa segura, `orden` 1–82 según la lista de /tmp brief P08 (ediacárico → cuaternario). Medios en `medios/bestiario-1…10` y `medios/procesos-a…c`.
+- Componente nuevo `:::componente tectonica-placas [modo]` (src/encyclopedia/tectonics.ts): cinco cortes SVG (dorsal, subduccion, colision, transformante, punto-caliente) que se alternan con botones `data-tect-mode`; CSS en encyclopedia.css; textos en el espacio `tectonica` de i18n/es/enciclopedia.json; registrado en components.ts y COMPONENT_NAMES.
+- markdown.ts: las barras dentro de `[[id|texto]]` ya no parten celdas de tabla.
+- i18n.ts: `browserStorage()` devuelve `window.localStorage` solo en navegador; i18n, speech, appearance y deep-render lo usan. Elimina el aviso experimental de localStorage de Node 26 en Playwright/Vitest.
+- Dudas factuales señaladas por los agentes para revisión futura: fechas del montaje del Megatherium de Madrid (1788 vs. 1789, unificar entre fosiles-tafonomia y la ficha), cifras de estudios 2024–2026 tomadas de Wikipedia sin DOI (Nanotyrannus, Meganeura, Hylonomus, Haikouichthys), masas estimadas sin método publicado (Concavenator, Scutosaurus), votación del Antropoceno de 2024.

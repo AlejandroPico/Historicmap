@@ -265,3 +265,35 @@ button.enc-toggle::before{content:'▸';display:inline-block;transition:transfor
 :root[data-appearance=morning] .encyclopedia-reading h2,:root[data-appearance=morning] .encyclopedia-reading h3{color:#1f3035}
 :root[data-appearance=morning] .enc-pl-pop{background:#fbf9f3}
 :root[data-appearance=night] #encyclopedia{--enc-read:#080f19;--enc-side:#0b1521;--enc-head:#101d2b}
+/* Tectónica de placas: cortes interactivos */
+.enc-tectonics .tect-modes{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.enc-tectonics .tect-modes button{font:inherit;font-size:12px;padding:5px 11px;border-radius:999px;border:1px solid var(--line,rgba(127,127,127,.35));background:transparent;color:inherit;cursor:pointer}
+.enc-tectonics .tect-modes button[aria-pressed=true]{background:var(--accent,#d4b06a);border-color:transparent;color:#1b1b1b;font-weight:600}
+.enc-tectonics svg{border-radius:10px;overflow:hidden;background:#20262e}
+.enc-tectonics [data-tect],.enc-tectonics [data-tect-caption]{display:none}
+.enc-tectonics[data-mode=dorsal] [data-tect=dorsal],.enc-tectonics[data-mode=subduccion] [data-tect=subduccion],.enc-tectonics[data-mode=colision] [data-tect=colision],.enc-tectonics[data-mode=transformante] [data-tect=transformante],.enc-tectonics[data-mode=punto-caliente] [data-tect=punto-caliente]{display:inline}
+.enc-tectonics[data-mode=dorsal] [data-tect-caption=dorsal],.enc-tectonics[data-mode=subduccion] [data-tect-caption=subduccion],.enc-tectonics[data-mode=colision] [data-tect-caption=colision],.enc-tectonics[data-mode=transformante] [data-tect-caption=transformante],.enc-tectonics[data-mode=punto-caliente] [data-tect-caption=punto-caliente]{display:block}
+.enc-tectonics figcaption{font-size:13px;line-height:1.55;color:inherit}.enc-tectonics figcaption p{margin:6px 0}.enc-tectonics .tect-examples{color:var(--muted)}.enc-tectonics .tect-note{font-size:11px;color:var(--muted)}
+.tect-label{font:600 12px system-ui,sans-serif;fill:#f3eee4;paint-order:stroke;stroke:rgba(10,12,16,.55);stroke-width:3px}
+.tect-small{font-size:11px;font-weight:500}.tect-strong{font-size:13px;fill:#ffe2a8}
+.tect-on-crust{fill:#2b2116;stroke:rgba(255,240,215,.5)}
+.tect-sea{stroke:#bfe3ff;stroke-width:1;stroke-dasharray:6 5;opacity:.6}
+.tect-litho{fill:#5d4c40;stroke:#2c241e;stroke-width:1}.tect-litho-cont{fill:#6a5847}
+.tect-ocrust{fill:#33404f;stroke:#1a222b;stroke-width:1}
+.tect-ccrust{fill:#b79a6c;stroke:#6e5838;stroke-width:1}.tect-ccrust-b{fill:#a88a5e}
+.tect-sky{fill:#31475c}
+.tect-suture{fill:none;stroke:#3b2a16;stroke-width:2;stroke-dasharray:5 4}
+.tect-arrow{fill:none;stroke:#ffe2a8;stroke-width:3}.tect-head{fill:#ffe2a8}.tect-arrow-light{stroke:#ffe2a8}.tect-arrow-faint{stroke-width:2;opacity:.45}
+.tect-flow{fill:none;stroke:#ffd0a0;stroke-width:2.2;stroke-dasharray:7 7;opacity:.85;animation:tect-flow 1.8s linear infinite}.tect-head-soft{fill:#ffd0a0}
+.tect-rise{fill:none;stroke:#ff8a3c;stroke-width:4;stroke-linecap:round;stroke-dasharray:3 9;animation:tect-flow 1.2s linear infinite}
+.tect-pulse{animation:tect-pulse 3.2s ease-in-out infinite}
+.tect-quake{fill:#ffd25a;stroke:#3a2a00;stroke-width:1}
+.tect-band{fill:#20262e}.tect-mag-n{fill:#e9e3d3}.tect-mag-r{fill:#4a5361}
+.tect-floor{fill:#2b3d52}.tect-iso{stroke:#7d93ab;stroke-width:1;opacity:.45}
+.tect-ridge{stroke:#ff9a52;stroke-width:3;fill:none}.tect-transform{stroke:#ff5a4a;stroke-width:4}.tect-fracture{stroke:#9fb1c4;stroke-width:2;stroke-dasharray:8 6;opacity:.7}
+.tect-active{fill:#4a3a33;stroke:#ff7a3c;stroke-width:1.5}.tect-old{fill:#3b4650;stroke:#1d252d}
+.tect-slide-l{animation:tect-slide-l 6s ease-in-out infinite alternate}.tect-slide-r{animation:tect-slide-r 6s ease-in-out infinite alternate}
+@keyframes tect-flow{to{stroke-dashoffset:-28}}
+@keyframes tect-pulse{50%{opacity:.72}}
+@keyframes tect-slide-l{to{transform:translateX(-10px)}}@keyframes tect-slide-r{to{transform:translateX(10px)}}
+@media (prefers-reduced-motion:reduce){.enc-tectonics *{animation:none!important}}
