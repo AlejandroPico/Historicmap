@@ -1,5 +1,9 @@
 # Historial de versiones
 
+## 0.71.0 · en curso (P09-A1 a A3)
+
+- P09-A1 · Primeros homininos (21/11/2026): 6 fichas de linaje nuevas que sustituyen a las heredadas (≈ 19.800 palabras): *Sahelanthropus tchadensis*, *Orrorin tugenensis*, *Ardipithecus kadabba*, *Ardipithecus ramidus*, *Australopithecus anamensis* y *Australopithecus afarensis*, con ficha, mapa de yacimientos, cronología, debates e imagen libre propia; conservan al final el árbol evolutivo y el comparador.
+
 ## 0.70.0 · 21 de noviembre de 2026
 
 - Enciclopedia P09-0 · Árbol evolutivo interactivo de los homininos (`:::componente arbol-homininos [clave]`, src/encyclopedia/hominin-tree.ts): los 39 linajes de `public/data/human-lineages.json` en un eje de 7 Ma a hoy, agrupados por género, con escala logarítmica o lineal, filtro de propuestas discutidas, cuatro flujos génicos documentados por ADN antiguo y clic para abrir cada ficha. Sustituye al antiguo esquema «hominin-timeline» de las 39 fichas de linaje y de los temas humanos, resaltando el linaje de la ficha abierta.

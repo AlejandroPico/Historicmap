@@ -172,7 +172,7 @@ Ampliación profunda de los 39 linajes (Sahelanthropus → Homo sapiens, pasando
 - **P09-D · Tecnologías líticas (10 páginas, `humanidad/tecnologias/`).** Lomekwiense, Olduvayense, Achelense, Levallois y Musteriense, Edad de Piedra Media africana, industrias del este de Asia (línea de Movius), industrias de transición (Châtelperroniense, Uluzziense), Auriñaciense, Gravetiense, y Solutrense con Magdaleniense. La sociedad y el arte del Paleolítico superior quedan para P10.
 - **Entregas.**
   - 0.70.0: P09-0 ✅ (21/11/2026).
-  - 0.71.0: A1–A3.
+  - 0.71.0: A1 ✅ (21/11/2026), A2, A3.
   - 0.72.0: A4, A5 y P09-B.
   - 0.73.0: P09-C y P09-D, con cierre y pruebas.
 
