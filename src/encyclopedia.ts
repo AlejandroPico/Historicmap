@@ -166,7 +166,8 @@ async function markdownPage(p: IndexPage): Promise<Page | undefined> {
   while (parent) { trail.unshift({ id: parent, title: knownTitle(parent) ?? parent }); parent = pageById(parent)?.padre ?? (parent.startsWith('geo-') ? (unitById(parent.slice(4))?.parent ? 'geo-' + unitById(parent.slice(4))!.parent : null) : null); }
   const legacy = encyclopediaArticle(p.id);
   const kids = index!.paginas.filter(c => c.padre === p.id).sort((a, b) => (a.orden ?? 1e9) - (b.orden ?? 1e9) || (a.inicio ?? 0) - (b.inicio ?? 0) || a.titulo.localeCompare(b.titulo,language));
-  const year = p.ancla ?? (p.inicio !== null && p.fin !== null && consultedYear >= p.inicio && consultedYear <= p.fin ? consultedYear : p.inicio) ?? consultedYear;
+  // Si la fecha consultada cae dentro del intervalo de la página, «Ver en el mapa» la conserva; si no, usa el ancla o el inicio.
+  const year = (p.inicio !== null && p.fin !== null && consultedYear >= p.inicio && consultedYear <= p.fin ? consultedYear : null) ?? p.ancla ?? p.inicio ?? consultedYear;
   const KIND: Record<string, string> = { portada: 'Enciclopedia', guia: tx('encyclopedia.guia'), geologia: tx('encyclopedia.escalaGeologica'), tierra: tx('encyclopedia.planetaTierra'), clima: 'Clima', vida: 'Vida', especie: 'Especie', humanidad: 'Humanidad', cultura: 'Cultura', contexto: tx('encyclopedia.contextoHistorico'), entidad: tx('encyclopedia.entidadPolitica'), persona: tx('encyclopedia.biografia'), evento: 'Acontecimiento', obra: tx('encyclopedia.obraYMonumento'), tema: 'Tema', lista: 'Listado' };
   return {
     id: p.id, kind: KIND[p.tipo] ?? p.tipo, title: p.titulo, summary: (md.meta.resumen as string) ?? '', year,

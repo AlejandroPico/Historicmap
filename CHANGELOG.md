@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.71.1 · 22 de noviembre de 2026
+
+- Corregido el fallo del despliegue en «encyclopedia retains applicable dates…» (earth-integration): en las páginas Markdown, «Ver en el mapa» usaba siempre el ancla de la página (p. ej. 3,4 Ma en *afarensis*) aunque la fecha consultada (3,2 Ma) estuviera dentro de su intervalo; ahora conserva la fecha consultada y solo recurre al ancla o al inicio cuando la fecha queda fuera.
+- Pruebas de navegador: espera por defecto de las aserciones subida de 5 s a 20 s (`expect.timeout` en playwright.config.ts) para absorber la lentitud del WebGL por software en las máquinas de integración continua, causa de los fallos intermitentes «#play aria-busy».
+- Validación completa: las 164 pruebas de navegador (salvo el barrido anual) en local, 163 aprobadas y la restante corregida y reprobada; 432 pruebas unitarias.
+
 ## 0.71.0 · 22 de noviembre de 2026
 
 - Enciclopedia P09-A1 a A3 · 24 fichas de linaje humano (≈ 80.700 palabras) en `enciclopedia/humanidad/linajes/`, que sustituyen a las heredadas con el mismo id `hominin-…` y conservan al final el árbol evolutivo y el comparador:
