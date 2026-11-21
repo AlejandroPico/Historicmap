@@ -1844,3 +1844,19 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 - Causa del fallo de earth-integration en CI: `markdownPage` calculaba el año de «Ver en el mapa» como `p.ancla ?? (consultado si cae en el intervalo)`; con las fichas Markdown de los linajes (que traen `anclaMapa`) el botón de *afarensis* llevaba a −3.398.051 en vez de conservar −3.200.000. Ahora: consultado si cae en [inicio, fin], si no ancla, si no inicio.
 - playwright.config.ts: `expect: { timeout: 20000 }`. Las esperas de 5 s (sobre todo `#play aria-busy=false` tras cargar mapas) fallaban de forma intermitente en los runners con SwiftShader.
 - Se ejecutó la batería completa de navegador en local (164 pruebas, 1,7 h): solo falló esa prueba. Lección: antes de cada entrega con páginas que sustituyen artículos heredados, ejecutar al menos earth-integration, human-expansion, hominin-tree, review-051, phanerozoic y precambrian.
+
+## 94. Índice, portadas e historial del navegador · 0.71.2 · 22/11/2026
+
+- `navigateEncyclopedia` hace `history.pushState({hmEnc, hmIds})` (misma URL); `onPopState` restaura `history`/`cursor` desde el estado, reabre el diálogo si estaba cerrado o lo cierra si el estado no es de la enciclopedia. Los botones ← → llaman a `step(±1)` → `window.history.go`. Ojo: `persistLocation` de main.ts usa `replaceState(null, …)`; solo actúa al cambiar el año del mapa, fuera del diálogo.
+- `group(..., intro?)` añade `data-encyclopedia-intro` al `<summary>`; al desplegar un grupo cerrado se navega a su portada (clic delegado en encyclopedia.ts). Portadas: `SCALE_INTRO = 'escala-temporal'`, `HUMAN_INTRO = 'humanidad-evolucion-humana'`.
+- «Evolución humana»: especies por `lineageKeysByAge()` (hominin-tree.ts), título de la página Markdown si existe y si no el heredado; procesos = temas heredados + `humanidad/procesos/`; yacimientos y tecnologías = `humanidad/yacimientos/` y `humanidad/tecnologias/`. La rama `humanidad` ya no se pinta aparte.
+- `richTitle()` convierte `*cursiva*` en `<em>` en entradas del índice y en el h1.
+- human-encyclopedia.ts: `hominin-timeline` con linaje → `homininStrip(key)` + botón al árbol + comparador; sin linaje (temas, incluido `hominin-origins`, que empieza por «hominin-» pero es tema) → árbol completo + comparador. La prueba unitaria exige `<svg` en todos los esquemas humanos.
+- Imagen de denisovanos: Tierra/Humanidad/linajes/denisovan/medios.json (molar para hominin-denisovan, cueva para human-contact) → `python3 scripts/prepare-human-knowledge.py` y `node scripts/audit-earth-integration.mjs` (sin --check) para regenerar; CI comprueba ambos.
+- Prueba e2e reescrita: tests/browser/hominin-tree.spec.ts (portadas, índice unificado, atrás/adelante del navegador).
+
+## 95. Enciclopedia · P09-A4 y A5 · 0.72.0 · 22/11/2026
+
+- 15 fichas en `enciclopedia/humanidad/linajes/` (orden 25–39); los 39 linajes tienen ya página Markdown (id `hominin-<clave>`).
+- Commons responde «too many requests» a la IP del entorno en la nube: los agentes escriben sin imagen y proponen títulos; el coordinador ejecuta `node scripts/fetch-encyclopedia-media.mjs --lista` en el equipo del usuario (device_bash, que tiene node y salida a Commons), trae las imágenes y las entradas de creditos.json con device_stage_files y las fusiona en la copia de la nube.
+- Entregas: un único zip en /mnt/user-data/outputs → SendUserFile → device_commit_files → se descomprime en el equipo y se mueve a `.git/` (fuera del árbol de trabajo); después se borra de outputs. No dejar más archivos en outputs.

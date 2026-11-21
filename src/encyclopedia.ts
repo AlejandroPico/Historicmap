@@ -17,7 +17,7 @@ import { loadIndex, loadSource, loadPerson, loadEntity, loadCentury, loadNames, 
 import { component, scaleView, mapSvg, successionChart } from './encyclopedia/components';
 import { handleSpeechChange, handleSpeechClick, playerMarkup, resetSpeech, stopSpeech } from './encyclopedia/speech';
 import { handleTectonicsClick } from './encyclopedia/tectonics';
-import { handleHomininTreeClick } from './encyclopedia/hominin-tree';
+import { handleHomininTreeClick, lineageKeysByAge } from './encyclopedia/hominin-tree';
 
 interface Source { title: string; url: string }
 interface Page {
@@ -311,9 +311,12 @@ function unitTree(parent: string | null, path: Set<string>): string {
     return `<div class="enc-node" data-open="${open}"><span class="enc-row">${kids ? `<button class="enc-toggle" data-enc-toggle aria-expanded="${open}" aria-label="Desplegar ${esc(u.name)}"></button>` : '<span class="enc-toggle"></span>'}${button}</span>${kids ? `<div class="enc-kids">${unitTree(u.id, path)}</div>` : ''}</div>`;
   }).join('');
 }
-function group(title: string, body: string, open = false, count?: number, sub = false) { return `<details class="enc-group${sub ? ' enc-subgroup' : ''}"${open ? ' open' : ''}><summary>${esc(title)}${count !== undefined ? ` <small>${count.toLocaleString(language)}</small>` : ''}</summary><div>${body}</div></details>`; }
-const entry = (id: string, title: string, sub = '') => `<button data-encyclopedia-entry="${esc(id)}"${history[cursor] === id ? ' aria-current="page"' : ''}>${sub ? `<small>${esc(sub)}</small>` : ''}${esc(title)}</button>`;
+/** Título con cursivas Markdown (*Homo erectus*) convertido en HTML seguro. */
+const richTitle = (t: string) => esc(t).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+function group(title: string, body: string, open = false, count?: number, sub = false, intro?: string) { return `<details class="enc-group${sub ? ' enc-subgroup' : ''}"${open ? ' open' : ''}><summary${intro ? ` data-encyclopedia-intro="${esc(intro)}"` : ''}>${esc(title)}${count !== undefined ? ` <small>${count.toLocaleString(language)}</small>` : ''}</summary><div>${body}</div></details>`; }
+const entry = (id: string, title: string, sub = '') => `<button data-encyclopedia-entry="${esc(id)}"${history[cursor] === id ? ' aria-current="page"' : ''}>${sub ? `<small>${esc(sub)}</small>` : ''}${richTitle(title)}</button>`;
 
+const SCALE_INTRO = 'escala-temporal', HUMAN_INTRO = 'humanidad-evolucion-humana';
 let searchSerial = 0;
 async function renderIndex() {
   const input = byId('encyclopedia-search') as HTMLInputElement, query = input.value.trim(), nav = byId('encyclopedia-index'), serial = ++searchSerial;
@@ -343,14 +346,12 @@ async function renderIndex() {
     const trail = [u, ...unitTrail(u)];
     return (trail.find(t => t.rank === 'era' && t.parent === 'Phanerozoic') ?? trail.find(t => t.rank === 'eon'))?.name ?? 'General';
   };
-  const HUMAN_FOLDERS: Record<string, string> = { linajes: tx('encyclopedia.humanidadLinajes'), procesos: tx('encyclopedia.humanidadProcesos'), yacimientos: tx('encyclopedia.humanidadYacimientos'), tecnologias: tx('encyclopedia.humanidadTecnologias') };
   const ERA_ORDER = [tx('encyclopedia.hadico'), 'Arcaico', 'Proterozoico', 'Paleozoico', 'Mesozoico', 'Cenozoico', 'General'];
+  delete branches.humanidad; // integrada en «Evolución humana»
   const byBranch = Object.entries(branches).map(([b, title]) => {
     const all = pages.filter(p => p.rama === b); if (!all.length) return '';
     const sorted = all.sort((x, y) => (x.inicio !== null && y.inicio !== null ? x.inicio - y.inicio : 0) || (x.orden ?? 1e9) - (y.orden ?? 1e9) || x.titulo.localeCompare(y.titulo,language));
-    // Humanidad se subdivide por subcarpeta (linajes, procesos, yacimientos, tecnologías); el resto, por eón o era.
-    const bucketOf = (p: IndexPage) => b === 'humanidad' ? HUMAN_FOLDERS[p.ruta.split('/')[1]] ?? 'General' : eraOf(p);
-    const order = b === 'humanidad' ? [...Object.values(HUMAN_FOLDERS), 'General'] : ERA_ORDER;
+    const bucketOf = eraOf, order = ERA_ORDER;
     const buckets = new Map<string, IndexPage[]>(); for (const p of sorted) { const k = bucketOf(p); buckets.set(k, [...(buckets.get(k) ?? []), p]); }
     const body = buckets.size === 1 ? sorted.map(p => entry(p.id, p.titulo)).join('') : [...buckets].sort((a, c) => order.indexOf(a[0]) - order.indexOf(c[0])).map(([k, list]) => group(k, list.map(p => entry(p.id, p.titulo)).join(''), list.some(p => p.id === history[cursor]), list.length, true)).join('');
     return group(title, body, all.some(p => p.id === history[cursor]), all.length);
@@ -360,13 +361,27 @@ async function renderIndex() {
   const archive = archiveBuckets.map(([k, test]) => { const list = events.filter(e => test(e.observedAgeMa ?? 0)); return list.length ? group(k, list.map(e => entry(e.videoId, e.name)).join(''), false, list.length, true) : ''; }).join('');
   const concepts = curatedGroups.map(([k, list]) => { const l = list.filter(a => !isReplaced(a.id) && !pageById(a.id)); return l.length ? group(k, l.map(a => entry(a.id, a.title)).join(''), l.some(a => a.id === history[cursor]), l.length, true) : ''; }).join('');
   const conceptCount = curatedGroups.reduce((n, [, l]) => n + l.filter(a => !isReplaced(a.id) && !pageById(a.id)).length, 0);
-  const general = pages.filter(p => ['portada', 'guia'].includes(p.tipo)).sort((x, y) => (x.orden ?? 1e9) - (y.orden ?? 1e9));
+  const general = pages.filter(p => ['portada', 'guia'].includes(p.tipo) && p.id !== SCALE_INTRO).sort((x, y) => (x.orden ?? 1e9) - (y.orden ?? 1e9));
+  // Evolución humana: portada, especies (página nueva si existe, si no la ficha heredada), procesos, yacimientos y tecnologías.
+  const current = history[cursor] ?? '';
+  const titleOf = (id: string, fallback: string) => pageById(id)?.titulo ?? fallback;
+  const speciesIds = lineageKeysByAge().map(k => 'hominin-' + k);
+  const legacyHuman = new Map(humanKnowledge.articles.map(a => [a.id, a.title]));
+  const species = speciesIds.filter(id => legacyHuman.has(id) || pageById(id)).map(id => entry(id, titleOf(id, legacyHuman.get(id) ?? id)));
+  const humanPages = (folder: string) => pages.filter(p => p.rama === 'humanidad' && p.ruta.split('/')[1] === folder && !p.id.startsWith('hominin-') && p.id !== HUMAN_INTRO);
+  const themes = [...humanKnowledge.articles.filter(a => !a.id.startsWith('hominin-')).map(a => ({ id: a.id, titulo: titleOf(a.id, a.title) })), ...humanPages('procesos').filter(p => !legacyHuman.has(p.id))];
+  const humanSub: [string, { id: string; titulo: string }[]][] = [[tx('encyclopedia.humanidadProcesos'), themes], [tx('encyclopedia.humanidadYacimientos'), humanPages('yacimientos')], [tx('encyclopedia.humanidadTecnologias'), humanPages('tecnologias')]];
+  const humanIds = new Set<string>([HUMAN_INTRO, ...speciesIds, ...humanSub.flatMap(([, l]) => l.map(p => p.id))]);
+  const humanBody = (pageById(HUMAN_INTRO) ? entry(HUMAN_INTRO, titleOf(HUMAN_INTRO, '')) : '')
+    + group(tx('encyclopedia.especiesHumanas'), species.join(''), speciesIds.includes(current), species.length, true)
+    + humanSub.filter(([, l]) => l.length).map(([k, l]) => group(k, l.map(p => entry(p.id, p.titulo)).join(''), l.some(p => p.id === current), l.length, true)).join('');
+  const humanCount = species.length + humanSub.reduce((n, [, l]) => n + l.length, 0) + (pageById(HUMAN_INTRO) ? 1 : 0);
   nav.innerHTML = [
     entry('fecha-' + consultedYear, (consultedYear <= -1000000 ? tx('encyclopedia.laTierraHace') : tx('encyclopedia.elMundoEn')) + formatYear(consultedYear), tx('encyclopedia.ahoraEnElMapa')),
     ...general.map(p => entry(p.id, p.titulo)),
-    group(tx('encyclopedia.escalaTemporalGeologica'), `<div class="enc-tree">${unitTree(null, path)}</div>`, history[cursor]?.startsWith('geo-'), geologicalUnits.length),
+    group(tx('encyclopedia.escalaTemporalGeologica'), (pageById(SCALE_INTRO) ? entry(SCALE_INTRO, titleOf(SCALE_INTRO, '')) : '') + `<div class="enc-tree">${unitTree(null, path)}</div>`, current.startsWith('geo-') || current === SCALE_INTRO, geologicalUnits.length, false, pageById(SCALE_INTRO) ? SCALE_INTRO : undefined),
     group(tx('encyclopedia.conceptosYProcesos'), concepts, false, conceptCount),
-    group(tx('encyclopedia.evolucionHumana'), humanKnowledge.articles.map(a => entry(a.id, a.title)).join(''), false, humanKnowledge.articles.length),
+    group(tx('encyclopedia.evolucionHumana'), humanBody, humanIds.has(current), humanCount, false, pageById(HUMAN_INTRO) ? HUMAN_INTRO : undefined),
     group(tx('encyclopedia.edadesDeLaHumanidad'), humanUnits.map(u => entry('human-' + u.id, u.name, u.scope)).join(''), false, humanUnits.length),
     byBranch,
     group(tx('encyclopedia.archivoAudiovisual'), archive, history[cursor]?.startsWith('video-'), events.length)
@@ -391,7 +406,7 @@ async function render(composeAll = false) {
   byId('encyclopedia-article').innerHTML = `<article data-article="${esc(page.id)}" class="enc-page">
 <header class="enc-head">
 ${page.breadcrumb.length ? `<nav class="encyclopedia-breadcrumb" aria-label="${tx('encyclopedia.jerarquia')}">${page.breadcrumb.map(b => `<button data-encyclopedia-entry="${esc(b.id)}">${esc(b.title)}</button>`).join('<span>›</span>')}</nav>` : ''}
-<div class="encyclopedia-kicker">${esc(page.kind)}</div><h1 tabindex="-1">${esc(page.title)}</h1>${page.summary ? `<p class="encyclopedia-lead">${esc(page.summary)}</p>` : ''}
+<div class="encyclopedia-kicker">${esc(page.kind)}</div><h1 tabindex="-1">${richTitle(page.title)}</h1>${page.summary ? `<p class="encyclopedia-lead">${esc(page.summary)}</p>` : ''}
 <div class="encyclopedia-actions"><button class="primary-button" data-encyclopedia-map="${page.year}">${tx('encyclopedia.verEnElMapa')} ${formatYear(page.year)}</button>${descendants ? `<button class="enc-compose" data-encyclopedia-compose="${composeAll ? 'off' : 'on'}" aria-pressed="${composeAll}">${composeAll ? tx('encyclopedia.leerSoloEstaPagina') : tx('encyclopedia.leerCompletoIncluyeSubdivisiones',{descendants})}</button>` : ''}</div>
 </header>
 <div class="enc-columns"><div class="enc-main">
@@ -420,8 +435,21 @@ async function hydrate(root: HTMLElement) {
 }
 
 export function navigateEncyclopedia(id: string) {
-  history = history.slice(0, cursor + 1); history.push(id); cursor = history.length - 1; void render();
+  history = history.slice(0, cursor + 1); history.push(id); cursor = history.length - 1;
+  // Cada artículo es una entrada del historial del navegador: los botones atrás/adelante del navegador o del ratón recorren la enciclopedia.
+  window.history.pushState({ hmEnc: cursor, hmIds: history.slice() }, '', location.href);
+  void render();
 }
+type EncState = { hmEnc: number; hmIds: string[] };
+const encState = (s: unknown): EncState | null => s && typeof (s as EncState).hmEnc === 'number' && Array.isArray((s as EncState).hmIds) ? s as EncState : null;
+/** Atrás/adelante del navegador: restaura el artículo de esa entrada, reabre la enciclopedia si estaba cerrada o la cierra al salir de ella. */
+function onPopState(e: PopStateEvent) {
+  if (!dialog || !onMap) return;
+  const state = encState(e.state);
+  if (state) { history = state.hmIds.slice(); cursor = Math.min(state.hmEnc, history.length - 1); if (!dialog.open) dialog.showModal(); void render(); }
+  else if (dialog.open) dialog.close();
+}
+const step = (delta: number) => { const st = encState(window.history.state); if (st && dialog.open) window.history.go(delta); else { cursor += delta; void render(); } };
 
 function setup() {
   dialog = document.createElement('dialog'); dialog.id = 'encyclopedia'; dialog.setAttribute('aria-labelledby', 'encyclopedia-title');
@@ -429,13 +457,15 @@ function setup() {
   document.body.append(dialog);
   byId('encyclopedia-search').oninput = () => void renderIndex();
   byId('encyclopedia-close').onclick = () => dialog.close();
-  byId('encyclopedia-back').onclick = () => { if (cursor > 0) { cursor--; void render(); } };
-  byId('encyclopedia-forward').onclick = () => { if (cursor < history.length - 1) { cursor++; void render(); } };
+  byId('encyclopedia-back').onclick = () => { if (cursor > 0) step(-1); };
+  window.addEventListener('popstate', onPopState);
+  byId('encyclopedia-forward').onclick = () => { if (cursor < history.length - 1) step(1); };
   dialog.addEventListener('change', e => { handleSpeechChange(e.target as Element); });
   dialog.addEventListener('close', () => { stopSpeech(); byId('encyclopedia-video-frame')?.replaceChildren(); returnFocus?.setAttribute('aria-expanded', 'false'); returnFocus?.focus(); });
   dialog.addEventListener('click', e => {
     const target = e.target as Element;
-    if (target.closest('summary')) return;
+    const summary = target.closest<HTMLElement>('summary');
+    if (summary) { const intro = summary.dataset.encyclopediaIntro, details = summary.parentElement as HTMLDetailsElement | null; if (intro && details && !details.open) navigateEncyclopedia(intro); return; }
     if (handleSpeechClick(target)) return;
     if (handleTectonicsClick(target)) return;
     if (handleHomininTreeClick(target)) return;

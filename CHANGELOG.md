@@ -1,5 +1,20 @@
 # Historial de versiones
 
+## 0.72.0 · 22 de noviembre de 2026
+
+- Enciclopedia P09-A4 y A5 · las 15 fichas de linaje restantes (≈ 58.000 palabras); las 39 especies humanas del atlas tienen ya monografía propia:
+  - A4 · Pleistoceno medio: *Homo antecessor*, *cepranensis*, *heidelbergensis*, *rhodesiensis*, *bodoensis*, *helmei*, *naledi*, población de Nesher Ramla, *longi* y *juluensis*.
+  - A5 · Linajes tardíos: neandertales (la monografía más extensa, ≈ 10.000 palabras, con El Sidrón, Valdegoba, Zafarraya y Gibraltar), denisovanos, *Homo floresiensis*, *Homo luzonensis* y *Homo sapiens*.
+- Imágenes libres nuevas (15), entre ellas el cráneo de La Chapelle-aux-Saints, la mandíbula de Xiahe, Jebel Irhoud, Florisbad, Bodo, Ceprano y Nesher Ramla. Commons limita las peticiones desde el entorno de trabajo en la nube; parte de las descargas se hicieron con el script de la enciclopedia desde el equipo local.
+
+## 0.71.2 · 22 de noviembre de 2026
+
+- Navegación: cada artículo abierto en la enciclopedia es una entrada del historial del navegador; los botones atrás/adelante del navegador o del ratón recorren los artículos, reabren la enciclopedia si se cerró y la cierran al salir de su primera página. Los botones ← → de la cabecera usan el mismo historial.
+- Índice lateral: los desplegables pueden tener artículo de portada, que se abre al desplegarlos. «Escala temporal geológica» abre su artículo `escala-temporal` (que deja de aparecer suelto y pasa a ser la primera entrada del desplegable); «Evolución humana» abre la nueva portada `humanidad-evolucion-humana`.
+- Evolución humana unificada: desaparece la rama duplicada «Humanidad»; el desplegable «Evolución humana» reúne la portada, el subdesplegable «Especies humanas» (los 39 linajes de más antiguo a más reciente, con la monografía nueva donde existe y la ficha heredada donde aún no), «Procesos», «Yacimientos» y «Tecnologías de la piedra». Los títulos con cursivas Markdown (*Homo erectus*) se muestran en cursiva en el índice y en el encabezado, sin asteriscos.
+- Portada nueva «Evolución humana»: árbol evolutivo completo, cómo leerlo, grandes etapas, hitos y organización del apartado. El árbol deja de repetirse en cada ficha de especie, que muestra en su lugar una franja compacta con su posición en el tiempo frente a los demás linajes, un botón al árbol completo y el comparador. Los temas generales (orígenes, australopitecos, Homo temprano, diversidad, taxonomía) conservan el árbol completo.
+- Denisovanos: la imagen de portada pasa a ser el molar original Denisova 4 (Thilo Parg, CC BY-SA 4.0); la foto de la entrada de la cueva queda para el tema de contacto y mezcla genética. Regenerados public/data/human-knowledge.json y el inventario Tierra/Investigacion/parte-6/integracion.json.
+
 ## 0.71.1 · 22 de noviembre de 2026
 
 - Corregido el fallo del despliegue en «encyclopedia retains applicable dates…» (earth-integration): en las páginas Markdown, «Ver en el mapa» usaba siempre el ancla de la página (p. ej. 3,4 Ma en *afarensis*) aunque la fecha consultada (3,2 Ma) estuviera dentro de su intervalo; ahora conserva la fecha consultada y solo recurre al ancla o al inicio cuando la fecha queda fuera.

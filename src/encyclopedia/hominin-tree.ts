@@ -10,6 +10,8 @@ type Taxon = { key: string; name: string; group: string; color: string; oldestKa
 const taxa = catalogue.taxa as Taxon[];
 const REFERENCE = new Set(['especie de referencia', 'linaje genético']);
 export const isReference = (t: Taxon) => REFERENCE.has(t.classification);
+/** Claves de los 39 linajes, del más antiguo al más reciente. */
+export const lineageKeysByAge = () => [...taxa].sort((a, b) => b.oldestKa - a.oldestKa || b.youngestKa - a.youngestKa).map(t => t.key);
 
 function groups(): [string, string][] {
   return [
@@ -66,6 +68,15 @@ export function homininTreeSvg(opts: { log: boolean; all: boolean; focus?: strin
   }).join('');
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(tx('arbolHomininos.titulo'))}"><defs><marker id="htree-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="htree-head"/></marker></defs>
 ${ticks}${body}${arrows}<text x="${RIGHT}" y="${H - 6}" class="htree-tick" text-anchor="end">${esc(opts.log ? tx('arbolHomininos.notaLog') : tx('arbolHomininos.notaLineal'))}</text></svg>`;
+}
+
+/** Franja compacta para las fichas de especie: sitúa el linaje en el eje de 7 Ma a hoy frente a los demás (en gris). */
+export function homininStrip(key: string) {
+  const t = taxa.find(x => x.key === key); if (!t) return '';
+  const H = 62, y = 24, ticks = LOG_TICKS.filter(k => k !== 4000).map(ka => `<text x="${xOf(ka, true)}" y="14" class="htree-tick" text-anchor="middle">${esc(fmtKa(ka))}</text>`).join('');
+  const others = taxa.filter(x => x.key !== key).map(x => { const x1 = xOf(x.oldestKa, true), x2 = Math.max(xOf(x.youngestKa, true), x1 + 3); return `<rect x="${x1}" y="${y + 4}" width="${x2 - x1}" height="6" rx="3" class="hstrip-other"/>`; }).join('');
+  const x1 = xOf(t.oldestKa, true), x2 = Math.max(xOf(t.youngestKa, true), x1 + 5);
+  return `<figure class="enc-component enc-hstrip"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(`${t.name} · ${fmtKa(t.oldestKa)} – ${fmtKa(t.youngestKa)}`)}">${ticks}<line x1="${LEFT}" y1="${y + 7}" x2="${RIGHT}" y2="${y + 7}" class="htree-rule"/>${others}<rect x="${x1}" y="${y}" width="${x2 - x1}" height="14" rx="5" fill="${esc(t.color)}" class="hstrip-this"/><text x="${LEFT - 8}" y="${y + 11}" class="htree-name" text-anchor="end">${esc(t.name)}</text><text x="${LEFT - 8}" y="${y + 28}" class="htree-tick" text-anchor="end">${esc(`${fmtKa(t.oldestKa)} – ${fmtKa(t.youngestKa)}`)}</text></svg><figcaption>${esc(tx('arbolHomininos.franja'))}</figcaption></figure>`;
 }
 
 export function homininTree(args: string) {
