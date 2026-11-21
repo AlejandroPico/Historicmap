@@ -17,6 +17,7 @@ import { loadIndex, loadSource, loadPerson, loadEntity, loadCentury, loadNames, 
 import { component, scaleView, mapSvg, successionChart } from './encyclopedia/components';
 import { handleSpeechChange, handleSpeechClick, playerMarkup, resetSpeech, stopSpeech } from './encyclopedia/speech';
 import { handleTectonicsClick } from './encyclopedia/tectonics';
+import { handleHomininTreeClick } from './encyclopedia/hominin-tree';
 
 interface Source { title: string; url: string }
 interface Page {
@@ -341,12 +342,16 @@ async function renderIndex() {
     const trail = [u, ...unitTrail(u)];
     return (trail.find(t => t.rank === 'era' && t.parent === 'Phanerozoic') ?? trail.find(t => t.rank === 'eon'))?.name ?? 'General';
   };
+  const HUMAN_FOLDERS: Record<string, string> = { linajes: tx('encyclopedia.humanidadLinajes'), procesos: tx('encyclopedia.humanidadProcesos'), yacimientos: tx('encyclopedia.humanidadYacimientos'), tecnologias: tx('encyclopedia.humanidadTecnologias') };
   const ERA_ORDER = [tx('encyclopedia.hadico'), 'Arcaico', 'Proterozoico', 'Paleozoico', 'Mesozoico', 'Cenozoico', 'General'];
   const byBranch = Object.entries(branches).map(([b, title]) => {
     const all = pages.filter(p => p.rama === b); if (!all.length) return '';
     const sorted = all.sort((x, y) => (x.inicio !== null && y.inicio !== null ? x.inicio - y.inicio : 0) || (x.orden ?? 1e9) - (y.orden ?? 1e9) || x.titulo.localeCompare(y.titulo,language));
-    const buckets = new Map<string, IndexPage[]>(); for (const p of sorted) { const k = eraOf(p); buckets.set(k, [...(buckets.get(k) ?? []), p]); }
-    const body = buckets.size === 1 ? sorted.map(p => entry(p.id, p.titulo)).join('') : [...buckets].sort((a, c) => ERA_ORDER.indexOf(a[0]) - ERA_ORDER.indexOf(c[0])).map(([k, list]) => group(k, list.map(p => entry(p.id, p.titulo)).join(''), list.some(p => p.id === history[cursor]), list.length, true)).join('');
+    // Humanidad se subdivide por subcarpeta (linajes, procesos, yacimientos, tecnologías); el resto, por eón o era.
+    const bucketOf = (p: IndexPage) => b === 'humanidad' ? HUMAN_FOLDERS[p.ruta.split('/')[1]] ?? 'General' : eraOf(p);
+    const order = b === 'humanidad' ? [...Object.values(HUMAN_FOLDERS), 'General'] : ERA_ORDER;
+    const buckets = new Map<string, IndexPage[]>(); for (const p of sorted) { const k = bucketOf(p); buckets.set(k, [...(buckets.get(k) ?? []), p]); }
+    const body = buckets.size === 1 ? sorted.map(p => entry(p.id, p.titulo)).join('') : [...buckets].sort((a, c) => order.indexOf(a[0]) - order.indexOf(c[0])).map(([k, list]) => group(k, list.map(p => entry(p.id, p.titulo)).join(''), list.some(p => p.id === history[cursor]), list.length, true)).join('');
     return group(title, body, all.some(p => p.id === history[cursor]), all.length);
   }).join('');
   const archiveBuckets: [string, (ma: number) => boolean][] = [[tx('encyclopedia.precambrico'), ma => ma > 538.8], ['Paleozoico', ma => ma <= 538.8 && ma > 251.9], ['Mesozoico', ma => ma <= 251.9 && ma > 66], ['Cenozoico', ma => ma <= 66]];
@@ -432,6 +437,7 @@ function setup() {
     if (target.closest('summary')) return;
     if (handleSpeechClick(target)) return;
     if (handleTectonicsClick(target)) return;
+    if (handleHomininTreeClick(target)) return;
     const zoom = target.closest<HTMLElement>('[data-scale-zoom]');
     if (zoom) { const fig = zoom.closest<HTMLElement>('.enc-scale'); if (fig) { const caption = fig.querySelector('figcaption')?.outerHTML ?? ''; fig.innerHTML = scaleView(zoom.dataset.scaleZoom ?? '') + caption; } return; }
     const toggle = target.closest<HTMLElement>('[data-enc-toggle]');

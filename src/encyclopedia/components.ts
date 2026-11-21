@@ -9,6 +9,7 @@ import { planetRecordFor, planetValue, type PlanetField } from '../planet';
 import { formatYear } from '../time';
 import { esc, inline } from './markdown';
 import { tectonicPlates } from './tectonics';
+import { homininTree } from './hominin-tree';
 import { civilYear } from '../../scripts/lib/encyclopedia-format.mjs';
 
 export interface ComponentContext { year: number; media?: (path: string) => string | undefined; credit?: (path: string) => string | undefined }
@@ -181,7 +182,7 @@ function gallery(args: string, ctx: ComponentContext, content: string) {
 
 export const registry: Record<string, Component> = {
   'escala-geologica': scale, 'reloj-geologico': clock, 'curva-temperatura-fanerozoico': phanda, 'atmosfera': atmosphere,
-  'grafico': chart, 'linea-tiempo': timeline, 'mapa': locator, 'galeria': gallery, 'tectonica-placas': tectonicPlates
+  'grafico': chart, 'linea-tiempo': timeline, 'mapa': locator, 'galeria': gallery, 'tectonica-placas': tectonicPlates, 'arbol-homininos': homininTree
 };
 /** Bloques de Markdown que llevan datos y se resuelven como componentes. */
 export const BLOCK_COMPONENTS = ['grafico', 'linea-tiempo', 'mapa', 'galeria'];

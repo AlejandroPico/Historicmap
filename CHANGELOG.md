@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.70.0 · 21 de noviembre de 2026
+
+- Enciclopedia P09-0 · Árbol evolutivo interactivo de los homininos (`:::componente arbol-homininos [clave]`, src/encyclopedia/hominin-tree.ts): los 39 linajes de `public/data/human-lineages.json` en un eje de 7 Ma a hoy, agrupados por género, con escala logarítmica o lineal, filtro de propuestas discutidas, cuatro flujos génicos documentados por ADN antiguo y clic para abrir cada ficha. Sustituye al antiguo esquema «hominin-timeline» de las 39 fichas de linaje y de los temas humanos, resaltando el linaje de la ficha abierta.
+- La rama Humanidad del índice se subdivide por subcarpeta: especies y linajes, procesos, yacimientos y tecnologías de la piedra (preparada para P09-A…D).
+- Prueba de navegador nueva `tests/browser/hominin-tree.spec.ts`.
+
 ## 0.69.0 · 18 de noviembre de 2026
 
 - Enciclopedia P08 · Procesos transversales y bestiario: 96 páginas nuevas (≈ 259.000 palabras). 14 síntesis en la rama nueva «Procesos y síntesis» (tectónica de placas, extinciones masivas, glaciaciones de Pongola a hoy, supercontinentes, grandes impactos, nivel del mar, historia de la atmósfera, océanos, fósiles y tafonomía, indicadores paleoclimáticos, biodiversidad, escala del tiempo geológico, incertidumbre y neblina orgánica arcaica); 11 sustituyen a sus artículos heredados.

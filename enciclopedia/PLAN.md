@@ -156,6 +156,28 @@ Páginas resumen con listados enlazados: **las extinciones masivas** (las cinco 
 Ampliación profunda de los 39 linajes (Sahelanthropus → Homo sapiens, pasando por Lucy, *H. heidelbergensis*, neandertales, denisovanos, *floresiensis*, *luzonensis*, *naledi*…), procesos (bipedismo, fuego, lenguaje, cerebro), migraciones fuera de África, yacimientos clave (Atapuerca, Olduvai, Denisova…), tecnologías líticas (Olduvayense → Magdaleniense), mezcla genética. Árbol evolutivo interactivo.
 *Volumen:* ~80 páginas.
 
+*Plan detallado de P09 (21/11/2026).* Carpeta `enciclopedia/humanidad/` con cuatro subcarpetas que el índice muestra como subgrupos de la rama «Humanidad». Los 39 linajes y 9 de los 10 temas heredados se sustituyen con su mismo id (`hominin-…`, sin `reemplaza`) y conservan al final sus esquemas y el comparador; las páginas nuevas usan `humanidad-…`. «Del poblamiento a las primeras sociedades productoras» (`neolithic-transition`) queda para P10.
+
+- **P09-0 · Infraestructura (código propio).** Árbol evolutivo interactivo `:::componente arbol-homininos` (eje temporal 7 Ma–hoy, barras con el rango de cada linaje leído de `Tierra/Humanidad/linajes/*/linaje.json`, agrupadas por género, flechas de flujo génico neandertal–sapiens–denisovano, filtro «especies de referencia / propuestas discutidas», clic para abrir la ficha; textos en i18n). Subgrupos de la rama Humanidad por subcarpeta. Pruebas e2e.
+- **P09-A · Linajes (39 páginas, `humanidad/linajes/`).** Las especies de referencia, con un mínimo de 2.000 palabras y de 3.000 para las cinco grandes; las propuestas discutidas, con un mínimo de 1.500.
+  - A1 · Primeros homininos (6): *Sahelanthropus*, *Orrorin*, *Ar. kadabba*, *Ar. ramidus*, *Au. anamensis*, *Au. afarensis*.
+  - A2 · Diversidad australopitecina (8): *bahrelghazali*, *deyiremeda*, *Kenyanthropus platyops*, *Au. africanus*, *prometheus*, *garhi*, *sediba*, Ledi-Geraru *Australopithecus*.
+  - A3 · Parántropos y *Homo* temprano (10): *P. aethiopicus*, *boisei* y *robustus*; Ledi-Geraru *Homo*, *H. habilis*, *rudolfensis*, *gautengensis*, *ergaster*, *erectus* y *georgicus*.
+  - A4 · Pleistoceno medio (10): *antecessor*, *cepranensis*, *heidelbergensis*, *rhodesiensis*, *bodoensis*, *helmei*, *naledi*, Nesher Ramla, *longi* y *juluensis*.
+  - A5 · Linajes tardíos (5): neandertales, denisovanos, *floresiensis*, *luzonensis* y *Homo sapiens*.
+- **P09-B · Procesos (15 páginas, `humanidad/procesos/`).**
+  - Sustituyen 9 temas heredados: orígenes de los homininos, australopitecos, *Homo* temprano y primeras dispersiones, diversidad del Pleistoceno, expansión de *H. sapiens*, contacto y mezcla genética, taxonomía (especie, linaje, población), glaciaciones y ambientes humanos, y tecnología lítica (visión general).
+  - Nuevas (6): bipedismo, cerebro y desarrollo, fuego y cocina, lenguaje y cognición, dieta y caza, y paleogenómica y ADN antiguo.
+- **P09-C · Yacimientos (16 páginas, `humanidad/yacimientos/`).** Atapuerca (Sima del Elefante, Gran Dolina, Sima de los Huesos), Orce y Venta Micena, Olduvai, cuenca del Turkana (Koobi Fora, Nariokotome, Lomekwi), Afar (Hadar y Middle Awash), Laetoli, Cuna de la Humanidad (Sterkfontein, Swartkrans, Rising Star, Malapa), Dmanisi, Zhoukoudian, Sangiran y Trinil, Liang Bua, Denisova, Jebel Irhoud, Omo Kibish, Levante (Skhul, Qafzeh, Misliya, Tabun) y Gibraltar (Gorham y Vanguard) junto con El Sidrón.
+- **P09-D · Tecnologías líticas (10 páginas, `humanidad/tecnologias/`).** Lomekwiense, Olduvayense, Achelense, Levallois y Musteriense, Edad de Piedra Media africana, industrias del este de Asia (línea de Movius), industrias de transición (Châtelperroniense, Uluzziense), Auriñaciense, Gravetiense, y Solutrense con Magdaleniense. La sociedad y el arte del Paleolítico superior quedan para P10.
+- **Entregas.**
+  - 0.70.0: P09-0 ✅ (21/11/2026).
+  - 0.71.0: A1–A3.
+  - 0.72.0: A4, A5 y P09-B.
+  - 0.73.0: P09-C y P09-D, con cierre y pruebas.
+
+  Se trabaja con dos agentes a la vez y de 5 a 8 páginas por agente, con imágenes libres únicas en `medios/humanidad-…`.
+
 **P10 · Del Paleolítico superior al Neolítico**
 Paleolítico superior y arte rupestre, Último Máximo Glacial, poblamiento de América por Beringia, Mesolítico, Holoceno temprano, Neolítico y domesticación por focos (Creciente Fértil, China, Mesoamérica, Andes, Sahel, Nueva Guinea), megalitismo, primeros metales. Páginas para las **culturas del mapa** (las 503 de `Países/CULTURE-*`, agrupadas por familias cuando sean muy afines), p. ej. «Tierras bajas aluviales · comunidades mesolíticas».
 *Volumen:* ~60 monografías + fichas B/C de culturas.
@@ -250,4 +272,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P06 | ✅ Mesozoico completo (17/11/2026) · versión 0.67.0 · 57 páginas, ≈ 224.600 palabras |
 | P07 | ✅ Cenozoico completo (17/11/2026) · versión 0.68.0 · 47 páginas, ≈ 167.200 palabras |
 | P08 | ✅ Procesos y bestiario (18/11/2026) · versión 0.69.0 · 96 páginas, ≈ 259.000 palabras |
-| P09–P24 | Pendientes |
+| P09 | 🟡 Planificada (21/11/2026): árbol interactivo + 39 linajes + 15 procesos + 16 yacimientos + 10 tecnologías ≈ 80 páginas, en 4 entregas (0.70–0.73); P09-0 ✅ 0.70.0 |
+| P10–P24 | Pendientes |

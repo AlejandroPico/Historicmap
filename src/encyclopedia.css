@@ -297,3 +297,15 @@ button.enc-toggle::before{content:'▸';display:inline-block;transition:transfor
 @keyframes tect-pulse{50%{opacity:.72}}
 @keyframes tect-slide-l{to{transform:translateX(-10px)}}@keyframes tect-slide-r{to{transform:translateX(10px)}}
 @media (prefers-reduced-motion:reduce){.enc-tectonics *{animation:none!important}}
+/* Árbol evolutivo de los homininos */
+.enc-htree .htree-controls{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.enc-htree .htree-controls button{font:inherit;font-size:12px;padding:5px 11px;border-radius:999px;border:1px solid var(--line,rgba(127,127,127,.35));background:transparent;color:inherit;cursor:pointer}
+.enc-htree .htree-controls button[aria-pressed=true]{background:var(--accent,#d4b06a);border-color:transparent;color:#1b1b1b;font-weight:600}
+.enc-htree .htree-canvas{border-radius:10px;background:#1c2128;padding:4px 0}
+.htree-grid{stroke:#e8e2d4;stroke-opacity:.09}.htree-tick{font:11px system-ui,sans-serif;fill:#b7b1a5}
+.htree-group{font:600 11px system-ui,sans-serif;fill:#e9c98a;letter-spacing:.04em;text-transform:uppercase}.htree-rule{stroke:#e9c98a;stroke-opacity:.25}
+.htree-name{font:italic 12px system-ui,sans-serif;fill:#ece6da}.htree-row.is-alt .htree-name{fill:#a7a297}.htree-row.is-alt .htree-bar{opacity:.55}
+.htree-hit{fill:transparent}.htree-row{cursor:pointer}.htree-row:hover .htree-hit,.htree-row:focus .htree-hit{fill:rgba(255,255,255,.06)}.htree-row:focus{outline:none}
+.htree-row.is-focus .htree-hit{fill:rgba(233,201,138,.14)}.htree-row.is-focus .htree-name{font-weight:700;fill:#ffe2a8}.htree-row.is-focus .htree-bar{stroke:#fff;stroke-width:1.2}
+.htree-flow{fill:none;stroke:#8ff0e4;stroke-width:2;stroke-dasharray:5 3}.htree-flow-under{fill:none;stroke:#10151b;stroke-width:5;stroke-opacity:.8}.htree-head{fill:#8ff0e4}
+.enc-htree .htree-key{display:inline-flex;align-items:center;gap:6px;margin-left:8px}.enc-htree .htree-swatch{display:inline-block;width:18px;border-top:2px dashed #7fd1c7}
