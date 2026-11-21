@@ -1,8 +1,12 @@
 # Historial de versiones
 
-## 0.71.0 · en curso (P09-A1 a A3)
+## 0.71.0 · 22 de noviembre de 2026
 
-- P09-A1 · Primeros homininos (21/11/2026): 6 fichas de linaje nuevas que sustituyen a las heredadas (≈ 19.800 palabras): *Sahelanthropus tchadensis*, *Orrorin tugenensis*, *Ardipithecus kadabba*, *Ardipithecus ramidus*, *Australopithecus anamensis* y *Australopithecus afarensis*, con ficha, mapa de yacimientos, cronología, debates e imagen libre propia; conservan al final el árbol evolutivo y el comparador.
+- Enciclopedia P09-A1 a A3 · 24 fichas de linaje humano (≈ 80.700 palabras) en `enciclopedia/humanidad/linajes/`, que sustituyen a las heredadas con el mismo id `hominin-…` y conservan al final el árbol evolutivo y el comparador:
+  - A1 · Primeros homininos: *Sahelanthropus*, *Orrorin*, *Ardipithecus kadabba* y *ramidus*, *Australopithecus anamensis* y *afarensis*.
+  - A2 · Diversidad australopitecina: *bahrelghazali*, *deyiremeda*, *Kenyanthropus platyops*, *africanus*, *prometheus*, *garhi*, *sediba* y el *Australopithecus* de Ledi-Geraru.
+  - A3 · Parántropos y *Homo* temprano: *Paranthropus aethiopicus*, *boisei* y *robustus*; *Homo* de Ledi-Geraru, *habilis*, *rudolfensis*, *gautengensis*, *ergaster*, *erectus* y *georgicus*.
+- Corregido: el comparador de dos linajes (`#human-compare-b`) desaparecía de las fichas al sustituir el esquema heredado por el árbol en 0.70.0, lo que hacía fallar la prueba «Lucy opens an illustrated lineage article…» del despliegue. La prueba del árbol comprueba ahora también el comparador.
 
 ## 0.70.0 · 21 de noviembre de 2026
 

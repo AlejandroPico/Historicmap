@@ -17,8 +17,10 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 - [x] P07 · Cenozoico (0.68.0): 47 páginas (≈ 167.200 palabras), las 35 unidades ICS y 12 temas.
 - [x] P08 · Procesos transversales y bestiario (0.69.0): 14 síntesis, 82 fichas de especie, componente interactivo de tectónica de placas.
 - [x] P09-0 · Árbol evolutivo interactivo y subgrupos de Humanidad (0.70.0).
-- [x] P09-A1 · Primeros homininos: 6 linajes (Sahelanthropus → afarensis).
-- [ ] P09 · Evolución humana (plan en enciclopedia/PLAN.md): P09-0 árbol interactivo · A1–A5 39 linajes · B 15 procesos · C 16 yacimientos · D 10 tecnologías líticas; entregas 0.70.0 (P09-0 ✅), 0.71.0 (A1–A3), 0.72.0 (A4, A5, B) y 0.73.0 (C, D).
+- [x] P09-A1 · Primeros homininos: 6 linajes (Sahelanthropus → afarensis) (0.71.0).
+- [x] P09-A2 · Diversidad australopitecina: 8 linajes (0.71.0).
+- [x] P09-A3 · Parántropos y Homo temprano: 10 linajes (0.71.0).
+- [ ] P09 · Evolución humana (plan en enciclopedia/PLAN.md): P09-0 árbol interactivo · A1–A5 39 linajes · B 15 procesos · C 16 yacimientos · D 10 tecnologías líticas; entregas 0.70.0 (P09-0 ✅), 0.71.0 (A1–A3 ✅), 0.72.0 (A4, A5, B) y 0.73.0 (C, D).
 - [ ] P08 · Grandes procesos del tiempo profundo y bestiario (con la norma de 1.500 palabras por página como mínimo).
 - [ ] P08 · rehacer «Tectónica de placas y cratones» (plate-tectonics) con esquemas de calidad o widgets interactivos (pedido del propietario).
 - [ ] P05–P24 y opcionales PX1/PX2 según el plan.

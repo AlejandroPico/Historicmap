@@ -1832,3 +1832,9 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 - Índice: la rama `humanidad` agrupa por subcarpeta (`HUMAN_FOLDERS`: linajes, procesos, yacimientos, tecnologias).
 - Las páginas de P09-A…D irán en `enciclopedia/humanidad/<subcarpeta>/`; los linajes conservan su id `hominin-<key>` (sin reemplaza) y su árbol se añade al final como extra heredado.
 - Prueba e2e: tests/browser/hominin-tree.spec.ts. Los fallos de human-expansion «#play aria-busy» son lentitud del entorno (aparecen antes de abrir la enciclopedia).
+
+## 92. Enciclopedia · P09-A1 a A3 · 24 linajes · 0.71.0 · 22/11/2026
+
+- 24 páginas en `enciclopedia/humanidad/linajes/` (`tipo: humanidad`, id `hominin-<clave>`, sin reemplaza, orden 1–24). Padres: unidad ICS que contiene el rango; si cruza el límite Neógeno/Cuaternario, `geo-Cenozoic` (africanus, aethiopicus) o `geo-Neogene` (kadabba). Medios en `medios/humanidad-a1a…a3b`. Brief común de la fase: /tmp p09-comun (copiado en el resumen de la sesión).
+- Error de 0.70.0 corregido: `humanDiagram` devolvía solo el árbol para `hominin-timeline` y se perdía `comparator(a)`; ahora devuelve árbol + comparador. Lección: ejecutar human-expansion.spec en cada cierre; en este entorno su `aria-busy` de 5 s falla por lentitud, así que se valida con una copia temporal que alarga ese tiempo (no se modifica la prueba real).
+- Dudas factuales señaladas por los agentes (revisión futura): artículo Nature 2025 de Ledi-Geraru (número de dientes y localidades), mano de *P. boisei* KNM-ER 101000 (Nature 2025), referencia DOI de prometheus en linaje.json (2018 vs 2019), edades de tobas de Hadar, capacidades craneales de Dmanisi y Zhoukoudian citadas de memoria, deyiremeda 2025 sin DOI.

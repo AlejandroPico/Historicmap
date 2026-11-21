@@ -172,7 +172,7 @@ Ampliación profunda de los 39 linajes (Sahelanthropus → Homo sapiens, pasando
 - **P09-D · Tecnologías líticas (10 páginas, `humanidad/tecnologias/`).** Lomekwiense, Olduvayense, Achelense, Levallois y Musteriense, Edad de Piedra Media africana, industrias del este de Asia (línea de Movius), industrias de transición (Châtelperroniense, Uluzziense), Auriñaciense, Gravetiense, y Solutrense con Magdaleniense. La sociedad y el arte del Paleolítico superior quedan para P10.
 - **Entregas.**
   - 0.70.0: P09-0 ✅ (21/11/2026).
-  - 0.71.0: A1 ✅ (21/11/2026), A2, A3.
+  - 0.71.0: A1–A3 ✅ (22/11/2026).
   - 0.72.0: A4, A5 y P09-B.
   - 0.73.0: P09-C y P09-D, con cierre y pruebas.
 
@@ -272,5 +272,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P06 | ✅ Mesozoico completo (17/11/2026) · versión 0.67.0 · 57 páginas, ≈ 224.600 palabras |
 | P07 | ✅ Cenozoico completo (17/11/2026) · versión 0.68.0 · 47 páginas, ≈ 167.200 palabras |
 | P08 | ✅ Procesos y bestiario (18/11/2026) · versión 0.69.0 · 96 páginas, ≈ 259.000 palabras |
-| P09 | 🟡 Planificada (21/11/2026): árbol interactivo + 39 linajes + 15 procesos + 16 yacimientos + 10 tecnologías ≈ 80 páginas, en 4 entregas (0.70–0.73); P09-0 ✅ 0.70.0 |
+| P09 | 🟡 Planificada (21/11/2026): árbol interactivo + 39 linajes + 15 procesos + 16 yacimientos + 10 tecnologías ≈ 80 páginas, en 4 entregas (0.70–0.73); P09-0 ✅ 0.70.0 · A1–A3 ✅ 0.71.0 |
 | P10–P24 | Pendientes |

@@ -15,6 +15,7 @@ test('hominin tree changes scale, hides discussed proposals and opens lineage pa
   const rows = await tree.locator('.htree-row').count();
   expect(rows).toBe(39);
   await expect(tree.locator('.htree-flow-g')).toHaveCount(4);
+  await expect(page.locator('#encyclopedia-article #human-compare-b')).toBeAttached();
   await tree.locator('[data-htree="all"]').click();
   await expect(tree).toHaveAttribute('data-all', 'false');
   expect(await tree.locator('.htree-row').count()).toBeLessThan(rows);
