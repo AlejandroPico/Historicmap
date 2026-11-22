@@ -1860,3 +1860,9 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 - 15 fichas en `enciclopedia/humanidad/linajes/` (orden 25–39); los 39 linajes tienen ya página Markdown (id `hominin-<clave>`).
 - Commons responde «too many requests» a la IP del entorno en la nube: los agentes escriben sin imagen y proponen títulos; el coordinador ejecuta `node scripts/fetch-encyclopedia-media.mjs --lista` en el equipo del usuario (device_bash, que tiene node y salida a Commons), trae las imágenes y las entradas de creditos.json con device_stage_files y las fusiona en la copia de la nube.
 - Entregas: un único zip en /mnt/user-data/outputs → SendUserFile → device_commit_files → se descomprime en el equipo y se mueve a `.git/` (fuera del árbol de trabajo); después se borra de outputs. No dejar más archivos en outputs.
+
+## 96. Enciclopedia · P09-B · Procesos · 0.73.0 · 22/11/2026
+
+- 15 páginas en `enciclopedia/humanidad/procesos/` (orden 1–17). Sustituyen con el mismo id a hominin-origins, australopithecines, early-homo-world, human-diversity, human-dispersals, human-contact, human-taxonomy, human-ice-climate y stone-tools (el tema heredado neolithic-transition queda para P10). Nuevas: humanidad-bipedismo, -cerebro, -dieta-caza, -lenguaje, -fuego, -paleogenomica.
+- Los temas sustituidos conservan sus esquemas heredados como extras (árbol completo en los temas con hominin-timeline; dispersión, contacto, laboratorio de CO₂ y talla lítica en los demás), de los que dependen las pruebas de human-expansion.
+- Parte del lote se escribió en una sesión anterior cuyo contexto se perdió (10 páginas); antes de lanzar agentes conviene listar la carpeta y comprobar qué existe.

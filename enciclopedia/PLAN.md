@@ -174,7 +174,7 @@ Ampliación profunda de los 39 linajes (Sahelanthropus → Homo sapiens, pasando
   - 0.70.0: P09-0 ✅ (21/11/2026).
   - 0.71.0: A1–A3 ✅ (22/11/2026).
   - 0.72.0: A4 y A5 ✅ (22/11/2026); las 39 especies completas.
-  - 0.73.0: P09-B (procesos).
+  - 0.73.0: P09-B ✅ (22/11/2026), 15 procesos.
   - 0.74.0: P09-C y P09-D, con cierre y pruebas.
 
   Se trabaja con dos agentes a la vez y de 5 a 8 páginas por agente, con imágenes libres únicas en `medios/humanidad-…`.

@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.73.0 · 22 de noviembre de 2026
+
+- Enciclopedia P09-B · 15 páginas de procesos de la evolución humana (≈ 90.000 palabras) en `enciclopedia/humanidad/procesos/`, dentro del desplegable «Evolución humana › Procesos»:
+  - Sustituyen a los temas heredados con su mismo id (conservan al final sus esquemas, laboratorios y el comparador): orígenes de los homininos, australopitecos, *Homo* temprano y primeras dispersiones, diversidad del Pleistoceno, expansión de *Homo sapiens*, contacto y mezcla genética, especies y nombres, glaciaciones y ambientes humanos, y tecnología de la piedra.
+  - Nuevas: bipedismo, cerebro y desarrollo, dieta y caza, lenguaje y cognición, fuego y cocina, y paleogenómica y ADN antiguo.
+- Imágenes libres nuevas, entre ellas el hioides de Kebara, los huesos de rinoceronte despiezados de Kalinga, el uso de piedras por capuchinos, el esqueleto de Lucy y el quagga del primer ADN antiguo.
+
 ## 0.72.0 · 22 de noviembre de 2026
 
 - Enciclopedia P09-A4 y A5 · las 15 fichas de linaje restantes (≈ 58.000 palabras); las 39 especies humanas del atlas tienen ya monografía propia:
