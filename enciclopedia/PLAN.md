@@ -1,5 +1,7 @@
 # Enciclopedia de Historicmap · Plan de proyecto
 
+> El estado actualizado de todas las fases y el plan detallado de lo que queda están en [`../PLAN.md`](../PLAN.md).
+
 Documento rector de la reconstrucción completa de «la enciclopedia». Redactado en la fase **P00** (7 de noviembre de 2026, sobre la versión 0.56.0, commit `8004e266f`). Cada fase se ejecuta solo cuando el propietario la ordena («empieza la P0X»). Al cerrar cada fase se actualizan este plan, `tareas.md`, `agentes.md` y `CHANGELOG.md`, y se entregan los comandos de Git para que el propietario suba el resultado.
 
 ---
@@ -176,7 +178,7 @@ Ampliación profunda de los 39 linajes (Sahelanthropus → Homo sapiens, pasando
   - 0.72.0: A4 y A5 ✅ (22/11/2026); las 39 especies completas.
   - 0.73.0: P09-B ✅ (22/11/2026), 15 procesos.
   - 0.74.0: P09-C ✅ (23/11/2026), con enlaces de la enciclopedia a los puntos del mapa.
-  - 0.75.0: P09-D y cierre de la fase.
+  - 0.75.0: P09-D ✅ (23/11/2026) y cierre de la fase.
 
   Se trabaja con dos agentes a la vez y de 5 a 8 páginas por agente, con imágenes libres únicas en `medios/humanidad-…`.
 
@@ -274,5 +276,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P06 | ✅ Mesozoico completo (17/11/2026) · versión 0.67.0 · 57 páginas, ≈ 224.600 palabras |
 | P07 | ✅ Cenozoico completo (17/11/2026) · versión 0.68.0 · 47 páginas, ≈ 167.200 palabras |
 | P08 | ✅ Procesos y bestiario (18/11/2026) · versión 0.69.0 · 96 páginas, ≈ 259.000 palabras |
-| P09 | 🟡 Planificada (21/11/2026): árbol interactivo + 39 linajes + 15 procesos + 16 yacimientos + 10 tecnologías ≈ 80 páginas, en 4 entregas (0.70–0.73); P09-0 ✅ 0.70.0 · A1–A3 ✅ 0.71.0 |
+| P09 | ✅ Evolución humana completa (23/11/2026) · versiones 0.70.0–0.75.0 · 81 páginas, ≈ 403.000 palabras |
 | P10–P24 | Pendientes |

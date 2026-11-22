@@ -1873,3 +1873,10 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 - Enlace al mapa: `[[@CLAVE año|texto]]` (MAP_LINK_PATTERN en scripts/lib/encyclopedia-format.mjs). markdown.ts lo pinta como `<a class="enc-maplink" data-encyclopedia-map="año" data-encyclopedia-site="CLAVE">`; el clic delegado llama a `onMap(año, clave)`; main.ts `focusSite` espera a que el mapa cargue el año, busca el punto por `identityKey` en `regionalData`, centra la cámara, abre su ficha y pone `#map[data-focused-site]`. El compilador valida clave y ventana temporal contra public/data/hominin-sites.geojson y human-evidence.geojson. Documentado en enciclopedia/README.md.
 - Las páginas y el motor de enlaces se hicieron en buena parte en una sesión anterior cuyo contexto se perdió; se completó la imagen que faltaba (Sterkfontein) y se validó todo.
 - Prueba e2e: «encyclopedia map links open the site on the map at its date» (hominin-tree.spec.ts, Dmanisi a −1.800.000).
+
+## 98. Enciclopedia · P09-D y cierre de P09 · 0.75.0 · 23/11/2026
+
+- 10 páginas en `enciclopedia/humanidad/tecnologias/` (ids `humanidad-tecnologia-<slug>`, orden 1–10), con enlaces `[[@CLAVE año|…]]` validados.
+- P09 cerrada: 81 páginas (portada, 39 linajes, 15 procesos, 16 yacimientos, 10 tecnologías), ≈ 403.000 palabras.
+- `PLAN.md` en la raíz: plan maestro con casillas para todas las fases y subfases, terminadas y pendientes (P10–P24, PX1, PX2, deuda). Es el punto de entrada para retomar el proyecto; mantenerlo al cerrar cada parte.
+- Commons: además del equipo local, un agente comprobó que las búsquedas con el `fetch` de node pueden funcionar cuando `curl` recibe «too many requests».

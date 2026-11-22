@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.75.0 · 23 de noviembre de 2026
+
+- Enciclopedia P09-D · 10 páginas de tecnologías de la piedra (≈ 50.000 palabras de cuerpo) en «Evolución humana › Tecnologías de la piedra»: Lomekwiense, Olduvayense, Achelense, Asia oriental y la línea de Movius, Levallois y Musteriense, Edad de Piedra Media africana, industrias de transición, Auriñaciense, Gravetiense, y Solutrense y Magdaleniense, con enlaces a los puntos del mapa de sus yacimientos.
+- Cierre de la fase P09 · Evolución humana: 81 páginas (≈ 403.000 palabras).
+- Nuevo `PLAN.md` en la raíz: plan maestro con el estado de todas las fases y subfases (terminadas con casilla marcada) y el plan detallado de todo lo que queda (P10–P24, PX1, PX2 y deuda anotada).
+
 ## 0.74.0 · 23 de noviembre de 2026
 
 - Enciclopedia P09-C · 16 monografías de yacimientos (≈ 85.000 palabras) en «Evolución humana › Yacimientos»: Atapuerca, Orce y Venta Micena, Olduvai, cuenca del Turkana, Afar (Hadar y Awash Medio), Laetoli, Cuna de la Humanidad, Dmanisi, Zhoukoudian, Sangiran y Trinil, Liang Bua, Denisova, Jebel Irhoud, Omo Kibish, Levante (Skhul, Qafzeh, Misliya, Tabun) y Gibraltar con El Sidrón.
