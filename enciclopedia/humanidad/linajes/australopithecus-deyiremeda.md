@@ -54,7 +54,7 @@ fuentes:
 
 ### El proyecto de Woranso-Mille
 
-En 2004 Yohannes Haile-Selassie, entonces conservador de antropología física del Museo de Historia Natural de Cleveland, inició el **Proyecto Paleontológico de Woranso-Mille**, en la región de Afar central, al norte de Hadar y del río Mille. El área expone sedimentos fluviales, lacustres y volcánicos de entre ≈ 3,8 y 3,2 Ma, el intervalo en que la sucesión de [[hominin-anamensis|*Au. anamensis*]] por [[hominin-afarensis|*Au. afarensis*]] debía haberse producido. El proyecto ha dado, entre otros, el esqueleto parcial de *afarensis* «Kadanuumuu» (Korsi Dora, ≈ 3,58 Ma), descrito en la página de esa especie, y el cráneo MRD-VP-1/1 de *anamensis* (Miro Dora, ≈ 3,8 Ma), publicado en 2019.
+En 2004 Yohannes Haile-Selassie, entonces conservador de antropología física del Museo de Historia Natural de Cleveland, inició el **Proyecto Paleontológico de Woranso-Mille**, en la región de Afar central, al norte de [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]) y del río Mille. El área expone sedimentos fluviales, lacustres y volcánicos de entre ≈ 3,8 y 3,2 Ma, el intervalo en que la sucesión de [[hominin-anamensis|*Au. anamensis*]] por [[hominin-afarensis|*Au. afarensis*]] debía haberse producido. El proyecto ha dado, entre otros, el esqueleto parcial de *afarensis* «Kadanuumuu» (Korsi Dora, ≈ 3,58 Ma), descrito en la página de esa especie, y el cráneo MRD-VP-1/1 de *anamensis* (Miro Dora, ≈ 3,8 Ma), publicado en 2019.
 
 ### El pie de 2009
 
@@ -118,7 +118,7 @@ Años entre el hallazgo del pie y su atribución: 16 (2009–2025)
 
 ### Dos maneras de caminar
 
-Si la atribución de 2025 es correcta, el Afar de hace 3,4 Ma albergaba dos bípedos distintos: *afarensis*, con un pie arqueado y rígido apto para la marcha terrestre eficiente, demostrado por las huellas de Laetoli, y *deyiremeda*, con un dedo gordo prensil útil para trepar y un despegue del pie apoyado en los dedos laterales. Esa diversidad locomotora coincide con la que sugieren las huellas del Site A de Laetoli, atribuidas por algunos a un segundo bípedo, y confirma que el bipedismo no siguió una única trayectoria lineal, sino varias, en paralelo, como se discute en [[hominin-origins|los primeros homininos]].
+Si la atribución de 2025 es correcta, el Afar de hace 3,4 Ma albergaba dos bípedos distintos: *afarensis*, con un pie arqueado y rígido apto para la marcha terrestre eficiente, demostrado por las huellas de [[humanidad-yacimiento-laetoli|Laetoli]], y *deyiremeda*, con un dedo gordo prensil útil para trepar y un despegue del pie apoyado en los dedos laterales. Esa diversidad locomotora coincide con la que sugieren las huellas del Site A de Laetoli, atribuidas por algunos a un segundo bípedo, y confirma que el bipedismo no siguió una única trayectoria lineal, sino varias, en paralelo, como se discute en [[hominin-origins|los primeros homininos]].
 
 ### Isótopos: un hominino de los árboles
 

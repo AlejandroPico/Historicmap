@@ -53,7 +53,7 @@ fuentes:
 
 *Garhi* significa «sorpresa» en la lengua afar. Los descubridores eligieron el término por lo inesperado de la combinación anatómica: a una edad en la que se esperaba encontrar o bien parántropos de cara ancha o bien los primeros *Homo*, apareció un australopiteco con un cráneo de proporciones primitivas y una dentición posterior gigantesca. El nombre sigue una práctica del Proyecto de Investigación del Awash Medio, que ha dado nombres en afar a otros taxones de la región, como [[hominin-ramidus|*Ardipithecus ramidus*]] y [[hominin-kadabba|*Ar. kadabba*]].
 
-La especie fue descrita en abril de 1999 en *Science* por Berhane Asfaw, Tim White, Owen Lovejoy, Bruce Latimer, Scott Simpson y Gen Suwa, en un artículo publicado junto a otro de Jean de Heinzelin, J. Desmond Clark y colaboradores sobre la geología, el ambiente y las huellas de comportamiento del mismo nivel. La diagnosis se basa casi solo en el holotipo; los demás restos de Bouri se describieron en el mismo trabajo, pero los autores no los asignaron formalmente a la especie porque no conservan partes comparables con el cráneo.
+La especie fue descrita en abril de 1999 en *Science* por Berhane Asfaw, Tim White, Owen Lovejoy, Bruce Latimer, Scott Simpson y Gen Suwa, en un artículo publicado junto a otro de Jean de Heinzelin, J. Desmond Clark y colaboradores sobre la geología, el ambiente y las huellas de comportamiento del mismo nivel. La diagnosis se basa casi solo en el holotipo; los demás restos de [[@HOMININ-REF-garhi -2500000|Bouri]] se describieron en el mismo trabajo, pero los autores no los asignaron formalmente a la especie porque no conservan partes comparables con el cráneo.
 
 ## Historia del descubrimiento
 
@@ -61,7 +61,7 @@ La especie fue descrita en abril de 1999 en *Science* por Berhane Asfaw, Tim Whi
 
 El **Awash Medio** es un tramo de unos 80 km del valle del río Awash, en el sur de la depresión de Afar, con más de un kilómetro de sedimentos fluviales, lacustres y volcánicos de los últimos 6 Ma. Desde 1981 lo estudia el *Middle Awash Research Project*, dirigido por Tim White, Berhane Asfaw y Giday WoldeGabriel, que ha documentado allí una sucesión de homininos sin parangón: *Ar. kadabba*, *Ar. ramidus*, [[hominin-anamensis|*Au. anamensis*]] de Asa Issie, [[hominin-afarensis|*Au. afarensis*]] de Maka y Belohdelie, *garhi*, *Homo erectus* y *Homo sapiens*. La página de [[hominin-kadabba|*Ardipithecus kadabba*]] describe el marco general del proyecto; aquí basta con situar la **península de Bouri**.
 
-Bouri es un bloque elevado por fallas (un *horst*) en la orilla occidental del Awash, de unos 10 km de longitud, cuyos sedimentos forman la **Formación Bouri**. Esta se divide en tres miembros principales, separados por discordancias: **Hata**, de unos 2,5 Ma, con *Au. garhi*; **Daka**, de alrededor de 1 Ma, con el cráneo BOU-VP-2/66 de *Homo erectus* y herramientas achelenses; y **Herto**, de unos 160.000 años, con los cráneos de *Homo sapiens* publicados por White y colaboradores en 2003. Pocas localidades del mundo reúnen en tan poco espacio tres momentos tan distintos de la evolución humana.
+Bouri es un bloque elevado por fallas (un *horst*) en la orilla occidental del Awash, de unos 10 km de longitud, cuyos sedimentos forman la **Formación Bouri**. Esta se divide en tres miembros principales, separados por discordancias: **Hata**, de unos 2,5 Ma, con *Au. garhi*; **Daka**, de alrededor de 1 Ma, con el cráneo BOU-VP-2/66 de *Homo erectus* y herramientas achelenses; y **[[@ARCH-SDB-DEEP-816DC677C41F -158000|Herto]]**, de unos 160.000 años, con los cráneos de *Homo sapiens* publicados por White y colaboradores en 2003. Pocas localidades del mundo reúnen en tan poco espacio tres momentos tan distintos de la evolución humana.
 
 ### Los hallazgos de 1996–1998
 
@@ -82,7 +82,7 @@ El Miembro Hata está formado por limos, arcillas y arenas finas depositados en 
 | Unidad cronoestratigráfica | [[geo-Gelasian|Gelasiense]], primer piso del Pleistoceno |
 | Fauna asociada | peces, cocodrilos, hipopótamos, bóvidos (alcelafinos y reduncinos), équidos tridáctilos (*Hipparion*), suidos |
 
-La edad de *garhi* coincide con un periodo de cambio climático global. Entre 2,7 y 2,5 Ma se intensificó la [[clima-glaciaciones-pleistoceno|glaciación del hemisferio norte]] y en África oriental aumentó la variabilidad de las precipitaciones y la extensión de las praderas de gramíneas C₄, tratadas en [[vida-praderas-c4|la expansión de las praderas C₄]]. En ese intervalo se registran también el primer *Homo* de Ledi-Geraru, la aparición de los parántropos en el Omo y las primeras industrias olduvayenses.
+La edad de *garhi* coincide con un periodo de cambio climático global. Entre 2,7 y 2,5 Ma se intensificó la [[clima-glaciaciones-pleistoceno|glaciación del hemisferio norte]] y en África oriental aumentó la variabilidad de las precipitaciones y la extensión de las praderas de gramíneas C₄, tratadas en [[vida-praderas-c4|la expansión de las praderas C₄]]. En ese intervalo se registran también el primer *Homo* de [[@HOMININ-P5-LEDI-H1 -2780000|Ledi-Geraru]], la aparición de los parántropos en el Omo y las primeras industrias olduvayenses.
 
 :::datos
 Edad del Miembro Hata: ≈ 2,5 Ma
@@ -124,7 +124,7 @@ En el mismo Miembro Hata, y en niveles contemporáneos del holotipo, el equipo d
 - una tibia de bóvido con estrías de corte y con impactos de percusión producidos al romperla para extraer la médula;
 - un fémur de *Hipparion*, el caballo tridáctilo, con estrías de corte que indican el descarnado del muslo y la desarticulación de la pata.
 
-El estudio microscópico de las marcas, con su sección en V y sus estrías internas paralelas, las distingue de las producidas por los dientes de los carnívoros o por el pisoteo. Son, junto con los huesos de Gona, algunas de las pruebas más antiguas del procesado de carcasas con herramientas de piedra.
+El estudio microscópico de las marcas, con su sección en V y sus estrías internas paralelas, las distingue de las producidas por los dientes de los carnívoros o por el pisoteo. Son, junto con los huesos de [[@ARCH-SDB-DEEP-CD5F93A02992 -2500000|Gona]], algunas de las pruebas más antiguas del procesado de carcasas con herramientas de piedra.
 
 ### El problema de las herramientas ausentes
 
@@ -132,7 +132,7 @@ En los niveles con huesos marcados del Miembro Hata apenas aparecen útiles lít
 
 ### ¿Quién cortó los huesos?
 
-La tentación de atribuir las marcas a *garhi* es evidente: es el único hominino conocido en el Miembro Hata. Pero la proximidad en el espacio y en el tiempo no prueba la identidad del autor. Hace 2,5 Ma vivían en Etiopía otros homininos: [[hominin-aethiopicus|*Paranthropus aethiopicus*]] en el Omo, el [[hominin-ledi-homo|*Homo* temprano de Ledi-Geraru]] desde 2,8 Ma y los [[hominin-ledi-australopithecus|australopitecos sin especie de Ledi-Geraru]] hacia 2,63 Ma. Además, las herramientas de Lomekwi 3, en Kenia, de unos 3,3 Ma, y las posibles marcas de corte de Dikika, de 3,39 Ma, muestran que la talla de la piedra es más antigua que *Homo* y que pudo estar al alcance de varios australopitecos. Bouri demuestra que hace 2,5 Ma algún hominino del Awash Medio comía carne y médula de grandes herbívoros con ayuda de útiles; *garhi* es el candidato más próximo, no un autor identificado.
+La tentación de atribuir las marcas a *garhi* es evidente: es el único hominino conocido en el Miembro Hata. Pero la proximidad en el espacio y en el tiempo no prueba la identidad del autor. Hace 2,5 Ma vivían en Etiopía otros homininos: [[hominin-aethiopicus|*Paranthropus aethiopicus*]] en el Omo, el [[hominin-ledi-homo|*Homo* temprano de Ledi-Geraru]] desde 2,8 Ma y los [[hominin-ledi-australopithecus|australopitecos sin especie de Ledi-Geraru]] hacia 2,63 Ma. Además, las herramientas de [[@HOMININ-REF-platyops -3400000|Lomekwi]] ([[humanidad-yacimiento-turkana|yacimiento]]) 3, en Kenia, de unos 3,3 Ma, y las posibles marcas de corte de [[humanidad-yacimiento-afar|Dikika]], de 3,39 Ma, muestran que la talla de la piedra es más antigua que *Homo* y que pudo estar al alcance de varios australopitecos. Bouri demuestra que hace 2,5 Ma algún hominino del Awash Medio comía carne y médula de grandes herbívoros con ayuda de útiles; *garhi* es el candidato más próximo, no un autor identificado.
 
 :::debate *Australopithecus garhi* y el origen de *Homo*
 **Antepasado de *Homo*.** Asfaw, White y colaboradores propusieron en 1999 que *garhi* estaba «en el lugar adecuado y en el momento adecuado» para ser el antepasado de *Homo*: es el único australopiteco conocido de esa edad en el este de África, procede de la región donde aparecen las primeras herramientas y el primer *Homo*, y su supuesto alargamiento del fémur anticiparía las proporciones de los humanos. El consumo de carne documentado en Bouri ofrecería, además, una vía para la expansión cerebral posterior.

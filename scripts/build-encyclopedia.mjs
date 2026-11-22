@@ -6,7 +6,23 @@
 import { readFileSync, writeFileSync, readdirSync, statSync, mkdirSync, rmSync, existsSync } from 'node:fs';
 import { join, relative, dirname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { splitPage, PAGE_TYPES, ID_PATTERN, civilYear, internalLinks, firstParagraph, shardOf, PERSON_SHARDS, ENTITY_SHARDS, centuryOf, COMPONENT_NAMES, CALLOUT_KINDS, blocksIn } from './lib/encyclopedia-format.mjs';
+import { splitPage, PAGE_TYPES, ID_PATTERN, civilYear, internalLinks, mapLinks, firstParagraph, shardOf, PERSON_SHARDS, ENTITY_SHARDS, centuryOf, COMPONENT_NAMES, CALLOUT_KINDS, blocksIn } from './lib/encyclopedia-format.mjs';
+
+/** Ventanas [inicio, fin] en que el mapa muestra cada yacimiento (por identityKey), para validar «[[@CLAVE AÑO|…]]». */
+let siteWindowCache;
+function siteWindows() {
+  if (siteWindowCache) return siteWindowCache;
+  siteWindowCache = new Map();
+  const data = join(dirname(fileURLToPath(import.meta.url)), '..', 'public', 'data');
+  for (const file of ['hominin-sites.geojson', 'human-evidence.geojson']) {
+    if (!existsSync(join(data, file))) continue;
+    for (const f of JSON.parse(readFileSync(join(data, file), 'utf8')).features) {
+      const p = f.properties ?? {}; if (f.geometry?.type !== 'Point' || !p.identityKey || !p.taxon) continue;
+      const w = siteWindowCache.get(p.identityKey) ?? []; w.push([p.start, p.end]); siteWindowCache.set(p.identityKey, w);
+    }
+  }
+  return siteWindowCache;
+}
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const readJson = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -125,6 +141,12 @@ export function compileEncyclopedia() {
   for (const p of pages) {
     const refs = [...internalLinks(p.body), ...(p.meta.relacionados ?? []), ...(p.meta.padre ? [p.meta.padre] : [])];
     for (const id of refs) { linkCount++; if (!resolves(id)) errors.push(`${p.rel}: enlace a una página inexistente «${id}»`); }
+    { const ls = p.body.split('\n'); ls.forEach((l, n) => { if (/^:::componente\b/.test(l.trim()) && (ls[n + 1] ?? '').trim() !== ':::') errors.push(`${p.rel}: «${l.trim()}» sin cierre «:::» en la línea siguiente (se tragaría el resto de la página)`); }); }
+    for (const { key, year } of mapLinks(p.body)) {
+      linkCount++; const w = siteWindows().get(key);
+      if (!w) errors.push(`${p.rel}: enlace al mapa con un yacimiento inexistente «${key}»`);
+      else if (!w.some(([a, b]) => a <= year && year <= b)) errors.push(`${p.rel}: el yacimiento «${key}» no se muestra en el año ${year} (ventanas: ${w.map(([a, b]) => `${a}…${b}`).join(', ')})`);
+    }
     for (const id of p.meta.reemplaza ?? []) if (!known.has(id)) errors.push(`${p.rel}: «reemplaza» apunta a un artículo heredado inexistente «${id}»`);
     if (!Array.isArray(p.meta.fuentes) || !p.meta.fuentes.length) warnings.push(`${p.rel}: sin fuentes`);
     const words = p.body.split(/\s+/).filter(Boolean).length;

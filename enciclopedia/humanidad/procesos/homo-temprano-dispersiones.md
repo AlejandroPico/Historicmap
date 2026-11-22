@@ -76,10 +76,10 @@ Esta página aborda esas preguntas de forma transversal. La anatomía y el conte
 
 :::clave
 - No existe una definición del género *Homo* aceptada por todos: los criterios de 1964 (cerebro, mano, herramientas) se han ido abandonando porque los australopitecos fabricaban útiles y algunos *Homo* tenían cerebros pequeños.
-- La mandíbula **LD 350-1** de Ledi-Geraru (2,80–2,75 Ma) es el resto más antiguo atribuido a *Homo*; su combinación de rasgos indica que el género se separó de un australopiteco de tipo *afarensis*.
+- La mandíbula **LD 350-1** de [[@HOMININ-P5-LEDI-H1 -2780000|Ledi-Geraru]] (2,80–2,75 Ma) es el resto más antiguo atribuido a *Homo*; su combinación de rasgos indica que el género se separó de un australopiteco de tipo *afarensis*.
 - Entre 2,5 y 1,5 Ma convivieron en África varias formas de *Homo* temprano, además de los parántropos.
 - Los primeros humanos estaban en China hace ≈ 2,1 Ma y en el Cáucaso hace ≈ 1,85 Ma, **antes** de que existiera el bifaz achelense y con cuerpos y cerebros pequeños.
-- Europa occidental se ocupó hacia 1,4–1,2 Ma por el sur (Orce, Atapuerca), en un poblamiento probablemente discontinuo.
+- Europa occidental se ocupó hacia 1,4–1,2 Ma por el sur ([[humanidad-yacimiento-orce|Orce]], [[humanidad-yacimiento-atapuerca|Atapuerca]]), en un poblamiento probablemente discontinuo.
 :::
 
 ## Definir el género *Homo*
@@ -90,14 +90,14 @@ Hasta los años sesenta, el género *Homo* se definía de forma implícita por u
 
 ### Leakey, Tobias y Napier (1964)
 
-En 1960 el equipo de Louis y Mary Leakey halló en el Lecho I de la garganta de Olduvai la mandíbula, los parietales y los huesos de la mano de un juvenil, el ejemplar OH 7, en niveles algo inferiores a los de Zinj ([[hominin-boisei|*Paranthropus boisei*]]). En 1964, Louis Leakey, el anatomista sudafricano Phillip Tobias y el especialista británico en la mano John Napier lo convirtieron en holotipo de una nueva especie, *Homo habilis*, nombre sugerido por Raymond Dart con el significado de «hábil» o «mañoso». Para incluirla en *Homo* tuvieron que **reformular la diagnosis del género**:
+En 1960 el equipo de Louis y Mary Leakey halló en el Lecho I de la garganta de [[@HOMININ-REF-habilis -1840000|Olduvai]] ([[humanidad-yacimiento-olduvai|yacimiento]]) la mandíbula, los parietales y los huesos de la mano de un juvenil, el ejemplar OH 7, en niveles algo inferiores a los de Zinj ([[hominin-boisei|*Paranthropus boisei*]]). En 1964, Louis Leakey, el anatomista sudafricano Phillip Tobias y el especialista británico en la mano John Napier lo convirtieron en holotipo de una nueva especie, *Homo habilis*, nombre sugerido por Raymond Dart con el significado de «hábil» o «mañoso». Para incluirla en *Homo* tuvieron que **reformular la diagnosis del género**:
 
 - Rebajaron el límite cerebral a unos 600 cm³ (la capacidad de OH 7 se estimó entonces en ≈ 680 cm³).
 - Añadieron la **postura erguida y el bipedismo** como rasgos del género.
 - Incluyeron una mano capaz de **agarre de precisión** entre el pulgar y los demás dedos.
 - Asociaron el género a la **fabricación de herramientas**, porque Olduvai había proporcionado útiles olduvayenses en los mismos niveles.
 
-La propuesta fue muy criticada. Para muchos especialistas de la época, OH 7 y los restos asociados eran australopitecos avanzados o una mezcla de *Australopithecus* y *Homo erectus*. La descripción en 1972 de KNM-ER 1470, un cráneo de unos 750 cm³ hallado en Koobi Fora por Bernard Ngeneo, reforzó la existencia de un *Homo* de cerebro grande hacia 1,9 Ma, aunque luego se demostró que su cara y sus dientes eran muy distintos de los de OH 7 y se le asignó a una especie propia, [[hominin-rudolfensis|*H. rudolfensis*]].
+La propuesta fue muy criticada. Para muchos especialistas de la época, OH 7 y los restos asociados eran australopitecos avanzados o una mezcla de *Australopithecus* y *Homo erectus*. La descripción en 1972 de KNM-ER 1470, un cráneo de unos 750 cm³ hallado en [[@HOMININ-REF-rudolfensis -1880000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]) por Bernard Ngeneo, reforzó la existencia de un *Homo* de cerebro grande hacia 1,9 Ma, aunque luego se demostró que su cara y sus dientes eran muy distintos de los de OH 7 y se le asignó a una especie propia, [[hominin-rudolfensis|*H. rudolfensis*]].
 
 ### Los criterios de Wood y Collard (1999)
 
@@ -116,7 +116,7 @@ Con esos criterios, *H. habilis* y *H. rudolfensis* quedaban más cerca de los a
 
 ### Después de Wood y Collard
 
-Varios hallazgos posteriores han complicado aún más el panorama. [[hominin-sediba|*Australopithecus sediba*]] (1,98 Ma) combina un cerebro de ≈ 420 cm³ con una mano, una pelvis y unos dientes con rasgos de *Homo*. [[hominin-naledi|*Homo naledi*]], con un cerebro de 465–610 cm³, vivió hace solo 335–236 ka. Los fósiles de Dmanisi, con cerebros de 546 a 775 cm³ y cuerpos de 1,45–1,66 m, muestran que los primeros humanos que salieron de África no tenían la masa ni el cerebro que exigían los criterios de 1999. Susan Antón, Richard Potts y Leslie Aiello (2014) propusieron que los rasgos considerados «humanos» no aparecieron como un paquete, sino de forma escalonada entre 2,5 y 1,5 Ma: primero la reducción de los dientes, luego el aumento del cerebro y del cuerpo, y la extensión de la infancia y la dependencia de los alimentos de origen animal más tarde.
+Varios hallazgos posteriores han complicado aún más el panorama. [[hominin-sediba|*Australopithecus sediba*]] (1,98 Ma) combina un cerebro de ≈ 420 cm³ con una mano, una pelvis y unos dientes con rasgos de *Homo*. [[hominin-naledi|*Homo naledi*]], con un cerebro de 465–610 cm³, vivió hace solo 335–236 ka. Los fósiles de [[@ARCH-SDB-DEEP-9F9A5BBEB4B6 -1800000|Dmanisi]], con cerebros de 546 a 775 cm³ y cuerpos de 1,45–1,66 m, muestran que los primeros humanos que salieron de África no tenían la masa ni el cerebro que exigían los criterios de 1999. Susan Antón, Richard Potts y Leslie Aiello (2014) propusieron que los rasgos considerados «humanos» no aparecieron como un paquete, sino de forma escalonada entre 2,5 y 1,5 Ma: primero la reducción de los dientes, luego el aumento del cerebro y del cuerpo, y la extensión de la infancia y la dependencia de los alimentos de origen animal más tarde.
 
 :::debate ¿Dónde empieza *Homo*?
 **Hacia 2,8 Ma, con LD 350-1** (Villmoare, Kimbel y colaboradores): los rasgos dentales y mandibulares derivados de esa mandíbula la sitúan en el linaje de *Homo*, aunque su cerebro y su cuerpo sean desconocidos. Es la postura adoptada por el atlas.
@@ -132,7 +132,7 @@ Varios hallazgos posteriores han complicado aún más el panorama. [[hominin-sed
 
 ### El hallazgo
 
-El 29 de enero de 2013, Chalachew Seyoum, entonces estudiante de doctorado de la Universidad Estatal de Arizona, encontró en la localidad Lee Adoyta del área de investigación de **Ledi-Geraru**, en el Afar etíope, no lejos de Hadar, la mitad izquierda de una mandíbula adulta con cinco dientes. El ejemplar LD 350-1 fue descrito en 2015 por Brian Villmoare, William Kimbel y colaboradores, y su contexto geológico y ambiental en un artículo complementario de Erin DiMaggio y colaboradores. Las tobas intercaladas en la secuencia, fechadas por ⁴⁰Ar/³⁹Ar, y las tasas de sedimentación sitúan la mandíbula entre 2,80 y 2,75 Ma, unos 400.000 años antes que los restos de *Homo* conocidos hasta entonces.
+El 29 de enero de 2013, Chalachew Seyoum, entonces estudiante de doctorado de la Universidad Estatal de Arizona, encontró en la localidad Lee Adoyta del área de investigación de **Ledi-Geraru**, en el Afar etíope, no lejos de [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]), la mitad izquierda de una mandíbula adulta con cinco dientes. El ejemplar LD 350-1 fue descrito en 2015 por Brian Villmoare, William Kimbel y colaboradores, y su contexto geológico y ambiental en un artículo complementario de Erin DiMaggio y colaboradores. Las tobas intercaladas en la secuencia, fechadas por ⁴⁰Ar/³⁹Ar, y las tasas de sedimentación sitúan la mandíbula entre 2,80 y 2,75 Ma, unos 400.000 años antes que los restos de *Homo* conocidos hasta entonces.
 
 ### Una anatomía de transición
 
@@ -166,9 +166,9 @@ Fred Spoor, Philipp Gunz y colaboradores (2015) reconstruyeron virtualmente la m
 | Dientes posteriores | Grandes | Algo reducidos, variables | Reducidos |
 | Proporciones | Brazos largos, piernas cortas | Arcaicas (OH 62) | Modernas (KNM-WT 15000) |
 | Desarrollo dental | Rápido | Rápido | Intermedio |
-| Tecnología | Lomekwiense discutido, Olduvayense | Olduvayense | Olduvayense y, desde ≈ 1,76 Ma, Achelense |
+| Tecnología | [[@HOMININ-REF-platyops -3400000|Lomekwi]]ense discutido, Olduvayense | Olduvayense | Olduvayense y, desde ≈ 1,76 Ma, Achelense |
 
-La transición más profunda no está entre australopitecos y *Homo* temprano, sino entre *Homo* temprano y *H. erectus*: este último duplica la masa corporal media, adopta proporciones de tipo moderno, con piernas largas y tórax en forma de barril, reduce el tamaño del intestino según la **hipótesis del tejido caro** de Leslie Aiello y Peter Wheeler (1995) y amplía su área de distribución. Las huellas de Ileret (Kenia), de ≈ 1,5 Ma, muestran ya un pie y una marcha plenamente modernos.
+La transición más profunda no está entre australopitecos y *Homo* temprano, sino entre *Homo* temprano y *H. erectus*: este último duplica la masa corporal media, adopta proporciones de tipo moderno, con piernas largas y tórax en forma de barril, reduce el tamaño del intestino según la **hipótesis del tejido caro** de Leslie Aiello y Peter Wheeler (1995) y amplía su área de distribución. Las huellas de [[@ARCH-SDB-DEEP-98FCF8619C31 -1500000|Ileret]] (Kenia), de ≈ 1,5 Ma, muestran ya un pie y una marcha plenamente modernos.
 
 ### Clima y origen de *Homo*
 
@@ -186,7 +186,7 @@ Ninguno de los tres ha podido demostrarse con el registro actual: la precisión 
 
 ### El modelo clásico y su caída
 
-Durante buena parte del siglo XX se supuso que la primera salida de África la protagonizó un *H. erectus* de cuerpo grande, cerebro de más de 800 cm³ y tecnología achelense, hacia 1 Ma. Era la idea de que hacía falta una «humanidad completa» para colonizar el resto del Viejo Mundo. Desde 1991, con la primera mandíbula de Dmanisi, la fecha y el perfil de los primeros emigrantes han cambiado radicalmente.
+Durante buena parte del siglo XX se supuso que la primera salida de África la protagonizó un *H. erectus* de cuerpo grande, cerebro de más de 800 cm³ y tecnología achelense, hacia 1 Ma. Era la idea de que hacía falta una «humanidad completa» para colonizar el resto del Viejo Mundo. Desde 1991, con la primera mandíbula de [[humanidad-yacimiento-dmanisi|Dmanisi]], la fecha y el perfil de los primeros emigrantes han cambiado radicalmente.
 
 ### Shangchen: China hace 2,1 Ma
 
@@ -212,8 +212,8 @@ Eugène Dubois halló en 1891 en Trinil (Java) la bóveda craneal de *Pithecanth
 
 La llegada a Europa occidental fue posterior y probablemente discontinua.
 
-- **Orce (Granada).** En la cuenca de Guadix-Baza, los yacimientos de **Barranco León** y **Fuente Nueva 3** contienen útiles olduvayenses y restos de grandes mamíferos con marcas de corte. En 2013, Isidro Toro-Moyano y colaboradores publicaron un molar deciduo humano de Barranco León, fechado en ≈ 1,4 Ma por bioestratigrafía, paleomagnetismo y ESR, el resto humano más antiguo de Europa occidental. Un fragmento craneal de Venta Micena, de ≈ 1,6 Ma, defendido como humano por Josep Gibert desde 1983, fue rechazado por la mayoría de los especialistas, que lo atribuyen a un équido.
-- **Sima del Elefante (Atapuerca).** En el relleno kárstico de la Trinchera del Ferrocarril, el nivel TE9 proporcionó en 2007 la mandíbula ATE9-1, publicada por Eudald Carbonell, José María Bermúdez de Castro y colaboradores en 2008 con una edad de ≈ 1,2–1,1 Ma por paleomagnetismo, nucleidos cosmogénicos y bioestratigrafía. En 2025, Rosa Huguet y colaboradores describieron ATE7-1, apodado «Pink», la parte media de una cara hallada en el nivel TE7, de ≈ 1,4–1,1 Ma, y la clasificaron como *Homo* aff. *erectus*, distinta de [[hominin-antecessor|*H. antecessor*]] de la Gran Dolina (≈ 0,85 Ma).
+- **Orce (Granada).** En la cuenca de Guadix-Baza, los yacimientos de **[[@ARCH-SDB-DEEP-D5FB92CBCFF2 -1400000|Barranco León]]** y **[[@ARCH-SDB-DEEP-B8B67D466C04 -1250000|Fuente Nueva 3]]** contienen útiles olduvayenses y restos de grandes mamíferos con marcas de corte. En 2013, Isidro Toro-Moyano y colaboradores publicaron un molar deciduo humano de Barranco León, fechado en ≈ 1,4 Ma por bioestratigrafía, paleomagnetismo y ESR, el resto humano más antiguo de Europa occidental. Un fragmento craneal de [[@ARCH-SDB-DEEP-23E8EDD89B88 -1600000|Venta Micena]], de ≈ 1,6 Ma, defendido como humano por Josep Gibert desde 1983, fue rechazado por la mayoría de los especialistas, que lo atribuyen a un équido.
+- **[[@HOMININ-P5-PINK -1200000|Sima del Elefante]] (Atapuerca).** En el relleno kárstico de la Trinchera del Ferrocarril, el nivel TE9 proporcionó en 2007 la mandíbula ATE9-1, publicada por Eudald Carbonell, José María Bermúdez de Castro y colaboradores en 2008 con una edad de ≈ 1,2–1,1 Ma por paleomagnetismo, nucleidos cosmogénicos y bioestratigrafía. En 2025, Rosa Huguet y colaboradores describieron ATE7-1, apodado «Pink», la parte media de una cara hallada en el nivel TE7, de ≈ 1,4–1,1 Ma, y la clasificaron como *Homo* aff. *erectus*, distinta de [[hominin-antecessor|*H. antecessor*]] de la [[@HOMININ-REF-antecessor -850000|Gran Dolina]] (≈ 0,85 Ma).
 
 ![Sima del Elefante en Atapuerca](medios/humanidad-b1/sima-del-elefante.jpg "El relleno kárstico de la Sima del Elefante, en la Trinchera del Ferrocarril de la sierra de Atapuerca (Burgos). Sus niveles TE7 y TE9 han proporcionado los restos humanos más antiguos de Europa occidental, de ≈ 1,4–1,1 Ma")
 

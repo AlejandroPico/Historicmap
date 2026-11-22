@@ -69,7 +69,7 @@ Un **calvario** es la bóveda craneal sin la cara ni la mandíbula. El de Cepran
 
 ### Las primeras edades
 
-La edad que se atribuyó inicialmente, ≈ **900–800 ka**, procedía de la correlación de los niveles arcillosos con depósitos volcánicos de la región datados por potasio-argón y de la presencia en la zona de industrias de cantos tallados sin bifaces. Esa edad situaba a Ceprano antes de la inversión Matuyama-Brunhes y lo hacía casi contemporáneo de la Gran Dolina TD6, lo que explica las comparaciones posteriores con *antecessor*. La correlación era indirecta: el cráneo no estaba en un nivel datado, y la secuencia del valle tiene numerosas discordancias y depósitos redepositados.
+La edad que se atribuyó inicialmente, ≈ **900–800 ka**, procedía de la correlación de los niveles arcillosos con depósitos volcánicos de la región datados por potasio-argón y de la presencia en la zona de industrias de cantos tallados sin bifaces. Esa edad situaba a Ceprano antes de la inversión Matuyama-Brunhes y lo hacía casi contemporáneo de la [[@HOMININ-REF-antecessor -850000|Gran Dolina]] TD6, lo que explica las comparaciones posteriores con *antecessor*. La correlación era indirecta: el cráneo no estaba en un nivel datado, y la secuencia del valle tiene numerosas discordancias y depósitos redepositados.
 
 ### Reconstrucciones sucesivas
 
@@ -92,7 +92,7 @@ En 2009 Giovanni Muttoni y colaboradores publicaron la **magnetoestratigrafía**
 | Polen | secuencia de vegetación interglacial con bosque templado, correlacionable con el estadio isotópico 11 |
 | Fauna | asociaciones de grandes mamíferos del Pleistoceno medio, sin elementos del Pleistoceno inferior |
 
-La conclusión fue una edad de **≈ 430–385 ka**, correspondiente al largo interglacial del estadio isotópico marino 11, uno de los más cálidos y duraderos del Pleistoceno. El fósil resultaba así unos 400.000 años más joven de lo que se pensaba, contemporáneo de la Sima de los Huesos, de Swanscombe y de Arago, y muy posterior a TD6. Las razones para el cambio de nombre perdían buena parte de su fuerza: un rasgo «primitivo» en un fósil de 850.000 años es esperable, pero en uno de 400.000 años indica variación dentro de las poblaciones del Pleistoceno medio.
+La conclusión fue una edad de **≈ 430–385 ka**, correspondiente al largo interglacial del estadio isotópico marino 11, uno de los más cálidos y duraderos del Pleistoceno. El fósil resultaba así unos 400.000 años más joven de lo que se pensaba, contemporáneo de la [[@ARCH-SDB-DEEP-D7418595FE0B -430000|Sima de los Huesos]], de Swanscombe y de Arago, y muy posterior a TD6. Las razones para el cambio de nombre perdían buena parte de su fuerza: un rasgo «primitivo» en un fósil de 850.000 años es esperable, pero en uno de 400.000 años indica variación dentro de las poblaciones del Pleistoceno medio.
 
 :::datos
 Edad aceptada: ≈ 430–385 ka (MIS 11)

@@ -53,13 +53,13 @@ fuentes:
 
 *Kenyanthropus* combina el nombre de Kenia con el griego ἄνθρωπος (*ánthropos*, «hombre»), y *platyops* une πλατύς (*platýs*, «plano, ancho») y ὤψ (*ōps*, «cara»): «hombre de Kenia de cara plana». Los autores eligieron un género nuevo y no una especie de *Australopithecus* porque consideraron que la morfología facial y dental del cráneo lo separaba de todos los australopitecos conocidos al menos tanto como estos se separan entre sí. El nombre del género rinde homenaje al país donde la familia Leakey ha trabajado durante tres generaciones y donde se ha encontrado una parte sustancial del registro de homininos del Plioceno y el Pleistoceno.
 
-Las siglas siguen el sistema de los Museos Nacionales de Kenia: **KNM** (*Kenya National Museums*), **WT** (*West Turkana*) y un número de inventario. La localidad del holotipo es **LO-6N**, la sexta de Lomekwi, sector norte.
+Las siglas siguen el sistema de los Museos Nacionales de Kenia: **KNM** (*Kenya National Museums*), **WT** (*West Turkana*) y un número de inventario. La localidad del holotipo es **LO-6N**, la sexta de [[@HOMININ-REF-platyops -3400000|Lomekwi]], sector norte.
 
 ## Historia del descubrimiento
 
 ### El proyecto de Turkana occidental
 
-Desde los años ochenta, el equipo de los Museos Nacionales de Kenia prospectaba la orilla occidental del lago Turkana, donde la Formación Nachukui había dado en 1984 el esqueleto de *Homo erectus* del Niño de Turkana (KNM-WT 15000) y en 1985 el «cráneo negro» de [[hominin-aethiopicus|*Paranthropus aethiopicus*]] (KNM-WT 17000). A finales de los noventa, Meave Leakey y su hija Louise dirigieron campañas en los afloramientos del río Lomekwi, de edad pliocena media, con el objetivo de documentar el intervalo entre [[hominin-anamensis|*Au. anamensis*]], que el mismo equipo había descrito en Kanapoi en 1995, y los homininos posteriores a 3 Ma.
+Desde los años ochenta, el equipo de los Museos Nacionales de Kenia prospectaba la orilla occidental del lago Turkana, donde la Formación Nachukui había dado en 1984 el esqueleto de *Homo erectus* del Niño de Turkana (KNM-WT 15000) y en 1985 el «cráneo negro» de [[hominin-aethiopicus|*Paranthropus aethiopicus*]] (KNM-WT 17000). A finales de los noventa, Meave Leakey y su hija Louise dirigieron campañas en los afloramientos del río Lomekwi, de edad pliocena media, con el objetivo de documentar el intervalo entre [[hominin-anamensis|*Au. anamensis*]], que el mismo equipo había descrito en [[@HOMININ-REF-anamensis -4150000|Kanapoi]] en 1995, y los homininos posteriores a 3 Ma.
 
 ### Los hallazgos de 1998 y 1999
 
@@ -75,7 +75,7 @@ El artículo apareció en *Nature* el 22 de marzo de 2001, firmado por Meave Lea
 
 ### La Formación Nachukui
 
-La Formación Nachukui, en la orilla occidental del lago Turkana, es el equivalente occidental de las formaciones Koobi Fora (al este) y Shungura (al norte, en el valle del Omo, Etiopía). Las tres registran la historia de la cuenca de Turkana desde ≈ 4,3 Ma hasta el Pleistoceno, con sedimentos fluviales del proto-Omo, depósitos lacustres de los sucesivos lagos y numerosas tobas volcánicas, cuya geoquímica permite correlacionarlas de un lado a otro de la cuenca. Frank Brown y Craig Feibel construyeron a partir de ellas la tefroestratigrafía que hoy sirve de columna vertebral a la cronología del Plioceno y el Pleistoceno de África oriental.
+La Formación Nachukui, en la orilla occidental del lago Turkana, es el equivalente occidental de las formaciones [[@HOMININ-REF-rudolfensis -1880000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]) (al este) y [[@ARCH-SDB-DEEP-A6AA3FA6A256 -1900000|Shungura]] (al norte, en el valle del Omo, Etiopía). Las tres registran la historia de la cuenca de Turkana desde ≈ 4,3 Ma hasta el Pleistoceno, con sedimentos fluviales del proto-Omo, depósitos lacustres de los sucesivos lagos y numerosas tobas volcánicas, cuya geoquímica permite correlacionarlas de un lado a otro de la cuenca. Frank Brown y Craig Feibel construyeron a partir de ellas la tefroestratigrafía que hoy sirve de columna vertebral a la cronología del Plioceno y el Pleistoceno de África oriental.
 
 ### El Miembro Lomekwi
 
@@ -91,7 +91,7 @@ De ahí la edad de **≈ 3,5 Ma** del holotipo. El maxilar KNM-WT 38350 procede 
 
 ### Paleoambiente
 
-El sedimento del holotipo se depositó en la llanura de inundación de un sistema fluvial que desembocaba en el lago. La fauna de Lomekwi, rica en monos colobinos y en *Theropithecus*, en bóvidos tragelafinos y reduncinos, en suidos y en hipopótamos, indica según los descriptores un mosaico de bosque y herbazal relativamente húmedo, con bosque de ribera, más cerrado que el de las localidades de Hadar con *afarensis* de la misma edad. Ese contraste ambiental se citó como argumento adicional para una diferenciación ecológica de ambos homininos.
+El sedimento del holotipo se depositó en la llanura de inundación de un sistema fluvial que desembocaba en el lago. La fauna de Lomekwi, rica en monos colobinos y en *Theropithecus*, en bóvidos tragelafinos y reduncinos, en suidos y en hipopótamos, indica según los descriptores un mosaico de bosque y herbazal relativamente húmedo, con bosque de ribera, más cerrado que el de las localidades de [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]) con *afarensis* de la misma edad. Ese contraste ambiental se citó como argumento adicional para una diferenciación ecológica de ambos homininos.
 
 ## Anatomía
 

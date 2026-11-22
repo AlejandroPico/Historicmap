@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.74.0 · 23 de noviembre de 2026
+
+- Enciclopedia P09-C · 16 monografías de yacimientos (≈ 85.000 palabras) en «Evolución humana › Yacimientos»: Atapuerca, Orce y Venta Micena, Olduvai, cuenca del Turkana, Afar (Hadar y Awash Medio), Laetoli, Cuna de la Humanidad, Dmanisi, Zhoukoudian, Sangiran y Trinil, Liang Bua, Denisova, Jebel Irhoud, Omo Kibish, Levante (Skhul, Qafzeh, Misliya, Tabun) y Gibraltar con El Sidrón.
+- Enlaces de la enciclopedia al mapa: la sintaxis `[[@CLAVE año|texto]]` enlaza un yacimiento con su punto de evidencia del mapa (marcado con ⌖). Al pulsarlo se cierra la enciclopedia, el mapa viaja a ese año, centra el punto y abre su ficha. El compilador comprueba que la clave exista y que el punto se muestre ese año. Hay unos 370 enlaces a 92 puntos distintos en las páginas de yacimientos, procesos, especies y la portada.
+- Los enlaces internos sin texto propio muestran en cursiva los nombres científicos del título de destino, sin asteriscos.
+
 ## 0.73.0 · 22 de noviembre de 2026
 
 - Enciclopedia P09-B · 15 páginas de procesos de la evolución humana (≈ 90.000 palabras) en `enciclopedia/humanidad/procesos/`, dentro del desplegable «Evolución humana › Procesos»:

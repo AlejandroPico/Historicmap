@@ -55,7 +55,7 @@ fuentes:
 
 El nombre procede de la lengua afar, hablada en la región donde se hallaron los fósiles. *Ardi* significa «suelo» o «tierra» y *ramid*, «raíz»; el conjunto alude a un ser que vivía en el suelo y que se situaba cerca de la raíz del linaje humano. El sufijo griego *pithekos*, «mono», es el habitual en los nombres de primates fósiles. La especie se publicó en septiembre de 1994 como *Australopithecus ramidus*, porque sus autores la consideraron entonces la especie más primitiva de un género ya conocido. Pocos meses después, en una corrección publicada en *Nature* en mayo de 1995, Tim White, Gen Suwa y Berhane Asfaw crearon el género *Ardipithecus* al reconocer que la distancia anatómica respecto a *Australopithecus* era demasiado grande para mantenerla en él. Por eso la autoría del género se fecha en 1995 y la de la especie en 1994, y el nombre de los autores de la especie se escribe entre paréntesis.
 
-El holotipo es ARA-VP-6/1, un conjunto de dientes asociados de un mismo individuo hallados en 1993 en la localidad vertebrada 6 de Aramis (las siglas significan Aramis, *Vertebrate Paleontology*, localidad 6, espécimen 1). El esqueleto «Ardi» lleva la sigla ARA-VP-6/500 porque procede de la misma localidad. El género incluye una segunda especie, más antigua, [[hominin-kadabba|*Ardipithecus kadabba*]] (5,8–5,2 Ma), descrita primero como subespecie de *ramidus* en 2001 y elevada a especie en 2004 a partir de la morfología del complejo canino-premolar.
+El holotipo es ARA-VP-6/1, un conjunto de dientes asociados de un mismo individuo hallados en 1993 en la localidad vertebrada 6 de [[@HOMININ-REF-ramidus -4400000|Aramis]] (las siglas significan Aramis, *Vertebrate Paleontology*, localidad 6, espécimen 1). El esqueleto «Ardi» lleva la sigla ARA-VP-6/500 porque procede de la misma localidad. El género incluye una segunda especie, más antigua, [[hominin-kadabba|*Ardipithecus kadabba*]] (5,8–5,2 Ma), descrita primero como subespecie de *ramidus* en 2001 y elevada a especie en 2004 a partir de la morfología del complejo canino-premolar.
 
 ## Historia del descubrimiento
 
@@ -73,7 +73,7 @@ La descripción completa se publicó el 2 de octubre de 2009 en un número espec
 
 ### Gona
 
-En 2005 Sileshi Semaw y colaboradores publicaron restos de al menos nueve individuos, sobre todo dientes y fragmentos mandibulares, de los yacimientos de As Duma, en el área de Gona, a unos 100 km al norte de Aramis. Su edad, entre unos 4,5 y 4,3 Ma, se apoya en dataciones ⁴⁰Ar/³⁹Ar de tobas y en paleomagnetismo. Los isótopos de los paleosuelos y la fauna de As Duma indican un mosaico de bosque y herbazal, más abierto que el de Aramis, lo que amplía el abanico ecológico de la especie.
+En 2005 Sileshi Semaw y colaboradores publicaron restos de al menos nueve individuos, sobre todo dientes y fragmentos mandibulares, de los yacimientos de As Duma, en el área de [[@ARCH-SDB-DEEP-CD5F93A02992 -2500000|Gona]], a unos 100 km al norte de Aramis. Su edad, entre unos 4,5 y 4,3 Ma, se apoya en dataciones ⁴⁰Ar/³⁹Ar de tobas y en paleomagnetismo. Los isótopos de los paleosuelos y la fauna de As Duma indican un mosaico de bosque y herbazal, más abierto que el de Aramis, lo que amplía el abanico ecológico de la especie.
 
 ## Geología y datación de Aramis
 
@@ -171,7 +171,7 @@ Los descubridores sitúan a *Ardipithecus* como hominino, es decir, en el linaje
 | [[hominin-orrorin|*Orrorin tugenensis*]] | ≈ 6,1–5,7 | desconocida | relativamente grandes | desconocido | colinas de Tugen (Kenia) |
 | [[hominin-kadabba|*Ardipithecus kadabba*]] | ≈ 5,8–5,2 | desconocida | con afilado parcial | posible falange de pie con dorsiflexión | Awash Medio (Etiopía) |
 | *Ardipithecus ramidus* | ≈ 4,5–4,3 | ≈ 300–350 | pequeños, sin afilado | oponible | Aramis, Gona |
-| [[hominin-anamensis|*Australopithecus anamensis*]] | ≈ 4,2–3,8 | ≈ 365–370 (MRD) | grandes raíces, sin afilado | desconocido | Kanapoi, Allia Bay, Woranso-Mille |
+| [[hominin-anamensis|*Australopithecus anamensis*]] | ≈ 4,2–3,8 | ≈ 365–370 (MRD) | grandes raíces, sin afilado | desconocido | [[@HOMININ-REF-anamensis -4150000|Kanapoi]] ([[humanidad-yacimiento-turkana|yacimiento]]), Allia Bay, [[humanidad-yacimiento-afar|Woranso-Mille]] |
 
 ## Lugar en la historia de la paleoantropología
 

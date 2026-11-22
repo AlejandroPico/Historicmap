@@ -35,6 +35,7 @@ La **evolución humana** es la historia de la tribu de los homininos (Hominini):
 Esta página es la puerta de entrada al apartado. Contiene el **árbol evolutivo interactivo** con los 39 linajes del atlas, explica cómo leerlo y resume las grandes etapas; el detalle está en las fichas de cada especie y en las páginas de procesos, yacimientos y tecnologías.
 
 :::componente arbol-homininos
+:::
 
 ## Cómo leer el árbol
 
@@ -49,6 +50,10 @@ Al pulsar una barra se abre la ficha de esa especie, con su anatomía, yacimient
 
 :::nota
 Las barras **no forman una cadena de antepasados**. Que dos barras se toquen o se solapen no significa que una descienda de la otra. Las relaciones de parentesco se discuten en cada ficha, a menudo con varias hipótesis enfrentadas.
+:::
+
+:::nota En el mapa
+Los yacimientos del atlas aparecen como puntos durante las ventanas en que están fechados. En las páginas de la enciclopedia, los enlaces marcados con ⌖ abren el mapa en la época del yacimiento y lo seleccionan: por ejemplo, [[@HOMININ-REF-afarensis -3200000|Hadar, donde apareció Lucy]], [[@HOMININ-REF-antecessor -850000|la Gran Dolina de Atapuerca]] o [[@ARCH-SDB-DEEP-9F9A5BBEB4B6 -1800000|Dmanisi]].
 :::
 
 ## Las grandes etapas

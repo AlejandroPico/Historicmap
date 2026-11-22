@@ -311,3 +311,5 @@ button.enc-toggle::before{content:'▸';display:inline-block;transition:transfor
 .enc-htree .htree-key{display:inline-flex;align-items:center;gap:6px;margin-left:8px}.enc-htree .htree-swatch{display:inline-block;width:18px;border-top:2px dashed #7fd1c7}
 .enc-hstrip{margin:18px 0 6px}.enc-hstrip svg{border-radius:10px;background:#1c2128}.hstrip-other{fill:#a7a297;opacity:.28}.hstrip-this{stroke:#fff;stroke-width:1}
 .human-tree-link{margin:6px 0 18px}
+/* Enlaces de la enciclopedia a un yacimiento del mapa */
+.enc-maplink{white-space:nowrap}.enc-maplink::after{content:"\2316";margin-left:3px;font-size:.85em;opacity:.75}

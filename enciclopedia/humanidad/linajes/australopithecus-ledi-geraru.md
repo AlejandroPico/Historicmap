@@ -43,7 +43,7 @@ Hace unos 2,63 millones de años, en el mismo paisaje del Afar donde ya vivían 
 
 ## Un género sin especie
 
-En paleontología, la abreviatura «sp.» tras un nombre de género indica que los fósiles pertenecen con seguridad a ese género, pero que no pueden asignarse a una especie conocida ni sirven para crear una nueva. *Australopithecus* sp. de Ledi-Geraru es, por tanto, una población fósil y no un taxón formal: un conjunto de individuos que vivieron en un lugar y un momento concretos y cuya posición en el árbol está por determinar. Este catálogo lo trata como linaje independiente por su interés cronológico y geográfico, no porque se haya demostrado que sea una especie distinta.
+En paleontología, la abreviatura «sp.» tras un nombre de género indica que los fósiles pertenecen con seguridad a ese género, pero que no pueden asignarse a una especie conocida ni sirven para crear una nueva. *Australopithecus* sp. de [[@HOMININ-P5-LEDI-AU -2630000|Ledi-Geraru]] es, por tanto, una población fósil y no un taxón formal: un conjunto de individuos que vivieron en un lugar y un momento concretos y cuya posición en el árbol está por determinar. Este catálogo lo trata como linaje independiente por su interés cronológico y geográfico, no porque se haya demostrado que sea una especie distinta.
 
 La decisión de no nombrarlo responde a las reglas del Código Internacional de Nomenclatura Zoológica, que exige para una especie nueva un ejemplar tipo y una diagnosis que la distinga de las demás, y a una práctica cada vez más extendida en paleoantropología. La [[human-taxonomy|taxonomía humana]] ha sufrido durante décadas una proliferación de nombres basados en restos fragmentarios, muchos de los cuales acabaron en sinonimia; el caso de [[hominin-prometheus|*Au. prometheus*]], creado para un occipital aislado, es un ejemplo de los problemas que provoca un nombre mal anclado.
 
@@ -51,7 +51,7 @@ La decisión de no nombrarlo responde a las reglas del Código Internacional de 
 
 ### Situación y equipo
 
-Ledi-Geraru es un área de investigación paleoantropológica de la región de Afar, en el noreste de Etiopía, a unos 30–40 km al nordeste de Hadar, el yacimiento de Lucy. Sus sedimentos afloran en la cuenca del río Lee Adoyta y en sus alrededores. Desde comienzos de la década de 2000 lo estudia el *Ledi-Geraru Research Project*, dirigido por Kaye Reed, de la Universidad Estatal de Arizona, con la participación de Brian Villmoare (Universidad de Nevada en Las Vegas), los geólogos Christopher Campisano, Erin DiMaggio y Ramón Arrowsmith, y numerosos investigadores etíopes y de la comunidad afar local.
+Ledi-Geraru es un área de investigación paleoantropológica de la región de Afar, en el noreste de Etiopía, a unos 30–40 km al nordeste de [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]), el yacimiento de Lucy. Sus sedimentos afloran en la cuenca del río Lee Adoyta y en sus alrededores. Desde comienzos de la década de 2000 lo estudia el *Ledi-Geraru Research Project*, dirigido por Kaye Reed, de la Universidad Estatal de Arizona, con la participación de Brian Villmoare (Universidad de Nevada en Las Vegas), los geólogos Christopher Campisano, Erin DiMaggio y Ramón Arrowsmith, y numerosos investigadores etíopes y de la comunidad afar local.
 
 ### Un intervalo clave del registro
 
@@ -78,7 +78,7 @@ En agosto de 2025 Villmoare, Reed y colaboradores publicaron en *Nature* nuevos 
 
 ### Diferentes de *afarensis* y de *garhi*
 
-Según la comparación publicada, los dientes de *Australopithecus* de Ledi-Geraru no encajan en la variación conocida de [[hominin-afarensis|*Au. afarensis*]], la especie que ocupaba la región hasta hace unos 2,95 Ma, ni en la de [[hominin-garhi|*Au. garhi*]], el australopiteco de Bouri de unos 2,5 Ma, cuyos premolares y molares son mucho mayores. Tampoco muestran las adaptaciones de los parántropos, como la reducción de los dientes anteriores y la gran expansión de los posteriores que caracterizan a [[hominin-aethiopicus|*Paranthropus aethiopicus*]], contemporáneo en el valle del Omo. Los autores concluyen que podrían representar una especie de *Australopithecus* hasta ahora desconocida.
+Según la comparación publicada, los dientes de *Australopithecus* de Ledi-Geraru no encajan en la variación conocida de [[hominin-afarensis|*Au. afarensis*]], la especie que ocupaba la región hasta hace unos 2,95 Ma, ni en la de [[hominin-garhi|*Au. garhi*]], el australopiteco de [[@HOMININ-REF-garhi -2500000|Bouri]] de unos 2,5 Ma, cuyos premolares y molares son mucho mayores. Tampoco muestran las adaptaciones de los parántropos, como la reducción de los dientes anteriores y la gran expansión de los posteriores que caracterizan a [[hominin-aethiopicus|*Paranthropus aethiopicus*]], contemporáneo en el valle del Omo. Los autores concluyen que podrían representar una especie de *Australopithecus* hasta ahora desconocida.
 
 Las diferencias con *afarensis* son importantes por sí mismas. Si los australopitecos de Ledi-Geraru descendieran de los de Hadar, cabría esperar cierta continuidad dental; su divergencia sugiere o bien una evolución notable en unos 300.000 años, o bien la llegada de otra población desde fuera del Afar.
 

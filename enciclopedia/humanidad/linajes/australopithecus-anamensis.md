@@ -51,9 +51,9 @@ fuentes:
 
 ## Nombre y nomenclatura
 
-*Anam* significa «lago» en turkana, la lengua de los pastores que viven alrededor del lago Turkana, en el norte de Kenia, y alude tanto a ese lago como al gran lago del Plioceno, el lago Lonyumun, a cuyas orillas vivieron los homininos de Kanapoi. *Australopithecus*, «simio del sur», es el género creado por Raymond Dart en 1925 para el niño de Taung ([[hominin-africanus|*Au. africanus*]]). La inclusión de *anamensis* en este género, y no en uno nuevo, se basó en la combinación de rasgos dentales más derivados que los de [[hominin-ramidus|*Ardipithecus*]] (esmalte grueso, molares anchos) con una tibia plenamente bípeda.
+*Anam* significa «lago» en turkana, la lengua de los pastores que viven alrededor del lago Turkana, en el norte de Kenia, y alude tanto a ese lago como al gran lago del Plioceno, el lago Lonyumun, a cuyas orillas vivieron los homininos de [[@HOMININ-REF-anamensis -4150000|Kanapoi]]. *Australopithecus*, «simio del sur», es el género creado por Raymond Dart en 1925 para el niño de Taung ([[hominin-africanus|*Au. africanus*]]). La inclusión de *anamensis* en este género, y no en uno nuevo, se basó en la combinación de rasgos dentales más derivados que los de [[hominin-ramidus|*Ardipithecus*]] (esmalte grueso, molares anchos) con una tibia plenamente bípeda.
 
-Algunos autores, partidarios de dividir *Australopithecus* en varios géneros por considerarlo parafilético, han situado *anamensis* y *afarensis* en *Praeanthropus*, un nombre propuesto en los años cincuenta para fósiles de Laetoli. Esta opción, defendida por ejemplo por David Strait y Frederick Grine en algunos análisis cladísticos, es minoritaria; el problema general se discute en [[human-taxonomy|la taxonomía humana]].
+Algunos autores, partidarios de dividir *Australopithecus* en varios géneros por considerarlo parafilético, han situado *anamensis* y *afarensis* en *Praeanthropus*, un nombre propuesto en los años cincuenta para fósiles de [[humanidad-yacimiento-laetoli|Laetoli]]. Esta opción, defendida por ejemplo por David Strait y Frederick Grine en algunos análisis cladísticos, es minoritaria; el problema general se discute en [[human-taxonomy|la taxonomía humana]].
 
 El holotipo es KNM-KP 29281, una mandíbula adulta casi completa con todos sus dientes y un fragmento de hueso temporal del mismo individuo, hallada en 1994 en Kanapoi. Las siglas significan *Kenya National Museums*, Kanapoi, número de catálogo.
 
@@ -69,7 +69,7 @@ En 1994 un equipo de los Museos Nacionales de Kenia dirigido por Meave Leakey vo
 
 ### Etiopía: Asa Issie y Fejej
 
-En 2006 el equipo del Awash Medio describió treinta especímenes de al menos ocho individuos de Asa Issie, en Etiopía, de unos 4,2–4,1 Ma, entre ellos un fémur y los dientes caninos más grandes del registro de los homininos. Su proximidad geográfica a Aramis, apenas unos kilómetros, y la diferencia de edad de unos 200.000 años respecto a [[hominin-ramidus|*Ar. ramidus*]] alimentaron la hipótesis de una sucesión local. Varios dientes de Fejej, en el sur de Etiopía, de unos 4,2–4,0 Ma, se atribuyen también provisionalmente a la especie.
+En 2006 el equipo del Awash Medio describió treinta especímenes de al menos ocho individuos de Asa Issie, en Etiopía, de unos 4,2–4,1 Ma, entre ellos un fémur y los dientes caninos más grandes del registro de los homininos. Su proximidad geográfica a [[@HOMININ-REF-ramidus -4400000|Aramis]], apenas unos kilómetros, y la diferencia de edad de unos 200.000 años respecto a [[hominin-ramidus|*Ar. ramidus*]] alimentaron la hipótesis de una sucesión local. Varios dientes de Fejej, en el sur de Etiopía, de unos 4,2–4,0 Ma, se atribuyen también provisionalmente a la especie.
 
 ### El cráneo MRD
 
@@ -83,7 +83,7 @@ Los sedimentos fosilíferos de Kanapoi pertenecen a la Formación Kanapoi, en la
 
 ### Allia Bay
 
-En Allia Bay los fósiles proceden de la parte inferior de la Formación Koobi Fora (miembro Lonyumun y niveles cercanos a la toba Moiti), con una edad de unos 3,95–3,9 Ma. Allí el material es sobre todo dental y procede de depósitos de un antiguo canal del protorío Omo, lo que explica la abundancia de dientes aislados y fauna acuática.
+En Allia Bay los fósiles proceden de la parte inferior de la Formación [[@HOMININ-REF-rudolfensis -1880000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]) (miembro Lonyumun y niveles cercanos a la toba Moiti), con una edad de unos 3,95–3,9 Ma. Allí el material es sobre todo dental y procede de depósitos de un antiguo canal del protorío Omo, lo que explica la abundancia de dientes aislados y fauna acuática.
 
 ### Woranso-Mille
 
@@ -148,7 +148,7 @@ La muestra de *anamensis* muestra una variación de tamaño dental mayor que la 
 La relación entre *anamensis* y *afarensis* es el tema central de la especie. Los rasgos dentales de *anamensis* son, en conjunto, más primitivos, y la especie es más antigua; en el mismo sector de África oriental, los fósiles de *afarensis* aparecen a partir de unos 3,8 Ma y llegan hasta unos 3,0 Ma.
 
 :::debate Una especie que cambia o dos especies que conviven
-**Anagénesis.** William Kimbel y colaboradores analizaron en 2006 la variación de los caracteres dentales y mandibulares de *anamensis* y *afarensis* a lo largo del tiempo, desde Kanapoi hasta Hadar, y encontraron una tendencia gradual y coherente en la forma del P₃, la inclinación de la sínfisis mandibular y el tamaño de los dientes, sin solapamiento temporal claro. Concluyeron que *anamensis* y *afarensis* son dos segmentos de un único linaje evolutivo que cambiaba con el tiempo, una cronoespecie, y no dos especies separadas por un acontecimiento de especiación. Ese mismo año White y colaboradores, desde Asa Issie, extendieron la secuencia hacia atrás hasta *Ardipithecus ramidus*.
+**Anagénesis.** William Kimbel y colaboradores analizaron en 2006 la variación de los caracteres dentales y mandibulares de *anamensis* y *afarensis* a lo largo del tiempo, desde Kanapoi hasta [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]), y encontraron una tendencia gradual y coherente en la forma del P₃, la inclinación de la sínfisis mandibular y el tamaño de los dientes, sin solapamiento temporal claro. Concluyeron que *anamensis* y *afarensis* son dos segmentos de un único linaje evolutivo que cambiaba con el tiempo, una cronoespecie, y no dos especies separadas por un acontecimiento de especiación. Ese mismo año White y colaboradores, desde Asa Issie, extendieron la secuencia hacia atrás hasta *Ardipithecus ramidus*.
 
 **Solapamiento.** El cráneo MRD, de 3,8 Ma, es un *anamensis* claro. Pero en Belohdelie, en el Awash Medio, un frontal de unos 3,9 Ma (BEL-VP-1/1) muestra una forma más parecida a la de *afarensis*. Si ambas atribuciones son correctas, *anamensis* y *afarensis* coexistieron durante al menos unos 100.000 años en la región de Afar, lo que contradice la anagénesis estricta y apunta a una cladogénesis: una población de *anamensis* habría originado *afarensis* mientras el resto del linaje persistía. Haile-Selassie y colaboradores defendieron esta interpretación en 2019.
 
@@ -161,7 +161,7 @@ La relación entre *anamensis* y *afarensis* es el tema central de la especie. L
 | *Australopithecus anamensis* | ≈ 4,2–3,8 | Turkana y Afar | — |
 | [[hominin-afarensis|*Australopithecus afarensis*]] | ≈ 3,85–2,95 | Etiopía, Kenia, Tanzania | descendiente por anagénesis o cladogénesis |
 | [[hominin-deyiremeda|*Australopithecus deyiremeda*]] | ≈ 3,5–3,3 | Woranso-Mille | contemporáneo de *afarensis*, origen incierto |
-| [[hominin-platyops|*Kenyanthropus platyops*]] | ≈ 3,5–3,2 | Lomekwi (Turkana) | posible descendiente independiente |
+| [[hominin-platyops|*Kenyanthropus platyops*]] | ≈ 3,5–3,2 | [[@HOMININ-REF-platyops -3400000|Lomekwi]] (Turkana) | posible descendiente independiente |
 | [[hominin-bahrelghazali|*Australopithecus bahrelghazali*]] | ≈ 3,6–3,0 | Chad | quizá variante de *afarensis* |
 
 ## Lugar en la historia de la paleoantropología

@@ -57,7 +57,7 @@ fuentes:
 ---
 
 :::clave
-*Homo heidelbergensis* nació como el nombre de una sola mandíbula, la de Mauer, y se convirtió en la etiqueta de una época: la de los humanos de cerebro grande, cara ancha y toro supraorbitario grueso que, entre hace unos 700.000 y 200.000 años, fabricaron bifaces refinados, cazaron caballos con lanzas de madera y empezaron a usar el fuego de forma habitual en Europa y África. En el modelo clásico, defendido por Philip Rightmire, esa especie es el tronco del que salieron los neandertales en Europa y *Homo sapiens* en África. El ADN de la Sima de los Huesos, que muestra que el linaje neandertal ya era independiente hace 430.000 años, y la falta de un cráneo asociado a la mandíbula tipo han puesto ese esquema en cuestión hasta el punto de que varios autores proponen abandonar el nombre.
+*Homo heidelbergensis* nació como el nombre de una sola mandíbula, la de Mauer, y se convirtió en la etiqueta de una época: la de los humanos de cerebro grande, cara ancha y toro supraorbitario grueso que, entre hace unos 700.000 y 200.000 años, fabricaron bifaces refinados, cazaron caballos con lanzas de madera y empezaron a usar el fuego de forma habitual en Europa y África. En el modelo clásico, defendido por Philip Rightmire, esa especie es el tronco del que salieron los neandertales en Europa y *Homo sapiens* en África. El ADN de la [[@ARCH-SDB-DEEP-D7418595FE0B -430000|Sima de los Huesos]], que muestra que el linaje neandertal ya era independiente hace 430.000 años, y la falta de un cráneo asociado a la mandíbula tipo han puesto ese esquema en cuestión hasta el punto de que varios autores proponen abandonar el nombre.
 :::
 
 ## Nombre e historia nomenclatural
@@ -95,7 +95,7 @@ Además de Mauer, los fósiles europeos que se han atribuido con más frecuencia
 | Vértesszőlős | Hungría | 1965 | ≈ 400–300 ka | occipital «Samu» |
 | Ceprano | Lacio (Italia) | 1994 | ≈ 430–385 ka | calvario; véase [[hominin-cepranensis|*H. cepranensis*]] |
 | Steinheim | Baden-Wurtemberg (Alemania) | 1933 | ≈ 350–300 ka | cráneo de capacidad pequeña con rasgos neandertales |
-| Sima de los Huesos | Atapuerca (España) | desde 1976 | ≈ 430 ka | > 7.000 restos; linaje neandertal |
+| Sima de los Huesos | [[humanidad-yacimiento-atapuerca|Atapuerca]] (España) | desde 1976 | ≈ 430 ka | > 7.000 restos; linaje neandertal |
 
 ### Arago
 
@@ -103,7 +103,7 @@ La **Caune de l'Arago**, una cueva sobre el valle del Verdouble, en Tautavel (Pi
 
 ### Petralona
 
-En 1960 un vecino de Petralona, cerca de Salónica, descubrió una cueva caliza mientras buscaba agua, y en su interior apareció un **cráneo casi completo**, sin mandíbula, cementado a la pared por una costra de calcita. El estudio fue polémico desde el principio. Aris Poulianos, que dirigió las excavaciones durante décadas, defendió edades de unos 700.000 años o más; otros investigadores, con series de uranio y ESR sobre la calcita y la fauna, obtuvieron edades entre 350.000 y 150.000 años, y la falta de una estratigrafía precisa del hallazgo impedía decidir. En 2025 Christophe Falguères y colaboradores dataron por **series de uranio** la calcita que recubre el propio cráneo y obtuvieron una **edad mínima** próxima a **290.000 años**. El cráneo tiene una capacidad de ≈ **1.230 cm³**, un toro supraorbitario enorme, senos frontales muy desarrollados, una cara ancha y alta y un occipital con un toro marcado. Comparte muchos rasgos con Kabwe 1 y con Bodo, lo que lo convierte en el principal argumento a favor de una especie común a Europa y África.
+En 1960 un vecino de Petralona, cerca de Salónica, descubrió una cueva caliza mientras buscaba agua, y en su interior apareció un **cráneo casi completo**, sin mandíbula, cementado a la pared por una costra de calcita. El estudio fue polémico desde el principio. Aris Poulianos, que dirigió las excavaciones durante décadas, defendió edades de unos 700.000 años o más; otros investigadores, con series de uranio y ESR sobre la calcita y la fauna, obtuvieron edades entre 350.000 y 150.000 años, y la falta de una estratigrafía precisa del hallazgo impedía decidir. En 2025 Christophe Falguères y colaboradores dataron por **series de uranio** la calcita que recubre el propio cráneo y obtuvieron una **edad mínima** próxima a **290.000 años**. El cráneo tiene una capacidad de ≈ **1.230 cm³**, un toro supraorbitario enorme, senos frontales muy desarrollados, una cara ancha y alta y un occipital con un toro marcado. Comparte muchos rasgos con Kabwe 1 y con [[@ARCH-SDB-DEEP-8930520E140B -640000|Bodo]] ([[humanidad-yacimiento-afar|yacimiento]]), lo que lo convierte en el principal argumento a favor de una especie común a Europa y África.
 
 ![Réplica del cráneo de Petralona](medios/humanidad-a4a/petralona-1.jpg "Réplica del cráneo de Petralona (Grecia), uno de los fósiles clásicos atribuidos a Homo heidelbergensis")
 

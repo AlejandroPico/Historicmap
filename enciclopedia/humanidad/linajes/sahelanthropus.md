@@ -197,7 +197,7 @@ Toumaï cambió la geografía del problema. Al aparecer a 2.500 km al oeste del 
 | Rasgo | *Sahelanthropus tchadensis* | [[hominin-orrorin|*Orrorin tugenensis*]] | [[hominin-kadabba|*Ardipithecus kadabba*]] | [[hominin-ramidus|*Ardipithecus ramidus*]] | Chimpancé común |
 |---|---|---|---|---|---|
 | Edad | ≈ 7,0 Ma | ≈ 6,1–5,7 Ma | ≈ 5,8–5,2 Ma | ≈ 4,4 Ma | actual |
-| Región | norte del Chad | Kenia (colinas Tugen) | Etiopía (Awash medio) | Etiopía (Aramis, Gona) | África central y occidental |
+| Región | norte del Chad | Kenia (colinas Tugen) | Etiopía (Awash medio) | Etiopía ([[@HOMININ-REF-ramidus -4400000|Aramis]] ([[humanidad-yacimiento-afar|yacimiento]]), [[@ARCH-SDB-DEEP-CD5F93A02992 -2500000|Gona]]) | África central y occidental |
 | Capacidad craneal | ≈ 360–370 cm³ | desconocida | desconocida | ≈ 300–350 cm³ | ≈ 280–500 cm³ |
 | Canino superior | pequeño, desgaste apical | de tamaño simiesco moderado | relativamente alto, afilado residual | pequeño, romo | grande, afilado |
 | Esmalte molar | intermedio | relativamente grueso | intermedio | delgado a intermedio | delgado |

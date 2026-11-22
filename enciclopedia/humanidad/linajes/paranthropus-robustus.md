@@ -65,7 +65,7 @@ La mayoría de los autores acabó reuniendo ambos en *robustus*, aunque Frederic
 
 En junio de 1938, el encargado de la cantera de Sterkfontein, G. W. Barlow, entregó a Robert Broom un fragmento de maxilar con un molar, procedente de algún lugar cercano. Broom, que llevaba dos años recuperando fósiles de [[hominin-africanus|*Au. africanus*]] en Sterkfontein, averiguó que la pieza la había encontrado un escolar, **Gert Terblanche**, en una colina de la granja de Kromdraai, a unos 1,5 km. El muchacho guardaba en el bolsillo varios dientes más, y Broom localizó con él el lugar de donde procedían: un depósito de brecha calcárea, hoy llamado **Kromdraai B**, que proporcionó la mayor parte de un lado del cráneo, una mandíbula y algunos huesos de la mano, el codo y el tobillo.
 
-Broom publicó el hallazgo en *Nature* en agosto de 1938. El ejemplar, conservado en el Museo del Transvaal con la sigla **TM 1517**, se convirtió en el holotipo de la especie. Sus dientes posteriores eran grandes y anchos, la cara aplanada y la mandíbula maciza, y Broom vio enseguida que no se trataba de un *Australopithecus* como el de Taung o el de Sterkfontein. Era el primer robusto conocido, dos décadas antes del Zinj de Olduvai.
+Broom publicó el hallazgo en *Nature* en agosto de 1938. El ejemplar, conservado en el Museo del Transvaal con la sigla **TM 1517**, se convirtió en el holotipo de la especie. Sus dientes posteriores eran grandes y anchos, la cara aplanada y la mandíbula maciza, y Broom vio enseguida que no se trataba de un *Australopithecus* como el de Taung o el de Sterkfontein. Era el primer robusto conocido, dos décadas antes del Zinj de [[@HOMININ-REF-boisei -1840000|Olduvai]] ([[humanidad-yacimiento-olduvai|yacimiento]]).
 
 ### Swartkrans (1948 en adelante)
 

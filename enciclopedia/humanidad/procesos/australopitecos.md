@@ -93,12 +93,12 @@ Lo que comparten los australopitecos es una combinación de rasgos: bipedismo ha
 
 ### Una cronología de especies
 
-La lista de especies y su cronología han cambiado mucho en treinta años. En 1990 solo se reconocían en el Plioceno *Au. afarensis* en el este y *Au. africanus* en el sur, y era habitual dibujarlas en una línea única que conducía a *Homo*. Desde entonces se han descrito *Au. anamensis* (1995), *Au. bahrelghazali* (1996), *Au. garhi* (1999), *Kenyanthropus platyops* (2001), *Au. sediba* (2010) y *Au. deyiremeda* (2015), se ha rehabilitado el nombre *Au. prometheus* para el esqueleto StW 573 («Little Foot») y se han publicado restos de *Australopithecus* sin especie en Ledi-Geraru (2025).
+La lista de especies y su cronología han cambiado mucho en treinta años. En 1990 solo se reconocían en el Plioceno *Au. afarensis* en el este y *Au. africanus* en el sur, y era habitual dibujarlas en una línea única que conducía a *Homo*. Desde entonces se han descrito *Au. anamensis* (1995), *Au. bahrelghazali* (1996), *Au. garhi* (1999), *Kenyanthropus platyops* (2001), *Au. sediba* (2010) y *Au. deyiremeda* (2015), se ha rehabilitado el nombre *Au. prometheus* para el esqueleto StW 573 («Little Foot») y se han publicado restos de *Australopithecus* sin especie en [[@HOMININ-P5-LEDI-H1 -2780000|Ledi-Geraru]] (2025).
 
 | Taxón | Rango (Ma) | Región | Estatus en el atlas | Dato diagnóstico |
 | --- | --- | --- | --- | --- |
-| [[hominin-anamensis|*Au. anamensis*]] | 4,2–3,8 | Turkana, Afar | referencia | Primer bípedo habitual indudable (tibia de Kanapoi) |
-| [[hominin-afarensis|*Au. afarensis*]] | 3,85–2,95 | Afar, Turkana, Laetoli | referencia | Lucy, Selam, huellas de Laetoli |
+| [[hominin-anamensis|*Au. anamensis*]] | 4,2–3,8 | Turkana, Afar | referencia | Primer bípedo habitual indudable (tibia de [[@HOMININ-REF-anamensis -4150000|Kanapoi]]) |
+| [[hominin-afarensis|*Au. afarensis*]] | 3,85–2,95 | Afar, Turkana, [[humanidad-yacimiento-laetoli|Laetoli]] | referencia | Lucy, Selam, huellas de Laetoli |
 | [[hominin-bahrelghazali|*Au. bahrelghazali*]] | ≈ 3,6–3,0 | Chad | discutida | Único australopiteco del Sahel |
 | [[hominin-deyiremeda|*Au. deyiremeda*]] | 3,5–3,3 | Woranso-Mille | discutida | Pie de Burtele con dedo gordo oponible |
 | [[hominin-platyops|*K. platyops*]] | 3,5–3,3 | Turkana occidental | referencia | Cara plana, molares pequeños |
@@ -106,7 +106,7 @@ La lista de especies y su cronología han cambiado mucho en treinta años. En 19
 | [[hominin-africanus|*Au. africanus*]] | 3,3–2,1 | Sudáfrica | referencia | Taung, Mrs. Ples, StW 431 |
 | [[hominin-aethiopicus|*P. aethiopicus*]] | 2,7–2,3 | Turkana, Omo | referencia | Cráneo Negro, primer parántropo |
 | [[hominin-ledi-australopithecus|*Australopithecus* sp.]] | ≈ 2,63 | Ledi-Geraru | población sin especie | Dientes junto a *Homo* temprano |
-| [[hominin-garhi|*Au. garhi*]] | ≈ 2,5 | Bouri (Awash Medio) | referencia | Molares enormes; huesos con marcas de corte cercanos |
+| [[hominin-garhi|*Au. garhi*]] | ≈ 2,5 | [[@HOMININ-REF-garhi -2500000|Bouri]] (Awash Medio) | referencia | Molares enormes; huesos con marcas de corte cercanos |
 | [[hominin-boisei|*P. boisei*]] | 2,3–1,2 | África oriental | referencia | Zinj (OH 5), máxima robustez |
 | [[hominin-robustus|*P. robustus*]] | 2,0–1,2 | Sudáfrica | referencia | Swartkrans, Kromdraai, Drimolen |
 | [[hominin-sediba|*Au. sediba*]] | 1,98 | Malapa | referencia | Mosaico de rasgos de *Australopithecus* y *Homo* |
@@ -134,7 +134,7 @@ Los valores del gráfico son estimaciones con muestras muy pequeñas: un único 
 
 ### Un yacimiento que cambió el panorama
 
-La zona de investigación de **Woranso-Mille**, en la región central del Afar (Etiopía), al norte de Hadar, ha proporcionado desde 2004 fósiles de homininos en sedimentos de entre ≈ 3,8 y 3,2 Ma, fechados por ⁴⁰Ar/³⁹Ar en tobas y basaltos intercalados y por magnetoestratigrafía. El proyecto, dirigido por Yohannes Haile-Selassie, entonces en el Museo de Historia Natural de Cleveland, ha producido tres resultados que, juntos, desmontan la idea de una línea única en el Plioceno medio.
+La zona de investigación de **Woranso-Mille**, en la región central del Afar (Etiopía), al norte de [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]), ha proporcionado desde 2004 fósiles de homininos en sedimentos de entre ≈ 3,8 y 3,2 Ma, fechados por ⁴⁰Ar/³⁹Ar en tobas y basaltos intercalados y por magnetoestratigrafía. El proyecto, dirigido por Yohannes Haile-Selassie, entonces en el Museo de Historia Natural de Cleveland, ha producido tres resultados que, juntos, desmontan la idea de una línea única en el Plioceno medio.
 
 1. **El cráneo MRD (2019).** El cráneo casi completo MRD-VP-1/1, hallado en 2016 por un pastor local, Ali Bereino, y fechado en 3,8 Ma, permitió conocer por primera vez la cara y el neurocráneo de *Au. anamensis*. El frontal aislado BEL-VP-1/1 de Belohdelie (≈ 3,9 Ma), atribuido hasta entonces a *Au. afarensis*, resultó más parecido a *Au. afarensis* que a MRD, lo que implica que ambas especies coexistieron durante al menos unos 100.000 años, entre ≈ 3,9 y 3,8 Ma.
 2. **El pie de Burtele (2012).** Ocho huesos del antepie BRT-VP-2/73, de ≈ 3,4 Ma, muestran un dedo gordo divergente y oponible, más parecido al de [[hominin-ramidus|*Ardipithecus*]] que al pie arqueado de *Au. afarensis*, contemporáneo y a pocos kilómetros. En 2025, el equipo atribuyó el pie a *Au. deyiremeda*.
@@ -156,7 +156,7 @@ La relación entre *Au. anamensis* y *Au. afarensis* era el ejemplo de manual de
 
 ### Otros casos de coexistencia
 
-Woranso-Mille no es el único lugar con dos homininos coetáneos. En la cuenca del Turkana, hacia 2,5–2,3 Ma, *P. aethiopicus* convivía con *Homo* temprano; en Olduvai y Koobi Fora, hacia 1,9–1,8 Ma, *P. boisei* compartía paisaje con *H. habilis*, *H. rudolfensis* y *H. erectus*; en Sudáfrica, en Swartkrans y Drimolen, *P. robustus* aparece junto a *Homo* hacia 2–1,8 Ma. La coexistencia es la norma y no la excepción en la historia de los homininos, como se cuantifica en [[human-diversity|la diversidad humana del Pleistoceno]].
+Woranso-Mille no es el único lugar con dos homininos coetáneos. En la cuenca del Turkana, hacia 2,5–2,3 Ma, *P. aethiopicus* convivía con *Homo* temprano; en [[@HOMININ-REF-habilis -1840000|Olduvai]] ([[humanidad-yacimiento-olduvai|yacimiento]]) y [[@HOMININ-REF-rudolfensis -1880000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]), hacia 1,9–1,8 Ma, *P. boisei* compartía paisaje con *H. habilis*, *H. rudolfensis* y *H. erectus*; en Sudáfrica, en Swartkrans y Drimolen, *P. robustus* aparece junto a *Homo* hacia 2–1,8 Ma. La coexistencia es la norma y no la excepción en la historia de los homininos, como se cuantifica en [[human-diversity|la diversidad humana del Pleistoceno]].
 
 ## Biogeografía: este, sur y Sahel
 
@@ -250,7 +250,7 @@ La forma de los dientes indica lo que un animal **puede** comer; el microdesgast
 
 ### Herramientas y carne
 
-El consumo de carne y médula por los australopitecos sigue discutido. Las marcas en huesos de Dikika (≈ 3,39 Ma), atribuidas a útiles de piedra por Shannon McPherron y colaboradores (2010), fueron interpretadas como pisoteo por Manuel Domínguez-Rodrigo y colaboradores. Los útiles de Lomekwi 3 (≈ 3,3 Ma) carecen de autor identificado. En Bouri, huesos con marcas de corte de ≈ 2,5 Ma aparecen en el mismo miembro que *Au. garhi*. En Nyayanga (Kenia), útiles olduvayenses de ≈ 3,0–2,6 Ma aparecen junto a dientes de *Paranthropus*. La fabricación de útiles no fue, por tanto, un monopolio de *Homo*, como se desarrolla en [[stone-tools|la tecnología lítica]].
+El consumo de carne y médula por los australopitecos sigue discutido. Las marcas en huesos de Dikika (≈ 3,39 Ma), atribuidas a útiles de piedra por Shannon McPherron y colaboradores (2010), fueron interpretadas como pisoteo por Manuel Domínguez-Rodrigo y colaboradores. Los útiles de [[@HOMININ-REF-platyops -3400000|Lomekwi]] 3 (≈ 3,3 Ma) carecen de autor identificado. En Bouri, huesos con marcas de corte de ≈ 2,5 Ma aparecen en el mismo miembro que *Au. garhi*. En Nyayanga (Kenia), útiles olduvayenses de ≈ 3,0–2,6 Ma aparecen junto a dientes de *Paranthropus*. La fabricación de útiles no fue, por tanto, un monopolio de *Homo*, como se desarrolla en [[stone-tools|la tecnología lítica]].
 
 ## Desarrollo y crecimiento
 

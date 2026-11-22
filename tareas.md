@@ -24,7 +24,8 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 - [x] P09-A5 · Linajes tardíos: neandertales, denisovanos, floresiensis, luzonensis y sapiens (0.72.0).
 - [x] Ajustes 0.71.1–0.71.2: «Ver en el mapa», historial del navegador, portadas de desplegable, Evolución humana unificada.
 - [x] P09-B · Procesos de la evolución humana: 15 páginas (0.73.0).
-- [ ] P09 · Evolución humana (plan en enciclopedia/PLAN.md): P09-0 árbol interactivo · A1–A5 39 linajes · B 15 procesos · C 16 yacimientos · D 10 tecnologías líticas; entregas 0.70.0 (P09-0 ✅), 0.71.0 (A1–A3 ✅), 0.72.0 (A4, A5 ✅), 0.73.0 (B ✅) y 0.74.0 (C, D).
+- [x] P09-C · Yacimientos: 16 monografías y enlaces de la enciclopedia a los puntos del mapa (0.74.0).
+- [ ] P09 · Evolución humana (plan en enciclopedia/PLAN.md): P09-0 árbol interactivo · A1–A5 39 linajes · B 15 procesos · C 16 yacimientos · D 10 tecnologías líticas; entregas 0.70.0 (P09-0 ✅), 0.71.0 (A1–A3 ✅), 0.72.0 (A4, A5 ✅), 0.73.0 (B ✅), 0.74.0 (C ✅) y 0.75.0 (D y cierre).
 - [ ] P08 · Grandes procesos del tiempo profundo y bestiario (con la norma de 1.500 palabras por página como mínimo).
 - [ ] P08 · rehacer «Tectónica de placas y cratones» (plate-tectonics) con esquemas de calidad o widgets interactivos (pedido del propietario).
 - [ ] P05–P24 y opcionales PX1/PX2 según el plan.

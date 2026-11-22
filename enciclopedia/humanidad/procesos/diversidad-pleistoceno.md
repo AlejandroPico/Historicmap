@@ -126,12 +126,12 @@ Hace 1 Ma el mundo humano era relativamente simple. Los parántropos se habían 
 
 | Región | Linaje | Yacimientos | Comentario |
 | --- | --- | --- | --- |
-| África oriental | *H. erectus* (o *H. ergaster* tardío) | Daka (Bouri, Etiopía), Buia (Eritrea), Olorgesailie (Kenia) | Cráneos de ≈ 1 Ma con capacidades de ≈ 750–1.000 cm³ |
+| África oriental | *H. erectus* (o *H. ergaster* tardío) | Daka ([[@ARCH-SDB-DEEP-816DC677C41F -158000|Bouri]], Etiopía), Buia (Eritrea), Olorgesailie (Kenia) | Cráneos de ≈ 1 Ma con capacidades de ≈ 750–1.000 cm³ |
 | África meridional | *Homo* indeterminado | Swartkrans, Sterkfontein | *H. gautengensis* como propuesta discutida |
 | Java | *H. erectus* | Sangiran (Formación Bapang) | Población continua desde ≈ 1,3 Ma |
 | China | *H. erectus* | Yunxian, Gongwangling, Nihewan | Yunxian ≈ 1,1–0,8 Ma (edad discutida) |
 | Flores | Linaje ancestral de *H. floresiensis* | Wolo Sege (útiles de ≈ 1 Ma) | Sin fósiles de esta edad |
-| Europa | *Homo* aff. *erectus*, luego *H. antecessor* | Sima del Elefante (≈ 1,2–1,1 Ma), Gran Dolina (≈ 0,85 Ma), Happisburgh (≈ 0,95–0,85 Ma) | Poblamiento discontinuo |
+| Europa | *Homo* aff. *erectus*, luego *H. antecessor* | [[@HOMININ-P5-PINK -1200000|Sima del Elefante]] (≈ 1,2–1,1 Ma), [[@HOMININ-REF-antecessor -850000|Gran Dolina]] (≈ 0,85 Ma), Happisburgh (≈ 0,95–0,85 Ma) | Poblamiento discontinuo |
 
 Según el atlas, había uno o dos linajes. La cifra real era probablemente mayor si se acepta que las poblaciones de Java, China, África y Europa estaban suficientemente separadas para evolucionar de forma independiente, como sugiere su morfología, pero no hay forma de contrastarlo sin ADN ni proteínas.
 
@@ -144,7 +144,7 @@ Hace 300 ka el panorama era el más diverso de la historia del género. Los cicl
 | Norte de África | *H. sapiens* temprano | Jebel Irhoud (315 ± 34 ka) | Cara moderna, neurocráneo alargado arcaico |
 | África oriental y meridional | Linajes arcaicos (*H. rhodesiensis*/*bodoensis*, *H. helmei*) | Kabwe (299 ± 25 ka), Florisbad (≈ 259 ka) | Cerebros de ≈ 1.200–1.300 cm³, toros supraorbitales gruesos |
 | Sudáfrica | *H. naledi* | Rising Star (335–236 ka) | Cerebro de ≈ 465–610 cm³, manos y pies modernos |
-| Europa | Linaje neandertal temprano | Sima de los Huesos (≈ 430 ka), Swanscombe, Steinheim | Rasgos neandertales en cara y dientes, bóveda arcaica |
+| Europa | Linaje neandertal temprano | [[@ARCH-SDB-DEEP-D7418595FE0B -430000|Sima de los Huesos]] (≈ 430 ka), Swanscombe, Steinheim | Rasgos neandertales en cara y dientes, bóveda arcaica |
 | Asia central y oriental | Denisovanos y linajes afines | Denisova (ADN de ≈ 250–200 ka), Harbin, Dali (≈ 260 ka), Jinniushan | Cráneos grandes y robustos |
 | Java | *H. erectus* tardío | Ngandong (más tarde, 117–108 ka) | Cerebros de hasta ≈ 1.250 cm³ |
 | Flores y Luzón | Linajes insulares | Mata Menge (≈ 700 ka), Kalinga (709 ka) | Antepasados de *floresiensis* y *luzonensis* |
@@ -157,7 +157,7 @@ Hace 100 ka el número se había reducido, pero la distribución geográfica seg
 
 | Región | Linajes | Yacimientos |
 | --- | --- | --- |
-| África | *H. sapiens*, con poblaciones muy diversas | Omo Kibish, Herto (≈ 160–155 ka), Klasies River, Border Cave |
+| África | *H. sapiens*, con poblaciones muy diversas | Omo Kibish, [[@ARCH-SDB-DEEP-816DC677C41F -158000|Herto]] ([[humanidad-yacimiento-afar|yacimiento]]) (≈ 160–155 ka), Klasies River, Border Cave |
 | Levante | *H. sapiens* y neandertales alternándose | Skhul y Qafzeh (≈ 120–90 ka), Tabun; Misliya (≈ 190–175 ka); Nesher Ramla (140–120 ka) |
 | Europa y Asia occidental | Neandertales | Krapina, Saccopastore, Altamura, cuevas del Cáucaso y del Altái |
 | Asia central y oriental | Denisovanos y otras poblaciones arcaicas | Denisova, Baishiya (Xiahe), Xujiayao, Xuchang (125–105 ka) |
@@ -202,7 +202,7 @@ A ellos hay que sumar, probablemente, linajes que solo se conocen por su huella 
 
 La **evolución en mosaico** designa la aparición de rasgos derivados en distintas partes del cuerpo a ritmos diferentes, de modo que un mismo organismo combina rasgos modernos y arcaicos. Es un principio general de la paleontología, pero en el Pleistoceno medio humano alcanza un grado extremo y desbarata los intentos de clasificar los fósiles con listas de caracteres:
 
-- **Sima de los Huesos** (Atapuerca, ≈ 430 ka): los cerca de 7.000 fósiles de al menos 28 individuos muestran rasgos neandertales en la cara, la mandíbula y los dientes, pero una bóveda craneal arcaica y un cerebro de ≈ 1.100–1.390 cm³. Juan Luis Arsuaga y colaboradores (2014) propusieron que los rasgos neandertales aparecieron primero en el aparato masticador, ligado a su uso de la boca como herramienta, y después en el neurocráneo. Su ADN mitocondrial, publicado en 2014, se parece más al de los denisovanos que al de los neandertales; el nuclear, publicado en 2016 por Matthias Meyer y colaboradores, los sitúa en el linaje neandertal.
+- **Sima de los Huesos** ([[humanidad-yacimiento-atapuerca|Atapuerca]], ≈ 430 ka): los cerca de 7.000 fósiles de al menos 28 individuos muestran rasgos neandertales en la cara, la mandíbula y los dientes, pero una bóveda craneal arcaica y un cerebro de ≈ 1.100–1.390 cm³. Juan Luis Arsuaga y colaboradores (2014) propusieron que los rasgos neandertales aparecieron primero en el aparato masticador, ligado a su uso de la boca como herramienta, y después en el neurocráneo. Su ADN mitocondrial, publicado en 2014, se parece más al de los denisovanos que al de los neandertales; el nuclear, publicado en 2016 por Matthias Meyer y colaboradores, los sitúa en el linaje neandertal.
 - **Jebel Irhoud** (≈ 315 ka): cara y dientes casi modernos con un neurocráneo alargado y bajo, de tipo arcaico. Jean-Jacques Hublin y colaboradores (2017) concluyeron que la forma globular del cráneo de los *sapiens* actuales evolucionó gradualmente después de la cara.
 - ***H. naledi*** (335–236 ka): manos, muñecas y pies muy modernos combinados con un hombro y unos dedos curvados de trepador, una pelvis arcaica y un cerebro del tamaño de un australopiteco.
 - **Nesher Ramla** (140–120 ka): una mandíbula y un parietal con una mezcla de rasgos arcaicos y neandertales, que Israel Hershkovitz y colaboradores (2021) interpretaron como una población levantina del Pleistoceno medio que pudo contribuir al origen de los neandertales.
@@ -300,7 +300,7 @@ Una diferencia aparentemente pequeña puede producir resultados drásticos a esc
 
 ## Historia de las ideas
 
-Durante los años sesenta y setenta, una parte de la antropología física, con Loring Brace y Milford Wolpoff como figuras destacadas, defendió la **hipótesis de una sola especie**: por el principio de exclusión competitiva, dos especies de homínidos con cultura no podían coexistir, de modo que en cada momento solo habría habido una especie humana. La hipótesis se refutó en 1976, cuando Richard Leakey y Alan Walker publicaron KNM-ER 3733 (*H. erectus*) y KNM-ER 406 (*P. boisei*), dos cráneos de Koobi Fora de la misma edad. Para el Pleistoceno medio, la discusión se reprodujo en el enfrentamiento entre el **modelo multirregional** (Wolpoff, Alan Thorne y Wu Xinzhi, 1984), según el cual las poblaciones regionales de *H. erectus* habrían evolucionado juntas hacia *H. sapiens* gracias al flujo génico, y el **origen africano reciente** (Christopher Stringer, Peter Andrews y los estudios de ADN mitocondrial de Rebecca Cann, Mark Stoneking y Allan Wilson en 1987), según el cual los *sapiens* africanos habrían reemplazado a las demás poblaciones. Los genomas antiguos han dado la razón en lo esencial al origen africano, pero con una mezcla limitada con los linajes locales, una síntesis que algunos llaman «reemplazo con hibridación» y cuyo detalle se trata en [[human-dispersals|la expansión de *Homo sapiens*]].
+Durante los años sesenta y setenta, una parte de la antropología física, con Loring Brace y Milford Wolpoff como figuras destacadas, defendió la **hipótesis de una sola especie**: por el principio de exclusión competitiva, dos especies de homínidos con cultura no podían coexistir, de modo que en cada momento solo habría habido una especie humana. La hipótesis se refutó en 1976, cuando Richard Leakey y Alan Walker publicaron KNM-ER 3733 (*H. erectus*) y KNM-ER 406 (*P. boisei*), dos cráneos de [[@HOMININ-REF-rudolfensis -1880000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]) de la misma edad. Para el Pleistoceno medio, la discusión se reprodujo en el enfrentamiento entre el **modelo multirregional** (Wolpoff, Alan Thorne y Wu Xinzhi, 1984), según el cual las poblaciones regionales de *H. erectus* habrían evolucionado juntas hacia *H. sapiens* gracias al flujo génico, y el **origen africano reciente** (Christopher Stringer, Peter Andrews y los estudios de ADN mitocondrial de Rebecca Cann, Mark Stoneking y Allan Wilson en 1987), según el cual los *sapiens* africanos habrían reemplazado a las demás poblaciones. Los genomas antiguos han dado la razón en lo esencial al origen africano, pero con una mezcla limitada con los linajes locales, una síntesis que algunos llaman «reemplazo con hibridación» y cuyo detalle se trata en [[human-dispersals|la expansión de *Homo sapiens*]].
 
 ## Importancia para la historia humana
 

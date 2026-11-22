@@ -14,3 +14,5 @@ export const centuryOf: (year: number) => number;
 export const COMPONENT_NAMES: string[];
 export const CALLOUT_KINDS: string[];
 export function blocksIn(body: string): { kind: string; arg: string }[];
+export const MAP_LINK_PATTERN: RegExp;
+export function mapLinks(body: string): { key: string; year: number }[];

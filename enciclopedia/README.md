@@ -59,6 +59,7 @@ Un artículo temático con `padre: geo-<unidad>` forma parte de esa unidad: apar
 - Títulos `##`, `###`, `####` (el título principal sale de la cabecera).
 - **Negrita**, *cursiva*, `código`, enlaces externos `[texto](https://…)`.
 - Enlaces internos: `[[geo-Triassic]]` o `[[geo-Triassic|el Triásico]]`. El compilador falla si el destino no existe.
+- Enlaces al mapa de un yacimiento: `[[@CLAVE año|texto]]`, con la `identityKey` del punto en `public/data/hominin-sites.geojson` o `human-evidence.geojson` y un año civil en que ese punto se muestra (p. ej. `[[@ARCH-SDB-DEEP-9F9A5BBEB4B6 -1800000|Dmanisi]]`). Al pulsarlo se cierra la enciclopedia, el mapa viaja a ese año, centra el punto y abre su ficha. El compilador falla si la clave no existe o si el punto no se muestra en ese año.
 - Listas, tablas con `|`, citas con `>`, imágenes `![texto alternativo](medios/carpeta/archivo.jpg "Pie con autor y licencia")`.
 - Bloques especiales:
 

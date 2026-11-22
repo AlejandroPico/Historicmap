@@ -55,7 +55,7 @@ fuentes:
 
 ## Nombre y nomenclatura
 
-El nombre *Homo habilis* significa en latín «hombre hábil» o «diestro». Se lo sugirió a Louis Leakey el anatomista sudafricano **Raymond Dart**, descubridor del niño de Taung, y expresa la tesis central de la descripción de 1964: que aquel hominino de Olduvai, y no el robusto *Zinjanthropus*, había fabricado las herramientas de piedra encontradas en los mismos niveles. En inglés se le llamó *Handy Man*.
+El nombre *Homo habilis* significa en latín «hombre hábil» o «diestro». Se lo sugirió a Louis Leakey el anatomista sudafricano **Raymond Dart**, descubridor del niño de Taung, y expresa la tesis central de la descripción de 1964: que aquel hominino de [[@HOMININ-REF-habilis -1840000|Olduvai]] ([[humanidad-yacimiento-olduvai|yacimiento]]), y no el robusto *Zinjanthropus*, había fabricado las herramientas de piedra encontradas en los mismos niveles. En inglés se le llamó *Handy Man*.
 
 La creación de la especie exigió modificar la definición del género *Homo*. Hasta entonces se aceptaba de forma general el criterio propuesto por Arthur Keith en los años cuarenta, la llamada **«línea roja cerebral»** (*cerebral Rubicon*): solo pertenecían a *Homo* los homininos con una capacidad craneal de al menos unos 750 cm³. Los fósiles de Olduvai no alcanzaban esa cifra, y Leakey, Tobias y Napier redefinieron el género con un conjunto de caracteres más amplio: un cerebro de unos 600 cm³ o más, una mano capaz de la pinza de precisión, un pie adaptado al bipedismo y una dentición reducida. El género *Homo* pasó así a tener una definición en la que el cerebro y la tecnología seguían siendo centrales, pero con un umbral más bajo.
 
@@ -79,11 +79,11 @@ La reacción fue en gran parte hostil. Wilfrid Le Gros Clark, la máxima autorid
 
 ### El este del Turkana y los cráneos de los años setenta
 
-Desde 1968 el equipo de Richard Leakey en Koobi Fora recuperó una serie de cráneos de *Homo* temprano. **KNM-ER 1470**, de 1972, con una capacidad de unos 750 cm³ y un rostro largo y plano, y **KNM-ER 1813**, de 1973, más pequeño (≈ 510 cm³) y de cara más corta, eran contemporáneos (≈ 1,9 Ma) y muy diferentes. Al principio ambos se atribuyeron a *habilis*, lo que convertía a la especie en extraordinariamente variable. En 1986 el antropólogo ruso Valery Alexeev nombró una especie distinta para KNM-ER 1470, *Pithecanthropus rudolfensis*, y en 1992 Bernard Wood formalizó la división: el grupo de cráneos grandes, de cara plana, pasó a [[hominin-rudolfensis|*Homo rudolfensis*]], y el de cráneos pequeños, con KNM-ER 1813, quedó en *H. habilis* en sentido estricto.
+Desde 1968 el equipo de Richard Leakey en [[@ARCH-SDB-DEEP-53324D2627B6 -1830000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]) recuperó una serie de cráneos de *Homo* temprano. **KNM-ER 1470**, de 1972, con una capacidad de unos 750 cm³ y un rostro largo y plano, y **KNM-ER 1813**, de 1973, más pequeño (≈ 510 cm³) y de cara más corta, eran contemporáneos (≈ 1,9 Ma) y muy diferentes. Al principio ambos se atribuyeron a *habilis*, lo que convertía a la especie en extraordinariamente variable. En 1986 el antropólogo ruso Valery Alexeev nombró una especie distinta para KNM-ER 1470, *Pithecanthropus rudolfensis*, y en 1992 Bernard Wood formalizó la división: el grupo de cráneos grandes, de cara plana, pasó a [[hominin-rudolfensis|*Homo rudolfensis*]], y el de cráneos pequeños, con KNM-ER 1813, quedó en *H. habilis* en sentido estricto.
 
 ### OH 24, OH 62 y KNM-ER 42703
 
-**OH 24**, hallado en 1968 por Peter Nzube en el Lecho I, es un cráneo aplastado y casi plano por la presión de los sedimentos, de ahí su apodo, «Twiggy» (por la modelo británica de la época). Ronald Clarke lo reconstruyó y su capacidad se ha estimado en unos 590 cm³. **OH 62**, descubierto en 1986 por Tim White durante las excavaciones de Donald Johanson en el Lecho I, es un esqueleto parcial con fragmentos de cráneo, dientes, un húmero, un radio, un fémur y una tibia, de 1,8 Ma: el primer esqueleto de *habilis* asociado a dientes. En 2007 Fred Spoor, Meave Leakey y colaboradores publicaron **KNM-ER 42703**, un maxilar de Ileret de 1,44 Ma, el registro más reciente de la especie.
+**OH 24**, hallado en 1968 por Peter Nzube en el Lecho I, es un cráneo aplastado y casi plano por la presión de los sedimentos, de ahí su apodo, «Twiggy» (por la modelo británica de la época). Ronald Clarke lo reconstruyó y su capacidad se ha estimado en unos 590 cm³. **OH 62**, descubierto en 1986 por Tim White durante las excavaciones de Donald Johanson en el Lecho I, es un esqueleto parcial con fragmentos de cráneo, dientes, un húmero, un radio, un fémur y una tibia, de 1,8 Ma: el primer esqueleto de *habilis* asociado a dientes. En 2007 Fred Spoor, Meave Leakey y colaboradores publicaron **KNM-ER 42703**, un maxilar de [[@ARCH-SDB-DEEP-98FCF8619C31 -1500000|Ileret]] de 1,44 Ma, el registro más reciente de la especie.
 
 | Ejemplar | Año | Lugar | Material | Edad (Ma) | Capacidad craneal (cm³) |
 |---|---|---|---|---|---|
@@ -94,7 +94,7 @@ Desde 1968 el equipo de Richard Leakey en Koobi Fora recuperó una serie de crá
 | OH 24 «Twiggy» | 1968 | Olduvai, Lecho I | cráneo aplastado | ≈ 1,8 | ≈ 590 |
 | KNM-ER 1813 | 1973 | Koobi Fora | cráneo casi completo | ≈ 1,9 | ≈ 510 |
 | OH 62 | 1986 | Olduvai, Lecho I | esqueleto parcial | ≈ 1,8 | — |
-| AL 666-1 | 1994 | Hadar | maxilar | 2,33 | — |
+| AL 666-1 | 1994 | [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]) | maxilar | 2,33 | — |
 | KNM-ER 42703 | 2000 | Ileret | maxilar | 1,44 | — |
 
 ## Geología y datación
@@ -153,7 +153,7 @@ La interpretación de la mano de OH 7 se ha revisado varias veces. Randall Susma
 
 La industria **olduvayense** (Modo 1, según la clasificación de Grahame Clark) toma su nombre de Olduvai, donde Louis Leakey la describió en los años treinta y Mary Leakey la clasificó en su monografía de 1971. Consiste en cantos y bloques de los que se extraían lascas cortantes mediante percusión directa con un percutor de piedra; tanto los núcleos tallados (choppers, poliedros, discoides) como las lascas se usaban para cortar carne, romper huesos y trabajar madera o plantas. Los yacimientos de la época de *habilis* en Olduvai, como el suelo Zinj de FLK, presentan concentraciones de herramientas y huesos con marcas de corte y de percusión.
 
-*Homo habilis* recibió su nombre por esta industria, pero hoy se sabe que el Olduvayense es más antiguo que la especie: las herramientas de Bokol Dora 1 en Ledi-Geraru superan los 2,58 Ma, las de Gona tienen unos 2,6 Ma y las de Nyayanga, en Kenia, quizá hasta 3,0 Ma, mientras que las de Lomekwi 3, de 3,3 Ma, son anteriores a cualquier *Homo* conocido. Además, *habilis* compartió territorio con [[hominin-boisei|*P. boisei*]], [[hominin-rudolfensis|*H. rudolfensis*]] y [[hominin-erectus|*H. erectus*]], todos ellos posibles talladores. La tecnología olduvayense se trata en detalle en la página de [[stone-tools|herramientas de piedra]] y tendrá su propia página entre las tecnologías.
+*Homo habilis* recibió su nombre por esta industria, pero hoy se sabe que el Olduvayense es más antiguo que la especie: las herramientas de Bokol Dora 1 en [[@HOMININ-P5-LEDI-H1 -2780000|Ledi-Geraru]] superan los 2,58 Ma, las de [[@ARCH-SDB-DEEP-CD5F93A02992 -2500000|Gona]] tienen unos 2,6 Ma y las de Nyayanga, en Kenia, quizá hasta 3,0 Ma, mientras que las de [[@HOMININ-REF-platyops -3400000|Lomekwi]] 3, de 3,3 Ma, son anteriores a cualquier *Homo* conocido. Además, *habilis* compartió territorio con [[hominin-boisei|*P. boisei*]], [[hominin-rudolfensis|*H. rudolfensis*]] y [[hominin-erectus|*H. erectus*]], todos ellos posibles talladores. La tecnología olduvayense se trata en detalle en la página de [[stone-tools|herramientas de piedra]] y tendrá su propia página entre las tecnologías.
 
 ## Dieta y ecología
 
@@ -179,7 +179,7 @@ Durante décadas se supuso que *habilis* se transformó gradualmente en *erectus
 
 ### Otros fósiles discutidos
 
-Varios fósiles fuera de África oriental se han atribuido a *habilis* o a *Homo* temprano sin especie. El cráneo **StW 53** de Sterkfontein, de 1,8–1,5 Ma, se ha clasificado como *H. habilis*, como *Au. africanus* o como holotipo de [[hominin-gautengensis|*H. gautengensis*]]. Los fósiles de Dmanisi (Georgia), de 1,8 Ma, tienen cerebros de tamaño comparable al de *habilis* pero cuerpos de *erectus*, y se tratan en la ficha de [[hominin-georgicus|*H. georgicus*]]. Su existencia ha alimentado la hipótesis de que una forma de tipo *habilis* pudo ser la primera en salir de África.
+Varios fósiles fuera de África oriental se han atribuido a *habilis* o a *Homo* temprano sin especie. El cráneo **StW 53** de Sterkfontein, de 1,8–1,5 Ma, se ha clasificado como *H. habilis*, como *Au. africanus* o como holotipo de [[hominin-gautengensis|*H. gautengensis*]]. Los fósiles de [[@ARCH-SDB-DEEP-9F9A5BBEB4B6 -1800000|Dmanisi]] (Georgia), de 1,8 Ma, tienen cerebros de tamaño comparable al de *habilis* pero cuerpos de *erectus*, y se tratan en la ficha de [[hominin-georgicus|*H. georgicus*]]. Su existencia ha alimentado la hipótesis de que una forma de tipo *habilis* pudo ser la primera en salir de África.
 
 ## Lugar en la historia de la paleoantropología
 

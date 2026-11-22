@@ -78,7 +78,7 @@ Durante el primer millón y medio de años del Pleistoceno, los ciclos glaciales
 
 La MPT coincide con cambios importantes en el registro humano, aunque la relación causal es difícil de demostrar:
 
-- **La ocupación de Europa.** Los primeros humanos de Europa occidental, en la Sima del Elefante (Atapuerca, ≈ 1,4–1,1 Ma) y Barranco León (Orce), son anteriores a la transición. Durante ella aparecen las huellas de **Happisburgh** (Inglaterra, ≈ 950.000–850.000 años) y los fósiles de [[hominin-antecessor|*H. antecessor*]] en la Gran Dolina (≈ 850.000 años). El Achelense se extiende por Europa entre ≈ 900.000 y 600.000 años.
+- **La ocupación de Europa.** Los primeros humanos de Europa occidental, en la [[@HOMININ-P5-PINK -1200000|Sima del Elefante]] ([[humanidad-yacimiento-atapuerca|Atapuerca]], ≈ 1,4–1,1 Ma) y [[@ARCH-SDB-DEEP-D5FB92CBCFF2 -1400000|Barranco León]] ([[humanidad-yacimiento-orce|Orce]]), son anteriores a la transición. Durante ella aparecen las huellas de **Happisburgh** (Inglaterra, ≈ 950.000–850.000 años) y los fósiles de [[hominin-antecessor|*H. antecessor*]] en la [[@HOMININ-REF-antecessor -850000|Gran Dolina]] (≈ 850.000 años). El Achelense se extiende por Europa entre ≈ 900.000 y 600.000 años.
 - **Un modelo de fuente y sumidero.** Robin Dennell, María Martinón-Torres y José María Bermúdez de Castro (2011) propusieron que Europa funcionó durante el Pleistoceno medio como un **sumidero** demográfico: poblaciones procedentes del suroeste de Asia la ocupaban en los interglaciales y se extinguían o se replegaban hacia el sur en los glaciales, cada vez más severos. Ese ciclo de ocupación y vaciamiento habría favorecido la deriva genética y la diferenciación regional que culminó en los neandertales.
 - **Un posible cuello de botella.** Wangjie Hu y colaboradores (2023) infirieron con un método de coalescencia aplicado a genomas actuales que los antepasados de los humanos modernos pasaron, entre ≈ 930.000 y 813.000 años, por un cuello de botella extremo, con unos 1.300 individuos reproductores durante más de 100.000 años, y lo relacionaron con los glaciales intensos de la transición. Otros genetistas han criticado el método y la robustez del resultado, que no se reproduce con otras técnicas.
 
@@ -110,7 +110,7 @@ MIS 12 (478–424 ka); 54
 
 | Estadio | Edad (LR04) | Carácter | Hitos humanos asociados |
 |---|---|---|---|
-| MIS 12 | 478–424 ka | uno de los glaciales más intensos del Pleistoceno | probable despoblamiento de Europa del norte; Sima de los Huesos hacia su final (≈ 430 ka) |
+| MIS 12 | 478–424 ka | uno de los glaciales más intensos del Pleistoceno | probable despoblamiento de Europa del norte; [[@ARCH-SDB-DEEP-D7418595FE0B -430000|Sima de los Huesos]] hacia su final (≈ 430 ka) |
 | MIS 11 | 424–374 ka | interglacial largo y cálido | ocupación de Gran Bretaña (Swanscombe); Achelense y primeros indicios de Levallois |
 | MIS 9–8 | 337–243 ka | interglacial y glacial | lanzas de Schöningen (≈ 300 ka); Jebel Irhoud (≈ 315 ka); Edad de Piedra Media en Olorgesailie |
 | MIS 6 | 191–130 ka | penúltimo glacial, de volumen comparable al último | Misliya (≈ 185 ka); la costa sur de Sudáfrica como posible refugio (Pinnacle Point, ≈ 164 ka) |

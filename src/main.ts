@@ -220,7 +220,18 @@ function paintDeepSurface(targetYear:number,coast?:FeatureCollection){
  $('#map').dataset.earthOptics=earthOptics;
  $('#map').dataset.deepGeometry=coast?.features.length?'dated-model':'illustrative';$('#map').dataset.deepIce=deepIceAt(targetYear)??'';$('#map').dataset.deepIceVisible=String(!!deepIceAt(targetYear)&&iceMode!=='off');
 }
-function showEncyclopedia(entry?:string){stopPlay();const at=year;void import('./encyclopedia').then(m=>m.openEncyclopedia(at,y=>{void updateYear(y)},entry)).catch(()=>status(tx('main.noSePudoAbrirLa'),true));}
+function showEncyclopedia(entry?:string){stopPlay();const at=year;void import('./encyclopedia').then(m=>m.openEncyclopedia(at,(y,site)=>{void updateYear(y);if(site)void focusSite(site,y);},entry)).catch(()=>status(tx('main.noSePudoAbrirLa'),true));}
+/** Enlace de la enciclopedia a un yacimiento: espera a que el mapa cargue el año, centra el punto y abre su ficha. */
+async function focusSite(key:string,target:number){
+  const until=performance.now()+90000;
+  while(performance.now()<until&&($('#map').dataset.loadedYear!==String(target)||$('#map').getAttribute('aria-busy')==='true'||year!==target))await new Promise(r=>setTimeout(r,150));
+  if(year!==target)return;
+  const f=regionalData.features.find(x=>x.geometry?.type==='Point'&&x.properties?.identityKey===key);
+  if(!f){$('#map').dataset.focusedSite='';return;}
+  const at=(f.geometry as GeoJSON.Point).coordinates as [number,number];
+  map.easeTo({center:at,zoom:Math.max(map.getZoom(),4.5),duration:reduced?0:900});
+  selectFeature(f as any,at);$('#map').dataset.focusedSite=key;
+}
 $('#encyclopedia-button').onclick=()=>showEncyclopedia();
 app.addEventListener('click',event=>{const link=(event.target as Element).closest<HTMLElement>('[data-encyclopedia-entry]');if(link&&link.tagName==='A')event.preventDefault();if(link&&!(link.classList.contains('chronology-band')&&event.detail>0))showEncyclopedia(link.dataset.encyclopediaEntry)});
 map.on('load', () => {

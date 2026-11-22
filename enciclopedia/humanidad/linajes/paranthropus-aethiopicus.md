@@ -67,7 +67,7 @@ En los años siguientes el equipo estadounidense de Howell recuperó en los Miem
 
 ### El Cráneo Negro (1985)
 
-En agosto de 1985 Alan Walker, que trabajaba con el equipo de los Museos Nacionales de Kenia dirigido por Richard Leakey en la orilla occidental del lago Turkana, encontró en Lomekwi, en sedimentos de la **Formación Nachukui**, los fragmentos de un cráneo casi completo sin mandíbula. Reconstruido en el laboratorio, el ejemplar recibió la sigla **KNM-WT 17000** (Kenya National Museums, West Turkana). Su color negro azulado, debido a la impregnación de óxidos de manganeso durante la fosilización, le valió enseguida el apodo de «Cráneo Negro» (*Black Skull*).
+En agosto de 1985 Alan Walker, que trabajaba con el equipo de los Museos Nacionales de Kenia dirigido por Richard Leakey en la orilla occidental del lago Turkana, encontró en [[@HOMININ-REF-aethiopicus -2500000|Lomekwi]], en sedimentos de la **Formación Nachukui**, los fragmentos de un cráneo casi completo sin mandíbula. Reconstruido en el laboratorio, el ejemplar recibió la sigla **KNM-WT 17000** (Kenya National Museums, West Turkana). Su color negro azulado, debido a la impregnación de óxidos de manganeso durante la fosilización, le valió enseguida el apodo de «Cráneo Negro» (*Black Skull*).
 
 Walker, Richard Leakey, John Harris y Francis Brown lo publicaron en *Nature* en 1986 como un *Australopithecus boisei* de 2,5 Ma, el más antiguo conocido. El cráneo era demasiado distinto de los *boisei* clásicos para pasar desapercibido: su cerebro era el menor de todos los homininos adultos de su tiempo, su rostro el más prognato y su cresta sagital la mayor jamás vista. En pocos meses se convirtió en el fósil más discutido de la década, porque obligaba a reescribir la genealogía de los robustos.
 
@@ -77,7 +77,7 @@ Walker, Richard Leakey, John Harris y Francis Brown lo publicaron en *Nature* en
 | Dientes de Shungura | 1967–1976 | Shungura, Miembros C–F | centenares de dientes y fragmentos | 2,7–2,3 |
 | KNM-WT 17000 | 1985 | Lomekwi, Formación Nachukui (Kenia) | cráneo sin mandíbula | ≈ 2,5 |
 | KNM-WT 16005 | 1985 | oeste del Turkana | mandíbula con dientes | ≈ 2,3–2,4 |
-| EP 1500/01 | 1998–2005 | Laetoli, Lechos de Ndolanya (Tanzania) | mandíbula parcial | ≈ 2,66 |
+| EP 1500/01 | 1998–2005 | [[humanidad-yacimiento-laetoli|Laetoli]], Lechos de Ndolanya (Tanzania) | mandíbula parcial | ≈ 2,66 |
 
 La mandíbula de Laetoli, descrita por Terry Harrison en la monografía del yacimiento, amplía la distribución de la especie hacia el sur si su atribución es correcta; procede de los Lechos de Ndolanya, más jóvenes que los niveles de las huellas de [[hominin-afarensis|*Au. afarensis*]].
 
@@ -85,7 +85,7 @@ La mandíbula de Laetoli, descrita por Terry Harrison en la monografía del yaci
 
 ### La Formación Shungura
 
-La Formación Shungura es una de las secuencias de referencia del Plioceno y del Pleistoceno inferior de África. Sus miembros se definen por la base de tobas volcánicas, designadas con letras (Toba A, B, C… L), procedentes de erupciones riolíticas de las tierras altas etíopes que llegaron al valle como cenizas transportadas por el río. Las edades ⁴⁰Ar/³⁹Ar y K-Ar de esas tobas, unidas a la secuencia de inversiones del campo magnético registrada en los sedimentos (el paso del cron Gauss al Matuyama, hacia 2,58 Ma, cae dentro del Miembro D), proporcionan una escala temporal con resolución de decenas de miles de años. La correlación geoquímica de las tobas permite además relacionar los miembros de Shungura con los de las formaciones Nachukui y Koobi Fora, a orillas del lago Turkana, y construir una estratigrafía común para toda la cuenca.
+La Formación Shungura es una de las secuencias de referencia del Plioceno y del Pleistoceno inferior de África. Sus miembros se definen por la base de tobas volcánicas, designadas con letras (Toba A, B, C… L), procedentes de erupciones riolíticas de las tierras altas etíopes que llegaron al valle como cenizas transportadas por el río. Las edades ⁴⁰Ar/³⁹Ar y K-Ar de esas tobas, unidas a la secuencia de inversiones del campo magnético registrada en los sedimentos (el paso del cron Gauss al Matuyama, hacia 2,58 Ma, cae dentro del Miembro D), proporcionan una escala temporal con resolución de decenas de miles de años. La correlación geoquímica de las tobas permite además relacionar los miembros de Shungura con los de las formaciones Nachukui y [[@HOMININ-REF-rudolfensis -1880000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]), a orillas del lago Turkana, y construir una estratigrafía común para toda la cuenca.
 
 Según esa escala, el Miembro C, que contiene el holotipo, abarca aproximadamente de 2,75 a 2,53 Ma, y los dientes robustos de los Miembros C a F se reparten entre unos 2,7 y 2,3 Ma. La transición a *P. boisei* se sitúa en los Miembros F y G, hacia 2,3 Ma.
 
@@ -181,7 +181,7 @@ El Cráneo Negro llegó en un momento de auge de los métodos cladísticos y se 
 | Especie | Edad (Ma) | Región | Capacidad craneal (cm³) | Rasgo distintivo |
 |---|---|---|---|---|
 | [[hominin-afarensis|*Au. afarensis*]] | 3,85–2,95 | África oriental | ≈ 385–550 | bípedo primitivo, cara prognata |
-| [[hominin-garhi|*Au. garhi*]] | ≈ 2,5 | Awash Medio | ≈ 450 | megadoncia sin cara cóncava |
+| [[hominin-garhi|*Au. garhi*]] | ≈ 2,5 | [[humanidad-yacimiento-afar|Awash Medio]] | ≈ 450 | megadoncia sin cara cóncava |
 | *P. aethiopicus* | 2,7–2,3 | Omo-Turkana | ≈ 410 | cresta sagital máxima, base plana |
 | [[hominin-boisei|*P. boisei*]] | 2,3–1,2 | África oriental | ≈ 475–550 | megadoncia extrema |
 | [[hominin-robustus|*P. robustus*]] | 2,0–1,2 | Sudáfrica | ≈ 450–530 | robusto del sur, más pequeño |

@@ -62,7 +62,7 @@ fuentes:
 ---
 
 :::clave
-*Homo antecessor* es la especie definida sobre los restos humanos del nivel TD6 de la Gran Dolina, en la sierra de Atapuerca, depositados hace unos 850.000 años, cuando el campo magnético terrestre aún tenía polaridad inversa. Sus descubridores lo presentaron en 1997 como posible antepasado común de neandertales y humanos modernos, apoyándose sobre todo en la cara de un niño, ATD6-69, con una arquitectura del maxilar que hasta entonces se creía exclusiva de *H. sapiens*. Veintitrés años más tarde, las proteínas del esmalte de uno de sus molares lo situaron no en la raíz exacta de ese árbol, sino en una rama hermana muy próxima. Los mismos fósiles conservan las marcas de corte que convierten a TD6 en el caso de canibalismo más antiguo conocido.
+*Homo antecessor* es la especie definida sobre los restos humanos del nivel TD6 de la [[@HOMININ-REF-antecessor -850000|Gran Dolina]], en la sierra de [[humanidad-yacimiento-atapuerca|Atapuerca]], depositados hace unos 850.000 años, cuando el campo magnético terrestre aún tenía polaridad inversa. Sus descubridores lo presentaron en 1997 como posible antepasado común de neandertales y humanos modernos, apoyándose sobre todo en la cara de un niño, ATD6-69, con una arquitectura del maxilar que hasta entonces se creía exclusiva de *H. sapiens*. Veintitrés años más tarde, las proteínas del esmalte de uno de sus molares lo situaron no en la raíz exacta de ese árbol, sino en una rama hermana muy próxima. Los mismos fósiles conservan las marcas de corte que convierten a TD6 en el caso de canibalismo más antiguo conocido.
 :::
 
 ## Nombre y nomenclatura
@@ -77,9 +77,9 @@ En los años inmediatamente anteriores, los restos se habían publicado como *Ho
 
 ### La Trinchera del Ferrocarril
 
-La sierra de Atapuerca, a unos 15 km al este de Burgos, es un pequeño anticlinal de calizas y dolomías del Cretácico superior perforado por un sistema kárstico de varios niveles. A finales del siglo XIX, una compañía británica abrió una trinchera para un ferrocarril minero que debía llevar hierro y carbón de la sierra de la Demanda a Villafría. La obra cortó varias cuevas colmatadas de sedimentos y dejó al aire secciones de hasta 20 m de altura. El ferrocarril se abandonó en la década de 1920, pero la trinchera se convirtió en una ventana excepcional al relleno de las cavidades. Los yacimientos de la trinchera, en orden de importancia para esta ficha, son la **Gran Dolina** (TD), la **Sima del Elefante** (TE) y el complejo de **Galería** (TG); en la Cueva Mayor, a pocos cientos de metros, se abre la [[hominin-heidelbergensis|Sima de los Huesos]].
+La sierra de Atapuerca, a unos 15 km al este de Burgos, es un pequeño anticlinal de calizas y dolomías del Cretácico superior perforado por un sistema kárstico de varios niveles. A finales del siglo XIX, una compañía británica abrió una trinchera para un ferrocarril minero que debía llevar hierro y carbón de la sierra de la Demanda a Villafría. La obra cortó varias cuevas colmatadas de sedimentos y dejó al aire secciones de hasta 20 m de altura. El ferrocarril se abandonó en la década de 1920, pero la trinchera se convirtió en una ventana excepcional al relleno de las cavidades. Los yacimientos de la trinchera, en orden de importancia para esta ficha, son la **Gran Dolina** (TD), la **[[@HOMININ-P5-PINK -1200000|Sima del Elefante]]** (TE) y el complejo de **Galería** (TG); en la Cueva Mayor, a pocos cientos de metros, se abre la [[hominin-heidelbergensis|Sima de los Huesos]].
 
-Trinidad Torres descubrió en 1976 restos humanos en la Sima de los Huesos, y el paleontólogo **Emiliano Aguirre** organizó a partir de 1978 un proyecto de investigación sistemático. Cuando Aguirre se jubiló, en 1991, la dirección pasó a tres de sus discípulos: **Juan Luis Arsuaga**, **José María Bermúdez de Castro** y **Eudald Carbonell**. Bajo su dirección se decidió abrir en la Gran Dolina un **sondeo** de pocos metros cuadrados que atravesara toda la secuencia para conocer su estratigrafía antes de excavar en extensión.
+Trinidad Torres descubrió en 1976 restos humanos en la [[@ARCH-SDB-DEEP-D7418595FE0B -430000|Sima de los Huesos]], y el paleontólogo **Emiliano Aguirre** organizó a partir de 1978 un proyecto de investigación sistemático. Cuando Aguirre se jubiló, en 1991, la dirección pasó a tres de sus discípulos: **Juan Luis Arsuaga**, **José María Bermúdez de Castro** y **Eudald Carbonell**. Bajo su dirección se decidió abrir en la Gran Dolina un **sondeo** de pocos metros cuadrados que atravesara toda la secuencia para conocer su estratigrafía antes de excavar en extensión.
 
 ### El Estrato Aurora (1994–1996)
 
@@ -148,7 +148,7 @@ La dentición es la parte mejor conocida y la que muestra con más claridad el c
 - los **molares inferiores** disminuyen de tamaño del primero al tercero (M1 > M2 > M3), como en los humanos posteriores, y conservan cúspides accesorias;
 - el tamaño total de los dientes posteriores es menor que el de *H. habilis* y que el de los primeros *H. erectus* africanos, pero mayor que el de los neandertales.
 
-María Martinón-Torres y colaboradores (2007) compararon más de 5.000 dientes de homininos y encontraron que los dientes de TD6, como los de Dmanisi y los de la Sima del Elefante, tienen más afinidades con los de Asia que con los de África. Propusieron que las primeras poblaciones europeas descendían de una dispersión desde Eurasia occidental y no de una salida reciente de África, una hipótesis que encaja con la geografía de [[hominin-georgicus|Dmanisi]] y que se discute en [[human-dispersals|las dispersiones humanas]].
+María Martinón-Torres y colaboradores (2007) compararon más de 5.000 dientes de homininos y encontraron que los dientes de TD6, como los de [[@ARCH-SDB-DEEP-9F9A5BBEB4B6 -1800000|Dmanisi]] y los de la Sima del Elefante, tienen más afinidades con los de Asia que con los de África. Propusieron que las primeras poblaciones europeas descendían de una dispersión desde Eurasia occidental y no de una salida reciente de África, una hipótesis que encaja con la geografía de [[hominin-georgicus|Dmanisi]] y que se discute en [[human-dispersals|las dispersiones humanas]].
 
 ### Esqueleto postcraneal
 
@@ -190,7 +190,7 @@ En 2022 se halló en el nivel inferior **TE7** la mitad izquierda de una cara ad
 
 | Fósil | Yacimiento y nivel | Edad | Atribución |
 |---|---|---|---|
-| BL02-J54-100 (diente de leche) | Barranco León, Orce | ≈ 1,4 Ma | *Homo* sp. |
+| BL02-J54-100 (diente de leche) | [[@ARCH-SDB-DEEP-D5FB92CBCFF2 -1400000|Barranco León]], [[humanidad-yacimiento-orce|Orce]] | ≈ 1,4 Ma | *Homo* sp. |
 | ATE7-1, «Pink» (cara) | Sima del Elefante, TE7 | ≈ 1,4–1,1 Ma | *Homo* aff. *erectus* (Huguet et al. 2025) |
 | ATE9-1 (mandíbula) | Sima del Elefante, TE9c | ≈ 1,2–1,1 Ma | *Homo* sp.; inicialmente cf. *antecessor* |
 | ATD6-5, ATD6-69 y otros | Gran Dolina, TD6 | ≈ 0,95–0,77 Ma | *H. antecessor* |
@@ -210,7 +210,7 @@ Las críticas fueron de tres tipos. Primero, que la cara moderna fuera un rasgo 
 
 ### La paleoproteómica del esmalte
 
-En 2020 Frido Welker, Enrico Cappellini y un equipo internacional en el que participaban investigadores de Atapuerca publicaron en *Nature* el **proteoma del esmalte** de un molar de TD6, **ATD6-92**, y de un diente de Dmanisi de ≈ 1,77 Ma. El esmalte dental conserva fragmentos de proteínas —amelogenina, enamelina, ameloblastina y otras— mucho más tiempo que el ADN, que en condiciones templadas no sobrevive más allá de unos cientos de miles de años. Mediante espectrometría de masas en tándem se identificaron secuencias de aminoácidos con posiciones variables entre especies, que se compararon con las de humanos actuales, neandertales, denisovanos y grandes simios.
+En 2020 Frido Welker, Enrico Cappellini y un equipo internacional en el que participaban investigadores de Atapuerca publicaron en *Nature* el **proteoma del esmalte** de un molar de TD6, **ATD6-92**, y de un diente de [[humanidad-yacimiento-dmanisi|Dmanisi]] de ≈ 1,77 Ma. El esmalte dental conserva fragmentos de proteínas —amelogenina, enamelina, ameloblastina y otras— mucho más tiempo que el ADN, que en condiciones templadas no sobrevive más allá de unos cientos de miles de años. Mediante espectrometría de masas en tándem se identificaron secuencias de aminoácidos con posiciones variables entre especies, que se compararon con las de humanos actuales, neandertales, denisovanos y grandes simios.
 
 El resultado situó a *H. antecessor* como un **linaje hermano muy próximo** del clado formado por neandertales, denisovanos y *H. sapiens*, y no dentro de él. El diente de Dmanisi quedó fuera, en una posición más basal. La interpretación más sencilla es que *antecessor* desciende de una población que se separó poco antes de la diversificación de los linajes del Pleistoceno medio, de modo que la cara moderna sería un rasgo primitivo del conjunto, heredado por *sapiens* y perdido por los neandertales. Esa conclusión mantiene el núcleo de la propuesta de 1997 —la antigüedad del patrón facial moderno— y corrige su parte más ambiciosa, la ascendencia directa.
 

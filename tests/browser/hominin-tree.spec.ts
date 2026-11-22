@@ -50,3 +50,20 @@ test('human evolution portal tree, unified index and browser history navigation'
   await expect(page.locator('#map')).toHaveAttribute('data-loaded-year', '-45000');
   expect(errors).toEqual([]);
 });
+
+test('encyclopedia map links open the site on the map at its date', async ({ page }) => {
+  test.setTimeout(180000);
+  const errors: string[] = []; page.on('pageerror', e => errors.push(e.message));
+  await page.goto('/#year=-45000');
+  await expect(page.locator('#map')).toHaveAttribute('data-loaded-year', '-45000', { timeout: 90000 });
+  await page.locator('#encyclopedia-button').click();
+  await page.locator('#encyclopedia-index summary[data-encyclopedia-intro="humanidad-evolucion-humana"]').click();
+  await expect(page.locator('#encyclopedia')).toHaveAttribute('data-article', 'humanidad-evolucion-humana');
+  await page.locator('#encyclopedia-article .enc-maplink[data-encyclopedia-site="ARCH-SDB-DEEP-9F9A5BBEB4B6"]').click();
+  await expect(page.locator('#encyclopedia')).not.toBeVisible();
+  await expect(page.locator('#map')).toHaveAttribute('data-loaded-year', '-1800000', { timeout: 90000 });
+  await expect(page.locator('#map')).toHaveAttribute('data-focused-site', 'ARCH-SDB-DEEP-9F9A5BBEB4B6', { timeout: 60000 });
+  await expect(page.locator('#selection')).toBeVisible();
+  await expect(page.locator('#selection-title')).toContainText('Dmanisi');
+  expect(errors).toEqual([]);
+});

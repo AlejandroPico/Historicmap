@@ -2,7 +2,9 @@
 // títulos ##–####, párrafos, negrita/cursiva/código, enlaces externos, enlaces internos [[id|texto]],
 // listas (con un nivel de anidación), tablas, citas, imágenes y bloques «:::tipo».
 import { tx } from '../i18n';
-import { LINK_PATTERN } from '../../scripts/lib/encyclopedia-format.mjs';
+import { LINK_PATTERN, MAP_LINK_PATTERN } from '../../scripts/lib/encyclopedia-format.mjs';
+/** Texto de enlace escapado, con las cursivas Markdown (*Homo*) convertidas en <em>. */
+const emph = (t: string) => esc(t).replace(/\*([^*]+)\*/g, '<em>$1</em>');
 
 export const esc = (s: unknown) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 
@@ -29,7 +31,8 @@ export function inline(text: string, o: RenderOptions = {}) {
   const stash: string[] = [];
   const keep = (html: string) => `\u0000${stash.push(html) - 1}\u0000`;
   let s = text.replace(/`([^`]+)`/g, (_, c) => keep(`<code>${esc(c)}</code>`));
-  s = s.replace(LINK_PATTERN, (_m, id: string, label?: string) => keep(`<a href="#" class="enc-link" data-encyclopedia-entry="${esc(id)}">${esc(label ?? o.title?.(id) ?? id)}</a>`));
+  s = s.replace(MAP_LINK_PATTERN, (_m, key: string, year: string, label?: string) => keep(`<a href="#" class="enc-maplink" data-encyclopedia-map="${esc(year)}" data-encyclopedia-site="${esc(key)}" title="${esc(tx('encyclopediaMarkdown.verYacimientoEnElMapa'))}">${emph(label ?? key)}</a>`));
+  s = s.replace(LINK_PATTERN, (_m, id: string, label?: string) => keep(`<a href="#" class="enc-link" data-encyclopedia-entry="${esc(id)}">${emph(label ?? o.title?.(id) ?? id)}</a>`));
   s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m, label: string, url: string) => keep(`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`));
   s = esc(s);
   s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>');

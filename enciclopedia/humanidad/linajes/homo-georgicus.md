@@ -44,7 +44,7 @@ fuentes:
 ---
 
 :::clave
-Dmanisi es un caso único en la paleoantropología del Pleistoceno inferior: en unos pocos metros cuadrados de una colina del Cáucaso, en sedimentos depositados en un intervalo geológicamente breve en torno a 1,77 Ma, han aparecido cinco cráneos, cuatro mandíbulas y parte de varios esqueletos, junto a miles de herramientas y de huesos de animales. Son los homininos más antiguos conocidos con seguridad fuera de África. Su cerebro era pequeño, de 546 a 775 cm³, y sus herramientas, sencillas: la salida de África no esperó a cerebros grandes ni a bifaces. Y su variación es tan amplia que, de haberse encontrado por separado en distintos yacimientos, sus cráneos habrían recibido nombres de especies diferentes.
+[[@ARCH-SDB-DEEP-9F9A5BBEB4B6 -1800000|Dmanisi]] es un caso único en la paleoantropología del Pleistoceno inferior: en unos pocos metros cuadrados de una colina del Cáucaso, en sedimentos depositados en un intervalo geológicamente breve en torno a 1,77 Ma, han aparecido cinco cráneos, cuatro mandíbulas y parte de varios esqueletos, junto a miles de herramientas y de huesos de animales. Son los homininos más antiguos conocidos con seguridad fuera de África. Su cerebro era pequeño, de 546 a 775 cm³, y sus herramientas, sencillas: la salida de África no esperó a cerebros grandes ni a bifaces. Y su variación es tan amplia que, de haberse encontrado por separado en distintos yacimientos, sus cráneos habrían recibido nombres de especies diferentes.
 :::
 
 ## Nombre y nomenclatura
@@ -66,7 +66,7 @@ Individuos con cráneo: 5
 
 ### Una ciudad medieval sobre una colina volcánica
 
-Dmanisi es una ciudad medieval fortificada de la región de Kvemo Kartli, en el sur de Georgia, construida en un promontorio entre los ríos Mashavera y Pinasauri. Fue un importante centro comercial en la ruta de la seda entre los siglos IX y XIV, y su arqueología medieval se estudiaba desde la década de 1930. En 1983, al excavar los silos de grano medievales, los arqueólogos encontraron huesos de rinoceronte y otros mamíferos extintos. El paleontólogo Abesalom Vekua reconoció su antigüedad, y desde entonces la colina se excava como yacimiento del Pleistoceno inferior. En 1984 aparecieron las primeras herramientas de piedra y en 1991 la primera mandíbula humana, **D211**, publicada por Gabunia y Vekua en *Nature* en 1995. Las excavaciones las dirige desde la década de 1990 **David Lordkipanidze**, director del Museo Nacional de Georgia, en colaboración con equipos de Estados Unidos (Reid Ferring, G. Philip Rightmire), Suiza (Christoph Zollikofer y Marcia Ponce de León, de la Universidad de Zúrich), Francia, Alemania y España (Jordi Agustí, Oriol Oms).
+[[humanidad-yacimiento-dmanisi|Dmanisi]] es una ciudad medieval fortificada de la región de Kvemo Kartli, en el sur de Georgia, construida en un promontorio entre los ríos Mashavera y Pinasauri. Fue un importante centro comercial en la ruta de la seda entre los siglos IX y XIV, y su arqueología medieval se estudiaba desde la década de 1930. En 1983, al excavar los silos de grano medievales, los arqueólogos encontraron huesos de rinoceronte y otros mamíferos extintos. El paleontólogo Abesalom Vekua reconoció su antigüedad, y desde entonces la colina se excava como yacimiento del Pleistoceno inferior. En 1984 aparecieron las primeras herramientas de piedra y en 1991 la primera mandíbula humana, **D211**, publicada por Gabunia y Vekua en *Nature* en 1995. Las excavaciones las dirige desde la década de 1990 **David Lordkipanidze**, director del Museo Nacional de Georgia, en colaboración con equipos de Estados Unidos (Reid Ferring, G. Philip Rightmire), Suiza (Christoph Zollikofer y Marcia Ponce de León, de la Universidad de Zúrich), Francia, Alemania y España (Jordi Agustí, Oriol Oms).
 
 ### Estratigrafía y datación
 
@@ -74,7 +74,7 @@ La base del yacimiento es el **basalto de Masavera**, una colada de lava que rep
 
 | Unidad | Características | Polaridad magnética | Edad | Contenido |
 |---|---|---|---|---|
-| Estrato A | cenizas y limos sobre el basalto | normal (subcrón de Olduvai) | ≈ 1,85–1,78 Ma | herramientas, fauna; ocupación más antigua |
+| Estrato A | cenizas y limos sobre el basalto | normal (subcrón de [[@ARCH-SDB-DEEP-65ABABD5166E -1700000|Olduvai]] ([[humanidad-yacimiento-olduvai|yacimiento]])) | ≈ 1,85–1,78 Ma | herramientas, fauna; ocupación más antigua |
 | Estrato B (B1 y superiores) | depósitos más jóvenes, con conductos y barrancos rellenos | inversa (crono Matuyama) | ≈ 1,78–1,76 Ma | la mayoría de los fósiles humanos y de la fauna |
 
 El estudio de Reid Ferring y colaboradores, publicado en *PNAS* en 2011, demostró que las herramientas aparecen ya en los niveles más bajos del Estrato A, inmediatamente por encima del basalto, y que la ocupación comenzó hace ≈ 1,85 Ma y se repitió durante unos 80.000 años. Los cráneos proceden sobre todo de rellenos del Estrato B1, depositados poco después del final del subcrón de Olduvai (1,78 Ma). La mayoría de los fósiles humanos tendría, por tanto, ≈ 1,77 Ma. Los sedimentos se acumularon en **conductos y barrancos** (*pipes and gullies*) excavados por la erosión en los depósitos más antiguos, que actuaron como trampas donde los carnívoros abandonaron o arrastraron cadáveres.
@@ -101,7 +101,7 @@ Los fósiles de Dmanisi se designan con la letra D seguida de un número de inve
 
 ### D2280 y D2282 (1999)
 
-Los dos primeros cráneos aparecieron en 1999 y se publicaron en *Science* en 2000. D2280 es una calota bien conservada, de unos 775 cm³, con un toro supraorbitario marcado y una bóveda de proporciones parecidas a las de KNM-ER 3733 de Koobi Fora. D2282 conserva parte del rostro y probablemente pertenece al mismo individuo que la mandíbula D211. Su parecido con los *erectus* africanos llevó a atribuirlos a *H. ergaster*.
+Los dos primeros cráneos aparecieron en 1999 y se publicaron en *Science* en 2000. D2280 es una calota bien conservada, de unos 775 cm³, con un toro supraorbitario marcado y una bóveda de proporciones parecidas a las de KNM-ER 3733 de [[@ARCH-SDB-DEEP-9E23DD5AA59E -1600000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]). D2282 conserva parte del rostro y probablemente pertenece al mismo individuo que la mandíbula D211. Su parecido con los *erectus* africanos llevó a atribuirlos a *H. ergaster*.
 
 ### D2700 (2001)
 

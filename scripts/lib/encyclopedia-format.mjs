@@ -117,6 +117,10 @@ export function civilYear(value) {
 /** Enlaces internos «[[id]]» o «[[id|texto]]». */
 export const LINK_PATTERN = /\[\[([A-Za-z0-9][A-Za-z0-9-]*)(?:\|([^\]]+))?\]\]/g;
 export function internalLinks(body) { return [...body.matchAll(LINK_PATTERN)].map(m => m[1]); }
+/** Enlaces al mapa «[[@CLAVE AÑO|texto]]»: abren el mapa en ese año y seleccionan el yacimiento con esa identityKey
+ *  (public/data/hominin-sites.geojson o human-evidence.geojson). */
+export const MAP_LINK_PATTERN = /\[\[@([A-Za-z0-9][A-Za-z0-9_.:-]*)\s+(-?\d+)(?:\|([^\]]+))?\]\]/g;
+export function mapLinks(body) { return [...body.matchAll(MAP_LINK_PATTERN)].map(m => ({ key: m[1], year: Number(m[2]) })); }
 
 /** Normaliza para búsqueda: sin acentos ni mayúsculas. */
 export const normalizeText = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -126,7 +130,7 @@ export function firstParagraph(body) {
   for (const block of body.split(/\n\s*\n/)) {
     const t = block.trim();
     if (!t || /^(#|:::|\||!|>|-\s|\d+\.\s)/.test(t)) continue;
-    return t.replace(LINK_PATTERN, (_, id, label) => label ?? id).replace(/\*\*|\*|`/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\s+/g, ' ');
+    return t.replace(MAP_LINK_PATTERN, (_, key, _y, label) => label ?? key).replace(LINK_PATTERN, (_, id, label) => label ?? id).replace(/\*\*|\*|`/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\s+/g, ' ');
   }
   return '';
 }

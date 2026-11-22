@@ -1866,3 +1866,10 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 - 15 páginas en `enciclopedia/humanidad/procesos/` (orden 1–17). Sustituyen con el mismo id a hominin-origins, australopithecines, early-homo-world, human-diversity, human-dispersals, human-contact, human-taxonomy, human-ice-climate y stone-tools (el tema heredado neolithic-transition queda para P10). Nuevas: humanidad-bipedismo, -cerebro, -dieta-caza, -lenguaje, -fuego, -paleogenomica.
 - Los temas sustituidos conservan sus esquemas heredados como extras (árbol completo en los temas con hominin-timeline; dispersión, contacto, laboratorio de CO₂ y talla lítica en los demás), de los que dependen las pruebas de human-expansion.
 - Parte del lote se escribió en una sesión anterior cuyo contexto se perdió (10 páginas); antes de lanzar agentes conviene listar la carpeta y comprobar qué existe.
+
+## 97. Enciclopedia · P09-C · Yacimientos y enlaces al mapa · 0.74.0 · 23/11/2026
+
+- 16 páginas en `enciclopedia/humanidad/yacimientos/` (ids `humanidad-yacimiento-<slug>`), agrupadas en «Evolución humana › Yacimientos».
+- Enlace al mapa: `[[@CLAVE año|texto]]` (MAP_LINK_PATTERN en scripts/lib/encyclopedia-format.mjs). markdown.ts lo pinta como `<a class="enc-maplink" data-encyclopedia-map="año" data-encyclopedia-site="CLAVE">`; el clic delegado llama a `onMap(año, clave)`; main.ts `focusSite` espera a que el mapa cargue el año, busca el punto por `identityKey` en `regionalData`, centra la cámara, abre su ficha y pone `#map[data-focused-site]`. El compilador valida clave y ventana temporal contra public/data/hominin-sites.geojson y human-evidence.geojson. Documentado en enciclopedia/README.md.
+- Las páginas y el motor de enlaces se hicieron en buena parte en una sesión anterior cuyo contexto se perdió; se completó la imagen que faltaba (Sterkfontein) y se validó todo.
+- Prueba e2e: «encyclopedia map links open the site on the map at its date» (hominin-tree.spec.ts, Dmanisi a −1.800.000).

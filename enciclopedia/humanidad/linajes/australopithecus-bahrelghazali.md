@@ -79,7 +79,7 @@ Koro Toro pertenece a la misma **cuenca del Chad** que Toros-Menalla, unos 100 k
 
 ### La edad bioestratigráfica
 
-La primera edad de «Abel» se dedujo de la fauna asociada. Brunet y colaboradores identificaron suidos, bóvidos, équidos hipariónidos, proboscídeos, hipopótamos, rinocerontes, primates cercopitécidos, carnívoros, cocodrilos, tortugas y peces. La comparación de los grados evolutivos de los suidos y los proboscídeos con las secuencias de Hadar, Laetoli y la cuenca de Turkana, fechadas con ⁴⁰Ar/³⁹Ar, situaba el conjunto entre **3,5 y 3,0 Ma**. En el Chad no hay tobas volcánicas intercaladas, de modo que la bioestratigrafía fue durante trece años la única cronología disponible.
+La primera edad de «Abel» se dedujo de la fauna asociada. Brunet y colaboradores identificaron suidos, bóvidos, équidos hipariónidos, proboscídeos, hipopótamos, rinocerontes, primates cercopitécidos, carnívoros, cocodrilos, tortugas y peces. La comparación de los grados evolutivos de los suidos y los proboscídeos con las secuencias de [[@HOMININ-REF-afarensis -3200000|Hadar]] ([[humanidad-yacimiento-afar|yacimiento]]), [[humanidad-yacimiento-laetoli|Laetoli]] y la cuenca de Turkana, fechadas con ⁴⁰Ar/³⁹Ar, situaba el conjunto entre **3,5 y 3,0 Ma**. En el Chad no hay tobas volcánicas intercaladas, de modo que la bioestratigrafía fue durante trece años la única cronología disponible.
 
 ### La datación cosmogénica de 2008
 

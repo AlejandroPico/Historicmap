@@ -57,7 +57,7 @@ fuentes:
 
 Louis Leakey bautizó el cráneo de 1959 como *Zinjanthropus boisei*. El nombre genérico combina *Zinj*, término de los geógrafos árabes medievales para la costa oriental de África (el país de los *zanj*), y el griego *ánthrōpos*, «hombre»; el específico honra a **Charles Boise**, un hombre de negocios británico que financiaba las campañas de los Leakey. El fósil recibió pronto dos apodos: «Zinj», abreviatura del nombre, y «Querido Muchacho» (*Dear Boy*), como lo llamaban los Leakey en su campamento. La prensa popularizó un tercero, el de **Hombre Cascanueces** (*Nutcracker Man*), por sus muelas.
 
-La mayoría de los especialistas no aceptó un género nuevo. En 1967 Phillip Tobias, en su monografía sobre el cráneo, lo incluyó en *Australopithecus*, como *A. boisei*, y durante décadas ese fue el nombre corriente. Con la revalorización del género *Paranthropus* en los años ochenta y noventa, la combinación *Paranthropus boisei* se ha impuesto en la mayor parte de la bibliografía. El nombre *Zinjanthropus* sobrevive como apodo y en la denominación del nivel arqueológico de Olduvai donde apareció el cráneo, el «suelo Zinj» de FLK.
+La mayoría de los especialistas no aceptó un género nuevo. En 1967 Phillip Tobias, en su monografía sobre el cráneo, lo incluyó en *Australopithecus*, como *A. boisei*, y durante décadas ese fue el nombre corriente. Con la revalorización del género *Paranthropus* en los años ochenta y noventa, la combinación *Paranthropus boisei* se ha impuesto en la mayor parte de la bibliografía. El nombre *Zinjanthropus* sobrevive como apodo y en la denominación del nivel arqueológico de [[@HOMININ-REF-boisei -1840000|Olduvai]] ([[humanidad-yacimiento-olduvai|yacimiento]]) donde apareció el cráneo, el «suelo Zinj» de FLK.
 
 ## Historia del descubrimiento
 
@@ -77,13 +77,13 @@ En 1961 Louis Leakey, Jack Evernden y Garniss Curtis, de la Universidad de Calif
 
 En 1964 Kamoya Kimeu, de un equipo dirigido por Richard Leakey y Glynn Isaac, encontró en Peninj, a orillas del lago Natron (Tanzania), una **mandíbula completa con todos los dientes** de unos 1,5 Ma. Era la primera mandíbula que se podía asociar a la especie y mostraba la misma desproporción entre dientes anteriores diminutos y posteriores enormes que el cráneo de Olduvai.
 
-En 1969 Richard Leakey halló en Koobi Fora, al este del lago Turkana, el cráneo **KNM-ER 406**, un macho adulto de 1,7 Ma con una cresta sagital marcada; al año siguiente apareció **KNM-ER 732**, más pequeño y sin cresta, interpretado como una hembra. La comparación de ambos se convirtió en el ejemplo clásico de **dimorfismo sexual** en un hominino. En 1976 Richard Leakey y Alan Walker usaron KNM-ER 406, junto al cráneo de *Homo erectus* KNM-ER 3733, de la misma edad, para refutar la «hipótesis de la especie única», que sostenía que en cada momento solo podía existir una especie de hominino porque la cultura ocupaba un nicho ecológico único.
+En 1969 Richard Leakey halló en [[@HOMININ-REF-rudolfensis -1880000|Koobi Fora]] ([[humanidad-yacimiento-turkana|yacimiento]]), al este del lago Turkana, el cráneo **KNM-ER 406**, un macho adulto de 1,7 Ma con una cresta sagital marcada; al año siguiente apareció **KNM-ER 732**, más pequeño y sin cresta, interpretado como una hembra. La comparación de ambos se convirtió en el ejemplo clásico de **dimorfismo sexual** en un hominino. En 1976 Richard Leakey y Alan Walker usaron KNM-ER 406, junto al cráneo de *Homo erectus* KNM-ER 3733, de la misma edad, para refutar la «hipótesis de la especie única», que sostenía que en cada momento solo podía existir una especie de hominino porque la cultura ocupaba un nicho ecológico único.
 
 En 1993 un equipo etíope y japonés dirigido por Gen Suwa y Berhane Asfaw encontró en **Konso**, en el sur de Etiopía, el cráneo con mandíbula **KGA 10-525**, de 1,4 Ma, el primero en que ambos elementos se conservaban juntos. Su publicación en 1997 mostró una variación de la cara mayor de lo esperado y reforzó la distinción entre *boisei* y *robustus*.
 
 ### Hallazgos recientes
 
-En 2013 Manuel Domínguez-Rodrigo y colaboradores publicaron **OH 80**, un esqueleto parcial de 1,34 Ma del Lecho II de Olduvai, asociado a dientes de *boisei*, con un húmero y un radio muy robustos. Y en la orilla oriental del Turkana, en Ileret, el equipo del Koobi Fora Research Project ha recuperado un esqueleto parcial con mano, **KNM-ER 101000**, de unos 1,5 Ma, asociado por primera vez sin ambigüedad a dientes de la especie y publicado en 2025 (véase el apartado sobre la mano).
+En 2013 Manuel Domínguez-Rodrigo y colaboradores publicaron **OH 80**, un esqueleto parcial de 1,34 Ma del Lecho II de Olduvai, asociado a dientes de *boisei*, con un húmero y un radio muy robustos. Y en la orilla oriental del Turkana, en [[@ARCH-SDB-DEEP-98FCF8619C31 -1500000|Ileret]], el equipo del Koobi Fora Research Project ha recuperado un esqueleto parcial con mano, **KNM-ER 101000**, de unos 1,5 Ma, asociado por primera vez sin ambigüedad a dientes de la especie y publicado en 2025 (véase el apartado sobre la mano).
 
 | Ejemplar | Año del hallazgo | Lugar | Material | Edad (Ma) |
 |---|---|---|---|---|
@@ -99,7 +99,7 @@ En 2013 Manuel Domínguez-Rodrigo y colaboradores publicaron **OH 80**, un esque
 
 ### Una especie de los grandes rifts
 
-*P. boisei* se conoce en una franja de unos 2.500 km a lo largo del sistema de rifts de África oriental, desde Konso, en el sur de Etiopía, hasta Malema, en el norte de Malawi. Los yacimientos son cuencas lacustres y fluviales con tobas volcánicas datables: las formaciones Shungura (Omo), Koobi Fora y Nachukui (Turkana), la secuencia de Olduvai y la Formación Humbu de Peninj.
+*P. boisei* se conoce en una franja de unos 2.500 km a lo largo del sistema de rifts de África oriental, desde Konso, en el sur de Etiopía, hasta Malema, en el norte de Malawi. Los yacimientos son cuencas lacustres y fluviales con tobas volcánicas datables: las formaciones [[@ARCH-SDB-DEEP-A6AA3FA6A256 -1900000|Shungura]] (Omo), Koobi Fora y Nachukui (Turkana), la secuencia de Olduvai y la Formación Humbu de Peninj.
 
 Los registros más antiguos atribuidos a la especie son dientes de los Miembros F y G de Shungura y un fragmento de maxilar de Malema, en las Capas de Chiwondo de Malawi, de unos 2,3 Ma; los más modernos, el esqueleto OH 80 (1,34 Ma), el cráneo de Konso (1,4 Ma) y algunos fósiles de Olduvai y del Turkana que se acercan a **1,2 Ma**. Ningún parántropo oriental es claramente más joven. La especie duró por tanto alrededor de un millón de años, una de las mayores longevidades entre los homininos, solo superada por *Homo erectus*.
 

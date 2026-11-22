@@ -27,7 +27,7 @@ interface Page {
   top: string; note?: string; legacy?: EncyclopediaArticle; portrait?: string;
 }
 
-let dialog: HTMLDialogElement, history: string[] = [], cursor = -1, consultedYear = 2026, onMap: (year: number) => void, returnFocus: HTMLElement;
+let dialog: HTMLDialogElement, history: string[] = [], cursor = -1, consultedYear = 2026, onMap: (year: number, site?: string) => void, returnFocus: HTMLElement;
 let index: EncyclopediaIndexFile | null = null, renderToken = 0, replacedBy = new Map<string, string>();
 const isReplaced = (id: string) => replacedBy.has(id);
 const byId = (id: string) => document.getElementById(id)!;
@@ -478,7 +478,7 @@ function setup() {
     if (anchor) { e.preventDefault(); byId('encyclopedia-article').querySelector(anchor.getAttribute('href')!)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     if (entryEl) { e.preventDefault(); navigateEncyclopedia(entryEl.dataset.encyclopediaEntry!); }
     if (compose) void render(compose.dataset.encyclopediaCompose === 'on');
-    if (jump) { dialog.close(); onMap(Number(jump.dataset.encyclopediaMap)); }
+    if (jump) { e.preventDefault(); dialog.close(); onMap(Number(jump.dataset.encyclopediaMap), jump.dataset.encyclopediaSite); }
     if (video) { const frame = document.createElement('iframe'); frame.src = `https://www.youtube-nocookie.com/embed/${video.dataset.videoId}`; frame.title = tx('encyclopedia.nasaSimulacionDeLaFormacion'); frame.allowFullscreen = true; frame.referrerPolicy = 'strict-origin-when-cross-origin'; byId('encyclopedia-video-frame').replaceChildren(frame); }
   });
   dialog.addEventListener('keydown', e => { const t = e.target as HTMLElement; if ((e.key === 'Enter' || e.key === ' ') && t.matches('g[role=button], g[role=link]')) { e.preventDefault(); t.dispatchEvent(new MouseEvent('click', { bubbles: true })); } });
@@ -491,7 +491,7 @@ function setup() {
 }
 
 /** Abre la enciclopedia. Sin entrada concreta, abre el panorama de la fecha consultada en el mapa. */
-export function openEncyclopedia(year: number, callback: (year: number) => void, entryId?: string) {
+export function openEncyclopedia(year: number, callback: (year: number, site?: string) => void, entryId?: string) {
   if (!dialog) setup();
   consultedYear = year; onMap = callback; returnFocus = document.getElementById('encyclopedia-button')!; returnFocus.setAttribute('aria-expanded', 'true');
   history = []; cursor = -1; (byId('encyclopedia-search') as HTMLInputElement).value = ''; dialog.style.setProperty('--impact-progress', '0');
