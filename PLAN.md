@@ -4,7 +4,7 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 
 - **Actualizado:** 28 de noviembre de 2026.
 - **Versión:** 0.76.0.
-- **Enciclopedia:** 458 páginas, ≈ 1,59 millones de palabras y ≈ 12.300 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
+- **Enciclopedia:** 471 páginas, ≈ 1,66 millones de palabras y ≈ 12.800 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
 - **Documentos relacionados:**
   - [`enciclopedia/PLAN.md`](enciclopedia/PLAN.md): plan rector original, con el diagnóstico, la arquitectura y la norma editorial.
   - [`tareas.md`](tareas.md): historial detallado de tareas y continuidad.
@@ -22,12 +22,12 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 | Arquitectura y componentes | P00–P02 | ✅ |
 | 1 · La Tierra antes de la vida compleja | P03–P04 | ✅ |
 | 2 · Fanerozoico y procesos | P05–P08 | ✅ |
-| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 P10 en curso (0 y A hechas) |
+| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 P10 en curso (0, A, B y C hechas) |
 | 4 · Historia (3500 a. C.–2026) | P11–P21 | ⬜ Pendiente |
 | 5 · Cobertura total, temas y cierre | P22–P24 | ⬜ Pendiente |
 | Opcionales | PX1, PX2 | 🟡 PX2 empezada (1.ª parte) |
 
-**Siguiente paso:** P10-B, P10-C y P10-D (apartado 4), entrega 0.77.0.
+**Siguiente paso:** P10-D (apartado 4); con P10-B y P10-C cierra la entrega 0.77.0.
 
 ---
 
@@ -156,16 +156,19 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
   - [x] Enterramientos y vida social; sociedad, demografía y redes.
   - [x] Economía: caza especializada, pesca, recolección, perros.
   - [x] Arte paleolítico de la península ibérica.
-- [ ] **P10-B · Último Máximo Glacial y refugios** (~5)
-  - [ ] El UMG: clima, paisaje y nivel del mar, con enlaces a `clima-glaciaciones-pleistoceno`.
-  - [ ] Refugios: franco-cantábrico, ibérico, balcánico, ucraniano y Beringia.
-  - [ ] Recolonización tardiglaciar, Bølling-Allerød y Dryas Reciente.
-- [ ] **P10-C · Poblamiento de los continentes** (~8)
-  - [ ] Sahul (Australia y Nueva Guinea; Madjedbebe y su debate).
-  - [ ] Asia oriental y Japón (Jōmon temprano).
-  - [ ] Beringia y América (Clovis, Monte Verde, White Sands, Cooper's Ferry, rutas costera y del corredor).
-  - [ ] Ártico (Paleoesquimales y Thule).
-  - [ ] El Pacífico remoto, como avance para P11–P15.
+- [x] **P10-B · Último Máximo Glacial y refugios** (28/11/2026, 5 páginas; entra en 0.77.0)
+  - [x] El UMG: clima, paisaje y nivel del mar.
+  - [x] Refugios: franco-cantábrico, ibérico, italiano y balcánico, ucraniano y siberiano.
+  - [x] Beringia.
+  - [x] Recolonización tardiglaciar (Bølling-Allerød).
+  - [x] Dryas Reciente.
+- [x] **P10-C · Poblamiento de los continentes** (28/11/2026, 8 páginas; entra en 0.77.0)
+  - [x] Sahul (Australia y Nueva Guinea; Madjedbebe y su debate).
+  - [x] Wallacea y sudeste asiático.
+  - [x] Asia oriental y Japón paleolítico.
+  - [x] Ártico (Paleoesquimales, Dorset y Thule).
+  - [x] América: síntesis y genética; yacimientos anteriores a Clovis; Clovis y Paleoindio.
+  - [x] El Pacífico remoto (avance para las fases históricas).
 - [ ] **P10-D · Epipaleolítico y Mesolítico** (~8)
   - [ ] Natufiense y Göbekli Tepe.
   - [ ] Mesolítico europeo (Star Carr, Lepenski Vir, concheros de Muge, Asturiense).
@@ -193,7 +196,7 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
   - [ ] Agrupación por continentes y épocas en el índice.
 - [ ] **Entregas previstas:**
   - 0.76.0: P10-0 y P10-A ✅ (28/11/2026).
-  - 0.77.0: P10-B, P10-C y P10-D.
+  - 0.77.0: P10-B ✅, P10-C ✅ (28/11/2026) y P10-D.
   - 0.78.0: P10-E y P10-F.
   - 0.79.0: P10-G, P10-H y cierre.
 

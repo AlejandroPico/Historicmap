@@ -1,5 +1,10 @@
 # Historial de versiones
 
+## 0.77.0 · en curso (P10-B, C y D)
+
+- P10-C · Poblamiento de los continentes (28/11/2026): 8 páginas (≈ 42.000 palabras) en «Prehistoria reciente › Poblamiento de los continentes»: Sahul, Wallacea y el sudeste asiático, Asia oriental y Japón, el Ártico, el poblamiento de América, los yacimientos anteriores a Clovis, Clovis y el Paleoindio, y el Pacífico remoto, con enlaces ⌖ a decenas de yacimientos y culturas del mapa.
+- P10-B · Último Máximo Glacial y refugios (28/11/2026): 5 páginas (≈ 25.000 palabras) en «Prehistoria reciente › Último Máximo Glacial»: el UMG, los refugios glaciares, Beringia, la recolonización tardiglaciar y el Dryas Reciente, con unos 40 enlaces ⌖ a yacimientos y culturas del mapa.
+
 ## 0.76.0 · 28 de noviembre de 2026
 
 - Enciclopedia P10-0 · Desplegable «Prehistoria reciente» en el índice, con portada (`prehistoria`) que se abre al desplegarlo y subdesplegables por subcarpeta de `enciclopedia/prehistoria/` (Paleolítico superior, Último Máximo Glacial, poblamiento, Epipaleolítico y Mesolítico, Neolítico, megalitismo, primeros metales y culturas del mapa). El tema heredado «Del poblamiento a las primeras sociedades productoras» pasa del desplegable de Evolución humana al de Neolítico hasta que se reescriba en P10-E.

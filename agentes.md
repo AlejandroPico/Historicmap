@@ -1887,3 +1887,11 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 - Enlaces al mapa a culturas: build-encyclopedia.mjs `siteWindows()` añade los registros `kind: cultural-region` de `public/data/cultural-index.json` por `ownerKey` y `contextKey`; main.ts `focusSite` busca primero un punto por `identityKey` y si no un polígono por `ownerKey`/`contextKey`, y centra en `properties.focus` o en el centro de su caja.
 - 12 páginas: portada y 11 del Paleolítico superior en `prehistoria/paleolitico-superior/` (ids `prehistoria-<slug>`). Brief común en /tmp/claude-0/p10-comun.md (se pierde con la sesión: su contenido está resumido aquí y en PLAN.md).
 - Prueba e2e nueva en hominin-tree.spec.ts (portada de Prehistoria y enlace a la cultura cardial).
+
+## 100. Enciclopedia · P10-B · 28/11/2026 (entra en 0.77.0)
+
+- 5 páginas en `enciclopedia/prehistoria/glaciar/` (orden 1–5), padre geo-UpperPleistocene: UMG, refugios, Beringia, recolonización tardiglaciar, Dryas Reciente. ≈ 40 enlaces ⌖ validados; Beringia y Siberia oriental no tienen puntos en el mapa.
+
+## 101. Enciclopedia · P10-C · 28/11/2026 (entra en 0.77.0)
+
+- 8 páginas en `enciclopedia/prehistoria/poblamiento/` (orden 1–8). Los enlaces ⌖ usan también `contextKey` de regiones culturales (p. ej. `REFERENCE-CHINCHORRO-TRANSFORMATIONS`) y regiones de época histórica (`territorio-…`), validados contra cultural-index.json. Sin puntos en el mapa: Clovis, Folsom, Lapita, Yana, Devil's Lair, Jerimalai.
