@@ -221,14 +221,17 @@ function paintDeepSurface(targetYear:number,coast?:FeatureCollection){
  $('#map').dataset.deepGeometry=coast?.features.length?'dated-model':'illustrative';$('#map').dataset.deepIce=deepIceAt(targetYear)??'';$('#map').dataset.deepIceVisible=String(!!deepIceAt(targetYear)&&iceMode!=='off');
 }
 function showEncyclopedia(entry?:string){stopPlay();const at=year;void import('./encyclopedia').then(m=>m.openEncyclopedia(at,(y,site)=>{void updateYear(y);if(site)void focusSite(site,y);},entry)).catch(()=>status(tx('main.noSePudoAbrirLa'),true));}
+function bboxCenter(g:GeoJSON.Geometry):[number,number]{let x0=180,y0=90,x1=-180,y1=-90;const walk=(c:any):void=>{if(typeof c[0]==='number'){x0=Math.min(x0,c[0]);x1=Math.max(x1,c[0]);y0=Math.min(y0,c[1]);y1=Math.max(y1,c[1]);}else c.forEach(walk);};walk((g as any).coordinates??[]);return[(x0+x1)/2,(y0+y1)/2];}
 /** Enlace de la enciclopedia a un yacimiento: espera a que el mapa cargue el año, centra el punto y abre su ficha. */
 async function focusSite(key:string,target:number){
   const until=performance.now()+90000;
   while(performance.now()<until&&($('#map').dataset.loadedYear!==String(target)||$('#map').getAttribute('aria-busy')==='true'||year!==target))await new Promise(r=>setTimeout(r,150));
   if(year!==target)return;
-  const f=regionalData.features.find(x=>x.geometry?.type==='Point'&&x.properties?.identityKey===key);
+  // Primero un punto de yacimiento (identityKey); si no, una cultura o región cultural (ownerKey o contextKey), centrada en su foco.
+  const f=regionalData.features.find(x=>x.geometry?.type==='Point'&&x.properties?.identityKey===key)??regionalData.features.find(x=>x.geometry&&x.geometry.type!=='Point'&&(x.properties?.ownerKey===key||x.properties?.contextKey===key));
   if(!f){$('#map').dataset.focusedSite='';return;}
-  const at=(f.geometry as GeoJSON.Point).coordinates as [number,number];
+  const focus=(()=>{const v=f.properties?.focus;try{const c=typeof v==='string'?JSON.parse(v):v;return Array.isArray(c)&&c.length===2?c as [number,number]:undefined;}catch{return undefined;}})();
+  const at=(f.geometry!.type==='Point'?(f.geometry as GeoJSON.Point).coordinates:focus??bboxCenter(f.geometry!)) as [number,number];
   map.easeTo({center:at,zoom:Math.max(map.getZoom(),4.5),duration:reduced?0:900});
   selectFeature(f as any,at);$('#map').dataset.focusedSite=key;
 }

@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.76.0 · 28 de noviembre de 2026
+
+- Enciclopedia P10-0 · Desplegable «Prehistoria reciente» en el índice, con portada (`prehistoria`) que se abre al desplegarlo y subdesplegables por subcarpeta de `enciclopedia/prehistoria/` (Paleolítico superior, Último Máximo Glacial, poblamiento, Epipaleolítico y Mesolítico, Neolítico, megalitismo, primeros metales y culturas del mapa). El tema heredado «Del poblamiento a las primeras sociedades productoras» pasa del desplegable de Evolución humana al de Neolítico hasta que se reescriba en P10-E.
+- Enlaces `[[@CLAVE año|texto]]` a culturas y regiones culturales del mapa (`ownerKey` de `public/data/cultural-index.json`): el mapa viaja al año, se centra en el foco de la región y abre su ficha. El compilador valida las ventanas. También se admiten ya todos los puntos de evidencia con clave y ventana, no solo los de taxón.
+- Enciclopedia P10-A · 11 páginas del Paleolítico superior (≈ 54.000 palabras, con la portada): arte rupestre, Chauvet, Lascaux, Altamira, arte al aire libre, arte paleolítico ibérico, arte mueble, música y ornamentos, enterramientos, economía y caza, sociedad y redes; y la portada con cronología comparada por continentes.
+- Prueba de navegador nueva: la portada de la Prehistoria se abre desde su desplegable y un enlace de cultura (cerámica cardial, −4900) centra su región en el mapa.
+
 ## 0.75.0 · 23 de noviembre de 2026
 
 - Enciclopedia P09-D · 10 páginas de tecnologías de la piedra (≈ 50.000 palabras de cuerpo) en «Evolución humana › Tecnologías de la piedra»: Lomekwiense, Olduvayense, Achelense, Asia oriental y la línea de Movius, Levallois y Musteriense, Edad de Piedra Media africana, industrias de transición, Auriñaciense, Gravetiense, y Solutrense y Magdaleniense, con enlaces a los puntos del mapa de sus yacimientos.

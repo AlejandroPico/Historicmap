@@ -316,7 +316,7 @@ const richTitle = (t: string) => esc(t).replace(/\*([^*]+)\*/g, '<em>$1</em>');
 function group(title: string, body: string, open = false, count?: number, sub = false, intro?: string) { return `<details class="enc-group${sub ? ' enc-subgroup' : ''}"${open ? ' open' : ''}><summary${intro ? ` data-encyclopedia-intro="${esc(intro)}"` : ''}>${esc(title)}${count !== undefined ? ` <small>${count.toLocaleString(language)}</small>` : ''}</summary><div>${body}</div></details>`; }
 const entry = (id: string, title: string, sub = '') => `<button data-encyclopedia-entry="${esc(id)}"${history[cursor] === id ? ' aria-current="page"' : ''}>${sub ? `<small>${esc(sub)}</small>` : ''}${richTitle(title)}</button>`;
 
-const SCALE_INTRO = 'escala-temporal', HUMAN_INTRO = 'humanidad-evolucion-humana';
+const SCALE_INTRO = 'escala-temporal', HUMAN_INTRO = 'humanidad-evolucion-humana', PREHISTORY_INTRO = 'prehistoria', NEOLITHIC_THEME = 'neolithic-transition';
 let searchSerial = 0;
 async function renderIndex() {
   const input = byId('encyclopedia-search') as HTMLInputElement, query = input.value.trim(), nav = byId('encyclopedia-index'), serial = ++searchSerial;
@@ -347,7 +347,7 @@ async function renderIndex() {
     return (trail.find(t => t.rank === 'era' && t.parent === 'Phanerozoic') ?? trail.find(t => t.rank === 'eon'))?.name ?? 'General';
   };
   const ERA_ORDER = [tx('encyclopedia.hadico'), 'Arcaico', 'Proterozoico', 'Paleozoico', 'Mesozoico', 'Cenozoico', 'General'];
-  delete branches.humanidad; // integrada en «Evolución humana»
+  delete branches.humanidad; delete branches.prehistoria; // integradas en sus desplegables propios
   const byBranch = Object.entries(branches).map(([b, title]) => {
     const all = pages.filter(p => p.rama === b); if (!all.length) return '';
     const sorted = all.sort((x, y) => (x.inicio !== null && y.inicio !== null ? x.inicio - y.inicio : 0) || (x.orden ?? 1e9) - (y.orden ?? 1e9) || x.titulo.localeCompare(y.titulo,language));
@@ -369,19 +369,31 @@ async function renderIndex() {
   const legacyHuman = new Map(humanKnowledge.articles.map(a => [a.id, a.title]));
   const species = speciesIds.filter(id => legacyHuman.has(id) || pageById(id)).map(id => entry(id, titleOf(id, legacyHuman.get(id) ?? id)));
   const humanPages = (folder: string) => pages.filter(p => p.rama === 'humanidad' && p.ruta.split('/')[1] === folder && !p.id.startsWith('hominin-') && p.id !== HUMAN_INTRO);
-  const themes = [...humanKnowledge.articles.filter(a => !a.id.startsWith('hominin-')).map(a => ({ id: a.id, titulo: titleOf(a.id, a.title) })), ...humanPages('procesos').filter(p => !legacyHuman.has(p.id))];
+  const themes = [...humanKnowledge.articles.filter(a => !a.id.startsWith('hominin-') && a.id !== NEOLITHIC_THEME).map(a => ({ id: a.id, titulo: titleOf(a.id, a.title) })), ...humanPages('procesos').filter(p => !legacyHuman.has(p.id))];
   const humanSub: [string, { id: string; titulo: string }[]][] = [[tx('encyclopedia.humanidadProcesos'), themes], [tx('encyclopedia.humanidadYacimientos'), humanPages('yacimientos')], [tx('encyclopedia.humanidadTecnologias'), humanPages('tecnologias')]];
   const humanIds = new Set<string>([HUMAN_INTRO, ...speciesIds, ...humanSub.flatMap(([, l]) => l.map(p => p.id))]);
   const humanBody = (pageById(HUMAN_INTRO) ? entry(HUMAN_INTRO, titleOf(HUMAN_INTRO, '')) : '')
     + group(tx('encyclopedia.especiesHumanas'), species.join(''), speciesIds.includes(current), species.length, true)
     + humanSub.filter(([, l]) => l.length).map(([k, l]) => group(k, l.map(p => entry(p.id, p.titulo)).join(''), l.some(p => p.id === current), l.length, true)).join('');
   const humanCount = species.length + humanSub.reduce((n, [, l]) => n + l.length, 0) + (pageById(HUMAN_INTRO) ? 1 : 0);
+  // Prehistoria reciente: portada y un subdesplegable por subcarpeta de enciclopedia/prehistoria/, en orden cronológico.
+  const preFolders: [string, string][] = [['paleolitico-superior', tx('encyclopedia.prehistoriaPaleoliticoSuperior')], ['glaciar', tx('encyclopedia.prehistoriaGlaciar')], ['poblamiento', tx('encyclopedia.prehistoriaPoblamiento')], ['mesolitico', tx('encyclopedia.prehistoriaMesolitico')], ['neolitico', tx('encyclopedia.prehistoriaNeolitico')], ['megalitismo', tx('encyclopedia.prehistoriaMegalitismo')], ['metales', tx('encyclopedia.prehistoriaMetales')], ['culturas', tx('encyclopedia.prehistoriaCulturas')]];
+  const byOrder = (x: IndexPage, y: IndexPage) => (x.orden ?? 1e9) - (y.orden ?? 1e9) || (x.inicio ?? 0) - (y.inicio ?? 0) || x.titulo.localeCompare(y.titulo, language);
+  const preSub = preFolders.map(([folder, label]) => {
+    const list: { id: string; titulo: string }[] = pages.filter(p => p.rama === 'prehistoria' && p.ruta.split('/')[1] === folder).sort(byOrder);
+    if (folder === 'neolitico' && !pageById(NEOLITHIC_THEME) && legacyHuman.has(NEOLITHIC_THEME)) list.unshift({ id: NEOLITHIC_THEME, titulo: legacyHuman.get(NEOLITHIC_THEME)! });
+    return [label, list] as [string, { id: string; titulo: string }[]];
+  }).filter(([, l]) => l.length);
+  const preIds = new Set<string>([PREHISTORY_INTRO, ...preSub.flatMap(([, l]) => l.map(p => p.id))]);
+  const preBody = (pageById(PREHISTORY_INTRO) ? entry(PREHISTORY_INTRO, titleOf(PREHISTORY_INTRO, '')) : '') + preSub.map(([k, l]) => group(k, l.map(p => entry(p.id, p.titulo)).join(''), l.some(p => p.id === current), l.length, true)).join('');
+  const preCount = preSub.reduce((n, [, l]) => n + l.length, 0) + (pageById(PREHISTORY_INTRO) ? 1 : 0);
   nav.innerHTML = [
     entry('fecha-' + consultedYear, (consultedYear <= -1000000 ? tx('encyclopedia.laTierraHace') : tx('encyclopedia.elMundoEn')) + formatYear(consultedYear), tx('encyclopedia.ahoraEnElMapa')),
     ...general.map(p => entry(p.id, p.titulo)),
     group(tx('encyclopedia.escalaTemporalGeologica'), (pageById(SCALE_INTRO) ? entry(SCALE_INTRO, titleOf(SCALE_INTRO, '')) : '') + `<div class="enc-tree">${unitTree(null, path)}</div>`, current.startsWith('geo-') || current === SCALE_INTRO, geologicalUnits.length, false, pageById(SCALE_INTRO) ? SCALE_INTRO : undefined),
     group(tx('encyclopedia.conceptosYProcesos'), concepts, false, conceptCount),
     group(tx('encyclopedia.evolucionHumana'), humanBody, humanIds.has(current), humanCount, false, pageById(HUMAN_INTRO) ? HUMAN_INTRO : undefined),
+    preCount ? group(tx('encyclopedia.prehistoria'), preBody, preIds.has(current), preCount, false, pageById(PREHISTORY_INTRO) ? PREHISTORY_INTRO : undefined) : '',
     group(tx('encyclopedia.edadesDeLaHumanidad'), humanUnits.map(u => entry('human-' + u.id, u.name, u.scope)).join(''), false, humanUnits.length),
     byBranch,
     group(tx('encyclopedia.archivoAudiovisual'), archive, history[cursor]?.startsWith('video-'), events.length)

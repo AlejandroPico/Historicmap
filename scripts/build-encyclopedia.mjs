@@ -17,9 +17,14 @@ function siteWindows() {
   for (const file of ['hominin-sites.geojson', 'human-evidence.geojson']) {
     if (!existsSync(join(data, file))) continue;
     for (const f of JSON.parse(readFileSync(join(data, file), 'utf8')).features) {
-      const p = f.properties ?? {}; if (f.geometry?.type !== 'Point' || !p.identityKey || !p.taxon) continue;
+      const p = f.properties ?? {}; if (f.geometry?.type !== 'Point' || !p.identityKey || !Number.isFinite(p.start) || !Number.isFinite(p.end)) continue;
       const w = siteWindowCache.get(p.identityKey) ?? []; w.push([p.start, p.end]); siteWindowCache.set(p.identityKey, w);
     }
+  }
+  // Culturas y regiones culturales del mapa (Países/CULTURE-* y referencias): se enlazan por su ownerKey o su contextKey.
+  if (existsSync(join(data, 'cultural-index.json'))) for (const r of JSON.parse(readFileSync(join(data, 'cultural-index.json'), 'utf8')).records ?? []) {
+    if (!Number.isFinite(r.start) || !Number.isFinite(r.end) || r.kind === 'polity-reference') continue;
+    for (const key of new Set([r.ownerKey, r.contextKey].filter(Boolean))) { const w = siteWindowCache.get(key) ?? []; w.push([r.start, r.end]); siteWindowCache.set(key, w); }
   }
   return siteWindowCache;
 }

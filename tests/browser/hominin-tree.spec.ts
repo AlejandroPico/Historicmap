@@ -67,3 +67,20 @@ test('encyclopedia map links open the site on the map at its date', async ({ pag
   await expect(page.locator('#selection-title')).toContainText('Dmanisi');
   expect(errors).toEqual([]);
 });
+
+test('prehistory portal opens from its dropdown and culture links focus the cultural region on the map', async ({ page }) => {
+  test.setTimeout(180000);
+  const errors: string[] = []; page.on('pageerror', e => errors.push(e.message));
+  await page.goto('/#year=-45000');
+  await expect(page.locator('#map')).toHaveAttribute('data-loaded-year', '-45000', { timeout: 90000 });
+  await page.locator('#encyclopedia-button').click();
+  await page.locator('#encyclopedia-index summary[data-encyclopedia-intro="prehistoria"]').click();
+  await expect(page.locator('#encyclopedia')).toHaveAttribute('data-article', 'prehistoria');
+  await expect(page.locator('#encyclopedia-index [data-encyclopedia-entry="prehistoria-altamira"]')).toHaveCount(1);
+  await page.locator('#encyclopedia-article .enc-maplink[data-encyclopedia-site="CULTURE-CARDIAL-WARE-CULTURE-3F34C75B"]').first().click();
+  await expect(page.locator('#encyclopedia')).not.toBeVisible();
+  await expect(page.locator('#map')).toHaveAttribute('data-loaded-year', '-4900', { timeout: 90000 });
+  await expect(page.locator('#map')).toHaveAttribute('data-focused-site', 'CULTURE-CARDIAL-WARE-CULTURE-3F34C75B', { timeout: 60000 });
+  await expect(page.locator('#selection')).toBeVisible();
+  expect(errors).toEqual([]);
+});

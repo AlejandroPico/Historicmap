@@ -29,6 +29,7 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 - [x] P09-C · Yacimientos: 16 monografías y enlaces de la enciclopedia a los puntos del mapa (0.74.0).
 - [x] P09-D · Tecnologías de la piedra: 10 páginas (0.75.0).
 - [x] P09 · Evolución humana cerrada (0.70.0–0.75.0): 81 páginas, ≈ 403.000 palabras.
+- [x] P10-0 y P10-A (0.76.0): desplegable y portada de la Prehistoria reciente, enlaces a culturas del mapa, 11 páginas del Paleolítico superior. Resto de P10 en PLAN.md.
 - [x] P08 · «Tectónica de placas y cratones» rehecha con cortes interactivos (0.69.0).
 - [ ] P05–P24 y opcionales PX1/PX2 según el plan.
 

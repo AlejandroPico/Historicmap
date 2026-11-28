@@ -1880,3 +1880,10 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 - P09 cerrada: 81 páginas (portada, 39 linajes, 15 procesos, 16 yacimientos, 10 tecnologías), ≈ 403.000 palabras.
 - `PLAN.md` en la raíz: plan maestro con casillas para todas las fases y subfases, terminadas y pendientes (P10–P24, PX1, PX2, deuda). Es el punto de entrada para retomar el proyecto; mantenerlo al cerrar cada parte.
 - Commons: además del equipo local, un agente comprobó que las búsquedas con el `fetch` de node pueden funcionar cuando `curl` recibe «too many requests».
+
+## 99. Enciclopedia · P10-0 y P10-A · 0.76.0 · 28/11/2026
+
+- Índice: desplegable «Prehistoria reciente» (`PREHISTORY_INTRO = 'prehistoria'`), subgrupos por subcarpeta de `enciclopedia/prehistoria/` en el orden de `preFolders` (encyclopedia.ts); la rama `prehistoria` no se pinta aparte. El tema heredado `neolithic-transition` (`NEOLITHIC_THEME`) se muestra en «Neolítico» mientras no tenga página Markdown.
+- Enlaces al mapa a culturas: build-encyclopedia.mjs `siteWindows()` añade los registros `kind: cultural-region` de `public/data/cultural-index.json` por `ownerKey` y `contextKey`; main.ts `focusSite` busca primero un punto por `identityKey` y si no un polígono por `ownerKey`/`contextKey`, y centra en `properties.focus` o en el centro de su caja.
+- 12 páginas: portada y 11 del Paleolítico superior en `prehistoria/paleolitico-superior/` (ids `prehistoria-<slug>`). Brief común en /tmp/claude-0/p10-comun.md (se pierde con la sesión: su contenido está resumido aquí y en PLAN.md).
+- Prueba e2e nueva en hominin-tree.spec.ts (portada de Prehistoria y enlace a la cultura cardial).

@@ -2,9 +2,9 @@
 
 Documento único para saber **en qué punto está el proyecto y qué queda por hacer**. Lo puede leer el propietario o cualquier asistente que retome el trabajo. Cada casilla `[x]` está terminada y entregada; cada casilla `[ ]` está pendiente.
 
-- **Actualizado:** 23 de noviembre de 2026.
-- **Versión:** 0.75.0.
-- **Enciclopedia:** 446 páginas, ≈ 1,54 millones de palabras y ≈ 12.000 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
+- **Actualizado:** 28 de noviembre de 2026.
+- **Versión:** 0.76.0.
+- **Enciclopedia:** 458 páginas, ≈ 1,59 millones de palabras y ≈ 12.300 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
 - **Documentos relacionados:**
   - [`enciclopedia/PLAN.md`](enciclopedia/PLAN.md): plan rector original, con el diagnóstico, la arquitectura y la norma editorial.
   - [`tareas.md`](tareas.md): historial detallado de tareas y continuidad.
@@ -22,12 +22,12 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 | Arquitectura y componentes | P00–P02 | ✅ |
 | 1 · La Tierra antes de la vida compleja | P03–P04 | ✅ |
 | 2 · Fanerozoico y procesos | P05–P08 | ✅ |
-| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 Falta P10 |
+| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 P10 en curso (0 y A hechas) |
 | 4 · Historia (3500 a. C.–2026) | P11–P21 | ⬜ Pendiente |
 | 5 · Cobertura total, temas y cierre | P22–P24 | ⬜ Pendiente |
 | Opcionales | PX1, PX2 | 🟡 PX2 empezada (1.ª parte) |
 
-**Siguiente paso:** P10, del Paleolítico superior al Neolítico (apartado 4).
+**Siguiente paso:** P10-B, P10-C y P10-D (apartado 4), entrega 0.77.0.
 
 ---
 
@@ -90,6 +90,8 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 
 ### Bloque 3 · Humanidad prehistórica
 
+- [x] **P10-0 y P10-A** (0.76.0): desplegable y portada de la Prehistoria reciente, enlaces a culturas del mapa y 11 páginas del Paleolítico superior (ver apartado 4).
+
 - [x] **P09 · Evolución humana** (0.70.0–0.75.0): 81 páginas, ≈ 403.000 palabras.
   - [x] P09-0 · Árbol evolutivo interactivo de los 39 linajes (0.70.0).
   - [x] P09-A1 · Primeros homininos, 6 linajes (0.71.0).
@@ -136,24 +138,24 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
 
 ---
 
-## 4. P10 · Del Paleolítico superior al Neolítico ⬜
+## 4. P10 · Del Paleolítico superior al Neolítico 🟡
 
 **Objetivo:** cerrar la Prehistoria. El Paleolítico superior como sociedad y arte (la tecnología ya está en P09-D); el Último Máximo Glacial; el poblamiento de los continentes; el Mesolítico; el Neolítico por focos; el megalitismo; los primeros metales; y las 503 culturas del mapa.
 
-**Carpetas:** `enciclopedia/prehistoria/{paleolitico-superior, poblamiento, mesolitico, neolitico, megalitismo, metales}` y `enciclopedia/culturas/`.
+**Carpetas:** `enciclopedia/prehistoria/{paleolitico-superior, glaciar, poblamiento, mesolitico, neolitico, megalitismo, metales, culturas}` (cada una es un subdesplegable de «Prehistoria reciente»). Decisión: las 503 culturas se agrupan en ~120 fichas por familias afines.
 
-- [ ] **P10-0 · Infraestructura**
-  - [ ] Desplegable «Prehistoria» en el índice, con portada y subgrupos.
-  - [ ] Enlaces `[[@CLAVE año|…]]` hacia las culturas y regiones culturales del mapa, además de los yacimientos. Hay que ampliar la validación a `Países/CULTURE-*` y a las regiones culturales.
-  - [ ] Página portada «Prehistoria reciente», con una línea de tiempo comparada por continentes.
-  - [ ] Sustituir el tema heredado `neolithic-transition`.
-- [ ] **P10-A · Paleolítico superior: sociedad y arte** (~12)
-  - [ ] Arte rupestre: Chauvet, Lascaux, Altamira, Côa, cueva de El Castillo, Sulawesi (Leang Tedongnge) y Maltravieso, con la datación por U/Th y sus debates.
-  - [ ] Arte mueble: venus (Hohle Fels, Willendorf, Brassempouy), estatuilla del hombre león, propulsores decorados.
-  - [ ] Música y ornamentos: flautas de Geißenklösterle, conchas y dientes perforados.
-  - [ ] Enterramientos y vida social: Sungir, Dolní Věstonice, Arene Candide; demografía y redes.
-  - [ ] Economía: caza especializada, pesca, recolección, perros.
-  - [ ] Arte paleolítico de la península ibérica (cornisa cantábrica, Siega Verde, Parpalló).
+- [x] **P10-0 · Infraestructura** (0.76.0)
+  - [x] Desplegable «Prehistoria reciente» en el índice, con portada y subgrupos.
+  - [x] Enlaces `[[@CLAVE año|…]]` hacia las culturas y regiones culturales del mapa, validados contra `public/data/cultural-index.json`.
+  - [x] Página portada «Prehistoria reciente», con una línea de tiempo comparada por continentes.
+  - [ ] Sustituir el tema heredado `neolithic-transition` (pasa a P10-E; ya aparece en el desplegable Neolítico).
+- [x] **P10-A · Paleolítico superior: sociedad y arte** (0.76.0, 11 páginas)
+  - [x] Arte rupestre (síntesis), Chauvet, Lascaux, Altamira, arte al aire libre (Côa, Siega Verde).
+  - [x] Arte mueble: venus, hombre león, propulsores.
+  - [x] Música y ornamentos.
+  - [x] Enterramientos y vida social; sociedad, demografía y redes.
+  - [x] Economía: caza especializada, pesca, recolección, perros.
+  - [x] Arte paleolítico de la península ibérica.
 - [ ] **P10-B · Último Máximo Glacial y refugios** (~5)
   - [ ] El UMG: clima, paisaje y nivel del mar, con enlaces a `clima-glaciaciones-pleistoceno`.
   - [ ] Refugios: franco-cantábrico, ibérico, balcánico, ucraniano y Beringia.
@@ -190,7 +192,7 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
   - [ ] Fichas B/C con ámbito, cronología, rasgos, yacimientos y enlace al mapa.
   - [ ] Agrupación por continentes y épocas en el índice.
 - [ ] **Entregas previstas:**
-  - 0.76.0: P10-0 y P10-A.
+  - 0.76.0: P10-0 y P10-A ✅ (28/11/2026).
   - 0.77.0: P10-B, P10-C y P10-D.
   - 0.78.0: P10-E y P10-F.
   - 0.79.0: P10-G, P10-H y cierre.
