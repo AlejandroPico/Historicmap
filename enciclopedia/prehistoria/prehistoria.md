@@ -36,7 +36,7 @@ fuentes:
   - titulo: Lazaridis, I. et al. (2016) · Genomic insights into the origin of farming in the ancient Near East. Nature 536, 419–424
     url: https://doi.org/10.1038/nature19310
   - titulo: Olalde, I. et al. (2019) · The genomic history of the Iberian Peninsula over the past 8000 years. Science 363, 1230–1234
-    url: https://doi.org/10.1126/science.aav1444
+    url: https://doi.org/10.1126/science.aav4040
   - titulo: Wu, X. et al. (2012) · Early pottery at 20,000 years ago in Xianrendong Cave, China. Science 336, 1696–1700
     url: https://doi.org/10.1126/science.1218643
   - titulo: Denham, T. P. et al. (2003) · Origins of agriculture at Kuk Swamp in the highlands of New Guinea. Science 301, 189–193

@@ -33,6 +33,7 @@ Encargo del propietario (7/11/2026): enciclopedia monumental, técnica, autocomp
 - [x] P10-B (28/11/2026): Último Máximo Glacial, refugios, Beringia, recolonización tardiglaciar y Dryas Reciente (5 páginas).
 - [x] P10-C (28/11/2026): poblamiento de Sahul, Wallacea, Asia oriental y Japón, Ártico, América (síntesis, pre-Clovis, Clovis) y Pacífico remoto (8 páginas).
 - [x] P10-D (0.77.0): Epipaleolítico del Próximo Oriente, Natufiense, Göbekli Tepe, Jōmon, Edad de Piedra Tardía africana, Mesolítico europeo e ibérico, arte levantino (8 páginas).
+- [x] P10-E y P10-F (0.78.0): Neolítico por focos (12 páginas, incluida la revolución neolítica que sustituye neolithic-transition) y megalitismo (6 páginas).
 - [x] P08 · «Tectónica de placas y cratones» rehecha con cortes interactivos (0.69.0).
 - [ ] P05–P24 y opcionales PX1/PX2 según el plan.
 

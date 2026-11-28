@@ -2,9 +2,9 @@
 
 Documento único para saber **en qué punto está el proyecto y qué queda por hacer**. Lo puede leer el propietario o cualquier asistente que retome el trabajo. Cada casilla `[x]` está terminada y entregada; cada casilla `[ ]` está pendiente.
 
-- **Actualizado:** 28 de noviembre de 2026.
-- **Versión:** 0.77.0.
-- **Enciclopedia:** 479 páginas, ≈ 1,69 millones de palabras y ≈ 13.000 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
+- **Actualizado:** 29 de noviembre de 2026.
+- **Versión:** 0.78.0.
+- **Enciclopedia:** 497 páginas, ≈ 1,78 millones de palabras y ≈ 13.600 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
 - **Documentos relacionados:**
   - [`enciclopedia/PLAN.md`](enciclopedia/PLAN.md): plan rector original, con el diagnóstico, la arquitectura y la norma editorial.
   - [`tareas.md`](tareas.md): historial detallado de tareas y continuidad.
@@ -22,12 +22,12 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 | Arquitectura y componentes | P00–P02 | ✅ |
 | 1 · La Tierra antes de la vida compleja | P03–P04 | ✅ |
 | 2 · Fanerozoico y procesos | P05–P08 | ✅ |
-| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 P10 en curso (0, A, B, C y D hechas) |
+| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 P10 en curso (faltan G y H) |
 | 4 · Historia (3500 a. C.–2026) | P11–P21 | ⬜ Pendiente |
 | 5 · Cobertura total, temas y cierre | P22–P24 | ⬜ Pendiente |
 | Opcionales | PX1, PX2 | 🟡 PX2 empezada (1.ª parte) |
 
-**Siguiente paso:** P10-E y P10-F (apartado 4), entrega 0.78.0.
+**Siguiente paso:** P10-G y P10-H (apartado 4), entrega 0.79.0, que cierra P10.
 
 ---
 
@@ -92,6 +92,7 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 
 - [x] **P10-0 y P10-A** (0.76.0): desplegable y portada de la Prehistoria reciente, enlaces a culturas del mapa y 11 páginas del Paleolítico superior (ver apartado 4).
 - [x] **P10-B, C y D** (0.77.0): Último Máximo Glacial, poblamiento de los continentes, Epipaleolítico y Mesolítico (21 páginas).
+- [x] **P10-E y F** (0.78.0): Neolítico por focos y megalitismo (18 páginas).
 
 - [x] **P09 · Evolución humana** (0.70.0–0.75.0): 81 páginas, ≈ 403.000 palabras.
   - [x] P09-0 · Árbol evolutivo interactivo de los 39 linajes (0.70.0).
@@ -149,7 +150,7 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
   - [x] Desplegable «Prehistoria reciente» en el índice, con portada y subgrupos.
   - [x] Enlaces `[[@CLAVE año|…]]` hacia las culturas y regiones culturales del mapa, validados contra `public/data/cultural-index.json`.
   - [x] Página portada «Prehistoria reciente», con una línea de tiempo comparada por continentes.
-  - [ ] Sustituir el tema heredado `neolithic-transition` (pasa a P10-E; ya aparece en el desplegable Neolítico).
+  - [x] Sustituir el tema heredado `neolithic-transition` (hecho en P10-E, 0.78.0).
 - [x] **P10-A · Paleolítico superior: sociedad y arte** (0.76.0, 11 páginas)
   - [x] Arte rupestre (síntesis), Chauvet, Lascaux, Altamira, arte al aire libre (Côa, Siega Verde).
   - [x] Arte mueble: venus, hombre león, propulsores.
@@ -176,17 +177,15 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
   - [x] Jōmon.
   - [x] Edad de Piedra Tardía africana.
   - [x] Arte levantino y esquemático ibérico.
-- [ ] **P10-E · Neolítico y domesticación por focos** (~12)
-  - [ ] Creciente Fértil (PPNA, PPNB, Çatalhöyük, Jericó).
-  - [ ] China (arroz del Yangtsé y mijo del río Amarillo).
-  - [ ] Mesoamérica (maíz y calabaza).
-  - [ ] Andes y Amazonía.
-  - [ ] Sahel y Sahara verde.
-  - [ ] Nueva Guinea (Kuk).
-  - [ ] Expansión a Europa (cerámica cardial, Linearbandkeramik) y Neolítico ibérico.
-  - [ ] Genética de la expansión neolítica.
-  - [ ] Animales domésticos.
-- [ ] **P10-F · Megalitismo** (~5): Carnac, Stonehenge, Antequera (dólmenes de Menga y Viera), Malta, Newgrange y megalitismo atlántico.
+- [x] **P10-E · Neolítico y domesticación por focos** (0.78.0, 12 páginas)
+  - [x] Revolución neolítica (sustituye `neolithic-transition`).
+  - [x] Creciente Fértil y Çatalhöyük.
+  - [x] China, Mesoamérica, Andes y Amazonía.
+  - [x] Sahara y Sahel; Nueva Guinea y Asia meridional.
+  - [x] Neolítico europeo e ibérico.
+  - [x] Genética de la expansión neolítica.
+  - [x] Animales domésticos.
+- [x] **P10-F · Megalitismo** (0.78.0, 6 páginas): síntesis, Stonehenge, Carnac y Bretaña, megalitismo ibérico (Antequera), Malta, Newgrange.
 - [ ] **P10-G · Primeros metales** (~6)
   - [ ] Calcolítico: Varna, Ötzi, Los Millares, cultura campaniforme.
   - [ ] Bronce antiguo: El Argar, Únětice.
@@ -198,7 +197,7 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
 - [ ] **Entregas previstas:**
   - 0.76.0: P10-0 y P10-A ✅ (28/11/2026).
   - 0.77.0: P10-B, P10-C y P10-D ✅ (28/11/2026).
-  - 0.78.0: P10-E y P10-F.
+  - 0.78.0: P10-E y P10-F ✅ (29/11/2026).
   - 0.79.0: P10-G, P10-H y cierre.
 
 ---
@@ -384,3 +383,4 @@ Cada fase histórica entrega para su intervalo:
 - [ ] Imágenes más específicas para las industrias de transición (Châtelperroniense).
 - [ ] Imagen de la recolectora de miel de la Araña para el arte levantino (la de Commons es GPL).
 - [ ] Imagen más grande de arpones Saqqaq en la página del Ártico.
+- [ ] Al escribir Los Millares (P10-G), enlazarla desde `prehistoria-megalitismo-iberico`.

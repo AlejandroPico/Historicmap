@@ -277,5 +277,5 @@ Abrir http://127.0.0.1:5173/ . Para pararlo, `Ctrl+C`. No ejecutar `npm run buil
 | P07 | ✅ Cenozoico completo (17/11/2026) · versión 0.68.0 · 47 páginas, ≈ 167.200 palabras |
 | P08 | ✅ Procesos y bestiario (18/11/2026) · versión 0.69.0 · 96 páginas, ≈ 259.000 palabras |
 | P09 | ✅ Evolución humana completa (23/11/2026) · versiones 0.70.0–0.75.0 · 81 páginas, ≈ 403.000 palabras |
-| P10 | 🟡 En curso: P10-0, A (0.76.0), B, C y D (0.77.0) ✅ · detalle en ../PLAN.md |
+| P10 | 🟡 En curso: P10-0, A (0.76.0), B, C, D (0.77.0), E y F (0.78.0) ✅ · detalle en ../PLAN.md |
 | P11–P24 | Pendientes |

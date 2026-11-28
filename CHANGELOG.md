@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.78.0 · 29 de noviembre de 2026
+
+- Enciclopedia P10-E · Neolítico y domesticación por focos: 12 páginas (≈ 62.000 palabras) en «Prehistoria reciente › Neolítico»: la revolución neolítica (sustituye al tema heredado `neolithic-transition`, que conserva su esquema al final), Creciente Fértil, Çatalhöyük, China, Mesoamérica, Andes y Amazonía, Sahara y Sahel, Nueva Guinea y Asia meridional, Neolítico europeo, Neolítico ibérico, genética de la expansión neolítica y animales domésticos.
+- Enciclopedia P10-F · Megalitismo: 6 páginas (≈ 25.000 palabras): síntesis, Stonehenge, Carnac y Bretaña, megalitismo ibérico (Antequera, Valencina, Almendres), templos de Malta y Brú na Bóinne (Newgrange).
+- Corregido el DOI de Olalde et al. 2019 (Science, «The genomic history of the Iberian Peninsula»): 10.1126/science.aav4040.
+
 ## 0.77.0 · 28 de noviembre de 2026
 
 - P10-D · Epipaleolítico y Mesolítico: 8 páginas (≈ 37.000 palabras) en «Prehistoria reciente › Epipaleolítico y Mesolítico»: Epipaleolítico del Próximo Oriente (Kebarense, Ohalo II), Natufiense, Göbekli Tepe y los Taş Tepeler, Jōmon, Edad de Piedra Tardía africana, Mesolítico europeo, Mesolítico ibérico y arte levantino y esquemático.

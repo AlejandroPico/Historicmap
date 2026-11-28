@@ -1899,3 +1899,8 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 ## 102. Enciclopedia · P10-D y entrega 0.77.0 · 28/11/2026
 
 - 8 páginas en `enciclopedia/prehistoria/mesolitico/` (orden 1–8). La entrega 0.77.0 reúne P10-B (5), P10-C (8) y P10-D (8): 21 páginas, ≈ 107.000 palabras. No hay manchas mesolíticas de Europa occidental en cultural-index.json (las «mesolíticas» están en Anatolia y el Próximo Oriente); no hay puntos natufienses.
+
+## 103. Enciclopedia · P10-E y P10-F · 0.78.0 · 29/11/2026
+
+- 12 páginas en `prehistoria/neolitico/` (orden 1–12; `revolucion-neolitica.md` usa el id heredado `neolithic-transition`, que ahora aparece en «Prehistoria › Neolítico» por ser página Markdown de esa carpeta) y 6 en `prehistoria/megalitismo/`. El mapa no tiene manchas de Linear, Starčevo, Yangshao ni del megalitismo atlántico, británico o maltés: los enlaces ⌖ usan las culturas existentes más próximas.
+- DOI de Olalde 2019 corregido a 10.1126/science.aav4040 en tres páginas.

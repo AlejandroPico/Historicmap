@@ -46,7 +46,7 @@ fuentes:
   - titulo: Zilhão, J. (2001) · Radiocarbon evidence for maritime pioneer colonization at the origins of farming in west Mediterranean Europe. PNAS 98, 14180–14185
     url: https://doi.org/10.1073/pnas.241522898
   - titulo: Olalde, I. et al. (2019) · The genomic history of the Iberian Peninsula over the past 8000 years. Science 363, 1230–1234
-    url: https://doi.org/10.1126/science.aav1444
+    url: https://doi.org/10.1126/science.aav4040
   - titulo: Wikipedia (español) · Asturiense; Concheros de Muge; Cueva de La Braña; Cueva de la Cocina
     url: https://es.wikipedia.org/wiki/Asturiense
 ---
