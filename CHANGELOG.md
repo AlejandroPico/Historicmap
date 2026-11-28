@@ -1,7 +1,8 @@
 # Historial de versiones
 
-## 0.77.0 · en curso (P10-B, C y D)
+## 0.77.0 · 28 de noviembre de 2026
 
+- P10-D · Epipaleolítico y Mesolítico: 8 páginas (≈ 37.000 palabras) en «Prehistoria reciente › Epipaleolítico y Mesolítico»: Epipaleolítico del Próximo Oriente (Kebarense, Ohalo II), Natufiense, Göbekli Tepe y los Taş Tepeler, Jōmon, Edad de Piedra Tardía africana, Mesolítico europeo, Mesolítico ibérico y arte levantino y esquemático.
 - P10-C · Poblamiento de los continentes (28/11/2026): 8 páginas (≈ 42.000 palabras) en «Prehistoria reciente › Poblamiento de los continentes»: Sahul, Wallacea y el sudeste asiático, Asia oriental y Japón, el Ártico, el poblamiento de América, los yacimientos anteriores a Clovis, Clovis y el Paleoindio, y el Pacífico remoto, con enlaces ⌖ a decenas de yacimientos y culturas del mapa.
 - P10-B · Último Máximo Glacial y refugios (28/11/2026): 5 páginas (≈ 25.000 palabras) en «Prehistoria reciente › Último Máximo Glacial»: el UMG, los refugios glaciares, Beringia, la recolonización tardiglaciar y el Dryas Reciente, con unos 40 enlaces ⌖ a yacimientos y culturas del mapa.
 

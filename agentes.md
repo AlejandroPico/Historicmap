@@ -1895,3 +1895,7 @@ Siguiente: P08 (grandes procesos del tiempo profundo y bestiario; incluye rehace
 ## 101. Enciclopedia · P10-C · 28/11/2026 (entra en 0.77.0)
 
 - 8 páginas en `enciclopedia/prehistoria/poblamiento/` (orden 1–8). Los enlaces ⌖ usan también `contextKey` de regiones culturales (p. ej. `REFERENCE-CHINCHORRO-TRANSFORMATIONS`) y regiones de época histórica (`territorio-…`), validados contra cultural-index.json. Sin puntos en el mapa: Clovis, Folsom, Lapita, Yana, Devil's Lair, Jerimalai.
+
+## 102. Enciclopedia · P10-D y entrega 0.77.0 · 28/11/2026
+
+- 8 páginas en `enciclopedia/prehistoria/mesolitico/` (orden 1–8). La entrega 0.77.0 reúne P10-B (5), P10-C (8) y P10-D (8): 21 páginas, ≈ 107.000 palabras. No hay manchas mesolíticas de Europa occidental en cultural-index.json (las «mesolíticas» están en Anatolia y el Próximo Oriente); no hay puntos natufienses.

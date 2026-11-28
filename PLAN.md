@@ -3,8 +3,8 @@
 Documento único para saber **en qué punto está el proyecto y qué queda por hacer**. Lo puede leer el propietario o cualquier asistente que retome el trabajo. Cada casilla `[x]` está terminada y entregada; cada casilla `[ ]` está pendiente.
 
 - **Actualizado:** 28 de noviembre de 2026.
-- **Versión:** 0.76.0.
-- **Enciclopedia:** 471 páginas, ≈ 1,66 millones de palabras y ≈ 12.800 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
+- **Versión:** 0.77.0.
+- **Enciclopedia:** 479 páginas, ≈ 1,69 millones de palabras y ≈ 13.000 enlaces internos. Además, 178 unidades geológicas, 12.606 dirigentes y 2.423 entidades indexados.
 - **Documentos relacionados:**
   - [`enciclopedia/PLAN.md`](enciclopedia/PLAN.md): plan rector original, con el diagnóstico, la arquitectura y la norma editorial.
   - [`tareas.md`](tareas.md): historial detallado de tareas y continuidad.
@@ -22,12 +22,12 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 | Arquitectura y componentes | P00–P02 | ✅ |
 | 1 · La Tierra antes de la vida compleja | P03–P04 | ✅ |
 | 2 · Fanerozoico y procesos | P05–P08 | ✅ |
-| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 P10 en curso (0, A, B y C hechas) |
+| 3 · Humanidad prehistórica | P09 ✅ · P10 | 🟡 P10 en curso (0, A, B, C y D hechas) |
 | 4 · Historia (3500 a. C.–2026) | P11–P21 | ⬜ Pendiente |
 | 5 · Cobertura total, temas y cierre | P22–P24 | ⬜ Pendiente |
 | Opcionales | PX1, PX2 | 🟡 PX2 empezada (1.ª parte) |
 
-**Siguiente paso:** P10-D (apartado 4); con P10-B y P10-C cierra la entrega 0.77.0.
+**Siguiente paso:** P10-E y P10-F (apartado 4), entrega 0.78.0.
 
 ---
 
@@ -91,6 +91,7 @@ Documento único para saber **en qué punto está el proyecto y qué queda por h
 ### Bloque 3 · Humanidad prehistórica
 
 - [x] **P10-0 y P10-A** (0.76.0): desplegable y portada de la Prehistoria reciente, enlaces a culturas del mapa y 11 páginas del Paleolítico superior (ver apartado 4).
+- [x] **P10-B, C y D** (0.77.0): Último Máximo Glacial, poblamiento de los continentes, Epipaleolítico y Mesolítico (21 páginas).
 
 - [x] **P09 · Evolución humana** (0.70.0–0.75.0): 81 páginas, ≈ 403.000 palabras.
   - [x] P09-0 · Árbol evolutivo interactivo de los 39 linajes (0.70.0).
@@ -156,25 +157,25 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
   - [x] Enterramientos y vida social; sociedad, demografía y redes.
   - [x] Economía: caza especializada, pesca, recolección, perros.
   - [x] Arte paleolítico de la península ibérica.
-- [x] **P10-B · Último Máximo Glacial y refugios** (28/11/2026, 5 páginas; entra en 0.77.0)
+- [x] **P10-B · Último Máximo Glacial y refugios** (0.77.0, 5 páginas)
   - [x] El UMG: clima, paisaje y nivel del mar.
   - [x] Refugios: franco-cantábrico, ibérico, italiano y balcánico, ucraniano y siberiano.
   - [x] Beringia.
   - [x] Recolonización tardiglaciar (Bølling-Allerød).
   - [x] Dryas Reciente.
-- [x] **P10-C · Poblamiento de los continentes** (28/11/2026, 8 páginas; entra en 0.77.0)
+- [x] **P10-C · Poblamiento de los continentes** (0.77.0, 8 páginas)
   - [x] Sahul (Australia y Nueva Guinea; Madjedbebe y su debate).
   - [x] Wallacea y sudeste asiático.
   - [x] Asia oriental y Japón paleolítico.
   - [x] Ártico (Paleoesquimales, Dorset y Thule).
   - [x] América: síntesis y genética; yacimientos anteriores a Clovis; Clovis y Paleoindio.
   - [x] El Pacífico remoto (avance para las fases históricas).
-- [ ] **P10-D · Epipaleolítico y Mesolítico** (~8)
-  - [ ] Natufiense y Göbekli Tepe.
-  - [ ] Mesolítico europeo (Star Carr, Lepenski Vir, concheros de Muge, Asturiense).
-  - [ ] Jōmon.
-  - [ ] Cazadores-recolectores africanos (Later Stone Age).
-  - [ ] Arte levantino y esquemático ibérico.
+- [x] **P10-D · Epipaleolítico y Mesolítico** (0.77.0, 8 páginas)
+  - [x] Epipaleolítico del Próximo Oriente, Natufiense y Göbekli Tepe.
+  - [x] Mesolítico europeo (Star Carr, Ertebølle, Lepenski Vir) y Mesolítico ibérico (Muge, Asturiense, La Braña).
+  - [x] Jōmon.
+  - [x] Edad de Piedra Tardía africana.
+  - [x] Arte levantino y esquemático ibérico.
 - [ ] **P10-E · Neolítico y domesticación por focos** (~12)
   - [ ] Creciente Fértil (PPNA, PPNB, Çatalhöyük, Jericó).
   - [ ] China (arroz del Yangtsé y mijo del río Amarillo).
@@ -196,7 +197,7 @@ Los anales del 3000 a. C. al 2026 suman 5.026 páginas. En la Antigüedad remota
   - [ ] Agrupación por continentes y épocas en el índice.
 - [ ] **Entregas previstas:**
   - 0.76.0: P10-0 y P10-A ✅ (28/11/2026).
-  - 0.77.0: P10-B ✅, P10-C ✅ (28/11/2026) y P10-D.
+  - 0.77.0: P10-B, P10-C y P10-D ✅ (28/11/2026).
   - 0.78.0: P10-E y P10-F.
   - 0.79.0: P10-G, P10-H y cierre.
 
@@ -381,3 +382,5 @@ Cada fase histórica entrega para su intervalo:
 - [ ] Unificar la fecha del montaje del Megatherium de Madrid entre la ficha y la página de fósiles.
 - [ ] Imagen de Jebel Irhoud en *Homo sapiens*: buscar una de más resolución.
 - [ ] Imágenes más específicas para las industrias de transición (Châtelperroniense).
+- [ ] Imagen de la recolectora de miel de la Araña para el arte levantino (la de Commons es GPL).
+- [ ] Imagen más grande de arpones Saqqaq en la página del Ártico.
